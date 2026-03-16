@@ -292,7 +292,7 @@ public class DeckManager : MonoBehaviour
 
     bool HasPlayerCompletedThreePranks()
     {
-        return GetCurrentPlayer().completedPranks.Count >= 3;
+        return GetCurrentPlayer().completedPranks.Count >= 4;
     }
 
 
@@ -1288,5 +1288,12 @@ void ShowActivePrankCards()
         prankObject.name = "ActivePrank_" + activePranks[i].title;
     }
 }
+
+public int GetDeckCount()
+{
+    return deck.Count;
+}
+
+
 }
 
