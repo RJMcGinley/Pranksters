@@ -14,6 +14,11 @@ public class DeckManager : MonoBehaviour
     int selectedSwapHandIndex = -1;
     bool gameOver = false;
     PrankCard finalCompletedPrank = null;
+    public HandDisplay handDisplay;
+    public GameObject prankCardPrefab;
+    public Transform activePrankDisplay;
+    public float prankCardSpacing = 2.8f;
+    public Vector3 prankCardScale = new Vector3(0.28f, 0.28f, 1f);
 
 
     Player GetCurrentPlayer()
@@ -32,25 +37,20 @@ public class DeckManager : MonoBehaviour
         DealStartingHands();
 
         Debug.Log("Hands Dealt");
-
-        //foreach (PranksterType card in GetCurrentPlayer().hand)
-        //{
-        //    Debug.Log(card);
-        //}
-
         Debug.Log("Cards left in deck: " + deck.Count);
 
         prankDeck = PrankDatabase.CreatePrankDeck();
+        
         ShufflePrankDeck();
         DealActivePranks();
+        ShowActivePrankCards();
         // ShowActivePranks(); may need for debugging later
-
         Debug.Log("Prank deck size: " + prankDeck.Count);
         Debug.Log("Active pranks: " + activePranks.Count);
     
 
         StartPlayerTurn();
-        
+        handDisplay.ShowCurrentPlayerHand();
     }
 
 
@@ -267,6 +267,7 @@ public class DeckManager : MonoBehaviour
 
     player.completedPranks.Add(completedPrank);
     activePranks.RemoveAt(prankIndex);
+    ShowActivePrankCards();
 
     Debug.Log("Completed prank: " + completedPrank.title);
 
@@ -771,6 +772,7 @@ void ResetRound()
 
     // Deal 3 new active pranks
     DealActivePranks();
+    ShowActivePrankCards();
 
     Debug.Log("New round started.");
 }
@@ -1222,5 +1224,69 @@ void DeclareWinnerByScore()
     }
 }
 
+void ShowActivePrankCards()
+{
+    if (activePrankDisplay == null)
+    {
+        Debug.LogWarning("Active Prank Display is not assigned.");
+        return;
+    }
 
+    if (prankCardPrefab == null)
+    {
+        Debug.LogWarning("Prank Card Prefab is not assigned.");
+        return;
+    }
+
+    // Clear old prank card visuals first
+    for (int i = activePrankDisplay.childCount - 1; i >= 0; i--)
+    {
+        Destroy(activePrankDisplay.GetChild(i).gameObject);
+    }
+
+    float startX = -((activePranks.Count - 1) * prankCardSpacing) / 2f;
+
+    for (int i = 0; i < activePranks.Count; i++)
+    {
+        GameObject prankObject = Instantiate(prankCardPrefab, activePrankDisplay);
+
+        prankObject.transform.localPosition = new Vector3(startX + (i * prankCardSpacing), 0f, 0f);
+        prankObject.transform.localRotation = Quaternion.identity;
+        prankObject.transform.localScale = prankCardScale;
+
+        // Find the CardArt child
+        Transform cardArtTransform = prankObject.transform.Find("CardArt");
+
+        if (cardArtTransform != null)
+        {
+            SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
+
+            if (artRenderer != null)
+            {
+                Debug.Log("Showing prank: " + activePranks[i].title);
+
+                if (activePranks[i].cardSprite != null)
+                {
+                    Debug.Log("Assigned sprite: " + activePranks[i].cardSprite.name);
+                    artRenderer.sprite = activePranks[i].cardSprite;
+                }
+                else
+                {
+                    Debug.LogWarning("No sprite assigned for prank: " + activePranks[i].title);
+                }
+            }
+            else
+            {
+                Debug.LogWarning("CardArt has no SpriteRenderer on prank: " + activePranks[i].title);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("CardArt child not found on prank prefab.");
+        }
+
+        prankObject.name = "ActivePrank_" + activePranks[i].title;
+    }
 }
+}
+
