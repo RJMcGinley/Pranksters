@@ -15,6 +15,7 @@ public class DeckManager : MonoBehaviour
     bool gameOver = false;
     PrankCard finalCompletedPrank = null;
     public HandDisplay handDisplay;
+    public DiscardPileDisplay discardPileDisplay;
     public GameObject prankCardPrefab;
     public Transform activePrankDisplay;
     public float prankCardSpacing = 2.8f;
@@ -331,6 +332,8 @@ public class DeckManager : MonoBehaviour
 
     player.hand.RemoveAt(handIndex);
     discardPile.Add(card);
+
+    discardPileDisplay.UpdateTopDiscardCard();
 
     Debug.Log("Discarded: " + card);
 }
@@ -1293,6 +1296,20 @@ public int GetDeckCount()
 {
     return deck.Count;
 }
+
+public int GetDiscardCount()
+{
+    return discardPile.Count;
+}
+
+public PranksterType? GetTopDiscardCard()
+{
+    if (discardPile.Count == 0)
+        return null;
+
+    return discardPile[discardPile.Count - 1];
+}
+
 
 
 }
