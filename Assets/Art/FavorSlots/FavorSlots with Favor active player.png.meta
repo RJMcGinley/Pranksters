@@ -1,0 +1,4901 @@
+fileFormatVersion: 2
+guid: 2124e6df5e43340dcad41eda1ba2cac9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -990766620315161510
+    second: FavorSlots with Favor active player_0
+  - first:
+      213: 6932570329626203279
+    second: FavorSlots with Favor active player_1
+  - first:
+      213: -7620312069372697122
+    second: FavorSlots with Favor active player_2
+  - first:
+      213: 884976385414533238
+    second: FavorSlots with Favor active player_3
+  - first:
+      213: -7611164744488622124
+    second: FavorSlots with Favor active player_4
+  - first:
+      213: -1954467090799955844
+    second: FavorSlots with Favor active player_5
+  - first:
+      213: -5825439036638522865
+    second: FavorSlots with Favor active player_6
+  - first:
+      213: 4564180390529777701
+    second: FavorSlots with Favor active player_7
+  - first:
+      213: -1636098760897763498
+    second: FavorSlots with Favor active player_8
+  - first:
+      213: 7937389217860666184
+    second: FavorSlots with Favor active player_9
+  - first:
+      213: 232239250928320170
+    second: FavorSlots with Favor active player_10
+  - first:
+      213: -1907082824874332859
+    second: FavorSlots with Favor active player_11
+  - first:
+      213: -7091665998841020897
+    second: FavorSlots with Favor active player_12
+  - first:
+      213: 3671535866524339822
+    second: FavorSlots with Favor active player_13
+  - first:
+      213: -8530713213522604061
+    second: FavorSlots with Favor active player_14
+  - first:
+      213: 1314010572900596183
+    second: FavorSlots with Favor active player_15
+  - first:
+      213: -59434425727349488
+    second: FavorSlots with Favor active player_16
+  - first:
+      213: -8920163259864148197
+    second: FavorSlots with Favor active player_17
+  - first:
+      213: -4409763513730781801
+    second: FavorSlots with Favor active player_18
+  - first:
+      213: 2684947492041428074
+    second: FavorSlots with Favor active player_19
+  - first:
+      213: 2351418800977780804
+    second: FavorSlots with Favor active player_20
+  - first:
+      213: 5649854313840891613
+    second: FavorSlots with Favor active player_21
+  - first:
+      213: 276946839336235063
+    second: FavorSlots with Favor active player_22
+  - first:
+      213: 3740944867061865928
+    second: FavorSlots with Favor active player_23
+  - first:
+      213: 3361470611616983
+    second: FavorSlots with Favor active player_24
+  - first:
+      213: -9011801960999246258
+    second: FavorSlots with Favor active player_25
+  - first:
+      213: -3736579798816672130
+    second: FavorSlots with Favor active player_26
+  - first:
+      213: 5068848216871994869
+    second: FavorSlots with Favor active player_27
+  - first:
+      213: 6354647716630644160
+    second: FavorSlots with Favor active player_28
+  - first:
+      213: 7686380821163900912
+    second: FavorSlots with Favor active player_29
+  - first:
+      213: 2111195193625235090
+    second: FavorSlots with Favor active player_30
+  - first:
+      213: -1606237127507297351
+    second: FavorSlots with Favor active player_31
+  - first:
+      213: 791930191015458319
+    second: FavorSlots with Favor active player_32
+  - first:
+      213: -3937396181059126875
+    second: FavorSlots with Favor active player_33
+  - first:
+      213: 2396204834983365671
+    second: FavorSlots with Favor active player_34
+  - first:
+      213: -1851815041168606568
+    second: FavorSlots with Favor active player_35
+  - first:
+      213: -1976206393459887473
+    second: FavorSlots with Favor active player_36
+  - first:
+      213: -1594256027130860160
+    second: FavorSlots with Favor active player_37
+  - first:
+      213: -5696364949474341255
+    second: FavorSlots with Favor active player_38
+  - first:
+      213: -8962647766814433634
+    second: FavorSlots with Favor active player_39
+  - first:
+      213: -8316307275550265099
+    second: FavorSlots with Favor active player_40
+  - first:
+      213: 2262237758881310821
+    second: FavorSlots with Favor active player_41
+  - first:
+      213: 6767269486954724906
+    second: FavorSlots with Favor active player_42
+  - first:
+      213: 1388896826056743127
+    second: FavorSlots with Favor active player_43
+  - first:
+      213: -2244013395689289189
+    second: FavorSlots with Favor active player_44
+  - first:
+      213: 6014933633268804274
+    second: FavorSlots with Favor active player_45
+  - first:
+      213: 2329232358516865795
+    second: FavorSlots with Favor active player_46
+  - first:
+      213: -9207673500208698416
+    second: FavorSlots with Favor active player_47
+  - first:
+      213: 3986203200549597100
+    second: FavorSlots with Favor active player_48
+  - first:
+      213: 3589171594543244894
+    second: FavorSlots with Favor active player_49
+  - first:
+      213: -2651256793311751079
+    second: FavorSlots with Favor active player_50
+  - first:
+      213: 7538280578378531566
+    second: FavorSlots with Favor active player_51
+  - first:
+      213: -2948935489304266089
+    second: FavorSlots with Favor active player_52
+  - first:
+      213: -6984019820270607436
+    second: FavorSlots with Favor active player_53
+  - first:
+      213: 3389430169206814013
+    second: FavorSlots with Favor active player_54
+  - first:
+      213: 8900257190768934532
+    second: FavorSlots with Favor active player_55
+  - first:
+      213: -7220080923829363250
+    second: FavorSlots with Favor active player_56
+  - first:
+      213: -8839934786976986582
+    second: FavorSlots with Favor active player_57
+  - first:
+      213: 1805384168720434269
+    second: FavorSlots with Favor active player_58
+  - first:
+      213: -3013492646442038095
+    second: FavorSlots with Favor active player_59
+  - first:
+      213: 8520711543790941810
+    second: FavorSlots with Favor active player_60
+  - first:
+      213: 1149655177499910093
+    second: FavorSlots with Favor active player_61
+  - first:
+      213: -7699065530353425569
+    second: FavorSlots with Favor active player_62
+  - first:
+      213: -4415203403122671401
+    second: FavorSlots with Favor active player_63
+  - first:
+      213: 4375848459059971089
+    second: FavorSlots with Favor active player_64
+  - first:
+      213: 1780110343664130907
+    second: FavorSlots with Favor active player_65
+  - first:
+      213: -99561348899890725
+    second: FavorSlots with Favor active player_66
+  - first:
+      213: 5085375419840156203
+    second: FavorSlots with Favor active player_67
+  - first:
+      213: -8696958371578957719
+    second: FavorSlots with Favor active player_68
+  - first:
+      213: 37149005762005187
+    second: FavorSlots with Favor active player_69
+  - first:
+      213: -9062231151436236808
+    second: FavorSlots with Favor active player_70
+  - first:
+      213: 1855657460233368412
+    second: FavorSlots with Favor active player_71
+  - first:
+      213: -5560027847966619786
+    second: FavorSlots with Favor active player_72
+  - first:
+      213: -8808283608918767827
+    second: FavorSlots with Favor active player_73
+  - first:
+      213: 1533762236398457966
+    second: FavorSlots with Favor active player_74
+  - first:
+      213: -7869946463737366158
+    second: FavorSlots with Favor active player_75
+  - first:
+      213: -7235875830426581739
+    second: FavorSlots with Favor active player_76
+  - first:
+      213: -8753515805265541009
+    second: FavorSlots with Favor active player_77
+  - first:
+      213: -4622604601111911827
+    second: FavorSlots with Favor active player_78
+  - first:
+      213: -2432632580887711735
+    second: FavorSlots with Favor active player_79
+  - first:
+      213: 6523544583583115927
+    second: FavorSlots with Favor active player_80
+  - first:
+      213: -6642986783410231960
+    second: FavorSlots with Favor active player_81
+  - first:
+      213: 482087922275352769
+    second: FavorSlots with Favor active player_82
+  - first:
+      213: 4861819829208738072
+    second: FavorSlots with Favor active player_83
+  - first:
+      213: 8368233525033935256
+    second: FavorSlots with Favor active player_84
+  - first:
+      213: 4564981274312131831
+    second: FavorSlots with Favor active player_85
+  - first:
+      213: -1661729170484731697
+    second: FavorSlots with Favor active player_86
+  - first:
+      213: 8858452140089365736
+    second: FavorSlots with Favor active player_87
+  - first:
+      213: -1867130870265354466
+    second: FavorSlots with Favor active player_88
+  - first:
+      213: -631634180560008559
+    second: FavorSlots with Favor active player_89
+  - first:
+      213: 5678215268266971365
+    second: FavorSlots with Favor active player_90
+  - first:
+      213: 6651057915763643166
+    second: FavorSlots with Favor active player_91
+  - first:
+      213: -780015157429283863
+    second: FavorSlots with Favor active player_92
+  - first:
+      213: -4658827339750818054
+    second: FavorSlots with Favor active player_93
+  - first:
+      213: -513432422272715563
+    second: FavorSlots with Favor active player_94
+  - first:
+      213: 5356345150118068079
+    second: FavorSlots with Favor active player_95
+  - first:
+      213: 2859676722888188046
+    second: FavorSlots with Favor active player_96
+  - first:
+      213: 3442104843309038730
+    second: FavorSlots with Favor active player_97
+  - first:
+      213: -7898042321068989016
+    second: FavorSlots with Favor active player_98
+  - first:
+      213: 9077828643416432444
+    second: FavorSlots with Favor active player_99
+  - first:
+      213: -5011819574693906012
+    second: FavorSlots with Favor active player_100
+  - first:
+      213: -5387038387668355252
+    second: FavorSlots with Favor active player_101
+  - first:
+      213: -3545591928870924862
+    second: FavorSlots with Favor active player_102
+  - first:
+      213: 943221163160563685
+    second: FavorSlots with Favor active player_103
+  - first:
+      213: -3151116327089162380
+    second: FavorSlots with Favor active player_104
+  - first:
+      213: -7843377802062919969
+    second: FavorSlots with Favor active player_105
+  - first:
+      213: -9106815904242928743
+    second: FavorSlots with Favor active player_106
+  - first:
+      213: 8640295895809444257
+    second: FavorSlots with Favor active player_107
+  - first:
+      213: -7829709018975190355
+    second: FavorSlots with Favor active player_108
+  - first:
+      213: 1748226571122639471
+    second: FavorSlots with Favor active player_109
+  - first:
+      213: -6472384364787316148
+    second: FavorSlots with Favor active player_110
+  - first:
+      213: -7644177285997544601
+    second: FavorSlots with Favor active player_111
+  - first:
+      213: 6192043994417067398
+    second: FavorSlots with Favor active player_112
+  - first:
+      213: 5387813904533527879
+    second: FavorSlots with Favor active player_113
+  - first:
+      213: 3004905420392847056
+    second: FavorSlots with Favor active player_114
+  - first:
+      213: 8484487211086340885
+    second: FavorSlots with Favor active player_115
+  - first:
+      213: 6304517721644999778
+    second: FavorSlots with Favor active player_116
+  - first:
+      213: 902338931980530719
+    second: FavorSlots with Favor active player_117
+  - first:
+      213: -4650382862545628370
+    second: FavorSlots with Favor active player_118
+  - first:
+      213: 657924278138559754
+    second: FavorSlots with Favor active player_119
+  - first:
+      213: -4214114663380436262
+    second: FavorSlots with Favor active player_120
+  - first:
+      213: 3560665315241256613
+    second: FavorSlots with Favor active player_121
+  - first:
+      213: 345907709014666734
+    second: FavorSlots with Favor active player_122
+  - first:
+      213: 8593727521122185976
+    second: FavorSlots with Favor active player_123
+  - first:
+      213: -6455526089909264390
+    second: FavorSlots with Favor active player_124
+  - first:
+      213: 6129955187303117537
+    second: FavorSlots with Favor active player_125
+  - first:
+      213: 7041900349807335132
+    second: FavorSlots with Favor active player_126
+  - first:
+      213: 1331686741613464744
+    second: FavorSlots with Favor active player_127
+  - first:
+      213: 2279555582965024764
+    second: FavorSlots with Favor active player_128
+  - first:
+      213: 1292663257169706446
+    second: FavorSlots with Favor active player_129
+  - first:
+      213: 5710044411335007079
+    second: FavorSlots with Favor active player_130
+  - first:
+      213: -8285247136934003289
+    second: FavorSlots with Favor active player_131
+  - first:
+      213: -7667524754670709495
+    second: FavorSlots with Favor active player_132
+  - first:
+      213: 7658179338905187515
+    second: FavorSlots with Favor active player_133
+  - first:
+      213: -3700175003971177812
+    second: FavorSlots with Favor active player_134
+  - first:
+      213: 4070403211167338110
+    second: FavorSlots with Favor active player_135
+  - first:
+      213: 3214274286051349044
+    second: FavorSlots with Favor active player_136
+  - first:
+      213: 1678117268897347205
+    second: FavorSlots with Favor active player_137
+  - first:
+      213: 5714576823917376246
+    second: FavorSlots with Favor active player_138
+  - first:
+      213: -572705155166319722
+    second: FavorSlots with Favor active player_139
+  - first:
+      213: -8700584142217826097
+    second: FavorSlots with Favor active player_140
+  - first:
+      213: -4215579331200200911
+    second: FavorSlots with Favor active player_141
+  - first:
+      213: -3467484184282313816
+    second: FavorSlots with Favor active player_142
+  - first:
+      213: 8456135918521163672
+    second: FavorSlots with Favor active player_143
+  - first:
+      213: 1309500488335777411
+    second: FavorSlots with Favor active player_144
+  - first:
+      213: -8451460765330529592
+    second: FavorSlots with Favor active player_145
+  - first:
+      213: 3782852694941024110
+    second: FavorSlots with Favor active player_146
+  - first:
+      213: 8915850427105048965
+    second: FavorSlots with Favor active player_147
+  - first:
+      213: -5178105245379158313
+    second: FavorSlots with Favor active player_148
+  - first:
+      213: -6224053916922252688
+    second: FavorSlots with Favor active player_149
+  - first:
+      213: 1286551318197900377
+    second: FavorSlots with Favor active player_150
+  - first:
+      213: 6825031951395983464
+    second: FavorSlots with Favor active player_151
+  - first:
+      213: 7876537553034700010
+    second: FavorSlots with Favor active player_152
+  - first:
+      213: 4381733027455448903
+    second: FavorSlots with Favor active player_153
+  - first:
+      213: 8527727209063329603
+    second: FavorSlots with Favor active player_154
+  - first:
+      213: 1207732223592249761
+    second: FavorSlots with Favor active player_155
+  - first:
+      213: 1513603322742308843
+    second: FavorSlots with Favor active player_156
+  - first:
+      213: 4402093975573926434
+    second: FavorSlots with Favor active player_157
+  - first:
+      213: 5357921691385168477
+    second: FavorSlots with Favor active player_158
+  - first:
+      213: -357728308571136022
+    second: FavorSlots with Favor active player_159
+  - first:
+      213: 1651664385256125122
+    second: FavorSlots with Favor active player_160
+  - first:
+      213: -3509902459156114993
+    second: FavorSlots with Favor active player_161
+  - first:
+      213: -3134387627472823550
+    second: FavorSlots with Favor active player_162
+  - first:
+      213: 6604034862126009520
+    second: FavorSlots with Favor active player_163
+  - first:
+      213: -5805333337492927041
+    second: FavorSlots with Favor active player_164
+  - first:
+      213: -8669955663253971181
+    second: FavorSlots with Favor active player_165
+  - first:
+      213: 3201826177030917744
+    second: FavorSlots with Favor active player_166
+  - first:
+      213: 6120221547323484241
+    second: FavorSlots with Favor active player_167
+  - first:
+      213: 8020765137646938295
+    second: FavorSlots with Favor active player_168
+  - first:
+      213: -7146524883757528928
+    second: FavorSlots with Favor active player_169
+  - first:
+      213: 4934198715751068841
+    second: FavorSlots with Favor active player_170
+  - first:
+      213: 8260732315270382633
+    second: FavorSlots with Favor active player_171
+  - first:
+      213: -5284819190386968352
+    second: FavorSlots with Favor active player_172
+  - first:
+      213: 3930676592150081392
+    second: FavorSlots with Favor active player_173
+  - first:
+      213: 2363949905139294707
+    second: FavorSlots with Favor active player_174
+  - first:
+      213: 860756485725591493
+    second: FavorSlots with Favor active player_175
+  - first:
+      213: -8740479699761540991
+    second: FavorSlots with Favor active player_176
+  - first:
+      213: 2401916721444764156
+    second: FavorSlots with Favor active player_177
+  - first:
+      213: 8970014022224803916
+    second: FavorSlots with Favor active player_178
+  - first:
+      213: -4520613161262510417
+    second: FavorSlots with Favor active player_179
+  - first:
+      213: 2091466252918391566
+    second: FavorSlots with Favor active player_180
+  - first:
+      213: 3867978505537553884
+    second: FavorSlots with Favor active player_181
+  - first:
+      213: -1668741356735945874
+    second: FavorSlots with Favor active player_182
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_0
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 395
+        width: 373
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cecc412071042f0800000000000000
+      internalID: -990766620315161510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 495
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8458c50cff653060800000000000000
+      internalID: 6932570329626203279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 498
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed52b6b0c863f3690800000000000000
+      internalID: -7620312069372697122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 499
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701e3f6551184c00800000000000000
+      internalID: 884976385414533238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_4
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 488
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d767c59df5bf5690800000000000000
+      internalID: -7611164744488622124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 476
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c707daf398650e4e0800000000000000
+      internalID: -1954467090799955844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0297788f02e72fa0800000000000000
+      internalID: -5825439036638522865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 454
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520c45412e9375f30800000000000000
+      internalID: 4564180390529777701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 463
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6576b3b68d86b49e0800000000000000
+      internalID: -1636098760897763498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 451
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843c9968075472e60800000000000000
+      internalID: 7937389217860666184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 448
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae3c764e54193300800000000000000
+      internalID: 232239250928320170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 446
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ded12664ea885e0800000000000000
+      internalID: -1907082824874332859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 443
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e7d59e857559d90800000000000000
+      internalID: -7091665998841020897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 451
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e0a400b6ae3f230800000000000000
+      internalID: 3671535866524339822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 441
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef014ba781dc9980800000000000000
+      internalID: -8530713213522604061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 438
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9f8d477ad4c3210800000000000000
+      internalID: 1314010572900596183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 435
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d871764b8dc2ff0800000000000000
+      internalID: -59434425727349488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 428
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b179e45b6c6353480800000000000000
+      internalID: -8920163259864148197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_18
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 439
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d299cb27f5dc2c0800000000000000
+      internalID: -4409763513730781801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 429
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c84bfb489d24520800000000000000
+      internalID: 2684947492041428074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 426
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440a47ee0fae1a020800000000000000
+      internalID: 2351418800977780804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 424
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6d1317090586e40800000000000000
+      internalID: 5649854313840891613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_22
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 431
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730bd4cdea9e7d300800000000000000
+      internalID: 276946839336235063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_23
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 427
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd1b8549818ae330800000000000000
+      internalID: 3740944867061865928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_24
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 431
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d47abd5d31fb0000800000000000000
+      internalID: 3361470611616983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_25
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 430
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a870fcd5afe280800000000000000
+      internalID: -9011801960999246258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_26
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 429
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76b1a06870052cc0800000000000000
+      internalID: -3736579798816672130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_27
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 430
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5070be89a285640800000000000000
+      internalID: 5068848216871994869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_28
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 428
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5448e0e6e303850800000000000000
+      internalID: 6354647716630644160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_29
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 429
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff79d5f1a28baa60800000000000000
+      internalID: 7686380821163900912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_30
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 428
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e4b8fc7d87c4d10800000000000000
+      internalID: 2111195193625235090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_31
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 428
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb32edb7df75b9e0800000000000000
+      internalID: -1606237127507297351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_32
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 429
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06326a10508dfa00800000000000000
+      internalID: 791930191015458319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_33
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 427
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9bdf7d80f8b59c0800000000000000
+      internalID: -3937396181059126875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_34
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 428
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cc14e0a97014120800000000000000
+      internalID: 2396204834983365671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_35
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 426
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a7b6908080d46e0800000000000000
+      internalID: -1851815041168606568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_36
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 427
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82b7fa61ca1394e0800000000000000
+      internalID: -1976206393459887473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_37
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 426
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08de6dd079010e9e0800000000000000
+      internalID: -1594256027130860160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_38
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 425
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e8893524272f0b0800000000000000
+      internalID: -5696364949474341255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_39
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 426
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ed31c97574e9380800000000000000
+      internalID: -8962647766814433634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_40
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 425
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f074d5389a869c80800000000000000
+      internalID: -8316307275550265099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_41
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 426
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568a89f7145156f10800000000000000
+      internalID: 2262237758881310821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_42
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 424
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eb64d6ebb2aed50800000000000000
+      internalID: 6767269486954724906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_43
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 425
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d897cafd4a564310800000000000000
+      internalID: 1388896826056743127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_44
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 424
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ac8b6b4b9abd0e0800000000000000
+      internalID: -2244013395689289189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_45
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 423
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba698e5546597350800000000000000
+      internalID: 6014933633268804274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_46
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 424
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b3eb04d78135020800000000000000
+      internalID: 2329232358516865795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_47
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 423
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db68446cb5c73080800000000000000
+      internalID: -9207673500208698416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_48
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 424
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafa84be0b6d15730800000000000000
+      internalID: 3986203200549597100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_49
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 421
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e562caa8c8c4fc130800000000000000
+      internalID: 3589171594543244894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_50
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 418
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954df425ef7d43bd0800000000000000
+      internalID: -2651256793311751079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 415
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee28a7b1f3a5d9860800000000000000
+      internalID: 7538280578378531566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_52
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 413
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79af97eebc64317d0800000000000000
+      internalID: -2948935489304266089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 414
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3ab74f9f6c31f90800000000000000
+      internalID: -6984019820270607436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_54
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 410
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35709ae7cca90f20800000000000000
+      internalID: 3389430169206814013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 407
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ef56962c0148b70800000000000000
+      internalID: 8900257190768934532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_56
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 404
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd939547ae1dcb90800000000000000
+      internalID: -7220080923829363250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_57
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 402
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a4e90b52e325580800000000000000
+      internalID: -8839934786976986582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_58
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 402
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5402bb06530e0910800000000000000
+      internalID: 1805384168720434269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_59
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 399
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc029b776ced26d0800000000000000
+      internalID: -3013492646442038095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 396
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ba312106af3670800000000000000
+      internalID: 8520711543790941810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_61
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 394
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1215fa4564ff00800000000000000
+      internalID: 1149655177499910093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_62
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 391
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5364d801bc672590800000000000000
+      internalID: -7699065530353425569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_63
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 394
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d007c9c5eb0ab2c0800000000000000
+      internalID: -4415203403122671401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_64
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 390
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114c5314df22abc30800000000000000
+      internalID: 4375848459059971089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_65
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 388
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b59171de834b810800000000000000
+      internalID: 1780110343664130907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_66
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 385
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9967d0b794e9ef0800000000000000
+      internalID: -99561348899890725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_67
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 382
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2253193002e29640800000000000000
+      internalID: 5085375419840156203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_68
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 382
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9603da380723e4780800000000000000
+      internalID: -8696958371578957719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 382
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8043ce2daf38000800000000000000
+      internalID: 37149005762005187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_70
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 389
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7f92218cc7c3280800000000000000
+      internalID: -9062231151436236808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_71
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 378
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53730ed0ae90c910800000000000000
+      internalID: 1855657460233368412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_72
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 380
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6778bac6120d6d2b0800000000000000
+      internalID: -5560027847966619786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_73
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 374
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d274089d9b0b2c580800000000000000
+      internalID: -8808283608918767827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_74
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 372
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e645076b0a4094510800000000000000
+      internalID: 1533762236398457966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_75
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 363
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279b793536558c290800000000000000
+      internalID: -7869946463737366158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_76
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 367
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515c6900541059b90800000000000000
+      internalID: -7235875830426581739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_77
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f684163d0c3458680800000000000000
+      internalID: -8753515805265541009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_78
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 369
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6263ad5b9539dfb0800000000000000
+      internalID: -4622604601111911827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_79
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 366
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900752b6e8d8d3ed0800000000000000
+      internalID: -2432632580887711735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_80
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 363
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a25ec4c39488a50800000000000000
+      internalID: 6523544583583115927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_81
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 86
+        width: 294
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865e73f67be5fc3a0800000000000000
+      internalID: -6642986783410231960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_82
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 366
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c08abd3968b0b600800000000000000
+      internalID: 482087922275352769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_83
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 95
+        width: 283
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819efe92067a87340800000000000000
+      internalID: 4861819829208738072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 79
+        width: 276
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891a921ed00f12470800000000000000
+      internalID: 8368233525033935256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_85
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 355
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f44fad58421a5f30800000000000000
+      internalID: 4564981274312131831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_86
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 359
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc06a58af1a50f8e0800000000000000
+      internalID: -1661729170484731697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_87
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 113
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e453dd894b8fea70800000000000000
+      internalID: 8858452140089365736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_88
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 111
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17eaa0bd5e9616e0800000000000000
+      internalID: -1867130870265354466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 115
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ac9bf2f0cfb37f0800000000000000
+      internalID: -631634180560008559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_90
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 118
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e09047b3b21dce40800000000000000
+      internalID: 5678215268266971365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_91
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 101
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1354a18fed4d4c50800000000000000
+      internalID: 6651057915763643166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_92
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 103
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3d106d854dc25f0800000000000000
+      internalID: -780015157429283863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_93
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 99
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3640d735885fb0800000000000000
+      internalID: -4658827339750818054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_94
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 103
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d43446aeebefd8f0800000000000000
+      internalID: -513432422272715563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_95
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 107
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f7c2fe88f855a40800000000000000
+      internalID: 5356345150118068079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_96
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 88
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80243804dc9fa720800000000000000
+      internalID: 2859676722888188046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_97
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 91
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c36113e10d4cf20800000000000000
+      internalID: 3442104843309038730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_98
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 88
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a56ea7ca54846290800000000000000
+      internalID: -7898042321068989016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_99
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 92
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fd3b60e0deafd70800000000000000
+      internalID: 9077828643416432444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_100
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 95
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9350c86a0727ab0800000000000000
+      internalID: -5011819574693906012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_101
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4772afc0256d35b0800000000000000
+      internalID: -5387038387668355252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd08211de68bcec0800000000000000
+      internalID: -3545591928870924862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_103
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 77
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efe0d686aef61d00800000000000000
+      internalID: 943221163160563685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_104
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 81
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477bae5556cf444d0800000000000000
+      internalID: -3151116327089162380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_105
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 84
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd60bdce179b62390800000000000000
+      internalID: -7843377802062919969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_106
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993f8b06f271e9180800000000000000
+      internalID: -9106815904242928743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_107
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 65
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9ccf7c65f78e770800000000000000
+      internalID: 8640295895809444257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_108
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2cf4d7129475390800000000000000
+      internalID: -7829709018975190355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_109
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 66
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f620aaecdc2f24810800000000000000
+      internalID: 1748226571122639471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_110
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 65
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a4f0f56b87d26a0800000000000000
+      internalID: -6472384364787316148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_111
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 69
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bb10c424d6ae590800000000000000
+      internalID: -7644177285997544601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_112
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 73
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685f1d0c43f8ee550800000000000000
+      internalID: 6192043994417067398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_113
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d91a7433c55ca40800000000000000
+      internalID: 5387813904533527879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_114
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 59
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d659262f8193b920800000000000000
+      internalID: 3004905420392847056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_115
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 56
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513652e6a24feb570800000000000000
+      internalID: 8484487211086340885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_116
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2642ece07752e7750800000000000000
+      internalID: 6304517721644999778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_117
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 53
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1474b35a70c58c00800000000000000
+      internalID: 902338931980530719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_118
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 54
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e235760ec65867fb0800000000000000
+      internalID: -4650382862545628370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_119
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 58
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ddd8725aa612900800000000000000
+      internalID: 657924278138559754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_120
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 62
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adab17e7a057485c0800000000000000
+      internalID: -4214114663380436262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6620f2d360a6130800000000000000
+      internalID: 3560665315241256613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_122
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 48
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed63e88a39ecc400800000000000000
+      internalID: 345907709014666734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_123
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 41
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f27cf026ad034770800000000000000
+      internalID: 8593727521122185976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_124
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff11bc593d5966a0800000000000000
+      internalID: -6455526089909264390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_125
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2f344d3c9f11550800000000000000
+      internalID: 6129955187303117537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_126
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 54
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd617fdfe0bd9b160800000000000000
+      internalID: 7041900349807335132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_127
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 50
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acc7f1390a1b7210800000000000000
+      internalID: 1331686741613464744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_128
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 48
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf78360a9bb92af10800000000000000
+      internalID: 2279555582965024764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_129
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 48
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdbcc1326670f110800000000000000
+      internalID: 1292663257169706446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_130
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 48
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bd35593272e3f40800000000000000
+      internalID: 5710044411335007079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_131
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 47
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adf9b640a3e40d80800000000000000
+      internalID: -8285247136934003289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_132
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 47
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90596532cda779590800000000000000
+      internalID: -7667524754670709495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_133
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4fda1b881574a60800000000000000
+      internalID: 7658179338905187515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_134
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2b481307656acc0800000000000000
+      internalID: -3700175003971177812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_135
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 46
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e0d36972afc7830800000000000000
+      internalID: 4070403211167338110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_136
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43253c6ee656b9c20800000000000000
+      internalID: 3214274286051349044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_137
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5863318d3ced94710800000000000000
+      internalID: 1678117268897347205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_138
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2764f18514e4f40800000000000000
+      internalID: 5714576823917376246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_139
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 46
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bc64912b75d08f0800000000000000
+      internalID: -572705155166319722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_140
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 43
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b5b002d0514780800000000000000
+      internalID: -8700584142217826097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_141
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 40
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f4551fee04f75c0800000000000000
+      internalID: -4215579331200200911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_142
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 42
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab4193818501efc0800000000000000
+      internalID: -3467484184282313816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_143
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 39
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f10ebb0da3a5570800000000000000
+      internalID: 8456135918521163672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_144
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 43
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e547091c74c2210800000000000000
+      internalID: 1309500488335777411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_145
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 45
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2a251363166ba80800000000000000
+      internalID: -8451460765330529592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_146
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 45
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fb69fcb746f7430800000000000000
+      internalID: 3782852694941024110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_147
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5897c1aa9b67bbb70800000000000000
+      internalID: 8915850427105048965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_148
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de969fc6bca328b0800000000000000
+      internalID: -5178105245379158313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_149
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 44
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07278f260f7bf99a0800000000000000
+      internalID: -6224053916922252688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_150
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 43
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9541f728b9fbad110800000000000000
+      internalID: 1286551318197900377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_151
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 43
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86016a3366267be50800000000000000
+      internalID: 6825031951395983464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_152
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae468ac3c251f4d60800000000000000
+      internalID: 7876537553034700010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_153
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747341a19fa0fcc30800000000000000
+      internalID: 4381733027455448903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_154
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 32
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f27adf6b2985670800000000000000
+      internalID: 8527727209063329603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_155
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9320bfe0ab2c010800000000000000
+      internalID: 1207732223592249761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_156
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 30
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beff7eed336610510800000000000000
+      internalID: 1513603322742308843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_157
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 30
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22298f1c521671d30800000000000000
+      internalID: 4402093975573926434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_158
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 31
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d528f5d04692b5a40800000000000000
+      internalID: 5357921691385168477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_159
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 35
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef1489aff7190bf0800000000000000
+      internalID: -357728308571136022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_160
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 26
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2fa5be104ebe610800000000000000
+      internalID: 1651664385256125122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_161
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 24
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1dab54f425a4fc0800000000000000
+      internalID: -3509902459156114993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_162
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 21
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b5a1c3f0b6084d0800000000000000
+      internalID: -3134387627472823550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_163
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 16
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc0159a7be36ab50800000000000000
+      internalID: 6604034862126009520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_164
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 17
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd400866105f6fa0800000000000000
+      internalID: -5805333337492927041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_165
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 20
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f5c5972412ea780800000000000000
+      internalID: -8669955663253971181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_166
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 24
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e897aa1fb2f6c20800000000000000
+      internalID: 3201826177030917744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_167
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 27
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15868ea22156fe450800000000000000
+      internalID: 6120221547323484241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_168
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b86848956b7f4f60800000000000000
+      internalID: 8020765137646938295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_169
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 15
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8842d6b7172dc90800000000000000
+      internalID: -7146524883757528928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_170
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f787e69bc97440800000000000000
+      internalID: 4934198715751068841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_171
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 13
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9240844064404a270800000000000000
+      internalID: 8260732315270382633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_172
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 16
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e831de42fc88a6b0800000000000000
+      internalID: -5284819190386968352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_173
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f6c02f8819c8630800000000000000
+      internalID: 3930676592150081392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_174
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 7
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f165aaf9ef6ec020800000000000000
+      internalID: 2363949905139294707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_175
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 4
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c799c9967502fb00800000000000000
+      internalID: 860756485725591493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_176
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1805339a50493b680800000000000000
+      internalID: -8740479699761540991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_177
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf939c14882555120800000000000000
+      internalID: 2401916721444764156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_178
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c487bf06a34eb7c70800000000000000
+      internalID: 8970014022224803916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_179
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 9
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae0ef3f74e8341c0800000000000000
+      internalID: -4520613161262510417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_180
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e030be8d971660d10800000000000000
+      internalID: 2091466252918391566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_181
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5896515f1dda530800000000000000
+      internalID: 3867978505537553884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorSlots with Favor active player_182
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6320c1d39077d8e0800000000000000
+      internalID: -1668741356735945874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FavorSlots with Favor active player_0: -990766620315161510
+      FavorSlots with Favor active player_1: 6932570329626203279
+      FavorSlots with Favor active player_10: 232239250928320170
+      FavorSlots with Favor active player_100: -5011819574693906012
+      FavorSlots with Favor active player_101: -5387038387668355252
+      FavorSlots with Favor active player_102: -3545591928870924862
+      FavorSlots with Favor active player_103: 943221163160563685
+      FavorSlots with Favor active player_104: -3151116327089162380
+      FavorSlots with Favor active player_105: -7843377802062919969
+      FavorSlots with Favor active player_106: -9106815904242928743
+      FavorSlots with Favor active player_107: 8640295895809444257
+      FavorSlots with Favor active player_108: -7829709018975190355
+      FavorSlots with Favor active player_109: 1748226571122639471
+      FavorSlots with Favor active player_11: -1907082824874332859
+      FavorSlots with Favor active player_110: -6472384364787316148
+      FavorSlots with Favor active player_111: -7644177285997544601
+      FavorSlots with Favor active player_112: 6192043994417067398
+      FavorSlots with Favor active player_113: 5387813904533527879
+      FavorSlots with Favor active player_114: 3004905420392847056
+      FavorSlots with Favor active player_115: 8484487211086340885
+      FavorSlots with Favor active player_116: 6304517721644999778
+      FavorSlots with Favor active player_117: 902338931980530719
+      FavorSlots with Favor active player_118: -4650382862545628370
+      FavorSlots with Favor active player_119: 657924278138559754
+      FavorSlots with Favor active player_12: -7091665998841020897
+      FavorSlots with Favor active player_120: -4214114663380436262
+      FavorSlots with Favor active player_121: 3560665315241256613
+      FavorSlots with Favor active player_122: 345907709014666734
+      FavorSlots with Favor active player_123: 8593727521122185976
+      FavorSlots with Favor active player_124: -6455526089909264390
+      FavorSlots with Favor active player_125: 6129955187303117537
+      FavorSlots with Favor active player_126: 7041900349807335132
+      FavorSlots with Favor active player_127: 1331686741613464744
+      FavorSlots with Favor active player_128: 2279555582965024764
+      FavorSlots with Favor active player_129: 1292663257169706446
+      FavorSlots with Favor active player_13: 3671535866524339822
+      FavorSlots with Favor active player_130: 5710044411335007079
+      FavorSlots with Favor active player_131: -8285247136934003289
+      FavorSlots with Favor active player_132: -7667524754670709495
+      FavorSlots with Favor active player_133: 7658179338905187515
+      FavorSlots with Favor active player_134: -3700175003971177812
+      FavorSlots with Favor active player_135: 4070403211167338110
+      FavorSlots with Favor active player_136: 3214274286051349044
+      FavorSlots with Favor active player_137: 1678117268897347205
+      FavorSlots with Favor active player_138: 5714576823917376246
+      FavorSlots with Favor active player_139: -572705155166319722
+      FavorSlots with Favor active player_14: -8530713213522604061
+      FavorSlots with Favor active player_140: -8700584142217826097
+      FavorSlots with Favor active player_141: -4215579331200200911
+      FavorSlots with Favor active player_142: -3467484184282313816
+      FavorSlots with Favor active player_143: 8456135918521163672
+      FavorSlots with Favor active player_144: 1309500488335777411
+      FavorSlots with Favor active player_145: -8451460765330529592
+      FavorSlots with Favor active player_146: 3782852694941024110
+      FavorSlots with Favor active player_147: 8915850427105048965
+      FavorSlots with Favor active player_148: -5178105245379158313
+      FavorSlots with Favor active player_149: -6224053916922252688
+      FavorSlots with Favor active player_15: 1314010572900596183
+      FavorSlots with Favor active player_150: 1286551318197900377
+      FavorSlots with Favor active player_151: 6825031951395983464
+      FavorSlots with Favor active player_152: 7876537553034700010
+      FavorSlots with Favor active player_153: 4381733027455448903
+      FavorSlots with Favor active player_154: 8527727209063329603
+      FavorSlots with Favor active player_155: 1207732223592249761
+      FavorSlots with Favor active player_156: 1513603322742308843
+      FavorSlots with Favor active player_157: 4402093975573926434
+      FavorSlots with Favor active player_158: 5357921691385168477
+      FavorSlots with Favor active player_159: -357728308571136022
+      FavorSlots with Favor active player_16: -59434425727349488
+      FavorSlots with Favor active player_160: 1651664385256125122
+      FavorSlots with Favor active player_161: -3509902459156114993
+      FavorSlots with Favor active player_162: -3134387627472823550
+      FavorSlots with Favor active player_163: 6604034862126009520
+      FavorSlots with Favor active player_164: -5805333337492927041
+      FavorSlots with Favor active player_165: -8669955663253971181
+      FavorSlots with Favor active player_166: 3201826177030917744
+      FavorSlots with Favor active player_167: 6120221547323484241
+      FavorSlots with Favor active player_168: 8020765137646938295
+      FavorSlots with Favor active player_169: -7146524883757528928
+      FavorSlots with Favor active player_17: -8920163259864148197
+      FavorSlots with Favor active player_170: 4934198715751068841
+      FavorSlots with Favor active player_171: 8260732315270382633
+      FavorSlots with Favor active player_172: -5284819190386968352
+      FavorSlots with Favor active player_173: 3930676592150081392
+      FavorSlots with Favor active player_174: 2363949905139294707
+      FavorSlots with Favor active player_175: 860756485725591493
+      FavorSlots with Favor active player_176: -8740479699761540991
+      FavorSlots with Favor active player_177: 2401916721444764156
+      FavorSlots with Favor active player_178: 8970014022224803916
+      FavorSlots with Favor active player_179: -4520613161262510417
+      FavorSlots with Favor active player_18: -4409763513730781801
+      FavorSlots with Favor active player_180: 2091466252918391566
+      FavorSlots with Favor active player_181: 3867978505537553884
+      FavorSlots with Favor active player_182: -1668741356735945874
+      FavorSlots with Favor active player_19: 2684947492041428074
+      FavorSlots with Favor active player_2: -7620312069372697122
+      FavorSlots with Favor active player_20: 2351418800977780804
+      FavorSlots with Favor active player_21: 5649854313840891613
+      FavorSlots with Favor active player_22: 276946839336235063
+      FavorSlots with Favor active player_23: 3740944867061865928
+      FavorSlots with Favor active player_24: 3361470611616983
+      FavorSlots with Favor active player_25: -9011801960999246258
+      FavorSlots with Favor active player_26: -3736579798816672130
+      FavorSlots with Favor active player_27: 5068848216871994869
+      FavorSlots with Favor active player_28: 6354647716630644160
+      FavorSlots with Favor active player_29: 7686380821163900912
+      FavorSlots with Favor active player_3: 884976385414533238
+      FavorSlots with Favor active player_30: 2111195193625235090
+      FavorSlots with Favor active player_31: -1606237127507297351
+      FavorSlots with Favor active player_32: 791930191015458319
+      FavorSlots with Favor active player_33: -3937396181059126875
+      FavorSlots with Favor active player_34: 2396204834983365671
+      FavorSlots with Favor active player_35: -1851815041168606568
+      FavorSlots with Favor active player_36: -1976206393459887473
+      FavorSlots with Favor active player_37: -1594256027130860160
+      FavorSlots with Favor active player_38: -5696364949474341255
+      FavorSlots with Favor active player_39: -8962647766814433634
+      FavorSlots with Favor active player_4: -7611164744488622124
+      FavorSlots with Favor active player_40: -8316307275550265099
+      FavorSlots with Favor active player_41: 2262237758881310821
+      FavorSlots with Favor active player_42: 6767269486954724906
+      FavorSlots with Favor active player_43: 1388896826056743127
+      FavorSlots with Favor active player_44: -2244013395689289189
+      FavorSlots with Favor active player_45: 6014933633268804274
+      FavorSlots with Favor active player_46: 2329232358516865795
+      FavorSlots with Favor active player_47: -9207673500208698416
+      FavorSlots with Favor active player_48: 3986203200549597100
+      FavorSlots with Favor active player_49: 3589171594543244894
+      FavorSlots with Favor active player_5: -1954467090799955844
+      FavorSlots with Favor active player_50: -2651256793311751079
+      FavorSlots with Favor active player_51: 7538280578378531566
+      FavorSlots with Favor active player_52: -2948935489304266089
+      FavorSlots with Favor active player_53: -6984019820270607436
+      FavorSlots with Favor active player_54: 3389430169206814013
+      FavorSlots with Favor active player_55: 8900257190768934532
+      FavorSlots with Favor active player_56: -7220080923829363250
+      FavorSlots with Favor active player_57: -8839934786976986582
+      FavorSlots with Favor active player_58: 1805384168720434269
+      FavorSlots with Favor active player_59: -3013492646442038095
+      FavorSlots with Favor active player_6: -5825439036638522865
+      FavorSlots with Favor active player_60: 8520711543790941810
+      FavorSlots with Favor active player_61: 1149655177499910093
+      FavorSlots with Favor active player_62: -7699065530353425569
+      FavorSlots with Favor active player_63: -4415203403122671401
+      FavorSlots with Favor active player_64: 4375848459059971089
+      FavorSlots with Favor active player_65: 1780110343664130907
+      FavorSlots with Favor active player_66: -99561348899890725
+      FavorSlots with Favor active player_67: 5085375419840156203
+      FavorSlots with Favor active player_68: -8696958371578957719
+      FavorSlots with Favor active player_69: 37149005762005187
+      FavorSlots with Favor active player_7: 4564180390529777701
+      FavorSlots with Favor active player_70: -9062231151436236808
+      FavorSlots with Favor active player_71: 1855657460233368412
+      FavorSlots with Favor active player_72: -5560027847966619786
+      FavorSlots with Favor active player_73: -8808283608918767827
+      FavorSlots with Favor active player_74: 1533762236398457966
+      FavorSlots with Favor active player_75: -7869946463737366158
+      FavorSlots with Favor active player_76: -7235875830426581739
+      FavorSlots with Favor active player_77: -8753515805265541009
+      FavorSlots with Favor active player_78: -4622604601111911827
+      FavorSlots with Favor active player_79: -2432632580887711735
+      FavorSlots with Favor active player_8: -1636098760897763498
+      FavorSlots with Favor active player_80: 6523544583583115927
+      FavorSlots with Favor active player_81: -6642986783410231960
+      FavorSlots with Favor active player_82: 482087922275352769
+      FavorSlots with Favor active player_83: 4861819829208738072
+      FavorSlots with Favor active player_84: 8368233525033935256
+      FavorSlots with Favor active player_85: 4564981274312131831
+      FavorSlots with Favor active player_86: -1661729170484731697
+      FavorSlots with Favor active player_87: 8858452140089365736
+      FavorSlots with Favor active player_88: -1867130870265354466
+      FavorSlots with Favor active player_89: -631634180560008559
+      FavorSlots with Favor active player_9: 7937389217860666184
+      FavorSlots with Favor active player_90: 5678215268266971365
+      FavorSlots with Favor active player_91: 6651057915763643166
+      FavorSlots with Favor active player_92: -780015157429283863
+      FavorSlots with Favor active player_93: -4658827339750818054
+      FavorSlots with Favor active player_94: -513432422272715563
+      FavorSlots with Favor active player_95: 5356345150118068079
+      FavorSlots with Favor active player_96: 2859676722888188046
+      FavorSlots with Favor active player_97: 3442104843309038730
+      FavorSlots with Favor active player_98: -7898042321068989016
+      FavorSlots with Favor active player_99: 9077828643416432444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -46,38 +46,50 @@ public class DiscardPileDisplay : MonoBehaviour
     }
 
     public void UpdateTopDiscardCard()
+{
+    PranksterType? topCard = deckManager.GetTopDiscardCard();
+    Debug.Log("Top discard card: " + topCard);
+
+    if (topDiscardRenderer == null)
     {
-        PranksterType? topCard = deckManager.GetTopDiscardCard();
-        Debug.Log ("Top discard card: " + topCard);
-
-        if (topCard == null || topDiscardRenderer == null)
-            return;
-
-        switch (topCard.Value)
-        {
-            case PranksterType.Thief:
-                topDiscardRenderer.sprite = thiefSprite;
-                break;
-
-            case PranksterType.Wizard:
-                topDiscardRenderer.sprite = wizardSprite;
-                break;
-
-            case PranksterType.Engineer:
-                topDiscardRenderer.sprite = engineerSprite;
-                break;
-
-            case PranksterType.BeastMaster:
-                topDiscardRenderer.sprite = beastMasterSprite;
-                break;
-
-            case PranksterType.Laborer:
-                topDiscardRenderer.sprite = laborerSprite;
-                break;
-
-            case PranksterType.Scribe:
-                topDiscardRenderer.sprite = scribeSprite;
-                break;
-        }
+        Debug.Log("topDiscardRenderer is NULL");
+        return;
     }
+
+    if (topCard == null)
+    {
+        Debug.Log("topCard is NULL, clearing sprite");
+        topDiscardRenderer.sprite = null;
+        return;
+    }
+
+    switch (topCard.Value)
+    {
+        case PranksterType.Thief:
+            topDiscardRenderer.sprite = thiefSprite;
+            break;
+
+        case PranksterType.Wizard:
+            topDiscardRenderer.sprite = wizardSprite;
+            break;
+
+        case PranksterType.Engineer:
+            topDiscardRenderer.sprite = engineerSprite;
+            break;
+
+        case PranksterType.BeastMaster:
+            topDiscardRenderer.sprite = beastMasterSprite;
+            break;
+
+        case PranksterType.Laborer:
+            topDiscardRenderer.sprite = laborerSprite;
+            break;
+
+        case PranksterType.Scribe:
+            topDiscardRenderer.sprite = scribeSprite;
+            break;
+    }
+
+    Debug.Log("Assigned discard sprite: " + topDiscardRenderer.sprite);
+}
 }

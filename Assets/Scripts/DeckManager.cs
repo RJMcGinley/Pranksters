@@ -1,5 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+
 
 public class DeckManager : MonoBehaviour
 {
@@ -20,6 +24,28 @@ public class DeckManager : MonoBehaviour
     public Transform activePrankDisplay;
     public float prankCardSpacing = 2.8f;
     public Vector3 prankCardScale = new Vector3(0.28f, 0.28f, 1f);
+    public TextMeshProUGUI turnText;
+
+    public AudioSource audioSource;
+    public AudioClip player1TurnClip;
+    public AudioClip player2TurnClip;
+    public AudioClip hmmmDecisionsClip;
+
+    public GameObject filledMarker1;
+    public GameObject filledMarker2;
+    public GameObject filledMarker3;
+    public TextMeshProUGUI activeFavorPointsText;
+
+    public Sprite thiefIcon;
+    public Sprite engineerIcon;
+    public Sprite laborerIcon;
+    public Sprite scribeIcon;
+    public Sprite wizardIcon;
+    public Sprite beastmasterIcon;  
+
+    public Image filledMarker1Image;
+    public Image filledMarker2Image;
+    public Image filledMarker3Image;
 
 
     Player GetCurrentPlayer()
@@ -49,7 +75,7 @@ public class DeckManager : MonoBehaviour
         Debug.Log("Prank deck size: " + prankDeck.Count);
         Debug.Log("Active pranks: " + activePranks.Count);
     
-
+        UpdateActiveFavorDisplay();
         StartPlayerTurn();
         handDisplay.ShowCurrentPlayerHand();
     }
@@ -189,6 +215,8 @@ public class DeckManager : MonoBehaviour
 
         int favorGained = CalculateFavorPoints(offeredCard);
         player.favorPoints += favorGained;
+
+        UpdateActiveFavorDisplay();
 
         RefillHandToFour();
 
@@ -393,6 +421,24 @@ public class DeckManager : MonoBehaviour
 
     pendingChoice = PendingChoiceType.ChooseAction;
 
+    handDisplay.ShowCurrentPlayerHand();
+    UpdateActiveFavorDisplay();
+
+    if (turnText != null)
+    {
+        turnText.text = "PLAYER " + (turnManager.currentPlayerIndex + 1) + "'S TURN";
+        StartCoroutine(ShowTurnTextTemporarily());
+    }
+
+    if (audioSource != null)
+    {
+        if (turnManager.currentPlayerIndex == 0 && player1TurnClip != null)
+         audioSource.PlayOneShot(player1TurnClip);
+
+        if (turnManager.currentPlayerIndex == 1 && player2TurnClip != null)
+         audioSource.PlayOneShot(player2TurnClip);
+    }
+
     Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + "'s turn.");
     ShowCurrentPlayerHand();
     ShowTopDiscardCard();
@@ -419,6 +465,14 @@ void StartDrawFromDeckTurn()
     }
 
     DrawCard();
+
+    handDisplay.ShowCurrentPlayerHand();
+
+    if (audioSource != null && hmmmDecisionsClip != null)
+    {
+        audioSource.PlayOneShot(hmmmDecisionsClip);
+    }
+
     pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
 
     LogSeparator("CHOOSE DISCARD");
@@ -436,6 +490,8 @@ void ResolveDiscardChoice(int discardHandIndex)
     Debug.Log("Discard choice selected: hand index " + discardHandIndex);
 
     DiscardCardFromHand(discardHandIndex);
+    handDisplay.ShowCurrentPlayerHand();
+
     pendingChoice = PendingChoiceType.None;
     EndPlayerTurn();
 }
@@ -682,6 +738,15 @@ void StartDrawFromDiscardTurn()
     }
 
     DrawFromDiscard();
+
+    handDisplay.ShowCurrentPlayerHand();
+    discardPileDisplay.UpdateTopDiscardCard();
+
+    if (audioSource != null && hmmmDecisionsClip != null)
+    {
+        audioSource.PlayOneShot(hmmmDecisionsClip);
+    }
+
     pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
 
     LogSeparator("CHOOSE DISCARD");
@@ -698,6 +763,9 @@ void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
     Debug.Log("Discard choice selected: hand index " + discardHandIndex);
 
     DiscardCardFromHand(discardHandIndex);
+    handDisplay.ShowCurrentPlayerHand();
+    discardPileDisplay.UpdateTopDiscardCard();
+
     pendingChoice = PendingChoiceType.None;
     EndPlayerTurn();
 }
@@ -778,6 +846,8 @@ void ResetRound()
     ShowActivePrankCards();
 
     Debug.Log("New round started.");
+
+    UpdateActiveFavorDisplay();
 }
 
 int DetermineDealerIndex()
@@ -1310,7 +1380,66 @@ public PranksterType? GetTopDiscardCard()
     return discardPile[discardPile.Count - 1];
 }
 
+IEnumerator ShowTurnTextTemporarily()
+{
+    turnText.gameObject.SetActive(true);
 
+    yield return new WaitForSeconds(3f);
+
+    turnText.gameObject.SetActive(false);
+}
+
+void UpdateActiveFavorDisplay()
+{
+    Player currentPlayer = GetCurrentPlayer();
+
+    UpdateFavorSlot(filledMarker1Image, currentPlayer, 0);
+    UpdateFavorSlot(filledMarker2Image, currentPlayer, 1);
+    UpdateFavorSlot(filledMarker3Image, currentPlayer, 2);
+
+    if (activeFavorPointsText != null)
+        activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
+}
+
+
+Sprite GetFavorIcon(PranksterType type)
+{
+    switch (type)
+    {
+        case PranksterType.Thief: return thiefIcon;
+        case PranksterType.Engineer: return engineerIcon;
+        case PranksterType.Laborer: return laborerIcon;
+        case PranksterType.Scribe: return scribeIcon;
+        case PranksterType.Wizard: return wizardIcon;
+        case PranksterType.BeastMaster: return beastmasterIcon;
+    }
+
+    return null;
+}
+
+void UpdateFavorSlot(Image slotImage, Player player, int index)
+{
+    if (slotImage == null || player == null)
+    {
+        Debug.Log("UpdateFavorSlot: slotImage or player is null");
+        return;
+    }
+
+    if (index < player.favorArea.Count)
+    {
+        Sprite icon = GetFavorIcon(player.favorArea[index]);
+
+        Debug.Log("Updating slot " + index + " with " + player.favorArea[index]);
+        Debug.Log("Icon found: " + (icon != null ? icon.name : "NULL"));
+
+        slotImage.gameObject.SetActive(true);
+        slotImage.sprite = icon;
+    }
+    else
+    {
+        slotImage.gameObject.SetActive(false);
+    }
+}
 
 }
 
