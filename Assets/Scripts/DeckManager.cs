@@ -47,6 +47,12 @@ public class DeckManager : MonoBehaviour
     public Image filledMarker2Image;
     public Image filledMarker3Image;
 
+    public OpponentDisplayManager opponentDisplayManager;
+
+    public TextMeshProUGUI activeCompletedPranksText;
+    public TextMeshProUGUI activeRenownPointsText;
+    public TextMeshProUGUI activePlayerLabelText;
+    public PrankPreviewPanel prankPreviewPanel;
 
     Player GetCurrentPlayer()
     {
@@ -219,6 +225,7 @@ public class DeckManager : MonoBehaviour
         UpdateActiveFavorDisplay();
 
         RefillHandToFour();
+        RefreshAllDisplays();
 
         Debug.Log("Offered as favor: " + offeredCard);
         Debug.Log("Favor gained: " + favorGained);
@@ -277,12 +284,10 @@ public class DeckManager : MonoBehaviour
     void CompletePrank(int prankIndex)
 {
     Player player = GetCurrentPlayer();
+    PrankCard prank = activePranks[prankIndex];
 
-    PrankCard completedPrank = activePranks[prankIndex];
-
-    lastPrankCompleterIndex = turnManager.currentPlayerIndex;
-
-    foreach (PranksterType required in completedPrank.requiredPranksters)
+    // 1. Remove matching cards from hand and send to discard
+    foreach (PranksterType required in prank.requiredPranksters)
     {
         int index = player.hand.IndexOf(required);
 
@@ -290,32 +295,28 @@ public class DeckManager : MonoBehaviour
         {
             PranksterType card = player.hand[index];
             player.hand.RemoveAt(index);
-            outOfPlayPranksters.Add(card);
+            discardPile.Add(card); // bottom of discard pile
+        }
+        else
+        {
+            Debug.LogError("Missing required card: " + required);
         }
     }
 
-    player.completedPranks.Add(completedPrank);
+    // 2. Add prank to completed
+    player.completedPranks.Add(prank);
+
+    // 3. Add renown
+    player.renownPoints += prank.renownPoints;
+
+    // 4. Remove prank from active
     activePranks.RemoveAt(prankIndex);
-    ShowActivePrankCards();
 
-    Debug.Log("Completed prank: " + completedPrank.title);
+    // 5. Refresh UI
+    UpdateActiveFavorDisplay();
+    RefreshAllDisplays();
 
-    if (HasPlayerCompletedThreePranks())
-    {
-        finalCompletedPrank = completedPrank;
-        TriggerEndGameScoring();
-        return;
-    }
-
-    if (activePranks.Count == 0)
-    {
-        ResetRound();
-        StartPlayerTurn();
-        return;
-    }
-
-    RefillHandToFour();
-    EndPlayerTurn();
+    Debug.Log("Prank completed: " + prank.title);
 }
 
 
@@ -343,28 +344,30 @@ public class DeckManager : MonoBehaviour
         SortCurrentPlayerHand();
 
         Debug.Log("Drew from discard pile: " + card);
+        RefreshAllDisplays();
     }
 
 
     void DiscardCardFromHand(int handIndex)
-{
-    Player player = GetCurrentPlayer();
-
-    if (handIndex < 0 || handIndex >= player.hand.Count)
     {
-        Debug.Log("Invalid hand index");
-        return;
+     Player player = GetCurrentPlayer();
+
+        if (handIndex < 0 || handIndex >= player.hand.Count)
+        {
+           Debug.Log("Invalid hand index");
+           return;
+        }
+
+     PranksterType card = player.hand[handIndex];
+
+        player.hand.RemoveAt(handIndex);
+        discardPile.Add(card);
+
+        discardPileDisplay.UpdateTopDiscardCard();
+
+        Debug.Log("Discarded: " + card);
+        RefreshAllDisplays();
     }
-
-    PranksterType card = player.hand[handIndex];
-
-    player.hand.RemoveAt(handIndex);
-    discardPile.Add(card);
-
-    discardPileDisplay.UpdateTopDiscardCard();
-
-    Debug.Log("Discarded: " + card);
-}
 
 
     void ShowDiscardPile()
@@ -421,8 +424,7 @@ public class DeckManager : MonoBehaviour
 
     pendingChoice = PendingChoiceType.ChooseAction;
 
-    handDisplay.ShowCurrentPlayerHand();
-    UpdateActiveFavorDisplay();
+    RefreshAllDisplays();
 
     if (turnText != null)
     {
@@ -443,7 +445,7 @@ public class DeckManager : MonoBehaviour
     ShowCurrentPlayerHand();
     ShowTopDiscardCard();
     ShowAllFavorAreas();
-    ShowActivePranks();
+    
 
     Debug.Log("Can click draw pile: " + CanClickDrawPile());
     Debug.Log("Can click discard pile: " + CanClickDiscardPile());
@@ -593,35 +595,6 @@ void Update()
         }
 }
 
-void ShowActivePranks()
-{
-    Debug.Log("Active Pranks:");
-
-    for (int i = 0; i < activePranks.Count; i++)
-    {
-        PrankCard prank = activePranks[i];
-
-        string requirementsText = "";
-
-        for (int j = 0; j < prank.requiredPranksters.Count; j++)
-        {
-            requirementsText += prank.requiredPranksters[j];
-
-            if (j < prank.requiredPranksters.Count - 1)
-            {
-                requirementsText += ", ";
-            }
-        }
-
-        Debug.Log(
-            "Prank " + (i + 1) + ": " +
-            prank.title +
-            " | Requires: " + requirementsText +
-            " | Renown: " + prank.renownPoints +
-            " | Favor Multiplier: " + prank.favorMultiplier
-        );
-    }
-}
 
 void ShowCurrentPlayerHand()
 {
@@ -832,8 +805,9 @@ void ResetRound()
     discardPile.Clear();
 
     // Return out-of-play pranksters to prankster deck
-    deck.AddRange(outOfPlayPranksters);
-    outOfPlayPranksters.Clear();
+    // OLD SYSTEM (out-of-play → deck)
+    // deck.AddRange(outOfPlayPranksters);
+    // outOfPlayPranksters.Clear();
 
     // Shuffle prankster deck
     ShufflePranksterDeck();
@@ -848,6 +822,7 @@ void ResetRound()
     Debug.Log("New round started.");
 
     UpdateActiveFavorDisplay();
+    RefreshAllDisplays();
 }
 
 int DetermineDealerIndex()
@@ -1192,12 +1167,7 @@ void CalculateFinalScores()
     {
         Player player = turnManager.players[i];
 
-        int prankPoints = 0;
-        for (int j = 0; j < player.completedPranks.Count; j++)
-        {
-            prankPoints += player.completedPranks[j].renownPoints;
-        }
-
+        int prankPoints = player.renownPoints;
         int favorPoints = player.favorPoints;
         int victoryPoints = favorPoints * finalCompletedPrank.favorMultiplier;
         int totalScore = prankPoints + victoryPoints;
@@ -1311,7 +1281,7 @@ void ShowActivePrankCards()
         return;
     }
 
-    // Clear old prank card visuals first
+    // Clear old prank cards
     for (int i = activePrankDisplay.childCount - 1; i >= 0; i--)
     {
         Destroy(activePrankDisplay.GetChild(i).gameObject);
@@ -1327,35 +1297,24 @@ void ShowActivePrankCards()
         prankObject.transform.localRotation = Quaternion.identity;
         prankObject.transform.localScale = prankCardScale;
 
-        // Find the CardArt child
         Transform cardArtTransform = prankObject.transform.Find("CardArt");
 
         if (cardArtTransform != null)
         {
             SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
 
-            if (artRenderer != null)
+            if (artRenderer != null && activePranks[i].cardSprite != null)
             {
-                Debug.Log("Showing prank: " + activePranks[i].title);
-
-                if (activePranks[i].cardSprite != null)
-                {
-                    Debug.Log("Assigned sprite: " + activePranks[i].cardSprite.name);
-                    artRenderer.sprite = activePranks[i].cardSprite;
-                }
-                else
-                {
-                    Debug.LogWarning("No sprite assigned for prank: " + activePranks[i].title);
-                }
-            }
-            else
-            {
-                Debug.LogWarning("CardArt has no SpriteRenderer on prank: " + activePranks[i].title);
+                artRenderer.sprite = activePranks[i].cardSprite;
             }
         }
-        else
+
+        PrankHoverPreview hoverPreview = prankObject.GetComponent<PrankHoverPreview>();
+
+        if (hoverPreview != null)
         {
-            Debug.LogWarning("CardArt child not found on prank prefab.");
+            hoverPreview.previewSprite = activePranks[i].cardSprite;
+            hoverPreview.previewPanel = prankPreviewPanel;
         }
 
         prankObject.name = "ActivePrank_" + activePranks[i].title;
@@ -1397,8 +1356,7 @@ void UpdateActiveFavorDisplay()
     UpdateFavorSlot(filledMarker2Image, currentPlayer, 1);
     UpdateFavorSlot(filledMarker3Image, currentPlayer, 2);
 
-    if (activeFavorPointsText != null)
-        activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
+    UpdateCurrentPlayerStatsDisplay();
 }
 
 
@@ -1439,6 +1397,37 @@ void UpdateFavorSlot(Image slotImage, Player player, int index)
     {
         slotImage.gameObject.SetActive(false);
     }
+}
+
+void RefreshAllDisplays()
+{
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
+
+    UpdateActiveFavorDisplay();
+
+    if (discardPileDisplay != null)
+        discardPileDisplay.UpdateTopDiscardCard();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+}
+void UpdateCurrentPlayerStatsDisplay()
+{
+    Player currentPlayer = GetCurrentPlayer();
+    int currentIndex = turnManager.currentPlayerIndex;
+
+    if (activePlayerLabelText != null)
+        activePlayerLabelText.text = "Player " + (currentIndex + 1);
+
+    if (activeCompletedPranksText != null)
+        activeCompletedPranksText.text = currentPlayer.completedPranks.Count.ToString();
+
+    if (activeRenownPointsText != null)
+        activeRenownPointsText.text = currentPlayer.renownPoints.ToString();
+
+    if (activeFavorPointsText != null)
+        activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
 }
 
 }

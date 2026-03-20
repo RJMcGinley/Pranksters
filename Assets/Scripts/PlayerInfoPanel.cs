@@ -1,0 +1,113 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class PlayerInfoPanel : MonoBehaviour
+{
+    [Header("Managers")]
+    public TurnManager turnManager;
+    public DeckManager deckManager;
+
+    [Header("Panel Root")]
+    public GameObject rootObject;
+
+    [Header("Text")]
+    public TextMeshProUGUI playerLabelText;
+    public TextMeshProUGUI pranksCompletedText;
+    public TextMeshProUGUI renownPointsText;
+    public TextMeshProUGUI favorPointsText;
+
+    [Header("Favor Slot Images")]
+    public Image favorSlot1Image;
+    public Image favorSlot2Image;
+    public Image favorSlot3Image;
+
+    [Header("Prankster Icon Sprites")]
+    public Sprite thiefIcon;
+    public Sprite engineerIcon;
+    public Sprite laborerIcon;
+    public Sprite scribeIcon;
+    public Sprite wizardIcon;
+    public Sprite beastmasterIcon;
+
+    public void SetVisible(bool isVisible)
+    {
+        if (rootObject != null)
+            rootObject.SetActive(isVisible);
+        else
+            gameObject.SetActive(isVisible);
+    }
+
+    public void RefreshPlayer(int playerIndex)
+    {
+        if (turnManager == null)
+        {
+            Debug.LogWarning(name + ": TurnManager is not assigned.");
+            SetVisible(false);
+            return;
+        }
+
+        if (playerIndex < 0 || playerIndex >= turnManager.players.Count)
+        {
+            Debug.LogWarning(name + ": Invalid player index " + playerIndex);
+            SetVisible(false);
+            return;
+        }
+
+        Debug.Log("RefreshPlayer called for player index: " + playerIndex);
+
+        Player player = turnManager.players[playerIndex];
+
+        SetVisible(true);
+
+        if (playerLabelText != null)
+            playerLabelText.text = "Player " + (playerIndex + 1);
+
+        if (pranksCompletedText != null)
+            pranksCompletedText.text = player.completedPranks.Count.ToString();
+
+        if (renownPointsText != null)
+            renownPointsText.text = player.renownPoints.ToString();
+
+        if (favorPointsText != null)
+            favorPointsText.text = player.favorPoints.ToString();
+
+        UpdateFavorSlot(favorSlot1Image, player, 0);
+        UpdateFavorSlot(favorSlot2Image, player, 1);
+        UpdateFavorSlot(favorSlot3Image, player, 2);
+    }
+
+    void UpdateFavorSlot(Image slotImage, Player player, int index)
+    {
+        if (slotImage == null || player == null)
+            return;
+
+        if (index < player.favorArea.Count)
+        {
+            Sprite icon = GetFavorIcon(player.favorArea[index]);
+            slotImage.gameObject.SetActive(true);
+            slotImage.sprite = icon;
+        }
+        else
+        {
+            slotImage.gameObject.SetActive(false);
+        }
+    }
+
+    Sprite GetFavorIcon(PranksterType type)
+    {
+        switch (type)
+        {
+            case PranksterType.Thief: return thiefIcon;
+            case PranksterType.Engineer: return engineerIcon;
+            case PranksterType.Laborer: return laborerIcon;
+            case PranksterType.Scribe: return scribeIcon;
+            case PranksterType.Wizard: return wizardIcon;
+            case PranksterType.BeastMaster: return beastmasterIcon;
+            default: return null;
+        }
+    }
+
+}   
+
+ 
