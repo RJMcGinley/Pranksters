@@ -161,8 +161,15 @@ public class DeckManager : MonoBehaviour
 {
     if (deck.Count == 0)
     {
-        Debug.Log("Deck empty");
-        return;
+        if (discardPile.Count > 0)
+        {
+            ReshuffleDiscardIntoDeck();
+        }
+        else
+        {
+            Debug.Log("Deck and discard pile are both empty.");
+            return;
+        }
     }
 
     PranksterType drawnCard = deck[0];
@@ -284,10 +291,13 @@ public class DeckManager : MonoBehaviour
     void CompletePrank(int prankIndex)
 {
     Player player = GetCurrentPlayer();
-    PrankCard prank = activePranks[prankIndex];
 
-    // 1. Remove matching cards from hand and send to discard
-    foreach (PranksterType required in prank.requiredPranksters)
+    PrankCard completedPrank = activePranks[prankIndex];
+
+    lastPrankCompleterIndex = turnManager.currentPlayerIndex;
+
+    // Remove required cards from hand and send them to the bottom of the discard pile
+    foreach (PranksterType required in completedPrank.requiredPranksters)
     {
         int index = player.hand.IndexOf(required);
 
@@ -295,7 +305,7 @@ public class DeckManager : MonoBehaviour
         {
             PranksterType card = player.hand[index];
             player.hand.RemoveAt(index);
-            discardPile.Add(card); // bottom of discard pile
+            discardPile.Add(card);
         }
         else
         {
@@ -303,20 +313,31 @@ public class DeckManager : MonoBehaviour
         }
     }
 
-    // 2. Add prank to completed
-    player.completedPranks.Add(prank);
+    player.completedPranks.Add(completedPrank);
+    player.renownPoints += completedPrank.renownPoints;
 
-    // 3. Add renown
-    player.renownPoints += prank.renownPoints;
-
-    // 4. Remove prank from active
     activePranks.RemoveAt(prankIndex);
+    ShowActivePrankCards();
 
-    // 5. Refresh UI
-    UpdateActiveFavorDisplay();
+    Debug.Log("Completed prank: " + completedPrank.title);
+
+    if (HasPlayerCompletedThreePranks())
+    {
+        finalCompletedPrank = completedPrank;
+        TriggerEndGameScoring();
+        return;
+    }
+
+    if (activePranks.Count == 0)
+    {
+        ResetRound();
+        StartPlayerTurn();
+        return;
+    }
+
+    RefillHandToFour();
     RefreshAllDisplays();
-
-    Debug.Log("Prank completed: " + prank.title);
+    EndPlayerTurn();
 }
 
 
@@ -1428,6 +1449,24 @@ void UpdateCurrentPlayerStatsDisplay()
 
     if (activeFavorPointsText != null)
         activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
+}
+
+void ReshuffleDiscardIntoDeck()
+{
+    if (discardPile.Count == 0)
+    {
+        Debug.Log("No discard pile to reshuffle.");
+        return;
+    }
+
+    Debug.Log("Reshuffling discard pile into deck.");
+
+    deck.AddRange(discardPile);
+    discardPile.Clear();
+    ShufflePranksterDeck();
+
+    if (discardPileDisplay != null)
+        discardPileDisplay.UpdateTopDiscardCard();
 }
 
 }
