@@ -531,7 +531,9 @@ void StartDrawFromDeckTurn()
 {
     if (!CanClickDrawPile())
     {
-        Debug.Log("Draw pile is not a valid choice right now. pendingChoice = " + pendingChoice + ", deck.Count = " + deck.Count);
+        Debug.Log("Draw pile is not a valid choice right now. pendingChoice = " + pendingChoice +
+          ", deck.Count = " + deck.Count +
+          ", discardPile.Count = " + discardPile.Count);
         return;
     }
 
