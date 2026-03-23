@@ -93,32 +93,36 @@ public class DeckManager : MonoBehaviour
 
 
     void Start()
-    {
-        BuildPranksterDeck();
-        ShufflePranksterDeck();
+{
+    BuildPranksterDeck();
+    ShufflePranksterDeck();
 
-        Debug.Log("Prankster Deck created with " + deck.Count + " cards");
+    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
 
-        DealStartingHands();
+    DealStartingHands();
 
-        Debug.Log("Hands Dealt");
-        Debug.Log("Cards left in deck: " + deck.Count);
+    Debug.Log("Hands Dealt");
+    Debug.Log("Cards left in deck: " + deck.Count);
 
-        prankDeck = PrankDatabase.CreatePrankDeck();
-        
-        ShufflePrankDeck();
-        DealActivePranks();
-        ShowActivePrankCards();
-        // ShowActivePranks(); may need for debugging later
-        Debug.Log("Prank deck size: " + prankDeck.Count);
-        Debug.Log("Active pranks: " + activePranks.Count);
+    prankDeck = PrankDatabase.CreatePrankDeck();
     
-        UpdateActiveFavorDisplay();
-        StartPlayerTurn();
-        handDisplay.ShowCurrentPlayerHand();
-        if (endGameScoringPanel != null)
-            endGameScoringPanel.SetActive(false);
-    }
+    ShufflePrankDeck();
+    DealActivePranks();
+    ShowActivePrankCards();
+    // ShowActivePranks(); may need for debugging later
+    Debug.Log("Prank deck size: " + prankDeck.Count);
+    Debug.Log("Active pranks: " + activePranks.Count);
+
+    UpdateActiveFavorDisplay();
+    StartPlayerTurn();
+    handDisplay.ShowCurrentPlayerHand();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(false);
+}
 
 
     void BuildPranksterDeck()
@@ -219,10 +223,18 @@ public class DeckManager : MonoBehaviour
 
     void RefillHandToFour()
 {
-        while (GetCurrentPlayer().hand.Count < 4 && deck.Count > 0)
+    while (GetCurrentPlayer().hand.Count < 4)
+    {
+        int handCountBefore = GetCurrentPlayer().hand.Count;
+
+        DrawCard();
+
+        if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
-            DrawCard();
+            Debug.Log("Could not draw more cards. Stopping refill.");
+            break;
         }
+    }
 }
 
 
@@ -508,6 +520,10 @@ public class DeckManager : MonoBehaviour
 void EndPlayerTurn()
 {
     turnManager.NextPlayer();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+
     StartPlayerTurn();
 }
 
@@ -738,9 +754,10 @@ void PrintGameState()
     }
 
         bool CanClickDrawPile()
-    {
-        return pendingChoice == PendingChoiceType.ChooseAction && deck.Count > 0;
-    }
+        {
+            return pendingChoice == PendingChoiceType.ChooseAction &&
+                    (deck.Count > 0 || discardPile.Count > 0);
+        }
 
         bool CanClickDiscardPile()
     {

@@ -8,7 +8,7 @@ public class TurnManager : MonoBehaviour
 
     void Awake()   
     {
-    StartGame(2);
+    StartGame(3);
     }
 
     public void StartGame(int numberOfPlayers)
