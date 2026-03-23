@@ -3,8 +3,8 @@ guid: c81e608eb79ca4c5bb865bea24bef04f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1562568307075738617
-    second: The Shocking Toll Final_0
+      213: 7918233687928191272
+    second: TheShockingToll_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The Shocking Toll Final_0
+      name: TheShockingToll_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fb6880b89b5fa510800000000000000
-      internalID: 1562568307075738617
+      spriteID: 829bd79269733ed60800000000000000
+      internalID: 7918233687928191272
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      The Shocking Toll Final_0: 1562568307075738617
+      TheShockingToll_0: 7918233687928191272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

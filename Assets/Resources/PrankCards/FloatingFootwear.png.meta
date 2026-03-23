@@ -3,8 +3,8 @@ guid: 33b0d6f2914d846ddbdd1a8d6a9ddb84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4144723953425181331
-    second: Floating Footwear Final_0
+      213: -1653024647654602816
+    second: FloatingFootwear_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floating Footwear Final_0
+      name: FloatingFootwear_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39ae5f7d974058930800000000000000
-      internalID: 4144723953425181331
+      spriteID: 0c7059f47d64f09e0800000000000000
+      internalID: -1653024647654602816
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Floating Footwear Final_0: 4144723953425181331
+      FloatingFootwear_0: -1653024647654602816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

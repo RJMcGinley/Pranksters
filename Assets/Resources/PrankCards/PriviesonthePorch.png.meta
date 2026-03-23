@@ -3,8 +3,8 @@ guid: c648a22f83486470eba8807f93e195b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7848045262111820876
-    second: Privies on the Porch Final_0
+      213: 2996980732036226946
+    second: PriviesonthePorch_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Privies on the Porch Final_0
+      name: PriviesonthePorch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4ccc5dc59bd9ec60800000000000000
-      internalID: 7848045262111820876
+      spriteID: 28f95bbd81a679920800000000000000
+      internalID: 2996980732036226946
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Privies on the Porch Final_0: 7848045262111820876
+      PriviesonthePorch_0: 2996980732036226946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

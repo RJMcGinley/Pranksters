@@ -3,8 +3,8 @@ guid: a9281f7184b4d4710831f00d5db09f00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6261229661040652165
-    second: The Tilted Tumble Final_0
+      213: 6219652598555076237
+    second: TheTiltedTumble_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The Tilted Tumble Final_0
+      name: TheTiltedTumble_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58fa77b043b54e650800000000000000
-      internalID: 6261229661040652165
+      spriteID: d86e533d515a05650800000000000000
+      internalID: 6219652598555076237
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      The Tilted Tumble Final_0: 6261229661040652165
+      TheTiltedTumble_0: 6219652598555076237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

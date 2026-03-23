@@ -3,8 +3,8 @@ guid: 85f0d820f79474bbd89ced37b21c6941
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8020826727046036046
-    second: Soiled Spring Final_0
+      213: 3459361923534790607
+    second: SoiledSpring_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soiled Spring Final_0
+      name: SoiledSpring_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b54671869c40b090800000000000000
-      internalID: -8020826727046036046
+      spriteID: fcf9dc9475f120030800000000000000
+      internalID: 3459361923534790607
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soiled Spring Final_0: -8020826727046036046
+      SoiledSpring_0: 3459361923534790607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

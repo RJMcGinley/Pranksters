@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a344a1ec7047452e922429ece37f8ec
+guid: ad5a67057c5ff4b338ee601008fcb0bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2936935876458617070
-    second: GuanoteedDelivery 1_0
+      213: -5390565835236428633
+    second: EndGameScoringPanel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GuanoteedDelivery 1_0
+      name: EndGameScoringPanel_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 35
         width: 1125
-        height: 825
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee89a6c7e9712c820800000000000000
-      internalID: 2936935876458617070
+      spriteID: 7a4306ceeecd035b0800000000000000
+      internalID: -5390565835236428633
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GuanoteedDelivery 1_0: 2936935876458617070
+      EndGameScoringPanel_0: -5390565835236428633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

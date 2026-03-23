@@ -54,6 +54,38 @@ public class DeckManager : MonoBehaviour
     public TextMeshProUGUI activePlayerLabelText;
     public PrankPreviewPanel prankPreviewPanel;
 
+    public GameObject endGameCanvas;
+
+    [Header("End Game Scoring Panel")]
+    public GameObject endGameScoringPanel;
+
+    public GameObject player1Row;
+    public GameObject player2Row;
+    public GameObject player3Row;
+    public GameObject player4Row;
+
+    public TextMeshProUGUI player1NameText;
+    public TextMeshProUGUI player1PrankPointsText;
+    public TextMeshProUGUI player1FavorPointsText;
+    public TextMeshProUGUI player1TotalPointsText;
+
+    public TextMeshProUGUI player2NameText;
+    public TextMeshProUGUI player2PrankPointsText;
+    public TextMeshProUGUI player2FavorPointsText;
+    public TextMeshProUGUI player2TotalPointsText;
+
+    public TextMeshProUGUI player3NameText;
+    public TextMeshProUGUI player3PrankPointsText;
+    public TextMeshProUGUI player3FavorPointsText;
+    public TextMeshProUGUI player3TotalPointsText;
+
+    public TextMeshProUGUI player4NameText;
+    public TextMeshProUGUI player4PrankPointsText;
+    public TextMeshProUGUI player4FavorPointsText;
+    public TextMeshProUGUI player4TotalPointsText;
+
+    public Image finalPrankImage;
+
     Player GetCurrentPlayer()
     {
         return turnManager.GetCurrentPlayer();
@@ -84,6 +116,8 @@ public class DeckManager : MonoBehaviour
         UpdateActiveFavorDisplay();
         StartPlayerTurn();
         handDisplay.ShowCurrentPlayerHand();
+        if (endGameScoringPanel != null)
+            endGameScoringPanel.SetActive(false);
     }
 
 
@@ -293,7 +327,7 @@ public class DeckManager : MonoBehaviour
     Player player = GetCurrentPlayer();
 
     PrankCard completedPrank = activePranks[prankIndex];
-
+    finalCompletedPrank = completedPrank;
     lastPrankCompleterIndex = turnManager.currentPlayerIndex;
 
     // Remove required cards from hand and send them to the bottom of the discard pile
@@ -321,11 +355,9 @@ public class DeckManager : MonoBehaviour
 
     Debug.Log("Completed prank: " + completedPrank.title);
 
-    if (HasPlayerCompletedThreePranks())
+   if (HasPlayerCompletedFourPranks())
     {
-        finalCompletedPrank = completedPrank;
-        TriggerEndGameScoring();
-        return;
+     TriggerEndGameScoring();
     }
 
     if (activePranks.Count == 0)
@@ -341,10 +373,10 @@ public class DeckManager : MonoBehaviour
 }
 
 
-    bool HasPlayerCompletedThreePranks()
-    {
-        return GetCurrentPlayer().completedPranks.Count >= 4;
-    }
+    bool HasPlayerCompletedFourPranks()
+{
+    return GetCurrentPlayer().completedPranks.Count >= 4;
+}
 
 
     void DrawFromDiscard()
@@ -1162,15 +1194,44 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
 
 void TriggerEndGameScoring()
 {
+    Debug.Log("TriggerEndGameScoring START");
     gameOver = true;
 
     LogSeparator("GAME OVER TRIGGERED");
-    Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + " completed their 3rd prank.");
-    Debug.Log("Final completed prank: " + finalCompletedPrank.title);
+    Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + " triggered endgame.");
+
+    if (finalCompletedPrank != null)
+        Debug.Log("Final completed prank: " + finalCompletedPrank.title);
+    else
+        Debug.LogWarning("finalCompletedPrank is NULL");
+
     Debug.Log("Calculating final scores...");
 
+    // Turn on endgame UI
+    if (endGameCanvas != null)
+        endGameCanvas.SetActive(true);
+    else
+        Debug.LogWarning("endGameCanvas is NULL");
+
+    // 👇 ADD THIS BLOCK (safe assignment)
+    if (finalCompletedPrank != null && finalPrankImage != null)
+    {
+        finalPrankImage.sprite = finalCompletedPrank.cardSprite;
+    }
+    else
+    {
+        Debug.LogWarning("Final prank image not assigned or finalCompletedPrank is NULL");
+    }
+
     CalculateFinalScores();
+    Debug.Log("CalculateFinalScores COMPLETE");
+
+    RefreshAllDisplays();
     DeclareWinnerByScore();
+    ShowGameOverPanel();
+
+    Debug.Log("DeclareWinnerByScore COMPLETE");
+    Debug.Log("TriggerEndGameScoring END");
 }
 
 void CalculateFinalScores()
@@ -1287,6 +1348,13 @@ void DeclareWinnerByScore()
         Debug.Log("GAME OVER: Shared victory between " + sharedWinners + " with " + bestFinalScore + " points!");
     }
 }
+
+void ShowGameOverScreen()
+{
+    Debug.Log("Showing game over screen");
+}
+
+
 
 void ShowActivePrankCards()
 {
@@ -1467,6 +1535,58 @@ void ReshuffleDiscardIntoDeck()
 
     if (discardPileDisplay != null)
         discardPileDisplay.UpdateTopDiscardCard();
+}
+
+void ShowGameOverPanel()
+{
+    if (endGameScoringPanel == null)
+    {
+        Debug.LogWarning("EndGameScoringPanel is not assigned.");
+        return;
+    }
+
+    endGameScoringPanel.SetActive(true);
+
+    int playerCount = turnManager.players.Count;
+
+    if (player1Row != null) player1Row.SetActive(playerCount >= 1);
+    if (player2Row != null) player2Row.SetActive(playerCount >= 2);
+    if (player3Row != null) player3Row.SetActive(playerCount >= 3);
+    if (player4Row != null) player4Row.SetActive(playerCount >= 4);
+
+    PopulateScoreRow(0, player1NameText, player1PrankPointsText, player1FavorPointsText, player1TotalPointsText);
+    PopulateScoreRow(1, player2NameText, player2PrankPointsText, player2FavorPointsText, player2TotalPointsText);
+    PopulateScoreRow(2, player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
+    PopulateScoreRow(3, player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
+}
+
+void PopulateScoreRow(
+    int playerIndex,
+    TextMeshProUGUI nameText,
+    TextMeshProUGUI prankPointsText,
+    TextMeshProUGUI favorPointsText,
+    TextMeshProUGUI totalPointsText)
+{
+    if (playerIndex < 0 || playerIndex >= turnManager.players.Count)
+        return;
+
+    Player player = turnManager.players[playerIndex];
+
+    int prankPoints = player.renownPoints;
+    int favorPoints = player.favorPoints;
+    int totalPoints = player.finalScore;
+
+    if (nameText != null)
+        nameText.text = "Player " + (playerIndex + 1);
+
+    if (prankPointsText != null)
+        prankPointsText.text = prankPoints.ToString();
+
+    if (favorPointsText != null)
+        favorPointsText.text = favorPoints.ToString();
+
+    if (totalPointsText != null)
+        totalPointsText.text = totalPoints.ToString();
 }
 
 }

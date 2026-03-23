@@ -3,8 +3,8 @@ guid: 189b8fa0744d6406ea4edeff2f8c8b43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6214214956311179837
-    second: Fowl Play Exchange Final_0
+      213: 4616868570261410079
+    second: FowlPlayExchange_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fowl Play Exchange Final_0
+      name: FowlPlayExchange_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cd072beb6ca2c9a0800000000000000
-      internalID: -6214214956311179837
+      spriteID: f11d811e089621040800000000000000
+      internalID: 4616868570261410079
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fowl Play Exchange Final_0: -6214214956311179837
+      FowlPlayExchange_0: 4616868570261410079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

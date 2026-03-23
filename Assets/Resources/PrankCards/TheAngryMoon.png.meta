@@ -3,8 +3,8 @@ guid: 6eff8166f72b24776a5702f8b19bb0c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6941499534344463918
-    second: The Angry Moon Final_0
+      213: -6596138110000451123
+    second: TheAngryMoon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The Angry Moon Final_0
+      name: TheAngryMoon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2624218c09255060800000000000000
-      internalID: 6941499534344463918
+      spriteID: dc1b108365fc574a0800000000000000
+      internalID: -6596138110000451123
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      The Angry Moon Final_0: 6941499534344463918
+      TheAngryMoon_0: -6596138110000451123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

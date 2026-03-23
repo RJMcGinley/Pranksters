@@ -3,8 +3,8 @@ guid: f5ea1103c781349d39e697ed97567763
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1082190931869585832
-    second: Headless Hounds Final_0
+      213: 2702085390842880814
+    second: HeadlessHounds_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Headless Hounds Final_0
+      name: HeadlessHounds_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85ea3c6c4194bf0f0800000000000000
-      internalID: -1082190931869585832
+      spriteID: e2366f1c85cbf7520800000000000000
+      internalID: 2702085390842880814
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Headless Hounds Final_0: -1082190931869585832
+      HeadlessHounds_0: 2702085390842880814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

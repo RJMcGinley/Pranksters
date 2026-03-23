@@ -3,8 +3,8 @@ guid: d74de7589e6dc4ebd9e1f0fbc906ac38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6555062319034006734
-    second: Ram Stampede Final_0
+      213: 7749266887582885198
+    second: RamStampede_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ram Stampede Final_0
+      name: RamStampede_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2330e611d8db705a0800000000000000
-      internalID: -6555062319034006734
+      spriteID: e4523184d2dea8b60800000000000000
+      internalID: 7749266887582885198
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ram Stampede Final_0: -6555062319034006734
+      RamStampede_0: 7749266887582885198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

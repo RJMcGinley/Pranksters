@@ -3,8 +3,8 @@ guid: 643be31c8a1324706828cd521dd85706
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8699834832725044810
-    second: Operation Featherfall Final_0
+      213: 289389414517290468
+    second: OperationFeatherfall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Operation Featherfall Final_0
+      name: OperationFeatherfall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4e6529cfa50cb870800000000000000
-      internalID: 8699834832725044810
+      spriteID: 4e5bf06a32e140400800000000000000
+      internalID: 289389414517290468
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Operation Featherfall Final_0: 8699834832725044810
+      OperationFeatherfall_0: 289389414517290468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

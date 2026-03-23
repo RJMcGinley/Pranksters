@@ -3,8 +3,8 @@ guid: 1c1712e4a8ca8452a9a0cfa932341531
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5170645687871120914
-    second: Ink Stink Final_0
+      213: -8435598564459461479
+    second: InkStink_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ink Stink Final_0
+      name: InkStink_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee95903642d2e38b0800000000000000
-      internalID: -5170645687871120914
+      spriteID: 9944991accbbeea80800000000000000
+      internalID: -8435598564459461479
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ink Stink Final_0: -5170645687871120914
+      InkStink_0: -8435598564459461479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

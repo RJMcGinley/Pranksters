@@ -3,8 +3,8 @@ guid: 98282c700473742ccb58ca4f767aa3b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7740134700906837850
-    second: Foaming Fountain Final_0
+      213: -4746114040802461705
+    second: FoamingFountain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Foaming Fountain Final_0
+      name: FoamingFountain_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a806ce9f74859490800000000000000
-      internalID: -7740134700906837850
+      spriteID: 7f7b9760d6a622eb0800000000000000
+      internalID: -4746114040802461705
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Foaming Fountain Final_0: -7740134700906837850
+      FoamingFountain_0: -4746114040802461705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

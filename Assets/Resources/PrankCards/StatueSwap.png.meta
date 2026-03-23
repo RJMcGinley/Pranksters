@@ -3,8 +3,8 @@ guid: a4a4ae77d02374671b6f6b1d9a65dc34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4825541631466507901
-    second: Statue Swap Final_0
+      213: -7138202056236877492
+    second: StatueSwap_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Statue Swap Final_0
+      name: StatueSwap_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3817497f37b380db0800000000000000
-      internalID: -4825541631466507901
+      spriteID: c49b907bc0300fc90800000000000000
+      internalID: -7138202056236877492
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Statue Swap Final_0: -4825541631466507901
+      StatueSwap_0: -7138202056236877492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

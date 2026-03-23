@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a344a1ec7047452e922429ece37f8ec
+guid: 2d6a9790493fd4e2db99e4506fb157ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2936935876458617070
-    second: GuanoteedDelivery 1_0
+      213: -4711795665980622209
+    second: Ram Stampede updated art_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GuanoteedDelivery 1_0
+      name: Ram Stampede updated art_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee89a6c7e9712c820800000000000000
-      internalID: 2936935876458617070
+      spriteID: f7afff25ec65c9eb0800000000000000
+      internalID: -4711795665980622209
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GuanoteedDelivery 1_0: 2936935876458617070
+      Ram Stampede updated art_0: -4711795665980622209
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

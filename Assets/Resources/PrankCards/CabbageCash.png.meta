@@ -3,8 +3,8 @@ guid: a52b1117055e644f99481710e2adde41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6874599755432676907
-    second: Cabbage Cash Final_0
+      213: -8718962492259629939
+    second: CabbageCash_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cabbage Cash Final_0
+      name: CabbageCash_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d1b27412f38890a0800000000000000
-      internalID: -6874599755432676907
+      spriteID: d8409eeeec5000780800000000000000
+      internalID: -8718962492259629939
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cabbage Cash Final_0: -6874599755432676907
+      CabbageCash_0: -8718962492259629939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

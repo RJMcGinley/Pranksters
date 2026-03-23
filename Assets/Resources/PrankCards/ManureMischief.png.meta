@@ -3,8 +3,8 @@ guid: 00b9b1bc202944a75ae4442abafb4c82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8291149371570992550
-    second: Manure Mischief Final_0
+      213: 3549289180475964697
+    second: ManureMischief_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Manure Mischief Final_0
+      name: ManureMischief_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a53130dc64101370800000000000000
-      internalID: 8291149371570992550
+      spriteID: 91d386764bb914130800000000000000
+      internalID: 3549289180475964697
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Manure Mischief Final_0: 8291149371570992550
+      ManureMischief_0: 3549289180475964697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

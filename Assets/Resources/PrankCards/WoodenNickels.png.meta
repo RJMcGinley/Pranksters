@@ -3,8 +3,8 @@ guid: cb695d53f80f84be3a612579cbbc0ff5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8033926589829840919
-    second: Wooden Nickels Final_0
+      213: -8759498724026297679
+    second: WoodenNickels_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wooden Nickels Final_0
+      name: WoodenNickels_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ef70a50552c18090800000000000000
-      internalID: -8033926589829840919
+      spriteID: 1b2dceff152007680800000000000000
+      internalID: -8759498724026297679
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wooden Nickels Final_0: -8033926589829840919
+      WoodenNickels_0: -8759498724026297679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

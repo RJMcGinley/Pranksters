@@ -3,8 +3,8 @@ guid: ec1bcee0d5837410d87d4e3cf132ce25
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3625725613557561145
-    second: Grave Greetings Final_0
+      213: -4690043076481856836
+    second: GraveGreetings_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grave Greetings Final_0
+      name: GraveGreetings_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93732215c3a215230800000000000000
-      internalID: 3625725613557561145
+      spriteID: cbac40dbbae99eeb0800000000000000
+      internalID: -4690043076481856836
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grave Greetings Final_0: 3625725613557561145
+      GraveGreetings_0: -4690043076481856836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
