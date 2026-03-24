@@ -1,0 +1,5629 @@
+fileFormatVersion: 2
+guid: f39d7ea15497a47e280cf65f34dbc171
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9152875827635360907
+    second: WhoopeeAirRelease_0
+  - first:
+      213: 278905654697789782
+    second: WhoopeeAirRelease_1
+  - first:
+      213: -5811662644514362194
+    second: WhoopeeAirRelease_2
+  - first:
+      213: -1804880980383281794
+    second: WhoopeeAirRelease_3
+  - first:
+      213: -6321142257756166539
+    second: WhoopeeAirRelease_4
+  - first:
+      213: 4616347692586014909
+    second: WhoopeeAirRelease_5
+  - first:
+      213: 7230428786522090139
+    second: WhoopeeAirRelease_6
+  - first:
+      213: 3863647234099957797
+    second: WhoopeeAirRelease_7
+  - first:
+      213: 4958169994938339924
+    second: WhoopeeAirRelease_8
+  - first:
+      213: 4560777713844910390
+    second: WhoopeeAirRelease_9
+  - first:
+      213: -1144493862625396736
+    second: WhoopeeAirRelease_10
+  - first:
+      213: 764981111830705670
+    second: WhoopeeAirRelease_11
+  - first:
+      213: 6820245440507910608
+    second: WhoopeeAirRelease_12
+  - first:
+      213: -1054476789880013739
+    second: WhoopeeAirRelease_13
+  - first:
+      213: -821918316259409673
+    second: WhoopeeAirRelease_14
+  - first:
+      213: 4224038319421588480
+    second: WhoopeeAirRelease_15
+  - first:
+      213: 7561227774888444239
+    second: WhoopeeAirRelease_16
+  - first:
+      213: -4300482631709059247
+    second: WhoopeeAirRelease_17
+  - first:
+      213: 5348809273279588426
+    second: WhoopeeAirRelease_18
+  - first:
+      213: -3141178283435868355
+    second: WhoopeeAirRelease_19
+  - first:
+      213: 7187278634664157814
+    second: WhoopeeAirRelease_20
+  - first:
+      213: 3947602378384117150
+    second: WhoopeeAirRelease_21
+  - first:
+      213: 8966840693435951595
+    second: WhoopeeAirRelease_22
+  - first:
+      213: 6711174939000902724
+    second: WhoopeeAirRelease_23
+  - first:
+      213: 5017742088731215062
+    second: WhoopeeAirRelease_24
+  - first:
+      213: -6512446148520902211
+    second: WhoopeeAirRelease_25
+  - first:
+      213: 2589489226010538708
+    second: WhoopeeAirRelease_26
+  - first:
+      213: -5193732277356940094
+    second: WhoopeeAirRelease_27
+  - first:
+      213: 5119171694621639854
+    second: WhoopeeAirRelease_28
+  - first:
+      213: 584549591747725853
+    second: WhoopeeAirRelease_29
+  - first:
+      213: 5602553171081299272
+    second: WhoopeeAirRelease_30
+  - first:
+      213: 6615768004666203581
+    second: WhoopeeAirRelease_31
+  - first:
+      213: 997767156305939813
+    second: WhoopeeAirRelease_32
+  - first:
+      213: -8672834960033665690
+    second: WhoopeeAirRelease_33
+  - first:
+      213: -6298289060304332874
+    second: WhoopeeAirRelease_34
+  - first:
+      213: 869038159188636755
+    second: WhoopeeAirRelease_35
+  - first:
+      213: -8631149125923500302
+    second: WhoopeeAirRelease_36
+  - first:
+      213: -2282451705394978547
+    second: WhoopeeAirRelease_37
+  - first:
+      213: 7425376432385160
+    second: WhoopeeAirRelease_38
+  - first:
+      213: -5311290646289948845
+    second: WhoopeeAirRelease_39
+  - first:
+      213: -7435904074916570531
+    second: WhoopeeAirRelease_40
+  - first:
+      213: -3808471007994394743
+    second: WhoopeeAirRelease_41
+  - first:
+      213: 442924234751644855
+    second: WhoopeeAirRelease_42
+  - first:
+      213: -1536331704610682376
+    second: WhoopeeAirRelease_43
+  - first:
+      213: -1469054628621408085
+    second: WhoopeeAirRelease_44
+  - first:
+      213: -3898051538479992840
+    second: WhoopeeAirRelease_45
+  - first:
+      213: -3177455896994315763
+    second: WhoopeeAirRelease_46
+  - first:
+      213: 2593053809559402916
+    second: WhoopeeAirRelease_47
+  - first:
+      213: 3405319035400859999
+    second: WhoopeeAirRelease_48
+  - first:
+      213: 6090245848921659519
+    second: WhoopeeAirRelease_49
+  - first:
+      213: 4996589810279293300
+    second: WhoopeeAirRelease_50
+  - first:
+      213: 3593372008183346745
+    second: WhoopeeAirRelease_51
+  - first:
+      213: 4043855761880143120
+    second: WhoopeeAirRelease_52
+  - first:
+      213: 2767748624388982356
+    second: WhoopeeAirRelease_53
+  - first:
+      213: 4812678270272627187
+    second: WhoopeeAirRelease_54
+  - first:
+      213: -8189457832701795364
+    second: WhoopeeAirRelease_55
+  - first:
+      213: -3269004263461502124
+    second: WhoopeeAirRelease_56
+  - first:
+      213: 1896956296877184179
+    second: WhoopeeAirRelease_57
+  - first:
+      213: 461508624448899123
+    second: WhoopeeAirRelease_58
+  - first:
+      213: 5048193796909915826
+    second: WhoopeeAirRelease_59
+  - first:
+      213: 8599253411951810894
+    second: WhoopeeAirRelease_60
+  - first:
+      213: -3133719403577550492
+    second: WhoopeeAirRelease_61
+  - first:
+      213: -7543236120164356965
+    second: WhoopeeAirRelease_62
+  - first:
+      213: -21778729071861421
+    second: WhoopeeAirRelease_63
+  - first:
+      213: -1431607258943303118
+    second: WhoopeeAirRelease_64
+  - first:
+      213: 2481456801098961936
+    second: WhoopeeAirRelease_65
+  - first:
+      213: -4427878443576135133
+    second: WhoopeeAirRelease_66
+  - first:
+      213: 9171652357693306503
+    second: WhoopeeAirRelease_67
+  - first:
+      213: -1361511650385615919
+    second: WhoopeeAirRelease_68
+  - first:
+      213: 2826916809615608190
+    second: WhoopeeAirRelease_69
+  - first:
+      213: 4535651887655475577
+    second: WhoopeeAirRelease_70
+  - first:
+      213: -1561935067200578515
+    second: WhoopeeAirRelease_71
+  - first:
+      213: -7538272793138032410
+    second: WhoopeeAirRelease_72
+  - first:
+      213: -8806870439290803107
+    second: WhoopeeAirRelease_73
+  - first:
+      213: -1791137453973895844
+    second: WhoopeeAirRelease_74
+  - first:
+      213: -4878361501731205174
+    second: WhoopeeAirRelease_75
+  - first:
+      213: -4772405318305341130
+    second: WhoopeeAirRelease_76
+  - first:
+      213: 4278215965801491974
+    second: WhoopeeAirRelease_77
+  - first:
+      213: -3254628622442796848
+    second: WhoopeeAirRelease_78
+  - first:
+      213: 6937397672386345617
+    second: WhoopeeAirRelease_79
+  - first:
+      213: 5549142146088017490
+    second: WhoopeeAirRelease_80
+  - first:
+      213: -7210420724918956700
+    second: WhoopeeAirRelease_81
+  - first:
+      213: 3657683442583451423
+    second: WhoopeeAirRelease_82
+  - first:
+      213: 6928607891306185967
+    second: WhoopeeAirRelease_83
+  - first:
+      213: -917750391701217228
+    second: WhoopeeAirRelease_84
+  - first:
+      213: -3690750679396365712
+    second: WhoopeeAirRelease_85
+  - first:
+      213: 8060707308718862026
+    second: WhoopeeAirRelease_86
+  - first:
+      213: 82596458851224288
+    second: WhoopeeAirRelease_87
+  - first:
+      213: -4502554793932674275
+    second: WhoopeeAirRelease_88
+  - first:
+      213: -4370673369307545232
+    second: WhoopeeAirRelease_89
+  - first:
+      213: -4379389772363859231
+    second: WhoopeeAirRelease_90
+  - first:
+      213: 1197814602257534039
+    second: WhoopeeAirRelease_91
+  - first:
+      213: -2370253010903885874
+    second: WhoopeeAirRelease_92
+  - first:
+      213: -8835167726163933520
+    second: WhoopeeAirRelease_93
+  - first:
+      213: -5496776498930205059
+    second: WhoopeeAirRelease_94
+  - first:
+      213: 472734153270181926
+    second: WhoopeeAirRelease_95
+  - first:
+      213: -5300055164317569787
+    second: WhoopeeAirRelease_96
+  - first:
+      213: 2255639113699012300
+    second: WhoopeeAirRelease_97
+  - first:
+      213: -5890984013396742435
+    second: WhoopeeAirRelease_98
+  - first:
+      213: 6446113050892260548
+    second: WhoopeeAirRelease_99
+  - first:
+      213: -6875109895953361342
+    second: WhoopeeAirRelease_100
+  - first:
+      213: 1015413016049010933
+    second: WhoopeeAirRelease_101
+  - first:
+      213: -3924190653665108283
+    second: WhoopeeAirRelease_102
+  - first:
+      213: 2120096662265418481
+    second: WhoopeeAirRelease_103
+  - first:
+      213: -1023998120092756697
+    second: WhoopeeAirRelease_104
+  - first:
+      213: -5821408977626186121
+    second: WhoopeeAirRelease_105
+  - first:
+      213: -5227124114284546401
+    second: WhoopeeAirRelease_106
+  - first:
+      213: 7267594371114452877
+    second: WhoopeeAirRelease_107
+  - first:
+      213: 7408167093559254619
+    second: WhoopeeAirRelease_108
+  - first:
+      213: 4262696358989223629
+    second: WhoopeeAirRelease_109
+  - first:
+      213: -6188842586115493879
+    second: WhoopeeAirRelease_110
+  - first:
+      213: 7789285666394014526
+    second: WhoopeeAirRelease_111
+  - first:
+      213: -1018864111728222715
+    second: WhoopeeAirRelease_112
+  - first:
+      213: 6854759898773321935
+    second: WhoopeeAirRelease_113
+  - first:
+      213: 1297693122254756065
+    second: WhoopeeAirRelease_114
+  - first:
+      213: 9027111942988808920
+    second: WhoopeeAirRelease_115
+  - first:
+      213: 6869424446847310516
+    second: WhoopeeAirRelease_116
+  - first:
+      213: 5067083433040661651
+    second: WhoopeeAirRelease_117
+  - first:
+      213: -8492938102731885996
+    second: WhoopeeAirRelease_118
+  - first:
+      213: -200971743585935879
+    second: WhoopeeAirRelease_119
+  - first:
+      213: -5014942770188920090
+    second: WhoopeeAirRelease_120
+  - first:
+      213: -507324559118025081
+    second: WhoopeeAirRelease_121
+  - first:
+      213: 1828825006513792134
+    second: WhoopeeAirRelease_122
+  - first:
+      213: -5430693105555158171
+    second: WhoopeeAirRelease_123
+  - first:
+      213: -6402831232790234048
+    second: WhoopeeAirRelease_124
+  - first:
+      213: -3189786014387199722
+    second: WhoopeeAirRelease_125
+  - first:
+      213: 3634894482356352534
+    second: WhoopeeAirRelease_126
+  - first:
+      213: -4396579329840475463
+    second: WhoopeeAirRelease_127
+  - first:
+      213: 8969199949857570715
+    second: WhoopeeAirRelease_128
+  - first:
+      213: -1008475886747682956
+    second: WhoopeeAirRelease_129
+  - first:
+      213: 8259519629988912128
+    second: WhoopeeAirRelease_130
+  - first:
+      213: 349682603837396517
+    second: WhoopeeAirRelease_131
+  - first:
+      213: -3368750507245409848
+    second: WhoopeeAirRelease_132
+  - first:
+      213: -8945600397012459604
+    second: WhoopeeAirRelease_133
+  - first:
+      213: 6703061427299210833
+    second: WhoopeeAirRelease_134
+  - first:
+      213: 8873111369549516091
+    second: WhoopeeAirRelease_135
+  - first:
+      213: -2399250715679647534
+    second: WhoopeeAirRelease_136
+  - first:
+      213: -7778437978714724626
+    second: WhoopeeAirRelease_137
+  - first:
+      213: -2492854545967784184
+    second: WhoopeeAirRelease_138
+  - first:
+      213: 5950417062828325424
+    second: WhoopeeAirRelease_139
+  - first:
+      213: 3033318387009566001
+    second: WhoopeeAirRelease_140
+  - first:
+      213: 2585257557621074666
+    second: WhoopeeAirRelease_141
+  - first:
+      213: -1216083841708859081
+    second: WhoopeeAirRelease_142
+  - first:
+      213: 1223592461994680042
+    second: WhoopeeAirRelease_143
+  - first:
+      213: 5660369337808128821
+    second: WhoopeeAirRelease_144
+  - first:
+      213: 4517305853359570026
+    second: WhoopeeAirRelease_145
+  - first:
+      213: 2804374597499843829
+    second: WhoopeeAirRelease_146
+  - first:
+      213: 963720707197643945
+    second: WhoopeeAirRelease_147
+  - first:
+      213: -4061239216989235792
+    second: WhoopeeAirRelease_148
+  - first:
+      213: -3184807484875134240
+    second: WhoopeeAirRelease_149
+  - first:
+      213: -1520901989465999890
+    second: WhoopeeAirRelease_150
+  - first:
+      213: 4186802193521438929
+    second: WhoopeeAirRelease_151
+  - first:
+      213: -3714964853979482067
+    second: WhoopeeAirRelease_152
+  - first:
+      213: -7597709208796060269
+    second: WhoopeeAirRelease_153
+  - first:
+      213: -4347343283348886288
+    second: WhoopeeAirRelease_154
+  - first:
+      213: 2328924733717507982
+    second: WhoopeeAirRelease_155
+  - first:
+      213: 447762045416997544
+    second: WhoopeeAirRelease_156
+  - first:
+      213: 3386534116855924085
+    second: WhoopeeAirRelease_157
+  - first:
+      213: -8556500459540031134
+    second: WhoopeeAirRelease_158
+  - first:
+      213: 5723774015504511982
+    second: WhoopeeAirRelease_159
+  - first:
+      213: 2774380128219952628
+    second: WhoopeeAirRelease_160
+  - first:
+      213: 5451645081892415967
+    second: WhoopeeAirRelease_161
+  - first:
+      213: 5452961340934381063
+    second: WhoopeeAirRelease_162
+  - first:
+      213: 3347247684505425089
+    second: WhoopeeAirRelease_163
+  - first:
+      213: 4765808166182076647
+    second: WhoopeeAirRelease_164
+  - first:
+      213: -136475170829185042
+    second: WhoopeeAirRelease_165
+  - first:
+      213: 8963501947123315687
+    second: WhoopeeAirRelease_166
+  - first:
+      213: -7402007246635172331
+    second: WhoopeeAirRelease_167
+  - first:
+      213: -3395047165783383005
+    second: WhoopeeAirRelease_168
+  - first:
+      213: 4671615602791411218
+    second: WhoopeeAirRelease_169
+  - first:
+      213: -4827803228735126171
+    second: WhoopeeAirRelease_170
+  - first:
+      213: -2938776847969851095
+    second: WhoopeeAirRelease_171
+  - first:
+      213: -1741711546134578542
+    second: WhoopeeAirRelease_172
+  - first:
+      213: 5963417978317656466
+    second: WhoopeeAirRelease_173
+  - first:
+      213: 9041848520133843244
+    second: WhoopeeAirRelease_174
+  - first:
+      213: -8067752987537550261
+    second: WhoopeeAirRelease_175
+  - first:
+      213: 8411579095247746528
+    second: WhoopeeAirRelease_176
+  - first:
+      213: 8069462425624723285
+    second: WhoopeeAirRelease_177
+  - first:
+      213: 7867854096835205522
+    second: WhoopeeAirRelease_178
+  - first:
+      213: 6367717483921935394
+    second: WhoopeeAirRelease_179
+  - first:
+      213: -6845761079590433932
+    second: WhoopeeAirRelease_180
+  - first:
+      213: -1728779542396013722
+    second: WhoopeeAirRelease_181
+  - first:
+      213: -6796935738244607840
+    second: WhoopeeAirRelease_182
+  - first:
+      213: -117460676302961311
+    second: WhoopeeAirRelease_183
+  - first:
+      213: -5192268777745622057
+    second: WhoopeeAirRelease_184
+  - first:
+      213: 6659887693307869417
+    second: WhoopeeAirRelease_185
+  - first:
+      213: -8951086773512880744
+    second: WhoopeeAirRelease_186
+  - first:
+      213: 1657773948673268712
+    second: WhoopeeAirRelease_187
+  - first:
+      213: 9207595064123817793
+    second: WhoopeeAirRelease_188
+  - first:
+      213: -4408364366212591465
+    second: WhoopeeAirRelease_189
+  - first:
+      213: -6753949021215330092
+    second: WhoopeeAirRelease_190
+  - first:
+      213: 6398967549942517057
+    second: WhoopeeAirRelease_191
+  - first:
+      213: 737102712512740758
+    second: WhoopeeAirRelease_192
+  - first:
+      213: -8390074866887938212
+    second: WhoopeeAirRelease_193
+  - first:
+      213: 7132887696671071647
+    second: WhoopeeAirRelease_194
+  - first:
+      213: -8246628742305821232
+    second: WhoopeeAirRelease_195
+  - first:
+      213: 4358247335149512627
+    second: WhoopeeAirRelease_196
+  - first:
+      213: -3159908134058857709
+    second: WhoopeeAirRelease_197
+  - first:
+      213: -7245389820589430462
+    second: WhoopeeAirRelease_198
+  - first:
+      213: 932563069577605334
+    second: WhoopeeAirRelease_199
+  - first:
+      213: -7898591834223422879
+    second: WhoopeeAirRelease_200
+  - first:
+      213: -6676715310320696081
+    second: WhoopeeAirRelease_201
+  - first:
+      213: 835088187141076356
+    second: WhoopeeAirRelease_202
+  - first:
+      213: 360677619047609149
+    second: WhoopeeAirRelease_203
+  - first:
+      213: -3486309428169038238
+    second: WhoopeeAirRelease_204
+  - first:
+      213: 2764253587107932043
+    second: WhoopeeAirRelease_205
+  - first:
+      213: -3919812384485728634
+    second: WhoopeeAirRelease_206
+  - first:
+      213: 7787951053356618068
+    second: WhoopeeAirRelease_207
+  - first:
+      213: 2604028389237930501
+    second: WhoopeeAirRelease_208
+  - first:
+      213: 8128438042392336299
+    second: WhoopeeAirRelease_209
+  - first:
+      213: -8121459023451332764
+    second: WhoopeeAirRelease_210
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_0
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 2090
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84177b321c850f70800000000000000
+      internalID: 9152875827635360907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_1
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2143
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6590c1a173fded300800000000000000
+      internalID: 278905654697789782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_2
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 2152
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac6057cd93d85fa0800000000000000
+      internalID: -5811662644514362194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_3
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2153
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d456e9f46c3f6e0800000000000000
+      internalID: -1804880980383281794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_4
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2153
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576abbf7b9ac648a0800000000000000
+      internalID: -6321142257756166539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_5
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 2136
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8984894cf801040800000000000000
+      internalID: 4616347692586014909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_6
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 2112
+        width: 91
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a68624ca4a75460800000000000000
+      internalID: 7230428786522090139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_7
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2149
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520d2fd50be6e9530800000000000000
+      internalID: 3863647234099957797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_8
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 2155
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452dc444755fec440800000000000000
+      internalID: 4958169994938339924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_9
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 2141
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6397e3daa232b4f30800000000000000
+      internalID: 4560777713844910390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_10
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 2153
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008399e45e0fd10f0800000000000000
+      internalID: -1144493862625396736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_11
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 2122
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6067d86a442cd9a00800000000000000
+      internalID: 764981111830705670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_12
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 2144
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9937ac71166ae50800000000000000
+      internalID: 6820245440507910608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_13
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 2066
+        width: 117
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cbe4b42febd51f0800000000000000
+      internalID: -1054476789880013739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_14
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2141
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f088f465a5f794f0800000000000000
+      internalID: -821918316259409673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_15
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 2130
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00403cab87cce9a30800000000000000
+      internalID: 4224038319421588480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_16
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f410b04a990eee860800000000000000
+      internalID: 7561227774888444239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_17
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 2099
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1579e36d4dd9154c0800000000000000
+      internalID: -4300482631709059247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_18
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 2079
+        width: 183
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a482521e1b9ca3a40800000000000000
+      internalID: 5348809273279588426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_19
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 2124
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f32af6efa4864d0800000000000000
+      internalID: -3141178283435868355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_20
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2128
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67269e0a6d75eb360800000000000000
+      internalID: 7187278634664157814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_21
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 2133
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d8216a273b8c630800000000000000
+      internalID: 3947602378384117150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_22
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 2118
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be964c13a1e907c70800000000000000
+      internalID: 8966840693435951595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_23
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 2109
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44417a8bc02e22d50800000000000000
+      internalID: 6711174939000902724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_24
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2116
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4c95538d992a540800000000000000
+      internalID: 5017742088731215062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_25
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2119
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db10d8a7bb42f95a0800000000000000
+      internalID: -6512446148520902211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_26
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 2109
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d23f0a3bb6bfe320800000000000000
+      internalID: 2589489226010538708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_27
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2120
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b8a5e2082ce7b0800000000000000
+      internalID: -5193732277356940094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_28
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2108
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea44822a883fa0740800000000000000
+      internalID: 5119171694621639854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_29
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 2112
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a09b1b1ccbc1800800000000000000
+      internalID: 584549591747725853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_30
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 2104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8450a8dec6440cd40800000000000000
+      internalID: 5602553171081299272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_31
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 2097
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd168ac2fdefcb50800000000000000
+      internalID: 6615768004666203581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_32
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 2099
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dca2831f7c8dd00800000000000000
+      internalID: 997767156305939813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_33
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66daa93fd86e3a780800000000000000
+      internalID: -8672834960033665690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_34
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 2096
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7d4db287bf798a0800000000000000
+      internalID: -6298289060304332874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_35
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2105
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b2b6f9917f0c00800000000000000
+      internalID: 869038159188636755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_36
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2082
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe08e9899ff73880800000000000000
+      internalID: -8631149125923500302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_37
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2094
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01a2f2544a1350e0800000000000000
+      internalID: -2282451705394978547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_38
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2080
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c639c27516a1000800000000000000
+      internalID: 7425376432385160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_39
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2098
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f58013c418a46b0800000000000000
+      internalID: -5311290646289948845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_40
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 2066
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ad7b614ac5ec890800000000000000
+      internalID: -7435904074916570531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_41
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2093
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987ce1fdbc7952bc0800000000000000
+      internalID: -3808471007994394743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_42
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 2084
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b498caae35952600800000000000000
+      internalID: 442924234751644855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_43
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 2085
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98289547addaae0800000000000000
+      internalID: -1536331704610682376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_44
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2080
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8a061499edc9be0800000000000000
+      internalID: -1469054628621408085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_45
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2080
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff2cbc47c657e9c0800000000000000
+      internalID: -3898051538479992840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_46
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2074
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d020f2252b867e3d0800000000000000
+      internalID: -3177455896994315763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_47
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2078
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9f24283b06cf320800000000000000
+      internalID: 2593053809559402916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_48
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2077
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51b1fbde9f124f20800000000000000
+      internalID: 3405319035400859999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_49
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2060
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78d5c30556e48450800000000000000
+      internalID: 6090245848921659519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_50
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2080
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471a80a95f3775540800000000000000
+      internalID: 4996589810279293300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_51
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 2090
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b99d8dc83ed130800000000000000
+      internalID: 3593372008183346745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_52
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 2084
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01558c1e369ae1830800000000000000
+      internalID: 4043855761880143120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_53
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 2072
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4560840b5b4096620800000000000000
+      internalID: 2767748624388982356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_54
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2087
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f167dd53611ac240800000000000000
+      internalID: 4812678270272627187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_55
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2066
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e4c2ad73395e80800000000000000
+      internalID: -8189457832701795364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_56
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2060
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453c32b31f922a2d0800000000000000
+      internalID: -3269004263461502124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_57
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 2060
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b41ec593b7535a10800000000000000
+      internalID: 1896956296877184179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_58
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2065
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3384e0516ab976600800000000000000
+      internalID: 461508624448899123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_59
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 2068
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be55260389ce0640800000000000000
+      internalID: 5048193796909915826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_60
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2061
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4914f8da6fa65770800000000000000
+      internalID: 8599253411951810894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_61
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 2060
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469d20c3ecac284d0800000000000000
+      internalID: -3133719403577550492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_62
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1898
+        width: 199
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c25b8e6ba015790800000000000000
+      internalID: -7543236120164356965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_63
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 2046
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351230e7c50a2bff0800000000000000
+      internalID: -21778729071861421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_64
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2054
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23250d078c8e12ce0800000000000000
+      internalID: -1431607258943303118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_65
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2036
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0141bf230d7ef6220800000000000000
+      internalID: 2481456801098961936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_66
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 2037
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322f806f3040d82c0800000000000000
+      internalID: -4427878443576135133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_67
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 2052
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786feafc931484f70800000000000000
+      internalID: 9171652357693306503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_68
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 2036
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a5391e50fa1de0800000000000000
+      internalID: -1361511650385615919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_69
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 480
+        width: 1067
+        height: 1576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7908b65cd93b3720800000000000000
+      internalID: 2826916809615608190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_70
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2024
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979d8846c5fd1fe30800000000000000
+      internalID: 4535651887655475577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_71
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 2016
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c9845f454e25ae0800000000000000
+      internalID: -1561935067200578515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_72
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2012
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0140985dca26790800000000000000
+      internalID: -7538272793138032410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_73
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2021
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cee2b0ff5b7c580800000000000000
+      internalID: -8806870439290803107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_74
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 2036
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c550df7b9f99427e0800000000000000
+      internalID: -1791137453973895844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_75
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2009
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfce539f049c4cb0800000000000000
+      internalID: -4878361501731205174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_76
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 2020
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a936f5a205cdb0800000000000000
+      internalID: -4772405318305341130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_77
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 2000
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea00201c64f5b30800000000000000
+      internalID: 4278215965801491974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_78
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 2032
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d86a7bf28c35d2d0800000000000000
+      internalID: -3254628622442796848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_79
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2017
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ab5385d66964060800000000000000
+      internalID: 6937397672386345617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_80
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 2018
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e99b99163820d40800000000000000
+      internalID: 5549142146088017490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_81
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1978
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d471a9d807feb90800000000000000
+      internalID: -7210420724918956700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_82
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1990
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17b30836b3b2c230800000000000000
+      internalID: 3657683442583451423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_83
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1983
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe40645fa2c572060800000000000000
+      internalID: 6928607891306185967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_84
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1933
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306c2691ee7343f0800000000000000
+      internalID: -917750391701217228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_85
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1925
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a4c00cfc1d7ccc0800000000000000
+      internalID: -3690750679396365712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_86
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1936
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace259ef6926ddf60800000000000000
+      internalID: 8060707308718862026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_87
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1890
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea488daa01752100800000000000000
+      internalID: 82596458851224288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_88
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1919
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b29ed3546b381c0800000000000000
+      internalID: -4502554793932674275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_89
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1897
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0710a293abf3853c0800000000000000
+      internalID: -4370673369307545232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_90
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1905
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaf54d74384933c0800000000000000
+      internalID: -4379389772363859231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_91
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1870
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c0652d80e7f9010800000000000000
+      internalID: 1197814602257534039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_92
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1904
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec71649d17b2b1fd0800000000000000
+      internalID: -2370253010903885874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_93
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1900
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6c00783cd236580800000000000000
+      internalID: -8835167726163933520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_94
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1835
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ebc8bb5e687b3b0800000000000000
+      internalID: -5496776498930205059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_95
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1868
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6204dde253d7f8600800000000000000
+      internalID: 472734153270181926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_96
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1874
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d60e0b8eb6276b0800000000000000
+      internalID: -5300055164317569787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_97
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1869
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccea181b2d3ad4f10800000000000000
+      internalID: 2255639113699012300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_98
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1869
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde6bf760450f3ea0800000000000000
+      internalID: -5890984013396742435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_99
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1851
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c45174baa1357950800000000000000
+      internalID: 6446113050892260548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_100
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1835
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2465debb9f3b690a0800000000000000
+      internalID: -6875109895953361342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_101
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1815
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8c8e912c8771e00800000000000000
+      internalID: 1015413016049010933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_102
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1825
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce126944697a89c0800000000000000
+      internalID: -3924190653665108283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_103
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1803
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f252db7ea81c6d10800000000000000
+      internalID: 2120096662265418481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_104
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 303
+        width: 842
+        height: 1510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725143992270ac1f0800000000000000
+      internalID: -1023998120092756697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_105
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1809
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e3254c063363fa0800000000000000
+      internalID: -5821408977626186121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_106
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1613
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96f03300568577b0800000000000000
+      internalID: -5227124114284546401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_107
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1701
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87c7ed339eabd460800000000000000
+      internalID: 7267594371114452877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_108
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1663
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e5650b8b81fc660800000000000000
+      internalID: 7408167093559254619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_109
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1710
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc657e6f0c3282b30800000000000000
+      internalID: 4262696358989223629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_110
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1493
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900b6c33570dc1aa0800000000000000
+      internalID: -6188842586115493879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_111
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1478
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33057f4b0a191c60800000000000000
+      internalID: 7789285666394014526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_112
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1495
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e9b021d744cd1f0800000000000000
+      internalID: -1018864111728222715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_113
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1494
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8f9f25fcff02f50800000000000000
+      internalID: 6854759898773321935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_114
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 1380
+        width: 297
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8567be405520210800000000000000
+      internalID: 1297693122254756065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_115
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1411
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2c8850c7eb64d70800000000000000
+      internalID: 9027111942988808920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_116
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1394
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bad7bd7329155f50800000000000000
+      internalID: 6869424446847310516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_117
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1407
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cc7a92985e15640800000000000000
+      internalID: 5067083433040661651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_118
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1343
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45239470bc5032a80800000000000000
+      internalID: -8492938102731885996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_119
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1284
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd5ba59341063df0800000000000000
+      internalID: -200971743585935879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_120
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1355
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ead9fdee18576ab0800000000000000
+      internalID: -5014942770188920090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_121
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 290
+        width: 781
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e30fb500f95f8f0800000000000000
+      internalID: -507324559118025081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_122
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1324
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6842b9567aa416910800000000000000
+      internalID: 1828825006513792134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_123
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1332
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bc83fb46d42a4b0800000000000000
+      internalID: -5430693105555158171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_124
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1233
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cf2ccdae29427a0800000000000000
+      internalID: -6402831232790234048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_125
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1306
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61121f6258a9bb3d0800000000000000
+      internalID: -3189786014387199722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_126
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1302
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616b0e0f54db17230800000000000000
+      internalID: 3634894482356352534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_127
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1246
+        width: 29
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b29802c4663cf2c0800000000000000
+      internalID: -4396579329840475463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_128
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1293
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f36b265dff87c70800000000000000
+      internalID: 8969199949857570715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_129
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1284
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4777bdd268c2102f0800000000000000
+      internalID: -1008475886747682956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_130
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1296
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cdad8b755bf9270800000000000000
+      internalID: 8259519629988912128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_131
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1269
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5269cd9b9725ad400800000000000000
+      internalID: 349682603837396517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_132
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 1281
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c968b6134bcf31d0800000000000000
+      internalID: -3368750507245409848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_133
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 1266
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9a71b5d7dad380800000000000000
+      internalID: -8945600397012459604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_134
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1280
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156dac19ade060d50800000000000000
+      internalID: 6703061427299210833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_135
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1237
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d8a7267cf932b70800000000000000
+      internalID: 8873111369549516091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_136
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 1265
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d810d49f2624bed0800000000000000
+      internalID: -2399250715679647534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_137
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1268
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee62d4bcedf6d0490800000000000000
+      internalID: -7778437978714724626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_138
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1258
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f5fd68ff9976dd0800000000000000
+      internalID: -2492854545967784184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_139
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1252
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a3e4fbac0249250800000000000000
+      internalID: 5950417062828325424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_140
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 1245
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135bd547003881a20800000000000000
+      internalID: 3033318387009566001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_141
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 1234
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeae5e62d0ea0e320800000000000000
+      internalID: 2585257557621074666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_142
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1227
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731e9d5603a9f1fe0800000000000000
+      internalID: -1216083841708859081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_143
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1229
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeed90f7cd21bf010800000000000000
+      internalID: 1223592461994680042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_144
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1228
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b019d3cebad8e40800000000000000
+      internalID: 5660369337808128821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_145
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 1229
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c3a4b6db1b0be30800000000000000
+      internalID: 4517305853359570026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_146
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1159
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f47b1596d32be620800000000000000
+      internalID: 2804374597499843829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_147
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 1177
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac243f80e2df5d00800000000000000
+      internalID: 963720707197643945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_148
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1219
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b59873137493a7c0800000000000000
+      internalID: -4061239216989235792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_149
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1221
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea2302677a4dc3d0800000000000000
+      internalID: -3184807484875134240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_150
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1222
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b1bbd2bba4eae0800000000000000
+      internalID: -1520901989465999890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_151
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1066
+        width: 139
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0fba199628a1a30800000000000000
+      internalID: 4186802193521438929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_152
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28fd75e52bc17cc0800000000000000
+      internalID: -3714964853979482067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_153
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1166
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3952ffe9ab38f8690800000000000000
+      internalID: -7597709208796060269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_154
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 1159
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc2f4721522ba3c0800000000000000
+      internalID: -4347343283348886288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_155
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f6ad5c4b0025020800000000000000
+      internalID: 2328924733717507982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_156
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1162
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a28bfc3535c63600800000000000000
+      internalID: 447762045416997544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_157
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1161
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57540fe26d26ffe20800000000000000
+      internalID: 3386534116855924085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_158
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1134
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26956a49a24314980800000000000000
+      internalID: -8556500459540031134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_159
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1049
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3f1c8242eee6f40800000000000000
+      internalID: 5723774015504511982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_160
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 1021
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5f37ef604908620800000000000000
+      internalID: 2774380128219952628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_161
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1020
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9e3b3615228ab40800000000000000
+      internalID: 5451645081892415967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_162
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1010
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ed454d27fccab40800000000000000
+      internalID: 5452961340934381063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_163
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1012
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4d13ad800d37e20800000000000000
+      internalID: 3347247684505425089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_164
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1005
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e040fcd64d832240800000000000000
+      internalID: 4765808166182076647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_165
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1000
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc0122e842b1ef0800000000000000
+      internalID: -136475170829185042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_166
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 994
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3becdb781c46c70800000000000000
+      internalID: 8963501947123315687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_167
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 994
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e717f60a9c64990800000000000000
+      internalID: -7402007246635172331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_168
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 888
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324e8c7279e52e0d0800000000000000
+      internalID: -3395047165783383005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_169
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 950
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eed83b3a9e4d040800000000000000
+      internalID: 4671615602791411218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_170
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 712
+        width: 91
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56542c1da82300db0800000000000000
+      internalID: -4827803228735126171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_171
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 893
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9296d9ee60e5737d0800000000000000
+      internalID: -2938776847969851095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_172
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 805
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ab377a39234d7e0800000000000000
+      internalID: -1741711546134578542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_173
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 762
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2915dc44e0152c250800000000000000
+      internalID: 5963417978317656466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_174
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 584
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c291873c2591b7d70800000000000000
+      internalID: 9041848520133843244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_175
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 611
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b445a321765990090800000000000000
+      internalID: -8067752987537550261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_176
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 581
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5f754ee9eebb470800000000000000
+      internalID: 8411579095247746528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_177
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 560
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f39bf725d7cff60800000000000000
+      internalID: 8069462425624723285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_178
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 590
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299d67a8d9b303d60800000000000000
+      internalID: 7867854096835205522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_179
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 463
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c0633605dae5850800000000000000
+      internalID: 6367717483921935394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_180
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 461
+        width: 43
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b41d98198fef0a0800000000000000
+      internalID: -6845761079590433932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_181
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 549
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663f5886a242208e0800000000000000
+      internalID: -1728779542396013722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_182
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 332
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0d5c035fe6ca1a0800000000000000
+      internalID: -6796935738244607840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_183
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 346
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16582e12322be5ef0800000000000000
+      internalID: -117460676302961311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_184
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 332
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbde147e0b51f7b0800000000000000
+      internalID: -5192268777745622057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_185
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 289
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e87c9b429cac6c50800000000000000
+      internalID: 6659887693307869417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_186
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 329
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d311f110a57c380800000000000000
+      internalID: -8951086773512880744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_187
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 289
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb11908f98910710800000000000000
+      internalID: 1657773948673268712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_188
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 320
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f7db84de2f7cf70800000000000000
+      internalID: 9207595064123817793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_189
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 324
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790986727f752d2c0800000000000000
+      internalID: -4408364366212591465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_190
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 308
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0fc5f26272542a0800000000000000
+      internalID: -6753949021215330092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_191
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 309
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d439f5513bdc850800000000000000
+      internalID: 6398967549942517057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_192
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 301
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d7c4ef207ba3a00800000000000000
+      internalID: 737102712512740758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_193
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 314
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f26307c57709b80800000000000000
+      internalID: -8390074866887938212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_194
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 310
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d55d6819b1df260800000000000000
+      internalID: 7132887696671071647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_195
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 313
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddc554f9d61e8d80800000000000000
+      internalID: -8246628742305821232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_196
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 303
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b721ee3cda9b7c30800000000000000
+      internalID: 4358247335149512627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_197
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 290
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bed824b40c524d0800000000000000
+      internalID: -3159908134058857709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_198
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 298
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249298c8854337b90800000000000000
+      internalID: -7245389820589430462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_199
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 290
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d032dcbb2121fc00800000000000000
+      internalID: 932563069577605334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_200
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 302
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162df474390926290800000000000000
+      internalID: -7898591834223422879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_201
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe44cedccca8753a0800000000000000
+      internalID: -6676715310320696081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_202
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 296
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4853bae1844d69b00800000000000000
+      internalID: 835088187141076356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_203
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 295
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3334c13262610500800000000000000
+      internalID: 360677619047609149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_204
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 290
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a3ecdb042e9fc0800000000000000
+      internalID: -3486309428169038238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_205
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 297
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87eaa8edf99c5620800000000000000
+      internalID: 2764253587107932043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_206
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 296
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e1d8487670a99c0800000000000000
+      internalID: -3919812384485728634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_207
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 290
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451537f783c541c60800000000000000
+      internalID: 7787951053356618068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_208
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 295
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a3f85f50e532420800000000000000
+      internalID: 2604028389237930501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_209
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 290
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7119f45530ec070800000000000000
+      internalID: 8128438042392336299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeAirRelease_210
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 291
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fda492c08ca4f80800000000000000
+      internalID: -8121459023451332764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WhoopeeAirRelease_0: 9152875827635360907
+      WhoopeeAirRelease_1: 278905654697789782
+      WhoopeeAirRelease_10: -1144493862625396736
+      WhoopeeAirRelease_100: -6875109895953361342
+      WhoopeeAirRelease_101: 1015413016049010933
+      WhoopeeAirRelease_102: -3924190653665108283
+      WhoopeeAirRelease_103: 2120096662265418481
+      WhoopeeAirRelease_104: -1023998120092756697
+      WhoopeeAirRelease_105: -5821408977626186121
+      WhoopeeAirRelease_106: -5227124114284546401
+      WhoopeeAirRelease_107: 7267594371114452877
+      WhoopeeAirRelease_108: 7408167093559254619
+      WhoopeeAirRelease_109: 4262696358989223629
+      WhoopeeAirRelease_11: 764981111830705670
+      WhoopeeAirRelease_110: -6188842586115493879
+      WhoopeeAirRelease_111: 7789285666394014526
+      WhoopeeAirRelease_112: -1018864111728222715
+      WhoopeeAirRelease_113: 6854759898773321935
+      WhoopeeAirRelease_114: 1297693122254756065
+      WhoopeeAirRelease_115: 9027111942988808920
+      WhoopeeAirRelease_116: 6869424446847310516
+      WhoopeeAirRelease_117: 5067083433040661651
+      WhoopeeAirRelease_118: -8492938102731885996
+      WhoopeeAirRelease_119: -200971743585935879
+      WhoopeeAirRelease_12: 6820245440507910608
+      WhoopeeAirRelease_120: -5014942770188920090
+      WhoopeeAirRelease_121: -507324559118025081
+      WhoopeeAirRelease_122: 1828825006513792134
+      WhoopeeAirRelease_123: -5430693105555158171
+      WhoopeeAirRelease_124: -6402831232790234048
+      WhoopeeAirRelease_125: -3189786014387199722
+      WhoopeeAirRelease_126: 3634894482356352534
+      WhoopeeAirRelease_127: -4396579329840475463
+      WhoopeeAirRelease_128: 8969199949857570715
+      WhoopeeAirRelease_129: -1008475886747682956
+      WhoopeeAirRelease_13: -1054476789880013739
+      WhoopeeAirRelease_130: 8259519629988912128
+      WhoopeeAirRelease_131: 349682603837396517
+      WhoopeeAirRelease_132: -3368750507245409848
+      WhoopeeAirRelease_133: -8945600397012459604
+      WhoopeeAirRelease_134: 6703061427299210833
+      WhoopeeAirRelease_135: 8873111369549516091
+      WhoopeeAirRelease_136: -2399250715679647534
+      WhoopeeAirRelease_137: -7778437978714724626
+      WhoopeeAirRelease_138: -2492854545967784184
+      WhoopeeAirRelease_139: 5950417062828325424
+      WhoopeeAirRelease_14: -821918316259409673
+      WhoopeeAirRelease_140: 3033318387009566001
+      WhoopeeAirRelease_141: 2585257557621074666
+      WhoopeeAirRelease_142: -1216083841708859081
+      WhoopeeAirRelease_143: 1223592461994680042
+      WhoopeeAirRelease_144: 5660369337808128821
+      WhoopeeAirRelease_145: 4517305853359570026
+      WhoopeeAirRelease_146: 2804374597499843829
+      WhoopeeAirRelease_147: 963720707197643945
+      WhoopeeAirRelease_148: -4061239216989235792
+      WhoopeeAirRelease_149: -3184807484875134240
+      WhoopeeAirRelease_15: 4224038319421588480
+      WhoopeeAirRelease_150: -1520901989465999890
+      WhoopeeAirRelease_151: 4186802193521438929
+      WhoopeeAirRelease_152: -3714964853979482067
+      WhoopeeAirRelease_153: -7597709208796060269
+      WhoopeeAirRelease_154: -4347343283348886288
+      WhoopeeAirRelease_155: 2328924733717507982
+      WhoopeeAirRelease_156: 447762045416997544
+      WhoopeeAirRelease_157: 3386534116855924085
+      WhoopeeAirRelease_158: -8556500459540031134
+      WhoopeeAirRelease_159: 5723774015504511982
+      WhoopeeAirRelease_16: 7561227774888444239
+      WhoopeeAirRelease_160: 2774380128219952628
+      WhoopeeAirRelease_161: 5451645081892415967
+      WhoopeeAirRelease_162: 5452961340934381063
+      WhoopeeAirRelease_163: 3347247684505425089
+      WhoopeeAirRelease_164: 4765808166182076647
+      WhoopeeAirRelease_165: -136475170829185042
+      WhoopeeAirRelease_166: 8963501947123315687
+      WhoopeeAirRelease_167: -7402007246635172331
+      WhoopeeAirRelease_168: -3395047165783383005
+      WhoopeeAirRelease_169: 4671615602791411218
+      WhoopeeAirRelease_17: -4300482631709059247
+      WhoopeeAirRelease_170: -4827803228735126171
+      WhoopeeAirRelease_171: -2938776847969851095
+      WhoopeeAirRelease_172: -1741711546134578542
+      WhoopeeAirRelease_173: 5963417978317656466
+      WhoopeeAirRelease_174: 9041848520133843244
+      WhoopeeAirRelease_175: -8067752987537550261
+      WhoopeeAirRelease_176: 8411579095247746528
+      WhoopeeAirRelease_177: 8069462425624723285
+      WhoopeeAirRelease_178: 7867854096835205522
+      WhoopeeAirRelease_179: 6367717483921935394
+      WhoopeeAirRelease_18: 5348809273279588426
+      WhoopeeAirRelease_180: -6845761079590433932
+      WhoopeeAirRelease_181: -1728779542396013722
+      WhoopeeAirRelease_182: -6796935738244607840
+      WhoopeeAirRelease_183: -117460676302961311
+      WhoopeeAirRelease_184: -5192268777745622057
+      WhoopeeAirRelease_185: 6659887693307869417
+      WhoopeeAirRelease_186: -8951086773512880744
+      WhoopeeAirRelease_187: 1657773948673268712
+      WhoopeeAirRelease_188: 9207595064123817793
+      WhoopeeAirRelease_189: -4408364366212591465
+      WhoopeeAirRelease_19: -3141178283435868355
+      WhoopeeAirRelease_190: -6753949021215330092
+      WhoopeeAirRelease_191: 6398967549942517057
+      WhoopeeAirRelease_192: 737102712512740758
+      WhoopeeAirRelease_193: -8390074866887938212
+      WhoopeeAirRelease_194: 7132887696671071647
+      WhoopeeAirRelease_195: -8246628742305821232
+      WhoopeeAirRelease_196: 4358247335149512627
+      WhoopeeAirRelease_197: -3159908134058857709
+      WhoopeeAirRelease_198: -7245389820589430462
+      WhoopeeAirRelease_199: 932563069577605334
+      WhoopeeAirRelease_2: -5811662644514362194
+      WhoopeeAirRelease_20: 7187278634664157814
+      WhoopeeAirRelease_200: -7898591834223422879
+      WhoopeeAirRelease_201: -6676715310320696081
+      WhoopeeAirRelease_202: 835088187141076356
+      WhoopeeAirRelease_203: 360677619047609149
+      WhoopeeAirRelease_204: -3486309428169038238
+      WhoopeeAirRelease_205: 2764253587107932043
+      WhoopeeAirRelease_206: -3919812384485728634
+      WhoopeeAirRelease_207: 7787951053356618068
+      WhoopeeAirRelease_208: 2604028389237930501
+      WhoopeeAirRelease_209: 8128438042392336299
+      WhoopeeAirRelease_21: 3947602378384117150
+      WhoopeeAirRelease_210: -8121459023451332764
+      WhoopeeAirRelease_22: 8966840693435951595
+      WhoopeeAirRelease_23: 6711174939000902724
+      WhoopeeAirRelease_24: 5017742088731215062
+      WhoopeeAirRelease_25: -6512446148520902211
+      WhoopeeAirRelease_26: 2589489226010538708
+      WhoopeeAirRelease_27: -5193732277356940094
+      WhoopeeAirRelease_28: 5119171694621639854
+      WhoopeeAirRelease_29: 584549591747725853
+      WhoopeeAirRelease_3: -1804880980383281794
+      WhoopeeAirRelease_30: 5602553171081299272
+      WhoopeeAirRelease_31: 6615768004666203581
+      WhoopeeAirRelease_32: 997767156305939813
+      WhoopeeAirRelease_33: -8672834960033665690
+      WhoopeeAirRelease_34: -6298289060304332874
+      WhoopeeAirRelease_35: 869038159188636755
+      WhoopeeAirRelease_36: -8631149125923500302
+      WhoopeeAirRelease_37: -2282451705394978547
+      WhoopeeAirRelease_38: 7425376432385160
+      WhoopeeAirRelease_39: -5311290646289948845
+      WhoopeeAirRelease_4: -6321142257756166539
+      WhoopeeAirRelease_40: -7435904074916570531
+      WhoopeeAirRelease_41: -3808471007994394743
+      WhoopeeAirRelease_42: 442924234751644855
+      WhoopeeAirRelease_43: -1536331704610682376
+      WhoopeeAirRelease_44: -1469054628621408085
+      WhoopeeAirRelease_45: -3898051538479992840
+      WhoopeeAirRelease_46: -3177455896994315763
+      WhoopeeAirRelease_47: 2593053809559402916
+      WhoopeeAirRelease_48: 3405319035400859999
+      WhoopeeAirRelease_49: 6090245848921659519
+      WhoopeeAirRelease_5: 4616347692586014909
+      WhoopeeAirRelease_50: 4996589810279293300
+      WhoopeeAirRelease_51: 3593372008183346745
+      WhoopeeAirRelease_52: 4043855761880143120
+      WhoopeeAirRelease_53: 2767748624388982356
+      WhoopeeAirRelease_54: 4812678270272627187
+      WhoopeeAirRelease_55: -8189457832701795364
+      WhoopeeAirRelease_56: -3269004263461502124
+      WhoopeeAirRelease_57: 1896956296877184179
+      WhoopeeAirRelease_58: 461508624448899123
+      WhoopeeAirRelease_59: 5048193796909915826
+      WhoopeeAirRelease_6: 7230428786522090139
+      WhoopeeAirRelease_60: 8599253411951810894
+      WhoopeeAirRelease_61: -3133719403577550492
+      WhoopeeAirRelease_62: -7543236120164356965
+      WhoopeeAirRelease_63: -21778729071861421
+      WhoopeeAirRelease_64: -1431607258943303118
+      WhoopeeAirRelease_65: 2481456801098961936
+      WhoopeeAirRelease_66: -4427878443576135133
+      WhoopeeAirRelease_67: 9171652357693306503
+      WhoopeeAirRelease_68: -1361511650385615919
+      WhoopeeAirRelease_69: 2826916809615608190
+      WhoopeeAirRelease_7: 3863647234099957797
+      WhoopeeAirRelease_70: 4535651887655475577
+      WhoopeeAirRelease_71: -1561935067200578515
+      WhoopeeAirRelease_72: -7538272793138032410
+      WhoopeeAirRelease_73: -8806870439290803107
+      WhoopeeAirRelease_74: -1791137453973895844
+      WhoopeeAirRelease_75: -4878361501731205174
+      WhoopeeAirRelease_76: -4772405318305341130
+      WhoopeeAirRelease_77: 4278215965801491974
+      WhoopeeAirRelease_78: -3254628622442796848
+      WhoopeeAirRelease_79: 6937397672386345617
+      WhoopeeAirRelease_8: 4958169994938339924
+      WhoopeeAirRelease_80: 5549142146088017490
+      WhoopeeAirRelease_81: -7210420724918956700
+      WhoopeeAirRelease_82: 3657683442583451423
+      WhoopeeAirRelease_83: 6928607891306185967
+      WhoopeeAirRelease_84: -917750391701217228
+      WhoopeeAirRelease_85: -3690750679396365712
+      WhoopeeAirRelease_86: 8060707308718862026
+      WhoopeeAirRelease_87: 82596458851224288
+      WhoopeeAirRelease_88: -4502554793932674275
+      WhoopeeAirRelease_89: -4370673369307545232
+      WhoopeeAirRelease_9: 4560777713844910390
+      WhoopeeAirRelease_90: -4379389772363859231
+      WhoopeeAirRelease_91: 1197814602257534039
+      WhoopeeAirRelease_92: -2370253010903885874
+      WhoopeeAirRelease_93: -8835167726163933520
+      WhoopeeAirRelease_94: -5496776498930205059
+      WhoopeeAirRelease_95: 472734153270181926
+      WhoopeeAirRelease_96: -5300055164317569787
+      WhoopeeAirRelease_97: 2255639113699012300
+      WhoopeeAirRelease_98: -5890984013396742435
+      WhoopeeAirRelease_99: 6446113050892260548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

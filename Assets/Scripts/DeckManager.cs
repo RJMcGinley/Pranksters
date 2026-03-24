@@ -85,6 +85,9 @@ public class DeckManager : MonoBehaviour
     public TextMeshProUGUI player4TotalPointsText;
 
     public Image finalPrankImage;
+    public GameObject endTurnButton;
+
+    public bool hasTakenActionThisTurn = false;
 
     Player GetCurrentPlayer()
     {
@@ -256,7 +259,7 @@ public class DeckManager : MonoBehaviour
         Debug.Log("Favor gained: " + favorGained);
         Debug.Log("Total favor points: " + player.favorPoints);
 
-        EndPlayerTurn();
+        FinishActionAndWaitForEndTurn();
     }
 
 
@@ -353,7 +356,7 @@ public class DeckManager : MonoBehaviour
 
     RefillHandToFour();
     RefreshAllDisplays();
-    EndPlayerTurn();
+    FinishActionAndWaitForEndTurn();
 }
 
 
@@ -455,6 +458,11 @@ public class DeckManager : MonoBehaviour
 
     void StartPlayerTurn()
 {
+    hasTakenActionThisTurn = false;
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+
     Debug.Log("==================================================");
     Debug.Log("PLAYER " + (turnManager.currentPlayerIndex + 1) + " TURN");
     Debug.Log("==================================================");
@@ -472,22 +480,35 @@ public class DeckManager : MonoBehaviour
     if (audioSource != null)
     {
         if (turnManager.currentPlayerIndex == 0 && player1TurnClip != null)
-         audioSource.PlayOneShot(player1TurnClip);
+            audioSource.PlayOneShot(player1TurnClip);
 
         if (turnManager.currentPlayerIndex == 1 && player2TurnClip != null)
-         audioSource.PlayOneShot(player2TurnClip);
+            audioSource.PlayOneShot(player2TurnClip);
     }
 
     Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + "'s turn.");
     ShowCurrentPlayerHand();
     ShowTopDiscardCard();
     ShowAllFavorAreas();
-    
 
     Debug.Log("Can click draw pile: " + CanClickDrawPile());
     Debug.Log("Can click discard pile: " + CanClickDiscardPile());
     Debug.Log("Turn state reset to: " + pendingChoice);
 }
+
+void FinishActionAndWaitForEndTurn()
+{
+    hasTakenActionThisTurn = true;
+    pendingChoice = PendingChoiceType.None;
+
+    RefreshAllDisplays();
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(true);
+
+    Debug.Log("Action complete. Waiting for End Turn button.");
+}
+
 
 void EndPlayerTurn()
 {
@@ -537,8 +558,7 @@ void ResolveDiscardChoice(int discardHandIndex)
     DiscardCardFromHand(discardHandIndex);
     handDisplay.ShowCurrentPlayerHand();
 
-    pendingChoice = PendingChoiceType.None;
-    EndPlayerTurn();
+    FinishActionAndWaitForEndTurn();
 }
 
 void Update()
@@ -783,8 +803,7 @@ void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
-    pendingChoice = PendingChoiceType.None;
-    EndPlayerTurn();
+    FinishActionAndWaitForEndTurn();
 }
 
 void StartOfferFavorTurn()
@@ -1179,8 +1198,7 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
     Debug.Log("Swapped " + handCard + " from hand with " + favorCard + " from Player " + (targetPlayerIndex + 1) + "'s favor area.");
 
     selectedSwapHandIndex = -1;
-    pendingChoice = PendingChoiceType.None;
-    EndPlayerTurn();
+    FinishActionAndWaitForEndTurn();
 }
 
 void TriggerEndGameScoring()
@@ -1610,6 +1628,16 @@ public void BeginNewGame()
 
     if (endGameScoringPanel != null)
         endGameScoringPanel.SetActive(false);
+}
+
+public void AdvanceToNextPlayerTurn()
+{
+    turnManager.NextPlayer();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+
+    StartPlayerTurn();
 }
 
 }

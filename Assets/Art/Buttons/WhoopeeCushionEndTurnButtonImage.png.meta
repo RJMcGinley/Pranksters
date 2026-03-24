@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: fe19d21a4c4624e1eb29fd4c8ed8771a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6552785832795569690
+    second: WhoopeeCushionEndTurnButtonImage_0
+  - first:
+      213: -5612167409224640988
+    second: WhoopeeCushionEndTurnButtonImage_1
+  - first:
+      213: 3677081002664971878
+    second: WhoopeeCushionEndTurnButtonImage_2
+  - first:
+      213: 300375248926433245
+    second: WhoopeeCushionEndTurnButtonImage_3
+  - first:
+      213: 1472312405176370410
+    second: WhoopeeCushionEndTurnButtonImage_4
+  - first:
+      213: -8265946307250325278
+    second: WhoopeeCushionEndTurnButtonImage_5
+  - first:
+      213: 3811157684280246617
+    second: WhoopeeCushionEndTurnButtonImage_6
+  - first:
+      213: 2617601672245605102
+    second: WhoopeeCushionEndTurnButtonImage_7
+  - first:
+      213: 2859925303067210912
+    second: WhoopeeCushionEndTurnButtonImage_8
+  - first:
+      213: -673091477701282137
+    second: WhoopeeCushionEndTurnButtonImage_9
+  - first:
+      213: -4279710314059008145
+    second: WhoopeeCushionEndTurnButtonImage_10
+  - first:
+      213: -1175550314345459248
+    second: WhoopeeCushionEndTurnButtonImage_11
+  - first:
+      213: -3901704021831235766
+    second: WhoopeeCushionEndTurnButtonImage_12
+  - first:
+      213: -4778322870808448964
+    second: WhoopeeCushionEndTurnButtonImage_13
+  - first:
+      213: 4233087899727868401
+    second: WhoopeeCushionEndTurnButtonImage_14
+  - first:
+      213: -2607787702159293726
+    second: WhoopeeCushionEndTurnButtonImage_15
+  - first:
+      213: -8997364290886631525
+    second: WhoopeeCushionEndTurnButtonImage_16
+  - first:
+      213: 5002395211627617122
+    second: WhoopeeCushionEndTurnButtonImage_17
+  - first:
+      213: -5139304986398224343
+    second: WhoopeeCushionEndTurnButtonImage_18
+  - first:
+      213: -967109502168810273
+    second: WhoopeeCushionEndTurnButtonImage_19
+  - first:
+      213: 190011467502688080
+    second: WhoopeeCushionEndTurnButtonImage_20
+  - first:
+      213: -6999257795298690518
+    second: WhoopeeCushionEndTurnButtonImage_21
+  - first:
+      213: -7240621127579175914
+    second: WhoopeeCushionEndTurnButtonImage_22
+  - first:
+      213: -162563165728820910
+    second: WhoopeeCushionEndTurnButtonImage_23
+  - first:
+      213: -1921104925032972279
+    second: WhoopeeCushionEndTurnButtonImage_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_0
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 768
+        width: 1658
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1efdfc2ffb20fa50800000000000000
+      internalID: 6552785832795569690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_1
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1734
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4261421d9739d12b0800000000000000
+      internalID: -5612167409224640988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_2
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1716
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ece2e90bd970330800000000000000
+      internalID: 3677081002664971878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_3
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 1612
+        width: 231
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf549b82b52b2400800000000000000
+      internalID: 300375248926433245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_4
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1703
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae440f4f454be6410800000000000000
+      internalID: 1472312405176370410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_5
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1701
+        width: 91
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e874efd0a5794d80800000000000000
+      internalID: -8265946307250325278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_6
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1695
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9514682b8b3f3e430800000000000000
+      internalID: 3811157684280246617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_7
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1672
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2faad2ad6935420800000000000000
+      internalID: 2617601672245605102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_8
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1684
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4f87d19ee70b720800000000000000
+      internalID: 2859925303067210912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_9
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1669
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b5420ed2b8a6f0800000000000000
+      internalID: -673091477701282137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_10
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 1676
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67ffece42a6b94c0800000000000000
+      internalID: -4279710314059008145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_11
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1654
+        width: 68
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d117d9a73b9fafe0800000000000000
+      internalID: -1175550314345459248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_12
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1660
+        width: 89
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4749004ddc5ad9c0800000000000000
+      internalID: -3901704021831235766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_13
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1645
+        width: 97
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3076576aacffadb0800000000000000
+      internalID: -4778322870808448964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_14
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1639
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1b8465403feba30800000000000000
+      internalID: 4233087899727868401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_15
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1628
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2c92bc6e64fcbd0800000000000000
+      internalID: -2607787702159293726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_16
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1633
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ffae6f8d0f22380800000000000000
+      internalID: -8997364290886631525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_17
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1588
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bdd2fe0f31c6540800000000000000
+      internalID: 5002395211627617122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_18
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1626
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920175518558da8b0800000000000000
+      internalID: -5139304986398224343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_19
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1613
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcb25028032492f0800000000000000
+      internalID: -967109502168810273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_20
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1595
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0579fb74c6e03a200800000000000000
+      internalID: 190011467502688080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_21
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 1435
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a76db6e14adde90800000000000000
+      internalID: -6999257795298690518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_22
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1356
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61474796275248b90800000000000000
+      internalID: -7240621127579175914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1298
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251bb2d79a57ebdf0800000000000000
+      internalID: -162563165728820910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhoopeeCushionEndTurnButtonImage_24
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1300
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9000827cf3dd655e0800000000000000
+      internalID: -1921104925032972279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WhoopeeCushionEndTurnButtonImage_0: 6552785832795569690
+      WhoopeeCushionEndTurnButtonImage_1: -5612167409224640988
+      WhoopeeCushionEndTurnButtonImage_10: -4279710314059008145
+      WhoopeeCushionEndTurnButtonImage_11: -1175550314345459248
+      WhoopeeCushionEndTurnButtonImage_12: -3901704021831235766
+      WhoopeeCushionEndTurnButtonImage_13: -4778322870808448964
+      WhoopeeCushionEndTurnButtonImage_14: 4233087899727868401
+      WhoopeeCushionEndTurnButtonImage_15: -2607787702159293726
+      WhoopeeCushionEndTurnButtonImage_16: -8997364290886631525
+      WhoopeeCushionEndTurnButtonImage_17: 5002395211627617122
+      WhoopeeCushionEndTurnButtonImage_18: -5139304986398224343
+      WhoopeeCushionEndTurnButtonImage_19: -967109502168810273
+      WhoopeeCushionEndTurnButtonImage_2: 3677081002664971878
+      WhoopeeCushionEndTurnButtonImage_20: 190011467502688080
+      WhoopeeCushionEndTurnButtonImage_21: -6999257795298690518
+      WhoopeeCushionEndTurnButtonImage_22: -7240621127579175914
+      WhoopeeCushionEndTurnButtonImage_23: -162563165728820910
+      WhoopeeCushionEndTurnButtonImage_24: -1921104925032972279
+      WhoopeeCushionEndTurnButtonImage_3: 300375248926433245
+      WhoopeeCushionEndTurnButtonImage_4: 1472312405176370410
+      WhoopeeCushionEndTurnButtonImage_5: -8265946307250325278
+      WhoopeeCushionEndTurnButtonImage_6: 3811157684280246617
+      WhoopeeCushionEndTurnButtonImage_7: 2617601672245605102
+      WhoopeeCushionEndTurnButtonImage_8: 2859925303067210912
+      WhoopeeCushionEndTurnButtonImage_9: -673091477701282137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

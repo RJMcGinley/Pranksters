@@ -40,4 +40,7 @@ public class TurnManager : MonoBehaviour
 
         Debug.Log("It is now Player " + (currentPlayerIndex + 1) + "'s turn.");
     }
+
+
+
 }
