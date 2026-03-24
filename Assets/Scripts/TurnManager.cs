@@ -6,10 +6,9 @@ public class TurnManager : MonoBehaviour
     public List<Player> players = new List<Player>();
     public int currentPlayerIndex = 0;
 
-    void Awake()   
-    {
-    StartGame(2);
-    }
+    void Awake()
+{
+}
 
     public void StartGame(int numberOfPlayers)
     {

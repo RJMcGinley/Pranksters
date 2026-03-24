@@ -94,34 +94,6 @@ public class DeckManager : MonoBehaviour
 
     void Start()
 {
-    BuildPranksterDeck();
-    ShufflePranksterDeck();
-
-    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
-
-    DealStartingHands();
-
-    Debug.Log("Hands Dealt");
-    Debug.Log("Cards left in deck: " + deck.Count);
-
-    prankDeck = PrankDatabase.CreatePrankDeck();
-    
-    ShufflePrankDeck();
-    DealActivePranks();
-    ShowActivePrankCards();
-    // ShowActivePranks(); may need for debugging later
-    Debug.Log("Prank deck size: " + prankDeck.Count);
-    Debug.Log("Active pranks: " + activePranks.Count);
-
-    UpdateActiveFavorDisplay();
-    StartPlayerTurn();
-    handDisplay.ShowCurrentPlayerHand();
-
-    if (opponentDisplayManager != null)
-        opponentDisplayManager.RefreshDisplays();
-
-    if (endGameScoringPanel != null)
-        endGameScoringPanel.SetActive(false);
 }
 
 
@@ -1606,6 +1578,38 @@ void PopulateScoreRow(
 
     if (totalPointsText != null)
         totalPointsText.text = totalPoints.ToString();
+}
+
+public void BeginNewGame()
+{
+    BuildPranksterDeck();
+    ShufflePranksterDeck();
+
+    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
+
+    DealStartingHands();
+
+    Debug.Log("Hands Dealt");
+    Debug.Log("Cards left in deck: " + deck.Count);
+
+    prankDeck = PrankDatabase.CreatePrankDeck();
+
+    ShufflePrankDeck();
+    DealActivePranks();
+    ShowActivePrankCards();
+
+    Debug.Log("Prank deck size: " + prankDeck.Count);
+    Debug.Log("Active pranks: " + activePranks.Count);
+
+    UpdateActiveFavorDisplay();
+    StartPlayerTurn();
+    handDisplay.ShowCurrentPlayerHand();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(false);
 }
 
 }

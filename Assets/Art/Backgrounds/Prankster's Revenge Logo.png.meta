@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 8746e013e632543e1b47bd33d2b2fb5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1264335625502948573
+    second: Prankster's Revenge Logo_0
+  - first:
+      213: -2760618318436902700
+    second: Prankster's Revenge Logo_1
+  - first:
+      213: 7083180567457057980
+    second: Prankster's Revenge Logo_2
+  - first:
+      213: 2566636191031498789
+    second: Prankster's Revenge Logo_3
+  - first:
+      213: 6014028105614914395
+    second: Prankster's Revenge Logo_4
+  - first:
+      213: 2635995740947365151
+    second: Prankster's Revenge Logo_5
+  - first:
+      213: -1355927482304676877
+    second: Prankster's Revenge Logo_6
+  - first:
+      213: 5446423399498055898
+    second: Prankster's Revenge Logo_7
+  - first:
+      213: -6466155390719396195
+    second: Prankster's Revenge Logo_8
+  - first:
+      213: -5583868057751907854
+    second: Prankster's Revenge Logo_9
+  - first:
+      213: 9057564509357180112
+    second: Prankster's Revenge Logo_10
+  - first:
+      213: -9214778053170284605
+    second: Prankster's Revenge Logo_11
+  - first:
+      213: -986149924728424562
+    second: Prankster's Revenge Logo_12
+  - first:
+      213: -186226160771861371
+    second: Prankster's Revenge Logo_13
+  - first:
+      213: 4739860268601229893
+    second: Prankster's Revenge Logo_14
+  - first:
+      213: -784568214216913429
+    second: Prankster's Revenge Logo_15
+  - first:
+      213: 5602967636521508711
+    second: Prankster's Revenge Logo_16
+  - first:
+      213: 3983230040936503102
+    second: Prankster's Revenge Logo_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_0
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 109
+        width: 3148
+        height: 1915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc79fa7d82db8110800000000000000
+      internalID: 1264335625502948573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_1
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 1626
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8d129044050b9d0800000000000000
+      internalID: -2760618318436902700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1524
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc4a33a2338c4260800000000000000
+      internalID: 7083180567457057980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1463
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528181264068e9320800000000000000
+      internalID: 2566636191031498789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b537468c2be167350800000000000000
+      internalID: 6014028105614914395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1348
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d3c980920f49420800000000000000
+      internalID: 2635995740947365151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3a0c8327ce2de0800000000000000
+      internalID: -1355927482304676877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1307
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad00577b935959b40800000000000000
+      internalID: 5446423399498055898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1246
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9671b96ee99346a0800000000000000
+      internalID: -6466155390719396195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1251
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f11c09069d1282b0800000000000000
+      internalID: -5583868057751907854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1237
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d48b66aeeee2bd70800000000000000
+      internalID: 9057564509357180112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1227
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c738b0ce288e1080800000000000000
+      internalID: -9214778053170284605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1192
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87b8494edd7052f0800000000000000
+      internalID: -986149924728424562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1160
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584fe4f1b446a6df0800000000000000
+      internalID: -186226160771861371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1024
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542c6fa2dcd57c140800000000000000
+      internalID: 4739860268601229893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1054
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedc981bd57ac15f0800000000000000
+      internalID: -784568214216913429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1015
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fdfde216db1cd40800000000000000
+      internalID: 5602967636521508711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prankster's Revenge Logo_17
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 967
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e375fa04e96474730800000000000000
+      internalID: 3983230040936503102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prankster's Revenge Logo_0: 1264335625502948573
+      Prankster's Revenge Logo_1: -2760618318436902700
+      Prankster's Revenge Logo_10: 9057564509357180112
+      Prankster's Revenge Logo_11: -9214778053170284605
+      Prankster's Revenge Logo_12: -986149924728424562
+      Prankster's Revenge Logo_13: -186226160771861371
+      Prankster's Revenge Logo_14: 4739860268601229893
+      Prankster's Revenge Logo_15: -784568214216913429
+      Prankster's Revenge Logo_16: 5602967636521508711
+      Prankster's Revenge Logo_17: 3983230040936503102
+      Prankster's Revenge Logo_2: 7083180567457057980
+      Prankster's Revenge Logo_3: 2566636191031498789
+      Prankster's Revenge Logo_4: 6014028105614914395
+      Prankster's Revenge Logo_5: 2635995740947365151
+      Prankster's Revenge Logo_6: -1355927482304676877
+      Prankster's Revenge Logo_7: 5446423399498055898
+      Prankster's Revenge Logo_8: -6466155390719396195
+      Prankster's Revenge Logo_9: -5583868057751907854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
