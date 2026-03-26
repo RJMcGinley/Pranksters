@@ -9,9 +9,6 @@ public class EndTurnButtonController : MonoBehaviour
     public GameObject endTurnButton;
     public TMP_Text turnMessageText;
 
-    public AudioSource audioSource;
-    public AudioClip[] fartSounds;
-
     public float puffDuration = 0.3f;
 
     private TurnManager turnManager;
@@ -32,7 +29,8 @@ public class EndTurnButtonController : MonoBehaviour
         if (airReleaseEffect != null)
             airReleaseEffect.SetActive(true);
 
-        PlayRandomFart();
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayRandomFart();
 
         yield return new WaitForSeconds(puffDuration);
 
@@ -52,15 +50,4 @@ public class EndTurnButtonController : MonoBehaviour
         if (nextPlayerPanel != null)
             nextPlayerPanel.SetActive(true);
     }
-
-    private void PlayRandomFart()
-{
-    if (audioSource == null || fartSounds == null || fartSounds.Length == 0)
-        return;
-
-    audioSource.Stop();
-
-    int index = Random.Range(0, fartSounds.Length);
-    audioSource.PlayOneShot(fartSounds[index]);
-}
 }

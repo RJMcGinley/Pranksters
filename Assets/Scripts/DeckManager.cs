@@ -26,11 +26,6 @@ public class DeckManager : MonoBehaviour
     public Vector3 prankCardScale = new Vector3(0.28f, 0.28f, 1f);
     public TextMeshProUGUI turnText;
 
-    public AudioSource audioSource;
-    public AudioClip player1TurnClip;
-    public AudioClip player2TurnClip;
-    public AudioClip hmmmDecisionsClip;
-
     public GameObject filledMarker1;
     public GameObject filledMarker2;
     public GameObject filledMarker3;
@@ -88,6 +83,18 @@ public class DeckManager : MonoBehaviour
     public GameObject endTurnButton;
 
     public bool hasTakenActionThisTurn = false;
+
+    public GameObject drawDeckHighlight;
+    public GameObject discardPileHighlight;
+    public GameObject favorAreaHighlight;
+    public GameObject[] prankHighlights;
+
+    public GameObject drawDeckLabel;
+    public GameObject discardPileLabel;
+    public GameObject favorAreaLabel;
+
+    public bool actionLabelsEnabled = true;
+    private int highlightSuppressionCount = 0;
 
     Player GetCurrentPlayer()
     {
@@ -477,14 +484,8 @@ public class DeckManager : MonoBehaviour
         StartCoroutine(ShowTurnTextTemporarily());
     }
 
-    if (audioSource != null)
-    {
-        if (turnManager.currentPlayerIndex == 0 && player1TurnClip != null)
-            audioSource.PlayOneShot(player1TurnClip);
-
-        if (turnManager.currentPlayerIndex == 1 && player2TurnClip != null)
-            audioSource.PlayOneShot(player2TurnClip);
-    }
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayPlayerTurnVoice(turnManager.currentPlayerIndex);
 
     Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + "'s turn.");
     ShowCurrentPlayerHand();
@@ -494,6 +495,8 @@ public class DeckManager : MonoBehaviour
     Debug.Log("Can click draw pile: " + CanClickDrawPile());
     Debug.Log("Can click discard pile: " + CanClickDiscardPile());
     Debug.Log("Turn state reset to: " + pendingChoice);
+
+    RefreshAllHighlights();
 }
 
 void FinishActionAndWaitForEndTurn()
@@ -502,6 +505,7 @@ void FinishActionAndWaitForEndTurn()
     pendingChoice = PendingChoiceType.None;
 
     RefreshAllDisplays();
+    RefreshAllHighlights();
 
     if (endTurnButton != null)
         endTurnButton.SetActive(true);
@@ -534,12 +538,11 @@ void StartDrawFromDeckTurn()
 
     handDisplay.ShowCurrentPlayerHand();
 
-    if (audioSource != null && hmmmDecisionsClip != null)
-    {
-        audioSource.PlayOneShot(hmmmDecisionsClip);
-    }
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayHmmDecisions();
 
     pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
+    RefreshActionHighlights();
 
     LogSeparator("CHOOSE DISCARD");
 
@@ -779,10 +782,8 @@ void StartDrawFromDiscardTurn()
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
-    if (audioSource != null && hmmmDecisionsClip != null)
-    {
-        audioSource.PlayOneShot(hmmmDecisionsClip);
-    }
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayHmmDecisions();
 
     pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
 
@@ -815,6 +816,7 @@ void StartOfferFavorTurn()
     }
 
     pendingChoice = PendingChoiceType.ChooseFavorCard;
+    RefreshActionHighlights();
 
     LogSeparator("CHOOSE FAVOR CARD");
 
@@ -1509,7 +1511,10 @@ void RefreshAllDisplays()
 
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshDisplays();
+
+    RefreshActionHighlights();
 }
+
 void UpdateCurrentPlayerStatsDisplay()
 {
     Player currentPlayer = GetCurrentPlayer();
@@ -1639,6 +1644,137 @@ public void AdvanceToNextPlayerTurn()
 
     StartPlayerTurn();
 }
+
+public void RefreshAllHighlights()
+{
+    if (drawDeckHighlight != null)
+        drawDeckHighlight.SetActive(false);
+
+    if (discardPileHighlight != null)
+        discardPileHighlight.SetActive(false);
+
+    if (favorAreaHighlight != null)
+        favorAreaHighlight.SetActive(false);
+
+    for (int i = 0; i < prankHighlights.Length; i++)
+    {
+        if (prankHighlights[i] != null)
+            prankHighlights[i].SetActive(false);
+    }
+
+    if (drawDeckLabel != null)
+        drawDeckLabel.SetActive(false);
+
+    if (discardPileLabel != null)
+        discardPileLabel.SetActive(false);
+
+    if (favorAreaLabel != null)
+        favorAreaLabel.SetActive(false);
+
+    if (highlightSuppressionCount > 0)
+        return;
+
+    RefreshActionHighlights();
+    RefreshActionLabels();
+}
+
+void RefreshActionHighlights()
+{
+    if (drawDeckHighlight != null)
+        SetActiveAndRestart(drawDeckHighlight, pendingChoice == PendingChoiceType.ChooseAction && CanClickDrawPile());
+
+    if (discardPileHighlight != null)
+        SetActiveAndRestart(discardPileHighlight, pendingChoice == PendingChoiceType.ChooseAction && CanClickDiscardPile());
+
+    if (favorAreaHighlight != null)
+        SetActiveAndRestart(favorAreaHighlight, pendingChoice == PendingChoiceType.ChooseAction && CanStartOfferFavor());
+
+    for (int i = 0; i < prankHighlights.Length; i++)
+    {
+        if (prankHighlights[i] != null)
+        {
+            bool shouldGlow =
+                pendingChoice == PendingChoiceType.ChooseAction &&
+                i < activePranks.Count &&
+                CanCompletePrank(i);
+
+            prankHighlights[i].SetActive(shouldGlow);
+        }
+    }
+}
+
+void SetActiveAndRestart(GameObject go, bool active)
+{
+    if (go == null) return;
+
+    if (active)
+    {
+        go.SetActive(true);
+
+        var ps = go.GetComponent<ParticleSystem>();
+        if (ps != null)
+        {
+            ps.Clear();
+            ps.Play();
+        }
+    }
+    else
+    {
+        go.SetActive(false);
+    }
+}
+
+void RefreshActionLabels()
+{
+    bool showDrawDeckLabel =
+        actionLabelsEnabled &&
+        pendingChoice == PendingChoiceType.ChooseAction &&
+        CanClickDrawPile();
+
+    bool showDiscardPileLabel =
+        actionLabelsEnabled &&
+        pendingChoice == PendingChoiceType.ChooseAction &&
+        CanClickDiscardPile();
+
+    bool showFavorAreaLabel =
+        actionLabelsEnabled &&
+        pendingChoice == PendingChoiceType.ChooseAction &&
+        CanStartOfferFavor();
+
+    if (drawDeckLabel != null)
+        drawDeckLabel.SetActive(showDrawDeckLabel);
+
+    if (discardPileLabel != null)
+        discardPileLabel.SetActive(showDiscardPileLabel);
+
+    if (favorAreaLabel != null)
+        favorAreaLabel.SetActive(showFavorAreaLabel);
+}
+
+void HideAllActionLabels()
+{
+    if (drawDeckLabel != null)
+        drawDeckLabel.SetActive(false);
+
+    if (discardPileLabel != null)
+        discardPileLabel.SetActive(false);
+
+    if (favorAreaLabel != null)
+        favorAreaLabel.SetActive(false);
+}
+
+public void PushHighlightSuppression()
+{
+    highlightSuppressionCount++;
+    RefreshAllHighlights();
+}
+
+public void PopHighlightSuppression()
+{
+    highlightSuppressionCount = Mathf.Max(0, highlightSuppressionCount - 1);
+    RefreshAllHighlights();
+}
+
 
 }
 

@@ -26,6 +26,8 @@ public class OpponentPreviewPanel : MonoBehaviour
     public Sprite wizardIcon;
     public Sprite beastmasterIcon;
 
+    public DeckManager deckManager;
+
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
     {
         if (sourcePanel == null)
@@ -47,6 +49,9 @@ public class OpponentPreviewPanel : MonoBehaviour
         CopyFavorSlot(sourcePanel.favorSlot2Image, favorSlot2Image);
         CopyFavorSlot(sourcePanel.favorSlot3Image, favorSlot3Image);
 
+        if (deckManager != null)
+            deckManager.PushHighlightSuppression();
+
         if (rootObject != null)
             rootObject.SetActive(true);
         else
@@ -55,6 +60,9 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     public void Hide()
     {
+        if (deckManager != null)
+            deckManager.PopHighlightSuppression();
+
         if (rootObject != null)
             rootObject.SetActive(false);
         else
