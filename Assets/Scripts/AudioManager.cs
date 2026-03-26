@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
     [Header("Current Clips")]
     public AudioClip drawDeckHoverClip;
     public AudioClip drawCardActionClip;
+    public AudioClip discardPileHoverClip;
     public AudioClip player1TurnClip;
     public AudioClip player2TurnClip;
     public AudioClip player3TurnClip;
@@ -53,6 +54,14 @@ public class AudioManager : MonoBehaviour
         if (hmmmDecisionsClip == null) return;
         PlaySFX(hmmmDecisionsClip);
     }
+
+    public void PlayDiscardPileHover()
+    {
+        PlaySFX(discardPileHoverClip);
+    }
+
+
+
 
     public void PlayRandomFart()
     {

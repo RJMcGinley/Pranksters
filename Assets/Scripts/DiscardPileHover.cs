@@ -1,33 +1,37 @@
 using UnityEngine;
 
-public class DrawDeckHover : MonoBehaviour
+public class DiscardPileHover : MonoBehaviour
 {
-    public PopupArm popupArm;
     public DeckManager deckManager;
+    public PopupArm popupArm;
 
     void OnMouseEnter()
     {
-        if (deckManager == null || !deckManager.CanHoverDrawDeck())
+        if (deckManager == null || !deckManager.CanHoverDiscardPile())
             return;
+
+        Debug.Log("DISCARD HOVER ENTER");
 
         if (popupArm != null)
             popupArm.Show();
 
         if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayDrawDeckHover();
+            AudioManager.Instance.PlayDiscardPileHover();
     }
 
     void OnMouseExit()
     {
+        Debug.Log("DISCARD HOVER EXIT");
+
         if (popupArm != null)
             popupArm.Hide();
     }
 
     void OnMouseDown()
     {
-        Debug.Log("DRAW DECK CLICKED");
+        Debug.Log("DISCARD CLICKED");
 
         if (deckManager != null)
-            deckManager.OnDrawDeckClicked();
+            deckManager.OnDiscardPileClicked();
     }
 }

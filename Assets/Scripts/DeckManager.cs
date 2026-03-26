@@ -782,10 +782,11 @@ void StartDrawFromDiscardTurn()
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
+    pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
+    RefreshAllHighlights();
+
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayHmmDecisions();
-
-    pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
 
     LogSeparator("CHOOSE DISCARD");
 
@@ -1794,6 +1795,37 @@ public void OnDrawDeckClicked()
     LogSeparator("PLAYER ACTION: Draw from prankster deck");
     StartDrawFromDeckTurn();
 }
+
+public void OnDiscardPileClicked()
+{
+    Debug.Log("OnDiscardPileClicked called");
+
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("Discard click ignored: not in ChooseAction state.");
+        return;
+    }
+
+    if (!CanClickDiscardPile())
+    {
+        Debug.Log("Discard click ignored: not valid right now.");
+        return;
+    }
+
+    LogSeparator("PLAYER ACTION: Draw from discard pile");
+    StartDrawFromDiscardTurn();
+}
+
+public bool CanHoverDrawDeck()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction && CanClickDrawPile();
+}
+
+public bool CanHoverDiscardPile()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction && CanClickDiscardPile();
+}
+
 
 
 }
