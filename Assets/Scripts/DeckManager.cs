@@ -542,7 +542,7 @@ void StartDrawFromDeckTurn()
         AudioManager.Instance.PlayHmmDecisions();
 
     pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
-    RefreshActionHighlights();
+    RefreshAllHighlights();
 
     LogSeparator("CHOOSE DISCARD");
 
@@ -1773,6 +1773,26 @@ public void PopHighlightSuppression()
 {
     highlightSuppressionCount = Mathf.Max(0, highlightSuppressionCount - 1);
     RefreshAllHighlights();
+}
+
+public void OnDrawDeckClicked()
+{
+    Debug.Log("OnDrawDeckClicked called");
+
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("Draw deck click ignored: not in ChooseAction state.");
+        return;
+    }
+
+    if (!CanClickDrawPile())
+    {
+        Debug.Log("Draw deck click ignored: draw pile not currently valid.");
+        return;
+    }
+
+    LogSeparator("PLAYER ACTION: Draw from prankster deck");
+    StartDrawFromDeckTurn();
 }
 
 

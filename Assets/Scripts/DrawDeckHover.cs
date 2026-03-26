@@ -3,6 +3,7 @@ using UnityEngine;
 public class DrawDeckHover : MonoBehaviour
 {
     public PopupArm popupArm;
+    public DeckManager deckManager;
 
     void OnMouseEnter()
     {
@@ -17,5 +18,13 @@ public class DrawDeckHover : MonoBehaviour
     {
         if (popupArm != null)
             popupArm.Hide();
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("DRAW DECK CLICKED");
+
+        if (deckManager != null)
+            deckManager.OnDrawDeckClicked();
     }
 }
