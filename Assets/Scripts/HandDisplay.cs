@@ -14,7 +14,6 @@ public class HandDisplay : MonoBehaviour
     public Sprite thiefSprite;
     public Sprite wizardSprite;
 
-
     public void ShowCurrentPlayerHand()
     {
         foreach (Transform child in currentPlayerHandArea)
@@ -33,7 +32,7 @@ public class HandDisplay : MonoBehaviour
         {
             float x = startX + i * spacing;
             Sprite art = GetSpriteForPrankster(hand[i]);
-            CreateCard(art, new Vector3(x, 0, 0));
+            CreateCard(art, new Vector3(x, 0, 0), i);
         }
     }
 
@@ -51,12 +50,20 @@ public class HandDisplay : MonoBehaviour
         }
     }
 
-    void CreateCard(Sprite art, Vector3 localPosition)
+    void CreateCard(Sprite art, Vector3 localPosition, int index)
     {
         GameObject card = Instantiate(pranksterCardPrefab, currentPlayerHandArea);
         card.transform.localPosition = localPosition;
 
         PranksterCardView cardView = card.GetComponent<PranksterCardView>();
-        cardView.SetArt(art);
+        if (cardView != null)
+            cardView.SetArt(art);
+
+        HandCardClick click = card.GetComponent<HandCardClick>();
+        if (click != null)
+        {
+            click.deckManager = deckManager;
+            click.cardIndex = index;
+        }
     }
 }

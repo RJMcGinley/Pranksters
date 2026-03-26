@@ -26,6 +26,9 @@ public class NextPlayerPanelController : MonoBehaviour
     {
         Debug.Log("HIDE NEXT PLAYER PANEL");
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayReadyButton();
+
         if (nextPlayerPanel != null)
             nextPlayerPanel.SetActive(false);
 

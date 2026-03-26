@@ -11,11 +11,13 @@ public class AudioManager : MonoBehaviour
     public AudioClip drawDeckHoverClip;
     public AudioClip drawCardActionClip;
     public AudioClip discardPileHoverClip;
+    public AudioClip discardCardClip;
     public AudioClip player1TurnClip;
     public AudioClip player2TurnClip;
     public AudioClip player3TurnClip;
     public AudioClip player4TurnClip;
     public AudioClip hmmmDecisionsClip;
+    public AudioClip readyButtonClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -90,4 +92,15 @@ public class AudioManager : MonoBehaviour
                 break;
         }
     }
+
+    public void PlayDiscardCard()
+    {
+        PlaySFX(discardCardClip);
+    }
+
+    public void PlayReadyButton()
+    {
+        PlaySFX(readyButtonClip);
+    }
+
 }

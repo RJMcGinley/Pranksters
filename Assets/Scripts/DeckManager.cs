@@ -539,10 +539,13 @@ void StartDrawFromDeckTurn()
     handDisplay.ShowCurrentPlayerHand();
 
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayHmmDecisions();
+        AudioManager.Instance.PlayDrawCardAction();
 
     pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
     RefreshAllHighlights();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayHmmDecisions();
 
     LogSeparator("CHOOSE DISCARD");
 
@@ -559,7 +562,12 @@ void ResolveDiscardChoice(int discardHandIndex)
     Debug.Log("Discard choice selected: hand index " + discardHandIndex);
 
     DiscardCardFromHand(discardHandIndex);
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDiscardCard();
+
     handDisplay.ShowCurrentPlayerHand();
+    discardPileDisplay.UpdateTopDiscardCard();
 
     FinishActionAndWaitForEndTurn();
 }
@@ -782,6 +790,9 @@ void StartDrawFromDiscardTurn()
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDrawCardAction();
+
     pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
     RefreshAllHighlights();
 
@@ -802,6 +813,10 @@ void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
     Debug.Log("Discard choice selected: hand index " + discardHandIndex);
 
     DiscardCardFromHand(discardHandIndex);
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDiscardCard();
+
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
@@ -1825,6 +1840,28 @@ public bool CanHoverDiscardPile()
 {
     return pendingChoice == PendingChoiceType.ChooseAction && CanClickDiscardPile();
 }
+
+public void OnHandCardClicked(int index)
+{
+    Debug.Log("Hand card clicked: " + index);
+
+    if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
+    {
+        ResolveDiscardChoice(index);
+        return;
+    }
+
+    if (pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard)
+    {
+        ResolveDiscardAfterDrawFromDiscard(index);
+        return;
+    }
+
+    Debug.Log("Hand click ignored: not in discard state.");
+}
+
+
+
 
 
 
