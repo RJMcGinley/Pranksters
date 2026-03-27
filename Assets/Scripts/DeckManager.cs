@@ -41,6 +41,7 @@ public class DeckManager : MonoBehaviour
     public Image filledMarker1Image;
     public Image filledMarker2Image;
     public Image filledMarker3Image;
+    public TextMeshProUGUI favorPreviewText;
 
     public OpponentDisplayManager opponentDisplayManager;
 
@@ -197,6 +198,9 @@ public class DeckManager : MonoBehaviour
     GetCurrentPlayer().hand.Add(drawnCard);
     deck.RemoveAt(0);
 
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDrawCardAction();
+
     SortCurrentPlayerHand();
 
     Debug.Log("Drew card: " + drawnCard);
@@ -220,7 +224,7 @@ public class DeckManager : MonoBehaviour
 }
 
 
-    int CalculateFavorPoints(PranksterType pranksterType)
+    public int CalculateFavorPoints(PranksterType pranksterType)
 {
         int total = 0;
 
@@ -239,35 +243,41 @@ public class DeckManager : MonoBehaviour
 }
 
 
-    void OfferFavor(int handIndex)
+    IEnumerator OfferFavor(int handIndex)
+{
+    Player player = GetCurrentPlayer();
+
+    if (handIndex < 0 || handIndex >= player.hand.Count)
     {
-        Player player = GetCurrentPlayer();
-
-        if (handIndex < 0 || handIndex >= player.hand.Count)
-        {
-            Debug.LogWarning("Invalid hand index");
-            return;
-        }
-
-        PranksterType offeredCard = player.hand[handIndex];
-
-        player.hand.RemoveAt(handIndex);
-        player.favorArea.Add(offeredCard);
-
-        int favorGained = CalculateFavorPoints(offeredCard);
-        player.favorPoints += favorGained;
-
-        UpdateActiveFavorDisplay();
-
-        RefillHandToFour();
-        RefreshAllDisplays();
-
-        Debug.Log("Offered as favor: " + offeredCard);
-        Debug.Log("Favor gained: " + favorGained);
-        Debug.Log("Total favor points: " + player.favorPoints);
-
-        FinishActionAndWaitForEndTurn();
+        Debug.LogWarning("Invalid hand index");
+        yield break;
     }
+
+    PranksterType offeredCard = player.hand[handIndex];
+
+    player.hand.RemoveAt(handIndex);
+    player.favorArea.Add(offeredCard);
+
+    int favorGained = CalculateFavorPoints(offeredCard);
+    player.favorPoints += favorGained;
+
+    UpdateActiveFavorDisplay();
+    RefreshAllDisplays(); // shows the 3-card hand
+
+    Debug.Log("Offered as favor: " + offeredCard);
+    Debug.Log("Favor gained: " + favorGained);
+    Debug.Log("Total favor points: " + player.favorPoints);
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayFavorReward();
+
+    yield return new WaitForSeconds(0.3f);
+
+    RefillHandToFour();
+    RefreshAllDisplays();
+
+    FinishActionAndWaitForEndTurn();
+}
 
 
     bool CanCompletePrank(int prankIndex)
@@ -543,6 +553,7 @@ void StartDrawFromDeckTurn()
 
     pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
     RefreshAllHighlights();
+    RefreshHandVisuals();
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayHmmDecisions();
@@ -795,6 +806,7 @@ void StartDrawFromDiscardTurn()
 
     pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
     RefreshAllHighlights();
+    RefreshHandVisuals();
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayHmmDecisions();
@@ -832,12 +844,15 @@ void StartOfferFavorTurn()
     }
 
     pendingChoice = PendingChoiceType.ChooseFavorCard;
-    RefreshActionHighlights();
+
+    HideAllActionLabels(); // <-- ADD THIS
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
 
     LogSeparator("CHOOSE FAVOR CARD");
 
-    Debug.Log("Choose a card to offer as favor. Press 1, 2, 3, 4, or 5.");
-    ShowCurrentPlayerHand();
+    Debug.Log("Choose a card to offer as favor.");
 }
 
 void ResolveFavorChoice(int handIndex)
@@ -847,8 +862,11 @@ void ResolveFavorChoice(int handIndex)
 
     Debug.Log("Favor choice selected: hand index " + handIndex);
 
+    if (favorPreviewText != null)
+        favorPreviewText.gameObject.SetActive(false);
+
     pendingChoice = PendingChoiceType.None;
-    OfferFavor(handIndex);
+    StartCoroutine(OfferFavor(handIndex));
 }
 
 bool CanStartOfferFavor()
@@ -1845,6 +1863,12 @@ public void OnHandCardClicked(int index)
 {
     Debug.Log("Hand card clicked: " + index);
 
+    if (pendingChoice == PendingChoiceType.ChooseFavorCard)
+    {
+        ResolveFavorChoice(index);
+        return;
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
     {
         ResolveDiscardChoice(index);
@@ -1857,12 +1881,105 @@ public void OnHandCardClicked(int index)
         return;
     }
 
-    Debug.Log("Hand click ignored: not in discard state.");
+    Debug.Log("Hand click ignored: not in valid state.");
 }
 
+public bool IsInDiscardSelection()
+{
+    return pendingChoice == PendingChoiceType.ChooseDiscardFromHand
+        || pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
+}
 
+public void RefreshHandVisuals()
+{
+    if (handDisplay == null || handDisplay.currentPlayerHandArea == null)
+        return;
 
+    Debug.Log("RefreshHandVisuals CALLED");
 
+    foreach (Transform child in handDisplay.currentPlayerHandArea)
+    {
+        HandCardClick click = child.GetComponent<HandCardClick>();
+        if (click != null)
+            click.RefreshVisualState();
+    }
+}
+
+public bool CanHoverFavorArea()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction && CanStartOfferFavor();
+}
+
+public void OnFavorAreaClicked()
+{
+    if (pendingChoice == PendingChoiceType.ChooseFavorCard)
+    {
+        CancelFavorChoice();
+        return;
+    }
+
+    Debug.Log("OnFavorAreaClicked called");
+
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("Favor click ignored: not in ChooseAction state.");
+        return;
+    }
+
+    if (!CanStartOfferFavor())
+    {
+        Debug.Log("Favor click ignored: not valid right now.");
+        return;
+    }
+
+    LogSeparator("PLAYER ACTION: Offer favor");
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayFavorClick();
+
+    StartOfferFavorTurn();
+}
+
+public bool IsChoosingFavor()
+{
+    return pendingChoice == PendingChoiceType.ChooseFavorCard;
+}
+
+public int GetNextAvailableFavorIndex()
+{
+    Player player = GetCurrentPlayer();
+    return player.favorArea.Count; // 0, 1, or 2
+}
+
+public Vector3 GetFavorWellPosition(int index)
+{
+    if (index == 0 && filledMarker1Image != null)
+        return filledMarker1Image.transform.position;
+
+    if (index == 1 && filledMarker2Image != null)
+        return filledMarker2Image.transform.position;
+
+    if (index == 2 && filledMarker3Image != null)
+        return filledMarker3Image.transform.position;
+
+    return Vector3.zero;
+}
+
+void CancelFavorChoice()
+{
+    if (favorPreviewText != null)
+        favorPreviewText.gameObject.SetActive(false);
+
+    pendingChoice = PendingChoiceType.ChooseAction;
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayCancelAction();
+
+    Debug.Log("Favor choice cancelled.");
+}
 
 
 }

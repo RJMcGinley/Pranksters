@@ -24,7 +24,11 @@ public class HandDisplay : MonoBehaviour
         Player currentPlayer = deckManager.turnManager.GetCurrentPlayer();
         List<PranksterType> hand = currentPlayer.hand;
 
-        float spacing = 1.9f;
+        bool choosingFavor = deckManager != null && deckManager.IsChoosingFavor();
+
+        float spacing = choosingFavor ? 2.4f : 1.9f;
+        float yOffset = choosingFavor ? 0.2f : 0f;
+
         int count = hand.Count;
         float startX = -(count - 1) * spacing / 2f;
 
@@ -32,7 +36,7 @@ public class HandDisplay : MonoBehaviour
         {
             float x = startX + i * spacing;
             Sprite art = GetSpriteForPrankster(hand[i]);
-            CreateCard(art, new Vector3(x, 0, 0), i);
+            CreateCard(art, new Vector3(x, yOffset, 0), i);
         }
     }
 
@@ -51,19 +55,34 @@ public class HandDisplay : MonoBehaviour
     }
 
     void CreateCard(Sprite art, Vector3 localPosition, int index)
+{
+    GameObject card = Instantiate(pranksterCardPrefab, currentPlayerHandArea);
+    card.transform.localPosition = localPosition;
+
+    if (deckManager != null && deckManager.IsChoosingFavor())
     {
-        GameObject card = Instantiate(pranksterCardPrefab, currentPlayerHandArea);
-        card.transform.localPosition = localPosition;
-
-        PranksterCardView cardView = card.GetComponent<PranksterCardView>();
-        if (cardView != null)
-            cardView.SetArt(art);
-
-        HandCardClick click = card.GetComponent<HandCardClick>();
-        if (click != null)
-        {
-            click.deckManager = deckManager;
-            click.cardIndex = index;
-        }
+        card.transform.localScale = new Vector3(1.15f, 1.15f, 1f);
     }
+    else
+    {
+        card.transform.localScale = Vector3.one;
+    }
+
+    PranksterCardView cardView = card.GetComponent<PranksterCardView>();
+    if (cardView != null)
+        cardView.SetArt(art);
+
+    HandCardClick click = card.GetComponent<HandCardClick>();
+    if (click != null)
+    {
+        click.deckManager = deckManager;
+        click.cardIndex = index;
+        click.SetBaseScale(card.transform.localScale);
+
+        if (deckManager.IsInDiscardSelection() && cardView != null && cardView.characterArtRenderer != null)
+        {
+            cardView.characterArtRenderer.color = Color.red;
+        }
+}
+}
 }

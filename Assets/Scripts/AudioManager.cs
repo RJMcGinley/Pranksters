@@ -18,6 +18,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip player4TurnClip;
     public AudioClip hmmmDecisionsClip;
     public AudioClip readyButtonClip;
+    public AudioClip favorHoverClip;
+    public AudioClip favorClickClip;
+    public AudioClip favorRewardClip;
+    public AudioClip cancelActionClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -62,9 +66,6 @@ public class AudioManager : MonoBehaviour
         PlaySFX(discardPileHoverClip);
     }
 
-
-
-
     public void PlayRandomFart()
     {
         if (!fartSoundsEnabled) return;
@@ -102,5 +103,30 @@ public class AudioManager : MonoBehaviour
     {
         PlaySFX(readyButtonClip);
     }
+
+    public void PlayFavorHover()
+    {
+        if (sfxSource != null && favorHoverClip != null)
+            sfxSource.PlayOneShot(favorHoverClip);
+    }
+
+    public void PlayFavorClick()
+    {
+        if (favorClickClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(favorClickClip);
+    }
+
+    public void PlayFavorReward()
+    {
+        if (favorRewardClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(favorRewardClip);
+    }   
+
+    public void PlayCancelAction()
+    {
+        if (cancelActionClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(cancelActionClip);
+    }
+
 
 }
