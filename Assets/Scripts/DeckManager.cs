@@ -41,7 +41,6 @@ public class DeckManager : MonoBehaviour
     public Image filledMarker1Image;
     public Image filledMarker2Image;
     public Image filledMarker3Image;
-    public TextMeshProUGUI favorPreviewText;
 
     public OpponentDisplayManager opponentDisplayManager;
 
@@ -82,6 +81,7 @@ public class DeckManager : MonoBehaviour
 
     public Image finalPrankImage;
     public GameObject endTurnButton;
+    public int hoveredPrankIndex = -1;
 
     public bool hasTakenActionThisTurn = false;
 
@@ -96,6 +96,8 @@ public class DeckManager : MonoBehaviour
 
     public bool actionLabelsEnabled = true;
     private int highlightSuppressionCount = 0;
+    public TextMeshProUGUI favorPreviewText;
+    public GameObject completablePrankHighlightPrefab;
 
     Player GetCurrentPlayer()
     {
@@ -198,9 +200,6 @@ public class DeckManager : MonoBehaviour
     GetCurrentPlayer().hand.Add(drawnCard);
     deck.RemoveAt(0);
 
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayDrawCardAction();
-
     SortCurrentPlayerHand();
 
     Debug.Log("Drew card: " + drawnCard);
@@ -226,20 +225,29 @@ public class DeckManager : MonoBehaviour
 
     public int CalculateFavorPoints(PranksterType pranksterType)
 {
-        int total = 0;
+    int total = 0;
 
-        foreach (PrankCard prank in activePranks)
+    Debug.Log("----- CALCULATE FAVOR POINTS -----");
+    Debug.Log("Checking prankster type: " + pranksterType);
+
+    foreach (PrankCard prank in activePranks)
+    {
+        int prankCount = 0;
+
+        foreach (PranksterType requiredPrankster in prank.requiredPranksters)
         {
-            foreach (PranksterType requiredPrankster in prank.requiredPranksters)
+            if (requiredPrankster == pranksterType)
             {
-                if (requiredPrankster == pranksterType)
-                {
-                    total++;
-                }
+                prankCount++;
+                total++;
             }
         }
 
-        return total;
+        Debug.Log(prank.title + " contributes: " + prankCount);
+    }
+
+    Debug.Log("TOTAL FAVOR = " + total);
+    return total;
 }
 
 
@@ -262,7 +270,10 @@ public class DeckManager : MonoBehaviour
     player.favorPoints += favorGained;
 
     UpdateActiveFavorDisplay();
-    RefreshAllDisplays(); // shows the 3-card hand
+    RefreshAllDisplays(); // should show the 3-card hand immediately
+
+    if (favorPreviewText != null)
+        favorPreviewText.gameObject.SetActive(false);
 
     Debug.Log("Offered as favor: " + offeredCard);
     Debug.Log("Favor gained: " + favorGained);
@@ -280,7 +291,7 @@ public class DeckManager : MonoBehaviour
 }
 
 
-    bool CanCompletePrank(int prankIndex)
+    public bool CanCompletePrank(int prankIndex)
     {
         Player player = GetCurrentPlayer();
 
@@ -487,6 +498,7 @@ public class DeckManager : MonoBehaviour
     pendingChoice = PendingChoiceType.ChooseAction;
 
     RefreshAllDisplays();
+    ShowActivePrankCards();
 
     if (turnText != null)
     {
@@ -515,6 +527,7 @@ void FinishActionAndWaitForEndTurn()
     pendingChoice = PendingChoiceType.None;
 
     RefreshAllDisplays();
+    ShowActivePrankCards();
     RefreshAllHighlights();
 
     if (endTurnButton != null)
@@ -844,15 +857,12 @@ void StartOfferFavorTurn()
     }
 
     pendingChoice = PendingChoiceType.ChooseFavorCard;
-
-    HideAllActionLabels(); // <-- ADD THIS
-
-    RefreshAllDisplays();
-    RefreshAllHighlights();
+    RefreshActionHighlights();
 
     LogSeparator("CHOOSE FAVOR CARD");
 
-    Debug.Log("Choose a card to offer as favor.");
+    Debug.Log("Choose a card to offer as favor. Press 1, 2, 3, 4, or 5.");
+    ShowCurrentPlayerHand();
 }
 
 void ResolveFavorChoice(int handIndex)
@@ -1401,7 +1411,7 @@ void ShowGameOverScreen()
 
 
 
-void ShowActivePrankCards()
+public void ShowActivePrankCards()
 {
     if (activePrankDisplay == null)
     {
@@ -1424,35 +1434,73 @@ void ShowActivePrankCards()
     float startX = -((activePranks.Count - 1) * prankCardSpacing) / 2f;
 
     for (int i = 0; i < activePranks.Count; i++)
+{
+    GameObject prankObject = Instantiate(prankCardPrefab, activePrankDisplay);
+
+    prankObject.transform.localPosition = new Vector3(startX + (i * prankCardSpacing), 0f, 0f);
+    prankObject.transform.localRotation = Quaternion.identity;
+    prankObject.transform.localScale = prankCardScale;
+
+    Transform cardArtTransform = prankObject.transform.Find("CardArt");
+
+    if (cardArtTransform != null)
     {
-        GameObject prankObject = Instantiate(prankCardPrefab, activePrankDisplay);
+        SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
 
-        prankObject.transform.localPosition = new Vector3(startX + (i * prankCardSpacing), 0f, 0f);
-        prankObject.transform.localRotation = Quaternion.identity;
-        prankObject.transform.localScale = prankCardScale;
-
-        Transform cardArtTransform = prankObject.transform.Find("CardArt");
-
-        if (cardArtTransform != null)
+        if (artRenderer != null && activePranks[i].cardSprite != null)
         {
-            SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
-
-            if (artRenderer != null && activePranks[i].cardSprite != null)
-            {
-                artRenderer.sprite = activePranks[i].cardSprite;
-            }
+            artRenderer.sprite = activePranks[i].cardSprite;
         }
-
-        PrankHoverPreview hoverPreview = prankObject.GetComponent<PrankHoverPreview>();
-
-        if (hoverPreview != null)
-        {
-            hoverPreview.previewSprite = activePranks[i].cardSprite;
-            hoverPreview.previewPanel = prankPreviewPanel;
-        }
-
-        prankObject.name = "ActivePrank_" + activePranks[i].title;
     }
+
+    PrankHoverPreview hoverPreview = prankObject.GetComponent<PrankHoverPreview>();
+
+    if (hoverPreview != null)
+{
+    hoverPreview.previewSprite = activePranks[i].cardSprite;
+    hoverPreview.previewPanel = prankPreviewPanel;
+    hoverPreview.deckManager = this;
+    hoverPreview.prankIndex = i;
+}
+
+    BoxCollider2D collider = prankObject.GetComponent<BoxCollider2D>();
+    if (collider == null)
+    {
+        collider = prankObject.AddComponent<BoxCollider2D>();
+    }
+
+    PrankCardClick click = prankObject.GetComponent<PrankCardClick>();
+    if (click == null)
+    {
+        click = prankObject.AddComponent<PrankCardClick>();
+    }
+
+    click.deckManager = this;
+    click.prankIndex = i;
+
+    Debug.Log("Prank " + i + " = " + activePranks[i].title + " | CanCompletePrank = " + CanCompletePrank(i));
+
+    if (pendingChoice == PendingChoiceType.ChooseAction &&
+    hoveredPrankIndex != i &&
+    CanCompletePrank(i) &&
+    completablePrankHighlightPrefab != null)
+{
+    GameObject highlight = Instantiate(completablePrankHighlightPrefab, prankObject.transform);
+
+    highlight.transform.localPosition = new Vector3(0f, 0f, -0.1f);
+    highlight.transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
+    highlight.transform.localScale = new Vector3(4.6f, 2.3f, 1f);
+
+    ParticleSystemRenderer[] renderers = highlight.GetComponentsInChildren<ParticleSystemRenderer>(true);
+    foreach (ParticleSystemRenderer r in renderers)
+    {
+        r.sortingLayerName = "Default";
+        r.sortingOrder = 100;
+    }
+}
+
+    prankObject.name = "ActivePrank_" + activePranks[i].title;
+}
 }
 
 public int GetDeckCount()
@@ -1537,6 +1585,8 @@ void RefreshAllDisplays()
 {
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
+
+    ShowActivePrankCards();
 
     UpdateActiveFavorDisplay();
 
@@ -1910,6 +1960,11 @@ public bool CanHoverFavorArea()
     return pendingChoice == PendingChoiceType.ChooseAction && CanStartOfferFavor();
 }
 
+public bool IsChoosingFavor()
+{
+    return pendingChoice == PendingChoiceType.ChooseFavorCard;
+}
+
 public void OnFavorAreaClicked()
 {
     if (pendingChoice == PendingChoiceType.ChooseFavorCard)
@@ -1918,21 +1973,11 @@ public void OnFavorAreaClicked()
         return;
     }
 
-    Debug.Log("OnFavorAreaClicked called");
-
     if (pendingChoice != PendingChoiceType.ChooseAction)
-    {
-        Debug.Log("Favor click ignored: not in ChooseAction state.");
         return;
-    }
 
     if (!CanStartOfferFavor())
-    {
-        Debug.Log("Favor click ignored: not valid right now.");
         return;
-    }
-
-    LogSeparator("PLAYER ACTION: Offer favor");
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayFavorClick();
@@ -1940,27 +1985,38 @@ public void OnFavorAreaClicked()
     StartOfferFavorTurn();
 }
 
-public bool IsChoosingFavor()
+public void OnPrankCardClicked(int prankIndex)
 {
-    return pendingChoice == PendingChoiceType.ChooseFavorCard;
+    Debug.Log("Prank card clicked: " + prankIndex);
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    if (!CanCompletePrank(prankIndex))
+    {
+        Debug.Log("Clicked prank is not completable.");
+        return;
+    }
+
+    AttemptCompletePrank(prankIndex);
 }
 
 public int GetNextAvailableFavorIndex()
 {
     Player player = GetCurrentPlayer();
-    return player.favorArea.Count; // 0, 1, or 2
+    return player.favorArea.Count;
 }
 
 public Vector3 GetFavorWellPosition(int index)
 {
-    if (index == 0 && filledMarker1Image != null)
-        return filledMarker1Image.transform.position;
+    if (index == 0 && filledMarker1 != null)
+        return filledMarker1.transform.position;
 
-    if (index == 1 && filledMarker2Image != null)
-        return filledMarker2Image.transform.position;
+    if (index == 1 && filledMarker2 != null)
+        return filledMarker2.transform.position;
 
-    if (index == 2 && filledMarker3Image != null)
-        return filledMarker3Image.transform.position;
+    if (index == 2 && filledMarker3 != null)
+        return filledMarker3.transform.position;
 
     return Vector3.zero;
 }
@@ -1979,6 +2035,21 @@ void CancelFavorChoice()
         AudioManager.Instance.PlayCancelAction();
 
     Debug.Log("Favor choice cancelled.");
+}
+
+public void SetAllPrankHighlightsVisible(bool isVisible)
+{
+    if (activePrankDisplay == null)
+        return;
+
+    for (int i = 0; i < activePrankDisplay.childCount; i++)
+    {
+        Transform prank = activePrankDisplay.GetChild(i);
+        Transform highlight = prank.Find("FX_CardBrushLine_G(Clone)");
+
+        if (highlight != null)
+            highlight.gameObject.SetActive(isVisible);
+    }
 }
 
 
