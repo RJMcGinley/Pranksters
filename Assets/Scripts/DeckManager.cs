@@ -1989,15 +1989,23 @@ public void OnPrankCardClicked(int prankIndex)
 {
     Debug.Log("Prank card clicked: " + prankIndex);
 
-    if (prankPreviewPanel != null)
-        prankPreviewPanel.Hide();
-
     if (!CanCompletePrank(prankIndex))
     {
         Debug.Log("Clicked prank is not completable.");
         return;
     }
 
+    if (pendingChoice != PendingChoiceType.ChooseAction &&
+        pendingChoice != PendingChoiceType.ChoosePrankToComplete)
+    {
+        Debug.Log("Prank click ignored because pendingChoice is: " + pendingChoice);
+        return;
+    }
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    pendingChoice = PendingChoiceType.None;
     AttemptCompletePrank(prankIndex);
 }
 
@@ -2051,6 +2059,13 @@ public void SetAllPrankHighlightsVisible(bool isVisible)
             highlight.gameObject.SetActive(isVisible);
     }
 }
+
+public bool IsPrankPreviewOpen()
+{
+    return prankPreviewPanel != null && prankPreviewPanel.IsVisible();
+}
+
+
 
 
 }

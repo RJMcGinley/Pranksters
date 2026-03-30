@@ -7,6 +7,9 @@ public class DrawDeckHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsPrankPreviewOpen())
+            return;
+
         if (deckManager == null || !deckManager.CanHoverDrawDeck())
             return;
 

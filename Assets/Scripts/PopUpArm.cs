@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PopupArm : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PopupArm : MonoBehaviour
 
     private RectTransform rectTransform;
     private Vector2 targetPosition;
+    private Coroutine replayCoroutine;
 
     void Start()
     {
@@ -31,10 +33,38 @@ public class PopupArm : MonoBehaviour
     public void Show()
     {
         targetPosition.y = visibleY;
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayCompletePrankBannerDrop();
     }
 
     public void Hide()
     {
         targetPosition.y = hiddenY;
+    }
+
+    public void ReplayDrop()
+    {
+        if (replayCoroutine != null)
+            StopCoroutine(replayCoroutine);
+
+        replayCoroutine = StartCoroutine(ReplayDropRoutine());
+    }
+
+    private IEnumerator ReplayDropRoutine()
+    {
+        targetPosition.y = hiddenY;
+
+        if (rectTransform != null)
+        {
+            Vector2 resetPos = rectTransform.anchoredPosition;
+            resetPos.y = hiddenY;
+            rectTransform.anchoredPosition = resetPos;
+        }
+
+        yield return null;
+
+        Show();
+        replayCoroutine = null;
     }
 }

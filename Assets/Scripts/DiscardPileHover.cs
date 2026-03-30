@@ -7,6 +7,10 @@ public class DiscardPileHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+
+        if (deckManager != null && deckManager.IsPrankPreviewOpen())
+            return;
+
         if (deckManager == null || !deckManager.CanHoverDiscardPile())
             return;
 

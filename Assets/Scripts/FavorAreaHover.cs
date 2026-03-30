@@ -17,6 +17,10 @@ public class FavorAreaHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+
+        if (deckManager != null && deckManager.IsPrankPreviewOpen())
+            return;
+
         if (deckManager == null || !deckManager.CanHoverFavorArea() || isShowing)
             return;
 

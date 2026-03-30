@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip favorClickClip;
     public AudioClip favorRewardClip;
     public AudioClip cancelActionClip;
+    public AudioClip completePrankBannerDropClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -120,7 +121,7 @@ public class AudioManager : MonoBehaviour
     {
         if (favorRewardClip != null && sfxSource != null)
             sfxSource.PlayOneShot(favorRewardClip);
-    }   
+    }
 
     public void PlayCancelAction()
     {
@@ -128,5 +129,9 @@ public class AudioManager : MonoBehaviour
             sfxSource.PlayOneShot(cancelActionClip);
     }
 
-
+    public void PlayCompletePrankBannerDrop()
+    {
+        if (completePrankBannerDropClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(completePrankBannerDropClip);
+    }
 }
