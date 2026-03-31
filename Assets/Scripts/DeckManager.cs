@@ -107,7 +107,16 @@ public class DeckManager : MonoBehaviour
 
     void Start()
 {
+    if (favorPreviewText != null)
+        favorPreviewText.gameObject.SetActive(false);
+
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(false);
+
+    if (endGameCanvas != null)
+        endGameCanvas.SetActive(false);
 }
+
 
 
     void BuildPranksterDeck()
@@ -270,7 +279,7 @@ public class DeckManager : MonoBehaviour
     player.favorPoints += favorGained;
 
     UpdateActiveFavorDisplay();
-    RefreshAllDisplays(); // should show the 3-card hand immediately
+    RefreshAllDisplays();
 
     if (favorPreviewText != null)
         favorPreviewText.gameObject.SetActive(false);
@@ -284,9 +293,9 @@ public class DeckManager : MonoBehaviour
 
     yield return new WaitForSeconds(0.3f);
 
-    RefillHandToFour();
-    RefreshAllDisplays();
+    yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
 
+    RefreshAllDisplays();
     FinishActionAndWaitForEndTurn();
 }
 
@@ -320,22 +329,26 @@ public class DeckManager : MonoBehaviour
     }
 
 
-    void AttemptCompletePrank(int prankIndex)
+    bool AttemptCompletePrank(int prankIndex)
 {
     if (prankIndex < 0 || prankIndex >= activePranks.Count)
     {
         Debug.Log("Invalid prank index.");
-        return;
+        return false;
     }
 
     if (!CanCompletePrank(prankIndex))
     {
         Debug.Log("Cannot complete prank.");
-        return;
+        return false;
     }
 
     CompletePrank(prankIndex);
+    return true;
 }
+
+    
+
 
     void CompletePrank(int prankIndex)
 {
@@ -345,7 +358,6 @@ public class DeckManager : MonoBehaviour
     finalCompletedPrank = completedPrank;
     lastPrankCompleterIndex = turnManager.currentPlayerIndex;
 
-    // Remove required cards from hand and send them to the bottom of the discard pile
     foreach (PranksterType required in completedPrank.requiredPranksters)
     {
         int index = player.hand.IndexOf(required);
@@ -370,21 +382,22 @@ public class DeckManager : MonoBehaviour
 
     Debug.Log("Completed prank: " + completedPrank.title);
 
-   if (HasPlayerCompletedFourPranks())
+    if (AudioManager.Instance != null)
+    AudioManager.Instance.PlayCompletePrank();
+
+    if (HasPlayerCompletedFourPranks())
     {
-     TriggerEndGameScoring();
+        TriggerEndGameScoring();
+        return;
     }
 
     if (activePranks.Count == 0)
     {
-        ResetRound();
-        StartPlayerTurn();
+        StartCoroutine(ResetRoundSequence());
         return;
     }
 
-    RefillHandToFour();
-    RefreshAllDisplays();
-    FinishActionAndWaitForEndTurn();
+    StartCoroutine(FinishCompletePrankSequence());
 }
 
 
@@ -488,6 +501,14 @@ public class DeckManager : MonoBehaviour
 {
     hasTakenActionThisTurn = false;
 
+    hoveredPrankIndex = -1;
+    highlightSuppressionCount = 0;
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    SetAllPrankHighlightsVisible(true);
+
     if (endTurnButton != null)
         endTurnButton.SetActive(false);
 
@@ -499,6 +520,7 @@ public class DeckManager : MonoBehaviour
 
     RefreshAllDisplays();
     ShowActivePrankCards();
+    RefreshAllHighlights();
 
     if (turnText != null)
     {
@@ -517,8 +539,6 @@ public class DeckManager : MonoBehaviour
     Debug.Log("Can click draw pile: " + CanClickDrawPile());
     Debug.Log("Can click discard pile: " + CanClickDiscardPile());
     Debug.Log("Turn state reset to: " + pendingChoice);
-
-    RefreshAllHighlights();
 }
 
 void FinishActionAndWaitForEndTurn()
@@ -1689,34 +1709,63 @@ void PopulateScoreRow(
 
 public void BeginNewGame()
 {
+    if (favorPreviewText != null)
+        favorPreviewText.gameObject.SetActive(false);
+
+    if (turnManager == null)
+    {
+        Debug.LogError("DeckManager: turnManager is null.");
+        return;
+    }
+
+    if (turnManager.players == null || turnManager.players.Count == 0)
+    {
+        Debug.LogError("DeckManager: no players were initialized before BeginNewGame().");
+        return;
+    }
+
+    deck.Clear();
+    prankDeck.Clear();
+    activePranks.Clear();
+    discardPile.Clear();
+    outOfPlayPranksters.Clear();
+
+    pendingChoice = PendingChoiceType.None;
+    lastPrankCompleterIndex = -1;
+    selectedSwapHandIndex = -1;
+    gameOver = false;
+    finalCompletedPrank = null;
+    hoveredPrankIndex = -1;
+    hasTakenActionThisTurn = false;
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        Player player = turnManager.players[i];
+        player.hand.Clear();
+        player.favorArea.Clear();
+        player.completedPranks.Clear();
+        player.favorPoints = 0;
+        player.renownPoints = 0;
+        player.finalScore = 0;
+    }
+
     BuildPranksterDeck();
     ShufflePranksterDeck();
 
     Debug.Log("Prankster Deck created with " + deck.Count + " cards");
-
-    DealStartingHands();
-
     Debug.Log("Hands Dealt");
     Debug.Log("Cards left in deck: " + deck.Count);
 
     prankDeck = PrankDatabase.CreatePrankDeck();
+    BuildPranksterDeck();
+ShufflePranksterDeck();
 
-    ShufflePrankDeck();
-    DealActivePranks();
-    ShowActivePrankCards();
+Debug.Log("Prankster Deck created with " + deck.Count + " cards");
 
-    Debug.Log("Prank deck size: " + prankDeck.Count);
-    Debug.Log("Active pranks: " + activePranks.Count);
+prankDeck = PrankDatabase.CreatePrankDeck();
+ShufflePrankDeck();
 
-    UpdateActiveFavorDisplay();
-    StartPlayerTurn();
-    handDisplay.ShowCurrentPlayerHand();
-
-    if (opponentDisplayManager != null)
-        opponentDisplayManager.RefreshDisplays();
-
-    if (endGameScoringPanel != null)
-        endGameScoringPanel.SetActive(false);
+StartCoroutine(BeginNewGameSequence());
 }
 
 public void AdvanceToNextPlayerTurn()
@@ -1989,12 +2038,6 @@ public void OnPrankCardClicked(int prankIndex)
 {
     Debug.Log("Prank card clicked: " + prankIndex);
 
-    if (!CanCompletePrank(prankIndex))
-    {
-        Debug.Log("Clicked prank is not completable.");
-        return;
-    }
-
     if (pendingChoice != PendingChoiceType.ChooseAction &&
         pendingChoice != PendingChoiceType.ChoosePrankToComplete)
     {
@@ -2002,11 +2045,26 @@ public void OnPrankCardClicked(int prankIndex)
         return;
     }
 
+    if (!CanCompletePrank(prankIndex))
+    {
+        Debug.Log("Clicked prank is not completable.");
+        return;
+    }
+
     if (prankPreviewPanel != null)
         prankPreviewPanel.Hide();
 
+    bool completed = AttemptCompletePrank(prankIndex);
+
+    if (!completed)
+    {
+        Debug.Log("Prank completion failed. Returning to ChooseAction.");
+        pendingChoice = PendingChoiceType.ChooseAction;
+        RefreshAllHighlights();
+        return;
+    }
+
     pendingChoice = PendingChoiceType.None;
-    AttemptCompletePrank(prankIndex);
 }
 
 public int GetNextAvailableFavorIndex()
@@ -2065,7 +2123,139 @@ public bool IsPrankPreviewOpen()
     return prankPreviewPanel != null && prankPreviewPanel.IsVisible();
 }
 
+IEnumerator RefillHandToFourOneCardAtATime(float delayBetweenCards = 0.3f)
+{
+    while (GetCurrentPlayer().hand.Count < 4)
+    {
+        int handCountBefore = GetCurrentPlayer().hand.Count;
 
+        DrawCard();
+
+        if (GetCurrentPlayer().hand.Count == handCountBefore)
+        {
+            Debug.Log("Could not draw more cards. Stopping refill.");
+            yield break;
+        }
+
+        RefreshAllDisplays();
+
+        if (handDisplay != null)
+            handDisplay.ShowCurrentPlayerHand();
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayDrawCardAction();
+
+        yield return new WaitForSeconds(delayBetweenCards);
+    }
+}
+
+IEnumerator FinishCompletePrankSequence()
+{
+    yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
+
+    RefreshAllDisplays();
+    FinishActionAndWaitForEndTurn();
+}
+
+IEnumerator DealStartingHandsOneCardAtATime(float delayBetweenCards = 0.2f)
+{
+    for (int cardNumber = 0; cardNumber < 4; cardNumber++)
+    {
+        for (int playerIndex = 0; playerIndex < turnManager.players.Count; playerIndex++)
+        {
+            Player player = turnManager.players[playerIndex];
+
+            if (deck.Count == 0)
+            {
+                Debug.LogWarning("Prankster deck ran out while dealing starting hands.");
+                yield break;
+            }
+
+            player.hand.Add(deck[0]);
+            deck.RemoveAt(0);
+
+            SortHand(player);
+
+            RefreshAllDisplays();
+
+            if (turnManager.currentPlayerIndex == playerIndex && handDisplay != null)
+                handDisplay.ShowCurrentPlayerHand();
+
+            if (playerIndex == turnManager.currentPlayerIndex && AudioManager.Instance != null)
+                AudioManager.Instance.PlayDrawCardAction();
+
+            yield return new WaitForSeconds(delayBetweenCards);
+        }
+    }
+}
+
+IEnumerator ResetRoundSequence()
+{
+    LogSeparator("ROUND RESET");
+
+    int dealerIndex = DetermineDealerIndex();
+    turnManager.currentPlayerIndex = dealerIndex;
+    selectedSwapHandIndex = -1;
+    pendingChoice = PendingChoiceType.None;
+
+    Debug.Log("New dealer: Player " + (dealerIndex + 1));
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        Player player = turnManager.players[i];
+
+        deck.AddRange(player.hand);
+        player.hand.Clear();
+
+        deck.AddRange(player.favorArea);
+        player.favorArea.Clear();
+    }
+
+    deck.AddRange(discardPile);
+    discardPile.Clear();
+
+    ShufflePranksterDeck();
+
+    yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
+
+    DealActivePranks();
+    ShowActivePrankCards();
+
+    Debug.Log("New round started.");
+
+    UpdateActiveFavorDisplay();
+    RefreshAllDisplays();
+    StartPlayerTurn();
+}
+
+IEnumerator BeginNewGameSequence()
+{
+    yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
+
+    Debug.Log("Hands Dealt");
+    Debug.Log("Cards left in deck: " + deck.Count);
+
+    DealActivePranks();
+    ShowActivePrankCards();
+
+    Debug.Log("Prank deck size: " + prankDeck.Count);
+    Debug.Log("Active pranks: " + activePranks.Count);
+
+    UpdateActiveFavorDisplay();
+    StartPlayerTurn();
+
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
+
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(false);
+
+    if (endGameCanvas != null)
+        endGameCanvas.SetActive(false);
+}
 
 
 }

@@ -46,14 +46,14 @@ public class PrankHoverPreview : MonoBehaviour
     }
 
     void OnMouseExit()
-    {
-        if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
-            deckManager.hoveredPrankIndex = -1;
+{
+    if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
+        deckManager.hoveredPrankIndex = -1;
 
-        if (deckManager != null)
-            deckManager.SetAllPrankHighlightsVisible(true);
+    if (previewPanel != null)
+        previewPanel.NotifySourceExit(prankIndex);
 
-        if (previewPanel != null)
-            previewPanel.NotifySourceExit(prankIndex);
-    }
+    if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
+        deckManager.SetAllPrankHighlightsVisible(true);
+}
 }

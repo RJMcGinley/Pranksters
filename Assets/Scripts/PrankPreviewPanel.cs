@@ -27,10 +27,21 @@ public class PrankPreviewPanel : MonoBehaviour
     public bool IsPanelHovered => isPanelHovered;
     public bool IsSourceHovered => isSourceHovered;
 
+    private bool IsSamePreview(Sprite sprite, int prankIndex, bool canComplete)
+    {
+        return isVisible &&
+               currentPrankIndex == prankIndex &&
+               currentCanComplete == canComplete &&
+               previewImage != null &&
+               previewImage.sprite == sprite;
+    }
+
     public void ShowFromSource(Sprite sprite, int prankIndex, bool canComplete)
     {
         if (sprite == null)
             return;
+
+        bool samePrankAlreadyShowing = IsSamePreview(sprite, prankIndex, canComplete);
 
         currentPrankIndex = prankIndex;
         currentCanComplete = canComplete;
@@ -52,56 +63,39 @@ public class PrankPreviewPanel : MonoBehaviour
                 gameObject.SetActive(true);
 
             isVisible = true;
+
+            RefreshCompletableVisuals();
+            return;
         }
 
-        RefreshCompletableVisuals();
+        if (!samePrankAlreadyShowing)
+            RefreshCompletableVisuals();
     }
 
     public void NotifySourceExit(int prankIndex)
-{
-    if (prankIndex != currentPrankIndex)
-        return;
-
-    Debug.Log("SOURCE EXIT for prank " + prankIndex);
-
-    isSourceHovered = false;
-
-    if (!isPanelHovered)
-        TryHideOrStayOpen();
-}
-
-public void NotifyPanelEnter()
-{
-    Debug.Log("PANEL ENTER");
-    isPanelHovered = true;
-    CancelPendingHide();
-}
-
-public void NotifyPanelExit()
-{
-    Debug.Log("PANEL EXIT");
-    isPanelHovered = false;
-
-    if (!isSourceHovered)
-        TryHideOrStayOpen();
-}
-
-private IEnumerator HideIfNoHoverAfterDelay()
-{
-    Debug.Log("HIDE TIMER STARTED");
-
-    yield return new WaitForSeconds(hideDelay);
-
-    Debug.Log("HIDE TIMER CHECK | sourceHovered=" + isSourceHovered + " | panelHovered=" + isPanelHovered);
-
-    if (!isSourceHovered && !isPanelHovered)
     {
-        Debug.Log("HIDING PREVIEW PANEL");
-        HideImmediate();
+        if (prankIndex != currentPrankIndex)
+            return;
+
+        isSourceHovered = false;
+
+        if (!isPanelHovered)
+            TryHideOrStayOpen();
     }
 
-    hideCoroutine = null;
-}
+    public void NotifyPanelEnter()
+    {
+        isPanelHovered = true;
+        CancelPendingHide();
+    }
+
+    public void NotifyPanelExit()
+    {
+        isPanelHovered = false;
+
+        if (!isSourceHovered)
+            TryHideOrStayOpen();
+    }
 
     public void OnPanelClicked()
     {
@@ -120,10 +114,25 @@ private IEnumerator HideIfNoHoverAfterDelay()
     private void TryHideOrStayOpen()
     {
         CancelPendingHide();
+
+        if (!currentCanComplete)
+        {
+            HideImmediate();
+            return;
+        }
+
         hideCoroutine = StartCoroutine(HideIfNoHoverAfterDelay());
     }
 
-    
+    private IEnumerator HideIfNoHoverAfterDelay()
+    {
+        yield return new WaitForSeconds(hideDelay);
+
+        if (!isSourceHovered && !isPanelHovered)
+            HideImmediate();
+
+        hideCoroutine = null;
+    }
 
     private void HideImmediate()
     {
@@ -143,6 +152,9 @@ private IEnumerator HideIfNoHoverAfterDelay()
             rootObject.SetActive(false);
         else
             gameObject.SetActive(false);
+
+        if (deckManager != null)
+            deckManager.SetAllPrankHighlightsVisible(true);
 
         isVisible = false;
         currentPrankIndex = -1;
@@ -180,10 +192,7 @@ private IEnumerator HideIfNoHoverAfterDelay()
     }
 
     public bool IsVisible()
-{
-    return isVisible;
-}
-
-
-
+    {
+        return isVisible;
+    }
 }
