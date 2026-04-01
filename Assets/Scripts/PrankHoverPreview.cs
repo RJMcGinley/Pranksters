@@ -14,6 +14,20 @@ public class PrankHoverPreview : MonoBehaviour
         prankHighlight = transform.Find("FX_CardBrushLine_G(Clone)")?.gameObject;
     }
 
+    public void CacheHighlightReference()
+    {
+        if (prankHighlight == null)
+            prankHighlight = transform.Find("FX_CardBrushLine_G(Clone)")?.gameObject;
+    }
+
+    public void SetGlow(bool shouldGlow)
+    {
+        CacheHighlightReference();
+
+        if (prankHighlight != null)
+            prankHighlight.SetActive(shouldGlow);
+    }
+
     void OnMouseEnter()
     {
         if (previewPanel == null)
@@ -36,8 +50,7 @@ public class PrankHoverPreview : MonoBehaviour
             deckManager.SetAllPrankHighlightsVisible(false);
         }
 
-        if (prankHighlight == null)
-            prankHighlight = transform.Find("FX_CardBrushLine_G(Clone)")?.gameObject;
+        CacheHighlightReference();
 
         if (prankHighlight != null)
             prankHighlight.SetActive(false);
@@ -46,14 +59,14 @@ public class PrankHoverPreview : MonoBehaviour
     }
 
     void OnMouseExit()
-{
-    if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
-        deckManager.hoveredPrankIndex = -1;
+    {
+        if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
+            deckManager.hoveredPrankIndex = -1;
 
-    if (previewPanel != null)
-        previewPanel.NotifySourceExit(prankIndex);
+        if (previewPanel != null)
+            previewPanel.NotifySourceExit(prankIndex);
 
-    if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
-        deckManager.SetAllPrankHighlightsVisible(true);
-}
+        if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
+            deckManager.SetAllPrankHighlightsVisible(true);
+    }
 }

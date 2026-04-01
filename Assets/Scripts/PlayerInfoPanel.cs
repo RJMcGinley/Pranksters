@@ -4,6 +4,8 @@ using TMPro;
 
 public class PlayerInfoPanel : MonoBehaviour
 {
+    public GameObject swapAvailableHighlight;
+
     [Header("Managers")]
     public TurnManager turnManager;
     public DeckManager deckManager;
@@ -75,6 +77,18 @@ public class PlayerInfoPanel : MonoBehaviour
         UpdateFavorSlot(favorSlot1Image, player, 0);
         UpdateFavorSlot(favorSlot2Image, player, 1);
         UpdateFavorSlot(favorSlot3Image, player, 2);
+
+        Debug.Log("swapAvailableHighlight is null? " + (swapAvailableHighlight == null));
+        Debug.Log("deckManager is null? " + (deckManager == null));
+
+        if (swapAvailableHighlight != null && deckManager != null)
+        {
+            bool shouldHighlight = deckManager.ShouldHighlightOpponentPanel(playerIndex);
+
+            Debug.Log("Panel " + playerIndex + " highlight = " + shouldHighlight);
+
+            swapAvailableHighlight.SetActive(shouldHighlight);
+        }
     }
 
     void UpdateFavorSlot(Image slotImage, Player player, int index)
@@ -107,7 +121,4 @@ public class PlayerInfoPanel : MonoBehaviour
             default: return null;
         }
     }
-
-}   
-
- 
+}

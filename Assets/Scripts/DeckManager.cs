@@ -539,6 +539,20 @@ public class DeckManager : MonoBehaviour
     Debug.Log("Can click draw pile: " + CanClickDrawPile());
     Debug.Log("Can click discard pile: " + CanClickDiscardPile());
     Debug.Log("Turn state reset to: " + pendingChoice);
+
+    StartCoroutine(RefreshHighlightsNextFrame());
+
+    IEnumerator RefreshHighlightsNextFrame()
+    {
+        yield return null; // wait 1 frame
+        RefreshAllHighlights();
+    }
+
+
+
+
+
+
 }
 
 void FinishActionAndWaitForEndTurn()
@@ -1454,73 +1468,71 @@ public void ShowActivePrankCards()
     float startX = -((activePranks.Count - 1) * prankCardSpacing) / 2f;
 
     for (int i = 0; i < activePranks.Count; i++)
-{
-    GameObject prankObject = Instantiate(prankCardPrefab, activePrankDisplay);
-
-    prankObject.transform.localPosition = new Vector3(startX + (i * prankCardSpacing), 0f, 0f);
-    prankObject.transform.localRotation = Quaternion.identity;
-    prankObject.transform.localScale = prankCardScale;
-
-    Transform cardArtTransform = prankObject.transform.Find("CardArt");
-
-    if (cardArtTransform != null)
     {
-        SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
+        GameObject prankObject = Instantiate(prankCardPrefab, activePrankDisplay);
 
-        if (artRenderer != null && activePranks[i].cardSprite != null)
+        prankObject.transform.localPosition = new Vector3(startX + (i * prankCardSpacing), 0f, 0f);
+        prankObject.transform.localRotation = Quaternion.identity;
+        prankObject.transform.localScale = prankCardScale;
+
+        Transform cardArtTransform = prankObject.transform.Find("CardArt");
+
+        if (cardArtTransform != null)
         {
-            artRenderer.sprite = activePranks[i].cardSprite;
+            SpriteRenderer artRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
+
+            if (artRenderer != null && activePranks[i].cardSprite != null)
+            {
+                artRenderer.sprite = activePranks[i].cardSprite;
+            }
         }
+
+        PrankHoverPreview hoverPreview = prankObject.GetComponent<PrankHoverPreview>();
+
+        if (hoverPreview != null)
+        {
+            hoverPreview.previewSprite = activePranks[i].cardSprite;
+            hoverPreview.previewPanel = prankPreviewPanel;
+            hoverPreview.deckManager = this;
+            hoverPreview.prankIndex = i;
+        }
+
+        BoxCollider2D collider = prankObject.GetComponent<BoxCollider2D>();
+        if (collider == null)
+        {
+            collider = prankObject.AddComponent<BoxCollider2D>();
+        }
+
+        PrankCardClick click = prankObject.GetComponent<PrankCardClick>();
+        if (click == null)
+        {
+            click = prankObject.AddComponent<PrankCardClick>();
+        }
+
+        click.deckManager = this;
+        click.prankIndex = i;
+
+        Debug.Log("Prank " + i + " = " + activePranks[i].title + " | CanCompletePrank = " + CanCompletePrank(i));
+
+        // Always create highlight if prank is completable
+        if (CanCompletePrank(i) && completablePrankHighlightPrefab != null)
+        {
+            GameObject highlight = Instantiate(completablePrankHighlightPrefab, prankObject.transform);
+
+            highlight.transform.localPosition = new Vector3(0f, 0f, -0.1f);
+            highlight.transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
+            highlight.transform.localScale = new Vector3(4.6f, 2.3f, 1f);
+
+            ParticleSystemRenderer[] renderers = highlight.GetComponentsInChildren<ParticleSystemRenderer>(true);
+            foreach (ParticleSystemRenderer r in renderers)
+            {
+                r.sortingLayerName = "Default";
+                r.sortingOrder = 100;
+            }
+        }
+
+        prankObject.name = "ActivePrank_" + activePranks[i].title;
     }
-
-    PrankHoverPreview hoverPreview = prankObject.GetComponent<PrankHoverPreview>();
-
-    if (hoverPreview != null)
-{
-    hoverPreview.previewSprite = activePranks[i].cardSprite;
-    hoverPreview.previewPanel = prankPreviewPanel;
-    hoverPreview.deckManager = this;
-    hoverPreview.prankIndex = i;
-}
-
-    BoxCollider2D collider = prankObject.GetComponent<BoxCollider2D>();
-    if (collider == null)
-    {
-        collider = prankObject.AddComponent<BoxCollider2D>();
-    }
-
-    PrankCardClick click = prankObject.GetComponent<PrankCardClick>();
-    if (click == null)
-    {
-        click = prankObject.AddComponent<PrankCardClick>();
-    }
-
-    click.deckManager = this;
-    click.prankIndex = i;
-
-    Debug.Log("Prank " + i + " = " + activePranks[i].title + " | CanCompletePrank = " + CanCompletePrank(i));
-
-    if (pendingChoice == PendingChoiceType.ChooseAction &&
-    hoveredPrankIndex != i &&
-    CanCompletePrank(i) &&
-    completablePrankHighlightPrefab != null)
-{
-    GameObject highlight = Instantiate(completablePrankHighlightPrefab, prankObject.transform);
-
-    highlight.transform.localPosition = new Vector3(0f, 0f, -0.1f);
-    highlight.transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
-    highlight.transform.localScale = new Vector3(4.6f, 2.3f, 1f);
-
-    ParticleSystemRenderer[] renderers = highlight.GetComponentsInChildren<ParticleSystemRenderer>(true);
-    foreach (ParticleSystemRenderer r in renderers)
-    {
-        r.sortingLayerName = "Default";
-        r.sortingOrder = 100;
-    }
-}
-
-    prankObject.name = "ActivePrank_" + activePranks[i].title;
-}
 }
 
 public int GetDeckCount()
@@ -1780,6 +1792,8 @@ public void AdvanceToNextPlayerTurn()
 
 public void RefreshAllHighlights()
 {
+    Debug.Log("RefreshAllHighlights | suppression=" + highlightSuppressionCount + " | pendingChoice=" + pendingChoice);
+
     if (drawDeckHighlight != null)
         drawDeckHighlight.SetActive(false);
 
@@ -1822,16 +1836,18 @@ void RefreshActionHighlights()
     if (favorAreaHighlight != null)
         SetActiveAndRestart(favorAreaHighlight, pendingChoice == PendingChoiceType.ChooseAction && CanStartOfferFavor());
 
-    for (int i = 0; i < prankHighlights.Length; i++)
+    for (int i = 0; i < activePrankDisplay.childCount; i++)
     {
-        if (prankHighlights[i] != null)
+        var prank = activePrankDisplay.GetChild(i).GetComponent<PrankHoverPreview>();
+
+        if (prank != null)
         {
             bool shouldGlow =
                 pendingChoice == PendingChoiceType.ChooseAction &&
                 i < activePranks.Count &&
                 CanCompletePrank(i);
 
-            prankHighlights[i].SetActive(shouldGlow);
+            prank.SetGlow(shouldGlow);
         }
     }
 }
@@ -1905,6 +1921,9 @@ public void PushHighlightSuppression()
 public void PopHighlightSuppression()
 {
     highlightSuppressionCount = Mathf.Max(0, highlightSuppressionCount - 1);
+
+    Debug.Log("PopHighlightSuppression -> count = " + highlightSuppressionCount);
+
     RefreshAllHighlights();
 }
 
@@ -2255,6 +2274,40 @@ IEnumerator BeginNewGameSequence()
 
     if (endGameCanvas != null)
         endGameCanvas.SetActive(false);
+}
+
+public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
+{
+    Debug.Log("ShouldHighlightOpponentPanel called for representedPlayerIndex = " + representedPlayerIndex);
+
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("No highlight: pendingChoice is " + pendingChoice);
+        return false;
+    }
+
+    if (representedPlayerIndex < 0 || representedPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("No highlight: representedPlayerIndex out of range");
+        return false;
+    }
+
+    if (representedPlayerIndex == turnManager.currentPlayerIndex)
+    {
+        Debug.Log("No highlight: panel is representing current player");
+        return false;
+    }
+
+    if (GetCurrentPlayer().hand.Count == 0)
+    {
+        Debug.Log("No highlight: current player has no hand cards");
+        return false;
+    }
+
+    bool hasFavor = turnManager.players[representedPlayerIndex].favorArea.Count > 0;
+    Debug.Log("Final highlight result = " + hasFavor);
+
+    return hasFavor;
 }
 
 

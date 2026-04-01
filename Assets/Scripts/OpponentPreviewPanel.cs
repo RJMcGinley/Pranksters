@@ -50,7 +50,10 @@ public class OpponentPreviewPanel : MonoBehaviour
         CopyFavorSlot(sourcePanel.favorSlot3Image, favorSlot3Image);
 
         if (deckManager != null)
+        {
             deckManager.PushHighlightSuppression();
+            deckManager.SetAllPrankHighlightsVisible(false);
+        }
 
         if (rootObject != null)
             rootObject.SetActive(true);
@@ -67,6 +70,14 @@ public class OpponentPreviewPanel : MonoBehaviour
             rootObject.SetActive(false);
         else
             gameObject.SetActive(false);
+    }
+
+    public bool IsVisible()
+    {
+        if (rootObject != null)
+            return rootObject.activeSelf;
+
+        return gameObject.activeSelf;
     }
 
     void CopyFavorSlot(Image source, Image target)
