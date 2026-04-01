@@ -2310,6 +2310,25 @@ public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
     return hasFavor;
 }
 
+public bool CanSwapWithOpponent(int opponentPlayerIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+        return false;
+
+    if (GetCurrentPlayer().hand.Count == 0)
+        return false;
+
+    if (opponentPlayerIndex < 0 || opponentPlayerIndex >= turnManager.players.Count)
+        return false;
+
+    if (opponentPlayerIndex == turnManager.currentPlayerIndex)
+        return false;
+
+    if (turnManager.players[opponentPlayerIndex].favorArea.Count == 0)
+        return false;
+
+    return true;
+}
 
 }
 

@@ -32,6 +32,9 @@ public class PlayerInfoPanel : MonoBehaviour
     public Sprite wizardIcon;
     public Sprite beastmasterIcon;
 
+    // ✅ NEW: stores which player this panel represents
+    public int representedPlayerIndex = -1;
+
     public void SetVisible(bool isVisible)
     {
         if (rootObject != null)
@@ -57,6 +60,9 @@ public class PlayerInfoPanel : MonoBehaviour
         }
 
         Debug.Log("RefreshPlayer called for player index: " + playerIndex);
+
+        // ✅ NEW: store the player index for later use (swap logic, preview, etc.)
+        representedPlayerIndex = playerIndex;
 
         Player player = turnManager.players[playerIndex];
 

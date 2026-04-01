@@ -30,17 +30,6 @@ public class PrankHoverPreview : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (previewPanel == null)
-        {
-            Debug.LogWarning("PrankHoverPreview: previewPanel is not assigned on " + gameObject.name);
-            return;
-        }
-
-        if (previewSprite == null)
-        {
-            Debug.LogWarning("PrankHoverPreview: previewSprite is not assigned on " + gameObject.name);
-            return;
-        }
 
         bool canComplete = deckManager != null && deckManager.CanCompletePrank(prankIndex);
 

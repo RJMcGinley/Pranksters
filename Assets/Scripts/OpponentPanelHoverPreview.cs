@@ -6,12 +6,18 @@ public class OpponentPanelHoverPreview : MonoBehaviour
     public OpponentPreviewPanel previewPanel;
     public DeckManager deckManager;
 
+    [Header("Popup Arm")]
+    public PopupArm popupArm;
+
     void OnMouseEnter()
     {
         Debug.Log("OPPONENT HOVER ENTER");
 
         if (previewPanel != null && sourcePanel != null)
             previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
+
+        if (popupArm != null)
+            popupArm.Show();
     }
 
     void OnMouseExit()
@@ -20,6 +26,9 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
         if (previewPanel != null)
             previewPanel.Hide();
+
+        if (popupArm != null)
+            popupArm.Hide();
 
         if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
         {

@@ -28,10 +28,15 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     public DeckManager deckManager;
 
+    [Header("Popup Arm")]
+    public PopupArm popupArm;
+
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
     {
         if (sourcePanel == null)
             return;
+
+        Debug.Log("ShowFromPlayerInfoPanel called");
 
         if (opponentLabelText != null && sourcePanel.playerLabelText != null)
             opponentLabelText.text = sourcePanel.playerLabelText.text;
@@ -54,15 +59,63 @@ public class OpponentPreviewPanel : MonoBehaviour
             deckManager.PushHighlightSuppression();
             deckManager.SetAllPrankHighlightsVisible(false);
         }
+        else
+        {
+            Debug.Log("DeckManager is NULL in OpponentPreviewPanel");
+        }
 
         if (rootObject != null)
             rootObject.SetActive(true);
         else
             gameObject.SetActive(true);
+
+        if (popupArm != null)
+        {
+            int opponentIndex = sourcePanel.representedPlayerIndex;
+
+            Debug.Log("representedPlayerIndex = " + opponentIndex);
+
+            if (deckManager != null)
+            {
+                bool canSwap = deckManager.CanSwapWithOpponent(opponentIndex);
+                Debug.Log("CanSwapWithOpponent = " + canSwap);
+
+                if (canSwap)
+                {
+                    Debug.Log("VALID SWAP → ReplayDrop + Play Sound");
+
+                    
+                    popupArm.gameObject.SetActive(true);
+                    popupArm.ReplayDrop();
+
+                    if (AudioManager.Instance != null)
+                    {
+                        Debug.Log("AudioManager FOUND → Playing discard hover sound");
+                        AudioManager.Instance.PlayDiscardPileHover();
+                    }
+                    else
+                    {
+                        Debug.Log("AudioManager INSTANCE is NULL");
+                    }
+                }
+                else
+                {
+                    Debug.Log("SWAP NOT VALID → Hiding popup arm");
+                    popupArm.Hide();
+                }
+            }
+        }
+        else
+        {
+            Debug.Log("PopupArm is NULL");
+        }
     }
 
     public void Hide()
     {
+        if (popupArm != null)
+            popupArm.gameObject.SetActive(false);
+
         if (deckManager != null)
             deckManager.PopHighlightSuppression();
 
