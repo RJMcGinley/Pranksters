@@ -99,6 +99,11 @@ public class DeckManager : MonoBehaviour
     public TextMeshProUGUI favorPreviewText;
     public GameObject completablePrankHighlightPrefab;
 
+    int selectedSwapPlayerIndex = -1;
+    int selectedSwapFavorIndex = -1;
+
+    public OpponentPreviewPanel opponentPreviewPanel;
+
     Player GetCurrentPlayer()
     {
         return turnManager.GetCurrentPlayer();
@@ -635,6 +640,31 @@ void Update()
     if (gameOver)
         return;
 
+    // ==============================
+    // GLOBAL CANCEL FOR SWAP FLOW
+    // ==============================
+    if ((pendingChoice == PendingChoiceType.ChooseSwapOpponent ||
+         pendingChoice == PendingChoiceType.ChooseSwapTarget ||
+         pendingChoice == PendingChoiceType.ChooseSwapHandCard) &&
+        Input.GetKeyDown(KeyCode.X))
+    {
+        selectedSwapHandIndex = -1;
+        selectedSwapPlayerIndex = -1;
+        selectedSwapFavorIndex = -1;
+
+        pendingChoice = PendingChoiceType.ChooseAction;
+
+        LogSeparator("SWAP CANCELED");
+        Debug.Log("Swap canceled. Returning to action selection.");
+
+        RefreshAllDisplays();
+        ShowActivePrankCards();
+        RefreshAllHighlights();
+        ShowCurrentPlayerHand();
+        ShowAllFavorAreas();
+        return;
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveDiscardChoice(0); return; }
@@ -669,6 +699,21 @@ void Update()
         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolvePrankChoice(2); return; }
     }
 
+    if (pendingChoice == PendingChoiceType.ChooseSwapOpponent)
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapOpponentChoice(0); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapOpponentChoice(1); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapOpponentChoice(2); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapOpponentChoice(3); return; }
+    }
+
+    if (pendingChoice == PendingChoiceType.ChooseSwapTarget)
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapTargetChoice(0); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapTargetChoice(1); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapTargetChoice(2); return; }
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseSwapHandCard)
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapHandChoice(0); return; }
@@ -676,19 +721,6 @@ void Update()
         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapHandChoice(2); return; }
         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapHandChoice(3); return; }
         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveSwapHandChoice(4); return; }
-    }
-
-    if (pendingChoice == PendingChoiceType.ChooseSwapTarget)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapTargetChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapTargetChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapTargetChoice(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapTargetChoice(4); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveSwapTargetChoice(5); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha6)) { ResolveSwapTargetChoice(6); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha7)) { ResolveSwapTargetChoice(7); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha8)) { ResolveSwapTargetChoice(8); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha9)) { ResolveSwapTargetChoice(9); return; }
     }
 
     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.P))
@@ -719,12 +751,12 @@ void Update()
     {
         LogSeparator("PLAYER ACTION: Swap favor");
         StartSwapFavorTurn();
-    }   
-    
+    }
+
     if (Input.GetKeyDown(KeyCode.G))
-        {
+    {
         PrintGameState();
-        }
+    }
 }
 
 
@@ -1162,22 +1194,58 @@ void StartSwapFavorTurn()
         return;
     }
 
-    pendingChoice = PendingChoiceType.ChooseSwapHandCard;
+    selectedSwapHandIndex = -1;
+    selectedSwapPlayerIndex = -1;
+    selectedSwapFavorIndex = -1;
 
-    LogSeparator("CHOOSE HAND CARD TO SWAP");
+    pendingChoice = PendingChoiceType.ChooseSwapOpponent;
 
-    Debug.Log("Choose a card from your hand to swap. Press 1, 2, 3, 4, or 5.");
-    ShowCurrentPlayerHand();
+    LogSeparator("CHOOSE PLAYER TO SWAP WITH");
+
+    Debug.Log("Choose a player to swap with. Press the matching player number.");
+    Debug.Log("Press X to cancel.");
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        if (i == turnManager.currentPlayerIndex)
+            continue;
+
+        Player otherPlayer = turnManager.players[i];
+
+        if (otherPlayer.favorArea.Count > 0)
+        {
+            Debug.Log("[" + (i + 1) + "] Player " + (i + 1) + " (" + otherPlayer.favorArea.Count + " favor card(s))");
+        }
+    }
+
+    ShowAllFavorAreas();
 }
 
 void ResolveSwapHandChoice(int handIndex)
 {
-    Player player = GetCurrentPlayer();
+    Player currentPlayer = GetCurrentPlayer();
 
     if (pendingChoice != PendingChoiceType.ChooseSwapHandCard)
         return;
 
-    if (handIndex < 0 || handIndex >= player.hand.Count)
+    if (selectedSwapPlayerIndex < 0 || selectedSwapPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("No valid opponent is selected for this swap.");
+        pendingChoice = PendingChoiceType.ChooseSwapOpponent;
+        return;
+    }
+
+    Player targetPlayer = turnManager.players[selectedSwapPlayerIndex];
+
+    if (selectedSwapFavorIndex < 0 || selectedSwapFavorIndex >= targetPlayer.favorArea.Count)
+    {
+        Debug.Log("No valid favor slot is selected for this swap.");
+        pendingChoice = PendingChoiceType.ChooseSwapTarget;
+        ShowSwapTargetChoices();
+        return;
+    }
+
+    if (handIndex < 0 || handIndex >= currentPlayer.hand.Count)
     {
         Debug.Log("That hand card is not a valid swap choice. Choose again.");
         ShowCurrentPlayerHand();
@@ -1185,12 +1253,8 @@ void ResolveSwapHandChoice(int handIndex)
     }
 
     selectedSwapHandIndex = handIndex;
-    pendingChoice = PendingChoiceType.ChooseSwapTarget;
 
-    LogSeparator("CHOOSE FAVOR TARGET");
-
-    Debug.Log("Choose a favor card to take.");
-    ShowSwappableFavorChoices();
+    ExchangeFavorCards(selectedSwapPlayerIndex, selectedSwapFavorIndex);
 }
 
 void ShowSwappableFavorChoices()
@@ -1214,45 +1278,54 @@ void ShowSwappableFavorChoices()
     }
 }
 
-void ResolveSwapTargetChoice(int choiceNumber)
+void ResolveSwapTargetChoice(int favorSlotIndex)
 {
     if (pendingChoice != PendingChoiceType.ChooseSwapTarget)
         return;
 
-    if (selectedSwapHandIndex == -1)
+    if (selectedSwapPlayerIndex < 0 || selectedSwapPlayerIndex >= turnManager.players.Count)
     {
-        Debug.Log("No hand card selected for swap.");
+        Debug.Log("No valid opponent is selected for this swap.");
+        pendingChoice = PendingChoiceType.ChooseSwapOpponent;
         return;
     }
 
-    int runningIndex = 1;
+    Player targetPlayer = turnManager.players[selectedSwapPlayerIndex];
 
-    for (int i = 0; i < turnManager.players.Count; i++)
+    if (favorSlotIndex < 0 || favorSlotIndex >= targetPlayer.favorArea.Count)
     {
-        if (i == turnManager.currentPlayerIndex)
-            continue;
-
-        Player otherPlayer = turnManager.players[i];
-
-        for (int j = 0; j < otherPlayer.favorArea.Count; j++)
-        {
-            if (runningIndex == choiceNumber)
-            {
-                ExchangeFavorCards(i, j);
-                return;
-            }
-
-            runningIndex++;
-        }
+        Debug.Log("That favor slot is not a valid swap target. Choose again.");
+        ShowSwapTargetChoices();
+        return;
     }
 
-    Debug.Log("That favor card is not a valid swap target. Choose again.");
-    ShowSwappableFavorChoices();
+    selectedSwapFavorIndex = favorSlotIndex;
+    selectedSwapHandIndex = -1;
+
+    pendingChoice = PendingChoiceType.ChooseSwapHandCard;
+
+    LogSeparator("CHOOSE HAND CARD TO SWAP");
+
+    Debug.Log("You selected Player " + (selectedSwapPlayerIndex + 1) +
+              " favor slot " + (selectedSwapFavorIndex + 1) +
+              " (" + targetPlayer.favorArea[selectedSwapFavorIndex] + ").");
+
+    Debug.Log("Choose a card from your hand to swap. Press 1, 2, 3, or 4.");
+    Debug.Log("Press X to cancel.");
+
+    ShowCurrentPlayerHand();
 }
 
 void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
 {
     Player currentPlayer = GetCurrentPlayer();
+
+    if (targetPlayerIndex < 0 || targetPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("Target player choice is invalid.");
+        return;
+    }
+
     Player targetPlayer = turnManager.players[targetPlayerIndex];
 
     if (selectedSwapHandIndex < 0 || selectedSwapHandIndex >= currentPlayer.hand.Count)
@@ -1275,9 +1348,19 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
 
     currentPlayer.hand.Sort((a, b) => a.ToString().CompareTo(b.ToString()));
 
-    Debug.Log("Swapped " + handCard + " from hand with " + favorCard + " from Player " + (targetPlayerIndex + 1) + "'s favor area.");
+    Debug.Log("Swapped " + handCard +
+              " from hand with " + favorCard +
+              " from Player " + (targetPlayerIndex + 1) +
+              "'s favor slot " + (targetFavorIndex + 1) + ".");
 
     selectedSwapHandIndex = -1;
+    selectedSwapPlayerIndex = -1;
+    selectedSwapFavorIndex = -1;
+
+    RefreshAllDisplays();
+    ShowCurrentPlayerHand();
+    ShowAllFavorAreas();
+
     FinishActionAndWaitForEndTurn();
 }
 
@@ -1613,7 +1696,7 @@ void UpdateFavorSlot(Image slotImage, Player player, int index)
     }
 }
 
-void RefreshAllDisplays()
+public void RefreshAllDisplays()
 {
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
@@ -2278,36 +2361,26 @@ IEnumerator BeginNewGameSequence()
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 {
-    Debug.Log("ShouldHighlightOpponentPanel called for representedPlayerIndex = " + representedPlayerIndex);
-
     if (pendingChoice != PendingChoiceType.ChooseAction)
-    {
-        Debug.Log("No highlight: pendingChoice is " + pendingChoice);
         return false;
-    }
 
     if (representedPlayerIndex < 0 || representedPlayerIndex >= turnManager.players.Count)
-    {
-        Debug.Log("No highlight: representedPlayerIndex out of range");
         return false;
-    }
 
     if (representedPlayerIndex == turnManager.currentPlayerIndex)
-    {
-        Debug.Log("No highlight: panel is representing current player");
         return false;
-    }
 
     if (GetCurrentPlayer().hand.Count == 0)
-    {
-        Debug.Log("No highlight: current player has no hand cards");
         return false;
-    }
 
-    bool hasFavor = turnManager.players[representedPlayerIndex].favorArea.Count > 0;
-    Debug.Log("Final highlight result = " + hasFavor);
+    if (turnManager.players[representedPlayerIndex].favorArea.Count == 0)
+        return false;
 
-    return hasFavor;
+    // NEW: do not highlight if preview is locked
+    if (opponentPreviewPanel != null && opponentPreviewPanel.IsLockedForSwap())
+        return false;
+
+    return true;
 }
 
 public bool CanSwapWithOpponent(int opponentPlayerIndex)
@@ -2328,6 +2401,87 @@ public bool CanSwapWithOpponent(int opponentPlayerIndex)
         return false;
 
     return true;
+}
+
+void ResolveSwapOpponentChoice(int opponentPlayerIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseSwapOpponent)
+        return;
+
+    if (opponentPlayerIndex < 0 || opponentPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("That player is not a valid choice. Choose again.");
+        return;
+    }
+
+    if (opponentPlayerIndex == turnManager.currentPlayerIndex)
+    {
+        Debug.Log("You cannot swap with yourself. Choose again.");
+        return;
+    }
+
+    Player targetPlayer = turnManager.players[opponentPlayerIndex];
+
+    if (targetPlayer.favorArea.Count == 0)
+    {
+        Debug.Log("That player has no favor cards to swap with. Choose again.");
+        return;
+    }
+
+    selectedSwapPlayerIndex = opponentPlayerIndex;
+    selectedSwapFavorIndex = -1;
+    selectedSwapHandIndex = -1;
+
+    pendingChoice = PendingChoiceType.ChooseSwapTarget;
+
+    LogSeparator("CHOOSE FAVOR SLOT");
+
+    Debug.Log("Player " + (opponentPlayerIndex + 1) + " selected.");
+    Debug.Log("Choose a favor slot from Player " + (opponentPlayerIndex + 1) + ".");
+
+    string validSlotText = "";
+
+    for (int i = 0; i < targetPlayer.favorArea.Count; i++)
+    {
+        validSlotText += (i + 1);
+
+        if (i < targetPlayer.favorArea.Count - 1)
+            validSlotText += ", ";
+    }
+
+    Debug.Log("Valid slot choices: " + validSlotText + ".");
+    Debug.Log("Press X to cancel.");
+
+    ShowSwapTargetChoices();
+}
+
+void ShowSwapTargetChoices()
+{
+    if (selectedSwapPlayerIndex < 0 || selectedSwapPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("No valid swap player is currently selected.");
+        return;
+    }
+
+    Player targetPlayer = turnManager.players[selectedSwapPlayerIndex];
+
+    Debug.Log("Available favor slots for Player " + (selectedSwapPlayerIndex + 1) + ":");
+
+    bool foundAny = false;
+
+    for (int i = 0; i < 3; i++)
+    {
+        if (i < targetPlayer.favorArea.Count)
+        {
+            Debug.Log("[" + (i + 1) + "] Favor Slot " + (i + 1) + ": " + targetPlayer.favorArea[i]);
+            foundAny = true;
+        }
+    }
+
+    if (!foundAny)
+    {
+        Debug.Log("That player has no valid favor slots.");
+    }
 }
 
 }

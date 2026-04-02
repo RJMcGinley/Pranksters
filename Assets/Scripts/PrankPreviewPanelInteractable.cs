@@ -1,31 +1,16 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class PrankPreviewPanelInteractable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class PrankPreviewPanelInteractable : MonoBehaviour
 {
-    public PrankPreviewPanel previewPanel;
-
-    public void OnPointerEnter(PointerEventData eventData)
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        Debug.Log("PREVIEW HOVER ZONE ENTER on " + gameObject.name);
-
-        if (previewPanel != null)
-            previewPanel.NotifyPanelEnter();
+        
     }
 
-    public void OnPointerExit(PointerEventData eventData)
+    // Update is called once per frame
+    void Update()
     {
-        Debug.Log("PREVIEW HOVER ZONE EXIT on " + gameObject.name);
-
-        if (previewPanel != null)
-            previewPanel.NotifyPanelExit();
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        Debug.Log("PREVIEW HOVER ZONE CLICK on " + gameObject.name);
-
-        if (previewPanel != null)
-            previewPanel.OnPanelClicked();
+        
     }
 }

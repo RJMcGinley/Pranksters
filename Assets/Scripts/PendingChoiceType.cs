@@ -5,6 +5,7 @@ public enum PendingChoiceType
     ChooseDiscardFromHand,
     ChooseDiscardAfterDrawFromDiscard,
     ChooseFavorCard,
+    ChooseSwapOpponent,
     ChooseSwapHandCard,
     ChooseSwapTarget,
     ChoosePrankToComplete

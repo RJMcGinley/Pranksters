@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class OpponentPanelHoverPreview : MonoBehaviour
+public class OpponentPanelClickProxy : MonoBehaviour
 {
     public PlayerInfoPanel sourcePanel;
     public OpponentPreviewPanel previewPanel;
@@ -11,7 +11,7 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
     void OnMouseEnter()
     {
-        Debug.Log("OPPONENT HOVER ENTER");
+        Debug.Log("CLICK PROXY HOVER ENTER");
 
         if (previewPanel != null && sourcePanel != null)
             previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
@@ -22,7 +22,7 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
     void OnMouseExit()
     {
-        Debug.Log("OPPONENT HOVER EXIT");
+        Debug.Log("CLICK PROXY HOVER EXIT");
 
         if (previewPanel != null && previewPanel.IsLockedForSwap())
             return;
@@ -38,5 +38,33 @@ public class OpponentPanelHoverPreview : MonoBehaviour
             deckManager.SetAllPrankHighlightsVisible(true);
             deckManager.RefreshAllHighlights();
         }
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("CLICK PROXY HIT");
+
+        if (sourcePanel == null || previewPanel == null || deckManager == null)
+            return;
+
+        int opponentIndex = sourcePanel.representedPlayerIndex;
+
+        if (!deckManager.CanSwapWithOpponent(opponentIndex))
+            return;
+
+        Debug.Log("VALID CLICK → LOCK PREVIEW");
+
+        previewPanel.LockForSwap();
+        previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
+
+        if (popupArm != null)
+            popupArm.Hide();
+
+        // This is the important change:
+        deckManager.RefreshAllDisplays();
+        deckManager.RefreshAllHighlights();
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayDiscardPileHover();
     }
 }

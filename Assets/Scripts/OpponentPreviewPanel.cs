@@ -7,6 +7,9 @@ public class OpponentPreviewPanel : MonoBehaviour
     [Header("Root")]
     public GameObject rootObject;
 
+    [Header("Swap Preview Highlight")]
+    public GameObject previewPanelHighlight;
+
     [Header("Text")]
     public TextMeshProUGUI opponentLabelText;
     public TextMeshProUGUI pranksCompletedText;
@@ -28,11 +31,16 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     public DeckManager deckManager;
 
+    bool isLockedForSwap = false;
+
     [Header("Popup Arm")]
     public PopupArm popupArm;
 
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
     {
+        if (previewPanelHighlight != null && !isLockedForSwap)
+            previewPanelHighlight.SetActive(false);
+
         if (sourcePanel == null)
             return;
 
@@ -80,11 +88,10 @@ public class OpponentPreviewPanel : MonoBehaviour
                 bool canSwap = deckManager.CanSwapWithOpponent(opponentIndex);
                 Debug.Log("CanSwapWithOpponent = " + canSwap);
 
-                if (canSwap)
+                if (canSwap && !isLockedForSwap)
                 {
                     Debug.Log("VALID SWAP → ReplayDrop + Play Sound");
 
-                    
                     popupArm.gameObject.SetActive(true);
                     popupArm.ReplayDrop();
 
@@ -100,7 +107,7 @@ public class OpponentPreviewPanel : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("SWAP NOT VALID → Hiding popup arm");
+                    Debug.Log("SWAP NOT VALID OR LOCKED → Hiding popup arm");
                     popupArm.Hide();
                 }
             }
@@ -115,6 +122,11 @@ public class OpponentPreviewPanel : MonoBehaviour
     {
         if (popupArm != null)
             popupArm.gameObject.SetActive(false);
+
+        if (previewPanelHighlight != null)
+            previewPanelHighlight.SetActive(false);
+
+        isLockedForSwap = false;
 
         if (deckManager != null)
             deckManager.PopHighlightSuppression();
@@ -147,5 +159,41 @@ public class OpponentPreviewPanel : MonoBehaviour
         {
             target.gameObject.SetActive(false);
         }
+    }
+
+    public void ShowPreviewPanelHighlight()
+    {
+        if (previewPanelHighlight != null)
+            previewPanelHighlight.SetActive(true);
+    }
+
+    public void HidePreviewPanelHighlight()
+    {
+        if (previewPanelHighlight != null)
+            previewPanelHighlight.SetActive(false);
+    }
+
+    public void LockForSwap()
+    {
+        isLockedForSwap = true;
+
+        if (previewPanelHighlight != null)
+            previewPanelHighlight.SetActive(true);
+
+        if (popupArm != null)
+            popupArm.Hide();
+    }
+
+    public void UnlockSwap()
+    {
+        isLockedForSwap = false;
+
+        if (previewPanelHighlight != null)
+            previewPanelHighlight.SetActive(false);
+    }
+
+    public bool IsLockedForSwap()
+    {
+        return isLockedForSwap;
     }
 }
