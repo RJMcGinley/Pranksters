@@ -41,30 +41,31 @@ public class OpponentPanelClickProxy : MonoBehaviour
     }
 
     void OnMouseDown()
+{
+    Debug.Log("CLICK PROXY HIT");
+
+    if (sourcePanel == null || previewPanel == null || deckManager == null)
+        return;
+
+    int opponentIndex = sourcePanel.representedPlayerIndex;
+
+    if (deckManager.pendingChoice == PendingChoiceType.ChooseAction)
     {
-        Debug.Log("CLICK PROXY HIT");
-
-        if (sourcePanel == null || previewPanel == null || deckManager == null)
-            return;
-
-        int opponentIndex = sourcePanel.representedPlayerIndex;
-
-        if (!deckManager.CanSwapWithOpponent(opponentIndex))
-            return;
-
-        Debug.Log("VALID CLICK → LOCK PREVIEW");
-
-        previewPanel.LockForSwap();
-        previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
-
-        if (popupArm != null)
-            popupArm.Hide();
-
-        // This is the important change:
-        deckManager.RefreshAllDisplays();
-        deckManager.RefreshAllHighlights();
-
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayDiscardPileHover();
+        deckManager.StartSwapFavorTurn();
     }
+
+    deckManager.ResolveSwapOpponentChoice(opponentIndex);
+
+    previewPanel.LockForSwap();
+    previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
+
+    if (popupArm != null)
+        popupArm.Hide();
+
+    deckManager.RefreshAllDisplays();
+    deckManager.RefreshAllHighlights();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDiscardPileHover();
+}
 }

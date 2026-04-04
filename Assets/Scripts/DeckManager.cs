@@ -13,7 +13,7 @@ public class DeckManager : MonoBehaviour
     List<PrankCard> activePranks = new List<PrankCard>();
     List<PranksterType> discardPile = new List<PranksterType>();
     List<PranksterType> outOfPlayPranksters = new List<PranksterType>();
-    PendingChoiceType pendingChoice = PendingChoiceType.None;
+    public PendingChoiceType pendingChoice = PendingChoiceType.None;
     int lastPrankCompleterIndex = -1;
     int selectedSwapHandIndex = -1;
     bool gameOver = false;
@@ -522,6 +522,8 @@ public class DeckManager : MonoBehaviour
     Debug.Log("==================================================");
 
     pendingChoice = PendingChoiceType.ChooseAction;
+    Debug.Log("pendingChoice set to ChooseAction from StartPlayerTurn");
+    
 
     RefreshAllDisplays();
     ShowActivePrankCards();
@@ -637,6 +639,11 @@ void ResolveDiscardChoice(int discardHandIndex)
 
 void Update()
 {
+    if (Input.GetKeyDown(KeyCode.X))
+    {
+        Debug.Log("X pressed. Current pendingChoice = " + pendingChoice);
+    }
+
     if (gameOver)
         return;
 
@@ -648,20 +655,7 @@ void Update()
          pendingChoice == PendingChoiceType.ChooseSwapHandCard) &&
         Input.GetKeyDown(KeyCode.X))
     {
-        selectedSwapHandIndex = -1;
-        selectedSwapPlayerIndex = -1;
-        selectedSwapFavorIndex = -1;
-
-        pendingChoice = PendingChoiceType.ChooseAction;
-
-        LogSeparator("SWAP CANCELED");
-        Debug.Log("Swap canceled. Returning to action selection.");
-
-        RefreshAllDisplays();
-        ShowActivePrankCards();
-        RefreshAllHighlights();
-        ShowCurrentPlayerHand();
-        ShowAllFavorAreas();
+        CancelSwapPreview();
         return;
     }
 
@@ -1186,7 +1180,7 @@ bool CanStartSwapFavor()
     return false;
 }
 
-void StartSwapFavorTurn()
+public void StartSwapFavorTurn()
 {
     if (!CanStartSwapFavor())
     {
@@ -1199,6 +1193,7 @@ void StartSwapFavorTurn()
     selectedSwapFavorIndex = -1;
 
     pendingChoice = PendingChoiceType.ChooseSwapOpponent;
+    Debug.Log("pendingChoice set to ChooseSwapOpponent from StartSwapFavorTurn");
 
     LogSeparator("CHOOSE PLAYER TO SWAP WITH");
 
@@ -2162,6 +2157,7 @@ public void OnPrankCardClicked(int prankIndex)
     {
         Debug.Log("Prank completion failed. Returning to ChooseAction.");
         pendingChoice = PendingChoiceType.ChooseAction;
+        Debug.Log("pendingChoice set to ChooseAction from OnPrankCardClicked fail branch");
         RefreshAllHighlights();
         return;
     }
@@ -2195,6 +2191,7 @@ void CancelFavorChoice()
         favorPreviewText.gameObject.SetActive(false);
 
     pendingChoice = PendingChoiceType.ChooseAction;
+    Debug.Log("pendingChoice set to ChooseAction from CancelFavorChoice");
 
     RefreshAllDisplays();
     RefreshAllHighlights();
@@ -2403,7 +2400,7 @@ public bool CanSwapWithOpponent(int opponentPlayerIndex)
     return true;
 }
 
-void ResolveSwapOpponentChoice(int opponentPlayerIndex)
+public void ResolveSwapOpponentChoice(int opponentPlayerIndex)
 {
     if (pendingChoice != PendingChoiceType.ChooseSwapOpponent)
         return;
@@ -2483,6 +2480,34 @@ void ShowSwapTargetChoices()
         Debug.Log("That player has no valid favor slots.");
     }
 }
+
+public void CancelSwapPreview()
+{
+    selectedSwapHandIndex = -1;
+    selectedSwapPlayerIndex = -1;
+    selectedSwapFavorIndex = -1;
+
+    pendingChoice = PendingChoiceType.ChooseAction;
+
+    LogSeparator("SWAP CANCELED");
+    Debug.Log("Swap canceled. Returning to action selection.");
+
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
+    highlightSuppressionCount = 0;
+
+    RefreshAllDisplays();
+    ShowActivePrankCards();
+    RefreshAllHighlights();
+    ShowCurrentPlayerHand();
+    ShowAllFavorAreas();
+}
+
+
 
 }
 
