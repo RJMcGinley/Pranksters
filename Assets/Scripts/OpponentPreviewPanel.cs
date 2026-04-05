@@ -29,6 +29,11 @@ public class OpponentPreviewPanel : MonoBehaviour
     public Sprite wizardIcon;
     public Sprite beastmasterIcon;
 
+    [Header("Favor Slot Highlights")]
+    public GameObject favorSlot1Highlight;
+    public GameObject favorSlot2Highlight;
+    public GameObject favorSlot3Highlight;
+
     public DeckManager deckManager;
 
     bool isLockedForSwap = false;
@@ -37,31 +42,35 @@ public class OpponentPreviewPanel : MonoBehaviour
     public PopupArm popupArm;
 
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
+{
+    if (previewPanelHighlight != null && !isLockedForSwap)
+        previewPanelHighlight.SetActive(false);
+
+    if (sourcePanel == null)
+        return;
+
+    Debug.Log("ShowFromPlayerInfoPanel called");
+
+    if (opponentLabelText != null && sourcePanel.playerLabelText != null)
+        opponentLabelText.text = sourcePanel.playerLabelText.text;
+
+    if (pranksCompletedText != null && sourcePanel.pranksCompletedText != null)
+        pranksCompletedText.text = sourcePanel.pranksCompletedText.text;
+
+    if (renownPointsText != null && sourcePanel.renownPointsText != null)
+        renownPointsText.text = sourcePanel.renownPointsText.text;
+
+    if (favorPointsText != null && sourcePanel.favorPointsText != null)
+        favorPointsText.text = sourcePanel.favorPointsText.text;
+
+    CopyFavorSlot(sourcePanel.favorSlot1Image, favorSlot1Image);
+    CopyFavorSlot(sourcePanel.favorSlot2Image, favorSlot2Image);
+    CopyFavorSlot(sourcePanel.favorSlot3Image, favorSlot3Image);
+
+    bool wasVisible = IsVisible();
+
+    if (!wasVisible)
     {
-        if (previewPanelHighlight != null && !isLockedForSwap)
-            previewPanelHighlight.SetActive(false);
-
-        if (sourcePanel == null)
-            return;
-
-        Debug.Log("ShowFromPlayerInfoPanel called");
-
-        if (opponentLabelText != null && sourcePanel.playerLabelText != null)
-            opponentLabelText.text = sourcePanel.playerLabelText.text;
-
-        if (pranksCompletedText != null && sourcePanel.pranksCompletedText != null)
-            pranksCompletedText.text = sourcePanel.pranksCompletedText.text;
-
-        if (renownPointsText != null && sourcePanel.renownPointsText != null)
-            renownPointsText.text = sourcePanel.renownPointsText.text;
-
-        if (favorPointsText != null && sourcePanel.favorPointsText != null)
-            favorPointsText.text = sourcePanel.favorPointsText.text;
-
-        CopyFavorSlot(sourcePanel.favorSlot1Image, favorSlot1Image);
-        CopyFavorSlot(sourcePanel.favorSlot2Image, favorSlot2Image);
-        CopyFavorSlot(sourcePanel.favorSlot3Image, favorSlot3Image);
-
         if (deckManager != null)
         {
             deckManager.PushHighlightSuppression();
@@ -71,71 +80,72 @@ public class OpponentPreviewPanel : MonoBehaviour
         {
             Debug.Log("DeckManager is NULL in OpponentPreviewPanel");
         }
+    }
 
-        if (rootObject != null)
-            rootObject.SetActive(true);
-        else
-            gameObject.SetActive(true);
+    if (rootObject != null)
+        rootObject.SetActive(true);
+    else
+        gameObject.SetActive(true);
 
-        if (popupArm != null)
+    if (popupArm != null)
+    {
+        int opponentIndex = sourcePanel.representedPlayerIndex;
+
+        Debug.Log("representedPlayerIndex = " + opponentIndex);
+
+        if (deckManager != null)
         {
-            int opponentIndex = sourcePanel.representedPlayerIndex;
+            bool canSwap = deckManager.CanSwapWithOpponent(opponentIndex);
+            Debug.Log("CanSwapWithOpponent = " + canSwap);
 
-            Debug.Log("representedPlayerIndex = " + opponentIndex);
-
-            if (deckManager != null)
+            if (canSwap && !isLockedForSwap)
             {
-                bool canSwap = deckManager.CanSwapWithOpponent(opponentIndex);
-                Debug.Log("CanSwapWithOpponent = " + canSwap);
+                Debug.Log("VALID SWAP → ReplayDrop + Play Sound");
 
-                if (canSwap && !isLockedForSwap)
+                popupArm.gameObject.SetActive(true);
+                popupArm.ReplayDrop();
+
+                if (AudioManager.Instance != null)
                 {
-                    Debug.Log("VALID SWAP → ReplayDrop + Play Sound");
-
-                    popupArm.gameObject.SetActive(true);
-                    popupArm.ReplayDrop();
-
-                    if (AudioManager.Instance != null)
-                    {
-                        Debug.Log("AudioManager FOUND → Playing discard hover sound");
-                        AudioManager.Instance.PlayDiscardPileHover();
-                    }
-                    else
-                    {
-                        Debug.Log("AudioManager INSTANCE is NULL");
-                    }
+                    Debug.Log("AudioManager FOUND → Playing discard hover sound");
+                    AudioManager.Instance.PlayDiscardPileHover();
                 }
                 else
                 {
-                    Debug.Log("SWAP NOT VALID OR LOCKED → Hiding popup arm");
-                    popupArm.Hide();
+                    Debug.Log("AudioManager INSTANCE is NULL");
                 }
             }
-        }
-        else
-        {
-            Debug.Log("PopupArm is NULL");
+            else
+            {
+                Debug.Log("SWAP NOT VALID OR LOCKED → Hiding popup arm");
+                popupArm.Hide();
+            }
         }
     }
+    else
+    {
+        Debug.Log("PopupArm is NULL");
+    }
+}
 
     public void Hide()
-    {
-        if (popupArm != null)
-            popupArm.gameObject.SetActive(false);
+{
+    if (popupArm != null)
+        popupArm.gameObject.SetActive(false);
 
-        if (previewPanelHighlight != null)
-            previewPanelHighlight.SetActive(false);
+    if (previewPanelHighlight != null)
+        previewPanelHighlight.SetActive(false);
 
-        isLockedForSwap = false;
+    HideSwapTargetHighlights();
 
-        if (deckManager != null)
-            deckManager.PopHighlightSuppression();
+    if (deckManager != null)
+        deckManager.PopHighlightSuppression();
 
-        if (rootObject != null)
-            rootObject.SetActive(false);
-        else
-            gameObject.SetActive(false);
-    }
+    if (rootObject != null)
+        rootObject.SetActive(false);
+    else
+        gameObject.SetActive(false);
+}
 
     public bool IsVisible()
     {
@@ -185,15 +195,44 @@ public class OpponentPreviewPanel : MonoBehaviour
     }
 
     public void UnlockSwap()
-    {
-        isLockedForSwap = false;
+{
+    isLockedForSwap = false;
 
-        if (previewPanelHighlight != null)
-            previewPanelHighlight.SetActive(false);
-    }
+    if (previewPanelHighlight != null)
+        previewPanelHighlight.SetActive(false);
+
+    HideSwapTargetHighlights();
+}
 
     public bool IsLockedForSwap()
     {
         return isLockedForSwap;
     }
+
+    public void ShowSwapTargetHighlights(int validSlotCount)
+{
+    if (favorSlot1Highlight != null)
+        favorSlot1Highlight.SetActive(validSlotCount >= 1);
+
+    if (favorSlot2Highlight != null)
+        favorSlot2Highlight.SetActive(validSlotCount >= 2);
+
+    if (favorSlot3Highlight != null)
+        favorSlot3Highlight.SetActive(validSlotCount >= 3);
+}
+
+public void HideSwapTargetHighlights()
+{
+    if (favorSlot1Highlight != null)
+        favorSlot1Highlight.SetActive(false);
+
+    if (favorSlot2Highlight != null)
+        favorSlot2Highlight.SetActive(false);
+
+    if (favorSlot3Highlight != null)
+        favorSlot3Highlight.SetActive(false);
+}
+
+
+
 }

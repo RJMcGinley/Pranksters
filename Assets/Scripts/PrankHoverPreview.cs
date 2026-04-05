@@ -29,33 +29,39 @@ public class PrankHoverPreview : MonoBehaviour
     }
 
     void OnMouseEnter()
+{
+    if (deckManager != null && deckManager.IsSwapFlowActive())
+        return;
+
+    bool canComplete = deckManager != null && deckManager.CanCompletePrank(prankIndex);
+
+    if (deckManager != null)
     {
-
-        bool canComplete = deckManager != null && deckManager.CanCompletePrank(prankIndex);
-
-        if (deckManager != null)
-        {
-            deckManager.hoveredPrankIndex = prankIndex;
-            deckManager.SetAllPrankHighlightsVisible(false);
-        }
-
-        CacheHighlightReference();
-
-        if (prankHighlight != null)
-            prankHighlight.SetActive(false);
-
-        previewPanel.ShowFromSource(previewSprite, prankIndex, canComplete);
+        deckManager.hoveredPrankIndex = prankIndex;
+        deckManager.SetAllPrankHighlightsVisible(false);
     }
+
+    CacheHighlightReference();
+
+    if (prankHighlight != null)
+        prankHighlight.SetActive(false);
+
+    if (previewPanel != null)
+        previewPanel.ShowFromSource(previewSprite, prankIndex, canComplete);
+}
 
     void OnMouseExit()
-    {
-        if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
-            deckManager.hoveredPrankIndex = -1;
+{
+    if (deckManager != null && deckManager.IsSwapFlowActive())
+        return;
 
-        if (previewPanel != null)
-            previewPanel.NotifySourceExit(prankIndex);
+    if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
+        deckManager.hoveredPrankIndex = -1;
 
-        if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
-            deckManager.SetAllPrankHighlightsVisible(true);
-    }
+    if (previewPanel != null)
+        previewPanel.NotifySourceExit(prankIndex);
+
+    if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
+        deckManager.SetAllPrankHighlightsVisible(true);
+}
 }

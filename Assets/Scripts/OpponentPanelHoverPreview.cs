@@ -9,9 +9,23 @@ public class OpponentPanelHoverPreview : MonoBehaviour
     [Header("Popup Arm")]
     public PopupArm popupArm;
 
+    string GetPath()
+    {
+        string path = gameObject.name;
+        Transform current = transform.parent;
+
+        while (current != null)
+        {
+            path = current.name + "/" + path;
+            current = current.parent;
+        }
+
+        return path;
+    }
+
     void OnMouseEnter()
     {
-        Debug.Log("OPPONENT HOVER ENTER");
+        Debug.Log("OPPONENT HOVER ENTER on: " + GetPath());
 
         if (previewPanel != null && sourcePanel != null)
             previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
@@ -22,7 +36,7 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
     void OnMouseExit()
     {
-        Debug.Log("OPPONENT HOVER EXIT");
+        Debug.Log("OPPONENT HOVER EXIT on: " + GetPath());
 
         if (previewPanel != null && previewPanel.IsLockedForSwap())
             return;

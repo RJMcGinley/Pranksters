@@ -22,12 +22,24 @@ public class HandDisplay : MonoBehaviour
         }
 
         Player currentPlayer = deckManager.turnManager.GetCurrentPlayer();
-        List<PranksterType> hand = currentPlayer.hand;
+
+        List<PranksterType> hand;
+        if (deckManager != null && deckManager.IsInSwapHandSelection())
+            hand = deckManager.GetTempSwapHand();
+        else
+            hand = currentPlayer.hand;
 
         bool choosingFavor = deckManager != null && deckManager.IsChoosingFavor();
+        bool choosingSwapHand = deckManager != null && deckManager.IsInSwapHandSelection();
 
         float spacing = choosingFavor ? 2.4f : 1.9f;
         float yOffset = choosingFavor ? 0.2f : 0f;
+
+        if (choosingSwapHand)
+        {
+            spacing = 1.7f;
+            yOffset = 0f;
+        }
 
         int count = hand.Count;
         float startX = -(count - 1) * spacing / 2f;
@@ -63,6 +75,10 @@ public class HandDisplay : MonoBehaviour
     {
         card.transform.localScale = new Vector3(1.15f, 1.15f, 1f);
     }
+    else if (deckManager != null && deckManager.IsInSwapHandSelection())
+    {
+        card.transform.localScale = new Vector3(0.9f, 0.9f, 1f);
+    }
     else
     {
         card.transform.localScale = Vector3.one;
@@ -79,10 +95,13 @@ public class HandDisplay : MonoBehaviour
         click.cardIndex = index;
         click.SetBaseScale(card.transform.localScale);
 
-        if (deckManager.IsInDiscardSelection() && cardView != null && cardView.characterArtRenderer != null)
+        if (deckManager != null &&
+            deckManager.IsInDiscardSelection() &&
+            cardView != null &&
+            cardView.characterArtRenderer != null)
         {
             cardView.characterArtRenderer.color = Color.red;
         }
-}
+    }
 }
 }

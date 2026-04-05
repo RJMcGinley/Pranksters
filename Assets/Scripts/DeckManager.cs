@@ -104,6 +104,12 @@ public class DeckManager : MonoBehaviour
 
     public OpponentPreviewPanel opponentPreviewPanel;
 
+    // SwapPrankster temp state
+    private List<PranksterType> originalHandSnapshot = null;
+    private List<PranksterType> tempSwapHand = null;
+    private PranksterType pendingIncomingPrankster;
+    private bool isInSwapHandSelection = false;
+
     Player GetCurrentPlayer()
     {
         return turnManager.GetCurrentPlayer();
@@ -512,6 +518,12 @@ public class DeckManager : MonoBehaviour
     if (prankPreviewPanel != null)
         prankPreviewPanel.Hide();
 
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
     SetAllPrankHighlightsVisible(true);
 
     if (endTurnButton != null)
@@ -523,9 +535,11 @@ public class DeckManager : MonoBehaviour
 
     pendingChoice = PendingChoiceType.ChooseAction;
     Debug.Log("pendingChoice set to ChooseAction from StartPlayerTurn");
-    
 
     RefreshAllDisplays();
+
+    highlightSuppressionCount = 0;
+
     ShowActivePrankCards();
     RefreshAllHighlights();
 
@@ -551,15 +565,9 @@ public class DeckManager : MonoBehaviour
 
     IEnumerator RefreshHighlightsNextFrame()
     {
-        yield return null; // wait 1 frame
+        yield return null;
         RefreshAllHighlights();
     }
-
-
-
-
-
-
 }
 
 void FinishActionAndWaitForEndTurn()
@@ -1184,7 +1192,7 @@ public void StartSwapFavorTurn()
 {
     if (!CanStartSwapFavor())
     {
-        Debug.Log("You cannot swap favor right now.");
+        Debug.Log("You cannot swap favor right now. pendingChoice = " + pendingChoice);
         return;
     }
 
@@ -1240,9 +1248,16 @@ void ResolveSwapHandChoice(int handIndex)
         return;
     }
 
-    if (handIndex < 0 || handIndex >= currentPlayer.hand.Count)
+    if (originalHandSnapshot == null || originalHandSnapshot.Count == 0)
     {
-        Debug.Log("That hand card is not a valid swap choice. Choose again.");
+        Debug.Log("Original hand snapshot is missing. Canceling swap.");
+        CancelSwapPreview();
+        return;
+    }
+
+    if (handIndex < 0 || handIndex >= originalHandSnapshot.Count)
+    {
+        Debug.Log("That hand card is not a valid swap choice. Choose one of your original hand cards.");
         ShowCurrentPlayerHand();
         return;
     }
@@ -1250,6 +1265,29 @@ void ResolveSwapHandChoice(int handIndex)
     selectedSwapHandIndex = handIndex;
 
     ExchangeFavorCards(selectedSwapPlayerIndex, selectedSwapFavorIndex);
+
+    // Explicitly clear preview panel lock now that swap is committed
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
+    isInSwapHandSelection = false;
+    originalHandSnapshot = null;
+    tempSwapHand = null;
+    pendingIncomingPrankster = default;
+
+    hasTakenActionThisTurn = true;
+    pendingChoice = PendingChoiceType.None;
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(true);
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+    ShowCurrentPlayerHand();
+    ShowAllFavorAreas();
 }
 
 void ShowSwappableFavorChoices()
@@ -1273,7 +1311,7 @@ void ShowSwappableFavorChoices()
     }
 }
 
-void ResolveSwapTargetChoice(int favorSlotIndex)
+public void ResolveSwapTargetChoice(int favorSlotIndex)
 {
     if (pendingChoice != PendingChoiceType.ChooseSwapTarget)
         return;
@@ -1297,6 +1335,22 @@ void ResolveSwapTargetChoice(int favorSlotIndex)
     selectedSwapFavorIndex = favorSlotIndex;
     selectedSwapHandIndex = -1;
 
+    if (opponentPreviewPanel != null)
+        opponentPreviewPanel.HideSwapTargetHighlights();
+
+    Player currentPlayer = GetCurrentPlayer();
+
+    originalHandSnapshot = new List<PranksterType>(currentPlayer.hand);
+    pendingIncomingPrankster = targetPlayer.favorArea[selectedSwapFavorIndex];
+
+    tempSwapHand = new List<PranksterType>(originalHandSnapshot);
+    tempSwapHand.Add(pendingIncomingPrankster);
+
+    isInSwapHandSelection = true;
+
+    if (opponentPreviewPanel != null)
+        opponentPreviewPanel.Hide();
+
     pendingChoice = PendingChoiceType.ChooseSwapHandCard;
 
     LogSeparator("CHOOSE HAND CARD TO SWAP");
@@ -1305,10 +1359,13 @@ void ResolveSwapTargetChoice(int favorSlotIndex)
               " favor slot " + (selectedSwapFavorIndex + 1) +
               " (" + targetPlayer.favorArea[selectedSwapFavorIndex] + ").");
 
-    Debug.Log("Choose a card from your hand to swap. Press 1, 2, 3, or 4.");
+    Debug.Log("Choose a card from your hand to swap.");
     Debug.Log("Press X to cancel.");
 
+    RefreshAllDisplays();
+    RefreshAllHighlights();
     ShowCurrentPlayerHand();
+    ShowAllFavorAreas();
 }
 
 void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
@@ -2077,6 +2134,12 @@ public void OnHandCardClicked(int index)
         return;
     }
 
+    if (pendingChoice == PendingChoiceType.ChooseSwapHandCard)
+    {
+        ResolveSwapHandChoice(index);
+        return;
+    }
+
     Debug.Log("Hand click ignored: not in valid state.");
 }
 
@@ -2382,6 +2445,7 @@ public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 
 public bool CanSwapWithOpponent(int opponentPlayerIndex)
 {
+    // MUST be in action selection state
     if (pendingChoice != PendingChoiceType.ChooseAction)
         return false;
 
@@ -2479,6 +2543,9 @@ void ShowSwapTargetChoices()
     {
         Debug.Log("That player has no valid favor slots.");
     }
+
+    if (opponentPreviewPanel != null)
+        opponentPreviewPanel.ShowSwapTargetHighlights(targetPlayer.favorArea.Count);
 }
 
 public void CancelSwapPreview()
@@ -2486,6 +2553,11 @@ public void CancelSwapPreview()
     selectedSwapHandIndex = -1;
     selectedSwapPlayerIndex = -1;
     selectedSwapFavorIndex = -1;
+
+    isInSwapHandSelection = false;
+    originalHandSnapshot = null;
+    tempSwapHand = null;
+    pendingIncomingPrankster = default;
 
     pendingChoice = PendingChoiceType.ChooseAction;
 
@@ -2507,6 +2579,22 @@ public void CancelSwapPreview()
     ShowAllFavorAreas();
 }
 
+public bool IsInSwapHandSelection()
+{
+    return isInSwapHandSelection;
+}
+
+public List<PranksterType> GetTempSwapHand()
+{
+    return tempSwapHand;
+}
+
+public bool IsSwapFlowActive()
+{
+    return pendingChoice == PendingChoiceType.ChooseSwapOpponent ||
+           pendingChoice == PendingChoiceType.ChooseSwapTarget ||
+           pendingChoice == PendingChoiceType.ChooseSwapHandCard;
+}
 
 
 }

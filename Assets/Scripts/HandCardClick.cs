@@ -14,45 +14,47 @@ public class HandCardClick : MonoBehaviour
     private readonly Color hoverColor = Color.white;
 
     void Awake()
-{
-    PranksterCardView cardView = GetComponent<PranksterCardView>();
-    if (cardView != null)
-        targetRenderer = cardView.characterArtRenderer;
+    {
+        PranksterCardView cardView = GetComponent<PranksterCardView>();
+        if (cardView != null)
+            targetRenderer = cardView.characterArtRenderer;
 
-    originalScale = transform.localScale;
-}
+        originalScale = transform.localScale;
+    }
 
     void OnMouseEnter()
-{
-    if (deckManager == null)
-        return;
-
-    if (!deckManager.IsInDiscardSelection() && !deckManager.IsChoosingFavor())
-        return;
-
-    transform.localScale = originalScale * 1.1f;
-
-    if (targetRenderer != null)
-        targetRenderer.color = hoverColor;
-
-    if (deckManager.IsChoosingFavor())
     {
-        Player player = deckManager.turnManager.GetCurrentPlayer();
-        PranksterType type = player.hand[cardIndex];
+        if (deckManager == null)
+            return;
 
-        int favorValue = deckManager.CalculateFavorPoints(type);
+        if (!deckManager.IsInDiscardSelection() &&
+            !deckManager.IsChoosingFavor() &&
+            !deckManager.IsInSwapHandSelection())
+            return;
 
-        if (deckManager.favorPreviewText != null)
+        transform.localScale = originalScale * 1.1f;
+
+        if (targetRenderer != null)
+            targetRenderer.color = hoverColor;
+
+        if (deckManager.IsChoosingFavor())
         {
-            int index = deckManager.GetNextAvailableFavorIndex();
-            Vector3 pos = deckManager.GetFavorWellPosition(index);
+            Player player = deckManager.turnManager.GetCurrentPlayer();
+            PranksterType type = player.hand[cardIndex];
 
-            deckManager.favorPreviewText.text = favorValue.ToString();
-            deckManager.favorPreviewText.transform.position = pos;
-            deckManager.favorPreviewText.gameObject.SetActive(true);
+            int favorValue = deckManager.CalculateFavorPoints(type);
+
+            if (deckManager.favorPreviewText != null)
+            {
+                int index = deckManager.GetNextAvailableFavorIndex();
+                Vector3 pos = deckManager.GetFavorWellPosition(index);
+
+                deckManager.favorPreviewText.text = favorValue.ToString();
+                deckManager.favorPreviewText.transform.position = pos;
+                deckManager.favorPreviewText.gameObject.SetActive(true);
+            }
         }
     }
-}
 
     void OnMouseExit()
     {
@@ -70,8 +72,6 @@ public class HandCardClick : MonoBehaviour
         {
             deckManager.favorPreviewText.gameObject.SetActive(false);
         }
-
-
     }
 
     void OnMouseDown()
@@ -79,8 +79,9 @@ public class HandCardClick : MonoBehaviour
         if (deckManager == null)
             return;
 
-        // Allow clicking in BOTH modes
-        if (!deckManager.IsInDiscardSelection() && !deckManager.IsChoosingFavor())
+        if (!deckManager.IsInDiscardSelection() &&
+            !deckManager.IsChoosingFavor() &&
+            !deckManager.IsInSwapHandSelection())
             return;
 
         deckManager.OnHandCardClicked(cardIndex);
@@ -97,7 +98,6 @@ public class HandCardClick : MonoBehaviour
             targetRenderer.color = new Color(50f, 50f, 50f);
         else
             targetRenderer.color = Color.white;
-        
     }
 
     public void SetBaseScale(Vector3 scale)
@@ -105,5 +105,4 @@ public class HandCardClick : MonoBehaviour
         originalScale = scale;
         transform.localScale = scale;
     }
-
 }
