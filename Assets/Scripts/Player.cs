@@ -8,5 +8,6 @@ public class Player
     public int favorPoints = 0;
     public int renownPoints = 0;
     public int finalScore = 0;
-    
+
+    public bool isBot = false;
 }

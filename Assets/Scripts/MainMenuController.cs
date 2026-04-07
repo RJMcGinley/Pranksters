@@ -50,11 +50,22 @@ public class MainMenuController : MonoBehaviour
     if (mainGame != null)
         mainGame.SetActive(true);
 
+    GameObject gameCanvas = GameObject.Find("GameCanvas");
+    if (gameCanvas != null)
+        gameCanvas.SetActive(true);
+
     TurnManager turnManager = FindFirstObjectByType<TurnManager>();
     if (turnManager != null)
     {
         turnManager.StartGame(GameSettings.PlayerCount);
         Debug.Log("Starting game with " + GameSettings.PlayerCount + " players.");
+
+        // Player 1 = human, all others = bots
+        for (int i = 0; i < turnManager.players.Count; i++)
+        {
+            turnManager.players[i].isBot = (i != 0);
+            Debug.Log("Player " + (i + 1) + " isBot = " + turnManager.players[i].isBot);
+        }
     }
     else
     {
@@ -71,5 +82,25 @@ public class MainMenuController : MonoBehaviour
     {
         Debug.LogWarning("DeckManager not found.");
     }
+
+    if (playerCountPanel != null)
+        playerCountPanel.SetActive(false);
 }
+
+    public void ReturnToMainMenu()
+    {
+        Debug.Log("Returning to main menu");
+
+        if (endGameCanvas != null)
+            endGameCanvas.SetActive(false);
+
+        if (mainGame != null)
+            mainGame.SetActive(false);
+
+        if (playerCountPanel != null)
+            playerCountPanel.SetActive(false);
+
+        if (mainMenuCanvas != null)
+            mainMenuCanvas.SetActive(true);
+    }
 }

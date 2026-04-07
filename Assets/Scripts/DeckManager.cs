@@ -110,6 +110,9 @@ public class DeckManager : MonoBehaviour
     private PranksterType pendingIncomingPrankster;
     private bool isInSwapHandSelection = false;
 
+    public BotManager botManager;
+    public GameObject gameCanvas;
+
     Player GetCurrentPlayer()
     {
         return turnManager.GetCurrentPlayer();
@@ -567,6 +570,21 @@ public class DeckManager : MonoBehaviour
     {
         yield return null;
         RefreshAllHighlights();
+    }
+
+    // ===== BOT TURN TRIGGER =====
+    if (GetCurrentPlayer().isBot)
+    {
+        Debug.Log("BOT TURN DETECTED");
+
+        if (botManager != null)
+        {
+            botManager.TakeBotTurn();
+        }
+        else
+        {
+            Debug.LogWarning("BotManager not assigned in DeckManager!");
+        }
     }
 }
 
@@ -1431,13 +1449,17 @@ void TriggerEndGameScoring()
 
     Debug.Log("Calculating final scores...");
 
-    // Turn on endgame UI
+    CalculateFinalScores();
+    Debug.Log("CalculateFinalScores COMPLETE");
+
+    // Show end game canvas and scoring panel
     if (endGameCanvas != null)
         endGameCanvas.SetActive(true);
-    else
-        Debug.LogWarning("endGameCanvas is NULL");
 
-    // 👇 ADD THIS BLOCK (safe assignment)
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(true);
+
+    // Set final prank image if available
     if (finalCompletedPrank != null && finalPrankImage != null)
     {
         finalPrankImage.sprite = finalCompletedPrank.cardSprite;
@@ -1447,14 +1469,19 @@ void TriggerEndGameScoring()
         Debug.LogWarning("Final prank image not assigned or finalCompletedPrank is NULL");
     }
 
-    CalculateFinalScores();
-    Debug.Log("CalculateFinalScores COMPLETE");
-
-    RefreshAllDisplays();
-    DeclareWinnerByScore();
+    // THIS is what actually fills the score table
     ShowGameOverPanel();
 
+    DeclareWinnerByScore();
     Debug.Log("DeclareWinnerByScore COMPLETE");
+
+    // Disable gameplay layer so it cannot block clicks
+    if (gameCanvas != null)
+        gameCanvas.SetActive(false);
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+
     Debug.Log("TriggerEndGameScoring END");
 }
 
@@ -2313,10 +2340,27 @@ IEnumerator RefillHandToFourOneCardAtATime(float delayBetweenCards = 0.3f)
 
 IEnumerator FinishCompletePrankSequence()
 {
+    Debug.Log("FinishCompletePrankSequence START | isBot = " + GetCurrentPlayer().isBot);
+
     yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
 
     RefreshAllDisplays();
-    FinishActionAndWaitForEndTurn();
+
+    if (GetCurrentPlayer().isBot)
+    {
+        Debug.Log("BOT complete prank sequence ending turn automatically");
+
+        ShowActivePrankCards();
+        RefreshAllHighlights();
+
+        yield return new WaitForSeconds(1.2f);
+        EndPlayerTurn();
+    }
+    else
+    {
+        Debug.Log("HUMAN complete prank sequence waiting for End Turn");
+        FinishActionAndWaitForEndTurn();
+    }
 }
 
 IEnumerator DealStartingHandsOneCardAtATime(float delayBetweenCards = 0.2f)
@@ -2594,6 +2638,141 @@ public bool IsSwapFlowActive()
     return pendingChoice == PendingChoiceType.ChooseSwapOpponent ||
            pendingChoice == PendingChoiceType.ChooseSwapTarget ||
            pendingChoice == PendingChoiceType.ChooseSwapHandCard;
+}
+
+// ===== BOT ACCESS METHODS =====
+
+public Player BotGetCurrentPlayer()
+{
+    return GetCurrentPlayer();
+}
+
+public List<Player> BotGetAllPlayers()
+{
+    return turnManager.players;
+}
+
+public int BotGetCurrentPlayerIndex()
+{
+    return turnManager.currentPlayerIndex;
+}
+
+public List<PrankCard> BotGetActivePranks()
+{
+    return activePranks;
+}
+
+public List<PranksterType> BotGetDiscardPile()
+{
+    return discardPile;
+}
+
+public int BotCalculateFavorPoints(PranksterType pranksterType)
+{
+    return CalculateFavorPoints(pranksterType);
+}
+
+public bool BotCanCompletePrank(int prankIndex)
+{
+    return CanCompletePrank(prankIndex);
+}
+
+public void BotCompletePrank(int prankIndex)
+{
+    CompletePrank(prankIndex);
+}
+
+public void BotDrawFromDeck()
+{
+    DrawCard();
+    RefreshAllDisplays();
+}
+
+public void BotDrawFromDiscard()
+{
+    DrawFromDiscard();
+    RefreshAllDisplays();
+}
+
+public void BotDiscardCardFromHand(int handIndex)
+{
+    DiscardCardFromHand(handIndex);
+    RefreshAllDisplays();
+}
+
+public bool BotCanOfferFavor()
+{
+    return GetCurrentPlayer().favorArea.Count < 3 && GetCurrentPlayer().hand.Count > 0;
+}
+
+public void BotStartOfferFavor(int handIndex)
+{
+    StartCoroutine(OfferFavor(handIndex));
+}
+
+public void BotFinishActionAndWaitForEndTurn()
+{
+    FinishActionAndWaitForEndTurn();
+}
+
+public void BotEndPlayerTurn()
+{
+    EndPlayerTurn();
+}
+
+public void BotRefreshAllDisplays()
+{
+    RefreshAllDisplays();
+    ShowActivePrankCards();
+    RefreshAllHighlights();
+}
+
+public void ShowBotActionMessage(string message)
+{
+    if (turnText != null)
+    {
+        turnText.text = message;
+        StartCoroutine(ShowTurnTextTemporarily());
+    }
+
+    Debug.Log(message);
+}
+
+public void BotOfferFavor(int handIndex)
+{
+    StartCoroutine(OfferFavor(handIndex));
+}
+
+public bool BotSwapWithOpponentFavor(int opponentIndex, int opponentFavorIndex, int handIndexToGive)
+{
+    Player currentPlayer = GetCurrentPlayer();
+
+    if (opponentIndex < 0 || opponentIndex >= turnManager.players.Count)
+        return false;
+
+    if (opponentIndex == turnManager.currentPlayerIndex)
+        return false;
+
+    Player opponent = turnManager.players[opponentIndex];
+
+    if (opponentFavorIndex < 0 || opponentFavorIndex >= opponent.favorArea.Count)
+        return false;
+
+    if (handIndexToGive < 0 || handIndexToGive >= currentPlayer.hand.Count)
+        return false;
+
+    PranksterType gainedCard = opponent.favorArea[opponentFavorIndex];
+    PranksterType givenCard = currentPlayer.hand[handIndexToGive];
+
+    opponent.favorArea[opponentFavorIndex] = givenCard;
+    currentPlayer.hand[handIndexToGive] = gainedCard;
+
+    SortCurrentPlayerHand();
+    RefreshAllDisplays();
+
+    Debug.Log("BOT SWAP: Gained " + gainedCard + " and gave " + givenCard);
+
+    return true;
 }
 
 
