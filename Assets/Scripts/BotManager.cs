@@ -19,6 +19,8 @@ public class BotManager : MonoBehaviour
 {
     public DeckManager deckManager;
     public TurnManager turnManager;
+    public NextPlayerPanelController nextPlayerPanelController;
+    private bool botActionHandledTurnFlow = false;
 
     Player GetCurrentPlayer()
     {
@@ -27,62 +29,66 @@ public class BotManager : MonoBehaviour
 
     public void TakeBotTurn()
 {
-    if (TryCompletePrank())
-    {
-        // CompletePrank runs its own DeckManager sequence.
-        // Do not end the turn here or it conflicts with FinishCompletePrankSequence.
+    string actionMessage = TakeBotTurnAndReturnMessage();
+
+    if (!string.IsNullOrEmpty(actionMessage))
+        deckManager.ShowBotTurnOverlay(actionMessage);
+
+    // CompletePrank runs its own DeckManager coroutine flow.
+    // In that case, do not force another end-turn here.
+    if (actionMessage != null && actionMessage.StartsWith("Completed:"))
         return;
-    }
 
-    if (TryTakeDiscardForExactProgress(4))
-    {
-        Debug.Log("BOT: Action complete. Ending turn.");
-        deckManager.BotRefreshAllDisplays();
-        StartCoroutine(EndTurnAfterDelay(1.2f));
-        return;
-    }
-
-    if (TrySwapForFavorCardForExactProgress(4))
-    {
-        Debug.Log("BOT: Action complete. Ending turn.");
-        deckManager.BotRefreshAllDisplays();
-        StartCoroutine(EndTurnAfterDelay(1.2f));
-        return;
-    }
-
-    if (TryTakeDiscardForExactProgress(3))
-    {
-        Debug.Log("BOT: Action complete. Ending turn.");
-        deckManager.BotRefreshAllDisplays();
-        StartCoroutine(EndTurnAfterDelay(1.2f));
-        return;
-    }
-
-    if (TrySwapForFavorCardForExactProgress(3))
-    {
-        Debug.Log("BOT: Action complete. Ending turn.");
-        deckManager.BotRefreshAllDisplays();
-        StartCoroutine(EndTurnAfterDelay(1.2f));
-        return;
-    }
-
-    if (!HandContainsFavorValue(0))
-    {
-        if (TryOfferFavor())
-        {
-            Debug.Log("BOT: Offered favor.");
-            deckManager.BotRefreshAllDisplays();
-            StartCoroutine(EndTurnAfterDelay(1.2f));
-            return;
-        }
-    }
-
-    Debug.Log("BOT: No strong visible action. Drawing from deck.");
-    DrawFromDeckAndDiscardBestChoice();
-
-    Debug.Log("BOT: Action complete. Ending turn.");
     deckManager.BotRefreshAllDisplays();
     StartCoroutine(EndTurnAfterDelay(1.2f));
+
+}
+
+    string TakeBotTurnAndReturnMessage()
+{
+    botActionHandledTurnFlow = false;
+
+    // ===== COMPLETE PRANK =====
+    int prankIndex = FindBestCompletablePrankIndex();
+    if (prankIndex != -1)
+    {
+        List<PrankCard> activePranks = deckManager.BotGetActivePranks();
+        string prankName = activePranks[prankIndex].title;
+
+        Debug.Log("BOT: Completing prank at index " + prankIndex);
+        deckManager.BotCompletePrank(prankIndex);
+
+        return "Completed prank:\n" + prankName;
+    }
+
+    // ===== DISCARD FOR 4/4 =====
+    if (TryTakeDiscardForExactProgress(4, out string discardMessage4))
+        return discardMessage4;
+
+    if (TrySwapForFavorCardForExactProgress(4, out string swapMessage4))
+        return swapMessage4;
+
+    // ===== DISCARD FOR 3/4 =====
+    if (TryTakeDiscardForExactProgress(3, out string discardMessage3))
+        return discardMessage3;
+
+    if (TrySwapForFavorCardForExactProgress(3, out string swapMessage3))
+        return swapMessage3;
+
+    // ===== OFFER FAVOR =====
+    if (!HandContainsFavorValue(0))
+    {
+        if (TryOfferFavor(out string favorMessage))
+            return favorMessage;
+    }
+
+    // ===== FALLBACK: DRAW =====
+    Debug.Log("BOT: No strong visible action. Drawing from deck.");
+
+    if (DrawFromDeckAndDiscardBestChoice(out string drawMessage))
+        return drawMessage;
+
+    return "Drew from deck";
 }
 
     bool HandContainsFavorValue(int value)
@@ -159,8 +165,6 @@ public class BotManager : MonoBehaviour
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
     string prankName = activePranks[prankIndex].title;
 
-    deckManager.ShowBotActionMessage("Completed:\n" + prankName);
-
     Debug.Log("BOT: Completing prank at index " + prankIndex);
     deckManager.BotCompletePrank(prankIndex);
 
@@ -204,8 +208,10 @@ public class BotManager : MonoBehaviour
     return false;
 }
 
-bool TryTakeDiscardForExactProgress(int targetProgress)
+bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage)
 {
+    actionMessage = "";
+
     List<PranksterType> discardPile = deckManager.BotGetDiscardPile();
 
     if (discardPile.Count == 0)
@@ -216,14 +222,24 @@ bool TryTakeDiscardForExactProgress(int targetProgress)
     if (!CardCreatesExactProgress(topCard, targetProgress, out int bestPrankIndex))
         return false;
 
-    deckManager.ShowBotActionMessage("Bot took from discard:\n" + topCard);
-
     Debug.Log("BOT: Taking discard for " + targetProgress + "-of-4 progress");
 
     deckManager.BotDrawFromDiscard();
 
     int discardIndex = ChooseDiscardIndexAfterGain(bestPrankIndex);
+
+    Player player = GetCurrentPlayer();
+
+    if (discardIndex < 0 || discardIndex >= player.hand.Count)
+        return false;
+
+    PranksterType discardedCard = player.hand[discardIndex];
+
     deckManager.BotDiscardCardFromHand(discardIndex);
+
+    actionMessage =
+        "Took " + topCard + " from discard " +
+        "\nDiscarded: " + discardedCard;
 
     return true;
 }
@@ -281,25 +297,36 @@ int ChooseDiscardIndexAfterGain(int protectedPrankIndex)
     return bestIndex;
 }
 
-void DrawFromDeckAndDiscardBestChoice()
+bool DrawFromDeckAndDiscardBestChoice(out string actionMessage)
 {
+    actionMessage = "";
+
     deckManager.BotDrawFromDeck();
 
     int discardIndex = ChooseBestDiscardIndexFromCurrentHand();
 
-    if (discardIndex >= 0)
-    {
-        Player player = GetCurrentPlayer();
-        PranksterType discardedCard = player.hand[discardIndex];
+    if (discardIndex < 0)
+        return false;
 
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayDrawCardAction();
+    Player player = GetCurrentPlayer();
 
-        deckManager.ShowBotActionMessage("Bot drew a card\nDiscarded " + discardedCard);
+    if (discardIndex >= player.hand.Count)
+        return false;
 
-        Debug.Log("BOT: Discarding card at hand index " + discardIndex);
-        deckManager.BotDiscardCardFromHand(discardIndex);
-    }
+    PranksterType discardedCard = player.hand[discardIndex];
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDrawCardAction();
+
+    Debug.Log("BOT: Discarding card at hand index " + discardIndex);
+
+    deckManager.BotDiscardCardFromHand(discardIndex);
+
+    actionMessage =
+        "Drew from deck\n" +
+        "Discarded: " + discardedCard;
+
+    return true;
 }
 
 int ChooseLowestFavorValueHandIndex()
@@ -310,6 +337,8 @@ int ChooseLowestFavorValueHandIndex()
 IEnumerator EndTurnAfterDelay(float delay)
 {
     yield return new WaitForSeconds(delay);
+
+    deckManager.HideBotTurnOverlay();
     deckManager.BotEndPlayerTurn();
 }
 
@@ -605,8 +634,10 @@ bool FindBestSwapCandidateForExactProgress(
     return true;
 }
 
-bool TrySwapForFavorCardForExactProgress(int targetProgress)
+bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMessage)
 {
+    actionMessage = "";
+
     if (!FindBestSwapCandidateForExactProgress(
         targetProgress,
         out int opponentIndex,
@@ -618,22 +649,36 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress)
     }
 
     List<Player> players = deckManager.BotGetAllPlayers();
+    Player currentPlayer = GetCurrentPlayer();
+
+    if (handIndexToGive < 0 || handIndexToGive >= currentPlayer.hand.Count)
+        return false;
+
+    PranksterType givenCard = currentPlayer.hand[handIndexToGive];
     PranksterType gainedCard = players[opponentIndex].favorArea[opponentFavorIndex];
 
-    deckManager.ShowBotActionMessage("Bot swapped for " + gainedCard);
-
     Debug.Log(
-        "BOT: Swapping for " + gainedCard +
+        "BOT: Swapping " + givenCard +
+        " for " + gainedCard +
         " to create " + targetProgress + "-of-4 progress"
     );
 
     bool success = deckManager.BotSwapWithOpponentFavor(opponentIndex, opponentFavorIndex, handIndexToGive);
 
-    return success;
+    if (!success)
+        return false;
+
+    actionMessage =
+        "Swapped: " + gainedCard +
+        "\nfor: " + givenCard;
+
+    return true;
 }
 
-bool TryOfferFavor()
+bool TryOfferFavor(out string actionMessage)
 {
+    actionMessage = "";
+
     Player player = GetCurrentPlayer();
 
     int bestIndex = -1;
@@ -644,7 +689,7 @@ bool TryOfferFavor()
         PranksterType card = player.hand[i];
         int favorValue = deckManager.BotCalculateFavorPoints(card);
 
-        // Never offer 0-value cards (safety rule)
+        // Never offer 0-value cards
         if (favorValue == 0)
             continue;
 
@@ -678,14 +723,58 @@ bool TryOfferFavor()
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayFavorClick();
 
-    deckManager.ShowBotActionMessage("Bot offered as favor:\n" + selectedCard);
-
     Debug.Log("BOT: Offering favor " + selectedCard);
-
     Debug.Log("BOT: TryOfferFavor selected hand index " + bestIndex + " card " + selectedCard);
+
     deckManager.BotOfferFavor(bestIndex);
 
+    actionMessage = "Offered " + selectedCard + " as favor:";
+
     return true;
+}
+
+public void StartBotTurn()
+{
+    StartCoroutine(BotTurnSequence());
+}
+
+IEnumerator BotTurnSequence()
+{
+    int playerNumber = turnManager.currentPlayerIndex + 1;
+
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.ShowBotTurnHeader("Player " + playerNumber);
+
+    yield return new WaitForSeconds(0.8f);
+
+    string actionMessage = TakeBotTurnAndReturnMessage();
+
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.ShowBotMessage(actionMessage);
+
+    yield return new WaitForSeconds(2f);
+
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.HideBotMessage();
+
+    if (botActionHandledTurnFlow)
+    {
+        Debug.Log("Bot action already handled turn flow. Skipping BotEndPlayerTurn.");
+        yield break;
+    }
+
+    if (deckManager != null && deckManager.IsGameOver())
+    {
+        Debug.Log("Game is over. Skipping BotEndPlayerTurn.");
+        yield break;
+    }
+
+    deckManager.BotEndPlayerTurn();
+}
+
+public void NotifyBotActionHandledTurnFlow()
+{
+    botActionHandledTurnFlow = true;
 }
 
 }

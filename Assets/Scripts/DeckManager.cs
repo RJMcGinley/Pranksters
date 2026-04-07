@@ -103,6 +103,7 @@ public class DeckManager : MonoBehaviour
     int selectedSwapFavorIndex = -1;
 
     public OpponentPreviewPanel opponentPreviewPanel;
+    public NextPlayerPanelController nextPlayerPanelController;
 
     // SwapPrankster temp state
     private List<PranksterType> originalHandSnapshot = null;
@@ -112,6 +113,10 @@ public class DeckManager : MonoBehaviour
 
     public BotManager botManager;
     public GameObject gameCanvas;
+    public bool IsGameOver()
+    {
+        return gameOver;
+    }
 
     Player GetCurrentPlayer()
     {
@@ -310,6 +315,13 @@ public class DeckManager : MonoBehaviour
     yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
 
     RefreshAllDisplays();
+
+    if (GetCurrentPlayer().isBot)
+    {
+        Debug.Log("BOT offer favor sequence finished");
+        yield break;
+    }
+
     FinishActionAndWaitForEndTurn();
 }
 
@@ -401,12 +413,18 @@ public class DeckManager : MonoBehaviour
 
     if (HasPlayerCompletedFourPranks())
     {
+        if (GetCurrentPlayer().isBot && botManager != null)
+            botManager.NotifyBotActionHandledTurnFlow();
+
         TriggerEndGameScoring();
         return;
     }
 
     if (activePranks.Count == 0)
     {
+        if (GetCurrentPlayer().isBot && botManager != null)
+         botManager.NotifyBotActionHandledTurnFlow();
+
         StartCoroutine(ResetRoundSequence());
         return;
     }
@@ -548,8 +566,8 @@ public class DeckManager : MonoBehaviour
 
     if (turnText != null)
     {
-        turnText.text = "PLAYER " + (turnManager.currentPlayerIndex + 1) + "'S TURN";
-        StartCoroutine(ShowTurnTextTemporarily());
+        turnText.text = "";
+        turnText.gameObject.SetActive(false);
     }
 
     if (AudioManager.Instance != null)
@@ -573,19 +591,35 @@ public class DeckManager : MonoBehaviour
     }
 
     // ===== BOT TURN TRIGGER =====
-    if (GetCurrentPlayer().isBot)
-    {
-        Debug.Log("BOT TURN DETECTED");
+if (GetCurrentPlayer().isBot)
+{
+    Debug.Log("BOT TURN DETECTED");
 
-        if (botManager != null)
-        {
-            botManager.TakeBotTurn();
-        }
-        else
-        {
-            Debug.LogWarning("BotManager not assigned in DeckManager!");
-        }
+    pendingChoice = PendingChoiceType.None;
+    highlightSuppressionCount = 1;
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
     }
+
+    RefreshAllHighlights();
+
+    if (botManager != null)
+    {
+        botManager.StartBotTurn();
+    }
+    else
+    {
+        Debug.LogWarning("BotManager not assigned in DeckManager!");
+    }
+
+    return;
+}
 }
 
 void FinishActionAndWaitForEndTurn()
@@ -1459,6 +1493,9 @@ void TriggerEndGameScoring()
     if (endGameScoringPanel != null)
         endGameScoringPanel.SetActive(true);
 
+    // Start entry animation after panel is active
+    StartCoroutine(AnimateEndGamePanel());
+
     // Set final prank image if available
     if (finalCompletedPrank != null && finalPrankImage != null)
     {
@@ -1469,7 +1506,7 @@ void TriggerEndGameScoring()
         Debug.LogWarning("Final prank image not assigned or finalCompletedPrank is NULL");
     }
 
-    // THIS is what actually fills the score table
+    // Fill the score table
     ShowGameOverPanel();
 
     DeclareWinnerByScore();
@@ -1944,7 +1981,12 @@ StartCoroutine(BeginNewGameSequence());
 
 public void AdvanceToNextPlayerTurn()
 {
+    Debug.Log("AdvanceToNextPlayerTurn START");
+
     turnManager.NextPlayer();
+
+    Debug.Log("Current player after NextPlayer = " + (turnManager.currentPlayerIndex + 1) +
+              " | isBot = " + turnManager.GetCurrentPlayer().isBot);
 
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshDisplays();
@@ -2348,13 +2390,12 @@ IEnumerator FinishCompletePrankSequence()
 
     if (GetCurrentPlayer().isBot)
     {
-        Debug.Log("BOT complete prank sequence ending turn automatically");
+        Debug.Log("BOT complete prank sequence finished");
 
         ShowActivePrankCards();
         RefreshAllHighlights();
 
-        yield return new WaitForSeconds(1.2f);
-        EndPlayerTurn();
+        yield break;
     }
     else
     {
@@ -2465,6 +2506,12 @@ IEnumerator BeginNewGameSequence()
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 {
+    if (highlightSuppressionCount > 0)
+        return false;
+
+    if (GetCurrentPlayer().isBot)
+        return false;
+
     if (pendingChoice != PendingChoiceType.ChooseAction)
         return false;
 
@@ -2480,7 +2527,7 @@ public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
     if (turnManager.players[representedPlayerIndex].favorArea.Count == 0)
         return false;
 
-    // NEW: do not highlight if preview is locked
+    // do not highlight if preview is locked
     if (opponentPreviewPanel != null && opponentPreviewPanel.IsLockedForSwap())
         return false;
 
@@ -2775,6 +2822,40 @@ public bool BotSwapWithOpponentFavor(int opponentIndex, int opponentFavorIndex, 
     return true;
 }
 
+IEnumerator AnimateEndGamePanel()
+{
+    if (endGameScoringPanel == null)
+        yield break;
+
+    Transform panelTransform = endGameScoringPanel.transform;
+    panelTransform.localScale = new Vector3(0.6f, 0.6f, 1f);
+
+    float t = 0f;
+    float duration = 0.5f;
+
+    while (t < duration)
+    {
+        t += Time.deltaTime;
+        float progress = Mathf.Clamp01(t / duration);
+        float scale = Mathf.Lerp(0.85f, 1f, progress);
+        panelTransform.localScale = new Vector3(scale, scale, 1f);
+        yield return null;
+    }
+
+    panelTransform.localScale = Vector3.one;
+}
+
+public void ShowBotTurnOverlay(string message)
+{
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.ShowBotMessage(message);
+}
+
+public void HideBotTurnOverlay()
+{
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.HideBotMessage();
+}
 
 }
 
