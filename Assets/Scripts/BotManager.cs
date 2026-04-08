@@ -684,6 +684,20 @@ bool TryOfferFavor(out string actionMessage)
     int bestIndex = -1;
     int bestScore = int.MinValue;
 
+    int remainingPranks = GetRemainingPranks();
+    int bestProgress = GetBestPrankProgress();
+    bool canImprove = CanReachTwoOfFourFromVisibleSources();
+
+    bool lateRoundFarFromGoal =
+        remainingPranks == 1 &&
+        bestProgress <= 1 &&
+        !canImprove;
+
+    bool lateRoundStall =
+        remainingPranks == 1 &&
+        bestProgress >= 3 &&
+        !canImprove;
+
     for (int i = 0; i < player.hand.Count; i++)
     {
         PranksterType card = player.hand[i];
@@ -696,16 +710,32 @@ bool TryOfferFavor(out string actionMessage)
         bool supportsThree = CardSupportsThreeOfFour(i);
         bool supportsPair = CardSupportsAnyPair(i);
 
-        // Never give away important structure
-        if (supportsThree || supportsPair)
-            continue;
+        // Normal rule: protect structure
+        // Exception 1: late round and far from goal
+        // Exception 2: late round stall, but only for strong favor cards
+        if (!lateRoundFarFromGoal && !lateRoundStall)
+        {
+            if (supportsThree || supportsPair)
+                continue;
+        }
+        else if (lateRoundStall)
+        {
+            if ((supportsThree || supportsPair) && favorValue < 4)
+                continue;
+        }
 
         int score = 0;
 
-        // Prefer giving away lower-value cards
+        // Existing preference
         score += (10 - favorValue);
 
-        // Small randomness to avoid deterministic play
+        // Stronger bias toward high-value favor cards
+        if (favorValue >= 4)
+            score += 40;
+        else if (favorValue == 3)
+            score += 20;
+
+        // Small randomness
         score += Random.Range(0, 3);
 
         if (score > bestScore)
@@ -718,6 +748,41 @@ bool TryOfferFavor(out string actionMessage)
     if (bestIndex == -1)
         return false;
 
+    int bestFavorValue = deckManager.BotCalculateFavorPoints(player.hand[bestIndex]);
+
+    // ===== DECISION GATE =====
+    if (remainingPranks == 1)
+    {
+        bool allowLateRoundFavor =
+            (lateRoundFarFromGoal && bestFavorValue >= 3) ||
+            (lateRoundStall && bestFavorValue >= 4);
+
+        if (!allowLateRoundFavor)
+        {
+            Debug.Log("BOT: Skipping favor (late round prefers progress)");
+            return false;
+        }
+
+        Debug.Log("BOT: Late round favor allowed");
+    }
+    else
+    {
+        // Normal randomness
+        float decisionRoll = Random.value;
+        float threshold = 0.5f;
+
+        if (bestFavorValue >= 4)
+            threshold = 0.8f;
+        else if (bestFavorValue == 3)
+            threshold = 0.65f;
+
+        if (decisionRoll > threshold)
+        {
+            Debug.Log("BOT: Skipping offer favor due to randomness");
+            return false;
+        }
+    }
+
     PranksterType selectedCard = player.hand[bestIndex];
 
     if (AudioManager.Instance != null)
@@ -728,7 +793,7 @@ bool TryOfferFavor(out string actionMessage)
 
     deckManager.BotOfferFavor(bestIndex);
 
-    actionMessage = "Offered " + selectedCard + " as favor:";
+    actionMessage = "Offered as favor:\n" + selectedCard;
 
     return true;
 }
@@ -777,5 +842,79 @@ public void NotifyBotActionHandledTurnFlow()
     botActionHandledTurnFlow = true;
 }
 
+int GetRemainingPranks()
+{
+    return deckManager.BotGetActivePranks().Count;
 }
+
+int GetBestPrankProgress()
+{
+    int bestProgress = 0;
+
+    List<PrankCard> pranks = deckManager.BotGetActivePranks();
+    Player currentPlayer = GetCurrentPlayer();
+
+    for (int i = 0; i < pranks.Count; i++)
+    {
+        int progress = CountProgressTowardPrank(currentPlayer.hand, pranks[i]);
+
+        if (progress > bestProgress)
+            bestProgress = progress;
+    }
+
+    return bestProgress;
+}
+
+bool CanReachTwoOfFourFromVisibleSources()
+{
+    List<PrankCard> pranks = deckManager.BotGetActivePranks();
+    List<PranksterType> discard = deckManager.BotGetDiscardPile();
+    List<Player> players = deckManager.BotGetAllPlayers();
+    Player currentPlayer = GetCurrentPlayer();
+
+    for (int i = 0; i < pranks.Count; i++)
+    {
+        int currentProgress = CountProgressTowardPrank(currentPlayer.hand, pranks[i]);
+
+        // We only care about improving from 1-of-4 to 2-of-4
+        if (currentProgress != 1)
+            continue;
+
+        // Check discard top card
+        if (discard.Count > 0)
+        {
+            PranksterType topCard = discard[discard.Count - 1];
+
+            List<PranksterType> simulatedHand = new List<PranksterType>(currentPlayer.hand);
+            simulatedHand.Add(topCard);
+
+            int newProgress = CountProgressTowardPrank(simulatedHand, pranks[i]);
+
+            if (newProgress >= 2)
+                return true;
+        }
+
+        // Check opponent favor areas
+        for (int p = 0; p < players.Count; p++)
+        {
+            if (p == turnManager.currentPlayerIndex)
+                continue;
+
+            foreach (PranksterType favorCard in players[p].favorArea)
+            {
+                List<PranksterType> simulatedHand = new List<PranksterType>(currentPlayer.hand);
+                simulatedHand.Add(favorCard);
+
+                int newProgress = CountProgressTowardPrank(simulatedHand, pranks[i]);
+
+                if (newProgress >= 2)
+                    return true;
+            }
+        }
+    }
+
+    return false;
+}
+}
+
 
