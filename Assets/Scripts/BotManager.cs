@@ -218,24 +218,83 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
         return false;
 
     PranksterType topCard = discardPile[discardPile.Count - 1];
+    Player player = GetCurrentPlayer();
 
     if (!CardCreatesExactProgress(topCard, targetProgress, out int bestPrankIndex))
         return false;
+
+    // Simulate taking the discard card first
+    List<PranksterType> simulatedHand = new List<PranksterType>(player.hand);
+    simulatedHand.Add(topCard);
+
+    int bestDiscardIndex = -1;
+    int bestScore = int.MinValue;
+
+    for (int i = 0; i < simulatedHand.Count; i++)
+    {
+        // Never discard the exact card just taken
+        if (i == simulatedHand.Count - 1)
+            continue;
+
+        List<PranksterType> handAfterDiscard = new List<PranksterType>(simulatedHand);
+        handAfterDiscard.RemoveAt(i);
+
+        int progressAfterDiscard = CountProgressTowardPrank(handAfterDiscard, deckManager.BotGetActivePranks()[bestPrankIndex]);
+
+        // If the discard undoes the progress goal, reject it
+        if (progressAfterDiscard < targetProgress)
+            continue;
+
+        int favorValue = deckManager.BotCalculateFavorPoints(simulatedHand[i]);
+
+        // Evaluate support based on current real hand index when possible
+        bool supportsThree = false;
+        bool supportsPair = false;
+
+        if (i < player.hand.Count)
+        {
+            supportsThree = CardSupportsThreeOfFour(i);
+            supportsPair = CardSupportsAnyPair(i);
+        }
+
+        int score = 0;
+
+        if (!supportsThree && !supportsPair)
+            score += 100;
+
+        if (!supportsThree && supportsPair)
+            score += 40;
+
+        if (supportsThree)
+            score -= 100;
+
+        score += (10 - favorValue);
+        score += Random.Range(0, 3);
+
+        if (score > bestScore)
+        {
+            bestScore = score;
+            bestDiscardIndex = i;
+        }
+    }
+
+    // No legal discard that preserves the value of taking this discard card
+    if (bestDiscardIndex == -1)
+    {
+        Debug.Log("BOT: Skipping discard-pile take because no valid discard keeps the gained card useful.");
+        return false;
+    }   
 
     Debug.Log("BOT: Taking discard for " + targetProgress + "-of-4 progress");
 
     deckManager.BotDrawFromDiscard();
 
-    int discardIndex = ChooseDiscardIndexAfterGain(bestPrankIndex);
-
-    Player player = GetCurrentPlayer();
-
-    if (discardIndex < 0 || discardIndex >= player.hand.Count)
+    if (bestDiscardIndex < 0 || bestDiscardIndex >= player.hand.Count)
         return false;
 
-    PranksterType discardedCard = player.hand[discardIndex];
+    PranksterType discardedCard = player.hand[bestDiscardIndex];
 
-    deckManager.BotDiscardCardFromHand(discardIndex);
+    deckManager.BotDiscardCardFromHand(bestDiscardIndex);
 
     actionMessage =
         "Took " + topCard + " from discard " +
@@ -244,10 +303,13 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
     return true;
 }
 
-int ChooseDiscardIndexAfterGain(int protectedPrankIndex)
+int ChooseDiscardIndexAfterGain(int protectedPrankIndex, int targetProgress)
 {
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
+
+    if (player.hand.Count == 0)
+        return -1;
 
     if (protectedPrankIndex < 0 || protectedPrankIndex >= activePranks.Count)
         return ChooseBestDiscardIndexFromCurrentHand();
@@ -263,6 +325,11 @@ int ChooseDiscardIndexAfterGain(int protectedPrankIndex)
         handWithoutCard.RemoveAt(i);
 
         int protectedProgressAfterDiscard = CountProgressTowardPrank(handWithoutCard, protectedPrank);
+
+        // Never discard a card if it drops the protected prank below the intended target progress
+        if (protectedProgressAfterDiscard < targetProgress)
+            continue;
+
         int favorValue = deckManager.BotCalculateFavorPoints(player.hand[i]);
 
         bool supportsThree = CardSupportsThreeOfFour(i);
@@ -270,11 +337,6 @@ int ChooseDiscardIndexAfterGain(int protectedPrankIndex)
 
         int score = 0;
 
-        // Strongly protect the prank we just improved toward
-        if (protectedProgressAfterDiscard < 3)
-            score -= 200;
-
-        // General protection rules
         if (!supportsThree && !supportsPair)
             score += 100;
 
@@ -681,6 +743,10 @@ bool TryOfferFavor(out string actionMessage)
 
     Player player = GetCurrentPlayer();
 
+    // Bot cannot offer favor if all 3 favor slots are already full
+    if (player.favorArea.Count >= 3)
+        return false;
+
     int bestIndex = -1;
     int bestScore = int.MinValue;
 
@@ -710,9 +776,6 @@ bool TryOfferFavor(out string actionMessage)
         bool supportsThree = CardSupportsThreeOfFour(i);
         bool supportsPair = CardSupportsAnyPair(i);
 
-        // Normal rule: protect structure
-        // Exception 1: late round and far from goal
-        // Exception 2: late round stall, but only for strong favor cards
         if (!lateRoundFarFromGoal && !lateRoundStall)
         {
             if (supportsThree || supportsPair)
@@ -726,16 +789,13 @@ bool TryOfferFavor(out string actionMessage)
 
         int score = 0;
 
-        // Existing preference
         score += (10 - favorValue);
 
-        // Stronger bias toward high-value favor cards
         if (favorValue >= 4)
             score += 40;
         else if (favorValue == 3)
             score += 20;
 
-        // Small randomness
         score += Random.Range(0, 3);
 
         if (score > bestScore)
@@ -750,7 +810,6 @@ bool TryOfferFavor(out string actionMessage)
 
     int bestFavorValue = deckManager.BotCalculateFavorPoints(player.hand[bestIndex]);
 
-    // ===== DECISION GATE =====
     if (remainingPranks == 1)
     {
         bool allowLateRoundFavor =
@@ -767,7 +826,6 @@ bool TryOfferFavor(out string actionMessage)
     }
     else
     {
-        // Normal randomness
         float decisionRoll = Random.value;
         float threshold = 0.5f;
 
@@ -915,6 +973,27 @@ bool CanReachTwoOfFourFromVisibleSources()
 
     return false;
 }
+
+List<int> GetProtectedHandIndexesForPrank(List<PranksterType> hand, PrankCard prank)
+{
+    List<int> protectedIndexes = new List<int>();
+    List<PranksterType> remainingNeeded = new List<PranksterType>(prank.requiredPranksters);
+
+    for (int i = 0; i < hand.Count; i++)
+    {
+        if (remainingNeeded.Contains(hand[i]))
+        {
+            protectedIndexes.Add(i);
+            remainingNeeded.Remove(hand[i]);
+        }
+
+        if (remainingNeeded.Count == 0)
+            break;
+    }
+
+    return protectedIndexes;
+}
+
 }
 
 

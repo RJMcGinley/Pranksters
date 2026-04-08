@@ -1693,6 +1693,7 @@ public void ShowActivePrankCards()
             hoverPreview.previewSprite = activePranks[i].cardSprite;
             hoverPreview.previewPanel = prankPreviewPanel;
             hoverPreview.deckManager = this;
+            hoverPreview.nextPlayerPanelController = nextPlayerPanelController;
             hoverPreview.prankIndex = i;
         }
 
@@ -1713,7 +1714,6 @@ public void ShowActivePrankCards()
 
         Debug.Log("Prank " + i + " = " + activePranks[i].title + " | CanCompletePrank = " + CanCompletePrank(i));
 
-        // Always create highlight if prank is completable
         if (CanCompletePrank(i) && completablePrankHighlightPrefab != null)
         {
             GameObject highlight = Instantiate(completablePrankHighlightPrefab, prankObject.transform);
@@ -2021,6 +2021,12 @@ public void RefreshAllHighlights()
 
     if (favorAreaLabel != null)
         favorAreaLabel.SetActive(false);
+
+    if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+    {
+        Debug.Log("RefreshAllHighlights blocked because next player panel is active.");
+        return;
+    }
 
     if (highlightSuppressionCount > 0)
         return;

@@ -5,6 +5,7 @@ public class PrankHoverPreview : MonoBehaviour
     public Sprite previewSprite;
     public PrankPreviewPanel previewPanel;
     public DeckManager deckManager;
+    public NextPlayerPanelController nextPlayerPanelController;
     public int prankIndex;
 
     private GameObject prankHighlight;
@@ -28,40 +29,51 @@ public class PrankHoverPreview : MonoBehaviour
             prankHighlight.SetActive(shouldGlow);
     }
 
-    void OnMouseEnter()
-{
-    if (deckManager != null && deckManager.IsSwapFlowActive())
-        return;
-
-    bool canComplete = deckManager != null && deckManager.CanCompletePrank(prankIndex);
-
-    if (deckManager != null)
+    bool IsHoverBlocked()
     {
-        deckManager.hoveredPrankIndex = prankIndex;
-        deckManager.SetAllPrankHighlightsVisible(false);
+        if (deckManager != null && deckManager.IsSwapFlowActive())
+            return true;
+
+        if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+            return true;
+
+        return false;
     }
 
-    CacheHighlightReference();
+    void OnMouseEnter()
+    {
+        if (IsHoverBlocked())
+            return;
 
-    if (prankHighlight != null)
-        prankHighlight.SetActive(false);
+        bool canComplete = deckManager != null && deckManager.CanCompletePrank(prankIndex);
 
-    if (previewPanel != null)
-        previewPanel.ShowFromSource(previewSprite, prankIndex, canComplete);
-}
+        if (deckManager != null)
+        {
+            deckManager.hoveredPrankIndex = prankIndex;
+            deckManager.SetAllPrankHighlightsVisible(false);
+        }
+
+        CacheHighlightReference();
+
+        if (prankHighlight != null)
+            prankHighlight.SetActive(false);
+
+        if (previewPanel != null)
+            previewPanel.ShowFromSource(previewSprite, prankIndex, canComplete);
+    }
 
     void OnMouseExit()
-{
-    if (deckManager != null && deckManager.IsSwapFlowActive())
-        return;
+    {
+        if (IsHoverBlocked())
+            return;
 
-    if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
-        deckManager.hoveredPrankIndex = -1;
+        if (deckManager != null && deckManager.hoveredPrankIndex == prankIndex)
+            deckManager.hoveredPrankIndex = -1;
 
-    if (previewPanel != null)
-        previewPanel.NotifySourceExit(prankIndex);
+        if (previewPanel != null)
+            previewPanel.NotifySourceExit(prankIndex);
 
-    if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
-        deckManager.SetAllPrankHighlightsVisible(true);
-}
+        if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
+            deckManager.SetAllPrankHighlightsVisible(true);
+    }
 }

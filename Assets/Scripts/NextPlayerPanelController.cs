@@ -168,4 +168,10 @@ public class NextPlayerPanelController : MonoBehaviour
     if (endTurnButton != null)
         endTurnButton.SetActive(false);
 }
+
+public bool IsPanelBlockingInteraction()
+{
+    return nextPlayerPanel != null && nextPlayerPanel.activeSelf;
+}
+
 }
