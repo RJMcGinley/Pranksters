@@ -113,6 +113,7 @@ public class DeckManager : MonoBehaviour
 
     public BotManager botManager;
     public GameObject gameCanvas;
+    public bool isRulesPanelOpen = false;
     public bool IsGameOver()
     {
         return gameOver;
@@ -2022,6 +2023,15 @@ public void RefreshAllHighlights()
     if (favorAreaLabel != null)
         favorAreaLabel.SetActive(false);
 
+    SetAllPrankHighlightsVisible(false);
+    HideOpponentPanelHighlights();
+
+    if (isRulesPanelOpen)
+    {
+        Debug.Log("RefreshAllHighlights blocked because rules panel is active.");
+        return;
+    }
+
     if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
     {
         Debug.Log("RefreshAllHighlights blocked because next player panel is active.");
@@ -2861,6 +2871,46 @@ public void HideBotTurnOverlay()
 {
     if (nextPlayerPanelController != null)
         nextPlayerPanelController.HideBotMessage();
+}
+
+public void OnRulesPanelOpened()
+{
+    isRulesPanelOpen = true;
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
+    SetAllPrankHighlightsVisible(false);
+    HideOpponentPanelHighlights();
+    RefreshAllHighlights();
+}
+
+public void OnRulesPanelClosed()
+{
+    isRulesPanelOpen = false;
+
+    RefreshAllHighlights();
+}
+
+void HideOpponentPanelHighlights()
+{
+    if (opponentDisplayManager == null)
+        return;
+
+    if (opponentDisplayManager.topLeftPanel != null)
+        opponentDisplayManager.topLeftPanel.SetSwapHighlightVisible(false);
+
+    if (opponentDisplayManager.topCenterPanel != null)
+        opponentDisplayManager.topCenterPanel.SetSwapHighlightVisible(false);
+
+    if (opponentDisplayManager.topRightPanel != null)
+        opponentDisplayManager.topRightPanel.SetSwapHighlightVisible(false);
 }
 
 }

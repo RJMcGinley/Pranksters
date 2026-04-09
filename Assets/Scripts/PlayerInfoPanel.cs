@@ -127,4 +127,12 @@ public class PlayerInfoPanel : MonoBehaviour
             default: return null;
         }
     }
+
+    public void SetSwapHighlightVisible(bool isVisible)
+    {
+        if (swapAvailableHighlight != null)
+         swapAvailableHighlight.SetActive(isVisible);
+    }
+
+
 }
