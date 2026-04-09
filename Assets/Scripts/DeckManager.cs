@@ -2070,6 +2070,8 @@ void RefreshActionHighlights()
             prank.SetGlow(shouldGlow);
         }
     }
+
+    
 }
 
 void SetActiveAndRestart(GameObject go, bool active)
@@ -2522,31 +2524,58 @@ IEnumerator BeginNewGameSequence()
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 {
+    Debug.Log("---- ShouldHighlightOpponentPanel START ----");
+    Debug.Log("representedPlayerIndex = " + representedPlayerIndex);
+    Debug.Log("currentPlayerIndex = " + turnManager.currentPlayerIndex);
+    Debug.Log("pendingChoice = " + pendingChoice);
+    Debug.Log("highlightSuppressionCount = " + highlightSuppressionCount);
+
     if (highlightSuppressionCount > 0)
+    {
+        Debug.Log("FAIL: highlightSuppressionCount > 0");
         return false;
+    }
 
     if (GetCurrentPlayer().isBot)
+    {
+        Debug.Log("FAIL: current player is bot");
         return false;
+    }
 
     if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("FAIL: pendingChoice is not ChooseAction");
         return false;
+    }
 
     if (representedPlayerIndex < 0 || representedPlayerIndex >= turnManager.players.Count)
+    {
+        Debug.Log("FAIL: invalid representedPlayerIndex");
         return false;
+    }
 
     if (representedPlayerIndex == turnManager.currentPlayerIndex)
+    {
+        Debug.Log("FAIL: panel represents current player");
         return false;
+    }
 
-    if (GetCurrentPlayer().hand.Count == 0)
-        return false;
-
-    if (turnManager.players[representedPlayerIndex].favorArea.Count == 0)
-        return false;
-
-    // do not highlight if preview is locked
     if (opponentPreviewPanel != null && opponentPreviewPanel.IsLockedForSwap())
+    {
+        Debug.Log("FAIL: opponent preview is locked for swap");
         return false;
+    }
 
+    bool canSwap = CanSwapWithOpponent(representedPlayerIndex);
+    Debug.Log("CanSwapWithOpponent(" + representedPlayerIndex + ") = " + canSwap);
+
+    if (!canSwap)
+    {
+        Debug.Log("FAIL: CanSwapWithOpponent returned false");
+        return false;
+    }
+
+    Debug.Log("SUCCESS: highlight opponent panel");
     return true;
 }
 

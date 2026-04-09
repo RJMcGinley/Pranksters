@@ -8,6 +8,7 @@ public class OpponentDisplayManager : MonoBehaviour
     public PlayerInfoPanel topLeftPanel;
     public PlayerInfoPanel topCenterPanel;
     public PlayerInfoPanel topRightPanel;
+    public DeckManager deckManager;
 
     public void RefreshDisplays()
     {
@@ -61,4 +62,32 @@ public class OpponentDisplayManager : MonoBehaviour
                 topRightPanel.RefreshPlayer(rightOpponent);
         }
     }
+
+    public void RefreshSwapHighlights()
+{
+    if (deckManager == null)
+    {
+        Debug.LogWarning("OpponentDisplayManager: DeckManager not assigned.");
+        return;
+    }
+
+    if (topLeftPanel != null)
+    {
+        bool shouldHighlight = deckManager.ShouldHighlightOpponentPanel(topLeftPanel.representedPlayerIndex);
+        topLeftPanel.SetSwapHighlightVisible(shouldHighlight);
+    }
+
+    if (topCenterPanel != null)
+    {
+        bool shouldHighlight = deckManager.ShouldHighlightOpponentPanel(topCenterPanel.representedPlayerIndex);
+        topCenterPanel.SetSwapHighlightVisible(shouldHighlight);
+    }
+
+    if (topRightPanel != null)
+    {
+        bool shouldHighlight = deckManager.ShouldHighlightOpponentPanel(topRightPanel.representedPlayerIndex);
+        topRightPanel.SetSwapHighlightVisible(shouldHighlight);
+    }
+}
+
 }
