@@ -31,13 +31,13 @@ public class PrankHoverPreview : MonoBehaviour
 
     bool IsHoverBlocked()
     {
-        if (deckManager != null && deckManager.IsSwapFlowActive())
-            return true;
+    if (deckManager != null && deckManager.IsInteractionBlocked())
+        return true;
 
-        if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
-            return true;
+    if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+        return true;
 
-        return false;
+    return false;
     }
 
     void OnMouseEnter()

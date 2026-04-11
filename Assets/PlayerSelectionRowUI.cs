@@ -23,16 +23,13 @@ public class PlayerSelectionRowUI : MonoBehaviour
     public GameObject botCycleButtonObject;
     public PlayerNameEditUI nameEditUI;
 
-    //public PlayerSelectionMenuUI menuUI;
-
     public void Initialize()
     {
-    ApplyVisuals();
-    }   
+        ApplyVisuals();
+    }
 
     public void OnSelectorClicked()
     {
-
         if (playerSetup == null)
             return;
 
@@ -40,10 +37,24 @@ public class PlayerSelectionRowUI : MonoBehaviour
             return;
 
         playerSetup.CyclePlayerType(slotIndex, 1);
+        RefreshAllRows();
+    }
 
-        var slot = playerSetup.playerSlots[slotIndex];
-        slot.playerName = playerSetup.GetDefaultNameForSlot(slotIndex, slot.playerType);
+    public void OnBotCycleLeftClicked()
+    {
+        if (playerSetup == null)
+            return;
 
+        playerSetup.CycleBotIdentity(slotIndex, -1);
+        RefreshAllRows();
+    }
+
+    public void OnBotCycleRightClicked()
+    {
+        if (playerSetup == null)
+            return;
+
+        playerSetup.CycleBotIdentity(slotIndex, 1);
         RefreshAllRows();
     }
 
@@ -79,39 +90,37 @@ public class PlayerSelectionRowUI : MonoBehaviour
         }
 
         if (editNameButtonObject != null)
-        editNameButtonObject.SetActive(slot.playerType == MenuPlayerType.Human);
+            editNameButtonObject.SetActive(slot.playerType == MenuPlayerType.Human);
 
         if (botCycleButtonObject != null)
-        botCycleButtonObject.SetActive(slot.playerType == MenuPlayerType.AI);
+            botCycleButtonObject.SetActive(slot.playerType == MenuPlayerType.AI && slotIndex != 3);
     }
 
     void Start()
     {
-    ApplyVisuals();
+        ApplyVisuals();
     }
 
     void RefreshAllRows()
     {
-    PlayerSelectionRowUI[] rows = FindObjectsByType<PlayerSelectionRowUI>(FindObjectsSortMode.None);
+        PlayerSelectionRowUI[] rows = FindObjectsByType<PlayerSelectionRowUI>(FindObjectsSortMode.None);
 
-    foreach (PlayerSelectionRowUI row in rows)
-    {
-        row.ApplyVisuals();
-    }
+        foreach (PlayerSelectionRowUI row in rows)
+        {
+            row.ApplyVisuals();
+        }
     }
 
     public void OnEditNameClicked()
     {
-    if (nameEditUI == null || playerSetup == null)
-        return;
+        if (nameEditUI == null || playerSetup == null)
+            return;
 
-    var slot = playerSetup.playerSlots[slotIndex];
+        var slot = playerSetup.playerSlots[slotIndex];
 
-    if (slot.playerType != MenuPlayerType.Human)
-        return;
+        if (slot.playerType != MenuPlayerType.Human)
+            return;
 
-    nameEditUI.OpenForRow(this, slot.playerName);
+        nameEditUI.OpenForRow(this, slot.playerName);
     }
-
-
 }

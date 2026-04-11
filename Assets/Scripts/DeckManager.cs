@@ -2094,7 +2094,8 @@ void RefreshActionHighlights()
         }
     }
 
-    
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshSwapHighlights();
 }
 
 void SetActiveAndRestart(GameObject go, bool active)
@@ -2957,7 +2958,7 @@ public void OnRulesPanelOpened()
 
     SetAllPrankHighlightsVisible(false);
     HideOpponentPanelHighlights();
-    RefreshAllHighlights();
+    RefreshAllHighlights(); // ✅ correct call
 }
 
 public void OnRulesPanelClosed()
@@ -2980,6 +2981,22 @@ void HideOpponentPanelHighlights()
 
     if (opponentDisplayManager.topRightPanel != null)
         opponentDisplayManager.topRightPanel.SetSwapHighlightVisible(false);
+}
+
+public bool IsRulesPanelOpen()
+{
+    return isRulesPanelOpen;
+}
+
+public bool IsInteractionBlocked()
+{
+    if (isRulesPanelOpen)
+        return true;
+
+    if (IsSwapFlowActive())
+        return true;
+
+    return false;
 }
 
 }

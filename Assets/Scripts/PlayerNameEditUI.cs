@@ -8,6 +8,9 @@ public class PlayerNameEditUI : MonoBehaviour
 
     public void OpenForRow(PlayerSelectionRowUI row, string currentName)
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
         currentRow = row;
 
         gameObject.SetActive(true);
@@ -22,6 +25,9 @@ public class PlayerNameEditUI : MonoBehaviour
 
     public void ConfirmName()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayConfirmClick();
+
         if (currentRow == null || inputField == null || currentRow.playerSetup == null)
         {
             gameObject.SetActive(false);
@@ -47,20 +53,21 @@ public class PlayerNameEditUI : MonoBehaviour
 
     public void CancelEdit()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBackClick();
+
         gameObject.SetActive(false);
         currentRow = null;
     }
 
     void Update()
     {
-    if (!gameObject.activeSelf)
-        return;
+        if (!gameObject.activeSelf)
+            return;
 
-    if (Input.GetKeyDown(KeyCode.Escape))
-    {
-        CancelEdit();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            CancelEdit();
+        }
     }
-    }
-
-
 }

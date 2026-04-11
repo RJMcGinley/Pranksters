@@ -29,6 +29,13 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] fartSounds;
     public bool fartSoundsEnabled = true;
 
+    [Header("UI Click Sounds")]
+    public AudioClip uiClickClip;
+    public AudioClip menuClickClip;
+    public AudioClip confirmClickClip;
+    public AudioClip backClickClip;
+
+
     void Awake()
     {
         if (Instance == null)
@@ -141,4 +148,25 @@ public class AudioManager : MonoBehaviour
         if (completePrankClip != null && sfxSource != null)
             sfxSource.PlayOneShot(completePrankClip);
     }
+
+    public void PlayUIClick()
+    {
+    PlaySFX(uiClickClip);
+    }
+
+    public void PlayMenuClick()
+    {
+    PlaySFX(menuClickClip);
+    }
+
+    public void PlayConfirmClick()
+    {
+    PlaySFX(confirmClickClip);
+    }
+
+    public void PlayBackClick()
+    {
+    PlaySFX(backClickClip);
+    }
+
 }

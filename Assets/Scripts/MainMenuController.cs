@@ -10,6 +10,9 @@ public class MainMenuController : MonoBehaviour
 
     public void OpenPlaySetup()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
         Debug.Log("Play button clicked");
 
         if (playerCountPanel != null)
@@ -18,6 +21,9 @@ public class MainMenuController : MonoBehaviour
 
     public void ClosePlaySetup()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBackClick();
+
         if (playerCountPanel != null)
             playerCountPanel.SetActive(false);
     }
@@ -41,85 +47,91 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void StartGame()
-{
-    if (playerSetup == null)
     {
-        Debug.LogWarning("MainMenuController: playerSetup is not assigned.");
-        return;
-    }
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayConfirmClick();
 
-    int activePlayerCount = playerSetup.GetActivePlayerCount();
-    GameSettings.PlayerCount = activePlayerCount;
-
-    if (mainMenuCanvas != null)
-        mainMenuCanvas.SetActive(false);
-
-    if (endGameCanvas != null)
-        endGameCanvas.SetActive(false);
-
-    if (mainGame != null)
-        mainGame.SetActive(true);
-
-    GameObject gameCanvas = GameObject.Find("GameCanvas");
-    if (gameCanvas != null)
-        gameCanvas.SetActive(true);
-
-    TurnManager turnManager = FindFirstObjectByType<TurnManager>();
-    if (turnManager != null)
-    {
-        turnManager.StartGame(activePlayerCount);
-        Debug.Log("Starting game with " + activePlayerCount + " players.");
-
-        int activeSlotIndex = 0;
-
-        for (int i = 0; i < playerSetup.playerSlots.Count; i++)
+        if (playerSetup == null)
         {
-            if (playerSetup.playerSlots[i].playerType == MenuPlayerType.Closed)
-                continue;
-
-            if (activeSlotIndex >= turnManager.players.Count)
-            {
-                Debug.LogWarning("More active menu slots than runtime players.");
-                break;
-            }
-
-            bool isBot = playerSetup.playerSlots[i].playerType == MenuPlayerType.AI;
-            turnManager.players[activeSlotIndex].isBot = isBot;
-            turnManager.players[activeSlotIndex].playerName = playerSetup.playerSlots[i].playerName;
-
-            Debug.Log(
-                "Runtime Player " + (activeSlotIndex + 1) +
-                " mapped from Menu Slot " + (i + 1) +
-                " | Name = " + playerSetup.playerSlots[i].playerName +
-                " | Type = " + playerSetup.playerSlots[i].playerType +
-                " | isBot = " + isBot
-            );
-
-            activeSlotIndex++;
+            Debug.LogWarning("MainMenuController: playerSetup is not assigned.");
+            return;
         }
-    }
-    else
-    {
-        Debug.LogWarning("TurnManager not found.");
-        return;
-    }
 
-    DeckManager deckManager = FindFirstObjectByType<DeckManager>();
-    if (deckManager != null)
-    {
-        deckManager.BeginNewGame();
-    }
-    else
-    {
-        Debug.LogWarning("DeckManager not found.");
-    }
+        int activePlayerCount = playerSetup.GetActivePlayerCount();
+        GameSettings.PlayerCount = activePlayerCount;
 
-    if (playerCountPanel != null)
-        playerCountPanel.SetActive(false);
-}
+        if (mainMenuCanvas != null)
+            mainMenuCanvas.SetActive(false);
+
+        if (endGameCanvas != null)
+            endGameCanvas.SetActive(false);
+
+        if (mainGame != null)
+            mainGame.SetActive(true);
+
+        GameObject gameCanvas = GameObject.Find("GameCanvas");
+        if (gameCanvas != null)
+            gameCanvas.SetActive(true);
+
+        TurnManager turnManager = FindFirstObjectByType<TurnManager>();
+        if (turnManager != null)
+        {
+            turnManager.StartGame(activePlayerCount);
+            Debug.Log("Starting game with " + activePlayerCount + " players.");
+
+            int activeSlotIndex = 0;
+
+            for (int i = 0; i < playerSetup.playerSlots.Count; i++)
+            {
+                if (playerSetup.playerSlots[i].playerType == MenuPlayerType.Closed)
+                    continue;
+
+                if (activeSlotIndex >= turnManager.players.Count)
+                {
+                    Debug.LogWarning("More active menu slots than runtime players.");
+                    break;
+                }
+
+                bool isBot = playerSetup.playerSlots[i].playerType == MenuPlayerType.AI;
+                turnManager.players[activeSlotIndex].isBot = isBot;
+                turnManager.players[activeSlotIndex].playerName = playerSetup.playerSlots[i].playerName;
+
+                Debug.Log(
+                    "Runtime Player " + (activeSlotIndex + 1) +
+                    " mapped from Menu Slot " + (i + 1) +
+                    " | Name = " + playerSetup.playerSlots[i].playerName +
+                    " | Type = " + playerSetup.playerSlots[i].playerType +
+                    " | isBot = " + isBot
+                );
+
+                activeSlotIndex++;
+            }
+        }
+        else
+        {
+            Debug.LogWarning("TurnManager not found.");
+            return;
+        }
+
+        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+        if (deckManager != null)
+        {
+            deckManager.BeginNewGame();
+        }
+        else
+        {
+            Debug.LogWarning("DeckManager not found.");
+        }
+
+        if (playerCountPanel != null)
+            playerCountPanel.SetActive(false);
+    }
 
     public void ReturnToMainMenu()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBackClick();
+
         Debug.Log("Returning to main menu");
 
         if (endGameCanvas != null)
@@ -137,6 +149,9 @@ public class MainMenuController : MonoBehaviour
 
     public void QuitGame()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayConfirmClick();
+
         Debug.Log("Quit Game button clicked.");
         Application.Quit();
     }
