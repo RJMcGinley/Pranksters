@@ -863,10 +863,13 @@ public void StartBotTurn()
 
 IEnumerator BotTurnSequence()
 {
-    int playerNumber = turnManager.currentPlayerIndex + 1;
+    string playerName = turnManager.players[turnManager.currentPlayerIndex].playerName;
+
+    if (string.IsNullOrEmpty(playerName))
+        playerName = "Player " + (turnManager.currentPlayerIndex + 1);
 
     if (nextPlayerPanelController != null)
-        nextPlayerPanelController.ShowBotTurnHeader("Player " + playerNumber);
+        nextPlayerPanelController.ShowBotTurnHeader(playerName);
 
     yield return new WaitForSeconds(0.8f);
 

@@ -17,6 +17,7 @@ public class NextPlayerPanelController : MonoBehaviour
     public void ShowNextPlayerPanel(string playerName)
 {
     Debug.Log("SHOW NEXT PLAYER PANEL");
+    Debug.Log("ShowNextPlayerPanel received name = '" + playerName + "'");
 
     if (turnMessageText != null)
     {
@@ -133,7 +134,12 @@ public class NextPlayerPanelController : MonoBehaviour
         }
 
         // Human pass-and-play flow
-        ShowNextPlayerPanel("Player " + (nextPlayerIndex + 1));
+        string nextPlayerName = deckManager.turnManager.players[nextPlayerIndex].playerName;
+
+        if (string.IsNullOrWhiteSpace(nextPlayerName))
+            nextPlayerName = "Player " + (nextPlayerIndex + 1);
+
+        ShowNextPlayerPanel(nextPlayerName);    
     }
 
     public void HidePanelImmediate()

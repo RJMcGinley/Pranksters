@@ -69,7 +69,14 @@ public class PlayerInfoPanel : MonoBehaviour
         SetVisible(true);
 
         if (playerLabelText != null)
-            playerLabelText.text = "Player " + (playerIndex + 1);
+        {
+            string displayName = player.playerName;
+
+            if (string.IsNullOrEmpty(displayName))
+                displayName = "Player " + (playerIndex + 1);
+
+            playerLabelText.text = displayName;
+        }
 
         if (pranksCompletedText != null)
             pranksCompletedText.text = player.completedPranks.Count.ToString();

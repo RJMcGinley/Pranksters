@@ -57,7 +57,7 @@ public class EndTurnButtonController : MonoBehaviour
 
     Debug.Log("Next player is Player " + (nextPlayerIndex + 1) + ". isBot = " + nextPlayerIsBot);
 
-    // BOT FLOW
+    // ===== BOT FLOW =====
     if (nextPlayerIsBot)
     {
         if (nextPlayerPanel != null)
@@ -77,12 +77,20 @@ public class EndTurnButtonController : MonoBehaviour
         yield break;
     }
 
-    // HUMAN FLOW
+    // ===== HUMAN FLOW =====
     if (endTurnButton != null)
         endTurnButton.SetActive(false);
 
     if (turnMessageText != null)
-        turnMessageText.text = "Player " + (nextPlayerIndex + 1) + "'s Turn";
+    {
+    string nextPlayerName = turnManager.players[nextPlayerIndex].playerName;
+
+    if (string.IsNullOrWhiteSpace(nextPlayerName))
+        nextPlayerName = "Player " + (nextPlayerIndex + 1);
+
+    turnMessageText.text = nextPlayerName + "'s Turn";
+    turnMessageText.gameObject.SetActive(true);
+    }
 
     if (readyButton != null)
         readyButton.SetActive(true);

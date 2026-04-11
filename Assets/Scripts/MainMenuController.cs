@@ -6,6 +6,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject mainGame;
     public GameObject endGameCanvas;
     public GameObject playerCountPanel;
+    public MainMenuPlayerSetup playerSetup;
 
     public void OpenPlaySetup()
     {
@@ -40,52 +41,82 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void StartGame()
+{
+    if (playerSetup == null)
     {
-        if (mainMenuCanvas != null)
-            mainMenuCanvas.SetActive(false);
-
-        if (endGameCanvas != null)
-            endGameCanvas.SetActive(false);
-
-        if (mainGame != null)
-            mainGame.SetActive(true);
-
-        GameObject gameCanvas = GameObject.Find("GameCanvas");
-        if (gameCanvas != null)
-            gameCanvas.SetActive(true);
-
-        TurnManager turnManager = FindFirstObjectByType<TurnManager>();
-        if (turnManager != null)
-        {
-            turnManager.StartGame(GameSettings.PlayerCount);
-            Debug.Log("Starting game with " + GameSettings.PlayerCount + " players.");
-
-            // Player 1 = human, all others = bots
-            for (int i = 0; i < turnManager.players.Count; i++)
-            {
-                turnManager.players[i].isBot = (i != 0);
-                Debug.Log("Player " + (i + 1) + " isBot = " + turnManager.players[i].isBot);
-            }
-        }
-        else
-        {
-            Debug.LogWarning("TurnManager not found.");
-            return;
-        }
-
-        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
-        if (deckManager != null)
-        {
-            deckManager.BeginNewGame();
-        }
-        else
-        {
-            Debug.LogWarning("DeckManager not found.");
-        }
-
-        if (playerCountPanel != null)
-            playerCountPanel.SetActive(false);
+        Debug.LogWarning("MainMenuController: playerSetup is not assigned.");
+        return;
     }
+
+    int activePlayerCount = playerSetup.GetActivePlayerCount();
+    GameSettings.PlayerCount = activePlayerCount;
+
+    if (mainMenuCanvas != null)
+        mainMenuCanvas.SetActive(false);
+
+    if (endGameCanvas != null)
+        endGameCanvas.SetActive(false);
+
+    if (mainGame != null)
+        mainGame.SetActive(true);
+
+    GameObject gameCanvas = GameObject.Find("GameCanvas");
+    if (gameCanvas != null)
+        gameCanvas.SetActive(true);
+
+    TurnManager turnManager = FindFirstObjectByType<TurnManager>();
+    if (turnManager != null)
+    {
+        turnManager.StartGame(activePlayerCount);
+        Debug.Log("Starting game with " + activePlayerCount + " players.");
+
+        int activeSlotIndex = 0;
+
+        for (int i = 0; i < playerSetup.playerSlots.Count; i++)
+        {
+            if (playerSetup.playerSlots[i].playerType == MenuPlayerType.Closed)
+                continue;
+
+            if (activeSlotIndex >= turnManager.players.Count)
+            {
+                Debug.LogWarning("More active menu slots than runtime players.");
+                break;
+            }
+
+            bool isBot = playerSetup.playerSlots[i].playerType == MenuPlayerType.AI;
+            turnManager.players[activeSlotIndex].isBot = isBot;
+            turnManager.players[activeSlotIndex].playerName = playerSetup.playerSlots[i].playerName;
+
+            Debug.Log(
+                "Runtime Player " + (activeSlotIndex + 1) +
+                " mapped from Menu Slot " + (i + 1) +
+                " | Name = " + playerSetup.playerSlots[i].playerName +
+                " | Type = " + playerSetup.playerSlots[i].playerType +
+                " | isBot = " + isBot
+            );
+
+            activeSlotIndex++;
+        }
+    }
+    else
+    {
+        Debug.LogWarning("TurnManager not found.");
+        return;
+    }
+
+    DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+    if (deckManager != null)
+    {
+        deckManager.BeginNewGame();
+    }
+    else
+    {
+        Debug.LogWarning("DeckManager not found.");
+    }
+
+    if (playerCountPanel != null)
+        playerCountPanel.SetActive(false);
+}
 
     public void ReturnToMainMenu()
     {

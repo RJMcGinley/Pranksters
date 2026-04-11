@@ -1475,7 +1475,13 @@ void TriggerEndGameScoring()
     gameOver = true;
 
     LogSeparator("GAME OVER TRIGGERED");
-    Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + " triggered endgame.");
+    Player endgamePlayer = turnManager.players[turnManager.currentPlayerIndex];
+    string endgamePlayerName = endgamePlayer.playerName;
+
+    if (string.IsNullOrEmpty(endgamePlayerName))
+        endgamePlayerName = "Player " + (turnManager.currentPlayerIndex + 1);
+
+    Debug.Log(endgamePlayerName + " triggered endgame.");
 
     if (finalCompletedPrank != null)
         Debug.Log("Final completed prank: " + finalCompletedPrank.title);
@@ -1545,7 +1551,12 @@ void CalculateFinalScores()
 
         player.finalScore = totalScore;
 
-        Debug.Log("Player " + (i + 1) + " Final Score:");
+        string displayName = player.playerName;
+
+        if (string.IsNullOrEmpty(displayName))
+            displayName = "Player " + (i + 1);
+
+        Debug.Log(displayName + " Final Score:");
         Debug.Log("  Completed Pranks: " + player.completedPranks.Count);
         Debug.Log("  Prank Points: " + prankPoints);
         Debug.Log("  Favor Points: " + favorPoints);
@@ -1558,49 +1569,39 @@ void DeclareWinnerByScore()
 {
     List<Player> contenders = new List<Player>(turnManager.players);
 
-    // 1. Highest final score
     int bestFinalScore = int.MinValue;
     for (int i = 0; i < contenders.Count; i++)
     {
         if (contenders[i].finalScore > bestFinalScore)
-        {
             bestFinalScore = contenders[i].finalScore;
-        }
     }
 
     contenders.RemoveAll(p => p.finalScore < bestFinalScore);
 
-    // 2. Most completed pranks
     if (contenders.Count > 1)
     {
         int bestCompletedPranks = int.MinValue;
         for (int i = 0; i < contenders.Count; i++)
         {
             if (contenders[i].completedPranks.Count > bestCompletedPranks)
-            {
                 bestCompletedPranks = contenders[i].completedPranks.Count;
-            }
         }
 
         contenders.RemoveAll(p => p.completedPranks.Count < bestCompletedPranks);
     }
 
-    // 3. Highest favor points
     if (contenders.Count > 1)
     {
         int bestFavorPoints = int.MinValue;
         for (int i = 0; i < contenders.Count; i++)
         {
             if (contenders[i].favorPoints > bestFavorPoints)
-            {
                 bestFavorPoints = contenders[i].favorPoints;
-            }
         }
 
         contenders.RemoveAll(p => p.favorPoints < bestFavorPoints);
     }
 
-    // 4. Player who triggered endgame
     if (contenders.Count > 1)
     {
         Player endgamePlayer = turnManager.players[turnManager.currentPlayerIndex];
@@ -1612,12 +1613,16 @@ void DeclareWinnerByScore()
         }
     }
 
-    // 5. Shared victory
     if (contenders.Count == 1)
     {
-        int winnerIndex = turnManager.players.IndexOf(contenders[0]);
+        Player winner = contenders[0];
+        int winnerIndex = turnManager.players.IndexOf(winner);
 
-        Debug.Log("GAME OVER: Player " + (winnerIndex + 1) + " wins with " + contenders[0].finalScore + " points!");
+        string winnerName = winner.playerName;
+        if (string.IsNullOrEmpty(winnerName))
+            winnerName = "Player " + (winnerIndex + 1);
+
+        Debug.Log("GAME OVER: " + winnerName + " wins with " + winner.finalScore + " points!");
     }
     else
     {
@@ -1626,12 +1631,16 @@ void DeclareWinnerByScore()
         for (int i = 0; i < contenders.Count; i++)
         {
             int playerIndex = turnManager.players.IndexOf(contenders[i]);
-            sharedWinners += "Player " + (playerIndex + 1);
+            Player p = contenders[i];
+            string displayName = p.playerName;
+
+            if (string.IsNullOrEmpty(displayName))
+                displayName = "Player " + (playerIndex + 1);
+
+            sharedWinners += displayName;
 
             if (i < contenders.Count - 1)
-            {
                 sharedWinners += ", ";
-            }
         }
 
         Debug.Log("GAME OVER: Shared victory between " + sharedWinners + " with " + bestFinalScore + " points!");
@@ -1837,7 +1846,14 @@ void UpdateCurrentPlayerStatsDisplay()
     int currentIndex = turnManager.currentPlayerIndex;
 
     if (activePlayerLabelText != null)
-        activePlayerLabelText.text = "Player " + (currentIndex + 1);
+    {
+        string displayName = currentPlayer.playerName;
+
+        if (string.IsNullOrEmpty(displayName))
+            displayName = "Player " + (currentIndex + 1);
+
+        activePlayerLabelText.text = displayName;
+    }
 
     if (activeCompletedPranksText != null)
         activeCompletedPranksText.text = currentPlayer.completedPranks.Count.ToString();
@@ -1907,7 +1923,14 @@ void PopulateScoreRow(
     int totalPoints = player.finalScore;
 
     if (nameText != null)
-        nameText.text = "Player " + (playerIndex + 1);
+    {
+        string displayName = player.playerName;
+
+        if (string.IsNullOrEmpty(displayName))
+            displayName = "Player " + (playerIndex + 1);
+
+        nameText.text = displayName;
+    }
 
     if (prankPointsText != null)
         prankPointsText.text = prankPoints.ToString();
@@ -2809,6 +2832,23 @@ public void BotFinishActionAndWaitForEndTurn()
 
 public void BotEndPlayerTurn()
 {
+    int nextPlayerIndex = (turnManager.currentPlayerIndex + 1) % turnManager.players.Count;
+    Player nextPlayer = turnManager.players[nextPlayerIndex];
+
+    if (nextPlayer != null && !nextPlayer.isBot)
+    {
+        if (nextPlayerPanelController != null)
+        {
+            string nextPlayerName = nextPlayer.playerName;
+
+            if (string.IsNullOrWhiteSpace(nextPlayerName))
+                nextPlayerName = "Player " + (nextPlayerIndex + 1);
+
+            nextPlayerPanelController.ShowNextPlayerPanel(nextPlayerName);
+            return;
+        }
+    }
+
     EndPlayerTurn();
 }
 
