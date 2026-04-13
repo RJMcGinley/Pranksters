@@ -1013,11 +1013,14 @@ void ResetRound()
     LogSeparator("ROUND RESET");
 
     int dealerIndex = DetermineDealerIndex();
-    turnManager.currentPlayerIndex = (dealerIndex + 1) % turnManager.players.Count;
+    int firstPlayerIndex = (dealerIndex + 1) % turnManager.players.Count;
+
+    turnManager.currentPlayerIndex = firstPlayerIndex;
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
 
     Debug.Log("New dealer: Player " + (dealerIndex + 1));
+    Debug.Log("First player this round: Player " + (firstPlayerIndex + 1));
 
     // Return all player hand cards to prankster deck
     for (int i = 0; i < turnManager.players.Count; i++)
@@ -1035,11 +1038,6 @@ void ResetRound()
     deck.AddRange(discardPile);
     discardPile.Clear();
 
-    // Return out-of-play pranksters to prankster deck
-    // OLD SYSTEM (out-of-play → deck)
-    // deck.AddRange(outOfPlayPranksters);
-    // outOfPlayPranksters.Clear();
-
     // Shuffle prankster deck
     ShufflePranksterDeck();
 
@@ -1054,9 +1052,6 @@ void ResetRound()
 
     UpdateActiveFavorDisplay();
     RefreshAllDisplays();
-    Debug.Log("New dealer: Player " + (dealerIndex + 1));
-    Debug.Log("First player this round: Player " + (firstPlayerIndex + 1)); 
-
 }
 
 int DetermineDealerIndex()
