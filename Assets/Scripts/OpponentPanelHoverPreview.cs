@@ -25,6 +25,9 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
+
         Debug.Log("OPPONENT HOVER ENTER on: " + GetPath());
 
         if (previewPanel != null && sourcePanel != null)
@@ -52,5 +55,11 @@ public class OpponentPanelHoverPreview : MonoBehaviour
             deckManager.SetAllPrankHighlightsVisible(true);
             deckManager.RefreshAllHighlights();
         }
+    }
+
+    void OnMouseDown()
+    {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
     }
 }

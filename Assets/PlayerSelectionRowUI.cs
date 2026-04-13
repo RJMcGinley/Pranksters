@@ -93,7 +93,7 @@ public class PlayerSelectionRowUI : MonoBehaviour
             editNameButtonObject.SetActive(slot.playerType == MenuPlayerType.Human);
 
         if (botCycleButtonObject != null)
-            botCycleButtonObject.SetActive(slot.playerType == MenuPlayerType.AI && slotIndex != 3);
+            botCycleButtonObject.SetActive(slot.playerType == MenuPlayerType.AI);
     }
 
     void Start()

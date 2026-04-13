@@ -7,6 +7,8 @@ public class DiscardPileHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
 
         if (deckManager != null && deckManager.IsPrankPreviewOpen())
             return;
@@ -33,6 +35,9 @@ public class DiscardPileHover : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
+
         Debug.Log("DISCARD CLICKED");
 
         if (deckManager != null)

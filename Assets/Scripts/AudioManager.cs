@@ -7,6 +7,12 @@ public class AudioManager : MonoBehaviour
     [Header("SFX Source")]
     public AudioSource sfxSource;
 
+    [Header("Music Source")]
+    public AudioSource musicSource;
+
+    [Header("Music Clip")]
+    public AudioClip backgroundMusicClip;
+
     [Header("Current Clips")]
     public AudioClip drawDeckHoverClip;
     public AudioClip drawCardActionClip;
@@ -35,7 +41,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip confirmClickClip;
     public AudioClip backClickClip;
 
-
     void Awake()
     {
         if (Instance == null)
@@ -48,10 +53,55 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        PlayMusic();
+    }
+
     public void PlaySFX(AudioClip clip)
     {
         if (clip == null || sfxSource == null) return;
         sfxSource.PlayOneShot(clip);
+    }
+
+    public void PlayMusic()
+    {
+        if (musicSource == null || backgroundMusicClip == null) return;
+
+        musicSource.clip = backgroundMusicClip;
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+    if (musicSource == null) return;
+
+    musicSource.volume = volume;
+
+    Debug.Log("SetMusicVolume | volume=" + volume +
+              " | isPlaying=" + musicSource.isPlaying +
+              " | clip=" + (musicSource.clip != null ? musicSource.clip.name : "null"));
+
+    if (volume > 0.001f && !musicSource.isPlaying)
+    {
+        if (musicSource.clip == null && backgroundMusicClip != null)
+            musicSource.clip = backgroundMusicClip;
+
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        if (sfxSource == null) return;
+        sfxSource.volume = volume;
+    }
+
+    public void SetFartSoundsEnabled(bool enabled)
+    {
+        fartSoundsEnabled = enabled;
     }
 
     public void PlayDrawDeckHover()
@@ -151,22 +201,23 @@ public class AudioManager : MonoBehaviour
 
     public void PlayUIClick()
     {
-    PlaySFX(uiClickClip);
+        PlaySFX(uiClickClip);
     }
 
     public void PlayMenuClick()
     {
-    PlaySFX(menuClickClip);
+        PlaySFX(menuClickClip);
     }
 
     public void PlayConfirmClick()
     {
-    PlaySFX(confirmClickClip);
+        PlaySFX(confirmClickClip);
     }
 
     public void PlayBackClick()
     {
-    PlaySFX(backClickClip);
+        PlaySFX(backClickClip);
     }
 
+    
 }

@@ -5,6 +5,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject mainMenuCanvas;
     public GameObject mainGame;
     public GameObject endGameCanvas;
+    public GameObject gameCanvas;
     public GameObject playerCountPanel;
     public MainMenuPlayerSetup playerSetup;
 
@@ -69,7 +70,6 @@ public class MainMenuController : MonoBehaviour
         if (mainGame != null)
             mainGame.SetActive(true);
 
-        GameObject gameCanvas = GameObject.Find("GameCanvas");
         if (gameCanvas != null)
             gameCanvas.SetActive(true);
 
@@ -129,10 +129,18 @@ public class MainMenuController : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
+
+        SettingsMenuController settings = FindFirstObjectByType<SettingsMenuController>();
+        if (settings != null)
+            settings.CloseSettings();
+
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayBackClick();
 
         Debug.Log("Returning to main menu");
+
+        if (gameCanvas != null)
+            gameCanvas.SetActive(true);
 
         if (endGameCanvas != null)
             endGameCanvas.SetActive(false);

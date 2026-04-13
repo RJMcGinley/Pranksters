@@ -7,6 +7,9 @@ public class DrawDeckHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
+
         if (deckManager != null && deckManager.IsPrankPreviewOpen())
             return;
 
@@ -28,6 +31,9 @@ public class DrawDeckHover : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
+
         Debug.Log("DRAW DECK CLICKED");
 
         if (deckManager != null)

@@ -104,6 +104,7 @@ public class DeckManager : MonoBehaviour
 
     public OpponentPreviewPanel opponentPreviewPanel;
     public NextPlayerPanelController nextPlayerPanelController;
+    public SettingsMenuController settingsMenuController;
 
     // SwapPrankster temp state
     private List<PranksterType> originalHandSnapshot = null;
@@ -1012,7 +1013,7 @@ void ResetRound()
     LogSeparator("ROUND RESET");
 
     int dealerIndex = DetermineDealerIndex();
-    turnManager.currentPlayerIndex = dealerIndex;
+    turnManager.currentPlayerIndex = (dealerIndex + 1) % turnManager.players.Count;
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
 
@@ -1053,6 +1054,9 @@ void ResetRound()
 
     UpdateActiveFavorDisplay();
     RefreshAllDisplays();
+    Debug.Log("New dealer: Player " + (dealerIndex + 1));
+    Debug.Log("First player this round: Player " + (firstPlayerIndex + 1)); 
+
 }
 
 int DetermineDealerIndex()
@@ -1959,12 +1963,14 @@ public void BeginNewGame()
         return;
     }
 
+    // Clear all runtime data
     deck.Clear();
     prankDeck.Clear();
     activePranks.Clear();
     discardPile.Clear();
     outOfPlayPranksters.Clear();
 
+    // Reset state
     pendingChoice = PendingChoiceType.None;
     lastPrankCompleterIndex = -1;
     selectedSwapHandIndex = -1;
@@ -1973,6 +1979,7 @@ public void BeginNewGame()
     hoveredPrankIndex = -1;
     hasTakenActionThisTurn = false;
 
+    // Reset players
     for (int i = 0; i < turnManager.players.Count; i++)
     {
         Player player = turnManager.players[i];
@@ -1984,23 +1991,18 @@ public void BeginNewGame()
         player.finalScore = 0;
     }
 
+    // Build and shuffle decks (ONLY ONCE)
     BuildPranksterDeck();
     ShufflePranksterDeck();
 
-    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
-    Debug.Log("Hands Dealt");
-    Debug.Log("Cards left in deck: " + deck.Count);
-
     prankDeck = PrankDatabase.CreatePrankDeck();
-    BuildPranksterDeck();
-ShufflePranksterDeck();
+    ShufflePrankDeck();
 
-Debug.Log("Prankster Deck created with " + deck.Count + " cards");
+    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
+    Debug.Log("Prank deck size: " + prankDeck.Count);
 
-prankDeck = PrankDatabase.CreatePrankDeck();
-ShufflePrankDeck();
-
-StartCoroutine(BeginNewGameSequence());
+    // Start game flow
+    StartCoroutine(BeginNewGameSequence());
 }
 
 public void AdvanceToNextPlayerTurn()
@@ -2058,6 +2060,12 @@ public void RefreshAllHighlights()
     if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
     {
         Debug.Log("RefreshAllHighlights blocked because next player panel is active.");
+        return;
+    }
+
+    if (settingsMenuController != null && settingsMenuController.IsPanelBlockingInteraction())
+    {
+        Debug.Log("RefreshAllHighlights blocked because settings panel is active.");
         return;
     }
 
@@ -2530,8 +2538,13 @@ IEnumerator BeginNewGameSequence()
     Debug.Log("Prank deck size: " + prankDeck.Count);
     Debug.Log("Active pranks: " + activePranks.Count);
 
+    if (endGameScoringPanel != null)
+        endGameScoringPanel.SetActive(false);
+
+    if (endGameCanvas != null)
+        endGameCanvas.SetActive(false);
+
     UpdateActiveFavorDisplay();
-    StartPlayerTurn();
 
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
@@ -2539,11 +2552,7 @@ IEnumerator BeginNewGameSequence()
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshDisplays();
 
-    if (endGameScoringPanel != null)
-        endGameScoringPanel.SetActive(false);
-
-    if (endGameCanvas != null)
-        endGameCanvas.SetActive(false);
+    StartPlayerTurn();
 }
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
@@ -2994,6 +3003,12 @@ public bool IsInteractionBlocked()
         return true;
 
     if (IsSwapFlowActive())
+        return true;
+
+    if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+        return true;
+
+    if (settingsMenuController != null && settingsMenuController.IsPanelBlockingInteraction())
         return true;
 
     return false;
