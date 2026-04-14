@@ -22,7 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip player2TurnClip;
     public AudioClip player3TurnClip;
     public AudioClip player4TurnClip;
-    public AudioClip hmmmDecisionsClip;
+    public AudioClip[] hmmmDecisionsClips;
+    public AudioClip[] favorVoiceClips;
+    public AudioClip[] swapCompleteVoiceClips;
+    private int lastSwapCompleteVoiceIndex = -1;
     public AudioClip readyButtonClip;
     public AudioClip favorHoverClip;
     public AudioClip favorClickClip;
@@ -114,10 +117,30 @@ public class AudioManager : MonoBehaviour
         PlaySFX(drawCardActionClip);
     }
 
+    private int lastHmmDecisionsIndex = -1;
+
     public void PlayHmmDecisions()
     {
-        if (hmmmDecisionsClip == null) return;
-        PlaySFX(hmmmDecisionsClip);
+    if (sfxSource == null || hmmmDecisionsClips == null || hmmmDecisionsClips.Length == 0)
+        return;
+
+    int index;
+
+    if (hmmmDecisionsClips.Length == 1)
+    {
+        index = 0;
+    }
+    else
+    {
+        do
+        {
+            index = Random.Range(0, hmmmDecisionsClips.Length);
+        }
+        while (index == lastHmmDecisionsIndex);
+    }
+
+    lastHmmDecisionsIndex = index;
+    sfxSource.PlayOneShot(hmmmDecisionsClips[index]);
     }
 
     public void PlayDiscardPileHover()
@@ -181,6 +204,32 @@ public class AudioManager : MonoBehaviour
             sfxSource.PlayOneShot(favorRewardClip);
     }
 
+    private int lastFavorVoiceIndex = -1;
+
+    public void PlayFavorVoiceLine()
+    {
+        if (sfxSource == null || favorVoiceClips == null || favorVoiceClips.Length == 0)
+            return;
+
+        int index;
+
+        if (favorVoiceClips.Length == 1)
+        {
+            index = 0;
+        }
+        else
+        {
+            do
+            {
+                index = Random.Range(0, favorVoiceClips.Length);
+            }
+            while (index == lastFavorVoiceIndex);
+        }
+
+        lastFavorVoiceIndex = index;
+        sfxSource.PlayOneShot(favorVoiceClips[index]);
+    }
+
     public void PlayCancelAction()
     {
         if (cancelActionClip != null && sfxSource != null)
@@ -219,5 +268,28 @@ public class AudioManager : MonoBehaviour
         PlaySFX(backClickClip);
     }
 
+    public void PlaySwapCompleteVoiceLine()
+    {
+        if (sfxSource == null || swapCompleteVoiceClips == null || swapCompleteVoiceClips.Length == 0)
+         return;
+
+        int index;
+
+        if (swapCompleteVoiceClips.Length == 1)
+        {
+            index = 0;
+        }
+        else
+        {
+            do
+            {
+                index = Random.Range(0, swapCompleteVoiceClips.Length);
+            }
+            while (index == lastSwapCompleteVoiceIndex);
+        }
+
+        lastSwapCompleteVoiceIndex = index;
+        sfxSource.PlayOneShot(swapCompleteVoiceClips[index]);
+    }
     
 }

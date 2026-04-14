@@ -312,7 +312,12 @@ public class DeckManager : MonoBehaviour
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayFavorReward();
 
-    yield return new WaitForSeconds(0.3f);
+    yield return new WaitForSeconds(0.15f);
+
+    if (!player.isBot && AudioManager.Instance != null)
+        AudioManager.Instance.PlayFavorVoiceLine();
+
+    yield return new WaitForSeconds(0.15f);
 
     yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
 
@@ -1317,6 +1322,9 @@ void ResolveSwapHandChoice(int handIndex)
     selectedSwapHandIndex = handIndex;
 
     ExchangeFavorCards(selectedSwapPlayerIndex, selectedSwapFavorIndex);
+    
+    if (!currentPlayer.isBot && AudioManager.Instance != null)
+        AudioManager.Instance.PlaySwapCompleteVoiceLine();
 
     // Explicitly clear preview panel lock now that swap is committed
     if (opponentPreviewPanel != null)
