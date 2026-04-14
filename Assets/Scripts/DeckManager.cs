@@ -314,7 +314,7 @@ public class DeckManager : MonoBehaviour
 
     yield return new WaitForSeconds(0.15f);
 
-    if (!player.isBot && AudioManager.Instance != null)
+    if (!player.isBot && AudioManager.Instance != null && Random.value < 0.6f)
         AudioManager.Instance.PlayFavorVoiceLine();
 
     yield return new WaitForSeconds(0.15f);
@@ -676,7 +676,7 @@ void StartDrawFromDeckTurn()
     RefreshAllHighlights();
     RefreshHandVisuals();
 
-    if (AudioManager.Instance != null)
+    if (AudioManager.Instance != null && Random.value < 0.6f)
         AudioManager.Instance.PlayHmmDecisions();
 
     LogSeparator("CHOOSE DISCARD");
@@ -948,7 +948,7 @@ void StartDrawFromDiscardTurn()
     RefreshAllHighlights();
     RefreshHandVisuals();
 
-    if (AudioManager.Instance != null)
+    if (AudioManager.Instance != null && Random.value < 0.6f)
         AudioManager.Instance.PlayHmmDecisions();
 
     LogSeparator("CHOOSE DISCARD");
@@ -1323,7 +1323,7 @@ void ResolveSwapHandChoice(int handIndex)
 
     ExchangeFavorCards(selectedSwapPlayerIndex, selectedSwapFavorIndex);
     
-    if (!currentPlayer.isBot && AudioManager.Instance != null)
+    if (AudioManager.Instance != null && Random.value < 0.6f)
         AudioManager.Instance.PlaySwapCompleteVoiceLine();
 
     // Explicitly clear preview panel lock now that swap is committed

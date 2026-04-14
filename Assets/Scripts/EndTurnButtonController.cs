@@ -15,6 +15,12 @@ public class EndTurnButtonController : MonoBehaviour
     private TurnManager turnManager;
     private DeckManager deckManager;
 
+    private void Awake()
+    {
+        if (endTurnButton != null)
+            endTurnButton.SetActive(false);
+    }
+
     void Start()
     {
         turnManager = FindFirstObjectByType<TurnManager>();
@@ -28,74 +34,74 @@ public class EndTurnButtonController : MonoBehaviour
     }
 
     private IEnumerator HandleEndTurnPress()
-{
-    if (turnManager == null)
     {
-        Debug.LogWarning("TurnManager not found in EndTurnButtonController.");
-        yield break;
-    }
+        if (turnManager == null)
+        {
+            Debug.LogWarning("TurnManager not found in EndTurnButtonController.");
+            yield break;
+        }
 
-    if (deckManager == null)
-    {
-        Debug.LogWarning("DeckManager not found in EndTurnButtonController.");
-        yield break;
-    }
+        if (deckManager == null)
+        {
+            Debug.LogWarning("DeckManager not found in EndTurnButtonController.");
+            yield break;
+        }
 
-    if (airReleaseEffect != null)
-        airReleaseEffect.SetActive(true);
+        if (airReleaseEffect != null)
+            airReleaseEffect.SetActive(true);
 
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayRandomFart();
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayRandomFart();
 
-    yield return new WaitForSeconds(puffDuration);
+        yield return new WaitForSeconds(puffDuration);
 
-    if (airReleaseEffect != null)
-        airReleaseEffect.SetActive(false);
+        if (airReleaseEffect != null)
+            airReleaseEffect.SetActive(false);
 
-    int nextPlayerIndex = (turnManager.currentPlayerIndex + 1) % turnManager.players.Count;
-    bool nextPlayerIsBot = turnManager.players[nextPlayerIndex].isBot;
+        int nextPlayerIndex = (turnManager.currentPlayerIndex + 1) % turnManager.players.Count;
+        bool nextPlayerIsBot = turnManager.players[nextPlayerIndex].isBot;
 
-    Debug.Log("Next player is Player " + (nextPlayerIndex + 1) + ". isBot = " + nextPlayerIsBot);
+        Debug.Log("Next player is Player " + (nextPlayerIndex + 1) + ". isBot = " + nextPlayerIsBot);
 
-    // ===== BOT FLOW =====
-    if (nextPlayerIsBot)
-    {
-        if (nextPlayerPanel != null)
-            nextPlayerPanel.SetActive(false);
+        // ===== BOT FLOW =====
+        if (nextPlayerIsBot)
+        {
+            if (nextPlayerPanel != null)
+                nextPlayerPanel.SetActive(false);
 
-        if (readyButton != null)
-            readyButton.SetActive(false);
+            if (readyButton != null)
+                readyButton.SetActive(false);
 
-        if (turnMessageText != null)
-            turnMessageText.text = "";
+            if (turnMessageText != null)
+                turnMessageText.text = "";
 
-        deckManager.AdvanceToNextPlayerTurn();
+            deckManager.AdvanceToNextPlayerTurn();
 
+            if (endTurnButton != null)
+                endTurnButton.SetActive(false);
+
+            yield break;
+        }
+
+        // ===== HUMAN FLOW =====
         if (endTurnButton != null)
             endTurnButton.SetActive(false);
 
-        yield break;
+        if (turnMessageText != null)
+        {
+            string nextPlayerName = turnManager.players[nextPlayerIndex].playerName;
+
+            if (string.IsNullOrWhiteSpace(nextPlayerName))
+                nextPlayerName = "Player " + (nextPlayerIndex + 1);
+
+            turnMessageText.text = nextPlayerName + "'s Turn";
+            turnMessageText.gameObject.SetActive(true);
+        }
+
+        if (readyButton != null)
+            readyButton.SetActive(true);
+
+        if (nextPlayerPanel != null)
+            nextPlayerPanel.SetActive(true);
     }
-
-    // ===== HUMAN FLOW =====
-    if (endTurnButton != null)
-        endTurnButton.SetActive(false);
-
-    if (turnMessageText != null)
-    {
-    string nextPlayerName = turnManager.players[nextPlayerIndex].playerName;
-
-    if (string.IsNullOrWhiteSpace(nextPlayerName))
-        nextPlayerName = "Player " + (nextPlayerIndex + 1);
-
-    turnMessageText.text = nextPlayerName + "'s Turn";
-    turnMessageText.gameObject.SetActive(true);
-    }
-
-    if (readyButton != null)
-        readyButton.SetActive(true);
-
-    if (nextPlayerPanel != null)
-        nextPlayerPanel.SetActive(true);
-}
 }
