@@ -196,7 +196,7 @@ public class DeckManager : MonoBehaviour
 {
     activePranks.Clear();
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
     {
         if (prankDeck.Count == 0)
         {
@@ -427,7 +427,7 @@ public class DeckManager : MonoBehaviour
         return;
     }
 
-    if (activePranks.Count == 0)
+    if (activePranks.Count == 1)
     {
         if (GetCurrentPlayer().isBot && botManager != null)
          botManager.NotifyBotActionHandledTurnFlow();
@@ -907,26 +907,26 @@ void PrintGameState()
     }
 
     Debug.Log("======================");
-    }
+}
 
-        bool CanClickDrawPile()
-        {
-            return pendingChoice == PendingChoiceType.ChooseAction &&
-                    (deck.Count > 0 || discardPile.Count > 0);
-        }
+bool CanClickDrawPile()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction &&
+    (deck.Count > 0 || discardPile.Count > 0);
+}
 
-        bool CanClickDiscardPile()
-    {
-        return pendingChoice == PendingChoiceType.ChooseAction && discardPile.Count > 0;
-    }
+bool CanClickDiscardPile()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction && discardPile.Count > 0;
+}
 
-    void LogSeparator(string title = "")
-    {
-        Debug.Log("--------------------------------------------------");
+void LogSeparator(string title = "")
+{
+    Debug.Log("--------------------------------------------------");
     
-        if (title != "")
-        Debug.Log(title);
-    }
+    if (title != "")
+    Debug.Log(title);
+}
 
 void StartDrawFromDiscardTurn()
 {
@@ -988,7 +988,7 @@ void StartOfferFavorTurn()
 
     LogSeparator("CHOOSE FAVOR CARD");
 
-    Debug.Log("Choose a card to offer as favor. Press 1, 2, 3, 4, or 5.");
+    Debug.Log("Choose a card to offer as favor. Press 1, 2, 3, 4.");
     ShowCurrentPlayerHand();
 }
 
@@ -1049,7 +1049,7 @@ void ResetRound()
     // Deal fresh hands
     DealStartingHands();
 
-    // Deal 3 new active pranks
+    // Deal 4 new active pranks
     DealActivePranks();
     ShowActivePrankCards();
 
