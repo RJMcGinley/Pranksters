@@ -49,6 +49,8 @@ public class MainMenuController : MonoBehaviour
 
     public void StartGame()
     {
+        Debug.Log("StartGame START");
+
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayConfirmClick();
 
@@ -116,7 +118,9 @@ public class MainMenuController : MonoBehaviour
         DeckManager deckManager = FindFirstObjectByType<DeckManager>();
         if (deckManager != null)
         {
+            Debug.Log("StartGame | about to call DeckManager.BeginNewGame");
             deckManager.BeginNewGame();
+            Debug.Log("StartGame | DeckManager.BeginNewGame was called");
         }
         else
         {
@@ -140,7 +144,10 @@ public class MainMenuController : MonoBehaviour
         Debug.Log("Returning to main menu");
 
         if (gameCanvas != null)
-            gameCanvas.SetActive(true);
+        {
+            gameCanvas.SetActive(false);
+            Debug.Log("gameCanvas was set to false");
+        }
 
         if (endGameCanvas != null)
             endGameCanvas.SetActive(false);

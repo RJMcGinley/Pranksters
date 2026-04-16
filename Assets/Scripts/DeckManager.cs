@@ -115,6 +115,11 @@ public class DeckManager : MonoBehaviour
     public BotManager botManager;
     public GameObject gameCanvas;
     public bool isRulesPanelOpen = false;
+
+    private PlayerProgressSave player1ProgressSave;
+    private Dictionary<PranksterType, int> player1FavorPointsThisGame = new Dictionary<PranksterType, int>();
+
+
     public bool IsGameOver()
     {
         return gameOver;
@@ -298,6 +303,14 @@ public class DeckManager : MonoBehaviour
 
     int favorGained = CalculateFavorPoints(offeredCard);
     player.favorPoints += favorGained;
+    if (turnManager.currentPlayerIndex == 0)
+    {
+        if (!player1FavorPointsThisGame.ContainsKey(offeredCard))
+            player1FavorPointsThisGame[offeredCard] = 0;
+
+        player1FavorPointsThisGame[offeredCard] += favorGained;
+    }
+
 
     UpdateActiveFavorDisplay();
     RefreshAllDisplays();
@@ -1500,6 +1513,9 @@ void TriggerEndGameScoring()
     CalculateFinalScores();
     Debug.Log("CalculateFinalScores COMPLETE");
 
+    ApplyPlayer1MatchResultsToSave();
+    Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
+
     // Show end game canvas and scoring panel
     if (endGameCanvas != null)
         endGameCanvas.SetActive(true);
@@ -1951,6 +1967,8 @@ void PopulateScoreRow(
 
 public void BeginNewGame()
 {
+    Debug.Log("BeginNewGame START");
+
     if (favorPreviewText != null)
         favorPreviewText.gameObject.SetActive(false);
 
@@ -1966,12 +1984,16 @@ public void BeginNewGame()
         return;
     }
 
+    Debug.Log("BeginNewGame | clearing runtime data");
+
     // Clear all runtime data
     deck.Clear();
     prankDeck.Clear();
     activePranks.Clear();
     discardPile.Clear();
     outOfPlayPranksters.Clear();
+
+    Debug.Log("BeginNewGame | resetting state");
 
     // Reset state
     pendingChoice = PendingChoiceType.None;
@@ -1981,6 +2003,8 @@ public void BeginNewGame()
     finalCompletedPrank = null;
     hoveredPrankIndex = -1;
     hasTakenActionThisTurn = false;
+
+    Debug.Log("BeginNewGame | resetting players");
 
     // Reset players
     for (int i = 0; i < turnManager.players.Count; i++)
@@ -1994,7 +2018,11 @@ public void BeginNewGame()
         player.finalScore = 0;
     }
 
-    // Build and shuffle decks (ONLY ONCE)
+    ResetPlayer1FavorTrackingForNewGame();
+
+    Debug.Log("BeginNewGame | building and shuffling decks");
+
+    // Build and shuffle decks
     BuildPranksterDeck();
     ShufflePranksterDeck();
 
@@ -2004,7 +2032,8 @@ public void BeginNewGame()
     Debug.Log("Prankster Deck created with " + deck.Count + " cards");
     Debug.Log("Prank deck size: " + prankDeck.Count);
 
-    // Start game flow
+    Debug.Log("BeginNewGame | about to start BeginNewGameSequence coroutine");
+
     StartCoroutine(BeginNewGameSequence());
 }
 
@@ -2533,9 +2562,18 @@ IEnumerator ResetRoundSequence()
 
 IEnumerator BeginNewGameSequence()
 {
+    Debug.Log("BeginNewGameSequence START");
+
+    if (gameCanvas != null)
+    {
+        gameCanvas.SetActive(true);
+        Debug.Log("BeginNewGameSequence | gameCanvas forced ON");
+    }
+
     yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
 
-    Debug.Log("Hands Dealt");
+    Debug.Log("BeginNewGameSequence | hands dealt");
+
     Debug.Log("Cards left in deck: " + deck.Count);
 
     DealActivePranks();
@@ -2558,6 +2596,7 @@ IEnumerator BeginNewGameSequence()
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshDisplays();
 
+    Debug.Log("BeginNewGameSequence | about to call StartPlayerTurn");
     StartPlayerTurn();
 }
 
@@ -3018,6 +3057,142 @@ public bool IsInteractionBlocked()
         return true;
 
     return false;
+}
+
+void ResetPlayer1FavorTrackingForNewGame()
+{
+    player1FavorPointsThisGame.Clear();
+
+    foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
+    {
+        player1FavorPointsThisGame[type] = 0;
+    }
+}
+
+void ApplyPlayer1MatchResultsToSave()
+{
+    if (player1ProgressSave == null)
+        player1ProgressSave = SaveSystem.Load();
+
+    if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
+    {
+        Debug.LogWarning("ApplyPlayer1MatchResultsToSave aborted: players not ready.");
+        return;
+    }
+
+    Player player1 = turnManager.players[0];
+    bool player1Won = DidPlayer1Win();
+    int playerCount = turnManager.players.Count;
+
+    // Win/loss by player count
+    if (playerCount == 2)
+    {
+        if (player1Won) player1ProgressSave.wins2P++;
+        else player1ProgressSave.losses2P++;
+    }
+    else if (playerCount == 3)
+    {
+        if (player1Won) player1ProgressSave.wins3P++;
+        else player1ProgressSave.losses3P++;
+    }
+    else if (playerCount == 4)
+    {
+        if (player1Won) player1ProgressSave.wins4P++;
+        else player1ProgressSave.losses4P++;
+    }
+
+    // Individual prank completions
+    for (int i = 0; i < player1.completedPranks.Count; i++)
+    {
+        PrankCard prank = player1.completedPranks[i];
+        AddPrankCompletionToSave(prank.title);
+    }
+
+    // Favor points gained by prankster type
+    foreach (var kvp in player1FavorPointsThisGame)
+    {
+        AddFavorPointsToSave(kvp.Key, kvp.Value);
+    }
+
+    SaveSystem.Save(player1ProgressSave);
+}
+
+bool DidPlayer1Win()
+{
+    if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
+        return false;
+
+    Player player1 = turnManager.players[0];
+
+    int bestScore = int.MinValue;
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        if (turnManager.players[i].finalScore > bestScore)
+            bestScore = turnManager.players[i].finalScore;
+    }
+
+    return player1.finalScore == bestScore;
+}
+
+void AddPrankCompletionToSave(string prankTitle)
+{
+    for (int i = 0; i < player1ProgressSave.prankCompletions.Count; i++)
+    {
+        if (player1ProgressSave.prankCompletions[i].prankTitle == prankTitle)
+        {
+            player1ProgressSave.prankCompletions[i].timesCompleted++;
+            return;
+        }
+    }
+
+    player1ProgressSave.prankCompletions.Add(new PrankCompletionEntry
+    {
+        prankTitle = prankTitle,
+        timesCompleted = 1
+    });
+}
+
+void AddFavorPointsToSave(PranksterType pranksterType, int amount)
+{
+    string typeName = pranksterType.ToString();
+
+    for (int i = 0; i < player1ProgressSave.favorPointsByType.Count; i++)
+    {
+        if (player1ProgressSave.favorPointsByType[i].pranksterType == typeName)
+        {
+            player1ProgressSave.favorPointsByType[i].totalFavorPointsGained += amount;
+            return;
+        }
+    }
+
+    player1ProgressSave.favorPointsByType.Add(new FavorPointsEntry
+    {
+        pranksterType = typeName,
+        totalFavorPointsGained = amount
+    });
+}
+
+[ContextMenu("Print Player 1 Save Data")]
+public void PrintPlayer1SaveData()
+{
+    PlayerProgressSave data = SaveSystem.Load();
+
+    Debug.Log("===== PLAYER 1 SAVE DATA =====");
+    Debug.Log("2P W/L: " + data.wins2P + "/" + data.losses2P);
+    Debug.Log("3P W/L: " + data.wins3P + "/" + data.losses3P);
+    Debug.Log("4P W/L: " + data.wins4P + "/" + data.losses4P);
+
+    Debug.Log("---- PRANK COMPLETIONS ----");
+    for (int i = 0; i < data.prankCompletions.Count; i++)
+    {
+        Debug.Log(data.prankCompletions[i].prankTitle + ": " + data.prankCompletions[i].timesCompleted);
+    }
+
+    Debug.Log("---- FAVOR POINTS BY TYPE ----");
+    for (int i = 0; i < data.favorPointsByType.Count; i++)
+    {
+        Debug.Log(data.favorPointsByType[i].pranksterType + ": " + data.favorPointsByType[i].totalFavorPointsGained);
+    }
 }
 
 }
