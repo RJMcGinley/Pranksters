@@ -98,45 +98,42 @@ public class MainMenuPlayerSetup : MonoBehaviour
     }
 
     public void CycleBotIdentity(int slotIndex, int direction)
-    {
-        if (slotIndex < 0 || slotIndex >= playerSlots.Count)
-            return;
+{
+    if (slotIndex < 0 || slotIndex >= playerSlots.Count)
+        return;
 
-        if (slotIndex < 1 || slotIndex > 3)
-            return;
+    if (slotIndex < 1 || slotIndex > 3)
+        return;
 
-        if (playerSlots[slotIndex].playerType != MenuPlayerType.AI)
-            return;
+    if (playerSlots[slotIndex].playerType != MenuPlayerType.AI)
+        return;
 
-        if (slotIndex == 3)
-            return; // Player 4 is auto-assigned from the remaining bot
+    List<BotIdentity> availableBots = GetAvailableBotChoicesForSlot(slotIndex);
 
-        List<BotIdentity> availableBots = GetAvailableBotChoicesForSlot(slotIndex);
+    if (availableBots.Count <= 1)
+        return;
 
-        if (availableBots.Count <= 1)
-            return;
+    BotIdentity current = playerSlots[slotIndex].botIdentity;
+    int currentIndex = availableBots.IndexOf(current);
 
-        BotIdentity current = playerSlots[slotIndex].botIdentity;
-        int currentIndex = availableBots.IndexOf(current);
+    if (currentIndex < 0)
+        currentIndex = 0;
 
-        if (currentIndex < 0)
-            currentIndex = 0;
+    int nextIndex = currentIndex + (direction > 0 ? 1 : -1);
 
-        int nextIndex = currentIndex + (direction > 0 ? 1 : -1);
+    if (nextIndex >= availableBots.Count)
+        nextIndex = 0;
+    else if (nextIndex < 0)
+        nextIndex = availableBots.Count - 1;
 
-        if (nextIndex >= availableBots.Count)
-            nextIndex = 0;
-        else if (nextIndex < 0)
-            nextIndex = availableBots.Count - 1;
+    playerSlots[slotIndex].botIdentity = availableBots[nextIndex];
+    playerSlots[slotIndex].playerName = GetBotDisplayName(playerSlots[slotIndex].botIdentity);
 
-        playerSlots[slotIndex].botIdentity = availableBots[nextIndex];
-        playerSlots[slotIndex].playerName = GetBotDisplayName(playerSlots[slotIndex].botIdentity);
+    SyncBotAssignments();
 
-        SyncBotAssignments();
-
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-    }
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayMenuClick();
+}
 
     public bool IsSlotInteractable(int slotIndex)
     {
@@ -183,109 +180,123 @@ public class MainMenuPlayerSetup : MonoBehaviour
     }
 
     private void ApplySlotDefaultsAfterTypeChange(int slotIndex)
+{
+    if (slotIndex < 0 || slotIndex >= playerSlots.Count)
+        return;
+
+    MenuPlayerSlot slot = playerSlots[slotIndex];
+
+    if (slot.playerType == MenuPlayerType.Human)
     {
-        if (slotIndex < 0 || slotIndex >= playerSlots.Count)
-            return;
-
-        MenuPlayerSlot slot = playerSlots[slotIndex];
-
-        if (slot.playerType == MenuPlayerType.Human)
-        {
-            slot.botIdentity = BotIdentity.None;
-            slot.playerName = GetDefaultNameForSlot(slotIndex, MenuPlayerType.Human);
-            return;
-        }
-
-        if (slot.playerType == MenuPlayerType.Closed)
-        {
-            slot.botIdentity = BotIdentity.None;
-            slot.playerName = "Closed";
-            return;
-        }
-
-        if (slot.playerType == MenuPlayerType.AI)
-        {
-            if (slotIndex == 1)
-            {
-                if (slot.botIdentity == BotIdentity.None)
-                    slot.botIdentity = BotIdentity.Jerek;
-            }
-            else if (slotIndex == 2)
-            {
-                if (slot.botIdentity == BotIdentity.None)
-                    slot.botIdentity = GetFirstUnusedBot(slotIndex);
-            }
-            else if (slotIndex == 3)
-            {
-                slot.botIdentity = GetRemainingBotForPlayer4();
-            }
-
-            slot.playerName = GetBotDisplayName(slot.botIdentity);
-        }
+        slot.botIdentity = BotIdentity.None;
+        slot.playerName = GetDefaultNameForSlot(slotIndex, MenuPlayerType.Human);
+        return;
     }
+
+    if (slot.playerType == MenuPlayerType.Closed)
+    {
+        slot.botIdentity = BotIdentity.None;
+        slot.playerName = "Closed";
+        return;
+    }
+
+    if (slot.playerType == MenuPlayerType.AI)
+    {
+        if (slot.botIdentity == BotIdentity.None)
+            slot.botIdentity = GetFirstUnusedBot(slotIndex);
+
+        slot.playerName = GetBotDisplayName(slot.botIdentity);
+    }
+}
 
     private void SyncBotAssignments()
+{
+    // Ensure Player 2 has a valid unique bot if AI
+    if (playerSlots[1].playerType == MenuPlayerType.AI)
     {
-        // Ensure Player 2 has a valid unique bot if AI
-        if (playerSlots[1].playerType == MenuPlayerType.AI)
-        {
-            if (playerSlots[1].botIdentity == BotIdentity.None)
-                playerSlots[1].botIdentity = BotIdentity.Jerek;
+        List<BotIdentity> p2Choices = GetAvailableBotChoicesForSlot(1);
 
-            playerSlots[1].playerName = GetBotDisplayName(playerSlots[1].botIdentity);
-        }
-        else
+        if (!p2Choices.Contains(playerSlots[1].botIdentity))
+            playerSlots[1].botIdentity = p2Choices.Count > 0 ? p2Choices[0] : BotIdentity.None;
+
+        playerSlots[1].playerName = GetBotDisplayName(playerSlots[1].botIdentity);
+    }
+    else if (playerSlots[1].playerType == MenuPlayerType.Human)
+    {
+        playerSlots[1].botIdentity = BotIdentity.None;
+
+        if (string.IsNullOrWhiteSpace(playerSlots[1].playerName) ||
+            playerSlots[1].playerName == "Closed")
         {
-            playerSlots[1].botIdentity = BotIdentity.None;
             playerSlots[1].playerName = "Player 2";
         }
+    }
+    else
+    {
+        playerSlots[1].botIdentity = BotIdentity.None;
+        playerSlots[1].playerName = "Closed";
+    }
 
-        // Ensure Player 3 has a valid unique bot if AI
-        if (playerSlots[2].playerType == MenuPlayerType.AI)
+    // Ensure Player 3 has a valid unique bot if AI
+    if (playerSlots[2].playerType == MenuPlayerType.AI)
+    {
+        List<BotIdentity> p3Choices = GetAvailableBotChoicesForSlot(2);
+
+        if (!p3Choices.Contains(playerSlots[2].botIdentity))
+            playerSlots[2].botIdentity = p3Choices.Count > 0 ? p3Choices[0] : BotIdentity.None;
+
+        playerSlots[2].playerName = GetBotDisplayName(playerSlots[2].botIdentity);
+    }
+    else if (playerSlots[2].playerType == MenuPlayerType.Human)
+    {
+        playerSlots[2].botIdentity = BotIdentity.None;
+
+        if (string.IsNullOrWhiteSpace(playerSlots[2].playerName) ||
+            playerSlots[2].playerName == "Closed")
         {
-            List<BotIdentity> p3Choices = GetAvailableBotChoicesForSlot(2);
-
-            if (!p3Choices.Contains(playerSlots[2].botIdentity))
-                playerSlots[2].botIdentity = p3Choices.Count > 0 ? p3Choices[0] : BotIdentity.None;
-
-            playerSlots[2].playerName = GetBotDisplayName(playerSlots[2].botIdentity);
-        }
-        else if (playerSlots[2].playerType == MenuPlayerType.Human)
-        {
-            playerSlots[2].botIdentity = BotIdentity.None;
             playerSlots[2].playerName = "Player 3";
         }
-        else
-        {
-            playerSlots[2].botIdentity = BotIdentity.None;
-            playerSlots[2].playerName = "Closed";
-        }
+    }
+    else
+    {
+        playerSlots[2].botIdentity = BotIdentity.None;
+        playerSlots[2].playerName = "Closed";
+    }
 
-        // Player 4 auto-fills with remaining bot if AI
-        if (playerSlots[3].playerType == MenuPlayerType.AI)
+    // Ensure Player 4 has a valid unique bot if AI
+    if (playerSlots[3].playerType == MenuPlayerType.AI)
+    {
+        List<BotIdentity> p4Choices = GetAvailableBotChoicesForSlot(3);
+
+        if (!p4Choices.Contains(playerSlots[3].botIdentity))
+            playerSlots[3].botIdentity = p4Choices.Count > 0 ? p4Choices[0] : BotIdentity.None;
+
+        playerSlots[3].playerName = GetBotDisplayName(playerSlots[3].botIdentity);
+    }
+    else if (playerSlots[3].playerType == MenuPlayerType.Human)
+    {
+        playerSlots[3].botIdentity = BotIdentity.None;
+
+        if (string.IsNullOrWhiteSpace(playerSlots[3].playerName) ||
+            playerSlots[3].playerName == "Closed")
         {
-            playerSlots[3].botIdentity = GetRemainingBotForPlayer4();
-            playerSlots[3].playerName = GetBotDisplayName(playerSlots[3].botIdentity);
-        }
-        else if (playerSlots[3].playerType == MenuPlayerType.Human)
-        {
-            playerSlots[3].botIdentity = BotIdentity.None;
             playerSlots[3].playerName = "Player 4";
         }
-        else
-        {
-            playerSlots[3].botIdentity = BotIdentity.None;
-            playerSlots[3].playerName = "Closed";
-        }
-
-        // If Player 3 is closed, Player 4 must also be closed
-        if (playerSlots[2].playerType == MenuPlayerType.Closed)
-        {
-            playerSlots[3].playerType = MenuPlayerType.Closed;
-            playerSlots[3].botIdentity = BotIdentity.None;
-            playerSlots[3].playerName = "Closed";
-        }
     }
+    else
+    {
+        playerSlots[3].botIdentity = BotIdentity.None;
+        playerSlots[3].playerName = "Closed";
+    }
+
+    // If Player 3 is closed, Player 4 must also be closed
+    if (playerSlots[2].playerType == MenuPlayerType.Closed)
+    {
+        playerSlots[3].playerType = MenuPlayerType.Closed;
+        playerSlots[3].botIdentity = BotIdentity.None;
+        playerSlots[3].playerName = "Closed";
+    }
+}
 
     private List<BotIdentity> GetAvailableBotChoicesForSlot(int slotIndex)
     {

@@ -1099,7 +1099,7 @@ int DetermineDealerIndex()
 
     if (tie)
     {
-        return (lastPrankCompleterIndex + 1) % turnManager.players.Count;
+        return lastPrankCompleterIndex;
     }
 
     return bestIndex;
@@ -2494,11 +2494,14 @@ IEnumerator ResetRoundSequence()
     LogSeparator("ROUND RESET");
 
     int dealerIndex = DetermineDealerIndex();
-    turnManager.currentPlayerIndex = dealerIndex;
+    int firstPlayerIndex = (dealerIndex + 1) % turnManager.players.Count;
+
+    turnManager.currentPlayerIndex = firstPlayerIndex;
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
 
     Debug.Log("New dealer: Player " + (dealerIndex + 1));
+    Debug.Log("First player this round: Player " + (firstPlayerIndex + 1));
 
     for (int i = 0; i < turnManager.players.Count; i++)
     {

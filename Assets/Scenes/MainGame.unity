@@ -34789,7 +34789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sfxSource: {fileID: 507006765}
   musicSource: {fileID: 507006768}
-  backgroundMusicClip: {fileID: 8300000, guid: 40d1cf81f7dd7435896925d189163d2d, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: b30761fec1d22410491c51d723e3ee9a, type: 3}
   drawDeckHoverClip: {fileID: 8300000, guid: 255bffc329cf641dd9b58711df81dcd3, type: 3}
   drawCardActionClip: {fileID: 8300000, guid: 9c49c55fd3a6444da9e8744727180b05, type: 3}
   discardPileHoverClip: {fileID: 8300000, guid: 255bffc329cf641dd9b58711df81dcd3, type: 3}
@@ -84886,7 +84886,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 634817632}
         m_TargetAssemblyTypeName: PlayerSelectionRowUI, Assembly-CSharp
-        m_MethodName: OnSelectorClicked
+        m_MethodName: OnBotCycleRightClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

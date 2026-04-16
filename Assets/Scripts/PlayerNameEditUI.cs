@@ -61,13 +61,19 @@ public class PlayerNameEditUI : MonoBehaviour
     }
 
     void Update()
-    {
-        if (!gameObject.activeSelf)
-            return;
+{
+    if (!gameObject.activeSelf)
+        return;
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            CancelEdit();
-        }
+    if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+    {
+        ConfirmName();
+        return;
     }
+
+    if (Input.GetKeyDown(KeyCode.Escape))
+    {
+        CancelEdit();
+    }
+}
 }
