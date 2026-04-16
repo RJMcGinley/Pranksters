@@ -118,7 +118,7 @@ public class DeckManager : MonoBehaviour
 
     private PlayerProgressSave player1ProgressSave;
     private Dictionary<PranksterType, int> player1FavorPointsThisGame = new Dictionary<PranksterType, int>();
-
+    private Dictionary<PranksterType, int> player1DiscardCountsThisGame = new Dictionary<PranksterType, int>();
 
     public bool IsGameOver()
     {
@@ -482,25 +482,33 @@ public class DeckManager : MonoBehaviour
 
 
     void DiscardCardFromHand(int handIndex)
+{
+    Player player = GetCurrentPlayer();
+
+    if (handIndex < 0 || handIndex >= player.hand.Count)
     {
-     Player player = GetCurrentPlayer();
-
-        if (handIndex < 0 || handIndex >= player.hand.Count)
-        {
-           Debug.Log("Invalid hand index");
-           return;
-        }
-
-     PranksterType card = player.hand[handIndex];
-
-        player.hand.RemoveAt(handIndex);
-        discardPile.Add(card);
-
-        discardPileDisplay.UpdateTopDiscardCard();
-
-        Debug.Log("Discarded: " + card);
-        RefreshAllDisplays();
+        Debug.Log("Invalid hand index");
+        return;
     }
+
+    PranksterType card = player.hand[handIndex];
+
+    if (turnManager.currentPlayerIndex == 0)
+    {
+        if (!player1DiscardCountsThisGame.ContainsKey(card))
+            player1DiscardCountsThisGame[card] = 0;
+
+        player1DiscardCountsThisGame[card]++;
+    }
+
+    player.hand.RemoveAt(handIndex);
+    discardPile.Add(card);
+
+    discardPileDisplay.UpdateTopDiscardCard();
+
+    Debug.Log("Discarded: " + card);
+    RefreshAllDisplays();
+}
 
 
     void ShowDiscardPile()
@@ -2019,6 +2027,7 @@ public void BeginNewGame()
     }
 
     ResetPlayer1FavorTrackingForNewGame();
+    ResetPlayer1DiscardTrackingForNewGame();
 
     Debug.Log("BeginNewGame | building and shuffling decks");
 
@@ -3084,6 +3093,9 @@ void ApplyPlayer1MatchResultsToSave()
     bool player1Won = DidPlayer1Win();
     int playerCount = turnManager.players.Count;
 
+    // Lifetime accumulated final score
+    player1ProgressSave.lifetimeFinalScorePoints += player1.finalScore;
+
     // Win/loss by player count
     if (playerCount == 2)
     {
@@ -3112,6 +3124,12 @@ void ApplyPlayer1MatchResultsToSave()
     foreach (var kvp in player1FavorPointsThisGame)
     {
         AddFavorPointsToSave(kvp.Key, kvp.Value);
+    }
+
+    // Discard counts by prankster type
+    foreach (var kvp in player1DiscardCountsThisGame)
+    {
+        AddDiscardCountToSave(kvp.Key, kvp.Value);
     }
 
     SaveSystem.Save(player1ProgressSave);
@@ -3173,6 +3191,7 @@ void AddFavorPointsToSave(PranksterType pranksterType, int amount)
 }
 
 [ContextMenu("Print Player 1 Save Data")]
+[ContextMenu("Print Player 1 Save Data")]
 public void PrintPlayer1SaveData()
 {
     PlayerProgressSave data = SaveSystem.Load();
@@ -3181,6 +3200,7 @@ public void PrintPlayer1SaveData()
     Debug.Log("2P W/L: " + data.wins2P + "/" + data.losses2P);
     Debug.Log("3P W/L: " + data.wins3P + "/" + data.losses3P);
     Debug.Log("4P W/L: " + data.wins4P + "/" + data.losses4P);
+    Debug.Log("Lifetime Final Score Points: " + data.lifetimeFinalScorePoints);
 
     Debug.Log("---- PRANK COMPLETIONS ----");
     for (int i = 0; i < data.prankCompletions.Count; i++)
@@ -3193,6 +3213,42 @@ public void PrintPlayer1SaveData()
     {
         Debug.Log(data.favorPointsByType[i].pranksterType + ": " + data.favorPointsByType[i].totalFavorPointsGained);
     }
+
+    Debug.Log("---- DISCARD COUNTS BY TYPE ----");
+    for (int i = 0; i < data.discardCountsByType.Count; i++)
+    {
+        Debug.Log(data.discardCountsByType[i].pranksterType + ": " + data.discardCountsByType[i].totalDiscards);
+    }
+}
+
+void ResetPlayer1DiscardTrackingForNewGame()
+{
+    player1DiscardCountsThisGame.Clear();
+
+    foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
+    {
+        player1DiscardCountsThisGame[type] = 0;
+    }
+}
+
+void AddDiscardCountToSave(PranksterType pranksterType, int amount)
+{
+    string typeName = pranksterType.ToString();
+
+    for (int i = 0; i < player1ProgressSave.discardCountsByType.Count; i++)
+    {
+        if (player1ProgressSave.discardCountsByType[i].pranksterType == typeName)
+        {
+            player1ProgressSave.discardCountsByType[i].totalDiscards += amount;
+            return;
+        }
+    }
+
+    player1ProgressSave.discardCountsByType.Add(new DiscardCountEntry
+    {
+        pranksterType = typeName,
+        totalDiscards = amount
+    });
 }
 
 }

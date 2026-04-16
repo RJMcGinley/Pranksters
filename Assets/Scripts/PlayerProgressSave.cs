@@ -13,8 +13,11 @@ public class PlayerProgressSave
     public int wins4P;
     public int losses4P;
 
+    public int lifetimeFinalScorePoints;
+
     public List<PrankCompletionEntry> prankCompletions = new List<PrankCompletionEntry>();
     public List<FavorPointsEntry> favorPointsByType = new List<FavorPointsEntry>();
+    public List<DiscardCountEntry> discardCountsByType = new List<DiscardCountEntry>();
 }
 
 [Serializable]
@@ -29,4 +32,11 @@ public class FavorPointsEntry
 {
     public string pranksterType;
     public int totalFavorPointsGained;
+}
+
+[Serializable]
+public class DiscardCountEntry
+{
+    public string pranksterType;
+    public int totalDiscards;
 }

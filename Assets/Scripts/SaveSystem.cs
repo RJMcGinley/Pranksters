@@ -57,6 +57,12 @@ public static class SaveSystem
                 pranksterType = type.ToString(),
                 totalFavorPointsGained = 0
             });
+
+            data.discardCountsByType.Add(new DiscardCountEntry
+            {
+                pranksterType = type.ToString(),
+                totalDiscards = 0
+            });
         }
 
         return data;
@@ -70,25 +76,48 @@ public static class SaveSystem
         if (data.favorPointsByType == null)
             data.favorPointsByType = new List<FavorPointsEntry>();
 
+        if (data.discardCountsByType == null)
+            data.discardCountsByType = new List<DiscardCountEntry>();
+
         foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
         {
-            bool found = false;
+            bool favorFound = false;
 
             for (int i = 0; i < data.favorPointsByType.Count; i++)
             {
                 if (data.favorPointsByType[i].pranksterType == type.ToString())
                 {
-                    found = true;
+                    favorFound = true;
                     break;
                 }
             }
 
-            if (!found)
+            if (!favorFound)
             {
                 data.favorPointsByType.Add(new FavorPointsEntry
                 {
                     pranksterType = type.ToString(),
                     totalFavorPointsGained = 0
+                });
+            }
+
+            bool discardFound = false;
+
+            for (int i = 0; i < data.discardCountsByType.Count; i++)
+            {
+                if (data.discardCountsByType[i].pranksterType == type.ToString())
+                {
+                    discardFound = true;
+                    break;
+                }
+            }
+
+            if (!discardFound)
+            {
+                data.discardCountsByType.Add(new DiscardCountEntry
+                {
+                    pranksterType = type.ToString(),
+                    totalDiscards = 0
                 });
             }
         }
