@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 74b0fb4c5c28740329d602907272134f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4331473538809098027
+    second: GlowOutlineRect_0
+  - first:
+      213: -8693067003704467393
+    second: GlowOutlineRect_1
+  - first:
+      213: 2510135452691064192
+    second: GlowOutlineRect_2
+  - first:
+      213: 7377296290394168928
+    second: GlowOutlineRect_3
+  - first:
+      213: -8588578344504563204
+    second: GlowOutlineRect_4
+  - first:
+      213: -3564018532798000870
+    second: GlowOutlineRect_5
+  - first:
+      213: -404184829829037328
+    second: GlowOutlineRect_6
+  - first:
+      213: -7359056257254897165
+    second: GlowOutlineRect_7
+  - first:
+      213: -1223232262518128131
+    second: GlowOutlineRect_8
+  - first:
+      213: 2979468985718935545
+    second: GlowOutlineRect_9
+  - first:
+      213: 3605684619338644214
+    second: GlowOutlineRect_10
+  - first:
+      213: -5193023308235242814
+    second: GlowOutlineRect_11
+  - first:
+      213: -4942641503722580325
+    second: GlowOutlineRect_12
+  - first:
+      213: -6768036810291820119
+    second: GlowOutlineRect_13
+  - first:
+      213: 2882057488941153289
+    second: GlowOutlineRect_14
+  - first:
+      213: -430080173375092527
+    second: GlowOutlineRect_15
+  - first:
+      213: -2648947546130825007
+    second: GlowOutlineRect_16
+  - first:
+      213: 5875326851941864786
+    second: GlowOutlineRect_17
+  - first:
+      213: -9106658150842374005
+    second: GlowOutlineRect_18
+  - first:
+      213: 6081671072629498498
+    second: GlowOutlineRect_19
+  - first:
+      213: 4597276847659440374
+    second: GlowOutlineRect_20
+  - first:
+      213: 2391704887947062781
+    second: GlowOutlineRect_21
+  - first:
+      213: -7012525677317797750
+    second: GlowOutlineRect_22
+  - first:
+      213: 1681737654397825069
+    second: GlowOutlineRect_23
+  - first:
+      213: -9147222318551718336
+    second: GlowOutlineRect_24
+  - first:
+      213: -405129829782557679
+    second: GlowOutlineRect_25
+  - first:
+      213: 2331241204809862010
+    second: GlowOutlineRect_26
+  - first:
+      213: 57372855545536407
+    second: GlowOutlineRect_27
+  - first:
+      213: -927283553476610477
+    second: GlowOutlineRect_28
+  - first:
+      213: -7483806458904402260
+    second: GlowOutlineRect_29
+  - first:
+      213: 1241753082955497174
+    second: GlowOutlineRect_30
+  - first:
+      213: -7622501852857794115
+    second: GlowOutlineRect_31
+  - first:
+      213: 3502730042579420321
+    second: GlowOutlineRect_32
+  - first:
+      213: -8731054829098984240
+    second: GlowOutlineRect_33
+  - first:
+      213: -493464810707874293
+    second: GlowOutlineRect_34
+  - first:
+      213: -6231077306752018842
+    second: GlowOutlineRect_35
+  - first:
+      213: 2443827677169343178
+    second: GlowOutlineRect_36
+  - first:
+      213: -199851596672456740
+    second: GlowOutlineRect_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GlowOutlineRect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f68b20c3c7c1c30800000000000000
+      internalID: 4331473538809098027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 326
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30a6833e950c5780800000000000000
+      internalID: -8693067003704467393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 710
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085e3cb15eac5d220800000000000000
+      internalID: 2510135452691064192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 694
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e50c7b3eb616660800000000000000
+      internalID: 7377296290394168928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 526
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9613aff7d3fc880800000000000000
+      internalID: -8588578344504563204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 414
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a119aa307001a8ec0800000000000000
+      internalID: -3564018532798000870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 390
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2407ae90c046af0800000000000000
+      internalID: -404184829829037328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9c430f2516fd990800000000000000
+      internalID: -7359056257254897165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 102
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df14fcafcb4360fe0800000000000000
+      internalID: -1223232262518128131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 486
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff0211b143395920800000000000000
+      internalID: 2979468985718935545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 1256
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf4cbbe07f90230800000000000000
+      internalID: 3605684619338644214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 501
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c28052a0dcaee7b0800000000000000
+      internalID: -5193023308235242814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 665
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9653865db5386bb0800000000000000
+      internalID: -4942641503722580325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 609
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9c9cf216a1312a0800000000000000
+      internalID: -6768036810291820119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 490
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c779234002ff720800000000000000
+      internalID: 2882057488941153289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_15
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 636
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80a096c5c080af0800000000000000
+      internalID: -430080173375092527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_16
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 475
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0ca34dd3c0d3bd0800000000000000
+      internalID: -2648947546130825007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 506
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2551f4d94aa598150800000000000000
+      internalID: 5875326851941864786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_18
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 362
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88ef1439a6ae9180800000000000000
+      internalID: -9106658150842374005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 711
+        width: 143
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282a9d45e9f666450800000000000000
+      internalID: 6081671072629498498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 692
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f85ede7feecccf30800000000000000
+      internalID: 4597276847659440374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_21
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 690
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd66ad7cea013120800000000000000
+      internalID: 2391704887947062781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_22
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 200
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88ca29ec018eae90800000000000000
+      internalID: -7012525677317797750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_23
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 23
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20f7c78c7bb65710800000000000000
+      internalID: 1681737654397825069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_24
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 283
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046233de3c98e0180800000000000000
+      internalID: -9147222318551718336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 234
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c65e7f090b06af0800000000000000
+      internalID: -405129829782557679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_26
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 186
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b027a368b3a5020800000000000000
+      internalID: 2331241204809862010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_27
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f9a82ee44dbc000800000000000000
+      internalID: 57372855545536407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 361
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356f6f46580a123f0800000000000000
+      internalID: -927283553476610477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_29
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6aa313dad242890800000000000000
+      internalID: -7483806458904402260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_30
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 360
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6defe4099d79b3110800000000000000
+      internalID: 1241753082955497174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_31
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 543
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db187a853fe673690800000000000000
+      internalID: -7622501852857794115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_32
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 639
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4090c5a623c9030800000000000000
+      internalID: 3502730042579420321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_33
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 403
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc981d54ef05d680800000000000000
+      internalID: -8731054829098984240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_34
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 536
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e0a908e5cd629f0800000000000000
+      internalID: -493464810707874293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_35
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 464
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6665c030434c689a0800000000000000
+      internalID: -6231077306752018842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 602
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca52fd03583ae120800000000000000
+      internalID: 2443827677169343178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlowOutlineRect_37
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 551
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd72b8c180cf93df0800000000000000
+      internalID: -199851596672456740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GlowOutlineRect_0: 4331473538809098027
+      GlowOutlineRect_1: -8693067003704467393
+      GlowOutlineRect_10: 3605684619338644214
+      GlowOutlineRect_11: -5193023308235242814
+      GlowOutlineRect_12: -4942641503722580325
+      GlowOutlineRect_13: -6768036810291820119
+      GlowOutlineRect_14: 2882057488941153289
+      GlowOutlineRect_15: -430080173375092527
+      GlowOutlineRect_16: -2648947546130825007
+      GlowOutlineRect_17: 5875326851941864786
+      GlowOutlineRect_18: -9106658150842374005
+      GlowOutlineRect_19: 6081671072629498498
+      GlowOutlineRect_2: 2510135452691064192
+      GlowOutlineRect_20: 4597276847659440374
+      GlowOutlineRect_21: 2391704887947062781
+      GlowOutlineRect_22: -7012525677317797750
+      GlowOutlineRect_23: 1681737654397825069
+      GlowOutlineRect_24: -9147222318551718336
+      GlowOutlineRect_25: -405129829782557679
+      GlowOutlineRect_26: 2331241204809862010
+      GlowOutlineRect_27: 57372855545536407
+      GlowOutlineRect_28: -927283553476610477
+      GlowOutlineRect_29: -7483806458904402260
+      GlowOutlineRect_3: 7377296290394168928
+      GlowOutlineRect_30: 1241753082955497174
+      GlowOutlineRect_31: -7622501852857794115
+      GlowOutlineRect_32: 3502730042579420321
+      GlowOutlineRect_33: -8731054829098984240
+      GlowOutlineRect_34: -493464810707874293
+      GlowOutlineRect_35: -6231077306752018842
+      GlowOutlineRect_36: 2443827677169343178
+      GlowOutlineRect_37: -199851596672456740
+      GlowOutlineRect_4: -8588578344504563204
+      GlowOutlineRect_5: -3564018532798000870
+      GlowOutlineRect_6: -404184829829037328
+      GlowOutlineRect_7: -7359056257254897165
+      GlowOutlineRect_8: -1223232262518128131
+      GlowOutlineRect_9: 2979468985718935545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

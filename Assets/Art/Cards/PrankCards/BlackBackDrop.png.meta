@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 554ff358106cb482a808eefc295ee968
+guid: 6d530da0c3e934df5a06c9899752b200
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6874599755432676907
-    second: Cabbage Cash Final_0
+      213: -7484051668469563843
+    second: BlackBackDrop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cabbage Cash Final_0
+      name: BlackBackDrop_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1125
-        height: 825
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d1b27412f38890a0800000000000000
-      internalID: -6874599755432676907
+      spriteID: d3eb334e8ae432890800000000000000
+      internalID: -7484051668469563843
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cabbage Cash Final_0: -6874599755432676907
+      BlackBackDrop_0: -7484051668469563843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

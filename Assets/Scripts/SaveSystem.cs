@@ -122,4 +122,19 @@ public static class SaveSystem
             }
         }
     }
+
+    public static int GetPrankCompletionCount(string prankTitle)
+    {
+        PlayerProgressSave data = Load();
+
+        for (int i = 0; i < data.prankCompletions.Count; i++)
+        {
+            if (data.prankCompletions[i].prankTitle == prankTitle)
+                return data.prankCompletions[i].timesCompleted;
+        }
+
+    return 0;
+    }
+
+
 }

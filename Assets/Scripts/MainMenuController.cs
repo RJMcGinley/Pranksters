@@ -9,12 +9,23 @@ public class MainMenuController : MonoBehaviour
     public GameObject playerCountPanel;
     public MainMenuPlayerSetup playerSetup;
 
+    [Header("Prank Collection")]
+    public GameObject prankCollectionScreen;
+    public PrankCollectionUI prankCollectionUI;
+    public GameObject mainMenuButtonsRoot;
+
     public void OpenPlaySetup()
     {
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
         Debug.Log("Play button clicked");
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(false);
+
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(true);
 
         if (playerCountPanel != null)
             playerCountPanel.SetActive(true);
@@ -27,6 +38,42 @@ public class MainMenuController : MonoBehaviour
 
         if (playerCountPanel != null)
             playerCountPanel.SetActive(false);
+    }
+
+    public void OpenPrankCollection()
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        Debug.Log("Opening prank collection");
+
+        if (playerCountPanel != null)
+            playerCountPanel.SetActive(false);
+
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(false);
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(true);
+
+        if (prankCollectionUI != null)
+            prankCollectionUI.BuildCollection();
+        else
+            Debug.LogWarning("MainMenuController: prankCollectionUI is not assigned.");
+    }
+
+    public void ClosePrankCollection()
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBackClick();
+
+        Debug.Log("Closing prank collection");
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(false);
+
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(true);
     }
 
     public void SetTwoPlayers()
@@ -62,6 +109,9 @@ public class MainMenuController : MonoBehaviour
 
         int activePlayerCount = playerSetup.GetActivePlayerCount();
         GameSettings.PlayerCount = activePlayerCount;
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(false);
 
         if (mainMenuCanvas != null)
             mainMenuCanvas.SetActive(false);
@@ -133,7 +183,6 @@ public class MainMenuController : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
-
         SettingsMenuController settings = FindFirstObjectByType<SettingsMenuController>();
         if (settings != null)
             settings.CloseSettings();
@@ -157,6 +206,12 @@ public class MainMenuController : MonoBehaviour
 
         if (playerCountPanel != null)
             playerCountPanel.SetActive(false);
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(false);
+
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(true);
 
         if (mainMenuCanvas != null)
             mainMenuCanvas.SetActive(true);
