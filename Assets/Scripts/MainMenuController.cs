@@ -14,6 +14,10 @@ public class MainMenuController : MonoBehaviour
     public PrankCollectionUI prankCollectionUI;
     public GameObject mainMenuButtonsRoot;
 
+    [Header("Statistics")]
+    [SerializeField] private GameObject statisticsScreen;
+
+
     public void OpenPlaySetup()
     {
         if (AudioManager.Instance != null)
@@ -210,6 +214,9 @@ public class MainMenuController : MonoBehaviour
         if (prankCollectionScreen != null)
             prankCollectionScreen.SetActive(false);
 
+        if (statisticsScreen != null)
+            statisticsScreen.SetActive(false);
+
         if (mainMenuButtonsRoot != null)
             mainMenuButtonsRoot.SetActive(true);
 
@@ -225,4 +232,42 @@ public class MainMenuController : MonoBehaviour
         Debug.Log("Quit Game button clicked.");
         Application.Quit();
     }
+
+    public void OpenStatistics()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayMenuClick();
+
+    Debug.Log("Opening statistics");
+
+    if (playerCountPanel != null)
+        playerCountPanel.SetActive(false);
+
+    if (prankCollectionScreen != null)
+        prankCollectionScreen.SetActive(false);
+
+    if (mainMenuButtonsRoot != null)
+        mainMenuButtonsRoot.SetActive(false);
+
+    if (statisticsScreen != null)
+        statisticsScreen.SetActive(true);
+    else
+        Debug.LogWarning("MainMenuController: statisticsScreen is not assigned.");
+}
+
+public void CloseStatistics()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayBackClick();
+
+    Debug.Log("Closing statistics");
+
+    if (statisticsScreen != null)
+        statisticsScreen.SetActive(false);
+
+    if (mainMenuButtonsRoot != null)
+        mainMenuButtonsRoot.SetActive(true);
+}
+
+
 }
