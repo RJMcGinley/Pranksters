@@ -27,8 +27,35 @@ public class BotManager : MonoBehaviour
         return turnManager.GetCurrentPlayer();
     }
 
+    List<PranksterType> ConvertHandToTypes(List<PranksterDeckEntry> handEntries)
+    {
+    List<PranksterType> result = new List<PranksterType>();
+
+    if (handEntries == null)
+        return result;
+
+    for (int i = 0; i < handEntries.Count; i++)
+    {
+        result.Add(handEntries[i].pranksterType);
+    }
+
+    return result;
+    }
+
+    PranksterType GetHandTypeAt(Player player, int handIndex)
+    {
+    if (player == null || handIndex < 0 || handIndex >= player.hand.Count)
+        return PranksterType.Thief;
+
+    return player.hand[handIndex].pranksterType;
+    }
+
+
+
+
+
     public void TakeBotTurn()
-{
+    {
     string actionMessage = TakeBotTurnAndReturnMessage();
 
     if (!string.IsNullOrEmpty(actionMessage))
@@ -42,10 +69,10 @@ public class BotManager : MonoBehaviour
     deckManager.BotRefreshAllDisplays();
     StartCoroutine(EndTurnAfterDelay(1.2f));
 
-}
+    }
 
     string TakeBotTurnAndReturnMessage()
-{
+    {
     botActionHandledTurnFlow = false;
 
     // ===== COMPLETE PRANK =====
@@ -89,22 +116,22 @@ public class BotManager : MonoBehaviour
         return drawMessage;
 
     return "Drew from deck";
-}
+    }
 
     bool HandContainsFavorValue(int value)
     {
-        Player player = GetCurrentPlayer();
+    Player player = GetCurrentPlayer();
 
-        foreach (PranksterType card in player.hand)
-        {
-            int favorValue = deckManager.BotCalculateFavorPoints(card);
+    foreach (PranksterDeckEntry card in player.hand)
+    {
+        int favorValue = deckManager.BotCalculateFavorPoints(card.pranksterType);
 
-            if (favorValue == value)
-                return true;
-        }
-
-        return false;
+        if (favorValue == value)
+            return true;
     }
+
+    return false;
+    }                                  
 
     int CountProgressTowardPrank(List<PranksterType> hand, PrankCard prank)
     {
@@ -169,20 +196,21 @@ public class BotManager : MonoBehaviour
     deckManager.BotCompletePrank(prankIndex);
 
     return true;
-}
+    }
 
     bool CardCreatesExactProgress(PranksterType candidateCard, int targetProgress, out int bestPrankIndex)
-{
+    {
     bestPrankIndex = -1;
 
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(player.hand);
 
     for (int i = 0; i < activePranks.Count; i++)
     {
-        int progressBefore = CountProgressTowardPrank(player.hand, activePranks[i]);
+        int progressBefore = CountProgressTowardPrank(currentHandTypes, activePranks[i]);
 
-        List<PranksterType> simulatedHand = new List<PranksterType>(player.hand);
+        List<PranksterType> simulatedHand = new List<PranksterType>(currentHandTypes);
         simulatedHand.Add(candidateCard);
 
         int progressAfter = CountProgressTowardPrank(simulatedHand, activePranks[i]);
@@ -206,10 +234,10 @@ public class BotManager : MonoBehaviour
     }
 
     return false;
-}
+    }   
 
-bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage)
-{
+    bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage)
+    {   
     actionMessage = "";
 
     List<PranksterType> discardPile = deckManager.BotGetDiscardPile();
@@ -223,8 +251,7 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
     if (!CardCreatesExactProgress(topCard, targetProgress, out int bestPrankIndex))
         return false;
 
-    // Simulate taking the discard card first
-    List<PranksterType> simulatedHand = new List<PranksterType>(player.hand);
+    List<PranksterType> simulatedHand = ConvertHandToTypes(player.hand);
     simulatedHand.Add(topCard);
 
     int bestDiscardIndex = -1;
@@ -232,7 +259,6 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
 
     for (int i = 0; i < simulatedHand.Count; i++)
     {
-        // Never discard the exact card just taken
         if (i == simulatedHand.Count - 1)
             continue;
 
@@ -241,13 +267,11 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
 
         int progressAfterDiscard = CountProgressTowardPrank(handAfterDiscard, deckManager.BotGetActivePranks()[bestPrankIndex]);
 
-        // If the discard undoes the progress goal, reject it
         if (progressAfterDiscard < targetProgress)
             continue;
 
         int favorValue = deckManager.BotCalculateFavorPoints(simulatedHand[i]);
 
-        // Evaluate support based on current real hand index when possible
         bool supportsThree = false;
         bool supportsPair = false;
 
@@ -278,12 +302,11 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
         }
     }
 
-    // No legal discard that preserves the value of taking this discard card
     if (bestDiscardIndex == -1)
     {
         Debug.Log("BOT: Skipping discard-pile take because no valid discard keeps the gained card useful.");
         return false;
-    }   
+    }
 
     Debug.Log("BOT: Taking discard for " + targetProgress + "-of-4 progress");
 
@@ -292,7 +315,7 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
     if (bestDiscardIndex < 0 || bestDiscardIndex >= player.hand.Count)
         return false;
 
-    PranksterType discardedCard = player.hand[bestDiscardIndex];
+    PranksterType discardedCard = GetHandTypeAt(player, bestDiscardIndex);
 
     deckManager.BotDiscardCardFromHand(bestDiscardIndex);
 
@@ -301,10 +324,10 @@ bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage
         "\nDiscarded: " + discardedCard;
 
     return true;
-}
+    }
 
-int ChooseDiscardIndexAfterGain(int protectedPrankIndex, int targetProgress)
-{
+    int ChooseDiscardIndexAfterGain(int protectedPrankIndex, int targetProgress)
+    {
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
 
@@ -315,22 +338,22 @@ int ChooseDiscardIndexAfterGain(int protectedPrankIndex, int targetProgress)
         return ChooseBestDiscardIndexFromCurrentHand();
 
     PrankCard protectedPrank = activePranks[protectedPrankIndex];
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(player.hand);
 
     int bestIndex = -1;
     int bestScore = int.MinValue;
 
     for (int i = 0; i < player.hand.Count; i++)
     {
-        List<PranksterType> handWithoutCard = new List<PranksterType>(player.hand);
+        List<PranksterType> handWithoutCard = new List<PranksterType>(currentHandTypes);
         handWithoutCard.RemoveAt(i);
 
         int protectedProgressAfterDiscard = CountProgressTowardPrank(handWithoutCard, protectedPrank);
 
-        // Never discard a card if it drops the protected prank below the intended target progress
         if (protectedProgressAfterDiscard < targetProgress)
             continue;
 
-        int favorValue = deckManager.BotCalculateFavorPoints(player.hand[i]);
+        int favorValue = deckManager.BotCalculateFavorPoints(GetHandTypeAt(player, i));
 
         bool supportsThree = CardSupportsThreeOfFour(i);
         bool supportsPair = CardSupportsAnyPair(i);
@@ -357,10 +380,10 @@ int ChooseDiscardIndexAfterGain(int protectedPrankIndex, int targetProgress)
     }
 
     return bestIndex;
-}
+    }
 
-bool DrawFromDeckAndDiscardBestChoice(out string actionMessage)
-{
+    bool DrawFromDeckAndDiscardBestChoice(out string actionMessage)
+    {
     actionMessage = "";
 
     deckManager.BotDrawFromDeck();
@@ -375,7 +398,7 @@ bool DrawFromDeckAndDiscardBestChoice(out string actionMessage)
     if (discardIndex >= player.hand.Count)
         return false;
 
-    PranksterType discardedCard = player.hand[discardIndex];
+    PranksterType discardedCard = GetHandTypeAt(player, discardIndex);
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayDrawCardAction();
@@ -389,38 +412,38 @@ bool DrawFromDeckAndDiscardBestChoice(out string actionMessage)
         "Discarded: " + discardedCard;
 
     return true;
-}
+    }
 
-int ChooseLowestFavorValueHandIndex()
-{
+    int ChooseLowestFavorValueHandIndex()
+    {
     return ChooseBestDiscardIndexFromCurrentHand();
-}
+    }
 
-IEnumerator EndTurnAfterDelay(float delay)
-{
+    IEnumerator EndTurnAfterDelay(float delay)
+    {
     yield return new WaitForSeconds(delay);
 
     deckManager.HideBotTurnOverlay();
     deckManager.BotEndPlayerTurn();
-}
+    }
 
-bool CardSupportsAnyPair(int handIndex)
-{
+    bool CardSupportsAnyPair(int handIndex)
+    {
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
 
     if (handIndex < 0 || handIndex >= player.hand.Count)
         return false;
 
-    PranksterType card = player.hand[handIndex];
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(player.hand);
 
     for (int i = 0; i < activePranks.Count; i++)
     {
         PrankCard prank = activePranks[i];
 
-        int progressWithCard = CountProgressTowardPrank(player.hand, prank);
+        int progressWithCard = CountProgressTowardPrank(currentHandTypes, prank);
 
-        List<PranksterType> handWithoutCard = new List<PranksterType>(player.hand);
+        List<PranksterType> handWithoutCard = new List<PranksterType>(currentHandTypes);
         handWithoutCard.RemoveAt(handIndex);
 
         int progressWithoutCard = CountProgressTowardPrank(handWithoutCard, prank);
@@ -434,26 +457,28 @@ bool CardSupportsAnyPair(int handIndex)
     }
 
     return false;
-}
+    }
 
-bool CardSupportsThreeOfFour(int handIndex)
-{
+    bool CardSupportsThreeOfFour(int handIndex)
+    {
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
 
     if (handIndex < 0 || handIndex >= player.hand.Count)
         return false;
 
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(player.hand);
+
     for (int i = 0; i < activePranks.Count; i++)
     {
         PrankCard prank = activePranks[i];
 
-        int progressWithCard = CountProgressTowardPrank(player.hand, prank);
+        int progressWithCard = CountProgressTowardPrank(currentHandTypes, prank);
 
         if (progressWithCard < 3)
             continue;
 
-        List<PranksterType> handWithoutCard = new List<PranksterType>(player.hand);
+        List<PranksterType> handWithoutCard = new List<PranksterType>(currentHandTypes);
         handWithoutCard.RemoveAt(handIndex);
 
         int progressWithoutCard = CountProgressTowardPrank(handWithoutCard, prank);
@@ -463,10 +488,10 @@ bool CardSupportsThreeOfFour(int handIndex)
     }
 
     return false;
-}
+    }
 
-int ChooseBestDiscardIndexFromCurrentHand()
-{
+    int ChooseBestDiscardIndexFromCurrentHand()
+    {
     Player player = GetCurrentPlayer();
 
     if (player.hand.Count == 0)
@@ -477,7 +502,7 @@ int ChooseBestDiscardIndexFromCurrentHand()
 
     for (int i = 0; i < player.hand.Count; i++)
     {
-        PranksterType card = player.hand[i];
+        PranksterType card = GetHandTypeAt(player, i);
         int favorValue = deckManager.BotCalculateFavorPoints(card);
 
         bool supportsThree = CardSupportsThreeOfFour(i);
@@ -485,20 +510,16 @@ int ChooseBestDiscardIndexFromCurrentHand()
 
         int score = 0;
 
-        // Best discard candidates get HIGHER score
         if (!supportsThree && !supportsPair)
-            score += 100;   // dead card
+            score += 100;
 
         if (!supportsThree && supportsPair)
-            score += 40;    // pair-only support, somewhat expendable
+            score += 40;
 
         if (supportsThree)
-            score -= 100;   // strongly protect 3-of-4 cards
+            score -= 100;
 
-        // Prefer discarding lower favor value
         score += (10 - favorValue);
-
-        // Small random tie breaker
         score += Random.Range(0, 3);
 
         if (score > bestScore)
@@ -509,14 +530,14 @@ int ChooseBestDiscardIndexFromCurrentHand()
     }
 
     return bestIndex;
-}
+    }
 
-bool SwapCreatesExactProgress(
+    bool SwapCreatesExactProgress(
     PranksterType candidateCard,
     int handIndexToReplace,
     int targetProgress,
     out int bestPrankIndex)
-{
+    {
     bestPrankIndex = -1;
 
     Player player = GetCurrentPlayer();
@@ -525,20 +546,21 @@ bool SwapCreatesExactProgress(
     if (handIndexToReplace < 0 || handIndexToReplace >= player.hand.Count)
         return false;
 
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(player.hand);
     int bestRenown = -1;
 
     for (int i = 0; i < activePranks.Count; i++)
     {
-        int progressBefore = CountProgressTowardPrank(player.hand, activePranks[i]);
+        int progressBefore = CountProgressTowardPrank(currentHandTypes, activePranks[i]);
 
-        List<PranksterType> simulatedHand = new List<PranksterType>(player.hand);
+        List<PranksterType> simulatedHand = new List<PranksterType>(currentHandTypes);
         simulatedHand[handIndexToReplace] = candidateCard;
 
         int progressAfter = CountProgressTowardPrank(simulatedHand, activePranks[i]);
 
         Debug.Log(
             "BOT SWAP CHECK: gain " + candidateCard +
-            " replace " + player.hand[handIndexToReplace] +
+            " replace " + GetHandTypeAt(player, handIndexToReplace) +
             " | Prank: " + activePranks[i].title +
             " | Before: " + progressBefore +
             " | After: " + progressAfter
@@ -561,9 +583,9 @@ bool SwapCreatesExactProgress(
     }
 
     return bestPrankIndex != -1;
-}
+    }
 
-int ScoreSwapAwayHandIndex(int handIndex, int protectedPrankIndex, PranksterType gainedCard, int targetProgress)
+    int ScoreSwapAwayHandIndex(int handIndex, int protectedPrankIndex, PranksterType gainedCard, int targetProgress)
 {
     Player player = GetCurrentPlayer();
     List<PrankCard> activePranks = deckManager.BotGetActivePranks();
@@ -574,7 +596,7 @@ int ScoreSwapAwayHandIndex(int handIndex, int protectedPrankIndex, PranksterType
     if (protectedPrankIndex < 0 || protectedPrankIndex >= activePranks.Count)
         return int.MinValue;
 
-    List<PranksterType> simulatedHand = new List<PranksterType>(player.hand);
+    List<PranksterType> simulatedHand = ConvertHandToTypes(player.hand);
     simulatedHand[handIndex] = gainedCard;
 
     int protectedProgress = CountProgressTowardPrank(simulatedHand, activePranks[protectedPrankIndex]);
@@ -582,7 +604,7 @@ int ScoreSwapAwayHandIndex(int handIndex, int protectedPrankIndex, PranksterType
     if (protectedProgress != targetProgress)
         return int.MinValue;
 
-    int favorValue = deckManager.BotCalculateFavorPoints(player.hand[handIndex]);
+    int favorValue = deckManager.BotCalculateFavorPoints(GetHandTypeAt(player, handIndex));
     bool supportsThree = CardSupportsThreeOfFour(handIndex);
     bool supportsPair = CardSupportsAnyPair(handIndex);
 
@@ -603,13 +625,13 @@ int ScoreSwapAwayHandIndex(int handIndex, int protectedPrankIndex, PranksterType
     return score;
 }
 
-bool FindBestSwapCandidateForExactProgress(
+    bool FindBestSwapCandidateForExactProgress(
     int targetProgress,
     out int bestOpponentIndex,
     out int bestOpponentFavorIndex,
     out int bestHandIndexToGive,
     out int bestPrankIndex)
-{
+    {
     bestOpponentIndex = -1;
     bestOpponentFavorIndex = -1;
     bestHandIndexToGive = -1;
@@ -694,7 +716,7 @@ bool FindBestSwapCandidateForExactProgress(
     bestPrankIndex = bestCandidate.prankIndex;
 
     return true;
-}
+    }
 
 bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMessage)
 {
@@ -716,7 +738,7 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
     if (handIndexToGive < 0 || handIndexToGive >= currentPlayer.hand.Count)
         return false;
 
-    PranksterType givenCard = currentPlayer.hand[handIndexToGive];
+    PranksterType givenCard = GetHandTypeAt(currentPlayer, handIndexToGive);
     PranksterType gainedCard = players[opponentIndex].favorArea[opponentFavorIndex];
 
     Debug.Log(
@@ -743,7 +765,6 @@ bool TryOfferFavor(out string actionMessage)
 
     Player player = GetCurrentPlayer();
 
-    // Bot cannot offer favor if all 3 favor slots are already full
     if (player.favorArea.Count >= 3)
         return false;
 
@@ -766,10 +787,9 @@ bool TryOfferFavor(out string actionMessage)
 
     for (int i = 0; i < player.hand.Count; i++)
     {
-        PranksterType card = player.hand[i];
+        PranksterType card = GetHandTypeAt(player, i);
         int favorValue = deckManager.BotCalculateFavorPoints(card);
 
-        // Never offer 0-value cards
         if (favorValue == 0)
             continue;
 
@@ -808,7 +828,7 @@ bool TryOfferFavor(out string actionMessage)
     if (bestIndex == -1)
         return false;
 
-    int bestFavorValue = deckManager.BotCalculateFavorPoints(player.hand[bestIndex]);
+    int bestFavorValue = deckManager.BotCalculateFavorPoints(GetHandTypeAt(player, bestIndex));
 
     if (remainingPranks == 1)
     {
@@ -841,7 +861,7 @@ bool TryOfferFavor(out string actionMessage)
         }
     }
 
-    PranksterType selectedCard = player.hand[bestIndex];
+    PranksterType selectedCard = GetHandTypeAt(player, bestIndex);
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayFavorClick();
@@ -914,10 +934,11 @@ int GetBestPrankProgress()
 
     List<PrankCard> pranks = deckManager.BotGetActivePranks();
     Player currentPlayer = GetCurrentPlayer();
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(currentPlayer.hand);
 
     for (int i = 0; i < pranks.Count; i++)
     {
-        int progress = CountProgressTowardPrank(currentPlayer.hand, pranks[i]);
+        int progress = CountProgressTowardPrank(currentHandTypes, pranks[i]);
 
         if (progress > bestProgress)
             bestProgress = progress;
@@ -932,21 +953,20 @@ bool CanReachTwoOfFourFromVisibleSources()
     List<PranksterType> discard = deckManager.BotGetDiscardPile();
     List<Player> players = deckManager.BotGetAllPlayers();
     Player currentPlayer = GetCurrentPlayer();
+    List<PranksterType> currentHandTypes = ConvertHandToTypes(currentPlayer.hand);
 
     for (int i = 0; i < pranks.Count; i++)
     {
-        int currentProgress = CountProgressTowardPrank(currentPlayer.hand, pranks[i]);
+        int currentProgress = CountProgressTowardPrank(currentHandTypes, pranks[i]);
 
-        // We only care about improving from 1-of-4 to 2-of-4
         if (currentProgress != 1)
             continue;
 
-        // Check discard top card
         if (discard.Count > 0)
         {
             PranksterType topCard = discard[discard.Count - 1];
 
-            List<PranksterType> simulatedHand = new List<PranksterType>(currentPlayer.hand);
+            List<PranksterType> simulatedHand = new List<PranksterType>(currentHandTypes);
             simulatedHand.Add(topCard);
 
             int newProgress = CountProgressTowardPrank(simulatedHand, pranks[i]);
@@ -955,7 +975,6 @@ bool CanReachTwoOfFourFromVisibleSources()
                 return true;
         }
 
-        // Check opponent favor areas
         for (int p = 0; p < players.Count; p++)
         {
             if (p == turnManager.currentPlayerIndex)
@@ -963,7 +982,7 @@ bool CanReachTwoOfFourFromVisibleSources()
 
             foreach (PranksterType favorCard in players[p].favorArea)
             {
-                List<PranksterType> simulatedHand = new List<PranksterType>(currentPlayer.hand);
+                List<PranksterType> simulatedHand = new List<PranksterType>(currentHandTypes);
                 simulatedHand.Add(favorCard);
 
                 int newProgress = CountProgressTowardPrank(simulatedHand, pranks[i]);

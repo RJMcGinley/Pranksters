@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: a553ee91e5e284a42b23badf719bcdac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8040936140441610700
+    second: WizardExpert_0
+  - first:
+      213: -7379532178349104496
+    second: WizardExpert_1
+  - first:
+      213: 4546742090282609457
+    second: WizardExpert_2
+  - first:
+      213: -2267606426045082450
+    second: WizardExpert_3
+  - first:
+      213: -1298442497135931872
+    second: WizardExpert_4
+  - first:
+      213: 2865113407375918494
+    second: WizardExpert_5
+  - first:
+      213: -4620414479545242600
+    second: WizardExpert_6
+  - first:
+      213: -8065897303631331329
+    second: WizardExpert_7
+  - first:
+      213: -3053937416767691863
+    second: WizardExpert_8
+  - first:
+      213: 1009741594978474021
+    second: WizardExpert_9
+  - first:
+      213: -1656894907420082606
+    second: WizardExpert_10
+  - first:
+      213: 804554159862606447
+    second: WizardExpert_11
+  - first:
+      213: -3327175228665185612
+    second: WizardExpert_12
+  - first:
+      213: 7397874027941650298
+    second: WizardExpert_13
+  - first:
+      213: -4842045940042584932
+    second: WizardExpert_14
+  - first:
+      213: 5990089028441714330
+    second: WizardExpert_15
+  - first:
+      213: 8983037173964225790
+    second: WizardExpert_16
+  - first:
+      213: -2586964894792369492
+    second: WizardExpert_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardExpert_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 317
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc96f9821d4279f60800000000000000
+      internalID: 8040936140441610700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 286
+        width: 601
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092efec0592a69990800000000000000
+      internalID: -7379532178349104496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 982
+        width: 68
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bac9867d5491f30800000000000000
+      internalID: 4546742090282609457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 978
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4903548f7d780e0800000000000000
+      internalID: -2267606426045082450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 215
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e01f4ad610bfde0800000000000000
+      internalID: -1298442497135931872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 215
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95c9d7c67de2c720800000000000000
+      internalID: 2865113407375918494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c62a7c28df0efb0800000000000000
+      internalID: -4620414479545242600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffff546232d201090800000000000000
+      internalID: -8065897303631331329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_8
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 215
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3a943991c3e95d0800000000000000
+      internalID: -3053937416767691863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 213
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d0ab71a2530e00800000000000000
+      internalID: 1009741594978474021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 97
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e721d3cd68109e0800000000000000
+      internalID: -1656894907420082606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a6c25eeb95a2b00800000000000000
+      internalID: 804554159862606447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4babee5f1cf73d1d0800000000000000
+      internalID: -3327175228665185612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fdc889b378aa660800000000000000
+      internalID: 7397874027941650298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ca3ad2fd89dccb0800000000000000
+      internalID: -4842045940042584932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eab390c32112350800000000000000
+      internalID: 5990089028441714330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc344e27b82aac70800000000000000
+      internalID: 8983037173964225790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_17
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caabe7f6221491cd0800000000000000
+      internalID: -2586964894792369492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardExpert_0: 8040936140441610700
+      WizardExpert_1: -7379532178349104496
+      WizardExpert_10: -1656894907420082606
+      WizardExpert_11: 804554159862606447
+      WizardExpert_12: -3327175228665185612
+      WizardExpert_13: 7397874027941650298
+      WizardExpert_14: -4842045940042584932
+      WizardExpert_15: 5990089028441714330
+      WizardExpert_16: 8983037173964225790
+      WizardExpert_17: -2586964894792369492
+      WizardExpert_2: 4546742090282609457
+      WizardExpert_3: -2267606426045082450
+      WizardExpert_4: -1298442497135931872
+      WizardExpert_5: 2865113407375918494
+      WizardExpert_6: -4620414479545242600
+      WizardExpert_7: -8065897303631331329
+      WizardExpert_8: -3053937416767691863
+      WizardExpert_9: 1009741594978474021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

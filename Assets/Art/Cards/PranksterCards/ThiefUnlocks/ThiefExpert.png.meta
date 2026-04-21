@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 3b9e5952fe4f74eafb38357ad00b4178
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2359218014211243294
+    second: ThiefExpert_0
+  - first:
+      213: -6817747961059926419
+    second: ThiefExpert_1
+  - first:
+      213: -8280432052100216901
+    second: ThiefExpert_2
+  - first:
+      213: -4997513087183587807
+    second: ThiefExpert_3
+  - first:
+      213: -4542586442657314762
+    second: ThiefExpert_4
+  - first:
+      213: 1044290957400033066
+    second: ThiefExpert_5
+  - first:
+      213: -3705402486015176964
+    second: ThiefExpert_6
+  - first:
+      213: 1402883694258505400
+    second: ThiefExpert_7
+  - first:
+      213: 35077162838244562
+    second: ThiefExpert_8
+  - first:
+      213: 5186069399834601099
+    second: ThiefExpert_9
+  - first:
+      213: 4452845267428333354
+    second: ThiefExpert_10
+  - first:
+      213: 8608054531750267426
+    second: ThiefExpert_11
+  - first:
+      213: 738484232435946572
+    second: ThiefExpert_12
+  - first:
+      213: -3489979145281682771
+    second: ThiefExpert_13
+  - first:
+      213: 8472969954167480717
+    second: ThiefExpert_14
+  - first:
+      213: -7733613433015098282
+    second: ThiefExpert_15
+  - first:
+      213: -1375700824919959377
+    second: ThiefExpert_16
+  - first:
+      213: 1482792911656577219
+    second: ThiefExpert_17
+  - first:
+      213: -4881321362560169728
+    second: ThiefExpert_18
+  - first:
+      213: -7687441235160882169
+    second: ThiefExpert_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThiefExpert_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 695
+        width: 370
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e28c3b37bf524fd0800000000000000
+      internalID: -2359218014211243294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 816
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e11e4f95e7261a0800000000000000
+      internalID: -6817747961059926419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 310
+        width: 574
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7cec39beef51d80800000000000000
+      internalID: -8280432052100216901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 215
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1267e0e335445aab0800000000000000
+      internalID: -4997513087183587807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 215
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638c7e3b2bd75f0c0800000000000000
+      internalID: -4542586442657314762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a274bf5c7111e7e00800000000000000
+      internalID: 1044290957400033066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe473f2214c39cc0800000000000000
+      internalID: -3705402486015176964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 215
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b64771894b087310800000000000000
+      internalID: 1402883694258505400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 213
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcb3b66e7e9c7000800000000000000
+      internalID: 35077162838244562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 97
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b862aa564ae98f740800000000000000
+      internalID: 5186069399834601099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2758d4bd2fabcd30800000000000000
+      internalID: 4452845267428333354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a8a2c3df3f57770800000000000000
+      internalID: 8608054531750267426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44529a2f7f9f3a00800000000000000
+      internalID: 738484232435946572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2c6f3457a119fc0800000000000000
+      internalID: -3489979145281682771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81e5b61849069570800000000000000
+      internalID: 8472969954167480717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_15
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65422fe9e8faca490800000000000000
+      internalID: -7733613433015098282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa81f65736788ece0800000000000000
+      internalID: -1375700824919959377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8e1c60c40f39410800000000000000
+      internalID: 1482792911656577219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00943164510124cb0800000000000000
+      internalID: -4881321362560169728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefExpert_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 63
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704ab8a2de8b05590800000000000000
+      internalID: -7687441235160882169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThiefExpert_0: -2359218014211243294
+      ThiefExpert_1: -6817747961059926419
+      ThiefExpert_10: 4452845267428333354
+      ThiefExpert_11: 8608054531750267426
+      ThiefExpert_12: 738484232435946572
+      ThiefExpert_13: -3489979145281682771
+      ThiefExpert_14: 8472969954167480717
+      ThiefExpert_15: -7733613433015098282
+      ThiefExpert_16: -1375700824919959377
+      ThiefExpert_17: 1482792911656577219
+      ThiefExpert_18: -4881321362560169728
+      ThiefExpert_19: -7687441235160882169
+      ThiefExpert_2: -8280432052100216901
+      ThiefExpert_3: -4997513087183587807
+      ThiefExpert_4: -4542586442657314762
+      ThiefExpert_5: 1044290957400033066
+      ThiefExpert_6: -3705402486015176964
+      ThiefExpert_7: 1402883694258505400
+      ThiefExpert_8: 35077162838244562
+      ThiefExpert_9: 5186069399834601099
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

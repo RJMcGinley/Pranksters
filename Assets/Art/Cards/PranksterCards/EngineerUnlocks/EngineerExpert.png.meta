@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 91575ac0be3d0443c9c9a1090c2cf212
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1180368246191729730
+    second: EngineerExpert_0
+  - first:
+      213: 5285627759181704333
+    second: EngineerExpert_1
+  - first:
+      213: 3315239098392749145
+    second: EngineerExpert_2
+  - first:
+      213: 3747132402922465111
+    second: EngineerExpert_3
+  - first:
+      213: -6273393889346587683
+    second: EngineerExpert_4
+  - first:
+      213: -6135493969661150107
+    second: EngineerExpert_5
+  - first:
+      213: 3631894298334621340
+    second: EngineerExpert_6
+  - first:
+      213: 6337404962879511463
+    second: EngineerExpert_7
+  - first:
+      213: -4519332686102216905
+    second: EngineerExpert_8
+  - first:
+      213: -7805808384700480238
+    second: EngineerExpert_9
+  - first:
+      213: -3614329829817761495
+    second: EngineerExpert_10
+  - first:
+      213: 3211186425051667713
+    second: EngineerExpert_11
+  - first:
+      213: -181547579418918634
+    second: EngineerExpert_12
+  - first:
+      213: 5949661857113738692
+    second: EngineerExpert_13
+  - first:
+      213: 419222557475120709
+    second: EngineerExpert_14
+  - first:
+      213: 4122257387928930149
+    second: EngineerExpert_15
+  - first:
+      213: -3368246061237467314
+    second: EngineerExpert_16
+  - first:
+      213: 4177263948563309120
+    second: EngineerExpert_17
+  - first:
+      213: 7283258394932542846
+    second: EngineerExpert_18
+  - first:
+      213: -4084189281396066225
+    second: EngineerExpert_19
+  - first:
+      213: -7168007805248060985
+    second: EngineerExpert_20
+  - first:
+      213: -6321645133798041878
+    second: EngineerExpert_21
+  - first:
+      213: 3698331624051342106
+    second: EngineerExpert_22
+  - first:
+      213: 6172269944257133203
+    second: EngineerExpert_23
+  - first:
+      213: -1135948286027728771
+    second: EngineerExpert_24
+  - first:
+      213: -12189528879036935
+    second: EngineerExpert_25
+  - first:
+      213: 4569722864721226961
+    second: EngineerExpert_26
+  - first:
+      213: -5695249104525049428
+    second: EngineerExpert_27
+  - first:
+      213: -7793360126620373832
+    second: EngineerExpert_28
+  - first:
+      213: -7800489470720450859
+    second: EngineerExpert_29
+  - first:
+      213: 2145622771078556242
+    second: EngineerExpert_30
+  - first:
+      213: 1746985709751346597
+    second: EngineerExpert_31
+  - first:
+      213: -7403440558185483614
+    second: EngineerExpert_32
+  - first:
+      213: -5202611369898388839
+    second: EngineerExpert_33
+  - first:
+      213: 3244216904273771150
+    second: EngineerExpert_34
+  - first:
+      213: 9217648344106898742
+    second: EngineerExpert_35
+  - first:
+      213: -5591766276684385756
+    second: EngineerExpert_36
+  - first:
+      213: 7887414808183205940
+    second: EngineerExpert_37
+  - first:
+      213: 3008257477800744933
+    second: EngineerExpert_38
+  - first:
+      213: 713947702558577526
+    second: EngineerExpert_39
+  - first:
+      213: 3773710058923767859
+    second: EngineerExpert_40
+  - first:
+      213: 7960063086701444903
+    second: EngineerExpert_41
+  - first:
+      213: -5194580858072912979
+    second: EngineerExpert_42
+  - first:
+      213: 4681861243077448704
+    second: EngineerExpert_43
+  - first:
+      213: -3670112099441639138
+    second: EngineerExpert_44
+  - first:
+      213: -8327182303555059396
+    second: EngineerExpert_45
+  - first:
+      213: -2930528352992435912
+    second: EngineerExpert_46
+  - first:
+      213: -4667280831268561335
+    second: EngineerExpert_47
+  - first:
+      213: 3402169739453359389
+    second: EngineerExpert_48
+  - first:
+      213: 6532053811241016787
+    second: EngineerExpert_49
+  - first:
+      213: 1227478126655380545
+    second: EngineerExpert_50
+  - first:
+      213: 3006833200431500717
+    second: EngineerExpert_51
+  - first:
+      213: -2425995065746418823
+    second: EngineerExpert_52
+  - first:
+      213: -5369867267301668301
+    second: EngineerExpert_53
+  - first:
+      213: 92843398754342148
+    second: EngineerExpert_54
+  - first:
+      213: 6017167608168660632
+    second: EngineerExpert_55
+  - first:
+      213: 952741411795604290
+    second: EngineerExpert_56
+  - first:
+      213: -7549472449532991407
+    second: EngineerExpert_57
+  - first:
+      213: 3685823637923886354
+    second: EngineerExpert_58
+  - first:
+      213: 3255667872288374353
+    second: EngineerExpert_59
+  - first:
+      213: 6799084663926020620
+    second: EngineerExpert_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerExpert_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ca8628aa2816010800000000000000
+      internalID: 1180368246191729730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c28f841725a5940800000000000000
+      internalID: 5285627759181704333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1081
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954af252568120e20800000000000000
+      internalID: 3315239098392749145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 836
+        width: 292
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757ac8a311d700430800000000000000
+      internalID: 3747132402922465111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3f369de7d60f8a0800000000000000
+      internalID: -6273393889346587683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cbbc8edb85adaa0800000000000000
+      internalID: -6135493969661150107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1007
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e600a2f94176230800000000000000
+      internalID: 3631894298334621340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab1b3a9c3cf2f750800000000000000
+      internalID: 6337404962879511463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fb01fcdda1841c0800000000000000
+      internalID: -4519332686102216905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 992
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215892d81a23ca390800000000000000
+      internalID: -7805808384700480238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9214d985b2257ddc0800000000000000
+      internalID: -3614329829817761495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dd2cc3a0d609c20800000000000000
+      internalID: 3211186425051667713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61147ea30730b7df0800000000000000
+      internalID: -181547579418918634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd84f6bfe1719250800000000000000
+      internalID: 5949661857113738692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 970
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546a224e1b061d500800000000000000
+      internalID: 419222557475120709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 963
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567cb30f043353930800000000000000
+      internalID: 4122257387928930149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4705d39d069141d0800000000000000
+      internalID: -3368246061237467314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 313
+        width: 749
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042692bdd6f98f930800000000000000
+      internalID: 4177263948563309120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7df55dfbe4531560800000000000000
+      internalID: 7283258394932542846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48fdeecc7b0257c0800000000000000
+      internalID: -4084189281396066225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c146fcf0ee168c90800000000000000
+      internalID: -7168007805248060985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae614eb8e310548a0800000000000000
+      internalID: -6321645133798041878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b7c29740d135330800000000000000
+      internalID: 3698331624051342106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a344defce48a550800000000000000
+      internalID: 6172269944257133203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d787a186d0d4c30f0800000000000000
+      internalID: -1135948286027728771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f58f2520b1b4dff0800000000000000
+      internalID: -12189528879036935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc60b9ebbaea6f30800000000000000
+      internalID: 4569722864721226961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca14c693d1966f0b0800000000000000
+      internalID: -5695249104525049428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc691e714c68d390800000000000000
+      internalID: -7793360126620373832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de5887b7281fb390800000000000000
+      internalID: -7800489470720450859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a6024da88c6cd10800000000000000
+      internalID: 2145622771078556242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5a9614f3a8e3810800000000000000
+      internalID: 1746985709751346597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 801
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a272a59902b14990800000000000000
+      internalID: -7403440558185483614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9925cc0168c9cc7b0800000000000000
+      internalID: -5202611369898388839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 794
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a3e89f516c50d20800000000000000
+      internalID: 3244216904273771150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63595fee45aabef70800000000000000
+      internalID: 9217648344106898742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_36
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422f733a23e0662b0800000000000000
+      internalID: -5591766276684385756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 797
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4307aed8af9b57d60800000000000000
+      internalID: 7887414808183205940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d935dc3a7fb920800000000000000
+      internalID: 3008257477800744933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673d53f17a378e900800000000000000
+      internalID: 713947702558577526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 800
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338387bfd49ee5430800000000000000
+      internalID: 3773710058923767859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff9800433d77e60800000000000000
+      internalID: 7960063086701444903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab258d4b3429e7b0800000000000000
+      internalID: -5194580858072912979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004dc49beff49f040800000000000000
+      internalID: 4681861243077448704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e110bea9d74211dc0800000000000000
+      internalID: -3670112099441639138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_45
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c318ea070d7ef6c80800000000000000
+      internalID: -8327182303555059396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831eca35dfba457d0800000000000000
+      internalID: -2930528352992435912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_47
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 215
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e5f31ffcc7a3fb0800000000000000
+      internalID: -4667280831268561335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_48
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 215
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1563b14a5fe63f20800000000000000
+      internalID: 3402169739453359389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_49
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddd1c0455486aa50800000000000000
+      internalID: 6532053811241016787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_50
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c1bdc4ad0e80110800000000000000
+      internalID: 1227478126655380545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_51
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 215
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad029a6dda6ab920800000000000000
+      internalID: 3006833200431500717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_52
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 213
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97395575752255ed0800000000000000
+      internalID: -2425995065746418823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 97
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a8c71db266a75b0800000000000000
+      internalID: -5369867267301668301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_54
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4051e7a4498d94100800000000000000
+      internalID: 92843398754342148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_55
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e31ee2f06418350800000000000000
+      internalID: 6017167608168660632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24391e42441d83d00800000000000000
+      internalID: 952741411795604290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_57
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158ecf35ec2ea3790800000000000000
+      internalID: -7549472449532991407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215f033021da62330800000000000000
+      internalID: 3685823637923886354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e766a3ea47e2d20800000000000000
+      internalID: 3255667872288374353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerExpert_60
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0add1f8a733b5e50800000000000000
+      internalID: 6799084663926020620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerExpert_0: 1180368246191729730
+      EngineerExpert_1: 5285627759181704333
+      EngineerExpert_10: -3614329829817761495
+      EngineerExpert_11: 3211186425051667713
+      EngineerExpert_12: -181547579418918634
+      EngineerExpert_13: 5949661857113738692
+      EngineerExpert_14: 419222557475120709
+      EngineerExpert_15: 4122257387928930149
+      EngineerExpert_16: -3368246061237467314
+      EngineerExpert_17: 4177263948563309120
+      EngineerExpert_18: 7283258394932542846
+      EngineerExpert_19: -4084189281396066225
+      EngineerExpert_2: 3315239098392749145
+      EngineerExpert_20: -7168007805248060985
+      EngineerExpert_21: -6321645133798041878
+      EngineerExpert_22: 3698331624051342106
+      EngineerExpert_23: 6172269944257133203
+      EngineerExpert_24: -1135948286027728771
+      EngineerExpert_25: -12189528879036935
+      EngineerExpert_26: 4569722864721226961
+      EngineerExpert_27: -5695249104525049428
+      EngineerExpert_28: -7793360126620373832
+      EngineerExpert_29: -7800489470720450859
+      EngineerExpert_3: 3747132402922465111
+      EngineerExpert_30: 2145622771078556242
+      EngineerExpert_31: 1746985709751346597
+      EngineerExpert_32: -7403440558185483614
+      EngineerExpert_33: -5202611369898388839
+      EngineerExpert_34: 3244216904273771150
+      EngineerExpert_35: 9217648344106898742
+      EngineerExpert_36: -5591766276684385756
+      EngineerExpert_37: 7887414808183205940
+      EngineerExpert_38: 3008257477800744933
+      EngineerExpert_39: 713947702558577526
+      EngineerExpert_4: -6273393889346587683
+      EngineerExpert_40: 3773710058923767859
+      EngineerExpert_41: 7960063086701444903
+      EngineerExpert_42: -5194580858072912979
+      EngineerExpert_43: 4681861243077448704
+      EngineerExpert_44: -3670112099441639138
+      EngineerExpert_45: -8327182303555059396
+      EngineerExpert_46: -2930528352992435912
+      EngineerExpert_47: -4667280831268561335
+      EngineerExpert_48: 3402169739453359389
+      EngineerExpert_49: 6532053811241016787
+      EngineerExpert_5: -6135493969661150107
+      EngineerExpert_50: 1227478126655380545
+      EngineerExpert_51: 3006833200431500717
+      EngineerExpert_52: -2425995065746418823
+      EngineerExpert_53: -5369867267301668301
+      EngineerExpert_54: 92843398754342148
+      EngineerExpert_55: 6017167608168660632
+      EngineerExpert_56: 952741411795604290
+      EngineerExpert_57: -7549472449532991407
+      EngineerExpert_58: 3685823637923886354
+      EngineerExpert_59: 3255667872288374353
+      EngineerExpert_6: 3631894298334621340
+      EngineerExpert_60: 6799084663926020620
+      EngineerExpert_7: 6337404962879511463
+      EngineerExpert_8: -4519332686102216905
+      EngineerExpert_9: -7805808384700480238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

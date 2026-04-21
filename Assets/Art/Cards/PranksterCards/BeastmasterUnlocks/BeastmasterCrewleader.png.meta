@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 7a993b5cb709241c5add736342e3bd34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9219036591406843896
+    second: BeastmasterCrewleader_0
+  - first:
+      213: 8934699584744325818
+    second: BeastmasterCrewleader_1
+  - first:
+      213: 3592751691525101280
+    second: BeastmasterCrewleader_2
+  - first:
+      213: -8240638374378689549
+    second: BeastmasterCrewleader_3
+  - first:
+      213: -6769957496814465662
+    second: BeastmasterCrewleader_4
+  - first:
+      213: -4807466822934972000
+    second: BeastmasterCrewleader_5
+  - first:
+      213: -2790272159448380632
+    second: BeastmasterCrewleader_6
+  - first:
+      213: -7424952391153487521
+    second: BeastmasterCrewleader_7
+  - first:
+      213: -1560322662550021372
+    second: BeastmasterCrewleader_8
+  - first:
+      213: 4991550466522582391
+    second: BeastmasterCrewleader_9
+  - first:
+      213: -6470605467414512043
+    second: BeastmasterCrewleader_10
+  - first:
+      213: 4272646832274245539
+    second: BeastmasterCrewleader_11
+  - first:
+      213: -5009861887535214308
+    second: BeastmasterCrewleader_12
+  - first:
+      213: 6803426126099445882
+    second: BeastmasterCrewleader_13
+  - first:
+      213: -5842984423846465690
+    second: BeastmasterCrewleader_14
+  - first:
+      213: -8035512455645639641
+    second: BeastmasterCrewleader_15
+  - first:
+      213: 7329362255735311708
+    second: BeastmasterCrewleader_16
+  - first:
+      213: -1729851737357789717
+    second: BeastmasterCrewleader_17
+  - first:
+      213: -5385724163537154556
+    second: BeastmasterCrewleader_18
+  - first:
+      213: 6391899268509612555
+    second: BeastmasterCrewleader_19
+  - first:
+      213: -8114183831650892688
+    second: BeastmasterCrewleader_20
+  - first:
+      213: 7001372580488517493
+    second: BeastmasterCrewleader_21
+  - first:
+      213: 4103285372259142366
+    second: BeastmasterCrewleader_22
+  - first:
+      213: 7194758343638209524
+    second: BeastmasterCrewleader_23
+  - first:
+      213: -5487684242621020949
+    second: BeastmasterCrewleader_24
+  - first:
+      213: -184570824655207950
+    second: BeastmasterCrewleader_25
+  - first:
+      213: -454911702066576832
+    second: BeastmasterCrewleader_26
+  - first:
+      213: -3542314811542587584
+    second: BeastmasterCrewleader_27
+  - first:
+      213: 1318368717717642146
+    second: BeastmasterCrewleader_28
+  - first:
+      213: 4786286559229866174
+    second: BeastmasterCrewleader_29
+  - first:
+      213: -4009552879067824649
+    second: BeastmasterCrewleader_30
+  - first:
+      213: -8118979531633858636
+    second: BeastmasterCrewleader_31
+  - first:
+      213: 2443873181127395101
+    second: BeastmasterCrewleader_32
+  - first:
+      213: 3961429101946873857
+    second: BeastmasterCrewleader_33
+  - first:
+      213: -7380743849660255604
+    second: BeastmasterCrewleader_34
+  - first:
+      213: -5551303090145313809
+    second: BeastmasterCrewleader_35
+  - first:
+      213: 5051138054317160066
+    second: BeastmasterCrewleader_36
+  - first:
+      213: 8953356575104577796
+    second: BeastmasterCrewleader_37
+  - first:
+      213: 8635301075971211990
+    second: BeastmasterCrewleader_38
+  - first:
+      213: 5714056070756599804
+    second: BeastmasterCrewleader_39
+  - first:
+      213: 7066694281968394363
+    second: BeastmasterCrewleader_40
+  - first:
+      213: -9846767523520660
+    second: BeastmasterCrewleader_41
+  - first:
+      213: 6045523124147309941
+    second: BeastmasterCrewleader_42
+  - first:
+      213: 5542492796840460015
+    second: BeastmasterCrewleader_43
+  - first:
+      213: -6949122213296624932
+    second: BeastmasterCrewleader_44
+  - first:
+      213: 4487967033935662381
+    second: BeastmasterCrewleader_45
+  - first:
+      213: 54001316137475699
+    second: BeastmasterCrewleader_46
+  - first:
+      213: 4350664958619074145
+    second: BeastmasterCrewleader_47
+  - first:
+      213: 215995260967444993
+    second: BeastmasterCrewleader_48
+  - first:
+      213: 6677471992878190800
+    second: BeastmasterCrewleader_49
+  - first:
+      213: 7169653960490906639
+    second: BeastmasterCrewleader_50
+  - first:
+      213: 5029688522743314736
+    second: BeastmasterCrewleader_51
+  - first:
+      213: -7020677908173802773
+    second: BeastmasterCrewleader_52
+  - first:
+      213: -1892233657606665217
+    second: BeastmasterCrewleader_53
+  - first:
+      213: 7324274517855999379
+    second: BeastmasterCrewleader_54
+  - first:
+      213: 7839501271972937839
+    second: BeastmasterCrewleader_55
+  - first:
+      213: -6116268417332331770
+    second: BeastmasterCrewleader_56
+  - first:
+      213: 9200749764372011686
+    second: BeastmasterCrewleader_57
+  - first:
+      213: 8513029734920876539
+    second: BeastmasterCrewleader_58
+  - first:
+      213: -7701736296477229648
+    second: BeastmasterCrewleader_59
+  - first:
+      213: -1821276812312371969
+    second: BeastmasterCrewleader_60
+  - first:
+      213: 5677485122180017961
+    second: BeastmasterCrewleader_61
+  - first:
+      213: -8442757358252695097
+    second: BeastmasterCrewleader_62
+  - first:
+      213: 597959289856960882
+    second: BeastmasterCrewleader_63
+  - first:
+      213: -2679601748272951159
+    second: BeastmasterCrewleader_64
+  - first:
+      213: -6418870455606654378
+    second: BeastmasterCrewleader_65
+  - first:
+      213: -5736363625072442857
+    second: BeastmasterCrewleader_66
+  - first:
+      213: -5374331125264110384
+    second: BeastmasterCrewleader_67
+  - first:
+      213: 2073162538275448652
+    second: BeastmasterCrewleader_68
+  - first:
+      213: 1755274910346960394
+    second: BeastmasterCrewleader_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808fddd80176f0080800000000000000
+      internalID: -9219036591406843896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2048b2fed6efb70800000000000000
+      internalID: 8934699584744325818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e69983d0a40cd130800000000000000
+      internalID: 3592751691525101280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fba4bc2f0f53ad80800000000000000
+      internalID: -8240638374378689549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d81e186874c02a0800000000000000
+      internalID: -6769957496814465662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a93c754562784db0800000000000000
+      internalID: -4807466822934972000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bca652146f649d0800000000000000
+      internalID: -2790272159448380632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51fb1ba32545f890800000000000000
+      internalID: -7424952391153487521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bd6bb2ece985ae0800000000000000
+      internalID: -1560322662550021372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d8383f3bc854540800000000000000
+      internalID: 4991550466522582391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ebe013c9ac336a0800000000000000
+      internalID: -6470605467414512043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7876018ad7b4b30800000000000000
+      internalID: 4272646832274245539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1112bb1825697ab0800000000000000
+      internalID: -5009861887535214308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78f4cdf300aa6e50800000000000000
+      internalID: 6803426126099445882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fad7cbf9c89eea0800000000000000
+      internalID: -5842984423846465690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cc30ddeff1c7090800000000000000
+      internalID: -8035512455645639641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d4243932027b560800000000000000
+      internalID: 7329362255735311708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be552b092055ef7e0800000000000000
+      internalID: -1729851737357789717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e412678601245b0800000000000000
+      internalID: -5385724163537154556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a389bd48694b850800000000000000
+      internalID: 6391899268509612555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0740b30cbc0a46f80800000000000000
+      internalID: -8114183831650892688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5779d20644fd92160800000000000000
+      internalID: 7001372580488517493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda00915e4cc1f830800000000000000
+      internalID: 4103285372259142366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f35555189ae8d360800000000000000
+      internalID: 7194758343638209524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4c01f9144d7d3b0800000000000000
+      internalID: -5487684242621020949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1868810d5407df0800000000000000
+      internalID: -184570824655207950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042472a9734dfa9f0800000000000000
+      internalID: -454911702066576832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0473667627b27dec0800000000000000
+      internalID: -3542314811542587584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab1c8e1d59cb4210800000000000000
+      internalID: 1318368717717642146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb07f1c444e4c6240800000000000000
+      internalID: 4786286559229866174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd740766e43b58c0800000000000000
+      internalID: -4009552879067824649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7eb46d127935f80800000000000000
+      internalID: -8118979531633858636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17c335c5b16ae120800000000000000
+      internalID: 2443873181127395101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108207897c2d9f630800000000000000
+      internalID: 3961429101946873857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82f9d6d294529990800000000000000
+      internalID: -7380743849660255604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb3c57604fc5f2b0800000000000000
+      internalID: -5551303090145313809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286380f5c4f391640800000000000000
+      internalID: 5051138054317160066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401348e3e56b04c70800000000000000
+      internalID: 8953356575104577796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d200d9a390c6d770800000000000000
+      internalID: 8635301075971211990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf78c14d8b76c4f40800000000000000
+      internalID: 5714056070756599804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70a20d2201f11260800000000000000
+      internalID: 7066694281968394363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f1397ca640ddff0800000000000000
+      internalID: -9846767523520660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dc538304306e350800000000000000
+      internalID: 6045523124147309941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee36d555d3eaec40800000000000000
+      internalID: 5542492796840460015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaadaf3a22cf8f90800000000000000
+      internalID: -6949122213296624932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d06653d36784e30800000000000000
+      internalID: 4487967033935662381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e17c139e9dfb000800000000000000
+      internalID: 54001316137475699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eba33aabaa06c30800000000000000
+      internalID: 4350664958619074145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102e123ab8e5ff200800000000000000
+      internalID: 215995260967444993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0df1516652bac50800000000000000
+      internalID: 6677471992878190800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0478856a4abf7360800000000000000
+      internalID: 7169653960490906639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03979f0201b0dc540800000000000000
+      internalID: 5029688522743314736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be23ed0c3aa819e90800000000000000
+      internalID: -7020677908173802773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_53
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb015e838f6db5e0800000000000000
+      internalID: -1892233657606665217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_54
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395904a4edc05a560800000000000000
+      internalID: 7324274517855999379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_55
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f608b241fd08bcc60800000000000000
+      internalID: 7839501271972937839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_56
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b37f1a746ae1ba0800000000000000
+      internalID: -6116268417332331770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_57
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa17acb921afaf70800000000000000
+      internalID: 9200749764372011686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_58
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1fb40a07b542670800000000000000
+      internalID: 8513029734920876539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_59
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdfdb6d4afed1590800000000000000
+      internalID: -7701736296477229648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_60
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc1774836689b6e0800000000000000
+      internalID: -1821276812312371969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_61
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fea1553aa7ace40800000000000000
+      internalID: 5677485122180017961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c168801aec45da80800000000000000
+      internalID: -8442757358252695097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279a1165ec06c4800800000000000000
+      internalID: 597959289856960882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_64
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980dca6386420dad0800000000000000
+      internalID: -2679601748272951159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ac05a44579be6a0800000000000000
+      internalID: -6418870455606654378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712c511fca75460b0800000000000000
+      internalID: -5736363625072442857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_67
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcae45e05a8a65b0800000000000000
+      internalID: -5374331125264110384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_68
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c472e8f285a55cc10800000000000000
+      internalID: 2073162538275448652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCrewleader_69
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ed26a2b3dfb5810800000000000000
+      internalID: 1755274910346960394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterCrewleader_0: -9219036591406843896
+      BeastmasterCrewleader_1: 8934699584744325818
+      BeastmasterCrewleader_10: -6470605467414512043
+      BeastmasterCrewleader_11: 4272646832274245539
+      BeastmasterCrewleader_12: -5009861887535214308
+      BeastmasterCrewleader_13: 6803426126099445882
+      BeastmasterCrewleader_14: -5842984423846465690
+      BeastmasterCrewleader_15: -8035512455645639641
+      BeastmasterCrewleader_16: 7329362255735311708
+      BeastmasterCrewleader_17: -1729851737357789717
+      BeastmasterCrewleader_18: -5385724163537154556
+      BeastmasterCrewleader_19: 6391899268509612555
+      BeastmasterCrewleader_2: 3592751691525101280
+      BeastmasterCrewleader_20: -8114183831650892688
+      BeastmasterCrewleader_21: 7001372580488517493
+      BeastmasterCrewleader_22: 4103285372259142366
+      BeastmasterCrewleader_23: 7194758343638209524
+      BeastmasterCrewleader_24: -5487684242621020949
+      BeastmasterCrewleader_25: -184570824655207950
+      BeastmasterCrewleader_26: -454911702066576832
+      BeastmasterCrewleader_27: -3542314811542587584
+      BeastmasterCrewleader_28: 1318368717717642146
+      BeastmasterCrewleader_29: 4786286559229866174
+      BeastmasterCrewleader_3: -8240638374378689549
+      BeastmasterCrewleader_30: -4009552879067824649
+      BeastmasterCrewleader_31: -8118979531633858636
+      BeastmasterCrewleader_32: 2443873181127395101
+      BeastmasterCrewleader_33: 3961429101946873857
+      BeastmasterCrewleader_34: -7380743849660255604
+      BeastmasterCrewleader_35: -5551303090145313809
+      BeastmasterCrewleader_36: 5051138054317160066
+      BeastmasterCrewleader_37: 8953356575104577796
+      BeastmasterCrewleader_38: 8635301075971211990
+      BeastmasterCrewleader_39: 5714056070756599804
+      BeastmasterCrewleader_4: -6769957496814465662
+      BeastmasterCrewleader_40: 7066694281968394363
+      BeastmasterCrewleader_41: -9846767523520660
+      BeastmasterCrewleader_42: 6045523124147309941
+      BeastmasterCrewleader_43: 5542492796840460015
+      BeastmasterCrewleader_44: -6949122213296624932
+      BeastmasterCrewleader_45: 4487967033935662381
+      BeastmasterCrewleader_46: 54001316137475699
+      BeastmasterCrewleader_47: 4350664958619074145
+      BeastmasterCrewleader_48: 215995260967444993
+      BeastmasterCrewleader_49: 6677471992878190800
+      BeastmasterCrewleader_5: -4807466822934972000
+      BeastmasterCrewleader_50: 7169653960490906639
+      BeastmasterCrewleader_51: 5029688522743314736
+      BeastmasterCrewleader_52: -7020677908173802773
+      BeastmasterCrewleader_53: -1892233657606665217
+      BeastmasterCrewleader_54: 7324274517855999379
+      BeastmasterCrewleader_55: 7839501271972937839
+      BeastmasterCrewleader_56: -6116268417332331770
+      BeastmasterCrewleader_57: 9200749764372011686
+      BeastmasterCrewleader_58: 8513029734920876539
+      BeastmasterCrewleader_59: -7701736296477229648
+      BeastmasterCrewleader_6: -2790272159448380632
+      BeastmasterCrewleader_60: -1821276812312371969
+      BeastmasterCrewleader_61: 5677485122180017961
+      BeastmasterCrewleader_62: -8442757358252695097
+      BeastmasterCrewleader_63: 597959289856960882
+      BeastmasterCrewleader_64: -2679601748272951159
+      BeastmasterCrewleader_65: -6418870455606654378
+      BeastmasterCrewleader_66: -5736363625072442857
+      BeastmasterCrewleader_67: -5374331125264110384
+      BeastmasterCrewleader_68: 2073162538275448652
+      BeastmasterCrewleader_69: 1755274910346960394
+      BeastmasterCrewleader_7: -7424952391153487521
+      BeastmasterCrewleader_8: -1560322662550021372
+      BeastmasterCrewleader_9: 4991550466522582391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

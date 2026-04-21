@@ -7,7 +7,7 @@ using TMPro;
 
 public class DeckManager : MonoBehaviour
 {
-    List<PranksterType> deck = new List<PranksterType>();
+    List<PranksterDeckEntry> deck = new List<PranksterDeckEntry>();
     public TurnManager turnManager;
     List<PrankCard> prankDeck = new List<PrankCard>();
     List<PrankCard> activePranks = new List<PrankCard>();
@@ -108,7 +108,7 @@ public class DeckManager : MonoBehaviour
 
     // SwapPrankster temp state
     private List<PranksterType> originalHandSnapshot = null;
-    private List<PranksterType> tempSwapHand = null;
+    private List<PranksterDeckEntry> tempSwapHand = null;
     private PranksterType pendingIncomingPrankster;
     private bool isInSwapHandSelection = false;
 
@@ -147,25 +147,48 @@ public class DeckManager : MonoBehaviour
 
     void BuildPranksterDeck()
     {
-        deck.Clear();
+    deck.Clear();
 
-        PranksterType[] pranksters =
-        {
-            PranksterType.Thief,
-            PranksterType.Wizard,
-            PranksterType.Engineer,
-            PranksterType.BeastMaster,
-            PranksterType.Laborer,
-            PranksterType.Scribe
-        };
+    PranksterType[] pranksters =
+    {
+        PranksterType.Thief,
+        PranksterType.Wizard,
+        PranksterType.Engineer,
+        PranksterType.BeastMaster,
+        PranksterType.Laborer,
+        PranksterType.Scribe
+    };
 
-        foreach (PranksterType prankster in pranksters)
+    foreach (PranksterType prankster in pranksters)
+    {
+        List<int> usableTiers = new List<int>();
+
+        for (int tier = 1; tier <= 3; tier++)
         {
-            for (int i = 0; i < 9; i++)
-            {
-                deck.Add(prankster);
-            }
+            if (SaveSystem.IsPranksterUnlockUsable(prankster.ToString(), tier))
+                usableTiers.Add(tier);
         }
+
+        int baseCardCount = 9 - usableTiers.Count;
+
+        for (int i = 0; i < baseCardCount; i++)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = prankster,
+                tier = 0
+            });
+        }
+
+        for (int i = 0; i < usableTiers.Count; i++)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = prankster,
+                tier = usableTiers[i]
+            });
+        }
+    }
     }
 
 
@@ -175,7 +198,7 @@ public class DeckManager : MonoBehaviour
         {
             int randomIndex = Random.Range(0, deck.Count);
 
-            PranksterType temp = deck[i];
+            PranksterDeckEntry temp = deck[i];
             deck[i] = deck[randomIndex];
             deck[randomIndex] = temp;
         }
@@ -230,7 +253,7 @@ public class DeckManager : MonoBehaviour
         }
     }
 
-    PranksterType drawnCard = deck[0];
+    PranksterDeckEntry drawnCard = deck[0];
 
     GetCurrentPlayer().hand.Add(drawnCard);
     deck.RemoveAt(0);
@@ -296,7 +319,7 @@ public class DeckManager : MonoBehaviour
         yield break;
     }
 
-    PranksterType offeredCard = player.hand[handIndex];
+    PranksterType offeredCard = player.hand[handIndex].pranksterType;
 
     player.hand.RemoveAt(handIndex);
     player.favorArea.Add(offeredCard);
@@ -357,7 +380,7 @@ public class DeckManager : MonoBehaviour
 
         PrankCard selectedPrank = activePranks[prankIndex];
 
-        List<PranksterType> tempHand = new List<PranksterType>(player.hand);
+        List<PranksterType> tempHand = ConvertHandToTypes(player.hand);
 
         foreach (PranksterType requiredPrankster in selectedPrank.requiredPranksters)
         {
@@ -404,15 +427,36 @@ public class DeckManager : MonoBehaviour
     finalCompletedPrank = completedPrank;
     lastPrankCompleterIndex = turnManager.currentPlayerIndex;
 
+    int bonusRenown = 0;
+    List<PranksterDeckEntry> usedCards = new List<PranksterDeckEntry>();
+
+    Debug.Log("COMPLETE PRANK START | prank=" + completedPrank.title +
+              " | baseRenown=" + completedPrank.renownPoints);
+
     foreach (PranksterType required in completedPrank.requiredPranksters)
     {
-        int index = player.hand.IndexOf(required);
+        int index = -1;
+
+        for (int i = 0; i < player.hand.Count; i++)
+        {
+            if (player.hand[i].pranksterType == required)
+            {
+                index = i;
+                break;
+            }
+        }
 
         if (index >= 0)
         {
-            PranksterType card = player.hand[index];
+            PranksterDeckEntry card = player.hand[index];
+
+            Debug.Log("PRANK USE | required=" + required +
+                      " | using=" + card.pranksterType +
+                      " | tier=" + card.tier);
+
+            usedCards.Add(card);
             player.hand.RemoveAt(index);
-            discardPile.Add(card);
+            discardPile.Add(card.pranksterType);
         }
         else
         {
@@ -421,15 +465,35 @@ public class DeckManager : MonoBehaviour
     }
 
     player.completedPranks.Add(completedPrank);
+
+    // Add base prank value
     player.renownPoints += completedPrank.renownPoints;
+
+    Debug.Log("RENOWN AFTER BASE | totalRenown=" + player.renownPoints);
+
+    // Add upgrade bonuses
+    for (int i = 0; i < usedCards.Count; i++)
+    {
+        int cardBonus = PranksterUnlockRules.GetRenownBonus(usedCards[i]);
+
+        Debug.Log("RENOWN BONUS | card=" + usedCards[i].pranksterType +
+                  " | tier=" + usedCards[i].tier +
+                  " | bonus=" + cardBonus);
+
+        bonusRenown += cardBonus;
+    }
+
+    player.renownPoints += bonusRenown;
+
+    Debug.Log("COMPLETE PRANK END | prank=" + completedPrank.title +
+              " | totalBonusRenown=" + bonusRenown +
+              " | finalRenown=" + player.renownPoints);
 
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
 
-    Debug.Log("Completed prank: " + completedPrank.title);
-
     if (AudioManager.Instance != null)
-    AudioManager.Instance.PlayCompletePrank();
+        AudioManager.Instance.PlayCompletePrank();
 
     if (HasPlayerCompletedFourPranks())
     {
@@ -443,7 +507,7 @@ public class DeckManager : MonoBehaviour
     if (activePranks.Count == 1)
     {
         if (GetCurrentPlayer().isBot && botManager != null)
-         botManager.NotifyBotActionHandledTurnFlow();
+            botManager.NotifyBotActionHandledTurnFlow();
 
         StartCoroutine(ResetRoundSequence());
         return;
@@ -460,25 +524,29 @@ public class DeckManager : MonoBehaviour
 
 
     void DrawFromDiscard()
+{
+    Player player = GetCurrentPlayer();
+
+    if (discardPile.Count == 0)
     {
-        Player player = GetCurrentPlayer();
-
-        if (discardPile.Count == 0)
-        {
-            Debug.Log("Discard empty");
-            return;
-        }
-
-        PranksterType card = discardPile[discardPile.Count - 1];
-
-        discardPile.RemoveAt(discardPile.Count - 1);
-        player.hand.Add(card);
-
-        SortCurrentPlayerHand();
-
-        Debug.Log("Drew from discard pile: " + card);
-        RefreshAllDisplays();
+        Debug.Log("Discard empty");
+        return;
     }
+
+    PranksterType card = discardPile[discardPile.Count - 1];
+
+    discardPile.RemoveAt(discardPile.Count - 1);
+    player.hand.Add(new PranksterDeckEntry
+    {
+        pranksterType = card,
+        tier = 0
+    });
+
+    SortCurrentPlayerHand();
+
+    Debug.Log("Drew from discard pile: " + card);
+    RefreshAllDisplays();
+}
 
 
     void DiscardCardFromHand(int handIndex)
@@ -491,7 +559,7 @@ public class DeckManager : MonoBehaviour
         return;
     }
 
-    PranksterType card = player.hand[handIndex];
+    PranksterType card = player.hand[handIndex].pranksterType;
 
     if (turnManager.currentPlayerIndex == 0)
     {
@@ -550,9 +618,9 @@ public class DeckManager : MonoBehaviour
     {
         Debug.Log("Player " + (i + 1) + " hand:");
 
-        foreach (PranksterType card in turnManager.players[i].hand)
-        {
-            Debug.Log(card);
+        foreach (PranksterDeckEntry card in turnManager.players[i].hand)
+        {     
+            Debug.Log(card.pranksterType + " (Tier " + card.tier + ")");
         }
     }
 }
@@ -1053,15 +1121,36 @@ void ResetRound()
     {
         Player player = turnManager.players[i];
 
-        deck.AddRange(player.hand);
+        foreach (var entry in player.hand)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+              pranksterType = entry.pranksterType,
+              tier = entry.tier
+         });
+        }
         player.hand.Clear();
 
-        deck.AddRange(player.favorArea);
+        foreach (var type in player.favorArea)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = type,
+                tier = 0
+            });
+        }
         player.favorArea.Clear();
     }
 
     // Return discard pile to prankster deck
-    deck.AddRange(discardPile);
+    foreach (var type in discardPile)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = type,
+                tier = 0
+            });
+        }               
     discardPile.Clear();
 
     // Shuffle prankster deck
@@ -1421,11 +1510,15 @@ public void ResolveSwapTargetChoice(int favorSlotIndex)
 
     Player currentPlayer = GetCurrentPlayer();
 
-    originalHandSnapshot = new List<PranksterType>(currentPlayer.hand);
+    originalHandSnapshot = ConvertHandToTypes(currentPlayer.hand);
     pendingIncomingPrankster = targetPlayer.favorArea[selectedSwapFavorIndex];
 
-    tempSwapHand = new List<PranksterType>(originalHandSnapshot);
-    tempSwapHand.Add(pendingIncomingPrankster);
+    tempSwapHand = new List<PranksterDeckEntry>(currentPlayer.hand);
+    tempSwapHand.Add(new PranksterDeckEntry
+    {   
+        pranksterType = pendingIncomingPrankster,
+        tier = 0
+    });
 
     isInSwapHandSelection = true;
 
@@ -1473,10 +1566,14 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
         return;
     }
 
-    PranksterType handCard = currentPlayer.hand[selectedSwapHandIndex];
+    PranksterType handCard = currentPlayer.hand[selectedSwapHandIndex].pranksterType;
     PranksterType favorCard = targetPlayer.favorArea[targetFavorIndex];
 
-    currentPlayer.hand[selectedSwapHandIndex] = favorCard;
+    currentPlayer.hand[selectedSwapHandIndex] = new PranksterDeckEntry
+    {
+        pranksterType = favorCard,
+        tier = 0
+    };
     targetPlayer.favorArea[targetFavorIndex] = handCard;
 
     currentPlayer.hand.Sort((a, b) => a.ToString().CompareTo(b.ToString()));
@@ -1906,7 +2003,14 @@ void ReshuffleDiscardIntoDeck()
 
     Debug.Log("Reshuffling discard pile into deck.");
 
-    deck.AddRange(discardPile);
+    foreach (var type in discardPile)
+    {
+        deck.Add(new PranksterDeckEntry
+        {
+            pranksterType = type,
+            tier = 0
+        });
+    }
     discardPile.Clear();
     ShufflePranksterDeck();
 
@@ -2545,14 +2649,35 @@ IEnumerator ResetRoundSequence()
     {
         Player player = turnManager.players[i];
 
-        deck.AddRange(player.hand);
-        player.hand.Clear();
+        foreach (var entry in player.hand)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+             pranksterType = entry.pranksterType,
+            tier = entry.tier
+        });
+    }
+    player.hand.Clear();
 
-        deck.AddRange(player.favorArea);
+        foreach (var type in player.favorArea)
+        {
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = type,
+                tier = 0
+            });
+        }
         player.favorArea.Clear();
     }
 
-    deck.AddRange(discardPile);
+    foreach (var type in discardPile)
+    {
+        deck.Add(new PranksterDeckEntry
+        {
+            pranksterType = type,
+            tier = 0
+        });
+    }
     discardPile.Clear();
 
     ShufflePranksterDeck();
@@ -2611,11 +2736,6 @@ IEnumerator BeginNewGameSequence()
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 {
-    Debug.Log("---- ShouldHighlightOpponentPanel START ----");
-    Debug.Log("representedPlayerIndex = " + representedPlayerIndex);
-    Debug.Log("currentPlayerIndex = " + turnManager.currentPlayerIndex);
-    Debug.Log("pendingChoice = " + pendingChoice);
-    Debug.Log("highlightSuppressionCount = " + highlightSuppressionCount);
 
     if (highlightSuppressionCount > 0)
     {
@@ -2807,7 +2927,7 @@ public bool IsInSwapHandSelection()
     return isInSwapHandSelection;
 }
 
-public List<PranksterType> GetTempSwapHand()
+public List<PranksterDeckEntry> GetTempSwapHand()
 {
     return tempSwapHand;
 }
@@ -2958,10 +3078,14 @@ public bool BotSwapWithOpponentFavor(int opponentIndex, int opponentFavorIndex, 
         return false;
 
     PranksterType gainedCard = opponent.favorArea[opponentFavorIndex];
-    PranksterType givenCard = currentPlayer.hand[handIndexToGive];
+    PranksterType givenCard = currentPlayer.hand[handIndexToGive].pranksterType;
 
     opponent.favorArea[opponentFavorIndex] = givenCard;
-    currentPlayer.hand[handIndexToGive] = gainedCard;
+    currentPlayer.hand[handIndexToGive] = new PranksterDeckEntry
+    {
+        pranksterType = gainedCard,
+        tier = 0
+    };
 
     SortCurrentPlayerHand();
     RefreshAllDisplays();
@@ -3079,7 +3203,7 @@ void ResetPlayer1FavorTrackingForNewGame()
 }
 
 void ApplyPlayer1MatchResultsToSave()
-{
+    {
     if (player1ProgressSave == null)
         player1ProgressSave = SaveSystem.Load();
 
@@ -3133,7 +3257,8 @@ void ApplyPlayer1MatchResultsToSave()
     }
 
     SaveSystem.Save(player1ProgressSave);
-}
+    SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress();
+    }
 
 bool DidPlayer1Win()
 {
@@ -3249,6 +3374,21 @@ void AddDiscardCountToSave(PranksterType pranksterType, int amount)
         pranksterType = typeName,
         totalDiscards = amount
     });
+}
+
+List<PranksterType> ConvertHandToTypes(List<PranksterDeckEntry> handEntries)
+{
+    List<PranksterType> result = new List<PranksterType>();
+
+    if (handEntries == null)
+        return result;
+
+    for (int i = 0; i < handEntries.Count; i++)
+    {
+        result.Add(handEntries[i].pranksterType);
+    }
+
+    return result;
 }
 
 }

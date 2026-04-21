@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: f7c9659ca875148ba90710e6972b6050
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2352222514837093167
+    second: LaborerCrewleader_0
+  - first:
+      213: 6205209193930090419
+    second: LaborerCrewleader_1
+  - first:
+      213: -1864188233132351754
+    second: LaborerCrewleader_2
+  - first:
+      213: -776728243786136475
+    second: LaborerCrewleader_3
+  - first:
+      213: -8657349429757454405
+    second: LaborerCrewleader_4
+  - first:
+      213: -9221429340179698784
+    second: LaborerCrewleader_5
+  - first:
+      213: 2620139198351218903
+    second: LaborerCrewleader_6
+  - first:
+      213: 695172088397030577
+    second: LaborerCrewleader_7
+  - first:
+      213: 6552682888475401667
+    second: LaborerCrewleader_8
+  - first:
+      213: 7348435144300185218
+    second: LaborerCrewleader_9
+  - first:
+      213: 8672530666668505502
+    second: LaborerCrewleader_10
+  - first:
+      213: -4534306760063184100
+    second: LaborerCrewleader_11
+  - first:
+      213: -3325040217015549314
+    second: LaborerCrewleader_12
+  - first:
+      213: -8692488561304541549
+    second: LaborerCrewleader_13
+  - first:
+      213: -6247718768853268219
+    second: LaborerCrewleader_14
+  - first:
+      213: 6817945862773564976
+    second: LaborerCrewleader_15
+  - first:
+      213: -5731526005101393894
+    second: LaborerCrewleader_16
+  - first:
+      213: -7742018231488883225
+    second: LaborerCrewleader_17
+  - first:
+      213: 2346392400642609455
+    second: LaborerCrewleader_18
+  - first:
+      213: 249992750681046115
+    second: LaborerCrewleader_19
+  - first:
+      213: -7588558675611041843
+    second: LaborerCrewleader_20
+  - first:
+      213: 3344880842640848782
+    second: LaborerCrewleader_21
+  - first:
+      213: -1097662269700681908
+    second: LaborerCrewleader_22
+  - first:
+      213: 4974325808591346428
+    second: LaborerCrewleader_23
+  - first:
+      213: 7453335090908525541
+    second: LaborerCrewleader_24
+  - first:
+      213: 1996191759513011648
+    second: LaborerCrewleader_25
+  - first:
+      213: -973243211336626338
+    second: LaborerCrewleader_26
+  - first:
+      213: -6236461219995968884
+    second: LaborerCrewleader_27
+  - first:
+      213: -7793266990986873307
+    second: LaborerCrewleader_28
+  - first:
+      213: 6830813239910643971
+    second: LaborerCrewleader_29
+  - first:
+      213: -5101122549931339375
+    second: LaborerCrewleader_30
+  - first:
+      213: 662059680107066190
+    second: LaborerCrewleader_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerCrewleader_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b7a852ae5c4a020800000000000000
+      internalID: 2352222514837093167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7e031a2e45d1650800000000000000
+      internalID: 6205209193930090419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fedea9cda21126e0800000000000000
+      internalID: -1864188233132351754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 307
+        width: 700
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5644d1e07c18835f0800000000000000
+      internalID: -776728243786136475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb750eeef8aead780800000000000000
+      internalID: -8657349429757454405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab69315fd6e60080800000000000000
+      internalID: -9221429340179698784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d81dc308ba9c5420800000000000000
+      internalID: 2620139198351218903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 922
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4ebaac45fb5a900800000000000000
+      internalID: 695172088397030577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5b559e5ecfea50800000000000000
+      internalID: 6552682888475401667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 871
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286420f74d2eaf560800000000000000
+      internalID: 7348435144300185218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 850
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99357a31b40b5870800000000000000
+      internalID: 8672530666668505502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 799
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1318c78608e211c0800000000000000
+      internalID: -4534306760063184100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 778
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7286e81a851bd1d0800000000000000
+      internalID: -3325040217015549314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396eb4155b31e5780800000000000000
+      internalID: -8692488561304541549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509c5fda1e4ab49a0800000000000000
+      internalID: -6247718768853268219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0366670a3a53e9e50800000000000000
+      internalID: 6817945862773564976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18840d17778570b0800000000000000
+      internalID: -5731526005101393894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5d18bff63de8490800000000000000
+      internalID: -7742018231488883225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f219af7e47f009020800000000000000
+      internalID: 2346392400642609455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_19
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c34cc0517287300800000000000000
+      internalID: 249992750681046115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfbef6271600b690800000000000000
+      internalID: -7588558675611041843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_21
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87fd9987676b6e20800000000000000
+      internalID: 3344880842640848782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f442b3bf154c0f0800000000000000
+      internalID: -1097662269700681908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_23
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa1522c7fa580540800000000000000
+      internalID: 4974325808591346428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e37e8596c09f6760800000000000000
+      internalID: 7453335090908525541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5c55934d5e3bb10800000000000000
+      internalID: 1996191759513011648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f483ca4785e72f0800000000000000
+      internalID: -973243211336626338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a14a60093a379a0800000000000000
+      internalID: -6236461219995968884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526337256f0c8d390800000000000000
+      internalID: -7793266990986873307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309b8e3537cebce50800000000000000
+      internalID: 6830813239910643971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1919b97511c2539b0800000000000000
+      internalID: -5101122549931339375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_31
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43f3e475cb103900800000000000000
+      internalID: 662059680107066190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerCrewleader_0: 2352222514837093167
+      LaborerCrewleader_1: 6205209193930090419
+      LaborerCrewleader_10: 8672530666668505502
+      LaborerCrewleader_11: -4534306760063184100
+      LaborerCrewleader_12: -3325040217015549314
+      LaborerCrewleader_13: -8692488561304541549
+      LaborerCrewleader_14: -6247718768853268219
+      LaborerCrewleader_15: 6817945862773564976
+      LaborerCrewleader_16: -5731526005101393894
+      LaborerCrewleader_17: -7742018231488883225
+      LaborerCrewleader_18: 2346392400642609455
+      LaborerCrewleader_19: 249992750681046115
+      LaborerCrewleader_2: -1864188233132351754
+      LaborerCrewleader_20: -7588558675611041843
+      LaborerCrewleader_21: 3344880842640848782
+      LaborerCrewleader_22: -1097662269700681908
+      LaborerCrewleader_23: 4974325808591346428
+      LaborerCrewleader_24: 7453335090908525541
+      LaborerCrewleader_25: 1996191759513011648
+      LaborerCrewleader_26: -973243211336626338
+      LaborerCrewleader_27: -6236461219995968884
+      LaborerCrewleader_28: -7793266990986873307
+      LaborerCrewleader_29: 6830813239910643971
+      LaborerCrewleader_3: -776728243786136475
+      LaborerCrewleader_30: -5101122549931339375
+      LaborerCrewleader_31: 662059680107066190
+      LaborerCrewleader_4: -8657349429757454405
+      LaborerCrewleader_5: -9221429340179698784
+      LaborerCrewleader_6: 2620139198351218903
+      LaborerCrewleader_7: 695172088397030577
+      LaborerCrewleader_8: 6552682888475401667
+      LaborerCrewleader_9: 7348435144300185218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

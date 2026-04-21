@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: 9f36e6f717c2144d5a51ab298370b213
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2248634289903692825
+    second: BeastmasterMaster_0
+  - first:
+      213: -2913455281897510479
+    second: BeastmasterMaster_1
+  - first:
+      213: 2395013669241051914
+    second: BeastmasterMaster_2
+  - first:
+      213: -1477966305985990782
+    second: BeastmasterMaster_3
+  - first:
+      213: -3146063142682710196
+    second: BeastmasterMaster_4
+  - first:
+      213: 4159509113175506961
+    second: BeastmasterMaster_5
+  - first:
+      213: -5191988680250122355
+    second: BeastmasterMaster_6
+  - first:
+      213: 7065414328863278719
+    second: BeastmasterMaster_7
+  - first:
+      213: 6797261186837217689
+    second: BeastmasterMaster_8
+  - first:
+      213: -7536306236352174233
+    second: BeastmasterMaster_9
+  - first:
+      213: 8048136194956084055
+    second: BeastmasterMaster_10
+  - first:
+      213: -6318523678255607559
+    second: BeastmasterMaster_11
+  - first:
+      213: 5576845324653804351
+    second: BeastmasterMaster_12
+  - first:
+      213: -865053228890862344
+    second: BeastmasterMaster_13
+  - first:
+      213: -5814898502287222473
+    second: BeastmasterMaster_14
+  - first:
+      213: -6045579793627666080
+    second: BeastmasterMaster_15
+  - first:
+      213: 8825748953997771354
+    second: BeastmasterMaster_16
+  - first:
+      213: -3658450763854655017
+    second: BeastmasterMaster_17
+  - first:
+      213: -718171991679247720
+    second: BeastmasterMaster_18
+  - first:
+      213: 815571907477419261
+    second: BeastmasterMaster_19
+  - first:
+      213: -3918525821744799299
+    second: BeastmasterMaster_20
+  - first:
+      213: 8558057950651701185
+    second: BeastmasterMaster_21
+  - first:
+      213: 1312792406952347533
+    second: BeastmasterMaster_22
+  - first:
+      213: 1034938815688214543
+    second: BeastmasterMaster_23
+  - first:
+      213: 3583575651170593197
+    second: BeastmasterMaster_24
+  - first:
+      213: 5600690982877089575
+    second: BeastmasterMaster_25
+  - first:
+      213: -1487790146142052180
+    second: BeastmasterMaster_26
+  - first:
+      213: -5751862139319859026
+    second: BeastmasterMaster_27
+  - first:
+      213: 3623228096996394087
+    second: BeastmasterMaster_28
+  - first:
+      213: -8710060660726222668
+    second: BeastmasterMaster_29
+  - first:
+      213: -2361612334306021656
+    second: BeastmasterMaster_30
+  - first:
+      213: 2073590776237087526
+    second: BeastmasterMaster_31
+  - first:
+      213: -7471326953559306589
+    second: BeastmasterMaster_32
+  - first:
+      213: 4277390006774572538
+    second: BeastmasterMaster_33
+  - first:
+      213: 6063826341530358403
+    second: BeastmasterMaster_34
+  - first:
+      213: 3038590351185363920
+    second: BeastmasterMaster_35
+  - first:
+      213: -4481511312447207392
+    second: BeastmasterMaster_36
+  - first:
+      213: -3189338459777596283
+    second: BeastmasterMaster_37
+  - first:
+      213: 6682930588654318664
+    second: BeastmasterMaster_38
+  - first:
+      213: 9166769522495957800
+    second: BeastmasterMaster_39
+  - first:
+      213: -234348901045798550
+    second: BeastmasterMaster_40
+  - first:
+      213: 3421644796550881354
+    second: BeastmasterMaster_41
+  - first:
+      213: 8273168408703188899
+    second: BeastmasterMaster_42
+  - first:
+      213: -5924978271907786859
+    second: BeastmasterMaster_43
+  - first:
+      213: 4047940691882306395
+    second: BeastmasterMaster_44
+  - first:
+      213: 5123956771334775260
+    second: BeastmasterMaster_45
+  - first:
+      213: -8596141325507254688
+    second: BeastmasterMaster_46
+  - first:
+      213: -1809769999295891537
+    second: BeastmasterMaster_47
+  - first:
+      213: -4880356839826261477
+    second: BeastmasterMaster_48
+  - first:
+      213: 3853136694711536789
+    second: BeastmasterMaster_49
+  - first:
+      213: -8746477638406659476
+    second: BeastmasterMaster_50
+  - first:
+      213: 1491838364346888201
+    second: BeastmasterMaster_51
+  - first:
+      213: 2605465190060638297
+    second: BeastmasterMaster_52
+  - first:
+      213: 698630481169855931
+    second: BeastmasterMaster_53
+  - first:
+      213: 8546224662462358128
+    second: BeastmasterMaster_54
+  - first:
+      213: 6103039163463834174
+    second: BeastmasterMaster_55
+  - first:
+      213: -7483825213533212644
+    second: BeastmasterMaster_56
+  - first:
+      213: 2580820744013295648
+    second: BeastmasterMaster_57
+  - first:
+      213: 8278419028559609400
+    second: BeastmasterMaster_58
+  - first:
+      213: -8620937167461247251
+    second: BeastmasterMaster_59
+  - first:
+      213: 7620725497082769328
+    second: BeastmasterMaster_60
+  - first:
+      213: 6456704979636788643
+    second: BeastmasterMaster_61
+  - first:
+      213: 3883922801542371912
+    second: BeastmasterMaster_62
+  - first:
+      213: 2583140657355959609
+    second: BeastmasterMaster_63
+  - first:
+      213: -5023149999929263167
+    second: BeastmasterMaster_64
+  - first:
+      213: 2009565660934607572
+    second: BeastmasterMaster_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterMaster_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e31780f60f3bc0e0800000000000000
+      internalID: -2248634289903692825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b963857bd35197d0800000000000000
+      internalID: -2913455281897510479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b515b2e3ccc3120800000000000000
+      internalID: 2395013669241051914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f65bda9753d7be0800000000000000
+      internalID: -1477966305985990782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fa2738d30f654d0800000000000000
+      internalID: -3146063142682710196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11083da108b89b930800000000000000
+      internalID: 4159509113175506961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f97dbbdc952f7b0800000000000000
+      internalID: -5191988680250122355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76c9ded5e46d0260800000000000000
+      internalID: 7065414328863278719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9918bf63909b45e50800000000000000
+      internalID: 6797261186837217689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767eaa73869a96790800000000000000
+      internalID: -7536306236352174233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753425c7a39b0bf60800000000000000
+      internalID: 8048136194956084055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f01eac01381058a0800000000000000
+      internalID: -6318523678255607559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bb94f764fe46d40800000000000000
+      internalID: 5576845324653804351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcc72ceba6bef3f0800000000000000
+      internalID: -865053228890862344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739183eee945d4fa0800000000000000
+      internalID: -5814898502287222473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0692b836539c91ca0800000000000000
+      internalID: -6045579793627666080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5200dfa9eb5b7a70800000000000000
+      internalID: 8825748953997771354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1df20e9629a3dc0800000000000000
+      internalID: -3658450763854655017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad25ce06a8806f0800000000000000
+      internalID: -718171991679247720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4baf9245e715b00800000000000000
+      internalID: 815571907477419261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1a4bfb6899e99c0800000000000000
+      internalID: -3918525821744799299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c75dc31d5454c670800000000000000
+      internalID: 8558057950651701185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8789381db9f73210800000000000000
+      internalID: 1312792406952347533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f080c599e57dc5e00800000000000000
+      internalID: 1034938815688214543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da923c1711b6bb130800000000000000
+      internalID: 3583575651170593197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f4f1376c6a9bd40800000000000000
+      internalID: 5600690982877089575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca060e6aebe4a5be0800000000000000
+      internalID: -1487790146142052180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea842d4ebd74d20b0800000000000000
+      internalID: -5751862139319859026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7644fade1ca484230800000000000000
+      internalID: 3623228096996394087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b03f491af5af1780800000000000000
+      internalID: -8710060660726222668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee2284281ed93fd0800000000000000
+      internalID: -2361612334306021656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b532b13dfd6cc10800000000000000
+      internalID: 2073590776237087526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aecb4478b3805890800000000000000
+      internalID: -7471326953559306589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5aa9f6c875c5b30800000000000000
+      internalID: 4277390006774572538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382d29a1ee9072450800000000000000
+      internalID: 6063826341530358403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3455443dd3b2a20800000000000000
+      internalID: 3038590351185363920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02880b494397ec1c0800000000000000
+      internalID: -4481511312447207392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584077491913db3d0800000000000000
+      internalID: -3189338459777596283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844355376f98ebc50800000000000000
+      internalID: 6682930588654318664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82baf362058e63f70800000000000000
+      internalID: 9166769522495957800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6979a78aec6fbcf0800000000000000
+      internalID: -234348901045798550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40aaf550df1c7f20800000000000000
+      internalID: 3421644796550881354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afbcb7a5d230d270800000000000000
+      internalID: 8273168408703188899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f470157af36cda0800000000000000
+      internalID: -5924978271907786859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b6e73cc9c2d2830800000000000000
+      internalID: 4047940691882306395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1eddf1983fb1740800000000000000
+      internalID: 5123956771334775260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066a51e320f54b880800000000000000
+      internalID: -8596141325507254688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa73fc236c762e6e0800000000000000
+      internalID: -1809769999295891537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1af109bf4d754cb0800000000000000
+      internalID: -4880356839826261477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ccd47b867197530800000000000000
+      internalID: 3853136694711536789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62afdebde44e9680800000000000000
+      internalID: -8746477638406659476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9003239961314b410800000000000000
+      internalID: 1491838364346888201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_52
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 215
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950c53839c8782420800000000000000
+      internalID: 2605465190060638297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_53
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 214
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5b36b98b802b900800000000000000
+      internalID: 698630481169855931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_54
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 213
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07260c8fc0a4a9670800000000000000
+      internalID: 8546224662462358128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_55
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 214
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a1f8ca8c952b450800000000000000
+      internalID: 6103039163463834174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_56
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 214
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10bd3a8e9c142890800000000000000
+      internalID: -7483825213533212644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 215
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0203fdbfacae0d320800000000000000
+      internalID: 2580820744013295648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_58
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 96
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e312bde3ad2e270800000000000000
+      internalID: 8278419028559609400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_59
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 89
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6928662574c5880800000000000000
+      internalID: -8620937167461247251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_60
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf6168967142c960800000000000000
+      internalID: 7620725497082769328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_61
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad1fba48f2da9950800000000000000
+      internalID: 6456704979636788643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a19f8c53776e530800000000000000
+      internalID: 3883922801542371912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d2296edb829d320800000000000000
+      internalID: 2583140657355959609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb76b850bf2a4ab0800000000000000
+      internalID: -5023149999929263167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterMaster_65
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d294dc425963eb10800000000000000
+      internalID: 2009565660934607572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterMaster_0: -2248634289903692825
+      BeastmasterMaster_1: -2913455281897510479
+      BeastmasterMaster_10: 8048136194956084055
+      BeastmasterMaster_11: -6318523678255607559
+      BeastmasterMaster_12: 5576845324653804351
+      BeastmasterMaster_13: -865053228890862344
+      BeastmasterMaster_14: -5814898502287222473
+      BeastmasterMaster_15: -6045579793627666080
+      BeastmasterMaster_16: 8825748953997771354
+      BeastmasterMaster_17: -3658450763854655017
+      BeastmasterMaster_18: -718171991679247720
+      BeastmasterMaster_19: 815571907477419261
+      BeastmasterMaster_2: 2395013669241051914
+      BeastmasterMaster_20: -3918525821744799299
+      BeastmasterMaster_21: 8558057950651701185
+      BeastmasterMaster_22: 1312792406952347533
+      BeastmasterMaster_23: 1034938815688214543
+      BeastmasterMaster_24: 3583575651170593197
+      BeastmasterMaster_25: 5600690982877089575
+      BeastmasterMaster_26: -1487790146142052180
+      BeastmasterMaster_27: -5751862139319859026
+      BeastmasterMaster_28: 3623228096996394087
+      BeastmasterMaster_29: -8710060660726222668
+      BeastmasterMaster_3: -1477966305985990782
+      BeastmasterMaster_30: -2361612334306021656
+      BeastmasterMaster_31: 2073590776237087526
+      BeastmasterMaster_32: -7471326953559306589
+      BeastmasterMaster_33: 4277390006774572538
+      BeastmasterMaster_34: 6063826341530358403
+      BeastmasterMaster_35: 3038590351185363920
+      BeastmasterMaster_36: -4481511312447207392
+      BeastmasterMaster_37: -3189338459777596283
+      BeastmasterMaster_38: 6682930588654318664
+      BeastmasterMaster_39: 9166769522495957800
+      BeastmasterMaster_4: -3146063142682710196
+      BeastmasterMaster_40: -234348901045798550
+      BeastmasterMaster_41: 3421644796550881354
+      BeastmasterMaster_42: 8273168408703188899
+      BeastmasterMaster_43: -5924978271907786859
+      BeastmasterMaster_44: 4047940691882306395
+      BeastmasterMaster_45: 5123956771334775260
+      BeastmasterMaster_46: -8596141325507254688
+      BeastmasterMaster_47: -1809769999295891537
+      BeastmasterMaster_48: -4880356839826261477
+      BeastmasterMaster_49: 3853136694711536789
+      BeastmasterMaster_5: 4159509113175506961
+      BeastmasterMaster_50: -8746477638406659476
+      BeastmasterMaster_51: 1491838364346888201
+      BeastmasterMaster_52: 2605465190060638297
+      BeastmasterMaster_53: 698630481169855931
+      BeastmasterMaster_54: 8546224662462358128
+      BeastmasterMaster_55: 6103039163463834174
+      BeastmasterMaster_56: -7483825213533212644
+      BeastmasterMaster_57: 2580820744013295648
+      BeastmasterMaster_58: 8278419028559609400
+      BeastmasterMaster_59: -8620937167461247251
+      BeastmasterMaster_6: -5191988680250122355
+      BeastmasterMaster_60: 7620725497082769328
+      BeastmasterMaster_61: 6456704979636788643
+      BeastmasterMaster_62: 3883922801542371912
+      BeastmasterMaster_63: 2583140657355959609
+      BeastmasterMaster_64: -5023149999929263167
+      BeastmasterMaster_65: 2009565660934607572
+      BeastmasterMaster_7: 7065414328863278719
+      BeastmasterMaster_8: 6797261186837217689
+      BeastmasterMaster_9: -7536306236352174233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
