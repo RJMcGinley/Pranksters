@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -267,6 +268,32 @@ public void CloseStatistics()
 
     if (mainMenuButtonsRoot != null)
         mainMenuButtonsRoot.SetActive(true);
+}
+
+public void ReturnToMainMenuFromEndGame()
+{
+    List<PranksterUnlockEntry> newUnlocks = SaveSystem.GetSessionNewUnlocks();
+
+    if (newUnlocks != null && newUnlocks.Count > 0)
+    {
+        ShowUnlockScreen(newUnlocks);
+        return;
+    }
+
+    ReturnToMainMenu();
+}
+
+private void ShowUnlockScreen(List<PranksterUnlockEntry> unlocks)
+{
+    Debug.Log("SHOW UNLOCK SCREEN");
+
+    for (int i = 0; i < unlocks.Count; i++)
+    {
+        Debug.Log("Unlocked: " + unlocks[i].pranksterType + " tier " + unlocks[i].tier);
+    }
+
+    // TEMP: just go back to menu for now
+    ReturnToMainMenu();
 }
 
 

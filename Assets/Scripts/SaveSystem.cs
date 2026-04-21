@@ -14,6 +14,20 @@ public static class SaveSystem
         get { return Path.Combine(Application.persistentDataPath, SaveFileName); }
     }
 
+    public static int GetUnlockTierFromCompletionCount(int completionCount)
+    {
+        if (completionCount >= 10)
+            return 3;
+
+        if (completionCount >= 5)
+            return 2;
+
+        if (completionCount >= 1)
+            return 1;
+
+        return 0;
+    }
+
     public static void Save(PlayerProgressSave data)
     {
         string json = JsonUtility.ToJson(data, true);
@@ -245,9 +259,19 @@ public static class SaveSystem
     return entry.unlockOrder > 0 && entry.unlockOrder <= 5;
     }
 
-    public static bool EarnPranksterUnlock(string pranksterType, int tier)
+    public static bool EarnPranksterUnlock(PlayerProgressSave data, string pranksterType, int tier)
+{
+    if (data == null)
     {
-    PlayerProgressSave data = Load();
+        Debug.LogWarning("SaveSystem: EarnPranksterUnlock aborted because data is null");
+        return false;
+    }
+
+    if (data.pranksterUnlocks == null)
+    {
+        Debug.LogWarning("SaveSystem: pranksterUnlocks list was null, creating new list");
+        data.pranksterUnlocks = new List<PranksterUnlockEntry>();
+    }
 
     PranksterUnlockEntry entry = null;
 
@@ -269,7 +293,8 @@ public static class SaveSystem
 
     if (entry.earned)
     {
-        Debug.Log("SaveSystem: Unlock already earned for " + pranksterType + " tier " + tier);
+        Debug.Log("SaveSystem: Unlock already earned for " + pranksterType + " tier " + tier +
+                  " | existing order = " + entry.unlockOrder);
         return false;
     }
 
@@ -277,50 +302,72 @@ public static class SaveSystem
 
     for (int i = 0; i < data.pranksterUnlocks.Count; i++)
     {
-        if (data.pranksterUnlocks[i].earned && data.pranksterUnlocks[i].unlockOrder >= nextOrder)
-        {
-            nextOrder = data.pranksterUnlocks[i].unlockOrder + 1;
-        }
+        PranksterUnlockEntry existing = data.pranksterUnlocks[i];
+
+        if (existing != null && existing.earned && existing.unlockOrder >= nextOrder)
+            nextOrder = existing.unlockOrder + 1;
     }
 
     entry.earned = true;
     entry.unlockOrder = nextOrder;
 
-    Save(data);
+    Debug.Log("UNLOCK EARNED IN MEMORY: " + pranksterType +
+              " tier " + tier +
+              " | assigned unlockOrder = " + nextOrder);
 
-    Debug.Log("UNLOCK EARNED: " + pranksterType + " tier " + tier + " | order = " + nextOrder);
     return true;
+}
+
+    public static List<PranksterUnlockEntry> EvaluateAndAwardUnlocksFromSavedProgress(PlayerProgressSave data)
+{
+    Debug.Log("UNLOCK EVALUATION START");
+
+    if (data == null)
+    {
+        Debug.LogWarning("UNLOCK EVALUATION ABORTED: data is null");
+        return new List<PranksterUnlockEntry>();
     }
 
-    public static int GetUnlockTierFromCompletionCount(int completionCount)
+    if (data.prankCompletions == null)
     {
-    if (completionCount >= 10)
-        return 3;
-
-    if (completionCount >= 5)
-        return 2;
-
-    if (completionCount >= 1)
-        return 1;
-
-    return 0;
+        Debug.LogWarning("UNLOCK EVALUATION ABORTED: prankCompletions is null");
+        return new List<PranksterUnlockEntry>();
     }
 
-    public static List<PranksterUnlockEntry> EvaluateAndAwardUnlocksFromSavedProgress()
+    if (data.pranksterUnlocks == null)
     {
+        Debug.LogWarning("UNLOCK EVALUATION: pranksterUnlocks was null, creating new list");
+        data.pranksterUnlocks = new List<PranksterUnlockEntry>();
+    }
+
+    Debug.Log("PRANK COMPLETION ENTRY COUNT = " + data.prankCompletions.Count);
 
     sessionNewUnlocks.Clear();
-        
-    PlayerProgressSave data = Load();
-    List<PranksterUnlockEntry> newlyEarned = new List<PranksterUnlockEntry>();
+    Debug.Log("SESSION NEW UNLOCKS CLEARED");
 
+    List<PranksterUnlockEntry> newlyEarned = new List<PranksterUnlockEntry>();
     List<PrankCard> prankDeck = PrankDatabase.CreatePrankDeck();
+
+    Debug.Log("PRANK DECK COUNT = " + prankDeck.Count);
 
     for (int i = 0; i < data.prankCompletions.Count; i++)
     {
         PrankCompletionEntry completionEntry = data.prankCompletions[i];
-        if (completionEntry == null || string.IsNullOrWhiteSpace(completionEntry.prankTitle))
+
+        if (completionEntry == null)
+        {
+            Debug.Log("SKIP: completionEntry at index " + i + " is null");
             continue;
+        }
+
+        if (string.IsNullOrWhiteSpace(completionEntry.prankTitle))
+        {
+            Debug.Log("SKIP: completionEntry at index " + i + " has blank prankTitle");
+            continue;
+        }
+
+        Debug.Log("EVALUATING: " + completionEntry.prankTitle +
+                  " | count = " + completionEntry.timesCompleted);
 
         PrankCard matchingPrank = null;
 
@@ -334,32 +381,101 @@ public static class SaveSystem
         }
 
         if (matchingPrank == null)
+        {
+            Debug.LogWarning("SKIP: No matching prank found in database for " + completionEntry.prankTitle);
             continue;
+        }
+
+        Debug.Log("MATCH FOUND: " + matchingPrank.title);
 
         if (!matchingPrank.IsFourOfSameType(out PranksterType pranksterType))
+        {
+            Debug.Log("SKIP: " + matchingPrank.title + " is not a four-of-the-same-type prank");
             continue;
+        }
+
+        Debug.Log("FOUR-OF-A-KIND CONFIRMED: " + matchingPrank.title +
+                  " | pranksterType = " + pranksterType);
 
         int highestTier = GetUnlockTierFromCompletionCount(completionEntry.timesCompleted);
 
+        Debug.Log("HIGHEST TIER FROM COMPLETION COUNT = " + highestTier);
+
+        if (highestTier == 0)
+        {
+            Debug.Log("SKIP: No unlock tier earned yet for " + matchingPrank.title);
+            continue;
+        }
+
         for (int tier = 1; tier <= highestTier; tier++)
         {
-            bool earnedNow = EarnPranksterUnlock(pranksterType.ToString(), tier);
+            Debug.Log("ATTEMPTING UNLOCK IN MEMORY: " + pranksterType + " tier " + tier);
+
+            bool earnedNow = EarnPranksterUnlock(data, pranksterType.ToString(), tier);
+
+            Debug.Log("EarnPranksterUnlock RESULT for " + pranksterType +
+                      " tier " + tier + " = " + earnedNow);
 
             if (earnedNow)
             {
-                PranksterUnlockEntry unlockedEntry = GetPranksterUnlock(pranksterType.ToString(), tier);
+                Debug.Log("NEW UNLOCK EARNED: " + pranksterType + " tier " + tier);
+
+                PranksterUnlockEntry unlockedEntry = null;
+
+                for (int k = 0; k < data.pranksterUnlocks.Count; k++)
+                {
+                    if (data.pranksterUnlocks[k].pranksterType == pranksterType.ToString() &&
+                        data.pranksterUnlocks[k].tier == tier)
+                    {
+                        unlockedEntry = data.pranksterUnlocks[k];
+                        break;
+                    }
+                }
 
                 if (unlockedEntry != null)
                 {
+                    Debug.Log("UNLOCK ENTRY FOUND IN MEMORY: " + unlockedEntry.pranksterType +
+                              " tier " + unlockedEntry.tier +
+                              " | earned = " + unlockedEntry.earned +
+                              " | order = " + unlockedEntry.unlockOrder);
+
                     newlyEarned.Add(unlockedEntry);
                     sessionNewUnlocks.Add(unlockedEntry);
+
+                    Debug.Log("UNLOCK ADDED TO newlyEarned AND sessionNewUnlocks");
                 }
+                else
+                {
+                    Debug.LogWarning("UNLOCK WAS EARNED BUT COULD NOT BE FOUND IN MEMORY for " +
+                                     pranksterType + " tier " + tier);
+                }
+            }
+            else
+            {
+                Debug.Log("NO NEW UNLOCK AWARDED for " + pranksterType + " tier " + tier);
             }
         }
     }
 
+    Debug.Log("FINAL EARNED UNLOCK STATE BEFORE SAVE:");
+
+    for (int i = 0; i < data.pranksterUnlocks.Count; i++)
+    {
+        PranksterUnlockEntry unlock = data.pranksterUnlocks[i];
+
+        if (unlock != null && unlock.earned)
+        {
+            Debug.Log("EARNED UNLOCK: " + unlock.pranksterType +
+                      " tier " + unlock.tier +
+                      " | order = " + unlock.unlockOrder);
+        }
+    }
+
+    Debug.Log("UNLOCK EVALUATION END | newlyEarned count = " + newlyEarned.Count +
+              " | sessionNewUnlocks count = " + sessionNewUnlocks.Count);
+
     return newlyEarned;
-    }   
+}
 
     public static List<PranksterUnlockEntry> GetSessionNewUnlocks()
     {

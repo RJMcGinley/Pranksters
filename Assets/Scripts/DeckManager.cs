@@ -1618,6 +1618,7 @@ void TriggerEndGameScoring()
     CalculateFinalScores();
     Debug.Log("CalculateFinalScores COMPLETE");
 
+    List<PranksterUnlockEntry> previousUnlocks = SaveSystem.Load().pranksterUnlocks;
     ApplyPlayer1MatchResultsToSave();
     Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 
@@ -3204,8 +3205,13 @@ void ResetPlayer1FavorTrackingForNewGame()
 
 void ApplyPlayer1MatchResultsToSave()
 {
+    Debug.Log("APPLY PLAYER 1 MATCH RESULTS START");
+
     if (player1ProgressSave == null)
+    {
+        Debug.Log("player1ProgressSave was null, loading save now");
         player1ProgressSave = SaveSystem.Load();
+    }
 
     if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
     {
@@ -3217,13 +3223,23 @@ void ApplyPlayer1MatchResultsToSave()
     bool player1Won = DidPlayer1Win();
     int playerCount = turnManager.players.Count;
 
+    Debug.Log("PLAYER 1 FINAL SCORE = " + player1.finalScore);
+    Debug.Log("PLAYER COUNT = " + playerCount);
+    Debug.Log("PLAYER 1 WON = " + player1Won);
+
     // Lifetime accumulated final score
     player1ProgressSave.lifetimeFinalScorePoints += player1.finalScore;
+    Debug.Log("LIFETIME FINAL SCORE UPDATED TO = " + player1ProgressSave.lifetimeFinalScorePoints);
 
     // Highest single game score
     if (player1.finalScore > player1ProgressSave.highestSingleGameScore)
     {
         player1ProgressSave.highestSingleGameScore = player1.finalScore;
+        Debug.Log("NEW HIGHEST SINGLE GAME SCORE = " + player1ProgressSave.highestSingleGameScore);
+    }
+    else
+    {
+        Debug.Log("HIGHEST SINGLE GAME SCORE REMAINS = " + player1ProgressSave.highestSingleGameScore);
     }
 
     // Win/loss by player count
@@ -3233,6 +3249,8 @@ void ApplyPlayer1MatchResultsToSave()
             player1ProgressSave.wins2P++;
         else
             player1ProgressSave.losses2P++;
+
+        Debug.Log("UPDATED 2P RECORD = " + player1ProgressSave.wins2P + "-" + player1ProgressSave.losses2P);
     }
     else if (playerCount == 3)
     {
@@ -3240,6 +3258,8 @@ void ApplyPlayer1MatchResultsToSave()
             player1ProgressSave.wins3P++;
         else
             player1ProgressSave.losses3P++;
+
+        Debug.Log("UPDATED 3P RECORD = " + player1ProgressSave.wins3P + "-" + player1ProgressSave.losses3P);
     }
     else if (playerCount == 4)
     {
@@ -3247,29 +3267,91 @@ void ApplyPlayer1MatchResultsToSave()
             player1ProgressSave.wins4P++;
         else
             player1ProgressSave.losses4P++;
+
+        Debug.Log("UPDATED 4P RECORD = " + player1ProgressSave.wins4P + "-" + player1ProgressSave.losses4P);
     }
 
     // Individual prank completions
+    Debug.Log("PLAYER 1 COMPLETED PRANK COUNT THIS GAME = " + player1.completedPranks.Count);
+
     for (int i = 0; i < player1.completedPranks.Count; i++)
     {
         PrankCard prank = player1.completedPranks[i];
+        Debug.Log("ADDING PRANK COMPLETION TO SAVE: " + prank.title);
         AddPrankCompletionToSave(prank.title);
     }
 
     // Favor points gained by prankster type
     foreach (var kvp in player1FavorPointsThisGame)
     {
+        Debug.Log("ADDING FAVOR TO SAVE: " + kvp.Key + " = " + kvp.Value);
         AddFavorPointsToSave(kvp.Key, kvp.Value);
     }
 
     // Discard counts by prankster type
     foreach (var kvp in player1DiscardCountsThisGame)
     {
+        Debug.Log("ADDING DISCARD COUNT TO SAVE: " + kvp.Key + " = " + kvp.Value);
         AddDiscardCountToSave(kvp.Key, kvp.Value);
     }
 
+    Debug.Log("ABOUT TO EVALUATE UNLOCKS");
+    List<PranksterUnlockEntry> newUnlocks = SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress(player1ProgressSave);
+    Debug.Log("UNLOCK EVALUATION FINISHED");
+
+    if (newUnlocks != null)
+    {
+        Debug.Log("NEW UNLOCK COUNT = " + newUnlocks.Count);
+
+        for (int i = 0; i < newUnlocks.Count; i++)
+        {
+            Debug.Log("NEW UNLOCK RETURNED: " + newUnlocks[i].pranksterType +
+                      " tier " + newUnlocks[i].tier +
+                      " | order = " + newUnlocks[i].unlockOrder);
+        }
+    }
+    else
+    {
+        Debug.LogWarning("UNLOCK EVALUATION RETURNED NULL");
+    }
+
+    List<PranksterUnlockEntry> sessionUnlocks = SaveSystem.GetSessionNewUnlocks();
+
+    if (sessionUnlocks != null)
+    {
+        Debug.Log("SESSION NEW UNLOCK COUNT = " + sessionUnlocks.Count);
+
+        for (int i = 0; i < sessionUnlocks.Count; i++)
+        {
+            Debug.Log("SESSION UNLOCK: " + sessionUnlocks[i].pranksterType +
+                      " tier " + sessionUnlocks[i].tier +
+                      " | order = " + sessionUnlocks[i].unlockOrder);
+        }
+    }
+    else
+    {
+        Debug.LogWarning("SESSION NEW UNLOCKS LIST IS NULL");
+    }
+
+    Debug.Log("PRE-SAVE EARNED UNLOCK SNAPSHOT:");
+
+    for (int i = 0; i < player1ProgressSave.pranksterUnlocks.Count; i++)
+    {
+        PranksterUnlockEntry unlock = player1ProgressSave.pranksterUnlocks[i];
+
+        if (unlock != null && unlock.earned)
+        {
+            Debug.Log("PRE-SAVE UNLOCK: " + unlock.pranksterType +
+                      " tier " + unlock.tier +
+                      " | order = " + unlock.unlockOrder);
+        }
+    }
+
+    Debug.Log("ABOUT TO SAVE PLAYER 1 PROGRESS");
     SaveSystem.Save(player1ProgressSave);
-    SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress();
+    Debug.Log("PLAYER 1 PROGRESS SAVED");
+
+    Debug.Log("APPLY PLAYER 1 MATCH RESULTS END");
 }
 
 bool DidPlayer1Win()
