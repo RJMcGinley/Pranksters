@@ -3203,7 +3203,7 @@ void ResetPlayer1FavorTrackingForNewGame()
 }
 
 void ApplyPlayer1MatchResultsToSave()
-    {
+{
     if (player1ProgressSave == null)
         player1ProgressSave = SaveSystem.Load();
 
@@ -3220,21 +3220,33 @@ void ApplyPlayer1MatchResultsToSave()
     // Lifetime accumulated final score
     player1ProgressSave.lifetimeFinalScorePoints += player1.finalScore;
 
+    // Highest single game score
+    if (player1.finalScore > player1ProgressSave.highestSingleGameScore)
+    {
+        player1ProgressSave.highestSingleGameScore = player1.finalScore;
+    }
+
     // Win/loss by player count
     if (playerCount == 2)
     {
-        if (player1Won) player1ProgressSave.wins2P++;
-        else player1ProgressSave.losses2P++;
+        if (player1Won)
+            player1ProgressSave.wins2P++;
+        else
+            player1ProgressSave.losses2P++;
     }
     else if (playerCount == 3)
     {
-        if (player1Won) player1ProgressSave.wins3P++;
-        else player1ProgressSave.losses3P++;
+        if (player1Won)
+            player1ProgressSave.wins3P++;
+        else
+            player1ProgressSave.losses3P++;
     }
     else if (playerCount == 4)
     {
-        if (player1Won) player1ProgressSave.wins4P++;
-        else player1ProgressSave.losses4P++;
+        if (player1Won)
+            player1ProgressSave.wins4P++;
+        else
+            player1ProgressSave.losses4P++;
     }
 
     // Individual prank completions
@@ -3258,7 +3270,7 @@ void ApplyPlayer1MatchResultsToSave()
 
     SaveSystem.Save(player1ProgressSave);
     SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress();
-    }
+}
 
 bool DidPlayer1Win()
 {
@@ -3268,6 +3280,7 @@ bool DidPlayer1Win()
     Player player1 = turnManager.players[0];
 
     int bestScore = int.MinValue;
+
     for (int i = 0; i < turnManager.players.Count; i++)
     {
         if (turnManager.players[i].finalScore > bestScore)
@@ -3316,7 +3329,6 @@ void AddFavorPointsToSave(PranksterType pranksterType, int amount)
 }
 
 [ContextMenu("Print Player 1 Save Data")]
-[ContextMenu("Print Player 1 Save Data")]
 public void PrintPlayer1SaveData()
 {
     PlayerProgressSave data = SaveSystem.Load();
@@ -3326,6 +3338,7 @@ public void PrintPlayer1SaveData()
     Debug.Log("3P W/L: " + data.wins3P + "/" + data.losses3P);
     Debug.Log("4P W/L: " + data.wins4P + "/" + data.losses4P);
     Debug.Log("Lifetime Final Score Points: " + data.lifetimeFinalScorePoints);
+    Debug.Log("Highest Single Game Score: " + data.highestSingleGameScore);
 
     Debug.Log("---- PRANK COMPLETIONS ----");
     for (int i = 0; i < data.prankCompletions.Count; i++)

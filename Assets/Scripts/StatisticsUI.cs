@@ -11,8 +11,10 @@ public class StatisticsUI : MonoBehaviour
     [SerializeField] private TMP_Text vs4Text;
 
     [Header("Totals")]
+    [SerializeField] private TMP_Text currentTitleText;
     [SerializeField] private TMP_Text totalFavorText;
     [SerializeField] private TMP_Text lifetimeScoreText;
+    [SerializeField] private TMP_Text highestScoreText;
 
     [Header("Rows")]
     [SerializeField] private Transform rowsContainer;
@@ -31,6 +33,17 @@ public class StatisticsUI : MonoBehaviour
     [SerializeField] private float nameX = -90f;
     [SerializeField] private float favorX = 500f;
     [SerializeField] private float discardX = 930f;
+
+    private string GetTitleFromHighScore(int highScore)
+    {
+        if (highScore >= 150) return "Master of Mayhem";
+        if (highScore >= 125) return "Chaos Artist";
+        if (highScore >= 100) return "Prankster";
+        if (highScore >= 75) return "Mischief Maker";
+        if (highScore >= 50) return "Trickster";
+        if (highScore >= 25) return "Jester";
+        return "Clown";
+    }
 
     private void OnEnable()
     {
@@ -70,6 +83,12 @@ public class StatisticsUI : MonoBehaviour
 
         if (lifetimeScoreText != null)
             lifetimeScoreText.text = $"Total Accumulated Victory Points: {data.lifetimeFinalScorePoints}";
+
+        if (highestScoreText != null)
+            highestScoreText.text = $"Highest Single Game Score: {data.highestSingleGameScore}";
+
+        if (currentTitleText != null)
+            currentTitleText.text = "Current Title: " + GetTitleFromHighScore(data.highestSingleGameScore);
 
         BuildRows(data);
     }

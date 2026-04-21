@@ -366,4 +366,20 @@ public static class SaveSystem
     return sessionNewUnlocks;
     }
 
+    public static void UpdateHighestScore(int finalScore)
+    {
+        PlayerProgressSave data = Load();
+
+        if (finalScore > data.highestSingleGameScore)
+        {
+            data.highestSingleGameScore = finalScore;
+
+            Debug.Log("NEW HIGH SCORE: " + finalScore);
+        }
+
+        data.lifetimeFinalScorePoints += finalScore;
+
+        Save(data);
+    }
+
 }

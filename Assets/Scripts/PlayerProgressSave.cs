@@ -14,6 +14,7 @@ public class PlayerProgressSave
     public int losses4P;
 
     public int lifetimeFinalScorePoints;
+    public int highestSingleGameScore;
 
     public List<PrankCompletionEntry> prankCompletions = new List<PrankCompletionEntry>();
     public List<FavorPointsEntry> favorPointsByType = new List<FavorPointsEntry>();
