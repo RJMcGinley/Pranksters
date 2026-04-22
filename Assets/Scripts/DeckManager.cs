@@ -11,7 +11,7 @@ public class DeckManager : MonoBehaviour
     public TurnManager turnManager;
     List<PrankCard> prankDeck = new List<PrankCard>();
     List<PrankCard> activePranks = new List<PrankCard>();
-    List<PranksterType> discardPile = new List<PranksterType>();
+    List<PranksterDeckEntry> discardPile = new List<PranksterDeckEntry>();
     List<PranksterType> outOfPlayPranksters = new List<PranksterType>();
     public PendingChoiceType pendingChoice = PendingChoiceType.None;
     int lastPrankCompleterIndex = -1;
@@ -458,7 +458,7 @@ public class DeckManager : MonoBehaviour
 
             usedCards.Add(card);
             player.hand.RemoveAt(index);
-            discardPile.Add(card.pranksterType);
+            discardPile.Add(card);
         }
         else
         {
@@ -535,18 +535,14 @@ public class DeckManager : MonoBehaviour
         return;
     }
 
-    PranksterType card = discardPile[discardPile.Count - 1];
+    PranksterDeckEntry card = discardPile[discardPile.Count - 1];
 
     discardPile.RemoveAt(discardPile.Count - 1);
-    player.hand.Add(new PranksterDeckEntry
-    {
-        pranksterType = card,
-        tier = 0
-    });
+    player.hand.Add(card);
 
     SortCurrentPlayerHand();
 
-    Debug.Log("Drew from discard pile: " + card);
+    Debug.Log("Drew from discard pile: " + card.pranksterType + " | tier=" + card.tier);
     RefreshAllDisplays();
 }
 
@@ -561,14 +557,15 @@ public class DeckManager : MonoBehaviour
         return;
     }
 
-    PranksterType card = player.hand[handIndex].pranksterType;
+    PranksterDeckEntry card = player.hand[handIndex];
+    PranksterType cardType = card.pranksterType;
 
     if (turnManager.currentPlayerIndex == 0)
     {
-        if (!player1DiscardCountsThisGame.ContainsKey(card))
-            player1DiscardCountsThisGame[card] = 0;
+        if (!player1DiscardCountsThisGame.ContainsKey(cardType))
+            player1DiscardCountsThisGame[cardType] = 0;
 
-        player1DiscardCountsThisGame[card]++;
+        player1DiscardCountsThisGame[cardType]++;
     }
 
     player.hand.RemoveAt(handIndex);
@@ -576,20 +573,20 @@ public class DeckManager : MonoBehaviour
 
     discardPileDisplay.UpdateTopDiscardCard();
 
-    Debug.Log("Discarded: " + card);
+    Debug.Log("Discarded: " + cardType + " | tier=" + card.tier);
     RefreshAllDisplays();
 }
 
 
     void ShowDiscardPile()
-    {
-        Debug.Log("Discard pile:");
+{
+    Debug.Log("Discard pile:");
 
-        foreach (PranksterType card in discardPile)
-        {
-            Debug.Log(card);
-        }
+    foreach (PranksterDeckEntry card in discardPile)
+    {
+        Debug.Log(card.pranksterType + " | tier=" + card.tier);
     }
+}
 
     void DealStartingHands()
 {
@@ -1123,17 +1120,18 @@ void ResetRound()
     {
         Player player = turnManager.players[i];
 
-        foreach (var entry in player.hand)
+        foreach (PranksterDeckEntry entry in player.hand)
         {
             deck.Add(new PranksterDeckEntry
             {
-              pranksterType = entry.pranksterType,
-              tier = entry.tier
-         });
+                pranksterType = entry.pranksterType,
+                tier = entry.tier
+            });
         }
         player.hand.Clear();
 
-        foreach (var type in player.favorArea)
+        // favorArea still assumed to be List<PranksterType>
+        foreach (PranksterType type in player.favorArea)
         {
             deck.Add(new PranksterDeckEntry
             {
@@ -1145,14 +1143,14 @@ void ResetRound()
     }
 
     // Return discard pile to prankster deck
-    foreach (var type in discardPile)
+    foreach (PranksterDeckEntry entry in discardPile)
+    {
+        deck.Add(new PranksterDeckEntry
         {
-            deck.Add(new PranksterDeckEntry
-            {
-                pranksterType = type,
-                tier = 0
-            });
-        }               
+            pranksterType = entry.pranksterType,
+            tier = entry.tier
+        });
+    }
     discardPile.Clear();
 
     // Shuffle prankster deck
@@ -1281,8 +1279,9 @@ void ShowTopDiscardCard()
         return;
     }
 
-    PranksterType topCard = discardPile[discardPile.Count - 1];
-    Debug.Log("Top of Discard Pile: " + topCard);
+    PranksterDeckEntry topCard = discardPile[discardPile.Count - 1];
+
+    Debug.Log("Top of Discard Pile: " + topCard.pranksterType + " | tier=" + topCard.tier);
 }
 
 void ShowAllFavorAreas()
@@ -1885,7 +1884,7 @@ public int GetDiscardCount()
     return discardPile.Count;
 }
 
-public PranksterType? GetTopDiscardCard()
+public PranksterDeckEntry GetTopDiscardCard()
 {
     if (discardPile.Count == 0)
         return null;
@@ -2006,14 +2005,15 @@ void ReshuffleDiscardIntoDeck()
 
     Debug.Log("Reshuffling discard pile into deck.");
 
-    foreach (var type in discardPile)
+    foreach (PranksterDeckEntry card in discardPile)
     {
         deck.Add(new PranksterDeckEntry
         {
-            pranksterType = type,
-            tier = 0
+            pranksterType = card.pranksterType,
+            tier = card.tier
         });
     }
+
     discardPile.Clear();
     ShufflePranksterDeck();
 
@@ -2652,17 +2652,17 @@ IEnumerator ResetRoundSequence()
     {
         Player player = turnManager.players[i];
 
-        foreach (var entry in player.hand)
+        foreach (PranksterDeckEntry entry in player.hand)
         {
             deck.Add(new PranksterDeckEntry
             {
-             pranksterType = entry.pranksterType,
-            tier = entry.tier
-        });
-    }
-    player.hand.Clear();
+                pranksterType = entry.pranksterType,
+                tier = entry.tier
+            });
+        }
+        player.hand.Clear();
 
-        foreach (var type in player.favorArea)
+        foreach (PranksterType type in player.favorArea)
         {
             deck.Add(new PranksterDeckEntry
             {
@@ -2673,12 +2673,12 @@ IEnumerator ResetRoundSequence()
         player.favorArea.Clear();
     }
 
-    foreach (var type in discardPile)
+    foreach (PranksterDeckEntry entry in discardPile)
     {
         deck.Add(new PranksterDeckEntry
         {
-            pranksterType = type,
-            tier = 0
+            pranksterType = entry.pranksterType,
+            tier = entry.tier
         });
     }
     discardPile.Clear();
@@ -2966,7 +2966,14 @@ public List<PrankCard> BotGetActivePranks()
 
 public List<PranksterType> BotGetDiscardPile()
 {
-    return discardPile;
+    List<PranksterType> result = new List<PranksterType>();
+
+    foreach (PranksterDeckEntry entry in discardPile)
+    {
+        result.Add(entry.pranksterType);
+    }
+
+    return result;
 }
 
 public int BotCalculateFavorPoints(PranksterType pranksterType)
