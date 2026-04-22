@@ -120,6 +120,8 @@ public class DeckManager : MonoBehaviour
     private Dictionary<PranksterType, int> player1FavorPointsThisGame = new Dictionary<PranksterType, int>();
     private Dictionary<PranksterType, int> player1DiscardCountsThisGame = new Dictionary<PranksterType, int>();
 
+    public UnlockRevealPanelController unlockRevealPanelController;
+
     public bool IsGameOver()
     {
         return gameOver;
@@ -1618,7 +1620,7 @@ void TriggerEndGameScoring()
     CalculateFinalScores();
     Debug.Log("CalculateFinalScores COMPLETE");
 
-    List<PranksterUnlockEntry> previousUnlocks = SaveSystem.Load().pranksterUnlocks;
+    
     ApplyPlayer1MatchResultsToSave();
     Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 

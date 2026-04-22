@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 642919635f9994559be288cca662186d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7163195441499691497
+    second: WizardCrewleader_0
+  - first:
+      213: 8961535044091779113
+    second: WizardCrewleader_1
+  - first:
+      213: 1702586195050236978
+    second: WizardCrewleader_2
+  - first:
+      213: 964577951903728046
+    second: WizardCrewleader_3
+  - first:
+      213: -1831002485641463474
+    second: WizardCrewleader_4
+  - first:
+      213: 4708633866130917299
+    second: WizardCrewleader_5
+  - first:
+      213: 9098894057474551524
+    second: WizardCrewleader_6
+  - first:
+      213: -3934653509947833298
+    second: WizardCrewleader_7
+  - first:
+      213: 3692011895776612889
+    second: WizardCrewleader_8
+  - first:
+      213: -1242521476905352013
+    second: WizardCrewleader_9
+  - first:
+      213: -2258064465028348065
+    second: WizardCrewleader_10
+  - first:
+      213: -1884993057710383109
+    second: WizardCrewleader_11
+  - first:
+      213: 3995282536657480827
+    second: WizardCrewleader_12
+  - first:
+      213: -6892752731790345495
+    second: WizardCrewleader_13
+  - first:
+      213: 443429981238071590
+    second: WizardCrewleader_14
+  - first:
+      213: 8159955426558384295
+    second: WizardCrewleader_15
+  - first:
+      213: -2573799132380115044
+    second: WizardCrewleader_16
+  - first:
+      213: 4422266082796417653
+    second: WizardCrewleader_17
+  - first:
+      213: 5488169076612300501
+    second: WizardCrewleader_18
+  - first:
+      213: -4695359403164700802
+    second: WizardCrewleader_19
+  - first:
+      213: 8618043066987046122
+    second: WizardCrewleader_20
+  - first:
+      213: 3075983838041763069
+    second: WizardCrewleader_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardCrewleader_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 317
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716a6bcb2b7379c90800000000000000
+      internalID: -7163195441499691497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 286
+        width: 601
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9281e4174a4cd5c70800000000000000
+      internalID: 8961535044091779113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 982
+        width: 68
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c047baf1dc0a710800000000000000
+      internalID: 1702586195050236978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 978
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea14565698ed26d00800000000000000
+      internalID: 964577951903728046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49bb7cb0f8f696e0800000000000000
+      internalID: -1831002485641463474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b78b18cd8d685140800000000000000
+      internalID: 4708633866130917299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeeea0ffe3c54e70800000000000000
+      internalID: 9098894057474551524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24c059ba7d4569c0800000000000000
+      internalID: -3934653509947833298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91218421249ac3330800000000000000
+      internalID: 3692011895776612889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_9
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b44347cc4da1cee0800000000000000
+      internalID: -1242521476905352013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_10
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f578d02355eb9a0e0800000000000000
+      internalID: -2258064465028348065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff58171dc827d5e0800000000000000
+      internalID: -1884993057710383109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c6ac69c48127730800000000000000
+      internalID: 3995282536657480827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea7809e8e50850a0800000000000000
+      internalID: -6892752731790345495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6211472f731672600800000000000000
+      internalID: 443429981238071590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a898072a3cfd3170800000000000000
+      internalID: 8159955426558384295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f464f5357084cd0800000000000000
+      internalID: -2573799132380115044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572b657729b0f5d30800000000000000
+      internalID: 4422266082796417653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de72c692b4e92c40800000000000000
+      internalID: 5488169076612300501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fe399ff7bb6deb0800000000000000
+      internalID: -4695359403164700802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4e7c25280799770800000000000000
+      internalID: 8618043066987046122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCrewleader_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc6251e00710ba20800000000000000
+      internalID: 3075983838041763069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardCrewleader_0: -7163195441499691497
+      WizardCrewleader_1: 8961535044091779113
+      WizardCrewleader_10: -2258064465028348065
+      WizardCrewleader_11: -1884993057710383109
+      WizardCrewleader_12: 3995282536657480827
+      WizardCrewleader_13: -6892752731790345495
+      WizardCrewleader_14: 443429981238071590
+      WizardCrewleader_15: 8159955426558384295
+      WizardCrewleader_16: -2573799132380115044
+      WizardCrewleader_17: 4422266082796417653
+      WizardCrewleader_18: 5488169076612300501
+      WizardCrewleader_19: -4695359403164700802
+      WizardCrewleader_2: 1702586195050236978
+      WizardCrewleader_20: 8618043066987046122
+      WizardCrewleader_21: 3075983838041763069
+      WizardCrewleader_3: 964577951903728046
+      WizardCrewleader_4: -1831002485641463474
+      WizardCrewleader_5: 4708633866130917299
+      WizardCrewleader_6: 9098894057474551524
+      WizardCrewleader_7: -3934653509947833298
+      WizardCrewleader_8: 3692011895776612889
+      WizardCrewleader_9: -1242521476905352013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

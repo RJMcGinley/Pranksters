@@ -498,4 +498,9 @@ public static class SaveSystem
         Save(data);
     }
 
+    public static void ClearSessionNewUnlocks()
+{
+    sessionNewUnlocks.Clear();
+}
+
 }

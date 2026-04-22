@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: f94330dac93f44291b70369e4c7a0d8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3194452102641581043
+    second: EngineerCrewleader_0
+  - first:
+      213: 1925351296621923262
+    second: EngineerCrewleader_1
+  - first:
+      213: 8831183684017638401
+    second: EngineerCrewleader_2
+  - first:
+      213: -5005954498922052698
+    second: EngineerCrewleader_3
+  - first:
+      213: -6596087205265329093
+    second: EngineerCrewleader_4
+  - first:
+      213: -6066116117858225130
+    second: EngineerCrewleader_5
+  - first:
+      213: -508941736204309724
+    second: EngineerCrewleader_6
+  - first:
+      213: -2606279483940571195
+    second: EngineerCrewleader_7
+  - first:
+      213: 450731630674563743
+    second: EngineerCrewleader_8
+  - first:
+      213: 5510101076399805103
+    second: EngineerCrewleader_9
+  - first:
+      213: 1608646871422341338
+    second: EngineerCrewleader_10
+  - first:
+      213: -4456536502807459859
+    second: EngineerCrewleader_11
+  - first:
+      213: -290490675201245587
+    second: EngineerCrewleader_12
+  - first:
+      213: 3502802001741362336
+    second: EngineerCrewleader_13
+  - first:
+      213: -5047148223274814873
+    second: EngineerCrewleader_14
+  - first:
+      213: 3240584730122240595
+    second: EngineerCrewleader_15
+  - first:
+      213: -2468304537205069098
+    second: EngineerCrewleader_16
+  - first:
+      213: -283253213167002031
+    second: EngineerCrewleader_17
+  - first:
+      213: 8101565522110150800
+    second: EngineerCrewleader_18
+  - first:
+      213: 400167982173977907
+    second: EngineerCrewleader_19
+  - first:
+      213: -6164899276459636636
+    second: EngineerCrewleader_20
+  - first:
+      213: 5674372296143565696
+    second: EngineerCrewleader_21
+  - first:
+      213: -3822946633523261907
+    second: EngineerCrewleader_22
+  - first:
+      213: -1092382337193039607
+    second: EngineerCrewleader_23
+  - first:
+      213: -8903523218101406902
+    second: EngineerCrewleader_24
+  - first:
+      213: 9052321505891396275
+    second: EngineerCrewleader_25
+  - first:
+      213: 2932239037777443853
+    second: EngineerCrewleader_26
+  - first:
+      213: 8034897257222324261
+    second: EngineerCrewleader_27
+  - first:
+      213: -3377924861626030463
+    second: EngineerCrewleader_28
+  - first:
+      213: 1707521885794107728
+    second: EngineerCrewleader_29
+  - first:
+      213: -7066574974071821931
+    second: EngineerCrewleader_30
+  - first:
+      213: -1369811457516522231
+    second: EngineerCrewleader_31
+  - first:
+      213: 3903172907480535267
+    second: EngineerCrewleader_32
+  - first:
+      213: -2636746650769912962
+    second: EngineerCrewleader_33
+  - first:
+      213: -848141563627079238
+    second: EngineerCrewleader_34
+  - first:
+      213: 4286460440090519250
+    second: EngineerCrewleader_35
+  - first:
+      213: 812179919651615705
+    second: EngineerCrewleader_36
+  - first:
+      213: -5137670985142991101
+    second: EngineerCrewleader_37
+  - first:
+      213: 6010181931143808130
+    second: EngineerCrewleader_38
+  - first:
+      213: -5472328102694595778
+    second: EngineerCrewleader_39
+  - first:
+      213: -9139910725949320477
+    second: EngineerCrewleader_40
+  - first:
+      213: -1590719029956410087
+    second: EngineerCrewleader_41
+  - first:
+      213: -8028479913943595777
+    second: EngineerCrewleader_42
+  - first:
+      213: -3956373017924594451
+    second: EngineerCrewleader_43
+  - first:
+      213: 7292463240838501826
+    second: EngineerCrewleader_44
+  - first:
+      213: -5381674019903069936
+    second: EngineerCrewleader_45
+  - first:
+      213: 859551971035805581
+    second: EngineerCrewleader_46
+  - first:
+      213: 8691106566117808678
+    second: EngineerCrewleader_47
+  - first:
+      213: -7380494147316012725
+    second: EngineerCrewleader_48
+  - first:
+      213: -3788546497659307555
+    second: EngineerCrewleader_49
+  - first:
+      213: -5917514840365902673
+    second: EngineerCrewleader_50
+  - first:
+      213: 8030780363935078681
+    second: EngineerCrewleader_51
+  - first:
+      213: -605558713159750487
+    second: EngineerCrewleader_52
+  - first:
+      213: 1725005441379046708
+    second: EngineerCrewleader_53
+  - first:
+      213: 948427883161407212
+    second: EngineerCrewleader_54
+  - first:
+      213: 5812810945914067458
+    second: EngineerCrewleader_55
+  - first:
+      213: 1272881922799039528
+    second: EngineerCrewleader_56
+  - first:
+      213: 3322867379044176354
+    second: EngineerCrewleader_57
+  - first:
+      213: -4151909412515059168
+    second: EngineerCrewleader_58
+  - first:
+      213: 3109749699568809324
+    second: EngineerCrewleader_59
+  - first:
+      213: -6229390483245746
+    second: EngineerCrewleader_60
+  - first:
+      213: 6383479315748916897
+    second: EngineerCrewleader_61
+  - first:
+      213: -4862567266395105573
+    second: EngineerCrewleader_62
+  - first:
+      213: -2102803076669829702
+    second: EngineerCrewleader_63
+  - first:
+      213: 336105436449673106
+    second: EngineerCrewleader_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerCrewleader_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d048c02dcb60ba3d0800000000000000
+      internalID: -3194452102641581043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbccf6adc838ba10800000000000000
+      internalID: 1925351296621923262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1081
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cc81065caae8a70800000000000000
+      internalID: 8831183684017638401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 836
+        width: 292
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a38bf9e7e6478ab0800000000000000
+      internalID: -5005954498922052698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3439a662adf574a0800000000000000
+      internalID: -6596087205265329093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614f9ccc783d0dba0800000000000000
+      internalID: -6066116117858225130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1007
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42beb2aff20efe8f0800000000000000
+      internalID: -508941736204309724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c775563e92a4dbd0800000000000000
+      internalID: -2606279483940571195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92d36fa702514600800000000000000
+      internalID: 450731630674563743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 992
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2de473cbfc77c40800000000000000
+      internalID: 5510101076399805103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad01c2c7ecf035610800000000000000
+      internalID: 1608646871422341338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7899599a33722c0800000000000000
+      internalID: -4456536502807459859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ef01e1548f7fbf0800000000000000
+      internalID: -290490675201245587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a43258acd37c9030800000000000000
+      internalID: 3502802001741362336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 970
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762f5fe8e6de4f9b0800000000000000
+      internalID: -5047148223274814873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 963
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352cd7784aed8fc20800000000000000
+      internalID: 3240584730122240595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da286ed912debdd0800000000000000
+      internalID: -2468304537205069098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 313
+        width: 749
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e51bf04bea11cf0800000000000000
+      internalID: -283253213167002031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0987ded1bea8e6070800000000000000
+      internalID: 8101565522110150800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df6fbd8aead8500800000000000000
+      internalID: 400167982173977907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4688f8665c0e17aa0800000000000000
+      internalID: -6164899276459636636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08374fa0a8b6fbe40800000000000000
+      internalID: 5674372296143565696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e0299aa4a22fac0800000000000000
+      internalID: -3822946633523261907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909a2b05d0417d0f0800000000000000
+      internalID: -1092382337193039607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a437f975ec4507480800000000000000
+      internalID: -8903523218101406902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba2947c27e40ad70800000000000000
+      internalID: 9052321505891396275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cf1438ed761b820800000000000000
+      internalID: 2932239037777443853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5204f771c70b18f60800000000000000
+      internalID: 8034897257222324261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e1d04c333f11d0800000000000000
+      internalID: -3377924861626030463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05186f8bb1652b710800000000000000
+      internalID: 1707521885794107728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a8cb508b7eed90800000000000000
+      internalID: -7066574974071821931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905b779acb37dfce0800000000000000
+      internalID: -1369811457516522231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 801
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e05e47541bda2630800000000000000
+      internalID: 3903172907480535267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b882624e4686bd0800000000000000
+      internalID: -2636746650769912962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 794
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab973c4ddbbca34f0800000000000000
+      internalID: -848141563627079238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d62c534f019c7b30800000000000000
+      internalID: 4286460440090519250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_36
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d33a847551754b00800000000000000
+      internalID: 812179919651615705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 797
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30788b5a57353b8b0800000000000000
+      internalID: -5137670985142991101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2844c418f94786350800000000000000
+      internalID: 6010181931143808130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33508095926e04b0800000000000000
+      internalID: -5472328102694595778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 800
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2120dbe93882180800000000000000
+      internalID: -9139910725949320477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9158ef16871ace9e0800000000000000
+      internalID: -1590719029956410087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff488031e0c159090800000000000000
+      internalID: -8028479913943595777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de41aa3b3b32819c0800000000000000
+      internalID: -3956373017924594451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5d5cf2ea8043560800000000000000
+      internalID: 7292463240838501826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_45
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011aab20ef37055b0800000000000000
+      internalID: -5381674019903069936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87739ba6fdbdeb00800000000000000
+      internalID: 859551971035805581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a548adf530d9870800000000000000
+      internalID: 8691106566117808678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4921623da7339990800000000000000
+      internalID: -7380494147316012725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd977ff68016c6bc0800000000000000
+      internalID: -3788546497659307555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_50
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa453e2ea93c0eda0800000000000000
+      internalID: -5917514840365902673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919588d2130137f60800000000000000
+      internalID: 8030780363935078681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_52
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac687b0f8f9897f0800000000000000
+      internalID: -605558713159750487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_53
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43593093f4370f710800000000000000
+      internalID: 1725005441379046708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_54
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee49ee722e792d00800000000000000
+      internalID: 948427883161407212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_55
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ad5b9f1c04ba050800000000000000
+      internalID: 5812810945914067458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_56
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824f3716d5f2aa110800000000000000
+      internalID: 1272881922799039528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e159a3a6423d1e20800000000000000
+      internalID: 3322867379044176354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a607713647166c0800000000000000
+      internalID: -4151909412515059168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_59
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c653d2720ec082b20800000000000000
+      internalID: 3109749699568809324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_60
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e453411076ed9eff0800000000000000
+      internalID: -6229390483245746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_61
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae8446dd9ca69850800000000000000
+      internalID: 6383479315748916897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_62
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6d31e85d0b48cb0800000000000000
+      internalID: -4862567266395105573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_63
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd0f7e2eb751d2e0800000000000000
+      internalID: -2102803076669829702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCrewleader_64
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f09aa1d161aa400800000000000000
+      internalID: 336105436449673106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerCrewleader_0: -3194452102641581043
+      EngineerCrewleader_1: 1925351296621923262
+      EngineerCrewleader_10: 1608646871422341338
+      EngineerCrewleader_11: -4456536502807459859
+      EngineerCrewleader_12: -290490675201245587
+      EngineerCrewleader_13: 3502802001741362336
+      EngineerCrewleader_14: -5047148223274814873
+      EngineerCrewleader_15: 3240584730122240595
+      EngineerCrewleader_16: -2468304537205069098
+      EngineerCrewleader_17: -283253213167002031
+      EngineerCrewleader_18: 8101565522110150800
+      EngineerCrewleader_19: 400167982173977907
+      EngineerCrewleader_2: 8831183684017638401
+      EngineerCrewleader_20: -6164899276459636636
+      EngineerCrewleader_21: 5674372296143565696
+      EngineerCrewleader_22: -3822946633523261907
+      EngineerCrewleader_23: -1092382337193039607
+      EngineerCrewleader_24: -8903523218101406902
+      EngineerCrewleader_25: 9052321505891396275
+      EngineerCrewleader_26: 2932239037777443853
+      EngineerCrewleader_27: 8034897257222324261
+      EngineerCrewleader_28: -3377924861626030463
+      EngineerCrewleader_29: 1707521885794107728
+      EngineerCrewleader_3: -5005954498922052698
+      EngineerCrewleader_30: -7066574974071821931
+      EngineerCrewleader_31: -1369811457516522231
+      EngineerCrewleader_32: 3903172907480535267
+      EngineerCrewleader_33: -2636746650769912962
+      EngineerCrewleader_34: -848141563627079238
+      EngineerCrewleader_35: 4286460440090519250
+      EngineerCrewleader_36: 812179919651615705
+      EngineerCrewleader_37: -5137670985142991101
+      EngineerCrewleader_38: 6010181931143808130
+      EngineerCrewleader_39: -5472328102694595778
+      EngineerCrewleader_4: -6596087205265329093
+      EngineerCrewleader_40: -9139910725949320477
+      EngineerCrewleader_41: -1590719029956410087
+      EngineerCrewleader_42: -8028479913943595777
+      EngineerCrewleader_43: -3956373017924594451
+      EngineerCrewleader_44: 7292463240838501826
+      EngineerCrewleader_45: -5381674019903069936
+      EngineerCrewleader_46: 859551971035805581
+      EngineerCrewleader_47: 8691106566117808678
+      EngineerCrewleader_48: -7380494147316012725
+      EngineerCrewleader_49: -3788546497659307555
+      EngineerCrewleader_5: -6066116117858225130
+      EngineerCrewleader_50: -5917514840365902673
+      EngineerCrewleader_51: 8030780363935078681
+      EngineerCrewleader_52: -605558713159750487
+      EngineerCrewleader_53: 1725005441379046708
+      EngineerCrewleader_54: 948427883161407212
+      EngineerCrewleader_55: 5812810945914067458
+      EngineerCrewleader_56: 1272881922799039528
+      EngineerCrewleader_57: 3322867379044176354
+      EngineerCrewleader_58: -4151909412515059168
+      EngineerCrewleader_59: 3109749699568809324
+      EngineerCrewleader_6: -508941736204309724
+      EngineerCrewleader_60: -6229390483245746
+      EngineerCrewleader_61: 6383479315748916897
+      EngineerCrewleader_62: -4862567266395105573
+      EngineerCrewleader_63: -2102803076669829702
+      EngineerCrewleader_64: 336105436449673106
+      EngineerCrewleader_7: -2606279483940571195
+      EngineerCrewleader_8: 450731630674563743
+      EngineerCrewleader_9: 5510101076399805103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

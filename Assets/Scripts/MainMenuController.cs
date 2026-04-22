@@ -9,6 +9,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject gameCanvas;
     public GameObject playerCountPanel;
     public MainMenuPlayerSetup playerSetup;
+    public UnlockRevealPanelController unlockRevealPanelController;
 
     [Header("Prank Collection")]
     public GameObject prankCollectionScreen;
@@ -17,6 +18,7 @@ public class MainMenuController : MonoBehaviour
 
     [Header("Statistics")]
     [SerializeField] private GameObject statisticsScreen;
+
 
 
     public void OpenPlaySetup()
@@ -187,43 +189,59 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void ReturnToMainMenu()
+{
+    Debug.Log("ReturnToMainMenu START");
+
+    SettingsMenuController settings = FindFirstObjectByType<SettingsMenuController>();
+    if (settings != null)
+        settings.CloseSettings();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayBackClick();
+
+    Debug.Log("Returning to main menu");
+
+    if (gameCanvas != null)
     {
-        SettingsMenuController settings = FindFirstObjectByType<SettingsMenuController>();
-        if (settings != null)
-            settings.CloseSettings();
-
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayBackClick();
-
-        Debug.Log("Returning to main menu");
-
-        if (gameCanvas != null)
-        {
-            gameCanvas.SetActive(false);
-            Debug.Log("gameCanvas was set to false");
-        }
-
-        if (endGameCanvas != null)
-            endGameCanvas.SetActive(false);
-
-        if (mainGame != null)
-            mainGame.SetActive(false);
-
-        if (playerCountPanel != null)
-            playerCountPanel.SetActive(false);
-
-        if (prankCollectionScreen != null)
-            prankCollectionScreen.SetActive(false);
-
-        if (statisticsScreen != null)
-            statisticsScreen.SetActive(false);
-
-        if (mainMenuButtonsRoot != null)
-            mainMenuButtonsRoot.SetActive(true);
-
-        if (mainMenuCanvas != null)
-            mainMenuCanvas.SetActive(true);
+        gameCanvas.SetActive(false);
+        Debug.Log("gameCanvas was set to false");
     }
+
+    if (endGameCanvas != null)
+    {
+        endGameCanvas.SetActive(false);
+        Debug.Log("endGameCanvas was set to false");
+    }
+
+    if (mainGame != null)
+    {
+        mainGame.SetActive(false);
+        Debug.Log("mainGame was set to false");
+    }
+
+    if (playerCountPanel != null)
+        playerCountPanel.SetActive(false);
+
+    if (prankCollectionScreen != null)
+        prankCollectionScreen.SetActive(false);
+
+    if (statisticsScreen != null)
+        statisticsScreen.SetActive(false);
+
+    if (mainMenuButtonsRoot != null)
+    {
+        mainMenuButtonsRoot.SetActive(true);
+        Debug.Log("mainMenuButtonsRoot was set to true");
+    }
+
+    if (mainMenuCanvas != null)
+    {
+        mainMenuCanvas.SetActive(true);
+        Debug.Log("mainMenuCanvas was set to true");
+    }
+
+    Debug.Log("ReturnToMainMenu END");
+}
 
     public void QuitGame()
     {
@@ -276,11 +294,30 @@ public void ReturnToMainMenuFromEndGame()
 
     if (newUnlocks != null && newUnlocks.Count > 0)
     {
-        ShowUnlockScreen(newUnlocks);
+        if (unlockRevealPanelController == null)
+        {
+            Debug.LogWarning("unlockRevealPanelController is not assigned. Returning to main menu without unlock reveal.");
+            ReturnToMainMenu();
+            return;
+        }
+
+        if (endGameCanvas != null)
+            endGameCanvas.SetActive(false);
+
+        unlockRevealPanelController.ShowUnlocks(newUnlocks, OnUnlockSequenceFinished);
         return;
     }
 
     ReturnToMainMenu();
+}
+
+private void OnUnlockSequenceFinished()
+{
+    Debug.Log("OnUnlockSequenceFinished START");
+    SaveSystem.ClearSessionNewUnlocks();
+    Debug.Log("OnUnlockSequenceFinished | session unlocks cleared");
+    ReturnToMainMenu();
+    Debug.Log("OnUnlockSequenceFinished END");
 }
 
 private void ShowUnlockScreen(List<PranksterUnlockEntry> unlocks)

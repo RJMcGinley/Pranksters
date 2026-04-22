@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class PranksterSpriteDatabase : MonoBehaviour
 {
-    // Base
+    private const string BasePath = "UnlockCards/";
+
+    // ===== EXISTING STATIC REFERENCES (KEEP THESE) =====
+
     public static Sprite thief;
     public static Sprite wizard;
     public static Sprite engineer;
@@ -10,7 +13,6 @@ public class PranksterSpriteDatabase : MonoBehaviour
     public static Sprite laborer;
     public static Sprite scribe;
 
-    // Crew Leader
     public static Sprite thiefCrewLeader;
     public static Sprite wizardCrewLeader;
     public static Sprite engineerCrewLeader;
@@ -18,7 +20,6 @@ public class PranksterSpriteDatabase : MonoBehaviour
     public static Sprite laborerCrewLeader;
     public static Sprite scribeCrewLeader;
 
-    // Expert
     public static Sprite thiefExpert;
     public static Sprite wizardExpert;
     public static Sprite engineerExpert;
@@ -26,13 +27,14 @@ public class PranksterSpriteDatabase : MonoBehaviour
     public static Sprite laborerExpert;
     public static Sprite scribeExpert;
 
-    // Master
     public static Sprite thiefMaster;
     public static Sprite wizardMaster;
     public static Sprite engineerMaster;
     public static Sprite beastMasterMaster;
     public static Sprite laborerMaster;
     public static Sprite scribeMaster;
+
+    // ===== PUBLIC API =====
 
     public static Sprite GetSprite(PranksterType type)
     {
@@ -41,63 +43,124 @@ public class PranksterSpriteDatabase : MonoBehaviour
 
     public static Sprite GetSprite(PranksterType type, int tier)
     {
+        // 1. Try existing assigned sprites first (your current system)
+        Sprite assigned = GetAssignedSprite(type, tier);
+        if (assigned != null)
+            return assigned;
+
+        // 2. Fallback to Resources system (new system)
+        return LoadFromResources(type.ToString(), tier);
+    }
+
+    public static Sprite GetSprite(string pranksterType, int tier)
+    {
+        // Used by unlock system directly
+        return LoadFromResources(pranksterType, tier);
+    }
+
+    // ===== EXISTING LOGIC (UNCHANGED BEHAVIOR) =====
+
+    private static Sprite GetAssignedSprite(PranksterType type, int tier)
+    {
         switch (type)
         {
             case PranksterType.Thief:
-                switch (tier)
-                {
-                    case 1: return thiefCrewLeader != null ? thiefCrewLeader : thief;
-                    case 2: return thiefExpert != null ? thiefExpert : thief;
-                    case 3: return thiefMaster != null ? thiefMaster : thief;
-                    default: return thief;
-                }
+                return GetTierSprite(thief, thiefCrewLeader, thiefExpert, thiefMaster, tier);
 
             case PranksterType.Wizard:
-                switch (tier)
-                {
-                    case 1: return wizardCrewLeader != null ? wizardCrewLeader : wizard;
-                    case 2: return wizardExpert != null ? wizardExpert : wizard;
-                    case 3: return wizardMaster != null ? wizardMaster : wizard;
-                    default: return wizard;
-                }
+                return GetTierSprite(wizard, wizardCrewLeader, wizardExpert, wizardMaster, tier);
 
             case PranksterType.Engineer:
-                switch (tier)
-                {
-                    case 1: return engineerCrewLeader != null ? engineerCrewLeader : engineer;
-                    case 2: return engineerExpert != null ? engineerExpert : engineer;
-                    case 3: return engineerMaster != null ? engineerMaster : engineer;
-                    default: return engineer;
-                }
+                return GetTierSprite(engineer, engineerCrewLeader, engineerExpert, engineerMaster, tier);
 
             case PranksterType.BeastMaster:
-                switch (tier)
-                {
-                    case 1: return beastMasterCrewLeader != null ? beastMasterCrewLeader : beastMaster;
-                    case 2: return beastMasterExpert != null ? beastMasterExpert : beastMaster;
-                    case 3: return beastMasterMaster != null ? beastMasterMaster : beastMaster;
-                    default: return beastMaster;
-                }
+                return GetTierSprite(beastMaster, beastMasterCrewLeader, beastMasterExpert, beastMasterMaster, tier);
 
             case PranksterType.Laborer:
-                switch (tier)
-                {
-                    case 1: return laborerCrewLeader != null ? laborerCrewLeader : laborer;
-                    case 2: return laborerExpert != null ? laborerExpert : laborer;
-                    case 3: return laborerMaster != null ? laborerMaster : laborer;
-                    default: return laborer;
-                }
+                return GetTierSprite(laborer, laborerCrewLeader, laborerExpert, laborerMaster, tier);
 
             case PranksterType.Scribe:
-                switch (tier)
-                {
-                    case 1: return scribeCrewLeader != null ? scribeCrewLeader : scribe;
-                    case 2: return scribeExpert != null ? scribeExpert : scribe;
-                    case 3: return scribeMaster != null ? scribeMaster : scribe;
-                    default: return scribe;
-                }
+                return GetTierSprite(scribe, scribeCrewLeader, scribeExpert, scribeMaster, tier);
         }
 
         return null;
+    }
+
+    private static Sprite GetTierSprite(Sprite baseSprite, Sprite t1, Sprite t2, Sprite t3, int tier)
+    {
+        switch (tier)
+        {
+            case 1: return t1 != null ? t1 : baseSprite;
+            case 2: return t2 != null ? t2 : baseSprite;
+            case 3: return t3 != null ? t3 : baseSprite;
+            default: return baseSprite;
+        }
+    }
+
+    // ===== NEW RESOURCE LOADING SYSTEM =====
+
+    private static Sprite LoadFromResources(string pranksterType, int tier)
+    {
+        string normalized = NormalizePranksterType(pranksterType);
+        string resourceName = GetResourceName(normalized, tier);
+
+        Sprite sprite = Resources.Load<Sprite>(BasePath + resourceName);
+
+        if (sprite == null && tier > 0)
+        {
+            Debug.LogWarning("Missing unlock sprite: " + resourceName + " → falling back to base");
+            sprite = Resources.Load<Sprite>(BasePath + normalized);
+        }
+
+        if (sprite == null)
+        {
+            Debug.LogError("Missing base sprite: " + normalized);
+        }
+
+        return sprite;
+    }
+
+    private static string GetResourceName(string pranksterType, int tier)
+    {
+        switch (tier)
+        {
+            case 1: return pranksterType + "Crewleader";
+            case 2: return pranksterType + "Expert";
+            case 3: return pranksterType + "Master";
+            default: return pranksterType;
+        }
+    }
+
+    private static string NormalizePranksterType(string type)
+    {
+        switch (type)
+        {
+            case "BeastMaster": return "Beastmaster";
+            default: return type;
+        }
+    }
+
+    // ===== UI HELPERS =====
+
+    public static string GetTierTitle(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return "Crew Leader";
+            case 2: return "Expert";
+            case 3: return "Master";
+            default: return "Base";
+        }
+    }
+
+    public static string GetTierFlavorText(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return "+1 Prank points when used to complete a prank";
+            case 2: return "+3 Prank points when used to complete a prank";
+            case 3: return "+5 Prank points when used to complete a prank";
+            default: return "";
+        }
     }
 }

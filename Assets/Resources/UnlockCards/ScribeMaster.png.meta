@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: dcd8f3f3705554957bae59bd7aa44797
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4410091609132168815
+    second: ScribeMaster_0
+  - first:
+      213: -6878627840559240252
+    second: ScribeMaster_1
+  - first:
+      213: -5593351731577167191
+    second: ScribeMaster_2
+  - first:
+      213: -2235228249885661261
+    second: ScribeMaster_3
+  - first:
+      213: -5108839280055426397
+    second: ScribeMaster_4
+  - first:
+      213: -8150952433894032269
+    second: ScribeMaster_5
+  - first:
+      213: 2940127343037969688
+    second: ScribeMaster_6
+  - first:
+      213: -8679338039648245653
+    second: ScribeMaster_7
+  - first:
+      213: 7921716404441738005
+    second: ScribeMaster_8
+  - first:
+      213: -5395500063537388574
+    second: ScribeMaster_9
+  - first:
+      213: 3184193674299918514
+    second: ScribeMaster_10
+  - first:
+      213: 6940578884573897294
+    second: ScribeMaster_11
+  - first:
+      213: -6651012726023870303
+    second: ScribeMaster_12
+  - first:
+      213: -4195075517237621575
+    second: ScribeMaster_13
+  - first:
+      213: 2930529383685315358
+    second: ScribeMaster_14
+  - first:
+      213: -4048983418675190472
+    second: ScribeMaster_15
+  - first:
+      213: -3464147268883644606
+    second: ScribeMaster_16
+  - first:
+      213: 8360810761628396502
+    second: ScribeMaster_17
+  - first:
+      213: 1137904147348287983
+    second: ScribeMaster_18
+  - first:
+      213: 4393024639140600672
+    second: ScribeMaster_19
+  - first:
+      213: 8107803608265848224
+    second: ScribeMaster_20
+  - first:
+      213: -5149351840703228479
+    second: ScribeMaster_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeMaster_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 357
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66f04de3fac33d30800000000000000
+      internalID: 4410091609132168815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 308
+        width: 368
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbaa5d6c643a80a0800000000000000
+      internalID: -6878627840559240252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 947
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2e6872c3c6062b0800000000000000
+      internalID: -5593351731577167191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 812
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a5addfbfdaf0e0800000000000000
+      internalID: -2235228249885661261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 805
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2ebb91eb1c919b0800000000000000
+      internalID: -5108839280055426397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 784
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cf3ac62fff1ee80800000000000000
+      internalID: -8150952433894032269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 777
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815f034bd3e6dc820800000000000000
+      internalID: 2940127343037969688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 689
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b682b3db90ccc8780800000000000000
+      internalID: -8679338039648245653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 215
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b622a49179fed60800000000000000
+      internalID: 7921716404441738005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 214
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3a14f57455f15b0800000000000000
+      internalID: -5395500063537388574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 213
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b841b4b647803c20800000000000000
+      internalID: 3184193674299918514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_11
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 214
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42aa9609b3e15060800000000000000
+      internalID: 6940578884573897294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 214
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8aebc0a2bd2b3a0800000000000000
+      internalID: -6651012726023870303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 215
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc0d152b0918c5c0800000000000000
+      internalID: -4195075517237621575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 96
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b5866a2f45ba820800000000000000
+      internalID: 2930529383685315358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 89
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8352b6c780f1fc7c0800000000000000
+      internalID: -4048983418675190472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ffc8ca960ecefc0800000000000000
+      internalID: -3464147268883644606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbaf191711970470800000000000000
+      internalID: 8360810761628396502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1732b0bc5aacf00800000000000000
+      internalID: 1137904147348287983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b938152a827fc30800000000000000
+      internalID: 4393024639140600672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5f05bbc64b48070800000000000000
+      internalID: 8107803608265848224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeMaster_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5516788c3d988b0800000000000000
+      internalID: -5149351840703228479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeMaster_0: 4410091609132168815
+      ScribeMaster_1: -6878627840559240252
+      ScribeMaster_10: 3184193674299918514
+      ScribeMaster_11: 6940578884573897294
+      ScribeMaster_12: -6651012726023870303
+      ScribeMaster_13: -4195075517237621575
+      ScribeMaster_14: 2930529383685315358
+      ScribeMaster_15: -4048983418675190472
+      ScribeMaster_16: -3464147268883644606
+      ScribeMaster_17: 8360810761628396502
+      ScribeMaster_18: 1137904147348287983
+      ScribeMaster_19: 4393024639140600672
+      ScribeMaster_2: -5593351731577167191
+      ScribeMaster_20: 8107803608265848224
+      ScribeMaster_21: -5149351840703228479
+      ScribeMaster_3: -2235228249885661261
+      ScribeMaster_4: -5108839280055426397
+      ScribeMaster_5: -8150952433894032269
+      ScribeMaster_6: 2940127343037969688
+      ScribeMaster_7: -8679338039648245653
+      ScribeMaster_8: 7921716404441738005
+      ScribeMaster_9: -5395500063537388574
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

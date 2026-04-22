@@ -43,6 +43,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip menuClickClip;
     public AudioClip confirmClickClip;
     public AudioClip backClickClip;
+    
+    [Header("Unlock / Reveal")]
+    public AudioClip unlockRevealClip;
 
     void Awake()
     {
@@ -290,6 +293,12 @@ public class AudioManager : MonoBehaviour
 
         lastSwapCompleteVoiceIndex = index;
         sfxSource.PlayOneShot(swapCompleteVoiceClips[index]);
+    }
+
+    public void PlayUnlockReveal()
+    {
+        if (unlockRevealClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(unlockRevealClip);
     }
     
 }
