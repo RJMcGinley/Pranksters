@@ -151,6 +151,8 @@ public class DeckManager : MonoBehaviour
 {
     deck.Clear();
 
+    Debug.Log("BUILD DECK START");
+
     PranksterType[] pranksters =
     {
         PranksterType.Thief,
@@ -186,6 +188,16 @@ public class DeckManager : MonoBehaviour
                     category = PranksterUnlockCategory.FavorOffer
                 });
             }
+
+            if (SaveSystem.IsPranksterUnlockUsable(prankster.ToString(), tier, PranksterUnlockCategory.Discard))
+            {
+                usableUnlockCards.Add(new PranksterDeckEntry
+                {
+                    pranksterType = prankster,
+                    tier = tier,
+                    category = PranksterUnlockCategory.Discard
+                });
+            }
         }
 
         int baseCardCount = 9 - usableUnlockCards.Count;
@@ -193,6 +205,11 @@ public class DeckManager : MonoBehaviour
         if (baseCardCount < 0)
             baseCardCount = 0;
 
+        Debug.Log("BUILD DECK | " + prankster +
+                  " | unlocks=" + usableUnlockCards.Count +
+                  " | base=" + baseCardCount);
+
+        // Add base cards
         for (int i = 0; i < baseCardCount; i++)
         {
             deck.Add(new PranksterDeckEntry
@@ -203,16 +220,25 @@ public class DeckManager : MonoBehaviour
             });
         }
 
+        // Add unlocked cards
         for (int i = 0; i < usableUnlockCards.Count; i++)
         {
+            PranksterDeckEntry unlock = usableUnlockCards[i];
+
             deck.Add(new PranksterDeckEntry
             {
-                pranksterType = usableUnlockCards[i].pranksterType,
-                tier = usableUnlockCards[i].tier,
-                category = usableUnlockCards[i].category
+                pranksterType = unlock.pranksterType,
+                tier = unlock.tier,
+                category = unlock.category
             });
+
+            Debug.Log("  + UNLOCK | type=" + unlock.pranksterType +
+                      " | tier=" + unlock.tier +
+                      " | category=" + unlock.category);
         }
     }
+
+    Debug.Log("BUILD DECK COMPLETE | total cards = " + deck.Count);
 }
 
 
@@ -605,12 +631,39 @@ public class DeckManager : MonoBehaviour
         player1DiscardCountsThisGame[cardType]++;
     }
 
+    int discardFavorBonus = 0;
+    int discardRenownBonus = 0;
+
+    if (card.category == PranksterUnlockCategory.Discard)
+    {
+        discardFavorBonus = PranksterUnlockRules.GetDiscardFavorBonus(card);
+        discardRenownBonus = PranksterUnlockRules.GetDiscardRenownBonus(card);
+    }
+
+    if (discardFavorBonus > 0)
+        player.favorPoints += discardFavorBonus;
+
+    if (discardRenownBonus > 0)
+        player.renownPoints += discardRenownBonus;
+
     player.hand.RemoveAt(handIndex);
     discardPile.Add(card);
 
     discardPileDisplay.UpdateTopDiscardCard();
 
-    Debug.Log("Discarded: " + cardType + " | tier=" + card.tier);
+    Debug.Log("Discarded: " + cardType +
+              " | tier=" + card.tier +
+              " | category=" + card.category);
+
+    Debug.Log("Discard bonuses | favor=" + discardFavorBonus +
+              " | renown=" + discardRenownBonus);
+
+    Debug.Log("Progression tracking | discard count recorded for " + cardType +
+              " | no favor progression added from discard bonuses");
+
+    Debug.Log("Player totals after discard | favor=" + player.favorPoints +
+              " | renown=" + player.renownPoints);
+
     RefreshAllDisplays();
 }
 
@@ -1162,15 +1215,20 @@ void ResetRound()
             deck.Add(new PranksterDeckEntry
             {
                 pranksterType = entry.pranksterType,
-                tier = entry.tier
+                tier = entry.tier,
+                category = entry.category
             });
         }
         player.hand.Clear();
 
-        // favorArea still assumed to be List<PranksterType>
         foreach (PranksterDeckEntry entry in player.favorArea)
         {
-            deck.Add(entry);
+            deck.Add(new PranksterDeckEntry
+            {
+                pranksterType = entry.pranksterType,
+                tier = entry.tier,
+                category = entry.category
+            });
         }
         player.favorArea.Clear();
     }
@@ -1181,7 +1239,8 @@ void ResetRound()
         deck.Add(new PranksterDeckEntry
         {
             pranksterType = entry.pranksterType,
-            tier = entry.tier
+            tier = entry.tier,
+            category = entry.category
         });
     }
     discardPile.Clear();
@@ -1551,7 +1610,8 @@ public void ResolveSwapTargetChoice(int favorSlotIndex)
     tempSwapHand.Add(new PranksterDeckEntry
     {
         pranksterType = pendingIncomingPrankster.pranksterType,
-        tier = pendingIncomingPrankster.tier
+        tier = pendingIncomingPrankster.tier,
+        category = pendingIncomingPrankster.category
     });
 
     isInSwapHandSelection = true;
@@ -1606,21 +1666,23 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
     currentPlayer.hand[selectedSwapHandIndex] = new PranksterDeckEntry
     {
         pranksterType = favorCard.pranksterType,
-        tier = favorCard.tier
+        tier = favorCard.tier,
+        category = favorCard.category
     };
 
     targetPlayer.favorArea[targetFavorIndex] = new PranksterDeckEntry
     {
         pranksterType = handCard.pranksterType,
-        tier = handCard.tier
+        tier = handCard.tier,
+        category = handCard.category
     };
 
     currentPlayer.hand.Sort((a, b) => a.pranksterType.ToString().CompareTo(b.pranksterType.ToString()));
 
     Debug.Log("Swapped " + handCard.pranksterType +
-              " (tier " + handCard.tier + ")" +
+              " (tier " + handCard.tier + ", category " + handCard.category + ")" +
               " from hand with " + favorCard.pranksterType +
-              " (tier " + favorCard.tier + ")" +
+              " (tier " + favorCard.tier + ", category " + favorCard.category + ")" +
               " from Player " + (targetPlayerIndex + 1) +
               "'s favor slot " + (targetFavorIndex + 1) + ".");
 
@@ -2050,7 +2112,8 @@ void ReshuffleDiscardIntoDeck()
         deck.Add(new PranksterDeckEntry
         {
             pranksterType = card.pranksterType,
-            tier = card.tier
+            tier = card.tier,
+            category = card.category
         });
     }
 
@@ -2697,7 +2760,8 @@ IEnumerator ResetRoundSequence()
             deck.Add(new PranksterDeckEntry
             {
                 pranksterType = entry.pranksterType,
-                tier = entry.tier
+                tier = entry.tier,
+                category = entry.category
             });
         }
         player.hand.Clear();
@@ -2707,7 +2771,8 @@ IEnumerator ResetRoundSequence()
             deck.Add(new PranksterDeckEntry
             {
                 pranksterType = entry.pranksterType,
-                tier = entry.tier
+                tier = entry.tier,
+                category = entry.category
             });
         }
         player.favorArea.Clear();
@@ -2718,7 +2783,8 @@ IEnumerator ResetRoundSequence()
         deck.Add(new PranksterDeckEntry
         {
             pranksterType = entry.pranksterType,
-            tier = entry.tier
+            tier = entry.tier,
+            category = entry.category
         });
     }
     discardPile.Clear();
@@ -3133,22 +3199,24 @@ public bool BotSwapWithOpponentFavor(int opponentIndex, int opponentFavorIndex, 
     opponent.favorArea[opponentFavorIndex] = new PranksterDeckEntry
     {
         pranksterType = givenCard.pranksterType,
-        tier = givenCard.tier
+        tier = givenCard.tier,
+        category = givenCard.category
     };
 
     currentPlayer.hand[handIndexToGive] = new PranksterDeckEntry
     {
         pranksterType = gainedCard.pranksterType,
-        tier = gainedCard.tier
+        tier = gainedCard.tier,
+        category = gainedCard.category
     };
 
     SortCurrentPlayerHand();
     RefreshAllDisplays();
 
     Debug.Log("BOT SWAP: Gained " + gainedCard.pranksterType +
-              " (tier " + gainedCard.tier + ")" +
+              " (tier " + gainedCard.tier + ", category " + gainedCard.category + ")" +
               " and gave " + givenCard.pranksterType +
-              " (tier " + givenCard.tier + ")");
+              " (tier " + givenCard.tier + ", category " + givenCard.category + ")");
 
     return true;
 }
@@ -3355,6 +3423,7 @@ void ApplyPlayer1MatchResultsToSave()
     Debug.Log("ABOUT TO EVALUATE UNLOCKS");
     List<PranksterUnlockEntry> newUnlocks = SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress(player1ProgressSave);
     List<PranksterUnlockEntry> newFavorUnlocks = SaveSystem.EvaluateFavorUnlocks(player1ProgressSave);
+    List<PranksterUnlockEntry> newDiscardUnlocks = SaveSystem.EvaluateDiscardUnlocks(player1ProgressSave);
     Debug.Log("UNLOCK EVALUATION FINISHED");
 
     if (newUnlocks != null)

@@ -186,7 +186,27 @@ public class PranksterSpriteDatabase : MonoBehaviour
         }
     }
 
+    public static string GetDiscardTierTitle(int tier)
+{
+    switch (tier)
+    {
+        case 1: return "Hustler";
+        case 2: return "Opportunist";
+        case 3: return "Manipulator";
+        default: return "Base";
+    }
+}
 
+public static string GetDiscardTierFlavorText(int tier)
+{
+    switch (tier)
+    {
+        case 1: return "+1 Favor point when discarded";
+        case 2: return "+1 Favor point and +1 Renown when discarded";
+        case 3: return "+2 Favor points and +2 Renown when discarded";
+        default: return "";
+    }
+}
 
 
 }

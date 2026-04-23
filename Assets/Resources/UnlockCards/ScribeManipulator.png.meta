@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 7a9e0447ce73d42fb8ab3b5a32baf23b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3829569237655379887
+    second: ScribeManipulator_0
+  - first:
+      213: 8309228402595764931
+    second: ScribeManipulator_1
+  - first:
+      213: 2157782140261078159
+    second: ScribeManipulator_2
+  - first:
+      213: -5794185138277949972
+    second: ScribeManipulator_3
+  - first:
+      213: 8782952265618482078
+    second: ScribeManipulator_4
+  - first:
+      213: 5759679413380610486
+    second: ScribeManipulator_5
+  - first:
+      213: 1452405105321920390
+    second: ScribeManipulator_6
+  - first:
+      213: 3596398888955313002
+    second: ScribeManipulator_7
+  - first:
+      213: -6461621911669469222
+    second: ScribeManipulator_8
+  - first:
+      213: 3033958613203483095
+    second: ScribeManipulator_9
+  - first:
+      213: 8614720645333737315
+    second: ScribeManipulator_10
+  - first:
+      213: -5204183102077920855
+    second: ScribeManipulator_11
+  - first:
+      213: 4018718363499157863
+    second: ScribeManipulator_12
+  - first:
+      213: 494196671402671339
+    second: ScribeManipulator_13
+  - first:
+      213: -8383298811719643316
+    second: ScribeManipulator_14
+  - first:
+      213: 9221900414445835633
+    second: ScribeManipulator_15
+  - first:
+      213: -3146596032407714836
+    second: ScribeManipulator_16
+  - first:
+      213: 6984989565059290778
+    second: ScribeManipulator_17
+  - first:
+      213: -6008659133927422193
+    second: ScribeManipulator_18
+  - first:
+      213: 5074168685009915179
+    second: ScribeManipulator_19
+  - first:
+      213: 7357795998120016618
+    second: ScribeManipulator_20
+  - first:
+      213: -3405777174757561177
+    second: ScribeManipulator_21
+  - first:
+      213: -3504659525341396338
+    second: ScribeManipulator_22
+  - first:
+      213: 3446530426645145404
+    second: ScribeManipulator_23
+  - first:
+      213: 2689286211833105389
+    second: ScribeManipulator_24
+  - first:
+      213: 1420468994308977560
+    second: ScribeManipulator_25
+  - first:
+      213: 21476130234732328
+    second: ScribeManipulator_26
+  - first:
+      213: 8219253275811643026
+    second: ScribeManipulator_27
+  - first:
+      213: -1557520735724836941
+    second: ScribeManipulator_28
+  - first:
+      213: -6331689230282665511
+    second: ScribeManipulator_29
+  - first:
+      213: -6019260950252937472
+    second: ScribeManipulator_30
+  - first:
+      213: -9034173032951918291
+    second: ScribeManipulator_31
+  - first:
+      213: -686507532471244303
+    second: ScribeManipulator_32
+  - first:
+      213: 7031748939930515655
+    second: ScribeManipulator_33
+  - first:
+      213: 8996221401562477616
+    second: ScribeManipulator_34
+  - first:
+      213: -6612722919463801063
+    second: ScribeManipulator_35
+  - first:
+      213: -3766028071032344130
+    second: ScribeManipulator_36
+  - first:
+      213: 7959968238963223142
+    second: ScribeManipulator_37
+  - first:
+      213: 5993276427070440403
+    second: ScribeManipulator_38
+  - first:
+      213: -993341967602799870
+    second: ScribeManipulator_39
+  - first:
+      213: 2148742508277697439
+    second: ScribeManipulator_40
+  - first:
+      213: -6056004872228480371
+    second: ScribeManipulator_41
+  - first:
+      213: -1787481857896441301
+    second: ScribeManipulator_42
+  - first:
+      213: 6378633725487159978
+    second: ScribeManipulator_43
+  - first:
+      213: -3884346817561907954
+    second: ScribeManipulator_44
+  - first:
+      213: 1436129104493837218
+    second: ScribeManipulator_45
+  - first:
+      213: -5978726823896496853
+    second: ScribeManipulator_46
+  - first:
+      213: -5744319990829333753
+    second: ScribeManipulator_47
+  - first:
+      213: -8987806955230466837
+    second: ScribeManipulator_48
+  - first:
+      213: 5752162854027975361
+    second: ScribeManipulator_49
+  - first:
+      213: -7938053265986218572
+    second: ScribeManipulator_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeManipulator_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 357
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf56358eec552530800000000000000
+      internalID: 3829569237655379887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 308
+        width: 368
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca9e4e353f405370800000000000000
+      internalID: 8309228402595764931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 947
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8491f49c6bf1fd10800000000000000
+      internalID: 2157782140261078159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 812
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced581ec05be69fa0800000000000000
+      internalID: -5794185138277949972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 805
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e66f2d8053e970800000000000000
+      internalID: 8782952265618482078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 784
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b97eae09ed7eef40800000000000000
+      internalID: 5759679413380610486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 777
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6874da48fbaf72410800000000000000
+      internalID: 1452405105321920390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 689
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b7ac62cb9f8e130800000000000000
+      internalID: 3596398888955313002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 233
+        width: 108
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8f024b15b356a0800000000000000
+      internalID: -6461621911669469222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9fa3bb849ca1a20800000000000000
+      internalID: 3033958613203483095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 233
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f5750c8c2ad8770800000000000000
+      internalID: 8614720645333737315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_11
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 231
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a91e86aa0707c7b0800000000000000
+      internalID: -5204183102077920855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769d4bc3f0b55c730800000000000000
+      internalID: 4018718363499157863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becf228114dbbd600800000000000000
+      internalID: 494196671402671339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_14
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 233
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f0f79b52a88ab80800000000000000
+      internalID: -8383298811719643316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 207
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17552153195caff70800000000000000
+      internalID: 9221900414445835633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce34fa4749b0554d0800000000000000
+      internalID: -3146596032407714836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_17
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a965b29500bafe060800000000000000
+      internalID: 6984989565059290778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0789d95a54fc9ca0800000000000000
+      internalID: -6008659133927422193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_19
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d4d60f8811b6640800000000000000
+      internalID: 5074168685009915179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeafbbd1a742c1660800000000000000
+      internalID: 7357795998120016618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac217244bf3cb0d0800000000000000
+      internalID: -3405777174757561177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82465deab2fc5fc0800000000000000
+      internalID: -3504659525341396338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_23
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3762cb992984df20800000000000000
+      internalID: 3446530426645145404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_24
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb0babaf83425520800000000000000
+      internalID: 2689286211833105389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8933e3c360586b310800000000000000
+      internalID: 1420468994308977560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_26
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8ac93d6c4c4000800000000000000
+      internalID: 21476130234732328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ef7bf8e47a01270800000000000000
+      internalID: 8219253275811643026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7e0d89423926ae0800000000000000
+      internalID: -1557520735724836941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1d5d811325128a0800000000000000
+      internalID: -6331689230282665511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f1bc1ae0a477ca0800000000000000
+      internalID: -6019260950252937472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_31
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21dc7bdd7b20a280800000000000000
+      internalID: -9034173032951918291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_32
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9eb6759090976f0800000000000000
+      internalID: -686507532471244303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_33
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8b942b76ac59160800000000000000
+      internalID: 7031748939930515655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034f5e063bff8dc70800000000000000
+      internalID: 8996221401562477616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_35
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa64b5a83ea34a0800000000000000
+      internalID: -6612722919463801063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1b7f33c616cbbc0800000000000000
+      internalID: -3766028071032344130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a6bca80fc777e60800000000000000
+      internalID: 7959968238963223142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_38
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3814c18256c2350800000000000000
+      internalID: 5993276427070440403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_39
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b2c805eb0f632f0800000000000000
+      internalID: -993341967602799870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_40
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b8caf3dedd1dd10800000000000000
+      internalID: 2148742508277697439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_41
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a59c0a7afb4fba0800000000000000
+      internalID: -6056004872228480371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_42
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a90a188b69137e0800000000000000
+      internalID: -1787481857896441301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_43
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa1dffe395758850800000000000000
+      internalID: 6378633725487159978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dadca4627081ac0800000000000000
+      internalID: -3884346817561907954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab74f4cfc72ee310800000000000000
+      internalID: 1436129104493837218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_46
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25cc8c51ab470da0800000000000000
+      internalID: -5978726823896496853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_47
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703417e27631840b0800000000000000
+      internalID: -5744319990829333753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_48
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bece3b39135e44380800000000000000
+      internalID: -8987806955230466837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_49
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cad884b3a9c3df40800000000000000
+      internalID: 5752162854027975361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeManipulator_50
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b513c8bc9e56d190800000000000000
+      internalID: -7938053265986218572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeManipulator_0: 3829569237655379887
+      ScribeManipulator_1: 8309228402595764931
+      ScribeManipulator_10: 8614720645333737315
+      ScribeManipulator_11: -5204183102077920855
+      ScribeManipulator_12: 4018718363499157863
+      ScribeManipulator_13: 494196671402671339
+      ScribeManipulator_14: -8383298811719643316
+      ScribeManipulator_15: 9221900414445835633
+      ScribeManipulator_16: -3146596032407714836
+      ScribeManipulator_17: 6984989565059290778
+      ScribeManipulator_18: -6008659133927422193
+      ScribeManipulator_19: 5074168685009915179
+      ScribeManipulator_2: 2157782140261078159
+      ScribeManipulator_20: 7357795998120016618
+      ScribeManipulator_21: -3405777174757561177
+      ScribeManipulator_22: -3504659525341396338
+      ScribeManipulator_23: 3446530426645145404
+      ScribeManipulator_24: 2689286211833105389
+      ScribeManipulator_25: 1420468994308977560
+      ScribeManipulator_26: 21476130234732328
+      ScribeManipulator_27: 8219253275811643026
+      ScribeManipulator_28: -1557520735724836941
+      ScribeManipulator_29: -6331689230282665511
+      ScribeManipulator_3: -5794185138277949972
+      ScribeManipulator_30: -6019260950252937472
+      ScribeManipulator_31: -9034173032951918291
+      ScribeManipulator_32: -686507532471244303
+      ScribeManipulator_33: 7031748939930515655
+      ScribeManipulator_34: 8996221401562477616
+      ScribeManipulator_35: -6612722919463801063
+      ScribeManipulator_36: -3766028071032344130
+      ScribeManipulator_37: 7959968238963223142
+      ScribeManipulator_38: 5993276427070440403
+      ScribeManipulator_39: -993341967602799870
+      ScribeManipulator_4: 8782952265618482078
+      ScribeManipulator_40: 2148742508277697439
+      ScribeManipulator_41: -6056004872228480371
+      ScribeManipulator_42: -1787481857896441301
+      ScribeManipulator_43: 6378633725487159978
+      ScribeManipulator_44: -3884346817561907954
+      ScribeManipulator_45: 1436129104493837218
+      ScribeManipulator_46: -5978726823896496853
+      ScribeManipulator_47: -5744319990829333753
+      ScribeManipulator_48: -8987806955230466837
+      ScribeManipulator_49: 5752162854027975361
+      ScribeManipulator_5: 5759679413380610486
+      ScribeManipulator_50: -7938053265986218572
+      ScribeManipulator_6: 1452405105321920390
+      ScribeManipulator_7: 3596398888955313002
+      ScribeManipulator_8: -6461621911669469222
+      ScribeManipulator_9: 3033958613203483095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

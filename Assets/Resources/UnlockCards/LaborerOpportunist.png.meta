@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 8ed5e5856505e42ecbde33fb0df00a2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1555225694427797606
+    second: LaborerOpportunist_0
+  - first:
+      213: -4927522297565459770
+    second: LaborerOpportunist_1
+  - first:
+      213: 1676032075355024450
+    second: LaborerOpportunist_2
+  - first:
+      213: -990876859593894438
+    second: LaborerOpportunist_3
+  - first:
+      213: 1696529593199858601
+    second: LaborerOpportunist_4
+  - first:
+      213: 6690570149184606380
+    second: LaborerOpportunist_5
+  - first:
+      213: 8932036896505937895
+    second: LaborerOpportunist_6
+  - first:
+      213: 3144182188341641150
+    second: LaborerOpportunist_7
+  - first:
+      213: 1662979063400431830
+    second: LaborerOpportunist_8
+  - first:
+      213: 3824171800354195488
+    second: LaborerOpportunist_9
+  - first:
+      213: -3029866400195085972
+    second: LaborerOpportunist_10
+  - first:
+      213: 3048576204904990514
+    second: LaborerOpportunist_11
+  - first:
+      213: 8823818718018055251
+    second: LaborerOpportunist_12
+  - first:
+      213: -8860665793623027802
+    second: LaborerOpportunist_13
+  - first:
+      213: 3742722439629238202
+    second: LaborerOpportunist_14
+  - first:
+      213: -1535962356070686599
+    second: LaborerOpportunist_15
+  - first:
+      213: -3772400623016532560
+    second: LaborerOpportunist_16
+  - first:
+      213: -7541426638852228993
+    second: LaborerOpportunist_17
+  - first:
+      213: 6489183570299471675
+    second: LaborerOpportunist_18
+  - first:
+      213: -650443552938124906
+    second: LaborerOpportunist_19
+  - first:
+      213: -8744976997974800530
+    second: LaborerOpportunist_20
+  - first:
+      213: -4027063242170807000
+    second: LaborerOpportunist_21
+  - first:
+      213: 4977014825113142382
+    second: LaborerOpportunist_22
+  - first:
+      213: -5059533077100409305
+    second: LaborerOpportunist_23
+  - first:
+      213: -1857294988285077079
+    second: LaborerOpportunist_24
+  - first:
+      213: -6792941869195961208
+    second: LaborerOpportunist_25
+  - first:
+      213: -4388638913446461320
+    second: LaborerOpportunist_26
+  - first:
+      213: 1668776487934397155
+    second: LaborerOpportunist_27
+  - first:
+      213: -8079694554127098184
+    second: LaborerOpportunist_28
+  - first:
+      213: -153667734938222400
+    second: LaborerOpportunist_29
+  - first:
+      213: 7703755238813960973
+    second: LaborerOpportunist_30
+  - first:
+      213: 7992850721313321213
+    second: LaborerOpportunist_31
+  - first:
+      213: -3552306740904263208
+    second: LaborerOpportunist_32
+  - first:
+      213: 9002472788530040171
+    second: LaborerOpportunist_33
+  - first:
+      213: -3326033620240465856
+    second: LaborerOpportunist_34
+  - first:
+      213: -3713633245350916489
+    second: LaborerOpportunist_35
+  - first:
+      213: 6667346646224910958
+    second: LaborerOpportunist_36
+  - first:
+      213: 6689292757721607020
+    second: LaborerOpportunist_37
+  - first:
+      213: 5597948219255894523
+    second: LaborerOpportunist_38
+  - first:
+      213: -7059172721556284949
+    second: LaborerOpportunist_39
+  - first:
+      213: -6709159152466366262
+    second: LaborerOpportunist_40
+  - first:
+      213: 6322006779011655144
+    second: LaborerOpportunist_41
+  - first:
+      213: 2657836245618377916
+    second: LaborerOpportunist_42
+  - first:
+      213: 785389056881610085
+    second: LaborerOpportunist_43
+  - first:
+      213: -5096363128616595437
+    second: LaborerOpportunist_44
+  - first:
+      213: 5619227100654635965
+    second: LaborerOpportunist_45
+  - first:
+      213: 4341806504243964185
+    second: LaborerOpportunist_46
+  - first:
+      213: -4416064683433454042
+    second: LaborerOpportunist_47
+  - first:
+      213: -7820426681905423654
+    second: LaborerOpportunist_48
+  - first:
+      213: -9090467077294034507
+    second: LaborerOpportunist_49
+  - first:
+      213: 9026295406820532188
+    second: LaborerOpportunist_50
+  - first:
+      213: 8851598797435451972
+    second: LaborerOpportunist_51
+  - first:
+      213: 6018758920422509706
+    second: LaborerOpportunist_52
+  - first:
+      213: -6557807074901094944
+    second: LaborerOpportunist_53
+  - first:
+      213: -504557439678146484
+    second: LaborerOpportunist_54
+  - first:
+      213: -1017656026623072075
+    second: LaborerOpportunist_55
+  - first:
+      213: -3666220808618916685
+    second: LaborerOpportunist_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerOpportunist_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97221a887aba6ae0800000000000000
+      internalID: -1555225694427797606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca4bc6d39ced9bb0800000000000000
+      internalID: -4927522297565459770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c62b3ea46724710800000000000000
+      internalID: 1676032075355024450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 307
+        width: 700
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad550cffeb2bf32f0800000000000000
+      internalID: -990876859593894438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a39d992da84b8710800000000000000
+      internalID: 1696529593199858601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca01bfe3a1ea9dc50800000000000000
+      internalID: 6690570149184606380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef3be0cb38f4fb70800000000000000
+      internalID: 8932036896505937895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 922
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfb63daa0162ab20800000000000000
+      internalID: 3144182188341641150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d005e6b5a6141710800000000000000
+      internalID: 1662979063400431830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 871
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0288d28bdff221530800000000000000
+      internalID: 3824171800354195488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 850
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69fa7bdf80c3f5d0800000000000000
+      internalID: -3029866400195085972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 799
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237021408e7be4a20800000000000000
+      internalID: 3048576204904990514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 778
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ca8e99f50847a70800000000000000
+      internalID: 8823818718018055251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af05a11867980580800000000000000
+      internalID: -8860665793623027802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 232
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfebf2aa32d0f330800000000000000
+      internalID: 3742722439629238202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970e802006a2faae0800000000000000
+      internalID: -1535962356070686599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 288
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b523a2de9db5abc0800000000000000
+      internalID: -3772400623016532560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f787b8b9d68775790800000000000000
+      internalID: -7541426638852228993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37400673163e0a50800000000000000
+      internalID: 6489183570299471675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6991ea8e80929f6f0800000000000000
+      internalID: -650443552938124906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6700c2d0c993a680800000000000000
+      internalID: -8744976997974800530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_21
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d406a415ffc18c0800000000000000
+      internalID: -4027063242170807000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_22
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64c8b43d98e11540800000000000000
+      internalID: 4977014825113142382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e4712197de8c9b0800000000000000
+      internalID: -5059533077100409305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_24
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 233
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9972c6c009936e0800000000000000
+      internalID: -1857294988285077079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_25
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 231
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c52ba4c5f9ab1a0800000000000000
+      internalID: -6792941869195961208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8704194092c6813c0800000000000000
+      internalID: -4388638913446461320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_27
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 128
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea8adccf5fa82710800000000000000
+      internalID: 1668776487934397155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be989f6c982fdf80800000000000000
+      internalID: -8079694554127098184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0819d52001eddf0800000000000000
+      internalID: -153667734938222400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_30
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b8f0ec29c39ea60800000000000000
+      internalID: 7703755238813960973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_31
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0fa92126f4cee60800000000000000
+      internalID: 7992850721313321213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10d2f07dba3bec0800000000000000
+      internalID: -3552306740904263208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_33
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d0474dd453fec70800000000000000
+      internalID: 9002472788530040171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0408f826b0e87d1d0800000000000000
+      internalID: -3326033620240465856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e07c03d36867cc0800000000000000
+      internalID: -3713633245350916489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_36
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ab0aa137c278c50800000000000000
+      internalID: 6667346646224910958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6be69e525425dc50800000000000000
+      internalID: 6689292757721607020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_38
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf137c70f38efad40800000000000000
+      internalID: 5597948219255894523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_39
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be992839fc7c80e90800000000000000
+      internalID: -7059172721556284949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac07ea72c4744e2a0800000000000000
+      internalID: -6709159152466366262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_41
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5e99a8ba74cb750800000000000000
+      internalID: 6322006779011655144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 39
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4cd3bcbf782e420800000000000000
+      internalID: 2657836245618377916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_43
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d48e1af2346ea00800000000000000
+      internalID: 785389056881610085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310d8687cb41649b0800000000000000
+      internalID: -5096363128616595437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_45
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb84cea6418bfd40800000000000000
+      internalID: 5619227100654635965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_46
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91921f00302314c30800000000000000
+      internalID: 4341806504243964185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_47
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6261dc6519cf6b2c0800000000000000
+      internalID: -4416064683433454042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_48
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada5a010e53487390800000000000000
+      internalID: -7820426681905423654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_49
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b171874b5c28d180800000000000000
+      internalID: -9090467077294034507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf174169d7d34d70800000000000000
+      internalID: 9026295406820532188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_51
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a3a6f553237da70800000000000000
+      internalID: 8851598797435451972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_52
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c4f70795de68350800000000000000
+      internalID: 6018758920422509706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed0afac53dfdf4a0800000000000000
+      internalID: -6557807074901094944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_54
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48143f8ea37ff8f0800000000000000
+      internalID: -504557439678146484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_55
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8a89d4c3f80e1f0800000000000000
+      internalID: -1017656026623072075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerOpportunist_56
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4cf1a5997fe1dc0800000000000000
+      internalID: -3666220808618916685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerOpportunist_0: -1555225694427797606
+      LaborerOpportunist_1: -4927522297565459770
+      LaborerOpportunist_10: -3029866400195085972
+      LaborerOpportunist_11: 3048576204904990514
+      LaborerOpportunist_12: 8823818718018055251
+      LaborerOpportunist_13: -8860665793623027802
+      LaborerOpportunist_14: 3742722439629238202
+      LaborerOpportunist_15: -1535962356070686599
+      LaborerOpportunist_16: -3772400623016532560
+      LaborerOpportunist_17: -7541426638852228993
+      LaborerOpportunist_18: 6489183570299471675
+      LaborerOpportunist_19: -650443552938124906
+      LaborerOpportunist_2: 1676032075355024450
+      LaborerOpportunist_20: -8744976997974800530
+      LaborerOpportunist_21: -4027063242170807000
+      LaborerOpportunist_22: 4977014825113142382
+      LaborerOpportunist_23: -5059533077100409305
+      LaborerOpportunist_24: -1857294988285077079
+      LaborerOpportunist_25: -6792941869195961208
+      LaborerOpportunist_26: -4388638913446461320
+      LaborerOpportunist_27: 1668776487934397155
+      LaborerOpportunist_28: -8079694554127098184
+      LaborerOpportunist_29: -153667734938222400
+      LaborerOpportunist_3: -990876859593894438
+      LaborerOpportunist_30: 7703755238813960973
+      LaborerOpportunist_31: 7992850721313321213
+      LaborerOpportunist_32: -3552306740904263208
+      LaborerOpportunist_33: 9002472788530040171
+      LaborerOpportunist_34: -3326033620240465856
+      LaborerOpportunist_35: -3713633245350916489
+      LaborerOpportunist_36: 6667346646224910958
+      LaborerOpportunist_37: 6689292757721607020
+      LaborerOpportunist_38: 5597948219255894523
+      LaborerOpportunist_39: -7059172721556284949
+      LaborerOpportunist_4: 1696529593199858601
+      LaborerOpportunist_40: -6709159152466366262
+      LaborerOpportunist_41: 6322006779011655144
+      LaborerOpportunist_42: 2657836245618377916
+      LaborerOpportunist_43: 785389056881610085
+      LaborerOpportunist_44: -5096363128616595437
+      LaborerOpportunist_45: 5619227100654635965
+      LaborerOpportunist_46: 4341806504243964185
+      LaborerOpportunist_47: -4416064683433454042
+      LaborerOpportunist_48: -7820426681905423654
+      LaborerOpportunist_49: -9090467077294034507
+      LaborerOpportunist_5: 6690570149184606380
+      LaborerOpportunist_50: 9026295406820532188
+      LaborerOpportunist_51: 8851598797435451972
+      LaborerOpportunist_52: 6018758920422509706
+      LaborerOpportunist_53: -6557807074901094944
+      LaborerOpportunist_54: -504557439678146484
+      LaborerOpportunist_55: -1017656026623072075
+      LaborerOpportunist_56: -3666220808618916685
+      LaborerOpportunist_6: 8932036896505937895
+      LaborerOpportunist_7: 3144182188341641150
+      LaborerOpportunist_8: 1662979063400431830
+      LaborerOpportunist_9: 3824171800354195488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

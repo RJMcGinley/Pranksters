@@ -71,6 +71,9 @@ public class HandDisplay : MonoBehaviour
         if (entry.category == PranksterUnlockCategory.FavorOffer)
             return GetFavorOfferSprite(entry.pranksterType, entry.tier);
 
+        if (entry.category == PranksterUnlockCategory.Discard)
+            return GetDiscardSprite(entry.pranksterType, entry.tier);
+
         return GetPrankCompletionSprite(entry.pranksterType, entry.tier);
     }
 
@@ -130,6 +133,30 @@ public class HandDisplay : MonoBehaviour
         if (sprite == null)
         {
             Debug.LogWarning("Missing favor sprite: UnlockCards/" + pranksterName + suffix);
+            return GetBaseSprite(type);
+        }
+
+        return sprite;
+    }
+
+    private Sprite GetDiscardSprite(PranksterType type, int tier)
+    {
+        string pranksterName = GetResourcePranksterName(type);
+        string suffix = "";
+
+        switch (tier)
+        {
+            case 1: suffix = "Hustler"; break;
+            case 2: suffix = "Opportunist"; break;
+            case 3: suffix = "Manipulator"; break;
+            default: return GetBaseSprite(type);
+        }
+
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("Missing discard sprite: UnlockCards/" + pranksterName + suffix);
             return GetBaseSprite(type);
         }
 

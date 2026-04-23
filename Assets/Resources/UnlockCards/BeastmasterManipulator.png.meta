@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: d62513b4fdb334d338e805202b91b61c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 612182528598420452
+    second: BeastmasterManipulator_0
+  - first:
+      213: 7357179854762037111
+    second: BeastmasterManipulator_1
+  - first:
+      213: 8941821814454676684
+    second: BeastmasterManipulator_2
+  - first:
+      213: 6122459161288852155
+    second: BeastmasterManipulator_3
+  - first:
+      213: 7998526291173991530
+    second: BeastmasterManipulator_4
+  - first:
+      213: -6918658238241321358
+    second: BeastmasterManipulator_5
+  - first:
+      213: -1193253920513196892
+    second: BeastmasterManipulator_6
+  - first:
+      213: 3414237924183051307
+    second: BeastmasterManipulator_7
+  - first:
+      213: 4380033635369771618
+    second: BeastmasterManipulator_8
+  - first:
+      213: 6152528661314181707
+    second: BeastmasterManipulator_9
+  - first:
+      213: -7035422909491342601
+    second: BeastmasterManipulator_10
+  - first:
+      213: -2553052942009465878
+    second: BeastmasterManipulator_11
+  - first:
+      213: 2561581879050094337
+    second: BeastmasterManipulator_12
+  - first:
+      213: -231013239565160159
+    second: BeastmasterManipulator_13
+  - first:
+      213: -989438056377163770
+    second: BeastmasterManipulator_14
+  - first:
+      213: -2711192030004787438
+    second: BeastmasterManipulator_15
+  - first:
+      213: 3853750091098314252
+    second: BeastmasterManipulator_16
+  - first:
+      213: -5561962275774079974
+    second: BeastmasterManipulator_17
+  - first:
+      213: 8750722241965152543
+    second: BeastmasterManipulator_18
+  - first:
+      213: 5038534076522361665
+    second: BeastmasterManipulator_19
+  - first:
+      213: 3768225327116568768
+    second: BeastmasterManipulator_20
+  - first:
+      213: -8631365009265505225
+    second: BeastmasterManipulator_21
+  - first:
+      213: 1676352214200748348
+    second: BeastmasterManipulator_22
+  - first:
+      213: 3803201833430627351
+    second: BeastmasterManipulator_23
+  - first:
+      213: 8267604315269726217
+    second: BeastmasterManipulator_24
+  - first:
+      213: -7133147747539991243
+    second: BeastmasterManipulator_25
+  - first:
+      213: 9186441359636859750
+    second: BeastmasterManipulator_26
+  - first:
+      213: 7655885926922097478
+    second: BeastmasterManipulator_27
+  - first:
+      213: 2310154856612876504
+    second: BeastmasterManipulator_28
+  - first:
+      213: 888119452766268215
+    second: BeastmasterManipulator_29
+  - first:
+      213: 688105936682856991
+    second: BeastmasterManipulator_30
+  - first:
+      213: 4751959597617044152
+    second: BeastmasterManipulator_31
+  - first:
+      213: 3129533395748215787
+    second: BeastmasterManipulator_32
+  - first:
+      213: 836109671483109192
+    second: BeastmasterManipulator_33
+  - first:
+      213: 2139889620697786114
+    second: BeastmasterManipulator_34
+  - first:
+      213: -1930553531252945223
+    second: BeastmasterManipulator_35
+  - first:
+      213: 3418395788652800785
+    second: BeastmasterManipulator_36
+  - first:
+      213: -3948083931404949740
+    second: BeastmasterManipulator_37
+  - first:
+      213: 4423428508349259666
+    second: BeastmasterManipulator_38
+  - first:
+      213: 5227894299831238426
+    second: BeastmasterManipulator_39
+  - first:
+      213: 3886095696731537831
+    second: BeastmasterManipulator_40
+  - first:
+      213: 1326459451620825823
+    second: BeastmasterManipulator_41
+  - first:
+      213: 3128789840793507698
+    second: BeastmasterManipulator_42
+  - first:
+      213: 7540161883871183558
+    second: BeastmasterManipulator_43
+  - first:
+      213: 8410803383357516563
+    second: BeastmasterManipulator_44
+  - first:
+      213: 306841917719424257
+    second: BeastmasterManipulator_45
+  - first:
+      213: 5103201060016943879
+    second: BeastmasterManipulator_46
+  - first:
+      213: -2917028202507149509
+    second: BeastmasterManipulator_47
+  - first:
+      213: -234294406885821689
+    second: BeastmasterManipulator_48
+  - first:
+      213: 6677082734496256017
+    second: BeastmasterManipulator_49
+  - first:
+      213: 6736275123699276459
+    second: BeastmasterManipulator_50
+  - first:
+      213: 1590920281226803241
+    second: BeastmasterManipulator_51
+  - first:
+      213: -1107870425855457394
+    second: BeastmasterManipulator_52
+  - first:
+      213: -2653059585584170148
+    second: BeastmasterManipulator_53
+  - first:
+      213: 7284343363169320621
+    second: BeastmasterManipulator_54
+  - first:
+      213: 6737647682933768658
+    second: BeastmasterManipulator_55
+  - first:
+      213: 212114693427540309
+    second: BeastmasterManipulator_56
+  - first:
+      213: 2836113757761792817
+    second: BeastmasterManipulator_57
+  - first:
+      213: 4550750380001381305
+    second: BeastmasterManipulator_58
+  - first:
+      213: 9144421692387758230
+    second: BeastmasterManipulator_59
+  - first:
+      213: -8391500355005876029
+    second: BeastmasterManipulator_60
+  - first:
+      213: 1725180672496961039
+    second: BeastmasterManipulator_61
+  - first:
+      213: 4187101436446423443
+    second: BeastmasterManipulator_62
+  - first:
+      213: 7789683713266372259
+    second: BeastmasterManipulator_63
+  - first:
+      213: -3318189787277138984
+    second: BeastmasterManipulator_64
+  - first:
+      213: 507525198195919541
+    second: BeastmasterManipulator_65
+  - first:
+      213: 9120367041898510282
+    second: BeastmasterManipulator_66
+  - first:
+      213: 364785070632037920
+    second: BeastmasterManipulator_67
+  - first:
+      213: 2458496819132820981
+    second: BeastmasterManipulator_68
+  - first:
+      213: -3798576802555012733
+    second: BeastmasterManipulator_69
+  - first:
+      213: -7584093195334719048
+    second: BeastmasterManipulator_70
+  - first:
+      213: 1797265270431080082
+    second: BeastmasterManipulator_71
+  - first:
+      213: -2550376842825456916
+    second: BeastmasterManipulator_72
+  - first:
+      213: 6766469823907708481
+    second: BeastmasterManipulator_73
+  - first:
+      213: -4443700318660644842
+    second: BeastmasterManipulator_74
+  - first:
+      213: -1383845179457272840
+    second: BeastmasterManipulator_75
+  - first:
+      213: 3798009052757243400
+    second: BeastmasterManipulator_76
+  - first:
+      213: 8752401171308475000
+    second: BeastmasterManipulator_77
+  - first:
+      213: 7649135689280854215
+    second: BeastmasterManipulator_78
+  - first:
+      213: 6238987979784517583
+    second: BeastmasterManipulator_79
+  - first:
+      213: 8269813553029456336
+    second: BeastmasterManipulator_80
+  - first:
+      213: 5890664387235096866
+    second: BeastmasterManipulator_81
+  - first:
+      213: -2154957114788487089
+    second: BeastmasterManipulator_82
+  - first:
+      213: -3847538856599379049
+    second: BeastmasterManipulator_83
+  - first:
+      213: -6873450168456158490
+    second: BeastmasterManipulator_84
+  - first:
+      213: -8597084299419869256
+    second: BeastmasterManipulator_85
+  - first:
+      213: -5219515331211203618
+    second: BeastmasterManipulator_86
+  - first:
+      213: -7861945049004548461
+    second: BeastmasterManipulator_87
+  - first:
+      213: -666785298098349297
+    second: BeastmasterManipulator_88
+  - first:
+      213: -907322159772938581
+    second: BeastmasterManipulator_89
+  - first:
+      213: -1587083665376839703
+    second: BeastmasterManipulator_90
+  - first:
+      213: 6642713734887488971
+    second: BeastmasterManipulator_91
+  - first:
+      213: -8645064495669486467
+    second: BeastmasterManipulator_92
+  - first:
+      213: -2934746084157003955
+    second: BeastmasterManipulator_93
+  - first:
+      213: 6004908406773769894
+    second: BeastmasterManipulator_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterManipulator_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb2fca24c8ee7800800000000000000
+      internalID: 612182528598420452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f40cf0914f91660800000000000000
+      internalID: 7357179854762037111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccce86f709bb71c70800000000000000
+      internalID: 8941821814454676684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb245744b2857f450800000000000000
+      internalID: 6122459161288852155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a646c08a849700f60800000000000000
+      internalID: 7998526291173991530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ecb4b2dfcfbff90800000000000000
+      internalID: -6918658238241321358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acf7f4a1e5b07fe0800000000000000
+      internalID: -1193253920513196892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c09997d4fc16f20800000000000000
+      internalID: 3414237924183051307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2626a7c826109cc30800000000000000
+      internalID: 4380033635369771618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a9a00583c226550800000000000000
+      internalID: 6152528661314181707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f29f1b93282d5e90800000000000000
+      internalID: -7035422909491342601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae382ca30ebb19cd0800000000000000
+      internalID: -2553052942009465878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107cbdba5219c8320800000000000000
+      internalID: 2561581879050094337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1217e4dbea64bccf0800000000000000
+      internalID: -231013239565160159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600e26a745fc442f0800000000000000
+      internalID: -989438056377163770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c1b59639ef5ad0800000000000000
+      internalID: -2711192030004787438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c065b013a454b7530800000000000000
+      internalID: 3853750091098314252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cdc5a57c0ffc2b0800000000000000
+      internalID: -5561962275774079974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f195178048fc07970800000000000000
+      internalID: 8750722241965152543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143f0db1c087ce540800000000000000
+      internalID: 5038534076522361665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8c96858fc6b4430800000000000000
+      internalID: 3768225327116568768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c4ef7414b373880800000000000000
+      internalID: -8631365009265505225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3900e50579934710800000000000000
+      internalID: 1676352214200748348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7143fb2daefa7c430800000000000000
+      internalID: 3803201833430627351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9008323325e6cb270800000000000000
+      internalID: 8267604315269726217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5354089aae7f10d90800000000000000
+      internalID: -7133147747539991243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b8c17aebbcc7f70800000000000000
+      internalID: 9186441359636859750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6439a1b10bb2f3a60800000000000000
+      internalID: 7655885926922097478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0dd843a915f0020800000000000000
+      internalID: 2310154856612876504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b6f34dfeb335c00800000000000000
+      internalID: 888119452766268215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12b1d324b4ac8900800000000000000
+      internalID: 688105936682856991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bad8fab31a52f140800000000000000
+      internalID: 4751959597617044152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb5b4eda065e6b20800000000000000
+      internalID: 3129533395748215787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fe40af0557a9b00800000000000000
+      internalID: 836109671483109192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207ac3cb54a62bd10800000000000000
+      internalID: 2139889620697786114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9becac5bacb4535e0800000000000000
+      internalID: -1930553531252945223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b675cbbd4907f20800000000000000
+      internalID: 3418395788652800785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4172e2d05969539c0800000000000000
+      internalID: -3948083931404949740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f5e71cacc236d30800000000000000
+      internalID: 4423428508349259666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ffab8ca263d8840800000000000000
+      internalID: 5227894299831238426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a18bde527f2ee530800000000000000
+      internalID: 3886095696731537831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda91d6e7d7886210800000000000000
+      internalID: 1326459451620825823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277195d78c1bb6b20800000000000000
+      internalID: 3128789840793507698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2051da84904a860800000000000000
+      internalID: 7540161883871183558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bada46d1d29b470800000000000000
+      internalID: 8410803383357516563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dadd3391f124400800000000000000
+      internalID: 306841917719424257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f4bf735632d640800000000000000
+      internalID: 5103201060016943879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fd3cd0e42a487d0800000000000000
+      internalID: -2917028202507149509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703b5b07a7e9fbcf0800000000000000
+      internalID: -234294406885821689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1101b8dce53c9ac50800000000000000
+      internalID: 6677082734496256017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa5561e88e0c7d50800000000000000
+      internalID: 6736275123699276459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928fc741195141610800000000000000
+      internalID: 1590920281226803241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 233
+        width: 108
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8789b9a7bd00a0f0800000000000000
+      internalID: -1107870425855457394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b7f490d507e2bd0800000000000000
+      internalID: -2653059585584170148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_54
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 233
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae7ea7d1bf271560800000000000000
+      internalID: 7284343363169320621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_55
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 231
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1400bbedee08d50800000000000000
+      internalID: 6737647682933768658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_56
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b369903591f200800000000000000
+      internalID: 212114693427540309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_57
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b6df1bf66eb5720800000000000000
+      internalID: 2836113757761792817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_58
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 233
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbc4751c53872f30800000000000000
+      internalID: 4550750380001381305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_59
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 207
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690162b741387ee70800000000000000
+      internalID: 9144421692387758230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_60
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c87f4f13e66b8b80800000000000000
+      internalID: -8391500355005876029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_61
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f060d856ea211f710800000000000000
+      internalID: 1725180672496961039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399baed72929b1a30800000000000000
+      internalID: 4187101436446423443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_63
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae43e1d0148a1c60800000000000000
+      internalID: 7789683713266372259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3640018fb63f1d0800000000000000
+      internalID: -3318189787277138984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba07019a771b0700800000000000000
+      internalID: 507525198195919541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_66
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac77a89b08d029e70800000000000000
+      internalID: 9120367041898510282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e636ac61aff0500800000000000000
+      internalID: 364785070632037920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_68
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fde6d1d4d55e1220800000000000000
+      internalID: 2458496819132820981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_69
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3895ba7168eb84bc0800000000000000
+      internalID: -3798576802555012733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_70
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9ed9ccb63efb690800000000000000
+      internalID: -7584093195334719048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_71
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ed03bbd3b21f810800000000000000
+      internalID: 1797265270431080082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_72
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a10026cd3b9cd0800000000000000
+      internalID: -2550376842825456916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_73
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e3b6d547457ed50800000000000000
+      internalID: 6766469823907708481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61031f99a1ec452c0800000000000000
+      internalID: -4443700318660644842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_75
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3005624289bcce0800000000000000
+      internalID: -1383845179457272840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_76
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806305b5c1d35b430800000000000000
+      internalID: 3798009052757243400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_77
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872fd8b3e76c67970800000000000000
+      internalID: 8752401171308475000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_78
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8195ee160372a60800000000000000
+      internalID: 7649135689280854215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_79
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7fcf41386559650800000000000000
+      internalID: 6238987979784517583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_80
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d128037c9744c270800000000000000
+      internalID: 8269813553029456336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_81
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2292134dc08dfb150800000000000000
+      internalID: 5890664387235096866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_82
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40e4daebed0812e0800000000000000
+      internalID: -2154957114788487089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_83
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793a1e88bcbca9ac0800000000000000
+      internalID: -3847538856599379049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_84
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e262d72d799c90a0800000000000000
+      internalID: -6873450168456158490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_85
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf9df4016501b880800000000000000
+      internalID: -8597084299419869256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_86
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb637fd57e8097b0800000000000000
+      internalID: -5219515331211203618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_87
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e517ed1a2c4e290800000000000000
+      internalID: -7861945049004548461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_88
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b156ddd4a1fb6f0800000000000000
+      internalID: -666785298098349297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_89
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baec4e98d4b8863f0800000000000000
+      internalID: -907322159772938581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_90
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e77368a0db89f9e0800000000000000
+      internalID: -1587083665376839703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_91
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdb39082f8af2c50800000000000000
+      internalID: 6642713734887488971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_92
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c574b05af860880800000000000000
+      internalID: -8645064495669486467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_93
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d476ad34cffa547d0800000000000000
+      internalID: -2934746084157003955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterManipulator_94
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6e18e6168b55350800000000000000
+      internalID: 6004908406773769894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterManipulator_0: 612182528598420452
+      BeastmasterManipulator_1: 7357179854762037111
+      BeastmasterManipulator_10: -7035422909491342601
+      BeastmasterManipulator_11: -2553052942009465878
+      BeastmasterManipulator_12: 2561581879050094337
+      BeastmasterManipulator_13: -231013239565160159
+      BeastmasterManipulator_14: -989438056377163770
+      BeastmasterManipulator_15: -2711192030004787438
+      BeastmasterManipulator_16: 3853750091098314252
+      BeastmasterManipulator_17: -5561962275774079974
+      BeastmasterManipulator_18: 8750722241965152543
+      BeastmasterManipulator_19: 5038534076522361665
+      BeastmasterManipulator_2: 8941821814454676684
+      BeastmasterManipulator_20: 3768225327116568768
+      BeastmasterManipulator_21: -8631365009265505225
+      BeastmasterManipulator_22: 1676352214200748348
+      BeastmasterManipulator_23: 3803201833430627351
+      BeastmasterManipulator_24: 8267604315269726217
+      BeastmasterManipulator_25: -7133147747539991243
+      BeastmasterManipulator_26: 9186441359636859750
+      BeastmasterManipulator_27: 7655885926922097478
+      BeastmasterManipulator_28: 2310154856612876504
+      BeastmasterManipulator_29: 888119452766268215
+      BeastmasterManipulator_3: 6122459161288852155
+      BeastmasterManipulator_30: 688105936682856991
+      BeastmasterManipulator_31: 4751959597617044152
+      BeastmasterManipulator_32: 3129533395748215787
+      BeastmasterManipulator_33: 836109671483109192
+      BeastmasterManipulator_34: 2139889620697786114
+      BeastmasterManipulator_35: -1930553531252945223
+      BeastmasterManipulator_36: 3418395788652800785
+      BeastmasterManipulator_37: -3948083931404949740
+      BeastmasterManipulator_38: 4423428508349259666
+      BeastmasterManipulator_39: 5227894299831238426
+      BeastmasterManipulator_4: 7998526291173991530
+      BeastmasterManipulator_40: 3886095696731537831
+      BeastmasterManipulator_41: 1326459451620825823
+      BeastmasterManipulator_42: 3128789840793507698
+      BeastmasterManipulator_43: 7540161883871183558
+      BeastmasterManipulator_44: 8410803383357516563
+      BeastmasterManipulator_45: 306841917719424257
+      BeastmasterManipulator_46: 5103201060016943879
+      BeastmasterManipulator_47: -2917028202507149509
+      BeastmasterManipulator_48: -234294406885821689
+      BeastmasterManipulator_49: 6677082734496256017
+      BeastmasterManipulator_5: -6918658238241321358
+      BeastmasterManipulator_50: 6736275123699276459
+      BeastmasterManipulator_51: 1590920281226803241
+      BeastmasterManipulator_52: -1107870425855457394
+      BeastmasterManipulator_53: -2653059585584170148
+      BeastmasterManipulator_54: 7284343363169320621
+      BeastmasterManipulator_55: 6737647682933768658
+      BeastmasterManipulator_56: 212114693427540309
+      BeastmasterManipulator_57: 2836113757761792817
+      BeastmasterManipulator_58: 4550750380001381305
+      BeastmasterManipulator_59: 9144421692387758230
+      BeastmasterManipulator_6: -1193253920513196892
+      BeastmasterManipulator_60: -8391500355005876029
+      BeastmasterManipulator_61: 1725180672496961039
+      BeastmasterManipulator_62: 4187101436446423443
+      BeastmasterManipulator_63: 7789683713266372259
+      BeastmasterManipulator_64: -3318189787277138984
+      BeastmasterManipulator_65: 507525198195919541
+      BeastmasterManipulator_66: 9120367041898510282
+      BeastmasterManipulator_67: 364785070632037920
+      BeastmasterManipulator_68: 2458496819132820981
+      BeastmasterManipulator_69: -3798576802555012733
+      BeastmasterManipulator_7: 3414237924183051307
+      BeastmasterManipulator_70: -7584093195334719048
+      BeastmasterManipulator_71: 1797265270431080082
+      BeastmasterManipulator_72: -2550376842825456916
+      BeastmasterManipulator_73: 6766469823907708481
+      BeastmasterManipulator_74: -4443700318660644842
+      BeastmasterManipulator_75: -1383845179457272840
+      BeastmasterManipulator_76: 3798009052757243400
+      BeastmasterManipulator_77: 8752401171308475000
+      BeastmasterManipulator_78: 7649135689280854215
+      BeastmasterManipulator_79: 6238987979784517583
+      BeastmasterManipulator_8: 4380033635369771618
+      BeastmasterManipulator_80: 8269813553029456336
+      BeastmasterManipulator_81: 5890664387235096866
+      BeastmasterManipulator_82: -2154957114788487089
+      BeastmasterManipulator_83: -3847538856599379049
+      BeastmasterManipulator_84: -6873450168456158490
+      BeastmasterManipulator_85: -8597084299419869256
+      BeastmasterManipulator_86: -5219515331211203618
+      BeastmasterManipulator_87: -7861945049004548461
+      BeastmasterManipulator_88: -666785298098349297
+      BeastmasterManipulator_89: -907322159772938581
+      BeastmasterManipulator_9: 6152528661314181707
+      BeastmasterManipulator_90: -1587083665376839703
+      BeastmasterManipulator_91: 6642713734887488971
+      BeastmasterManipulator_92: -8645064495669486467
+      BeastmasterManipulator_93: -2934746084157003955
+      BeastmasterManipulator_94: 6004908406773769894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

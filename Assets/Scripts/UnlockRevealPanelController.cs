@@ -114,17 +114,22 @@ public class UnlockRevealPanelController : MonoBehaviour
         unlockTitle = PranksterSpriteDatabase.GetTierTitle(entry.tier);
         flavorText = PranksterSpriteDatabase.GetTierFlavorText(entry.tier);
     }
-    else
+    else if (entry.category == PranksterUnlockCategory.FavorOffer)
     {
         unlockTitle = PranksterSpriteDatabase.GetFavorTierTitle(entry.tier);
         flavorText = PranksterSpriteDatabase.GetFavorTierFlavorText(entry.tier);
     }
+    else
+    {
+        unlockTitle = PranksterSpriteDatabase.GetDiscardTierTitle(entry.tier);
+        flavorText = PranksterSpriteDatabase.GetDiscardTierFlavorText(entry.tier);
+    }
 
     Sprite unlockSprite;
+    string pranksterName = entry.pranksterType == "BeastMaster" ? "Beastmaster" : entry.pranksterType;
 
     if (entry.category == PranksterUnlockCategory.FavorOffer)
     {
-        string pranksterName = entry.pranksterType == "BeastMaster" ? "Beastmaster" : entry.pranksterType;
         string suffix = "";
 
         switch (entry.tier)
@@ -140,6 +145,26 @@ public class UnlockRevealPanelController : MonoBehaviour
         if (unlockSprite == null)
         {
             Debug.LogWarning("Missing favor unlock sprite: UnlockCards/" + pranksterName + suffix);
+            unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, 0);
+        }
+    }
+    else if (entry.category == PranksterUnlockCategory.Discard)
+    {
+        string suffix = "";
+
+        switch (entry.tier)
+        {
+            case 1: suffix = "Hustler"; break;
+            case 2: suffix = "Opportunist"; break;
+            case 3: suffix = "Manipulator"; break;
+            default: suffix = ""; break;
+        }
+
+        unlockSprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (unlockSprite == null)
+        {
+            Debug.LogWarning("Missing discard unlock sprite: UnlockCards/" + pranksterName + suffix);
             unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, 0);
         }
     }

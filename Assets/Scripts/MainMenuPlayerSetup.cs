@@ -360,7 +360,7 @@ public class MainMenuPlayerSetup : MonoBehaviour
         {
             BotIdentity.Jerek,
             BotIdentity.Trikstan,
-            BotIdentity.DrGigglesMD
+            BotIdentity.DrGiggles
         };
     }
 
@@ -374,8 +374,8 @@ public class MainMenuPlayerSetup : MonoBehaviour
             case BotIdentity.Trikstan:
                 return "Trikstan";
 
-            case BotIdentity.DrGigglesMD:
-                return "Dr. Giggles MD";
+            case BotIdentity.DrGiggles:
+                return "Dr. Giggles";
 
             default:
                 return "Bot";

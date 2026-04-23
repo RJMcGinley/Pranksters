@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 6751b7a03929044abaf7de96c7f6525c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5045668093675545335
+    second: LaborerManipulator_0
+  - first:
+      213: -1213751036745520692
+    second: LaborerManipulator_1
+  - first:
+      213: -6125540645964317519
+    second: LaborerManipulator_2
+  - first:
+      213: -7427520750548141422
+    second: LaborerManipulator_3
+  - first:
+      213: 1153815930560571520
+    second: LaborerManipulator_4
+  - first:
+      213: 7298099468595782943
+    second: LaborerManipulator_5
+  - first:
+      213: -1596923041609099381
+    second: LaborerManipulator_6
+  - first:
+      213: -7413841503394995632
+    second: LaborerManipulator_7
+  - first:
+      213: -4264077957153862288
+    second: LaborerManipulator_8
+  - first:
+      213: -1357197407158373875
+    second: LaborerManipulator_9
+  - first:
+      213: 3895065770746028305
+    second: LaborerManipulator_10
+  - first:
+      213: 3151648139036003267
+    second: LaborerManipulator_11
+  - first:
+      213: 7244157461548258376
+    second: LaborerManipulator_12
+  - first:
+      213: -6450417467334341170
+    second: LaborerManipulator_13
+  - first:
+      213: -7478049090366463647
+    second: LaborerManipulator_14
+  - first:
+      213: -7336849619328586271
+    second: LaborerManipulator_15
+  - first:
+      213: 4039573955343961002
+    second: LaborerManipulator_16
+  - first:
+      213: -3011218197283803703
+    second: LaborerManipulator_17
+  - first:
+      213: -6152769068330189025
+    second: LaborerManipulator_18
+  - first:
+      213: 1406725857331780804
+    second: LaborerManipulator_19
+  - first:
+      213: 5622943731907325098
+    second: LaborerManipulator_20
+  - first:
+      213: -7137296971842693360
+    second: LaborerManipulator_21
+  - first:
+      213: -4929128287551830254
+    second: LaborerManipulator_22
+  - first:
+      213: 5207425740036300999
+    second: LaborerManipulator_23
+  - first:
+      213: -5377600977413549440
+    second: LaborerManipulator_24
+  - first:
+      213: -1149997318976208814
+    second: LaborerManipulator_25
+  - first:
+      213: -7822846502784297100
+    second: LaborerManipulator_26
+  - first:
+      213: -918372958955401822
+    second: LaborerManipulator_27
+  - first:
+      213: -8070545837913593838
+    second: LaborerManipulator_28
+  - first:
+      213: 5716298249259979080
+    second: LaborerManipulator_29
+  - first:
+      213: 8301409379090081618
+    second: LaborerManipulator_30
+  - first:
+      213: -490602081617224058
+    second: LaborerManipulator_31
+  - first:
+      213: -1117188758710526488
+    second: LaborerManipulator_32
+  - first:
+      213: 3770900882568388092
+    second: LaborerManipulator_33
+  - first:
+      213: -7442583289593692337
+    second: LaborerManipulator_34
+  - first:
+      213: -8034086685654620642
+    second: LaborerManipulator_35
+  - first:
+      213: 8044353849854421293
+    second: LaborerManipulator_36
+  - first:
+      213: 2970885985416344081
+    second: LaborerManipulator_37
+  - first:
+      213: -4176355439169687867
+    second: LaborerManipulator_38
+  - first:
+      213: -2990293579169893836
+    second: LaborerManipulator_39
+  - first:
+      213: -6071037778587176195
+    second: LaborerManipulator_40
+  - first:
+      213: -8326558411781049452
+    second: LaborerManipulator_41
+  - first:
+      213: -6205028370189398034
+    second: LaborerManipulator_42
+  - first:
+      213: -2185051416577559176
+    second: LaborerManipulator_43
+  - first:
+      213: -3121288650037439946
+    second: LaborerManipulator_44
+  - first:
+      213: 290459494987390390
+    second: LaborerManipulator_45
+  - first:
+      213: -3382963249079783700
+    second: LaborerManipulator_46
+  - first:
+      213: 3722802545699732534
+    second: LaborerManipulator_47
+  - first:
+      213: 6332184140465942636
+    second: LaborerManipulator_48
+  - first:
+      213: 3321253160827467029
+    second: LaborerManipulator_49
+  - first:
+      213: -5935035738967813979
+    second: LaborerManipulator_50
+  - first:
+      213: 7689004377919256955
+    second: LaborerManipulator_51
+  - first:
+      213: -89824907065510055
+    second: LaborerManipulator_52
+  - first:
+      213: 1550050208543006036
+    second: LaborerManipulator_53
+  - first:
+      213: 5375868283595048032
+    second: LaborerManipulator_54
+  - first:
+      213: -8562734166491632525
+    second: LaborerManipulator_55
+  - first:
+      213: -1562251881810579136
+    second: LaborerManipulator_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerManipulator_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d52f51a9f2af9b0800000000000000
+      internalID: -5045668093675545335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc96501ecd3e72fe0800000000000000
+      internalID: -1213751036745520692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc741cac35bdfaa0800000000000000
+      internalID: -6125540645964317519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 307
+        width: 700
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a3cb5ea352ce890800000000000000
+      internalID: -7427520750548141422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088ef35c97d230010800000000000000
+      internalID: 1153815930560571520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f156e19bcce084560800000000000000
+      internalID: 7298099468595782943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87d04b54f696d9e0800000000000000
+      internalID: -1596923041609099381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 922
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052e711de6ebc1990800000000000000
+      internalID: -7413841503394995632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d4545a0b3f2d4c0800000000000000
+      internalID: -4264077957153862288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 871
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027e3026244a2de0800000000000000
+      internalID: -1357197407158373875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 850
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111a91a7ead0e0630800000000000000
+      internalID: 3895065770746028305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 799
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb0348c847ecbb20800000000000000
+      internalID: 3151648139036003267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 778
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844549084da688460800000000000000
+      internalID: 7244157461548258376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdcf8e3d738b76a0800000000000000
+      internalID: -6450417467334341170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 233
+        width: 108
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16126c309f1a83890800000000000000
+      internalID: -7478049090366463647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eda57db4264e2a90800000000000000
+      internalID: -7336849619328586271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 233
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab423c1c137f0830800000000000000
+      internalID: 4039573955343961002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_17
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 231
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cde4b1f0010636d0800000000000000
+      internalID: -3011218197283803703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ffa219129fc9aa0800000000000000
+      internalID: -6152769068330189025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc1e9ec6b1b58310800000000000000
+      internalID: 1406725857331780804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 233
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac68545885b80e40800000000000000
+      internalID: 5622943731907325098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_21
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 207
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01758d8183a33fc90800000000000000
+      internalID: -7137296971842693360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c42820f7389bb0800000000000000
+      internalID: -4929128287551830254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0e615de1e744840800000000000000
+      internalID: 5207425740036300999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082d87d176cee55b0800000000000000
+      internalID: -5377600977413549440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_25
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25085c508836a00f0800000000000000
+      internalID: -1149997318976208814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477922d8d8aaf6390800000000000000
+      internalID: -7822846502784297100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad832ad8a84143f0800000000000000
+      internalID: -918372958955401822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21827abe159afff80800000000000000
+      internalID: -8070545837913593838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8411451b8fe545f40800000000000000
+      internalID: 5716298249259979080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_30
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257a2c7f8d7843370800000000000000
+      internalID: 8301409379090081618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_31
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e532f81080139f0800000000000000
+      internalID: -490602081617224058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eddff93eb2fe70f0800000000000000
+      internalID: -1117188758710526488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_33
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd12b4af5ee45430800000000000000
+      internalID: 3770900882568388092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f728c3ee1a6b890800000000000000
+      internalID: -7442583289593692337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e166cdec9b0318090800000000000000
+      internalID: -8034086685654620642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_36
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d296e14a43943af60800000000000000
+      internalID: 8044353849854421293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1127de43015ba3920800000000000000
+      internalID: 2970885985416344081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_38
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce2588fada9a06c0800000000000000
+      internalID: -4176355439169687867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_39
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432727f35d75086d0800000000000000
+      internalID: -2990293579169893836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2b55d5e475fbba0800000000000000
+      internalID: -6071037778587176195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_41
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493ff309d3f127c80800000000000000
+      internalID: -8326558411781049452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc3ada29f43e9a0800000000000000
+      internalID: -6205028370189398034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8753ee240532da1e0800000000000000
+      internalID: -2185051416577559176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6325f059284fea4d0800000000000000
+      internalID: -3121288650037439946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_45
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bddc5c2f5be70400800000000000000
+      internalID: 290459494987390390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_46
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee56249dc4d01d0800000000000000
+      internalID: -3382963249079783700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_47
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c3a59e03d0aa330800000000000000
+      internalID: 3722802545699732534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_48
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60b5d82def60e750800000000000000
+      internalID: 6332184140465942636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_49
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515b34c2726771e20800000000000000
+      internalID: 3321253160827467029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a05399c07482ada0800000000000000
+      internalID: -5935035738967813979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_51
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79fc4e5eb4d4ba60800000000000000
+      internalID: 7689004377919256955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_52
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957b06219b0e0cef0800000000000000
+      internalID: -89824907065510055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dd930c372e28510800000000000000
+      internalID: 1550050208543006036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_54
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064c8faa8bbea9a40800000000000000
+      internalID: 5375868283595048032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_55
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c6a2494ae0b2980800000000000000
+      internalID: -8562734166491632525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerManipulator_56
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041befec034c15ae0800000000000000
+      internalID: -1562251881810579136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerManipulator_0: -5045668093675545335
+      LaborerManipulator_1: -1213751036745520692
+      LaborerManipulator_10: 3895065770746028305
+      LaborerManipulator_11: 3151648139036003267
+      LaborerManipulator_12: 7244157461548258376
+      LaborerManipulator_13: -6450417467334341170
+      LaborerManipulator_14: -7478049090366463647
+      LaborerManipulator_15: -7336849619328586271
+      LaborerManipulator_16: 4039573955343961002
+      LaborerManipulator_17: -3011218197283803703
+      LaborerManipulator_18: -6152769068330189025
+      LaborerManipulator_19: 1406725857331780804
+      LaborerManipulator_2: -6125540645964317519
+      LaborerManipulator_20: 5622943731907325098
+      LaborerManipulator_21: -7137296971842693360
+      LaborerManipulator_22: -4929128287551830254
+      LaborerManipulator_23: 5207425740036300999
+      LaborerManipulator_24: -5377600977413549440
+      LaborerManipulator_25: -1149997318976208814
+      LaborerManipulator_26: -7822846502784297100
+      LaborerManipulator_27: -918372958955401822
+      LaborerManipulator_28: -8070545837913593838
+      LaborerManipulator_29: 5716298249259979080
+      LaborerManipulator_3: -7427520750548141422
+      LaborerManipulator_30: 8301409379090081618
+      LaborerManipulator_31: -490602081617224058
+      LaborerManipulator_32: -1117188758710526488
+      LaborerManipulator_33: 3770900882568388092
+      LaborerManipulator_34: -7442583289593692337
+      LaborerManipulator_35: -8034086685654620642
+      LaborerManipulator_36: 8044353849854421293
+      LaborerManipulator_37: 2970885985416344081
+      LaborerManipulator_38: -4176355439169687867
+      LaborerManipulator_39: -2990293579169893836
+      LaborerManipulator_4: 1153815930560571520
+      LaborerManipulator_40: -6071037778587176195
+      LaborerManipulator_41: -8326558411781049452
+      LaborerManipulator_42: -6205028370189398034
+      LaborerManipulator_43: -2185051416577559176
+      LaborerManipulator_44: -3121288650037439946
+      LaborerManipulator_45: 290459494987390390
+      LaborerManipulator_46: -3382963249079783700
+      LaborerManipulator_47: 3722802545699732534
+      LaborerManipulator_48: 6332184140465942636
+      LaborerManipulator_49: 3321253160827467029
+      LaborerManipulator_5: 7298099468595782943
+      LaborerManipulator_50: -5935035738967813979
+      LaborerManipulator_51: 7689004377919256955
+      LaborerManipulator_52: -89824907065510055
+      LaborerManipulator_53: 1550050208543006036
+      LaborerManipulator_54: 5375868283595048032
+      LaborerManipulator_55: -8562734166491632525
+      LaborerManipulator_56: -1562251881810579136
+      LaborerManipulator_6: -1596923041609099381
+      LaborerManipulator_7: -7413841503394995632
+      LaborerManipulator_8: -4264077957153862288
+      LaborerManipulator_9: -1357197407158373875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -102,6 +102,16 @@ public static class SaveSystem
                     earned = false,
                     unlockOrder = 0
                 });
+            
+                // Discard unlock (Hustler / Opportunist / Manipulator)
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
+                {
+                    pranksterType = type.ToString(),
+                    tier = tier,
+                    category = PranksterUnlockCategory.Discard,
+                    earned = false,
+                    unlockOrder = 0
+                });
             }
         }
 
@@ -109,109 +119,129 @@ public static class SaveSystem
     }
 
     private static void EnsureDefaults(PlayerProgressSave data)
+{
+    if (data.prankCompletions == null)
+        data.prankCompletions = new List<PrankCompletionEntry>();
+
+    if (data.favorPointsByType == null)
+        data.favorPointsByType = new List<FavorPointsEntry>();
+
+    if (data.discardCountsByType == null)
+        data.discardCountsByType = new List<DiscardCountEntry>();
+
+    if (data.pranksterUnlocks == null)
+        data.pranksterUnlocks = new List<PranksterUnlockEntry>();
+
+    foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
     {
-        if (data.prankCompletions == null)
-            data.prankCompletions = new List<PrankCompletionEntry>();
+        bool favorFound = false;
 
-        if (data.favorPointsByType == null)
-            data.favorPointsByType = new List<FavorPointsEntry>();
-
-        if (data.discardCountsByType == null)
-            data.discardCountsByType = new List<DiscardCountEntry>();
-
-        if (data.pranksterUnlocks == null)
-            data.pranksterUnlocks = new List<PranksterUnlockEntry>();
-
-        foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
+        for (int i = 0; i < data.favorPointsByType.Count; i++)
         {
-            bool favorFound = false;
-
-            for (int i = 0; i < data.favorPointsByType.Count; i++)
+            if (data.favorPointsByType[i].pranksterType == type.ToString())
             {
-                if (data.favorPointsByType[i].pranksterType == type.ToString())
+                favorFound = true;
+                break;
+            }
+        }
+
+        if (!favorFound)
+        {
+            data.favorPointsByType.Add(new FavorPointsEntry
+            {
+                pranksterType = type.ToString(),
+                totalFavorPointsGained = 0
+            });
+        }
+
+        bool discardFound = false;
+
+        for (int i = 0; i < data.discardCountsByType.Count; i++)
+        {
+            if (data.discardCountsByType[i].pranksterType == type.ToString())
+            {
+                discardFound = true;
+                break;
+            }
+        }
+
+        if (!discardFound)
+        {
+            data.discardCountsByType.Add(new DiscardCountEntry
+            {
+                pranksterType = type.ToString(),
+                totalDiscards = 0
+            });
+        }
+
+        for (int tier = 1; tier <= 3; tier++)
+        {
+            bool prankCompletionUnlockFound = false;
+            bool favorOfferUnlockFound = false;
+            bool discardUnlockFound = false;
+
+            for (int i = 0; i < data.pranksterUnlocks.Count; i++)
+            {
+                if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
+                    data.pranksterUnlocks[i].tier == tier &&
+                    data.pranksterUnlocks[i].category == PranksterUnlockCategory.PrankCompletion)
                 {
-                    favorFound = true;
-                    break;
+                    prankCompletionUnlockFound = true;
+                }
+
+                if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
+                    data.pranksterUnlocks[i].tier == tier &&
+                    data.pranksterUnlocks[i].category == PranksterUnlockCategory.FavorOffer)
+                {
+                    favorOfferUnlockFound = true;
+                }
+
+                if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
+                    data.pranksterUnlocks[i].tier == tier &&
+                    data.pranksterUnlocks[i].category == PranksterUnlockCategory.Discard)
+                {
+                    discardUnlockFound = true;
                 }
             }
 
-            if (!favorFound)
+            if (!prankCompletionUnlockFound)
             {
-                data.favorPointsByType.Add(new FavorPointsEntry
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
                 {
                     pranksterType = type.ToString(),
-                    totalFavorPointsGained = 0
+                    tier = tier,
+                    category = PranksterUnlockCategory.PrankCompletion,
+                    earned = false,
+                    unlockOrder = 0
                 });
             }
 
-            bool discardFound = false;
-
-            for (int i = 0; i < data.discardCountsByType.Count; i++)
+            if (!favorOfferUnlockFound)
             {
-                if (data.discardCountsByType[i].pranksterType == type.ToString())
-                {
-                    discardFound = true;
-                    break;
-                }
-            }
-
-            if (!discardFound)
-            {
-                data.discardCountsByType.Add(new DiscardCountEntry
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
                 {
                     pranksterType = type.ToString(),
-                    totalDiscards = 0
+                    tier = tier,
+                    category = PranksterUnlockCategory.FavorOffer,
+                    earned = false,
+                    unlockOrder = 0
                 });
             }
 
-            for (int tier = 1; tier <= 3; tier++)
+            if (!discardUnlockFound)
             {
-                bool prankCompletionUnlockFound = false;
-                bool favorOfferUnlockFound = false;
-
-                for (int i = 0; i < data.pranksterUnlocks.Count; i++)
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
                 {
-                    if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
-                        data.pranksterUnlocks[i].tier == tier &&
-                        data.pranksterUnlocks[i].category == PranksterUnlockCategory.PrankCompletion)
-                    {
-                        prankCompletionUnlockFound = true;
-                    }
-
-                    if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
-                        data.pranksterUnlocks[i].tier == tier &&
-                        data.pranksterUnlocks[i].category == PranksterUnlockCategory.FavorOffer)
-                    {
-                        favorOfferUnlockFound = true;
-                    }
-                }
-
-                if (!prankCompletionUnlockFound)
-                {
-                    data.pranksterUnlocks.Add(new PranksterUnlockEntry
-                    {
-                        pranksterType = type.ToString(),
-                        tier = tier,
-                        category = PranksterUnlockCategory.PrankCompletion,
-                        earned = false,
-                        unlockOrder = 0
-                    });
-                }
-
-                if (!favorOfferUnlockFound)
-                {
-                    data.pranksterUnlocks.Add(new PranksterUnlockEntry
-                    {
-                        pranksterType = type.ToString(),
-                        tier = tier,
-                        category = PranksterUnlockCategory.FavorOffer,
-                        earned = false,
-                        unlockOrder = 0
-                    });
-                }
+                    pranksterType = type.ToString(),
+                    tier = tier,
+                    category = PranksterUnlockCategory.Discard,
+                    earned = false,
+                    unlockOrder = 0
+                });
             }
         }
     }
+}
 
     public static int GetPrankCompletionCount(string prankTitle)
     {
@@ -655,5 +685,123 @@ public static List<PranksterUnlockEntry> EvaluateFavorUnlocks(PlayerProgressSave
 {
     sessionNewUnlocks.Clear();
 }
+
+    public static List<PranksterUnlockEntry> EvaluateDiscardUnlocks(PlayerProgressSave data)
+{
+    Debug.Log("DISCARD UNLOCK EVALUATION START");
+
+    List<PranksterUnlockEntry> newlyEarned = new List<PranksterUnlockEntry>();
+
+    if (data == null)
+    {
+        Debug.LogWarning("DISCARD UNLOCK EVALUATION ABORTED: data is null");
+        return newlyEarned;
+    }
+
+    if (data.discardCountsByType == null)
+    {
+        Debug.LogWarning("DISCARD UNLOCK EVALUATION ABORTED: discardCountsByType is null");
+        return newlyEarned;
+    }
+
+    if (data.pranksterUnlocks == null)
+    {
+        Debug.LogWarning("DISCARD UNLOCK EVALUATION: pranksterUnlocks was null, creating new list");
+        data.pranksterUnlocks = new List<PranksterUnlockEntry>();
+    }
+
+    for (int i = 0; i < data.discardCountsByType.Count; i++)
+    {
+        DiscardCountEntry entry = data.discardCountsByType[i];
+
+        if (entry == null)
+        {
+            Debug.Log("SKIP: discard entry at index " + i + " is null");
+            continue;
+        }
+
+        if (string.IsNullOrWhiteSpace(entry.pranksterType))
+        {
+            Debug.Log("SKIP: discard entry at index " + i + " has blank pranksterType");
+            continue;
+        }
+
+        int discardTotal = entry.totalDiscards;
+        string pranksterType = entry.pranksterType;
+
+        Debug.Log("EVALUATING DISCARD UNLOCKS: " + pranksterType + " | total discards = " + discardTotal);
+
+        int highestTier = 0;
+
+        if (discardTotal >= 100)
+            highestTier = 3;
+        else if (discardTotal >= 50)
+            highestTier = 2;
+        else if (discardTotal >= 15)
+            highestTier = 1;
+
+        if (highestTier == 0)
+        {
+            Debug.Log("SKIP: No discard unlock tier earned yet for " + pranksterType);
+            continue;
+        }
+
+        for (int tier = 1; tier <= highestTier; tier++)
+        {
+            Debug.Log("ATTEMPTING DISCARD UNLOCK IN MEMORY: " + pranksterType + " tier " + tier);
+
+            bool earnedNow = EarnPranksterUnlock(
+                data,
+                pranksterType,
+                tier,
+                PranksterUnlockCategory.Discard
+            );
+
+            Debug.Log("EarnPranksterUnlock RESULT for discard unlock " + pranksterType +
+                      " tier " + tier + " = " + earnedNow);
+
+            if (earnedNow)
+            {
+                PranksterUnlockEntry unlockedEntry = null;
+
+                for (int j = 0; j < data.pranksterUnlocks.Count; j++)
+                {
+                    if (data.pranksterUnlocks[j].pranksterType == pranksterType &&
+                        data.pranksterUnlocks[j].tier == tier &&
+                        data.pranksterUnlocks[j].category == PranksterUnlockCategory.Discard)
+                    {
+                        unlockedEntry = data.pranksterUnlocks[j];
+                        break;
+                    }
+                }
+
+                if (unlockedEntry != null)
+                {
+                    newlyEarned.Add(unlockedEntry);
+                    sessionNewUnlocks.Add(unlockedEntry);
+
+                    Debug.Log("DISCARD UNLOCK EARNED: " + pranksterType +
+                              " tier " + tier +
+                              " | order = " + unlockedEntry.unlockOrder);
+                }
+                else
+                {
+                    Debug.LogWarning("DISCARD UNLOCK WAS EARNED BUT COULD NOT BE FOUND IN MEMORY for " +
+                                     pranksterType + " tier " + tier);
+                }
+            }
+            else
+            {
+                Debug.Log("NO NEW DISCARD UNLOCK AWARDED for " + pranksterType + " tier " + tier);
+            }
+        }
+    }
+
+    Debug.Log("DISCARD UNLOCK EVALUATION END | count = " + newlyEarned.Count);
+
+    return newlyEarned;
+}
+
+
 
 }

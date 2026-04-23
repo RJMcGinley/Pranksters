@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: a7bacb87c4ecc438788be931b58974fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7645198611517779038
+    second: WizardManipulator_0
+  - first:
+      213: -3615525266853884307
+    second: WizardManipulator_1
+  - first:
+      213: 8964224167237035889
+    second: WizardManipulator_2
+  - first:
+      213: 2920165333996879747
+    second: WizardManipulator_3
+  - first:
+      213: -2909691696571285272
+    second: WizardManipulator_4
+  - first:
+      213: 3015410294472574374
+    second: WizardManipulator_5
+  - first:
+      213: 24977790639565309
+    second: WizardManipulator_6
+  - first:
+      213: -4667793120443448303
+    second: WizardManipulator_7
+  - first:
+      213: -4509718639737958074
+    second: WizardManipulator_8
+  - first:
+      213: 1035782573456632470
+    second: WizardManipulator_9
+  - first:
+      213: 6549748027630652265
+    second: WizardManipulator_10
+  - first:
+      213: -8839031237741352407
+    second: WizardManipulator_11
+  - first:
+      213: -4301083381860961206
+    second: WizardManipulator_12
+  - first:
+      213: -3118441254247713442
+    second: WizardManipulator_13
+  - first:
+      213: 3832532593766141277
+    second: WizardManipulator_14
+  - first:
+      213: -2685525418238590350
+    second: WizardManipulator_15
+  - first:
+      213: -4106361267299978175
+    second: WizardManipulator_16
+  - first:
+      213: -5246367446907584308
+    second: WizardManipulator_17
+  - first:
+      213: -1767523323888013290
+    second: WizardManipulator_18
+  - first:
+      213: 1305799574845686339
+    second: WizardManipulator_19
+  - first:
+      213: 4486991815606687954
+    second: WizardManipulator_20
+  - first:
+      213: 6459787490216975505
+    second: WizardManipulator_21
+  - first:
+      213: 7898475217514635725
+    second: WizardManipulator_22
+  - first:
+      213: 4793003225658299867
+    second: WizardManipulator_23
+  - first:
+      213: -840118574152497881
+    second: WizardManipulator_24
+  - first:
+      213: -4829842496652152693
+    second: WizardManipulator_25
+  - first:
+      213: 6437129403969658732
+    second: WizardManipulator_26
+  - first:
+      213: -2411143444872919285
+    second: WizardManipulator_27
+  - first:
+      213: 5769749018553844718
+    second: WizardManipulator_28
+  - first:
+      213: -5938508502378322528
+    second: WizardManipulator_29
+  - first:
+      213: -7864896177336797607
+    second: WizardManipulator_30
+  - first:
+      213: 8439092727552054549
+    second: WizardManipulator_31
+  - first:
+      213: -3994197975351577243
+    second: WizardManipulator_32
+  - first:
+      213: -6263058820207071683
+    second: WizardManipulator_33
+  - first:
+      213: 1527427217743392793
+    second: WizardManipulator_34
+  - first:
+      213: 7971003116008871608
+    second: WizardManipulator_35
+  - first:
+      213: -116697057130327008
+    second: WizardManipulator_36
+  - first:
+      213: -2904532388483871499
+    second: WizardManipulator_37
+  - first:
+      213: -3880508287008804367
+    second: WizardManipulator_38
+  - first:
+      213: -2273534641921963471
+    second: WizardManipulator_39
+  - first:
+      213: -406606677468685018
+    second: WizardManipulator_40
+  - first:
+      213: -5164767490636241191
+    second: WizardManipulator_41
+  - first:
+      213: 4630035265564952781
+    second: WizardManipulator_42
+  - first:
+      213: 8663798702939945781
+    second: WizardManipulator_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardManipulator_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 317
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a35c2b6e5cc6e590800000000000000
+      internalID: -7645198611517779038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 233
+        width: 601
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e89b8fce213ddc0800000000000000
+      internalID: -3615525266853884307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 982
+        width: 68
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177a227b262576c70800000000000000
+      internalID: 8964224167237035889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 978
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f3b4a46e2868820800000000000000
+      internalID: 2920165333996879747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 233
+        width: 108
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e007f371d2be97d0800000000000000
+      internalID: -2909691696571285272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5081ebfa3e8d920800000000000000
+      internalID: 3015410294472574374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 233
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df968521b2db85000800000000000000
+      internalID: 24977790639565309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 207
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114c4f253eaa83fb0800000000000000
+      internalID: -4667793120443448303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_8
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64116796ac24a61c0800000000000000
+      internalID: -4509718639737958074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 232
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a2c6343c6df5e00800000000000000
+      internalID: 1035782573456632470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_10
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 231
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b8d3b012165ea50800000000000000
+      internalID: 6549748027630652265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a68d3abe3755580800000000000000
+      internalID: -8839031237741352407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_12
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4477dac37b7f44c0800000000000000
+      internalID: -4301083381860961206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5534a3933219b4d0800000000000000
+      internalID: -3118441254247713442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d8981a614ef2530800000000000000
+      internalID: 3832532593766141277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2724b925cd81bbad0800000000000000
+      internalID: -2685525418238590350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144792f0f264307c0800000000000000
+      internalID: -4106361267299978175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc086ed7a982137b0800000000000000
+      internalID: -5246367446907584308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610ff63d6ee7877e0800000000000000
+      internalID: -1767523323888013290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_19
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342888e7bc12f1210800000000000000
+      internalID: 1305799574845686339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_20
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8525f784ff44e30800000000000000
+      internalID: 4486991815606687954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c15e63f76c5a950800000000000000
+      internalID: 6459787490216975505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1af27cc550d9d60800000000000000
+      internalID: 7898475217514635725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd51aa01a0b248240800000000000000
+      internalID: 4793003225658299867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725ce62ab9c4754f0800000000000000
+      internalID: -840118574152497881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_25
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8076f1c6d3f8fcb0800000000000000
+      internalID: -4829842496652152693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_26
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f55d86617455950800000000000000
+      internalID: 6437129403969658732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0786d9cfc5e98ed0800000000000000
+      internalID: -2411143444872919285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_28
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee38f06b924421050800000000000000
+      internalID: 5769749018553844718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a56a1c0bfd269da0800000000000000
+      internalID: -5938508502378322528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9563382c8964ad290800000000000000
+      internalID: -7864896177336797607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515925c9f1ead1570800000000000000
+      internalID: 8439092727552054549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_32
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565b5948a12c198c0800000000000000
+      internalID: -3994197975351577243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_33
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e2e26af252519a0800000000000000
+      internalID: -6263058820207071683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_34
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910bbdd36f2823510800000000000000
+      internalID: 1527427217743392793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_35
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b69d311a11be9e60800000000000000
+      internalID: 7971003116008871608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_36
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d96315a8616ef0800000000000000
+      internalID: -116697057130327008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_37
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc4dc97e2701b7d0800000000000000
+      internalID: -2904532388483871499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_38
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f171e4d54aa52ac0800000000000000
+      internalID: -3880508287008804367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_39
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a42b3f948c270e0800000000000000
+      internalID: -2273534641921963471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_40
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d5d2291617b5af0800000000000000
+      internalID: -406606677468685018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_41
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d62425d45f0358b0800000000000000
+      internalID: -5164767490636241191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_42
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8c7850b80314040800000000000000
+      internalID: 4630035265564952781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardManipulator_43
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bb93e740ffb3870800000000000000
+      internalID: 8663798702939945781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardManipulator_0: -7645198611517779038
+      WizardManipulator_1: -3615525266853884307
+      WizardManipulator_10: 6549748027630652265
+      WizardManipulator_11: -8839031237741352407
+      WizardManipulator_12: -4301083381860961206
+      WizardManipulator_13: -3118441254247713442
+      WizardManipulator_14: 3832532593766141277
+      WizardManipulator_15: -2685525418238590350
+      WizardManipulator_16: -4106361267299978175
+      WizardManipulator_17: -5246367446907584308
+      WizardManipulator_18: -1767523323888013290
+      WizardManipulator_19: 1305799574845686339
+      WizardManipulator_2: 8964224167237035889
+      WizardManipulator_20: 4486991815606687954
+      WizardManipulator_21: 6459787490216975505
+      WizardManipulator_22: 7898475217514635725
+      WizardManipulator_23: 4793003225658299867
+      WizardManipulator_24: -840118574152497881
+      WizardManipulator_25: -4829842496652152693
+      WizardManipulator_26: 6437129403969658732
+      WizardManipulator_27: -2411143444872919285
+      WizardManipulator_28: 5769749018553844718
+      WizardManipulator_29: -5938508502378322528
+      WizardManipulator_3: 2920165333996879747
+      WizardManipulator_30: -7864896177336797607
+      WizardManipulator_31: 8439092727552054549
+      WizardManipulator_32: -3994197975351577243
+      WizardManipulator_33: -6263058820207071683
+      WizardManipulator_34: 1527427217743392793
+      WizardManipulator_35: 7971003116008871608
+      WizardManipulator_36: -116697057130327008
+      WizardManipulator_37: -2904532388483871499
+      WizardManipulator_38: -3880508287008804367
+      WizardManipulator_39: -2273534641921963471
+      WizardManipulator_4: -2909691696571285272
+      WizardManipulator_40: -406606677468685018
+      WizardManipulator_41: -5164767490636241191
+      WizardManipulator_42: 4630035265564952781
+      WizardManipulator_43: 8663798702939945781
+      WizardManipulator_5: 3015410294472574374
+      WizardManipulator_6: 24977790639565309
+      WizardManipulator_7: -4667793120443448303
+      WizardManipulator_8: -4509718639737958074
+      WizardManipulator_9: 1035782573456632470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

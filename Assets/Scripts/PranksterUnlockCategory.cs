@@ -1,5 +1,6 @@
 public enum PranksterUnlockCategory
 {
     PrankCompletion,
-    FavorOffer
+    FavorOffer,
+    Discard 
 }

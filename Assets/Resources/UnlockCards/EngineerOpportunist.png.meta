@@ -1,0 +1,2483 @@
+fileFormatVersion: 2
+guid: 430bb2d42df084c238cba1c98e608311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8110964987066053257
+    second: EngineerOpportunist_0
+  - first:
+      213: 3926114841226315184
+    second: EngineerOpportunist_1
+  - first:
+      213: 1626913075627707975
+    second: EngineerOpportunist_2
+  - first:
+      213: -7687631539010594187
+    second: EngineerOpportunist_3
+  - first:
+      213: -5973546278198401593
+    second: EngineerOpportunist_4
+  - first:
+      213: 1116225285396943265
+    second: EngineerOpportunist_5
+  - first:
+      213: -4089497624110604315
+    second: EngineerOpportunist_6
+  - first:
+      213: -300744677859788457
+    second: EngineerOpportunist_7
+  - first:
+      213: 4750730589825934281
+    second: EngineerOpportunist_8
+  - first:
+      213: -427747347734377248
+    second: EngineerOpportunist_9
+  - first:
+      213: -7225160161083002802
+    second: EngineerOpportunist_10
+  - first:
+      213: -3672034751111252056
+    second: EngineerOpportunist_11
+  - first:
+      213: -1996076466516640215
+    second: EngineerOpportunist_12
+  - first:
+      213: 8353039760470557894
+    second: EngineerOpportunist_13
+  - first:
+      213: -8093984506910359106
+    second: EngineerOpportunist_14
+  - first:
+      213: 7383081980535083595
+    second: EngineerOpportunist_15
+  - first:
+      213: 2191988905905905312
+    second: EngineerOpportunist_16
+  - first:
+      213: 112876930340630220
+    second: EngineerOpportunist_17
+  - first:
+      213: 3764715132230361230
+    second: EngineerOpportunist_18
+  - first:
+      213: 8364330415113158635
+    second: EngineerOpportunist_19
+  - first:
+      213: 1749081151867559574
+    second: EngineerOpportunist_20
+  - first:
+      213: 1495902320974338303
+    second: EngineerOpportunist_21
+  - first:
+      213: -4002433499689476924
+    second: EngineerOpportunist_22
+  - first:
+      213: -4458358666741525860
+    second: EngineerOpportunist_23
+  - first:
+      213: 3958850920128888784
+    second: EngineerOpportunist_24
+  - first:
+      213: 2753629215599774500
+    second: EngineerOpportunist_25
+  - first:
+      213: 9089206570878161481
+    second: EngineerOpportunist_26
+  - first:
+      213: 5564605904354487614
+    second: EngineerOpportunist_27
+  - first:
+      213: 3746028465455119934
+    second: EngineerOpportunist_28
+  - first:
+      213: -1075929149541162066
+    second: EngineerOpportunist_29
+  - first:
+      213: 3022845029331600721
+    second: EngineerOpportunist_30
+  - first:
+      213: 559373840306470340
+    second: EngineerOpportunist_31
+  - first:
+      213: 5917529373686297044
+    second: EngineerOpportunist_32
+  - first:
+      213: -2076747656632858860
+    second: EngineerOpportunist_33
+  - first:
+      213: -3164584763715690927
+    second: EngineerOpportunist_34
+  - first:
+      213: -3816409600190602236
+    second: EngineerOpportunist_35
+  - first:
+      213: 5410953200859055685
+    second: EngineerOpportunist_36
+  - first:
+      213: 3621581157611418810
+    second: EngineerOpportunist_37
+  - first:
+      213: 4811672456008408866
+    second: EngineerOpportunist_38
+  - first:
+      213: -39970469792120541
+    second: EngineerOpportunist_39
+  - first:
+      213: -601964443244205230
+    second: EngineerOpportunist_40
+  - first:
+      213: 3793212393296916750
+    second: EngineerOpportunist_41
+  - first:
+      213: -5285504883135959644
+    second: EngineerOpportunist_42
+  - first:
+      213: -4721669889619544342
+    second: EngineerOpportunist_43
+  - first:
+      213: -1362490922181028291
+    second: EngineerOpportunist_44
+  - first:
+      213: 1622266672448001636
+    second: EngineerOpportunist_45
+  - first:
+      213: 5692106809378816007
+    second: EngineerOpportunist_46
+  - first:
+      213: -4514357120137714650
+    second: EngineerOpportunist_47
+  - first:
+      213: -6391338766049835157
+    second: EngineerOpportunist_48
+  - first:
+      213: -2935228837630270205
+    second: EngineerOpportunist_49
+  - first:
+      213: 3757038551381791383
+    second: EngineerOpportunist_50
+  - first:
+      213: 7808723304968954531
+    second: EngineerOpportunist_51
+  - first:
+      213: 5708325485710193593
+    second: EngineerOpportunist_52
+  - first:
+      213: -3894452246054451576
+    second: EngineerOpportunist_53
+  - first:
+      213: 1615494103026270332
+    second: EngineerOpportunist_54
+  - first:
+      213: -7674690194743400393
+    second: EngineerOpportunist_55
+  - first:
+      213: -6481606573481473343
+    second: EngineerOpportunist_56
+  - first:
+      213: 5045267887565664544
+    second: EngineerOpportunist_57
+  - first:
+      213: 4534967479820725149
+    second: EngineerOpportunist_58
+  - first:
+      213: -330500353121163039
+    second: EngineerOpportunist_59
+  - first:
+      213: -4272665193331620715
+    second: EngineerOpportunist_60
+  - first:
+      213: 2801612723305362423
+    second: EngineerOpportunist_61
+  - first:
+      213: -8808520739272762892
+    second: EngineerOpportunist_62
+  - first:
+      213: -4665847085304790566
+    second: EngineerOpportunist_63
+  - first:
+      213: 3116281871554137814
+    second: EngineerOpportunist_64
+  - first:
+      213: 6559497383894780048
+    second: EngineerOpportunist_65
+  - first:
+      213: 5394895206394309133
+    second: EngineerOpportunist_66
+  - first:
+      213: -5211446270260476890
+    second: EngineerOpportunist_67
+  - first:
+      213: 3913981553562417102
+    second: EngineerOpportunist_68
+  - first:
+      213: -8823423409003615421
+    second: EngineerOpportunist_69
+  - first:
+      213: 6115688379040129478
+    second: EngineerOpportunist_70
+  - first:
+      213: 6363215931386103161
+    second: EngineerOpportunist_71
+  - first:
+      213: 7043420153627470248
+    second: EngineerOpportunist_72
+  - first:
+      213: -2514223716396891771
+    second: EngineerOpportunist_73
+  - first:
+      213: -3212806007045585142
+    second: EngineerOpportunist_74
+  - first:
+      213: 3557845279965945360
+    second: EngineerOpportunist_75
+  - first:
+      213: 5792234723548661909
+    second: EngineerOpportunist_76
+  - first:
+      213: -578253422042688177
+    second: EngineerOpportunist_77
+  - first:
+      213: -6518735854396383297
+    second: EngineerOpportunist_78
+  - first:
+      213: 4964850502179127258
+    second: EngineerOpportunist_79
+  - first:
+      213: 6509405303876864027
+    second: EngineerOpportunist_80
+  - first:
+      213: 4829524478575184232
+    second: EngineerOpportunist_81
+  - first:
+      213: -3329769740298744458
+    second: EngineerOpportunist_82
+  - first:
+      213: 7282733426292066370
+    second: EngineerOpportunist_83
+  - first:
+      213: -6721772232908945637
+    second: EngineerOpportunist_84
+  - first:
+      213: 5408208304297905880
+    second: EngineerOpportunist_85
+  - first:
+      213: -8368920405502680619
+    second: EngineerOpportunist_86
+  - first:
+      213: -3708004935508143486
+    second: EngineerOpportunist_87
+  - first:
+      213: -5532432227278390971
+    second: EngineerOpportunist_88
+  - first:
+      213: -6120453867230335564
+    second: EngineerOpportunist_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerOpportunist_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982f3b79eafef8070800000000000000
+      internalID: 8110964987066053257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b50faa85ac5c7630800000000000000
+      internalID: 3926114841226315184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1081
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e4a3192d4f39610800000000000000
+      internalID: 1626913075627707975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 836
+        width: 292
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a1f2998db005590800000000000000
+      internalID: -7687631539010594187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5a0a62f43b91da0800000000000000
+      internalID: -5973546278198401593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1d469abf0ad7f00800000000000000
+      internalID: 1116225285396943265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1007
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef5515f39f2f37c0800000000000000
+      internalID: -4089497624110604315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759f3141f4a83dbf0800000000000000
+      internalID: -300744677859788457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3282e0d4cfde140800000000000000
+      internalID: 4750730589825934281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 992
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec4da4bd06501af0800000000000000
+      internalID: -427747347734377248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40f7513d131bbb90800000000000000
+      internalID: -7225160161083002802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7bf1169df4a0dc0800000000000000
+      internalID: -3672034751111252056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e32c487038c44e0800000000000000
+      internalID: -1996076466516640215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4cf85e765fbe370800000000000000
+      internalID: 8353039760470557894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 970
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1c71889f36caf80800000000000000
+      internalID: -8093984506910359106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 963
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42916da1f9f57660800000000000000
+      internalID: 7383081980535083595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae5e18db428b6e10800000000000000
+      internalID: 2191988905905905312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 313
+        width: 749
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2a4858f4019100800000000000000
+      internalID: 112876930340630220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80e0296774fe3430800000000000000
+      internalID: 3764715132230361230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befb0d84232141470800000000000000
+      internalID: 8364330415113158635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e95646a0cf54810800000000000000
+      internalID: 1749081151867559574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff89b5c3c3382c410800000000000000
+      internalID: 1495902320974338303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc92e510ff7478c0800000000000000
+      internalID: -4002433499689476924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92569bf96ab022c0800000000000000
+      internalID: -4458358666741525860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfb20ddfe9a0f630800000000000000
+      internalID: 3958850920128888784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b46f6ae2bd63620800000000000000
+      internalID: 2753629215599774500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942d6533839532e70800000000000000
+      internalID: 9089206570878161481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d27146693793d40800000000000000
+      internalID: 5564605904354487614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e34f1ca019cf330800000000000000
+      internalID: 3746028465455119934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea36c1693288111f0800000000000000
+      internalID: -1075929149541162066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1558d58d98d43f920800000000000000
+      internalID: 3022845029331600721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdfc184b8b43c700800000000000000
+      internalID: 559373840306470340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 801
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1f28aec994f1250800000000000000
+      internalID: 5917529373686297044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41706466209ed23e0800000000000000
+      internalID: -2076747656632858860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 794
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15edc119ce22514d0800000000000000
+      internalID: -3164584763715690927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404af3750b3690bc0800000000000000
+      internalID: -3816409600190602236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_36
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54687798441971b40800000000000000
+      internalID: 5410953200859055685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 797
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab43da8ffd0724230800000000000000
+      internalID: 3621581157611418810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f99ebfa9e76c240800000000000000
+      internalID: 4811672456008408866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321098ac11ff17ff0800000000000000
+      internalID: -39970469792120541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 800
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b6309378465a7f0800000000000000
+      internalID: -601964443244205230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01721c039234a430800000000000000
+      internalID: 3793212393296916750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ada616005d16a6b0800000000000000
+      internalID: -5285504883135959644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6b19a7042497eb0800000000000000
+      internalID: -4721669889619544342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3694bd99b5771de0800000000000000
+      internalID: -1362490922181028291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_45
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466d73681f2738610800000000000000
+      internalID: 1622266672448001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7004b9c2cfc6efe40800000000000000
+      internalID: 5692106809378816007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_47
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 232
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624afe80e18c951c0800000000000000
+      internalID: -4514357120137714650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_48
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b678a6a41476d47a0800000000000000
+      internalID: -6391338766049835157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_49
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 288
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305a0967ce8f347d0800000000000000
+      internalID: -2935228837630270205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_50
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7925f8628aea32430800000000000000
+      internalID: 3757038551381791383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_51
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a22df539782e5c60800000000000000
+      internalID: 7808723304968954531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_52
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b01609cb083f40800000000000000
+      internalID: 5708325485710193593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886c33fd05024f9c0800000000000000
+      internalID: -3894452246054451576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_54
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c708e93d3536b6610800000000000000
+      internalID: 1615494103026270332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738652d1ee50e7590800000000000000
+      internalID: -7674690194743400393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_56
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caccc59925bc06a0800000000000000
+      internalID: -6481606573481473343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_57
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 233
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021790ba964640640800000000000000
+      internalID: 5045267887565664544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_58
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 231
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ba9a645e07fee30800000000000000
+      internalID: 4534967479820725149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_59
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8621e0ea3d96bf0800000000000000
+      internalID: -330500353121163039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_60
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 128
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5940b4be4a174b4c0800000000000000
+      internalID: -4272665193331620715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3b4d2ade351e620800000000000000
+      internalID: 2801612723305362423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_62
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f95cf2ae09d1c580800000000000000
+      internalID: -8808520739272762892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_63
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1cd10fbc49f3fb0800000000000000
+      internalID: -4665847085304790566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de49f5f9d14f3b20800000000000000
+      internalID: 3116281871554137814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_65
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0980720fd14080b50800000000000000
+      internalID: 6559497383894780048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_66
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a27995b948eda40800000000000000
+      internalID: 5394895206394309133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_67
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62407178a393da7b0800000000000000
+      internalID: -5211446270260476890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_68
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7f48d5c71415630800000000000000
+      internalID: 3913981553562417102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_69
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b29737827ec8580800000000000000
+      internalID: -8823423409003615421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_70
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ebadad2a4fd450800000000000000
+      internalID: 6115688379040129478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_71
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97500630d2fae4850800000000000000
+      internalID: 6363215931386103161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_72
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9eac4ef414fb160800000000000000
+      internalID: 7043420153627470248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_73
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5810d42d9deab1dd0800000000000000
+      internalID: -2514223716396891771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_74
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a078ec175f1d963d0800000000000000
+      internalID: -3212806007045585142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_75
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 39
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e9b2e8e61006130800000000000000
+      internalID: 3557845279965945360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_76
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5980dc0eac6226050800000000000000
+      internalID: 5792234723548661909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ddfc8391a9f7f0800000000000000
+      internalID: -578253422042688177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_78
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfd916374cc885a0800000000000000
+      internalID: -6518735854396383297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_79
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf7e411a31b6e440800000000000000
+      internalID: 4964850502179127258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_80
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18cf94b2ad065a50800000000000000
+      internalID: 6509405303876864027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_81
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8690783eceae50340800000000000000
+      internalID: 4829524478575184232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_82
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d06a520184ac1d0800000000000000
+      internalID: -3329769740298744458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_83
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24880043777711560800000000000000
+      internalID: 7282733426292066370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_84
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17c06484c777b2a0800000000000000
+      internalID: -6721772232908945637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_85
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de8ef08cc0dd0b40800000000000000
+      internalID: 5408208304297905880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_86
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1ae7c4b3f9bdb80800000000000000
+      internalID: -8368920405502680619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_87
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28254a138258a8cc0800000000000000
+      internalID: -3708004935508143486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_88
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549f52d833ad833b0800000000000000
+      internalID: -5532432227278390971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerOpportunist_89
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bde193a2a7cf0ba0800000000000000
+      internalID: -6120453867230335564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerOpportunist_0: 8110964987066053257
+      EngineerOpportunist_1: 3926114841226315184
+      EngineerOpportunist_10: -7225160161083002802
+      EngineerOpportunist_11: -3672034751111252056
+      EngineerOpportunist_12: -1996076466516640215
+      EngineerOpportunist_13: 8353039760470557894
+      EngineerOpportunist_14: -8093984506910359106
+      EngineerOpportunist_15: 7383081980535083595
+      EngineerOpportunist_16: 2191988905905905312
+      EngineerOpportunist_17: 112876930340630220
+      EngineerOpportunist_18: 3764715132230361230
+      EngineerOpportunist_19: 8364330415113158635
+      EngineerOpportunist_2: 1626913075627707975
+      EngineerOpportunist_20: 1749081151867559574
+      EngineerOpportunist_21: 1495902320974338303
+      EngineerOpportunist_22: -4002433499689476924
+      EngineerOpportunist_23: -4458358666741525860
+      EngineerOpportunist_24: 3958850920128888784
+      EngineerOpportunist_25: 2753629215599774500
+      EngineerOpportunist_26: 9089206570878161481
+      EngineerOpportunist_27: 5564605904354487614
+      EngineerOpportunist_28: 3746028465455119934
+      EngineerOpportunist_29: -1075929149541162066
+      EngineerOpportunist_3: -7687631539010594187
+      EngineerOpportunist_30: 3022845029331600721
+      EngineerOpportunist_31: 559373840306470340
+      EngineerOpportunist_32: 5917529373686297044
+      EngineerOpportunist_33: -2076747656632858860
+      EngineerOpportunist_34: -3164584763715690927
+      EngineerOpportunist_35: -3816409600190602236
+      EngineerOpportunist_36: 5410953200859055685
+      EngineerOpportunist_37: 3621581157611418810
+      EngineerOpportunist_38: 4811672456008408866
+      EngineerOpportunist_39: -39970469792120541
+      EngineerOpportunist_4: -5973546278198401593
+      EngineerOpportunist_40: -601964443244205230
+      EngineerOpportunist_41: 3793212393296916750
+      EngineerOpportunist_42: -5285504883135959644
+      EngineerOpportunist_43: -4721669889619544342
+      EngineerOpportunist_44: -1362490922181028291
+      EngineerOpportunist_45: 1622266672448001636
+      EngineerOpportunist_46: 5692106809378816007
+      EngineerOpportunist_47: -4514357120137714650
+      EngineerOpportunist_48: -6391338766049835157
+      EngineerOpportunist_49: -2935228837630270205
+      EngineerOpportunist_5: 1116225285396943265
+      EngineerOpportunist_50: 3757038551381791383
+      EngineerOpportunist_51: 7808723304968954531
+      EngineerOpportunist_52: 5708325485710193593
+      EngineerOpportunist_53: -3894452246054451576
+      EngineerOpportunist_54: 1615494103026270332
+      EngineerOpportunist_55: -7674690194743400393
+      EngineerOpportunist_56: -6481606573481473343
+      EngineerOpportunist_57: 5045267887565664544
+      EngineerOpportunist_58: 4534967479820725149
+      EngineerOpportunist_59: -330500353121163039
+      EngineerOpportunist_6: -4089497624110604315
+      EngineerOpportunist_60: -4272665193331620715
+      EngineerOpportunist_61: 2801612723305362423
+      EngineerOpportunist_62: -8808520739272762892
+      EngineerOpportunist_63: -4665847085304790566
+      EngineerOpportunist_64: 3116281871554137814
+      EngineerOpportunist_65: 6559497383894780048
+      EngineerOpportunist_66: 5394895206394309133
+      EngineerOpportunist_67: -5211446270260476890
+      EngineerOpportunist_68: 3913981553562417102
+      EngineerOpportunist_69: -8823423409003615421
+      EngineerOpportunist_7: -300744677859788457
+      EngineerOpportunist_70: 6115688379040129478
+      EngineerOpportunist_71: 6363215931386103161
+      EngineerOpportunist_72: 7043420153627470248
+      EngineerOpportunist_73: -2514223716396891771
+      EngineerOpportunist_74: -3212806007045585142
+      EngineerOpportunist_75: 3557845279965945360
+      EngineerOpportunist_76: 5792234723548661909
+      EngineerOpportunist_77: -578253422042688177
+      EngineerOpportunist_78: -6518735854396383297
+      EngineerOpportunist_79: 4964850502179127258
+      EngineerOpportunist_8: 4750730589825934281
+      EngineerOpportunist_80: 6509405303876864027
+      EngineerOpportunist_81: 4829524478575184232
+      EngineerOpportunist_82: -3329769740298744458
+      EngineerOpportunist_83: 7282733426292066370
+      EngineerOpportunist_84: -6721772232908945637
+      EngineerOpportunist_85: 5408208304297905880
+      EngineerOpportunist_86: -8368920405502680619
+      EngineerOpportunist_87: -3708004935508143486
+      EngineerOpportunist_88: -5532432227278390971
+      EngineerOpportunist_89: -6120453867230335564
+      EngineerOpportunist_9: -427747347734377248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

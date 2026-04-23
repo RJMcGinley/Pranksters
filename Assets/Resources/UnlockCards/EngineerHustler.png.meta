@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: 97b2dce6ae3cd4e8bbaeb334fa9e6ce6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3014112591744306146
+    second: EngineerHustler_0
+  - first:
+      213: 7887163056525389751
+    second: EngineerHustler_1
+  - first:
+      213: -6405835209324662203
+    second: EngineerHustler_2
+  - first:
+      213: -2437836549475988808
+    second: EngineerHustler_3
+  - first:
+      213: -5190197819541931488
+    second: EngineerHustler_4
+  - first:
+      213: 2742185817842271804
+    second: EngineerHustler_5
+  - first:
+      213: 2418388319429344102
+    second: EngineerHustler_6
+  - first:
+      213: 8382919706265765557
+    second: EngineerHustler_7
+  - first:
+      213: -5166929023202281227
+    second: EngineerHustler_8
+  - first:
+      213: -6860313566066454959
+    second: EngineerHustler_9
+  - first:
+      213: 2517385392925787006
+    second: EngineerHustler_10
+  - first:
+      213: 7233827399740918396
+    second: EngineerHustler_11
+  - first:
+      213: 4505993487357874414
+    second: EngineerHustler_12
+  - first:
+      213: 7939382537011382892
+    second: EngineerHustler_13
+  - first:
+      213: -9026025815491775028
+    second: EngineerHustler_14
+  - first:
+      213: 57134628722097656
+    second: EngineerHustler_15
+  - first:
+      213: -8060338772330483780
+    second: EngineerHustler_16
+  - first:
+      213: -5999948445422557344
+    second: EngineerHustler_17
+  - first:
+      213: 7408258772073350990
+    second: EngineerHustler_18
+  - first:
+      213: 5275831621146955596
+    second: EngineerHustler_19
+  - first:
+      213: -2440973322969852257
+    second: EngineerHustler_20
+  - first:
+      213: -7626482903641333916
+    second: EngineerHustler_21
+  - first:
+      213: 3752788411523988217
+    second: EngineerHustler_22
+  - first:
+      213: 2904796143815746128
+    second: EngineerHustler_23
+  - first:
+      213: 2777790786405224307
+    second: EngineerHustler_24
+  - first:
+      213: -5368347887292762826
+    second: EngineerHustler_25
+  - first:
+      213: 8323567165979167044
+    second: EngineerHustler_26
+  - first:
+      213: -5774948293689406005
+    second: EngineerHustler_27
+  - first:
+      213: 3207361068931548345
+    second: EngineerHustler_28
+  - first:
+      213: 5789393439259113927
+    second: EngineerHustler_29
+  - first:
+      213: -1069990924809275282
+    second: EngineerHustler_30
+  - first:
+      213: 1818680898117031853
+    second: EngineerHustler_31
+  - first:
+      213: 4603351114398457032
+    second: EngineerHustler_32
+  - first:
+      213: 6990192196855109310
+    second: EngineerHustler_33
+  - first:
+      213: -2814940818705984623
+    second: EngineerHustler_34
+  - first:
+      213: -1823105468201122474
+    second: EngineerHustler_35
+  - first:
+      213: -6135546481165941054
+    second: EngineerHustler_36
+  - first:
+      213: -3433163029550550273
+    second: EngineerHustler_37
+  - first:
+      213: 6647029271174470164
+    second: EngineerHustler_38
+  - first:
+      213: 7349718213265466340
+    second: EngineerHustler_39
+  - first:
+      213: -2463651958179694623
+    second: EngineerHustler_40
+  - first:
+      213: -7083826962311661194
+    second: EngineerHustler_41
+  - first:
+      213: -2465321123029208657
+    second: EngineerHustler_42
+  - first:
+      213: 6624982930943625122
+    second: EngineerHustler_43
+  - first:
+      213: -1486826688613279223
+    second: EngineerHustler_44
+  - first:
+      213: 9019121672757708954
+    second: EngineerHustler_45
+  - first:
+      213: -9125797661565938978
+    second: EngineerHustler_46
+  - first:
+      213: -8154813028963131836
+    second: EngineerHustler_47
+  - first:
+      213: 5657202502174290391
+    second: EngineerHustler_48
+  - first:
+      213: -4143162055923623077
+    second: EngineerHustler_49
+  - first:
+      213: -4259506628183606310
+    second: EngineerHustler_50
+  - first:
+      213: -2624592540109690015
+    second: EngineerHustler_51
+  - first:
+      213: 1225201564039136418
+    second: EngineerHustler_52
+  - first:
+      213: 8989309686031670567
+    second: EngineerHustler_53
+  - first:
+      213: -4343069328129136699
+    second: EngineerHustler_54
+  - first:
+      213: -5715117845525261558
+    second: EngineerHustler_55
+  - first:
+      213: 3142257606782661824
+    second: EngineerHustler_56
+  - first:
+      213: -5596282230380465538
+    second: EngineerHustler_57
+  - first:
+      213: 3399648166045355154
+    second: EngineerHustler_58
+  - first:
+      213: 7903947944669117720
+    second: EngineerHustler_59
+  - first:
+      213: -6892747094016033166
+    second: EngineerHustler_60
+  - first:
+      213: 8932121756370489260
+    second: EngineerHustler_61
+  - first:
+      213: 6444555333423499623
+    second: EngineerHustler_62
+  - first:
+      213: -2153962782559740742
+    second: EngineerHustler_63
+  - first:
+      213: -1257126488897940429
+    second: EngineerHustler_64
+  - first:
+      213: 8198981977381283588
+    second: EngineerHustler_65
+  - first:
+      213: 2551205368506564996
+    second: EngineerHustler_66
+  - first:
+      213: -784603949746203957
+    second: EngineerHustler_67
+  - first:
+      213: 3066423426883788241
+    second: EngineerHustler_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerHustler_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e147c083198bb26d0800000000000000
+      internalID: -3014112591744306146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfa7cd0305d47d60800000000000000
+      internalID: 7887163056525389751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1081
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542738211d6e917a0800000000000000
+      internalID: -6405835209324662203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 836
+        width: 292
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba050013901b2ed0800000000000000
+      internalID: -2437836549475988808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a323cf496b8f7b0800000000000000
+      internalID: -5190197819541931488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c364a9cf8733e0620800000000000000
+      internalID: 2742185817842271804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1007
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3a840d57df8120800000000000000
+      internalID: 2418388319429344102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6c798ee0d165470800000000000000
+      internalID: 8382919706265765557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f83f50dd616b48b0800000000000000
+      internalID: -5166929023202281227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 992
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ec0deb8254bc0a0800000000000000
+      internalID: -6860313566066454959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73491c5dac8fe220800000000000000
+      internalID: 2517385392925787006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8b0091b7b36460800000000000000
+      internalID: 7233827399740918396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee09036f331888e30800000000000000
+      internalID: 4505993487357874414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ac08e4a5a5e2e60800000000000000
+      internalID: 7939382537011382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 970
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc57b1eb75d1db280800000000000000
+      internalID: -9026025815491775028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 963
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdba5164abfac000800000000000000
+      internalID: 57134628722097656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfeee1979ce32090800000000000000
+      internalID: -8060338772330483780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 313
+        width: 749
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0676eef8da6ebbca0800000000000000
+      internalID: -5999948445422557344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e478a914a1c6fc660800000000000000
+      internalID: 7408258772073350990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fcc3928e4873940800000000000000
+      internalID: 5275831621146955596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f965d2212bbef1ed0800000000000000
+      internalID: -2440973322969852257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f5edab43a492690800000000000000
+      internalID: -7626482903641333916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faf61a5d25941430800000000000000
+      internalID: 3752788411523988217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ef09d3b8ef4820800000000000000
+      internalID: 2904796143815746128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f490cb002bc8620800000000000000
+      internalID: 2777790786405224307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635323b0a0ccf75b0800000000000000
+      internalID: -5368347887292762826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4490b40cc30438370800000000000000
+      internalID: 8323567165979167044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd0566bf134bdfa0800000000000000
+      internalID: -5774948293689406005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4051c16e5d28c20800000000000000
+      internalID: 3207361068931548345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c93404d8ae085050800000000000000
+      internalID: 5789393439259113927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68f9d54ce0a621f0800000000000000
+      internalID: -1069990924809275282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7dd0c14a04d3910800000000000000
+      internalID: 1818680898117031853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 801
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc5e1ee27362ef30800000000000000
+      internalID: 4603351114398457032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6914574c6220160800000000000000
+      internalID: 6990192196855109310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 794
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19358455d325fe8d0800000000000000
+      internalID: -2814940818705984623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ccc36c3703b6e0800000000000000
+      internalID: -1823105468201122474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_36
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6c43f9bf82adaa0800000000000000
+      internalID: -6135546481165941054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 797
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b2af0a64fa50d0800000000000000
+      internalID: -3433163029550550273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a5af797edfe3c50800000000000000
+      internalID: 6647029271174470164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e328e446c17ff560800000000000000
+      internalID: 7349718213265466340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 800
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7f086d8995fcdd0800000000000000
+      internalID: -2463651958179694623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6793415d8e031bd90800000000000000
+      internalID: -7083826962311661194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1b39c108b69cdd0800000000000000
+      internalID: -2465321123029208657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7cbe100eaa0fb50800000000000000
+      internalID: 6624982930943625122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a92a6110bbd5be0800000000000000
+      internalID: -1486826688613279223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_45
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9800c2406b5a2d70800000000000000
+      internalID: 9019121672757708954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2954a9067aa5180800000000000000
+      internalID: -9125797661565938978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_47
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 210
+        width: 93
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44edce691c844de80800000000000000
+      internalID: -8154813028963131836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 208
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1bc8cd3bb628e40800000000000000
+      internalID: 5657202502174290391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_49
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 208
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b9bc1cf088086c0800000000000000
+      internalID: -4143162055923623077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_50
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 208
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb1bc1a4133e4c0800000000000000
+      internalID: -4259506628183606310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_51
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 208
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b2f9e8df2939bd0800000000000000
+      internalID: -2624592540109690015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_52
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 210
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a44ec2c45ac00110800000000000000
+      internalID: 1225201564039136418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d55e3388170cc70800000000000000
+      internalID: 8989309686031670567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_54
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 128
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7e7f5e4715ab3c0800000000000000
+      internalID: -4343069328129136699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0398f77992dfa0b0800000000000000
+      internalID: -5715117845525261558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_56
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4bc0d15aa8b9b20800000000000000
+      internalID: 3142257606782661824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72775b36f20652b0800000000000000
+      internalID: -5596282230380465538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_58
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c0172bef9fd2f20800000000000000
+      internalID: 3399648166045355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_59
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7e2d57c670bd60800000000000000
+      internalID: 7903947944669117720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_60
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e719e890b0850a0800000000000000
+      internalID: -6892747094016033166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_61
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf400bb96545fb70800000000000000
+      internalID: 8932121756370489260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_62
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7698e085ee8af6950800000000000000
+      internalID: 6444555333423499623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_63
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc5d1ee2469b12e0800000000000000
+      internalID: -2153962782559740742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_64
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334118f6e1acd8ee0800000000000000
+      internalID: -1257126488897940429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_65
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40724a91ba2a8c170800000000000000
+      internalID: 8198981977381283588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_66
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48147ea04c3b76320800000000000000
+      internalID: 2551205368506564996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_67
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2520e5dd68c15f0800000000000000
+      internalID: -784603949746203957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerHustler_68
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd18523cdf1e8a20800000000000000
+      internalID: 3066423426883788241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerHustler_0: -3014112591744306146
+      EngineerHustler_1: 7887163056525389751
+      EngineerHustler_10: 2517385392925787006
+      EngineerHustler_11: 7233827399740918396
+      EngineerHustler_12: 4505993487357874414
+      EngineerHustler_13: 7939382537011382892
+      EngineerHustler_14: -9026025815491775028
+      EngineerHustler_15: 57134628722097656
+      EngineerHustler_16: -8060338772330483780
+      EngineerHustler_17: -5999948445422557344
+      EngineerHustler_18: 7408258772073350990
+      EngineerHustler_19: 5275831621146955596
+      EngineerHustler_2: -6405835209324662203
+      EngineerHustler_20: -2440973322969852257
+      EngineerHustler_21: -7626482903641333916
+      EngineerHustler_22: 3752788411523988217
+      EngineerHustler_23: 2904796143815746128
+      EngineerHustler_24: 2777790786405224307
+      EngineerHustler_25: -5368347887292762826
+      EngineerHustler_26: 8323567165979167044
+      EngineerHustler_27: -5774948293689406005
+      EngineerHustler_28: 3207361068931548345
+      EngineerHustler_29: 5789393439259113927
+      EngineerHustler_3: -2437836549475988808
+      EngineerHustler_30: -1069990924809275282
+      EngineerHustler_31: 1818680898117031853
+      EngineerHustler_32: 4603351114398457032
+      EngineerHustler_33: 6990192196855109310
+      EngineerHustler_34: -2814940818705984623
+      EngineerHustler_35: -1823105468201122474
+      EngineerHustler_36: -6135546481165941054
+      EngineerHustler_37: -3433163029550550273
+      EngineerHustler_38: 6647029271174470164
+      EngineerHustler_39: 7349718213265466340
+      EngineerHustler_4: -5190197819541931488
+      EngineerHustler_40: -2463651958179694623
+      EngineerHustler_41: -7083826962311661194
+      EngineerHustler_42: -2465321123029208657
+      EngineerHustler_43: 6624982930943625122
+      EngineerHustler_44: -1486826688613279223
+      EngineerHustler_45: 9019121672757708954
+      EngineerHustler_46: -9125797661565938978
+      EngineerHustler_47: -8154813028963131836
+      EngineerHustler_48: 5657202502174290391
+      EngineerHustler_49: -4143162055923623077
+      EngineerHustler_5: 2742185817842271804
+      EngineerHustler_50: -4259506628183606310
+      EngineerHustler_51: -2624592540109690015
+      EngineerHustler_52: 1225201564039136418
+      EngineerHustler_53: 8989309686031670567
+      EngineerHustler_54: -4343069328129136699
+      EngineerHustler_55: -5715117845525261558
+      EngineerHustler_56: 3142257606782661824
+      EngineerHustler_57: -5596282230380465538
+      EngineerHustler_58: 3399648166045355154
+      EngineerHustler_59: 7903947944669117720
+      EngineerHustler_6: 2418388319429344102
+      EngineerHustler_60: -6892747094016033166
+      EngineerHustler_61: 8932121756370489260
+      EngineerHustler_62: 6444555333423499623
+      EngineerHustler_63: -2153962782559740742
+      EngineerHustler_64: -1257126488897940429
+      EngineerHustler_65: 8198981977381283588
+      EngineerHustler_66: 2551205368506564996
+      EngineerHustler_67: -784603949746203957
+      EngineerHustler_68: 3066423426883788241
+      EngineerHustler_7: 8382919706265765557
+      EngineerHustler_8: -5166929023202281227
+      EngineerHustler_9: -6860313566066454959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

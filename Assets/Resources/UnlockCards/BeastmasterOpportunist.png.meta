@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 314c4e8aa81f84f01ad04cf339be7f09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5678981762525538120
+    second: BeastmasterOpportunist_0
+  - first:
+      213: 1556332444912585225
+    second: BeastmasterOpportunist_1
+  - first:
+      213: 7291958690934362441
+    second: BeastmasterOpportunist_2
+  - first:
+      213: -8470805312449884877
+    second: BeastmasterOpportunist_3
+  - first:
+      213: 4463367729218081497
+    second: BeastmasterOpportunist_4
+  - first:
+      213: -805681634322551600
+    second: BeastmasterOpportunist_5
+  - first:
+      213: 5935900085164652026
+    second: BeastmasterOpportunist_6
+  - first:
+      213: 2610467833795657695
+    second: BeastmasterOpportunist_7
+  - first:
+      213: -2880546181872514170
+    second: BeastmasterOpportunist_8
+  - first:
+      213: 1027335755286912124
+    second: BeastmasterOpportunist_9
+  - first:
+      213: -2812451560660479477
+    second: BeastmasterOpportunist_10
+  - first:
+      213: 237455279293367757
+    second: BeastmasterOpportunist_11
+  - first:
+      213: 8969997985843644518
+    second: BeastmasterOpportunist_12
+  - first:
+      213: 2605737406420899888
+    second: BeastmasterOpportunist_13
+  - first:
+      213: -5687563490535342740
+    second: BeastmasterOpportunist_14
+  - first:
+      213: -2354468778883797490
+    second: BeastmasterOpportunist_15
+  - first:
+      213: 2065919748682365814
+    second: BeastmasterOpportunist_16
+  - first:
+      213: -5981985436128616881
+    second: BeastmasterOpportunist_17
+  - first:
+      213: -5309277901516639108
+    second: BeastmasterOpportunist_18
+  - first:
+      213: 947019756844034486
+    second: BeastmasterOpportunist_19
+  - first:
+      213: -4044769266596250236
+    second: BeastmasterOpportunist_20
+  - first:
+      213: 5521936373905699824
+    second: BeastmasterOpportunist_21
+  - first:
+      213: -2172731762838381512
+    second: BeastmasterOpportunist_22
+  - first:
+      213: -4066247634185032945
+    second: BeastmasterOpportunist_23
+  - first:
+      213: 2342874271297298722
+    second: BeastmasterOpportunist_24
+  - first:
+      213: -3185960014514658003
+    second: BeastmasterOpportunist_25
+  - first:
+      213: -7083036086752353898
+    second: BeastmasterOpportunist_26
+  - first:
+      213: -4051991469498491009
+    second: BeastmasterOpportunist_27
+  - first:
+      213: 7853996163633168594
+    second: BeastmasterOpportunist_28
+  - first:
+      213: 66996059294068632
+    second: BeastmasterOpportunist_29
+  - first:
+      213: 5796005348329663779
+    second: BeastmasterOpportunist_30
+  - first:
+      213: -8205060088615238689
+    second: BeastmasterOpportunist_31
+  - first:
+      213: 2349440654055949878
+    second: BeastmasterOpportunist_32
+  - first:
+      213: 7230029235851812826
+    second: BeastmasterOpportunist_33
+  - first:
+      213: 6060722772098467577
+    second: BeastmasterOpportunist_34
+  - first:
+      213: -5454726262645103565
+    second: BeastmasterOpportunist_35
+  - first:
+      213: -6897438066230254238
+    second: BeastmasterOpportunist_36
+  - first:
+      213: -4853160841081917630
+    second: BeastmasterOpportunist_37
+  - first:
+      213: -7130085200011589422
+    second: BeastmasterOpportunist_38
+  - first:
+      213: -5410099361898105943
+    second: BeastmasterOpportunist_39
+  - first:
+      213: 6904886489560267957
+    second: BeastmasterOpportunist_40
+  - first:
+      213: 5701533260657978349
+    second: BeastmasterOpportunist_41
+  - first:
+      213: -6997398561562063337
+    second: BeastmasterOpportunist_42
+  - first:
+      213: 5167086256273716651
+    second: BeastmasterOpportunist_43
+  - first:
+      213: -1428660622622528249
+    second: BeastmasterOpportunist_44
+  - first:
+      213: -4501114708714440281
+    second: BeastmasterOpportunist_45
+  - first:
+      213: 461397332913306244
+    second: BeastmasterOpportunist_46
+  - first:
+      213: 9169410959702880577
+    second: BeastmasterOpportunist_47
+  - first:
+      213: 7432750727926316696
+    second: BeastmasterOpportunist_48
+  - first:
+      213: -6696649389196041163
+    second: BeastmasterOpportunist_49
+  - first:
+      213: -1461279616860661625
+    second: BeastmasterOpportunist_50
+  - first:
+      213: -1557958601360120552
+    second: BeastmasterOpportunist_51
+  - first:
+      213: -5975775146527394804
+    second: BeastmasterOpportunist_52
+  - first:
+      213: 2420576117430316084
+    second: BeastmasterOpportunist_53
+  - first:
+      213: 2566326084309245179
+    second: BeastmasterOpportunist_54
+  - first:
+      213: -3509233091793063213
+    second: BeastmasterOpportunist_55
+  - first:
+      213: 5765570018312825191
+    second: BeastmasterOpportunist_56
+  - first:
+      213: -5463684817474026334
+    second: BeastmasterOpportunist_57
+  - first:
+      213: 2152141257081873415
+    second: BeastmasterOpportunist_58
+  - first:
+      213: -7953723101872010631
+    second: BeastmasterOpportunist_59
+  - first:
+      213: 6852096072077858888
+    second: BeastmasterOpportunist_60
+  - first:
+      213: 5835512578756803012
+    second: BeastmasterOpportunist_61
+  - first:
+      213: 103603094601152072
+    second: BeastmasterOpportunist_62
+  - first:
+      213: -4272622897612690178
+    second: BeastmasterOpportunist_63
+  - first:
+      213: 4240042763378287593
+    second: BeastmasterOpportunist_64
+  - first:
+      213: 5230277558086652011
+    second: BeastmasterOpportunist_65
+  - first:
+      213: 4106025564040913189
+    second: BeastmasterOpportunist_66
+  - first:
+      213: -7073954652365012893
+    second: BeastmasterOpportunist_67
+  - first:
+      213: 2414556924273116774
+    second: BeastmasterOpportunist_68
+  - first:
+      213: -1386196589940821440
+    second: BeastmasterOpportunist_69
+  - first:
+      213: 8857480706204027916
+    second: BeastmasterOpportunist_70
+  - first:
+      213: 5170317592697165182
+    second: BeastmasterOpportunist_71
+  - first:
+      213: 2935077677999055309
+    second: BeastmasterOpportunist_72
+  - first:
+      213: 7612352541924555733
+    second: BeastmasterOpportunist_73
+  - first:
+      213: -132872804450092073
+    second: BeastmasterOpportunist_74
+  - first:
+      213: -5026573273161093673
+    second: BeastmasterOpportunist_75
+  - first:
+      213: 9047170700147011222
+    second: BeastmasterOpportunist_76
+  - first:
+      213: 794357173465994700
+    second: BeastmasterOpportunist_77
+  - first:
+      213: 1405495243652370245
+    second: BeastmasterOpportunist_78
+  - first:
+      213: 8656938959549464651
+    second: BeastmasterOpportunist_79
+  - first:
+      213: 4242503176590283439
+    second: BeastmasterOpportunist_80
+  - first:
+      213: -1134683574807842615
+    second: BeastmasterOpportunist_81
+  - first:
+      213: 4280347889004030889
+    second: BeastmasterOpportunist_82
+  - first:
+      213: 255869658768261820
+    second: BeastmasterOpportunist_83
+  - first:
+      213: -3202938911271943390
+    second: BeastmasterOpportunist_84
+  - first:
+      213: -3147893005328805008
+    second: BeastmasterOpportunist_85
+  - first:
+      213: 5316431775829982710
+    second: BeastmasterOpportunist_86
+  - first:
+      213: 7445997720642992685
+    second: BeastmasterOpportunist_87
+  - first:
+      213: -7719571118067610075
+    second: BeastmasterOpportunist_88
+  - first:
+      213: 5889347942275372154
+    second: BeastmasterOpportunist_89
+  - first:
+      213: -4049036655629901089
+    second: BeastmasterOpportunist_90
+  - first:
+      213: 3622302088174093465
+    second: BeastmasterOpportunist_91
+  - first:
+      213: 5558804269637190011
+    second: BeastmasterOpportunist_92
+  - first:
+      213: 5412868048229577867
+    second: BeastmasterOpportunist_93
+  - first:
+      213: -8569405152051805175
+    second: BeastmasterOpportunist_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847a14113dbcfce40800000000000000
+      internalID: 5678981762525538120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0e63ec14399510800000000000000
+      internalID: 1556332444912585225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94117f18bcd323560800000000000000
+      internalID: 7291958690934362441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dcee5d277a17a80800000000000000
+      internalID: -8470805312449884877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d25cf14d4111fd30800000000000000
+      internalID: 4463367729218081497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce52082d4a1d4f0800000000000000
+      internalID: -805681634322551600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5337e7dad806250800000000000000
+      internalID: 5935900085164652026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf39faf9ae3a3420800000000000000
+      internalID: 2610467833795657695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b8166628e3608d0800000000000000
+      internalID: -2880546181872514170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c1fe62d64d14e00800000000000000
+      internalID: 1027335755286912124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02d6d2e43a28f8d0800000000000000
+      internalID: -2812451560660479477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc58254815c9b4300800000000000000
+      internalID: 237455279293367757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6680e2e94a5db7c70800000000000000
+      internalID: 8969997985843644518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0385aa78d50792420800000000000000
+      internalID: 2605737406420899888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6df82da327b111b0800000000000000
+      internalID: -5687563490535342740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e22efbe1f335fd0800000000000000
+      internalID: -2354468778883797490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b3da2d01f9bac10800000000000000
+      internalID: 2065919748682365814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e5ef390f7bbfca0800000000000000
+      internalID: -5981985436128616881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74f44ad0e7a156b0800000000000000
+      internalID: -5309277901516639108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b927f9837d742d00800000000000000
+      internalID: 947019756844034486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dfc1a38c71ed7c0800000000000000
+      internalID: -4044769266596250236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f335f620ebd1ac40800000000000000
+      internalID: 5521936373905699824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c5fcb29f7e8d1e0800000000000000
+      internalID: -2172731762838381512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be0a31259c197c0800000000000000
+      internalID: -4066247634185032945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221e3169cbf838020800000000000000
+      internalID: 2342874271297298722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25614a2f3239c3d0800000000000000
+      internalID: -3185960014514658003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6916ad5e43004bd90800000000000000
+      internalID: -7083036086752353898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f11a31a3f64c7c0800000000000000
+      internalID: -4051991469498491009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0c2a806effefc60800000000000000
+      internalID: 7853996163633168594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fe29b9f840ee000800000000000000
+      internalID: 66996059294068632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d247fd72c8f6050800000000000000
+      internalID: 5796005348329663779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38a595255c12e80800000000000000
+      internalID: -8205060088615238689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636cdd5b3d3ea9020800000000000000
+      internalID: 2349440654055949878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfd2ae9849365460800000000000000
+      internalID: 7230029235851812826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6cc0900430c1450800000000000000
+      internalID: 6060722772098467577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3346b005d5bec44b0800000000000000
+      internalID: -5454726262645103565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265a61a7f906740a0800000000000000
+      internalID: -6897438066230254238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fe97d9deb16acb0800000000000000
+      internalID: -4853160841081917630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d80a039949dc0d90800000000000000
+      internalID: -7130085200011589422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3fe765b477be4b0800000000000000
+      internalID: -5410099361898105943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc32a8bda513df50800000000000000
+      internalID: 6904886489560267957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debe794ea4aef1f40800000000000000
+      internalID: 5701533260657978349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e8342051f34ee90800000000000000
+      internalID: -6997398561562063337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba57ffcd29d25b740800000000000000
+      internalID: 5167086256273716651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70deefbabb06c2ce0800000000000000
+      internalID: -1428660622622528249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a93ac53504d881c0800000000000000
+      internalID: -4501114708714440281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3c900e66376600800000000000000
+      internalID: 461397332913306244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141f9acafaa404f70800000000000000
+      internalID: 9169410959702880577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ef21a186f662760800000000000000
+      internalID: 7432750727926316696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53422a36cd8b013a0800000000000000
+      internalID: -6696649389196041163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788508f3eed78bbe0800000000000000
+      internalID: -1461279616860661625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8156a2f08e4016ae0800000000000000
+      internalID: -1557958601360120552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_52
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 232
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0470ad4a28c11da0800000000000000
+      internalID: -5975775146527394804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_53
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c6a3f672d979120800000000000000
+      internalID: 2420576117430316084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_54
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 288
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc52190afb6d9320800000000000000
+      internalID: 2566326084309245179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_55
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 231
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2f0a18813bc4fc0800000000000000
+      internalID: -3509233091793063213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_56
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769ad25626b630050800000000000000
+      internalID: 5765570018312825191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_57
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a404c93b971d24b0800000000000000
+      internalID: -5463684817474026334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704e3de1211fddd10800000000000000
+      internalID: 2152141257081873415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_59
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ac91fbaf2be9190800000000000000
+      internalID: -7953723101872010631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_60
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848dc07d219871f50800000000000000
+      internalID: 6852096072077858888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_61
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c97f13c5c7ebf050800000000000000
+      internalID: 5835512578756803012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_62
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 233
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84635533772107100800000000000000
+      internalID: 103603094601152072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_63
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 231
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc6898ac1894b4c0800000000000000
+      internalID: -4272622897612690178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e0a7bd68a7da30800000000000000
+      internalID: 4240042763378287593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_65
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 128
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60d3765abda59840800000000000000
+      internalID: 5230277558086652011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_66
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 124
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521e45fee788bf830800000000000000
+      internalID: 4106025564040913189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360cf8c19b344dd90800000000000000
+      internalID: -7073954652365012893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_68
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 131
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6664241daba328120800000000000000
+      internalID: 2414556924273116774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_69
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04238bbbb8d33cce0800000000000000
+      internalID: -1386196589940821440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_70
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cca2af5c71cea70800000000000000
+      internalID: 8857480706204027916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_71
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 130
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75daa00578a0c740800000000000000
+      internalID: 5170317592697165182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_72
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1ef41f89d7bb820800000000000000
+      internalID: 2935077677999055309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_73
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 131
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db747e0e4284a960800000000000000
+      internalID: 7612352541924555733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db317a63e0f72ef0800000000000000
+      internalID: -132872804450092073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_75
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 130
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dda2cf6d360e3ab0800000000000000
+      internalID: -5026573273161093673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_76
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 130
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ea59c51d10e8d70800000000000000
+      internalID: 9047170700147011222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_77
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 130
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5593df3af160b00800000000000000
+      internalID: 794357173465994700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_78
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 131
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f866b3a72518310800000000000000
+      internalID: 1405495243652370245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_79
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 130
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b408f260e10a32870800000000000000
+      internalID: 8656938959549464651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_80
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 39
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2512f492660ea30800000000000000
+      internalID: 4242503176590283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_81
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0bb1fec4bc040f0800000000000000
+      internalID: -1134683574807842615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_82
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abad2f0ab9d66b30800000000000000
+      internalID: 4280347889004030889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_83
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2cea759180d8300800000000000000
+      internalID: 255869658768261820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_84
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 46
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2230c54b700ec83d0800000000000000
+      internalID: -3202938911271943390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_85
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073907a6dff6054d0800000000000000
+      internalID: -3147893005328805008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_86
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 45
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdf1fe4882c7c940800000000000000
+      internalID: 5316431775829982710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_87
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 45
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a3b41f97f755760800000000000000
+      internalID: 7445997720642992685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_88
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e0739d7f29ed490800000000000000
+      internalID: -7719571118067610075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_89
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 46
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74500a10ca2bb150800000000000000
+      internalID: 5889347942275372154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_90
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2e4aa4d9eeec7c0800000000000000
+      internalID: -4049036655629901089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_91
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 44
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994c5c2be80054230800000000000000
+      internalID: 3622302088174093465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_92
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7146ab0807d42d40800000000000000
+      internalID: 5558804269637190011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_93
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 45
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8439ceafce5e1b40800000000000000
+      internalID: 5412868048229577867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterOpportunist_94
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904cc87ba6b531980800000000000000
+      internalID: -8569405152051805175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterOpportunist_0: 5678981762525538120
+      BeastmasterOpportunist_1: 1556332444912585225
+      BeastmasterOpportunist_10: -2812451560660479477
+      BeastmasterOpportunist_11: 237455279293367757
+      BeastmasterOpportunist_12: 8969997985843644518
+      BeastmasterOpportunist_13: 2605737406420899888
+      BeastmasterOpportunist_14: -5687563490535342740
+      BeastmasterOpportunist_15: -2354468778883797490
+      BeastmasterOpportunist_16: 2065919748682365814
+      BeastmasterOpportunist_17: -5981985436128616881
+      BeastmasterOpportunist_18: -5309277901516639108
+      BeastmasterOpportunist_19: 947019756844034486
+      BeastmasterOpportunist_2: 7291958690934362441
+      BeastmasterOpportunist_20: -4044769266596250236
+      BeastmasterOpportunist_21: 5521936373905699824
+      BeastmasterOpportunist_22: -2172731762838381512
+      BeastmasterOpportunist_23: -4066247634185032945
+      BeastmasterOpportunist_24: 2342874271297298722
+      BeastmasterOpportunist_25: -3185960014514658003
+      BeastmasterOpportunist_26: -7083036086752353898
+      BeastmasterOpportunist_27: -4051991469498491009
+      BeastmasterOpportunist_28: 7853996163633168594
+      BeastmasterOpportunist_29: 66996059294068632
+      BeastmasterOpportunist_3: -8470805312449884877
+      BeastmasterOpportunist_30: 5796005348329663779
+      BeastmasterOpportunist_31: -8205060088615238689
+      BeastmasterOpportunist_32: 2349440654055949878
+      BeastmasterOpportunist_33: 7230029235851812826
+      BeastmasterOpportunist_34: 6060722772098467577
+      BeastmasterOpportunist_35: -5454726262645103565
+      BeastmasterOpportunist_36: -6897438066230254238
+      BeastmasterOpportunist_37: -4853160841081917630
+      BeastmasterOpportunist_38: -7130085200011589422
+      BeastmasterOpportunist_39: -5410099361898105943
+      BeastmasterOpportunist_4: 4463367729218081497
+      BeastmasterOpportunist_40: 6904886489560267957
+      BeastmasterOpportunist_41: 5701533260657978349
+      BeastmasterOpportunist_42: -6997398561562063337
+      BeastmasterOpportunist_43: 5167086256273716651
+      BeastmasterOpportunist_44: -1428660622622528249
+      BeastmasterOpportunist_45: -4501114708714440281
+      BeastmasterOpportunist_46: 461397332913306244
+      BeastmasterOpportunist_47: 9169410959702880577
+      BeastmasterOpportunist_48: 7432750727926316696
+      BeastmasterOpportunist_49: -6696649389196041163
+      BeastmasterOpportunist_5: -805681634322551600
+      BeastmasterOpportunist_50: -1461279616860661625
+      BeastmasterOpportunist_51: -1557958601360120552
+      BeastmasterOpportunist_52: -5975775146527394804
+      BeastmasterOpportunist_53: 2420576117430316084
+      BeastmasterOpportunist_54: 2566326084309245179
+      BeastmasterOpportunist_55: -3509233091793063213
+      BeastmasterOpportunist_56: 5765570018312825191
+      BeastmasterOpportunist_57: -5463684817474026334
+      BeastmasterOpportunist_58: 2152141257081873415
+      BeastmasterOpportunist_59: -7953723101872010631
+      BeastmasterOpportunist_6: 5935900085164652026
+      BeastmasterOpportunist_60: 6852096072077858888
+      BeastmasterOpportunist_61: 5835512578756803012
+      BeastmasterOpportunist_62: 103603094601152072
+      BeastmasterOpportunist_63: -4272622897612690178
+      BeastmasterOpportunist_64: 4240042763378287593
+      BeastmasterOpportunist_65: 5230277558086652011
+      BeastmasterOpportunist_66: 4106025564040913189
+      BeastmasterOpportunist_67: -7073954652365012893
+      BeastmasterOpportunist_68: 2414556924273116774
+      BeastmasterOpportunist_69: -1386196589940821440
+      BeastmasterOpportunist_7: 2610467833795657695
+      BeastmasterOpportunist_70: 8857480706204027916
+      BeastmasterOpportunist_71: 5170317592697165182
+      BeastmasterOpportunist_72: 2935077677999055309
+      BeastmasterOpportunist_73: 7612352541924555733
+      BeastmasterOpportunist_74: -132872804450092073
+      BeastmasterOpportunist_75: -5026573273161093673
+      BeastmasterOpportunist_76: 9047170700147011222
+      BeastmasterOpportunist_77: 794357173465994700
+      BeastmasterOpportunist_78: 1405495243652370245
+      BeastmasterOpportunist_79: 8656938959549464651
+      BeastmasterOpportunist_8: -2880546181872514170
+      BeastmasterOpportunist_80: 4242503176590283439
+      BeastmasterOpportunist_81: -1134683574807842615
+      BeastmasterOpportunist_82: 4280347889004030889
+      BeastmasterOpportunist_83: 255869658768261820
+      BeastmasterOpportunist_84: -3202938911271943390
+      BeastmasterOpportunist_85: -3147893005328805008
+      BeastmasterOpportunist_86: 5316431775829982710
+      BeastmasterOpportunist_87: 7445997720642992685
+      BeastmasterOpportunist_88: -7719571118067610075
+      BeastmasterOpportunist_89: 5889347942275372154
+      BeastmasterOpportunist_9: 1027335755286912124
+      BeastmasterOpportunist_90: -4049036655629901089
+      BeastmasterOpportunist_91: 3622302088174093465
+      BeastmasterOpportunist_92: 5558804269637190011
+      BeastmasterOpportunist_93: 5412868048229577867
+      BeastmasterOpportunist_94: -8569405152051805175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

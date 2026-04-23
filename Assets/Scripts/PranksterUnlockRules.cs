@@ -37,4 +37,42 @@ public static class PranksterUnlockRules
 
         return GetFavorBonusForTier(entry.tier);
     }
+
+    public static int GetDiscardFavorBonusForTier(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return 1; // Hustler
+            case 2: return 1; // Opportunist
+            case 3: return 2; // Manipulator
+            default: return 0;
+        }
+    }
+
+    public static int GetDiscardRenownBonusForTier(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return 0; // Hustler
+            case 2: return 1; // Opportunist
+            case 3: return 2; // Manipulator
+            default: return 0;
+        }
+    }
+
+    public static int GetDiscardFavorBonus(PranksterDeckEntry entry)
+    {
+        if (entry == null)
+            return 0;
+
+        return GetDiscardFavorBonusForTier(entry.tier);
+    }
+
+    public static int GetDiscardRenownBonus(PranksterDeckEntry entry)
+    {
+        if (entry == null)
+            return 0;
+
+        return GetDiscardRenownBonusForTier(entry.tier);
+    }
 }
