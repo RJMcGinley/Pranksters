@@ -91,46 +91,84 @@ public class UnlockRevealPanelController : MonoBehaviour
 }
 
     private void ShowCurrentUnlock()
+{
+    if (unlocksToShow == null || unlocksToShow.Count == 0)
     {
-        if (unlocksToShow == null || unlocksToShow.Count == 0)
-        {
-            Debug.LogWarning("UnlockRevealPanelController.ShowCurrentUnlock called with no unlocks.");
-            return;
-        }
-
-        if (currentIndex < 0 || currentIndex >= unlocksToShow.Count)
-        {
-            Debug.LogWarning("UnlockRevealPanelController.ShowCurrentUnlock currentIndex out of range: " + currentIndex);
-            return;
-        }
-
-        PranksterUnlockEntry entry = unlocksToShow[currentIndex];
-
-        string unlockTitle = PranksterSpriteDatabase.GetTierTitle(entry.tier);
-        string flavorText = PranksterSpriteDatabase.GetTierFlavorText(entry.tier);
-        Sprite unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, entry.tier);
-
-        if (titleText != null)
-            titleText.text = unlockTitle;
-
-        if (bodyText != null)
-            bodyText.text = flavorText;
-
-        SpawnRevealCard(unlockSprite);
-
-        if (isShowingUnlockSequence && lastPlayedRevealSoundIndex != currentIndex)
-        {
-            if (AudioManager.Instance != null)
-                AudioManager.Instance.PlayUnlockReveal();
-
-            lastPlayedRevealSoundIndex = currentIndex;
-        }
-
-        Debug.Log("Showing unlock | pranksterType = " + entry.pranksterType +
-                  " | tier = " + entry.tier +
-                  " | title = " + unlockTitle);
-                
+        Debug.LogWarning("UnlockRevealPanelController.ShowCurrentUnlock called with no unlocks.");
+        return;
     }
+
+    if (currentIndex < 0 || currentIndex >= unlocksToShow.Count)
+    {
+        Debug.LogWarning("UnlockRevealPanelController.ShowCurrentUnlock currentIndex out of range: " + currentIndex);
+        return;
+    }
+
+    PranksterUnlockEntry entry = unlocksToShow[currentIndex];
+
+    string unlockTitle;
+    string flavorText;
+
+    if (entry.category == PranksterUnlockCategory.PrankCompletion)
+    {
+        unlockTitle = PranksterSpriteDatabase.GetTierTitle(entry.tier);
+        flavorText = PranksterSpriteDatabase.GetTierFlavorText(entry.tier);
+    }
+    else
+    {
+        unlockTitle = PranksterSpriteDatabase.GetFavorTierTitle(entry.tier);
+        flavorText = PranksterSpriteDatabase.GetFavorTierFlavorText(entry.tier);
+    }
+
+    Sprite unlockSprite;
+
+    if (entry.category == PranksterUnlockCategory.FavorOffer)
+    {
+        string pranksterName = entry.pranksterType == "BeastMaster" ? "Beastmaster" : entry.pranksterType;
+        string suffix = "";
+
+        switch (entry.tier)
+        {
+            case 1: suffix = "Assistant"; break;
+            case 2: suffix = "Strategist"; break;
+            case 3: suffix = "Advisor"; break;
+            default: suffix = ""; break;
+        }
+
+        unlockSprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (unlockSprite == null)
+        {
+            Debug.LogWarning("Missing favor unlock sprite: UnlockCards/" + pranksterName + suffix);
+            unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, 0);
+        }
+    }
+    else
+    {
+        unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, entry.tier);
+    }
+
+    if (titleText != null)
+        titleText.text = unlockTitle;
+
+    if (bodyText != null)
+        bodyText.text = flavorText;
+
+    SpawnRevealCard(unlockSprite);
+
+    if (isShowingUnlockSequence && lastPlayedRevealSoundIndex != currentIndex)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUnlockReveal();
+
+        lastPlayedRevealSoundIndex = currentIndex;
+    }
+
+    Debug.Log("Showing unlock | pranksterType = " + entry.pranksterType +
+              " | tier = " + entry.tier +
+              " | category = " + entry.category +
+              " | title = " + unlockTitle);
+}
 
     private void SpawnRevealCard(Sprite unlockSprite)
     {

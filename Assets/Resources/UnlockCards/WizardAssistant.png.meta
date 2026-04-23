@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 18161652f06c144c4a4e72ba1fcdc192
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1758514403629013971
+    second: WizardAssistant_0
+  - first:
+      213: 2347447144080401113
+    second: WizardAssistant_1
+  - first:
+      213: 5929820083280445929
+    second: WizardAssistant_2
+  - first:
+      213: -7304791047291989057
+    second: WizardAssistant_3
+  - first:
+      213: -5116334578635559627
+    second: WizardAssistant_4
+  - first:
+      213: 576824312415274931
+    second: WizardAssistant_5
+  - first:
+      213: 3822281668472757004
+    second: WizardAssistant_6
+  - first:
+      213: -2561843427148661100
+    second: WizardAssistant_7
+  - first:
+      213: -5130899630512886543
+    second: WizardAssistant_8
+  - first:
+      213: -6807464198699140494
+    second: WizardAssistant_9
+  - first:
+      213: -7426509004896825937
+    second: WizardAssistant_10
+  - first:
+      213: 1531094666094641447
+    second: WizardAssistant_11
+  - first:
+      213: -5045864066082545656
+    second: WizardAssistant_12
+  - first:
+      213: 4791268071597055429
+    second: WizardAssistant_13
+  - first:
+      213: -664486756321517006
+    second: WizardAssistant_14
+  - first:
+      213: 318919213228581614
+    second: WizardAssistant_15
+  - first:
+      213: -8082203528337095214
+    second: WizardAssistant_16
+  - first:
+      213: -4643191323530100668
+    second: WizardAssistant_17
+  - first:
+      213: -9100521665265977319
+    second: WizardAssistant_18
+  - first:
+      213: -3365108787442319248
+    second: WizardAssistant_19
+  - first:
+      213: -7485942058018178482
+    second: WizardAssistant_20
+  - first:
+      213: 7939229240728882824
+    second: WizardAssistant_21
+  - first:
+      213: -390318135796145533
+    second: WizardAssistant_22
+  - first:
+      213: 3302179275410979730
+    second: WizardAssistant_23
+  - first:
+      213: -3903951234721630200
+    second: WizardAssistant_24
+  - first:
+      213: 7144531451585324282
+    second: WizardAssistant_25
+  - first:
+      213: 916023587706529898
+    second: WizardAssistant_26
+  - first:
+      213: -569204651373191792
+    second: WizardAssistant_27
+  - first:
+      213: 3843364234239529639
+    second: WizardAssistant_28
+  - first:
+      213: 2048021167271042932
+    second: WizardAssistant_29
+  - first:
+      213: 8116935431819102653
+    second: WizardAssistant_30
+  - first:
+      213: -1209422618944001053
+    second: WizardAssistant_31
+  - first:
+      213: -6058624670066663297
+    second: WizardAssistant_32
+  - first:
+      213: 2968518542014063742
+    second: WizardAssistant_33
+  - first:
+      213: 5665961430156587892
+    second: WizardAssistant_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardAssistant_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 695
+        width: 317
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24e84787708897e0800000000000000
+      internalID: -1758514403629013971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 286
+        width: 601
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2eaef7dbec39020800000000000000
+      internalID: 2347447144080401113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 982
+        width: 68
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e188edb2f3fa4250800000000000000
+      internalID: 5929820083280445929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 978
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb315b3be3b20aa90800000000000000
+      internalID: -7304791047291989057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 207
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d2168eec02ff8b0800000000000000
+      internalID: -5116334578635559627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 257
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7425fe7aa410800800000000000000
+      internalID: 576824312415274931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 205
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b5ec81de87b0530800000000000000
+      internalID: 3822281668472757004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 205
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e72aae9f0827cd0800000000000000
+      internalID: -2561843427148661100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 205
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fca81188f16bc8b0800000000000000
+      internalID: -5130899630512886543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 205
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a3957f0670781a0800000000000000
+      internalID: -6807464198699140494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 207
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad82e9486dbfe890800000000000000
+      internalID: -7426509004896825937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 205
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721011a9c7a8f3510800000000000000
+      internalID: 1531094666094641447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_12
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 206
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800ed34bd5d79f9b0800000000000000
+      internalID: -5045864066082545656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 207
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd96370de00e7240800000000000000
+      internalID: 4791268071597055429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 116
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2322183d0d447c6f0800000000000000
+      internalID: -664486756321517006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 111
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee26980b5570d6400800000000000000
+      internalID: 318919213228581614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50f0b56be36df80800000000000000
+      internalID: -8082203528337095214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44000d88712109fb0800000000000000
+      internalID: -4643191323530100668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918331713c374b180800000000000000
+      internalID: -9100521665265977319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07084fd036bbc41d0800000000000000
+      internalID: -3365108787442319248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_20
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a7ba64c579c1890800000000000000
+      internalID: -7485942058018178482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e0a0c3eeecd2e60800000000000000
+      internalID: 7939229240728882824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_22
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3826a7639bf459af0800000000000000
+      internalID: -390318135796145533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_23
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b37872e82b3dd20800000000000000
+      internalID: 3302179275410979730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_24
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80838f9390162d9c0800000000000000
+      internalID: -3903951234721630200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_25
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4695a7089762360800000000000000
+      internalID: 7144531451585324282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_26
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a686027899e56bc00800000000000000
+      internalID: 916023587706529898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d9666a267c918f0800000000000000
+      internalID: -569204651373191792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_28
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2d944786f565530800000000000000
+      internalID: 3843364234239529639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_29
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fdba796680c6c10800000000000000
+      internalID: 2048021167271042932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db90c5615c525a070800000000000000
+      internalID: 8116935431819102653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb258e2984473fe0800000000000000
+      internalID: -1209422618944001053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_32
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70224966f07beba0800000000000000
+      internalID: -6058624670066663297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_33
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74a8e5d2eb423920800000000000000
+      internalID: 2968518542014063742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardAssistant_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4733c83b6e981ae40800000000000000
+      internalID: 5665961430156587892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardAssistant_0: -1758514403629013971
+      WizardAssistant_1: 2347447144080401113
+      WizardAssistant_10: -7426509004896825937
+      WizardAssistant_11: 1531094666094641447
+      WizardAssistant_12: -5045864066082545656
+      WizardAssistant_13: 4791268071597055429
+      WizardAssistant_14: -664486756321517006
+      WizardAssistant_15: 318919213228581614
+      WizardAssistant_16: -8082203528337095214
+      WizardAssistant_17: -4643191323530100668
+      WizardAssistant_18: -9100521665265977319
+      WizardAssistant_19: -3365108787442319248
+      WizardAssistant_2: 5929820083280445929
+      WizardAssistant_20: -7485942058018178482
+      WizardAssistant_21: 7939229240728882824
+      WizardAssistant_22: -390318135796145533
+      WizardAssistant_23: 3302179275410979730
+      WizardAssistant_24: -3903951234721630200
+      WizardAssistant_25: 7144531451585324282
+      WizardAssistant_26: 916023587706529898
+      WizardAssistant_27: -569204651373191792
+      WizardAssistant_28: 3843364234239529639
+      WizardAssistant_29: 2048021167271042932
+      WizardAssistant_3: -7304791047291989057
+      WizardAssistant_30: 8116935431819102653
+      WizardAssistant_31: -1209422618944001053
+      WizardAssistant_32: -6058624670066663297
+      WizardAssistant_33: 2968518542014063742
+      WizardAssistant_34: 5665961430156587892
+      WizardAssistant_4: -5116334578635559627
+      WizardAssistant_5: 576824312415274931
+      WizardAssistant_6: 3822281668472757004
+      WizardAssistant_7: -2561843427148661100
+      WizardAssistant_8: -5130899630512886543
+      WizardAssistant_9: -6807464198699140494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

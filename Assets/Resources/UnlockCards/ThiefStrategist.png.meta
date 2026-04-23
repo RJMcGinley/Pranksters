@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 5bbfdddd55dca41e1bef65aea07e8308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2149254761661505527
+    second: ThiefStrategist_0
+  - first:
+      213: 7578045099448690566
+    second: ThiefStrategist_1
+  - first:
+      213: 738354835601668030
+    second: ThiefStrategist_2
+  - first:
+      213: 6967408276632291612
+    second: ThiefStrategist_3
+  - first:
+      213: 3761438858134620787
+    second: ThiefStrategist_4
+  - first:
+      213: 6876245983096211013
+    second: ThiefStrategist_5
+  - first:
+      213: 3748653254397642590
+    second: ThiefStrategist_6
+  - first:
+      213: 3867136622890252580
+    second: ThiefStrategist_7
+  - first:
+      213: -5916610264421488893
+    second: ThiefStrategist_8
+  - first:
+      213: 4157530459192376960
+    second: ThiefStrategist_9
+  - first:
+      213: 4474139322046970658
+    second: ThiefStrategist_10
+  - first:
+      213: 2533146767181475351
+    second: ThiefStrategist_11
+  - first:
+      213: 7437037879998657184
+    second: ThiefStrategist_12
+  - first:
+      213: 4598172912642043497
+    second: ThiefStrategist_13
+  - first:
+      213: 6238292179922155402
+    second: ThiefStrategist_14
+  - first:
+      213: 3592257085963898446
+    second: ThiefStrategist_15
+  - first:
+      213: 129256322042665771
+    second: ThiefStrategist_16
+  - first:
+      213: -7868692021319313837
+    second: ThiefStrategist_17
+  - first:
+      213: -1391873166189710314
+    second: ThiefStrategist_18
+  - first:
+      213: -9187702659739588388
+    second: ThiefStrategist_19
+  - first:
+      213: 382746936578954561
+    second: ThiefStrategist_20
+  - first:
+      213: 8775905736481276684
+    second: ThiefStrategist_21
+  - first:
+      213: 5534694695488390739
+    second: ThiefStrategist_22
+  - first:
+      213: -7553791238805883776
+    second: ThiefStrategist_23
+  - first:
+      213: 9138970433352138401
+    second: ThiefStrategist_24
+  - first:
+      213: -5206124284730732018
+    second: ThiefStrategist_25
+  - first:
+      213: -567932188659012645
+    second: ThiefStrategist_26
+  - first:
+      213: 4930270347490722152
+    second: ThiefStrategist_27
+  - first:
+      213: -356614413471021153
+    second: ThiefStrategist_28
+  - first:
+      213: 7701952043105586193
+    second: ThiefStrategist_29
+  - first:
+      213: 1337458943467696753
+    second: ThiefStrategist_30
+  - first:
+      213: -6519277820824532625
+    second: ThiefStrategist_31
+  - first:
+      213: -4834116247206793025
+    second: ThiefStrategist_32
+  - first:
+      213: 4629893476638735291
+    second: ThiefStrategist_33
+  - first:
+      213: 96278266416856390
+    second: ThiefStrategist_34
+  - first:
+      213: 3480280306006158435
+    second: ThiefStrategist_35
+  - first:
+      213: 7757877395521371049
+    second: ThiefStrategist_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThiefStrategist_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 695
+        width: 370
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff96a881dfa3dd10800000000000000
+      internalID: 2149254761661505527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 816
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68767842edf9a2960800000000000000
+      internalID: 7578045099448690566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 310
+        width: 574
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7ba3e9fc92f3a00800000000000000
+      internalID: 738354835601668030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 206
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c8c5a9e431b060800000000000000
+      internalID: 6967408276632291612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a077766b0533430800000000000000
+      internalID: 3761438858134620787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54608aa2a455d6f50800000000000000
+      internalID: 6876245983096211013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 259
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57cb7e0644e50430800000000000000
+      internalID: 3748653254397642590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_7
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429f6410544daa530800000000000000
+      internalID: 3867136622890252580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 208
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3072ab2ef4af3eda0800000000000000
+      internalID: -5916610264421488893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 207
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e3703dce382b930800000000000000
+      internalID: 4157530459192376960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_10
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 206
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b77362206571e30800000000000000
+      internalID: 4474139322046970658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 182
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ee7c5409b872320800000000000000
+      internalID: 2533146767181475351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 206
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2b17a7c8aa53760800000000000000
+      internalID: 7437037879998657184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e2ad1e6edffcf30800000000000000
+      internalID: 4598172912642043497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_14
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 107
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a877b5d8fadd29650800000000000000
+      internalID: 6238292179922155402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e02ce79c24ad130800000000000000
+      internalID: 3592257085963898446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_16
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b9358a0f53bc100800000000000000
+      internalID: 129256322042665771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_17
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356df46fb4accc290800000000000000
+      internalID: -7868692021319313837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6143dd4dab21face0800000000000000
+      internalID: -1391873166189710314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd86f480c19be7080800000000000000
+      internalID: -9187702659739588388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14558a99f4acf4500800000000000000
+      internalID: 382746936578954561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03874545c74ac970800000000000000
+      internalID: 8775905736481276684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35603d0608f2fcc40800000000000000
+      internalID: 5534694695488390739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0847487d3ea8b2790800000000000000
+      internalID: -7553791238805883776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_24
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae70c4503524de70800000000000000
+      internalID: 9138970433352138401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_25
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e021718db8120c7b0800000000000000
+      internalID: -5206124284730732018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb2876feac4e18f0800000000000000
+      internalID: -567932188659012645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86183d462c6db6440800000000000000
+      internalID: 4930270347490722152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_28
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f978643941d0d0bf0800000000000000
+      internalID: -356614413471021153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_29
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c07669394d2ea60800000000000000
+      internalID: 7701952043105586193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_30
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 63
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172bf0ba2db9f8210800000000000000
+      internalID: 1337458943467696753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_31
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69cba1dc5fd685a0800000000000000
+      internalID: -6519277820824532625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_32
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb07b4aa2e4c9ecb0800000000000000
+      internalID: -4834116247206793025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_33
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb33f6369fa04040800000000000000
+      internalID: 4629893476638735291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_34
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dfd5db29c065100800000000000000
+      internalID: 96278266416856390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ce84ebf707c4030800000000000000
+      internalID: 3480280306006158435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefStrategist_36
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab7513636489ab60800000000000000
+      internalID: 7757877395521371049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThiefStrategist_0: 2149254761661505527
+      ThiefStrategist_1: 7578045099448690566
+      ThiefStrategist_10: 4474139322046970658
+      ThiefStrategist_11: 2533146767181475351
+      ThiefStrategist_12: 7437037879998657184
+      ThiefStrategist_13: 4598172912642043497
+      ThiefStrategist_14: 6238292179922155402
+      ThiefStrategist_15: 3592257085963898446
+      ThiefStrategist_16: 129256322042665771
+      ThiefStrategist_17: -7868692021319313837
+      ThiefStrategist_18: -1391873166189710314
+      ThiefStrategist_19: -9187702659739588388
+      ThiefStrategist_2: 738354835601668030
+      ThiefStrategist_20: 382746936578954561
+      ThiefStrategist_21: 8775905736481276684
+      ThiefStrategist_22: 5534694695488390739
+      ThiefStrategist_23: -7553791238805883776
+      ThiefStrategist_24: 9138970433352138401
+      ThiefStrategist_25: -5206124284730732018
+      ThiefStrategist_26: -567932188659012645
+      ThiefStrategist_27: 4930270347490722152
+      ThiefStrategist_28: -356614413471021153
+      ThiefStrategist_29: 7701952043105586193
+      ThiefStrategist_3: 6967408276632291612
+      ThiefStrategist_30: 1337458943467696753
+      ThiefStrategist_31: -6519277820824532625
+      ThiefStrategist_32: -4834116247206793025
+      ThiefStrategist_33: 4629893476638735291
+      ThiefStrategist_34: 96278266416856390
+      ThiefStrategist_35: 3480280306006158435
+      ThiefStrategist_36: 7757877395521371049
+      ThiefStrategist_4: 3761438858134620787
+      ThiefStrategist_5: 6876245983096211013
+      ThiefStrategist_6: 3748653254397642590
+      ThiefStrategist_7: 3867136622890252580
+      ThiefStrategist_8: -5916610264421488893
+      ThiefStrategist_9: 4157530459192376960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

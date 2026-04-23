@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 23759b8468f0847ed8db1a861a649c59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1506457748576048955
+    second: ScribeAdvisor_0
+  - first:
+      213: -2881788397002825754
+    second: ScribeAdvisor_1
+  - first:
+      213: -6292757175132787372
+    second: ScribeAdvisor_2
+  - first:
+      213: -5793116391796050704
+    second: ScribeAdvisor_3
+  - first:
+      213: -3079856020995543439
+    second: ScribeAdvisor_4
+  - first:
+      213: 1678628665427663953
+    second: ScribeAdvisor_5
+  - first:
+      213: 2305173343773007495
+    second: ScribeAdvisor_6
+  - first:
+      213: 97752581492034626
+    second: ScribeAdvisor_7
+  - first:
+      213: 5411337475767396197
+    second: ScribeAdvisor_8
+  - first:
+      213: -3629095543561366252
+    second: ScribeAdvisor_9
+  - first:
+      213: 6218647656479461489
+    second: ScribeAdvisor_10
+  - first:
+      213: -3967594130418008761
+    second: ScribeAdvisor_11
+  - first:
+      213: -6305966029711912262
+    second: ScribeAdvisor_12
+  - first:
+      213: -6409200879276092901
+    second: ScribeAdvisor_13
+  - first:
+      213: 8090774592127152023
+    second: ScribeAdvisor_14
+  - first:
+      213: 1098210235531962999
+    second: ScribeAdvisor_15
+  - first:
+      213: 2438710029546278315
+    second: ScribeAdvisor_16
+  - first:
+      213: 8409419223413038355
+    second: ScribeAdvisor_17
+  - first:
+      213: -8751620290032295306
+    second: ScribeAdvisor_18
+  - first:
+      213: 5615255483785642271
+    second: ScribeAdvisor_19
+  - first:
+      213: 5939849875923450304
+    second: ScribeAdvisor_20
+  - first:
+      213: -855183366502790033
+    second: ScribeAdvisor_21
+  - first:
+      213: -2829714775103235775
+    second: ScribeAdvisor_22
+  - first:
+      213: -3296242169279754668
+    second: ScribeAdvisor_23
+  - first:
+      213: -2011464385105551205
+    second: ScribeAdvisor_24
+  - first:
+      213: 836695807771045812
+    second: ScribeAdvisor_25
+  - first:
+      213: -4359931833123108184
+    second: ScribeAdvisor_26
+  - first:
+      213: -4689304537698588318
+    second: ScribeAdvisor_27
+  - first:
+      213: -453991754255820190
+    second: ScribeAdvisor_28
+  - first:
+      213: 4204403991610944004
+    second: ScribeAdvisor_29
+  - first:
+      213: -1074624303004829965
+    second: ScribeAdvisor_30
+  - first:
+      213: 8137170899683523339
+    second: ScribeAdvisor_31
+  - first:
+      213: -1172142747046577228
+    second: ScribeAdvisor_32
+  - first:
+      213: 2716335774682321918
+    second: ScribeAdvisor_33
+  - first:
+      213: -4054622678914239335
+    second: ScribeAdvisor_34
+  - first:
+      213: 9132726838998992637
+    second: ScribeAdvisor_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeAdvisor_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 357
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37920d375308e410800000000000000
+      internalID: 1506457748576048955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 308
+        width: 368
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efddc6a8b4d108d0800000000000000
+      internalID: -2881788397002825754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 947
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d6b6e80b2aba8a0800000000000000
+      internalID: -6292757175132787372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 812
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4f08cb557ba9fa0800000000000000
+      internalID: -5793116391796050704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 805
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e663544472245d0800000000000000
+      internalID: -3079856020995543439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 784
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c9a90a0efab4710800000000000000
+      internalID: 1678628665427663953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 777
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1a4d51fe9dff10800000000000000
+      internalID: 2305173343773007495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 689
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cc5b774794b5100800000000000000
+      internalID: 97752581492034626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 210
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567efd283cee81b40800000000000000
+      internalID: 5411337475767396197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 209
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4155216b4dcd2adc0800000000000000
+      internalID: -3629095543561366252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 261
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17016c388131d4650800000000000000
+      internalID: 6218647656479461489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 209
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d728bd82640f8c0800000000000000
+      internalID: -3967594130418008761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 208
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab257517e45bc78a0800000000000000
+      internalID: -6305966029711912262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_13
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 208
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1290a8f1c1fd07a0800000000000000
+      internalID: -6409200879276092901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fae71ff94384070800000000000000
+      internalID: 8090774592127152023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 115
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa4910460ad3f00800000000000000
+      internalID: 1098210235531962999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 109
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badc94dd9d908d120800000000000000
+      internalID: 2438710029546278315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d10ea8a3244b470800000000000000
+      internalID: 8409419223413038355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672268bd6bffb8680800000000000000
+      internalID: -8751620290032295306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f118b129c156ded40800000000000000
+      internalID: 5615255483785642271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9b091ddf59e6250800000000000000
+      internalID: 5939849875923450304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c47c55247c124f0800000000000000
+      internalID: -855183366502790033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1491c4e8765dab8d0800000000000000
+      internalID: -2829714775103235775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eca6616356142d0800000000000000
+      internalID: -3296242169279754668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_24
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b902f678cc7d514e0800000000000000
+      internalID: -2011464385105551205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_25
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf6047776a8c9b00800000000000000
+      internalID: 836695807771045812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_26
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa87c109196e73c0800000000000000
+      internalID: -4359931833123108184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_27
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26929d23e5e3ceeb0800000000000000
+      internalID: -4689304537698588318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_28
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a10a4a7e813b9f0800000000000000
+      internalID: -453991754255820190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_29
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a643c872b095a30800000000000000
+      internalID: 4204403991610944004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63568d3ea2611f0800000000000000
+      internalID: -1074624303004829965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b384812d90de070800000000000000
+      internalID: 8137170899683523339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_32
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfc30c166bbbfe0800000000000000
+      internalID: -1172142747046577228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_33
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef310accefc52b520800000000000000
+      internalID: 2716335774682321918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_34
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994f215e7261bb7c0800000000000000
+      internalID: -4054622678914239335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeAdvisor_35
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6063d3ca6fdbe70800000000000000
+      internalID: 9132726838998992637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeAdvisor_0: 1506457748576048955
+      ScribeAdvisor_1: -2881788397002825754
+      ScribeAdvisor_10: 6218647656479461489
+      ScribeAdvisor_11: -3967594130418008761
+      ScribeAdvisor_12: -6305966029711912262
+      ScribeAdvisor_13: -6409200879276092901
+      ScribeAdvisor_14: 8090774592127152023
+      ScribeAdvisor_15: 1098210235531962999
+      ScribeAdvisor_16: 2438710029546278315
+      ScribeAdvisor_17: 8409419223413038355
+      ScribeAdvisor_18: -8751620290032295306
+      ScribeAdvisor_19: 5615255483785642271
+      ScribeAdvisor_2: -6292757175132787372
+      ScribeAdvisor_20: 5939849875923450304
+      ScribeAdvisor_21: -855183366502790033
+      ScribeAdvisor_22: -2829714775103235775
+      ScribeAdvisor_23: -3296242169279754668
+      ScribeAdvisor_24: -2011464385105551205
+      ScribeAdvisor_25: 836695807771045812
+      ScribeAdvisor_26: -4359931833123108184
+      ScribeAdvisor_27: -4689304537698588318
+      ScribeAdvisor_28: -453991754255820190
+      ScribeAdvisor_29: 4204403991610944004
+      ScribeAdvisor_3: -5793116391796050704
+      ScribeAdvisor_30: -1074624303004829965
+      ScribeAdvisor_31: 8137170899683523339
+      ScribeAdvisor_32: -1172142747046577228
+      ScribeAdvisor_33: 2716335774682321918
+      ScribeAdvisor_34: -4054622678914239335
+      ScribeAdvisor_35: 9132726838998992637
+      ScribeAdvisor_4: -3079856020995543439
+      ScribeAdvisor_5: 1678628665427663953
+      ScribeAdvisor_6: 2305173343773007495
+      ScribeAdvisor_7: 97752581492034626
+      ScribeAdvisor_8: 5411337475767396197
+      ScribeAdvisor_9: -3629095543561366252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

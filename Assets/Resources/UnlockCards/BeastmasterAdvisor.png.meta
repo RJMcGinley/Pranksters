@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: b3332d7fbe1d749feb8874ed39045fec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2270295964544286636
+    second: BeastmasterAdvisor_0
+  - first:
+      213: 2838457401754198990
+    second: BeastmasterAdvisor_1
+  - first:
+      213: -5564083168159466894
+    second: BeastmasterAdvisor_2
+  - first:
+      213: -253070154476710603
+    second: BeastmasterAdvisor_3
+  - first:
+      213: -4660084435253329275
+    second: BeastmasterAdvisor_4
+  - first:
+      213: -2892457485342480677
+    second: BeastmasterAdvisor_5
+  - first:
+      213: -1975656028986341397
+    second: BeastmasterAdvisor_6
+  - first:
+      213: -3977092335005211211
+    second: BeastmasterAdvisor_7
+  - first:
+      213: -2870081248334128963
+    second: BeastmasterAdvisor_8
+  - first:
+      213: -6721839787134567812
+    second: BeastmasterAdvisor_9
+  - first:
+      213: -7054166958318270912
+    second: BeastmasterAdvisor_10
+  - first:
+      213: 1765714813275455713
+    second: BeastmasterAdvisor_11
+  - first:
+      213: 575671622793210551
+    second: BeastmasterAdvisor_12
+  - first:
+      213: -2994818959963575075
+    second: BeastmasterAdvisor_13
+  - first:
+      213: -5980000260182041225
+    second: BeastmasterAdvisor_14
+  - first:
+      213: -1621724685916032856
+    second: BeastmasterAdvisor_15
+  - first:
+      213: -1132206485773476769
+    second: BeastmasterAdvisor_16
+  - first:
+      213: -8683189399639033127
+    second: BeastmasterAdvisor_17
+  - first:
+      213: -1361861057745745862
+    second: BeastmasterAdvisor_18
+  - first:
+      213: 6743692820333442722
+    second: BeastmasterAdvisor_19
+  - first:
+      213: -5280931326958010705
+    second: BeastmasterAdvisor_20
+  - first:
+      213: 938263347618295833
+    second: BeastmasterAdvisor_21
+  - first:
+      213: 3305878264342240857
+    second: BeastmasterAdvisor_22
+  - first:
+      213: 8984752085015646532
+    second: BeastmasterAdvisor_23
+  - first:
+      213: -8692183550734026377
+    second: BeastmasterAdvisor_24
+  - first:
+      213: -5783599988216116816
+    second: BeastmasterAdvisor_25
+  - first:
+      213: -8520279497766638742
+    second: BeastmasterAdvisor_26
+  - first:
+      213: 2995232556305240436
+    second: BeastmasterAdvisor_27
+  - first:
+      213: 5980043282868332240
+    second: BeastmasterAdvisor_28
+  - first:
+      213: 8429341847170786578
+    second: BeastmasterAdvisor_29
+  - first:
+      213: 4799716251712707599
+    second: BeastmasterAdvisor_30
+  - first:
+      213: 8925809889255353340
+    second: BeastmasterAdvisor_31
+  - first:
+      213: 3425738223808272586
+    second: BeastmasterAdvisor_32
+  - first:
+      213: 65333395591177179
+    second: BeastmasterAdvisor_33
+  - first:
+      213: -322622700866435323
+    second: BeastmasterAdvisor_34
+  - first:
+      213: 4502653226972730901
+    second: BeastmasterAdvisor_35
+  - first:
+      213: 6226706234779406904
+    second: BeastmasterAdvisor_36
+  - first:
+      213: 2517306725427358061
+    second: BeastmasterAdvisor_37
+  - first:
+      213: -7406020785783953331
+    second: BeastmasterAdvisor_38
+  - first:
+      213: -2580190269215752452
+    second: BeastmasterAdvisor_39
+  - first:
+      213: 6066943108404782681
+    second: BeastmasterAdvisor_40
+  - first:
+      213: -5931698252873798026
+    second: BeastmasterAdvisor_41
+  - first:
+      213: 1129490281141856440
+    second: BeastmasterAdvisor_42
+  - first:
+      213: -1317484466153987778
+    second: BeastmasterAdvisor_43
+  - first:
+      213: -1021699442312290889
+    second: BeastmasterAdvisor_44
+  - first:
+      213: -8573033936042541701
+    second: BeastmasterAdvisor_45
+  - first:
+      213: -6544486730715907884
+    second: BeastmasterAdvisor_46
+  - first:
+      213: 5691417512323173477
+    second: BeastmasterAdvisor_47
+  - first:
+      213: 8281619972538772775
+    second: BeastmasterAdvisor_48
+  - first:
+      213: 1973426200983281929
+    second: BeastmasterAdvisor_49
+  - first:
+      213: 8478788114093014534
+    second: BeastmasterAdvisor_50
+  - first:
+      213: 3557729922168015014
+    second: BeastmasterAdvisor_51
+  - first:
+      213: -7817249221714591863
+    second: BeastmasterAdvisor_52
+  - first:
+      213: -5935456922022392503
+    second: BeastmasterAdvisor_53
+  - first:
+      213: 8767602649990771517
+    second: BeastmasterAdvisor_54
+  - first:
+      213: 3149707715815829591
+    second: BeastmasterAdvisor_55
+  - first:
+      213: 2482798464220914091
+    second: BeastmasterAdvisor_56
+  - first:
+      213: 2630170856942558688
+    second: BeastmasterAdvisor_57
+  - first:
+      213: 4808495934609128902
+    second: BeastmasterAdvisor_58
+  - first:
+      213: -2293808395921676133
+    second: BeastmasterAdvisor_59
+  - first:
+      213: 970297616369820642
+    second: BeastmasterAdvisor_60
+  - first:
+      213: -4101721873640573392
+    second: BeastmasterAdvisor_61
+  - first:
+      213: -3760643138213589403
+    second: BeastmasterAdvisor_62
+  - first:
+      213: -7490858632750966345
+    second: BeastmasterAdvisor_63
+  - first:
+      213: 8058680511988611106
+    second: BeastmasterAdvisor_64
+  - first:
+      213: 5364478619541756981
+    second: BeastmasterAdvisor_65
+  - first:
+      213: 9185721517047482513
+    second: BeastmasterAdvisor_66
+  - first:
+      213: -1233332886281073651
+    second: BeastmasterAdvisor_67
+  - first:
+      213: -4896191494301591871
+    second: BeastmasterAdvisor_68
+  - first:
+      213: -415142521949732638
+    second: BeastmasterAdvisor_69
+  - first:
+      213: 6432093459388047146
+    second: BeastmasterAdvisor_70
+  - first:
+      213: 4850649605232441657
+    second: BeastmasterAdvisor_71
+  - first:
+      213: 2327197138078644308
+    second: BeastmasterAdvisor_72
+  - first:
+      213: -2178509118735709069
+    second: BeastmasterAdvisor_73
+  - first:
+      213: 5624665791909893816
+    second: BeastmasterAdvisor_74
+  - first:
+      213: 2874054191951538288
+    second: BeastmasterAdvisor_75
+  - first:
+      213: -5072319183494424902
+    second: BeastmasterAdvisor_76
+  - first:
+      213: -5819167699565649956
+    second: BeastmasterAdvisor_77
+  - first:
+      213: -8349358763402725722
+    second: BeastmasterAdvisor_78
+  - first:
+      213: 167374480557671252
+    second: BeastmasterAdvisor_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf3aa5b626b18f10800000000000000
+      internalID: 2270295964544286636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec323a5d7f9346720800000000000000
+      internalID: 2838457401754198990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aff1d96d768c2b0800000000000000
+      internalID: -5564083168159466894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535992b090aec7cf0800000000000000
+      internalID: -253070154476710603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582066575ed045fb0800000000000000
+      internalID: -4660084435253329275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6ed32fd3debd7d0800000000000000
+      internalID: -2892457485342480677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be709e12f4f0594e0800000000000000
+      internalID: -1975656028986341397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5e515c7978ec8c0800000000000000
+      internalID: -3977092335005211211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8d88c9f4c6b28d0800000000000000
+      internalID: -2870081248334128963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ab1c2d35a37b2a0800000000000000
+      internalID: -6721839787134567812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0464427a6809a1e90800000000000000
+      internalID: -7054166958318270912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0cdeb7444118810800000000000000
+      internalID: 1765714813275455713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baacd77a423df700800000000000000
+      internalID: 575671622793210551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc24cce5044076d0800000000000000
+      internalID: -2994818959963575075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d1b1f5275c20da0800000000000000
+      internalID: -5980000260182041225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a03e7c8df97e79e0800000000000000
+      internalID: -1621724685916032856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c141b23389940f0800000000000000
+      internalID: -1132206485773476769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daf31d1f3d1f7780800000000000000
+      internalID: -8683189399639033127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3880ab5592b91de0800000000000000
+      internalID: -1361861057745745862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6b356f3e8669d50800000000000000
+      internalID: 6743692820333442722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae7f6d00fc56b6b0800000000000000
+      internalID: -5280931326958010705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910be842b81650d00800000000000000
+      internalID: 938263347618295833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eddc024c6d0ed20800000000000000
+      internalID: 3305878264342240857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441de460b6040bc70800000000000000
+      internalID: 8984752085015646532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77931002d192f5780800000000000000
+      internalID: -8692183550734026377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9cc6b14768cbfa0800000000000000
+      internalID: -5783599988216116816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b639c60f2e1c980800000000000000
+      internalID: -8520279497766638742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471524af324319920800000000000000
+      internalID: 2995232556305240436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6e3d0aea16df250800000000000000
+      internalID: 5980043282868332240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21523fadfb90bf470800000000000000
+      internalID: 8429341847170786578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c510e30840c9240800000000000000
+      internalID: 4799716251712707599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbebb5adc8dedb70800000000000000
+      internalID: 8925809889255353340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d193a3caaa8f20800000000000000
+      internalID: 3425738223808272586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3ae2c806c18e000800000000000000
+      internalID: 65333395591177179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5070166ec50d58bf0800000000000000
+      internalID: -322622700866435323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516d97cf043ac7e30800000000000000
+      internalID: 4502653226972730901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8329cbc7454b96650800000000000000
+      internalID: 6226706234779406904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69acc721254fe220800000000000000
+      internalID: 2517306725427358061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4820388557883990800000000000000
+      internalID: -7406020785783953331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeb97ede92513cd0800000000000000
+      internalID: -2580190269215752452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956a8f0fc9c123450800000000000000
+      internalID: 6066943108404782681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ee6a2dddf5eada0800000000000000
+      internalID: -5931698252873798026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b867b82d61ccaf00800000000000000
+      internalID: 1129490281141856440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31ebcdbbda57bde0800000000000000
+      internalID: -1317484466153987778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdd2c935c132d1f0800000000000000
+      internalID: -1021699442312290889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7db0da9e07760980800000000000000
+      internalID: -8573033936042541701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8bb6a1eff4d25a0800000000000000
+      internalID: -6544486730715907884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cc572b21afbfe40800000000000000
+      internalID: 5691417512323173477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d24f3bc793ee270800000000000000
+      internalID: 8281619972538772775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901ae049ca4036b10800000000000000
+      internalID: 1973426200983281929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e71520ed4baa570800000000000000
+      internalID: 8478788114093014534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a84a99b3889f5130800000000000000
+      internalID: 3557729922168015014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_52
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 210
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fb00b104d838390800000000000000
+      internalID: -7817249221714591863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_53
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 209
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dc837706501ada0800000000000000
+      internalID: -5935456922022392503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_54
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 261
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33397c4828cca970800000000000000
+      internalID: 8767602649990771517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_55
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 209
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750728bca7206bb20800000000000000
+      internalID: 3149707715815829591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_56
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 208
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1e5cc7c0ca47220800000000000000
+      internalID: 2482798464220914091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_57
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 208
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed55aa857e308420800000000000000
+      internalID: 2630170856942558688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_58
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd794673953bb240800000000000000
+      internalID: 4808495934609128902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_59
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 115
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98a742ca61ca20e0800000000000000
+      internalID: -2293808395921676133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_60
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 109
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3a12e8a80377d00800000000000000
+      internalID: 970297616369820642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036343210b1c317c0800000000000000
+      internalID: -4101721873640573392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_62
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ec4c39df28fcbc0800000000000000
+      internalID: -3760643138213589403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9d53403cf1b0890800000000000000
+      internalID: -7490858632750966345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_64
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228b17b9a3f26df60800000000000000
+      internalID: 8058680511988611106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_65
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cd6fad1e4727a40800000000000000
+      internalID: 5364478619541756981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_66
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198074d3d0d3a7f70800000000000000
+      internalID: 9185721517047482513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_67
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cc86f364252eee0800000000000000
+      internalID: -1233332886281073651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_68
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c65ddde6cb3d0cb0800000000000000
+      internalID: -4896191494301591871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_69
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0c608631e1d3af0800000000000000
+      internalID: -415142521949732638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_70
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f10f03ce2634950800000000000000
+      internalID: 6432093459388047146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_71
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939b4c9bd18f05340800000000000000
+      internalID: 4850649605232441657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_72
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458bb71977ddb4020800000000000000
+      internalID: 2327197138078644308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_73
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c0fcdaf7164c1e0800000000000000
+      internalID: -2178509118735709069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_74
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6941bacb3de0e40800000000000000
+      internalID: 5624665791909893816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_75
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0786e786f01b2e720800000000000000
+      internalID: 2874054191951538288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_76
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab65a60b3908b99b0800000000000000
+      internalID: -5072319183494424902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_77
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf56fafec92e3fa0800000000000000
+      internalID: -5819167699565649956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_78
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6f515017e112c80800000000000000
+      internalID: -8349358763402725722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterAdvisor_79
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4530b1a0432a25200800000000000000
+      internalID: 167374480557671252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterAdvisor_0: 2270295964544286636
+      BeastmasterAdvisor_1: 2838457401754198990
+      BeastmasterAdvisor_10: -7054166958318270912
+      BeastmasterAdvisor_11: 1765714813275455713
+      BeastmasterAdvisor_12: 575671622793210551
+      BeastmasterAdvisor_13: -2994818959963575075
+      BeastmasterAdvisor_14: -5980000260182041225
+      BeastmasterAdvisor_15: -1621724685916032856
+      BeastmasterAdvisor_16: -1132206485773476769
+      BeastmasterAdvisor_17: -8683189399639033127
+      BeastmasterAdvisor_18: -1361861057745745862
+      BeastmasterAdvisor_19: 6743692820333442722
+      BeastmasterAdvisor_2: -5564083168159466894
+      BeastmasterAdvisor_20: -5280931326958010705
+      BeastmasterAdvisor_21: 938263347618295833
+      BeastmasterAdvisor_22: 3305878264342240857
+      BeastmasterAdvisor_23: 8984752085015646532
+      BeastmasterAdvisor_24: -8692183550734026377
+      BeastmasterAdvisor_25: -5783599988216116816
+      BeastmasterAdvisor_26: -8520279497766638742
+      BeastmasterAdvisor_27: 2995232556305240436
+      BeastmasterAdvisor_28: 5980043282868332240
+      BeastmasterAdvisor_29: 8429341847170786578
+      BeastmasterAdvisor_3: -253070154476710603
+      BeastmasterAdvisor_30: 4799716251712707599
+      BeastmasterAdvisor_31: 8925809889255353340
+      BeastmasterAdvisor_32: 3425738223808272586
+      BeastmasterAdvisor_33: 65333395591177179
+      BeastmasterAdvisor_34: -322622700866435323
+      BeastmasterAdvisor_35: 4502653226972730901
+      BeastmasterAdvisor_36: 6226706234779406904
+      BeastmasterAdvisor_37: 2517306725427358061
+      BeastmasterAdvisor_38: -7406020785783953331
+      BeastmasterAdvisor_39: -2580190269215752452
+      BeastmasterAdvisor_4: -4660084435253329275
+      BeastmasterAdvisor_40: 6066943108404782681
+      BeastmasterAdvisor_41: -5931698252873798026
+      BeastmasterAdvisor_42: 1129490281141856440
+      BeastmasterAdvisor_43: -1317484466153987778
+      BeastmasterAdvisor_44: -1021699442312290889
+      BeastmasterAdvisor_45: -8573033936042541701
+      BeastmasterAdvisor_46: -6544486730715907884
+      BeastmasterAdvisor_47: 5691417512323173477
+      BeastmasterAdvisor_48: 8281619972538772775
+      BeastmasterAdvisor_49: 1973426200983281929
+      BeastmasterAdvisor_5: -2892457485342480677
+      BeastmasterAdvisor_50: 8478788114093014534
+      BeastmasterAdvisor_51: 3557729922168015014
+      BeastmasterAdvisor_52: -7817249221714591863
+      BeastmasterAdvisor_53: -5935456922022392503
+      BeastmasterAdvisor_54: 8767602649990771517
+      BeastmasterAdvisor_55: 3149707715815829591
+      BeastmasterAdvisor_56: 2482798464220914091
+      BeastmasterAdvisor_57: 2630170856942558688
+      BeastmasterAdvisor_58: 4808495934609128902
+      BeastmasterAdvisor_59: -2293808395921676133
+      BeastmasterAdvisor_6: -1975656028986341397
+      BeastmasterAdvisor_60: 970297616369820642
+      BeastmasterAdvisor_61: -4101721873640573392
+      BeastmasterAdvisor_62: -3760643138213589403
+      BeastmasterAdvisor_63: -7490858632750966345
+      BeastmasterAdvisor_64: 8058680511988611106
+      BeastmasterAdvisor_65: 5364478619541756981
+      BeastmasterAdvisor_66: 9185721517047482513
+      BeastmasterAdvisor_67: -1233332886281073651
+      BeastmasterAdvisor_68: -4896191494301591871
+      BeastmasterAdvisor_69: -415142521949732638
+      BeastmasterAdvisor_7: -3977092335005211211
+      BeastmasterAdvisor_70: 6432093459388047146
+      BeastmasterAdvisor_71: 4850649605232441657
+      BeastmasterAdvisor_72: 2327197138078644308
+      BeastmasterAdvisor_73: -2178509118735709069
+      BeastmasterAdvisor_74: 5624665791909893816
+      BeastmasterAdvisor_75: 2874054191951538288
+      BeastmasterAdvisor_76: -5072319183494424902
+      BeastmasterAdvisor_77: -5819167699565649956
+      BeastmasterAdvisor_78: -8349358763402725722
+      BeastmasterAdvisor_79: 167374480557671252
+      BeastmasterAdvisor_8: -2870081248334128963
+      BeastmasterAdvisor_9: -6721839787134567812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

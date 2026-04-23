@@ -7,33 +7,13 @@ public class HandDisplay : MonoBehaviour
     public Transform currentPlayerHandArea;
     public DeckManager deckManager;
 
+    // BASE SPRITES ONLY
     public Sprite beastMasterSprite;
     public Sprite engineerSprite;
     public Sprite laborerSprite;
     public Sprite scribeSprite;
     public Sprite thiefSprite;
     public Sprite wizardSprite;
-
-    public Sprite beastMasterCrewLeaderSprite;
-    public Sprite engineerCrewLeaderSprite;
-    public Sprite laborerCrewLeaderSprite;
-    public Sprite scribeCrewLeaderSprite;
-    public Sprite thiefCrewLeaderSprite;
-    public Sprite wizardCrewLeaderSprite;
-
-    public Sprite beastMasterExpertSprite;
-    public Sprite engineerExpertSprite;
-    public Sprite laborerExpertSprite;
-    public Sprite scribeExpertSprite;
-    public Sprite thiefExpertSprite;
-    public Sprite wizardExpertSprite;
-
-    public Sprite beastMasterMasterSprite;
-    public Sprite engineerMasterSprite;
-    public Sprite laborerMasterSprite;
-    public Sprite scribeMasterSprite;
-    public Sprite thiefMasterSprite;
-    public Sprite wizardMasterSprite;
 
     public void ShowCurrentPlayerHand()
     {
@@ -68,76 +48,104 @@ public class HandDisplay : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             float x = startX + i * spacing;
-            Sprite art = GetSpriteForPrankster(hand[i].pranksterType, hand[i].tier);
+            Sprite art = GetSpriteForEntry(hand[i]);
+
             Debug.Log("HAND DISPLAY | slot=" + i +
                       " | type=" + hand[i].pranksterType +
-                      " | tier=" + hand[i].tier);
+                      " | tier=" + hand[i].tier +
+                      " | category=" + hand[i].category +
+                      " | sprite=" + (art != null ? art.name : "NULL"));
+
             CreateCard(art, hand[i].tier, new Vector3(x, yOffset, 0), i);
         }
     }
 
-    Sprite GetSpriteForPrankster(PranksterType type, int tier)
-{
-    switch (type)
+    private Sprite GetSpriteForEntry(PranksterDeckEntry entry)
     {
-        case PranksterType.BeastMaster:
-            switch (tier)
-            {
-                case 1: return beastMasterCrewLeaderSprite != null ? beastMasterCrewLeaderSprite : beastMasterSprite;
-                case 2: return beastMasterExpertSprite != null ? beastMasterExpertSprite : beastMasterSprite;
-                case 3: return beastMasterMasterSprite != null ? beastMasterMasterSprite : beastMasterSprite;
-                default: return beastMasterSprite;
-            }
-
-        case PranksterType.Engineer:
-            switch (tier)
-            {
-                case 1: return engineerCrewLeaderSprite != null ? engineerCrewLeaderSprite : engineerSprite;
-                case 2: return engineerExpertSprite != null ? engineerExpertSprite : engineerSprite;
-                case 3: return engineerMasterSprite != null ? engineerMasterSprite : engineerSprite;
-                default: return engineerSprite;
-            }
-
-        case PranksterType.Laborer:
-            switch (tier)
-            {
-                case 1: return laborerCrewLeaderSprite != null ? laborerCrewLeaderSprite : laborerSprite;
-                case 2: return laborerExpertSprite != null ? laborerExpertSprite : laborerSprite;
-                case 3: return laborerMasterSprite != null ? laborerMasterSprite : laborerSprite;
-                default: return laborerSprite;
-            }
-
-        case PranksterType.Scribe:
-            switch (tier)
-            {
-                case 1: return scribeCrewLeaderSprite != null ? scribeCrewLeaderSprite : scribeSprite;
-                case 2: return scribeExpertSprite != null ? scribeExpertSprite : scribeSprite;
-                case 3: return scribeMasterSprite != null ? scribeMasterSprite : scribeSprite;
-                default: return scribeSprite;
-            }
-
-        case PranksterType.Thief:
-            switch (tier)
-            {
-                case 1: return thiefCrewLeaderSprite != null ? thiefCrewLeaderSprite : thiefSprite;
-                case 2: return thiefExpertSprite != null ? thiefExpertSprite : thiefSprite;
-                case 3: return thiefMasterSprite != null ? thiefMasterSprite : thiefSprite;
-                default: return thiefSprite;
-            }
-
-        case PranksterType.Wizard:
-            switch (tier)
-            {
-                case 1: return wizardCrewLeaderSprite != null ? wizardCrewLeaderSprite : wizardSprite;
-                case 2: return wizardExpertSprite != null ? wizardExpertSprite : wizardSprite;
-                case 3: return wizardMasterSprite != null ? wizardMasterSprite : wizardSprite;
-                default: return wizardSprite;
-            }
-
-        default:
+        if (entry == null)
             return null;
+
+        if (entry.tier <= 0)
+            return GetBaseSprite(entry.pranksterType);
+
+        if (entry.category == PranksterUnlockCategory.FavorOffer)
+            return GetFavorOfferSprite(entry.pranksterType, entry.tier);
+
+        return GetPrankCompletionSprite(entry.pranksterType, entry.tier);
     }
-}
+
+    private Sprite GetBaseSprite(PranksterType type)
+    {
+        switch (type)
+        {
+            case PranksterType.BeastMaster: return beastMasterSprite;
+            case PranksterType.Engineer: return engineerSprite;
+            case PranksterType.Laborer: return laborerSprite;
+            case PranksterType.Scribe: return scribeSprite;
+            case PranksterType.Thief: return thiefSprite;
+            case PranksterType.Wizard: return wizardSprite;
+            default: return null;
+        }
+    }
+
+    private Sprite GetPrankCompletionSprite(PranksterType type, int tier)
+    {
+        string pranksterName = GetResourcePranksterName(type);
+        string suffix = "";
+
+        switch (tier)
+        {
+            case 1: suffix = "Crewleader"; break;
+            case 2: suffix = "Expert"; break;
+            case 3: suffix = "Master"; break;
+            default: return GetBaseSprite(type);
+        }
+
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("Missing prank-completion sprite: UnlockCards/" + pranksterName + suffix);
+            return GetBaseSprite(type);
+        }
+
+        return sprite;
+    }
+
+    private Sprite GetFavorOfferSprite(PranksterType type, int tier)
+    {
+        string pranksterName = GetResourcePranksterName(type);
+        string suffix = "";
+
+        switch (tier)
+        {
+            case 1: suffix = "Assistant"; break;
+            case 2: suffix = "Strategist"; break;
+            case 3: suffix = "Advisor"; break;
+            default: return GetBaseSprite(type);
+        }
+
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("Missing favor sprite: UnlockCards/" + pranksterName + suffix);
+            return GetBaseSprite(type);
+        }
+
+        return sprite;
+    }
+
+    private string GetResourcePranksterName(PranksterType type)
+    {
+        switch (type)
+        {
+            case PranksterType.BeastMaster:
+                return "Beastmaster";
+            default:
+                return type.ToString();
+        }
+    }
 
     void CreateCard(Sprite art, int tier, Vector3 localPosition, int index)
     {

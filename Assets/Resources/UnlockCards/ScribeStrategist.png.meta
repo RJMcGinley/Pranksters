@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: c6a4772528ef64ac88070b04310f7e81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2634601482269491717
+    second: ScribeStrategist_0
+  - first:
+      213: 4929544523044783332
+    second: ScribeStrategist_1
+  - first:
+      213: -3703290628199600967
+    second: ScribeStrategist_2
+  - first:
+      213: 3648249025495457428
+    second: ScribeStrategist_3
+  - first:
+      213: -6663526427766376225
+    second: ScribeStrategist_4
+  - first:
+      213: 573980997165179087
+    second: ScribeStrategist_5
+  - first:
+      213: -4778332694773503519
+    second: ScribeStrategist_6
+  - first:
+      213: -5920962894971100836
+    second: ScribeStrategist_7
+  - first:
+      213: 8078755159669307697
+    second: ScribeStrategist_8
+  - first:
+      213: -5194862479447436702
+    second: ScribeStrategist_9
+  - first:
+      213: -7551533428188367867
+    second: ScribeStrategist_10
+  - first:
+      213: -587686275071360541
+    second: ScribeStrategist_11
+  - first:
+      213: 7362690402526355980
+    second: ScribeStrategist_12
+  - first:
+      213: -4869838623692292184
+    second: ScribeStrategist_13
+  - first:
+      213: 6842013669202102566
+    second: ScribeStrategist_14
+  - first:
+      213: -2639194677453111121
+    second: ScribeStrategist_15
+  - first:
+      213: -2870139496421926801
+    second: ScribeStrategist_16
+  - first:
+      213: 2040976736025891300
+    second: ScribeStrategist_17
+  - first:
+      213: -8542152860740694601
+    second: ScribeStrategist_18
+  - first:
+      213: -4319142285041732271
+    second: ScribeStrategist_19
+  - first:
+      213: -3645287082537438633
+    second: ScribeStrategist_20
+  - first:
+      213: 1848517024991439368
+    second: ScribeStrategist_21
+  - first:
+      213: -507416925118666801
+    second: ScribeStrategist_22
+  - first:
+      213: 3539410707293168530
+    second: ScribeStrategist_23
+  - first:
+      213: 3600191116506359898
+    second: ScribeStrategist_24
+  - first:
+      213: 926569631078026327
+    second: ScribeStrategist_25
+  - first:
+      213: -5601534515970510861
+    second: ScribeStrategist_26
+  - first:
+      213: 4120320825904441787
+    second: ScribeStrategist_27
+  - first:
+      213: -3169901752522838704
+    second: ScribeStrategist_28
+  - first:
+      213: -1012034418263064126
+    second: ScribeStrategist_29
+  - first:
+      213: 3689381626985855555
+    second: ScribeStrategist_30
+  - first:
+      213: 8610183433371211811
+    second: ScribeStrategist_31
+  - first:
+      213: -3799581999401624221
+    second: ScribeStrategist_32
+  - first:
+      213: 1972854553136773995
+    second: ScribeStrategist_33
+  - first:
+      213: 127396187379413058
+    second: ScribeStrategist_34
+  - first:
+      213: -1740365593956103297
+    second: ScribeStrategist_35
+  - first:
+      213: 2354397843497226390
+    second: ScribeStrategist_36
+  - first:
+      213: 8705125982165689547
+    second: ScribeStrategist_37
+  - first:
+      213: 2744694003462563041
+    second: ScribeStrategist_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeStrategist_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 357
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdfb9c19e3007bd0800000000000000
+      internalID: -2634601482269491717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 308
+        width: 368
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e48e8830a2496440800000000000000
+      internalID: 4929544523044783332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 947
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc21266bc44b9cc0800000000000000
+      internalID: -3703290628199600967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 812
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e52d0d82f21a230800000000000000
+      internalID: 3648249025495457428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 805
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8be81d4066683a0800000000000000
+      internalID: -6663526427766376225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 784
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0ead30da037f700800000000000000
+      internalID: 573980997165179087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 777
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9e3651bb3ffadb0800000000000000
+      internalID: -4778332694773503519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 689
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51aafc1e9384dda0800000000000000
+      internalID: -5920962894971100836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 206
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139717fb3018d1070800000000000000
+      internalID: 8078755159669307697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262d787391428e7b0800000000000000
+      internalID: -5194862479447436702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50438575b50933790800000000000000
+      internalID: -7551533428188367867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 259
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1cffe427e18d7f0800000000000000
+      internalID: -587686275071360541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_12
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02e2c179e78d2660800000000000000
+      internalID: 7362690402526355980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 208
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aff751c29bda6cb0800000000000000
+      internalID: -4869838623692292184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 207
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629882d7e27b3fe50800000000000000
+      internalID: 6842013669202102566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 206
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa04e458c62bf5bd0800000000000000
+      internalID: -2639194677453111121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 182
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68d3fba5573b28d0800000000000000
+      internalID: -2870139496421926801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 206
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1d8a12781035c10800000000000000
+      internalID: 2040976736025891300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdc67e3b3d247980800000000000000
+      internalID: -8542152860740694601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 107
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155f7bdb9f25f04c0800000000000000
+      internalID: -4319142285041732271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752390546b6596dc0800000000000000
+      internalID: -3645287082537438633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a60ebb07047a910800000000000000
+      internalID: 1848517024991439368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_22
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7e749befa45f8f0800000000000000
+      internalID: -507416925118666801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2936c6229438e1130800000000000000
+      internalID: 3539410707293168530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_24
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58e0eeeeb276f130800000000000000
+      internalID: 3600191116506359898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c02189b26dbdc00800000000000000
+      internalID: 926569631078026327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffec72390a5342b0800000000000000
+      internalID: -5601534515970510861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9ada4f5f15e2930800000000000000
+      internalID: 4120320825904441787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_28
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05decf3a62f3204d0800000000000000
+      internalID: -3169901752522838704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_29
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c106fefe0884f1f0800000000000000
+      internalID: -1012034418263064126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a3855ea01533330800000000000000
+      internalID: 3689381626985855555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285b05c6348d7770800000000000000
+      internalID: 8610183433371211811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d92b67d4c254bc0800000000000000
+      internalID: -3799581999401624221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bba3173ccf06b10800000000000000
+      internalID: 1972854553136773995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_34
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2403d7e482a94c100800000000000000
+      internalID: 127396187379413058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_35
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b4fe096baf8d7e0800000000000000
+      internalID: -1740365593956103297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69019915d508ca020800000000000000
+      internalID: 2354397843497226390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_37
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4620485f1dec870800000000000000
+      internalID: 8705125982165689547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeStrategist_38
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4e78577ac171620800000000000000
+      internalID: 2744694003462563041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeStrategist_0: -2634601482269491717
+      ScribeStrategist_1: 4929544523044783332
+      ScribeStrategist_10: -7551533428188367867
+      ScribeStrategist_11: -587686275071360541
+      ScribeStrategist_12: 7362690402526355980
+      ScribeStrategist_13: -4869838623692292184
+      ScribeStrategist_14: 6842013669202102566
+      ScribeStrategist_15: -2639194677453111121
+      ScribeStrategist_16: -2870139496421926801
+      ScribeStrategist_17: 2040976736025891300
+      ScribeStrategist_18: -8542152860740694601
+      ScribeStrategist_19: -4319142285041732271
+      ScribeStrategist_2: -3703290628199600967
+      ScribeStrategist_20: -3645287082537438633
+      ScribeStrategist_21: 1848517024991439368
+      ScribeStrategist_22: -507416925118666801
+      ScribeStrategist_23: 3539410707293168530
+      ScribeStrategist_24: 3600191116506359898
+      ScribeStrategist_25: 926569631078026327
+      ScribeStrategist_26: -5601534515970510861
+      ScribeStrategist_27: 4120320825904441787
+      ScribeStrategist_28: -3169901752522838704
+      ScribeStrategist_29: -1012034418263064126
+      ScribeStrategist_3: 3648249025495457428
+      ScribeStrategist_30: 3689381626985855555
+      ScribeStrategist_31: 8610183433371211811
+      ScribeStrategist_32: -3799581999401624221
+      ScribeStrategist_33: 1972854553136773995
+      ScribeStrategist_34: 127396187379413058
+      ScribeStrategist_35: -1740365593956103297
+      ScribeStrategist_36: 2354397843497226390
+      ScribeStrategist_37: 8705125982165689547
+      ScribeStrategist_38: 2744694003462563041
+      ScribeStrategist_4: -6663526427766376225
+      ScribeStrategist_5: 573980997165179087
+      ScribeStrategist_6: -4778332694773503519
+      ScribeStrategist_7: -5920962894971100836
+      ScribeStrategist_8: 8078755159669307697
+      ScribeStrategist_9: -5194862479447436702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

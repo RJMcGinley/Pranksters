@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: f03ee81a049cd40f7804b58b94f34649
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7959187261772001531
+    second: LaborerAdvisor_0
+  - first:
+      213: 6926290168634089980
+    second: LaborerAdvisor_1
+  - first:
+      213: -3744183926183730811
+    second: LaborerAdvisor_2
+  - first:
+      213: -7082035439139952859
+    second: LaborerAdvisor_3
+  - first:
+      213: 2648234400585460420
+    second: LaborerAdvisor_4
+  - first:
+      213: -2076814499562233292
+    second: LaborerAdvisor_5
+  - first:
+      213: -664041404274395069
+    second: LaborerAdvisor_6
+  - first:
+      213: -732706093300631543
+    second: LaborerAdvisor_7
+  - first:
+      213: 862502350768472520
+    second: LaborerAdvisor_8
+  - first:
+      213: 313229851172136358
+    second: LaborerAdvisor_9
+  - first:
+      213: 8043228912667816190
+    second: LaborerAdvisor_10
+  - first:
+      213: 7717583670143729862
+    second: LaborerAdvisor_11
+  - first:
+      213: -4574796857820070422
+    second: LaborerAdvisor_12
+  - first:
+      213: -6782319413071539039
+    second: LaborerAdvisor_13
+  - first:
+      213: 6061906941727458733
+    second: LaborerAdvisor_14
+  - first:
+      213: 2783614208165247312
+    second: LaborerAdvisor_15
+  - first:
+      213: 4705953324733013274
+    second: LaborerAdvisor_16
+  - first:
+      213: 7665634318077754189
+    second: LaborerAdvisor_17
+  - first:
+      213: 9016949251533010163
+    second: LaborerAdvisor_18
+  - first:
+      213: -2717938201914715412
+    second: LaborerAdvisor_19
+  - first:
+      213: -3355288896492674299
+    second: LaborerAdvisor_20
+  - first:
+      213: -4041596862874970299
+    second: LaborerAdvisor_21
+  - first:
+      213: -8589770095343489807
+    second: LaborerAdvisor_22
+  - first:
+      213: 3337927840411677663
+    second: LaborerAdvisor_23
+  - first:
+      213: 3028142350398143618
+    second: LaborerAdvisor_24
+  - first:
+      213: 8198473158327424287
+    second: LaborerAdvisor_25
+  - first:
+      213: 3422970675925874091
+    second: LaborerAdvisor_26
+  - first:
+      213: -1343779616593731756
+    second: LaborerAdvisor_27
+  - first:
+      213: 8121241283478518024
+    second: LaborerAdvisor_28
+  - first:
+      213: -16088217750924980
+    second: LaborerAdvisor_29
+  - first:
+      213: 412383646482772342
+    second: LaborerAdvisor_30
+  - first:
+      213: -1395807595090107611
+    second: LaborerAdvisor_31
+  - first:
+      213: 5224109518269188234
+    second: LaborerAdvisor_32
+  - first:
+      213: 8218531838302782845
+    second: LaborerAdvisor_33
+  - first:
+      213: -6451812828664553857
+    second: LaborerAdvisor_34
+  - first:
+      213: -774920174997566185
+    second: LaborerAdvisor_35
+  - first:
+      213: 4024542944941759194
+    second: LaborerAdvisor_36
+  - first:
+      213: -7025827964197997670
+    second: LaborerAdvisor_37
+  - first:
+      213: -4940128689095647169
+    second: LaborerAdvisor_38
+  - first:
+      213: -6830818025305282332
+    second: LaborerAdvisor_39
+  - first:
+      213: -2945410295398729682
+    second: LaborerAdvisor_40
+  - first:
+      213: 6401959178019444777
+    second: LaborerAdvisor_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerAdvisor_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fbbe15a6b47e60800000000000000
+      internalID: 7959187261772001531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf127b816302f1060800000000000000
+      internalID: 6926290168634089980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58167128e8cf90cc0800000000000000
+      internalID: -3744183926183730811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 307
+        width: 700
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527e5535a4e87bd90800000000000000
+      internalID: -7082035439139952859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caadd8082b60c420800000000000000
+      internalID: 2648234400585460420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4326631573cad23e0800000000000000
+      internalID: -2076814499562233292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348b21e6cd9d8c6f0800000000000000
+      internalID: -664041404274395069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 922
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9083d00b0b7e4d5f0800000000000000
+      internalID: -732706093300631543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c18e7b715938fb00800000000000000
+      internalID: 862502350768472520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 871
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5e92cd3e0d85400800000000000000
+      internalID: 313229851172136358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 850
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef077bac41a4f9f60800000000000000
+      internalID: 8043228912667816190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 799
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0c54f557d5a1b60800000000000000
+      internalID: 7717583670143729862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 778
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedbf020f7e0380c0800000000000000
+      internalID: -4574796857820070422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a492a69d6c50e1a0800000000000000
+      internalID: -6782319413071539039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 210
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c3230f38302450800000000000000
+      internalID: 6061906941727458733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 209
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0597b65cf5261a620800000000000000
+      internalID: 2783614208165247312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 261
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d974a9d97ee4140800000000000000
+      internalID: 4705953324733013274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 209
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b711b4ccdc16a60800000000000000
+      internalID: 7665634318077754189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 208
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f479570293a22d70800000000000000
+      internalID: 9016949251533010163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_19
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 208
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2d8690b91f74ad0800000000000000
+      internalID: -2717938201914715412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_20
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503edb5968e9f61d0800000000000000
+      internalID: -3355288896492674299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 115
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5471107011d59e7c0800000000000000
+      internalID: -4041596862874970299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 109
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc27ccdb910bc880800000000000000
+      internalID: -8589770095343489807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3ff9d8fa3b25e20800000000000000
+      internalID: 3337927840411677663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c3cc48c6f160a20800000000000000
+      internalID: 3028142350398143618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f155eae66e3d6c170800000000000000
+      internalID: 8198473158327424287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5f32fa1b5d08f20800000000000000
+      internalID: 3422970675925874091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_27
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f1580fe8fe95de0800000000000000
+      internalID: -1343779616593731756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_28
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80979fc4be174b070800000000000000
+      internalID: 8121241283478518024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_29
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4113e7e9d7d6cff0800000000000000
+      internalID: -16088217750924980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_30
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67139c7ddb419b500800000000000000
+      internalID: 412383646482772342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_31
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523acd7336811ace0800000000000000
+      internalID: -1395807595090107611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_32
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a880c28ade3cf7840800000000000000
+      internalID: 5224109518269188234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_33
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75864dc9271e0270800000000000000
+      internalID: 8218531838302782845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e142e5a6e8676a0800000000000000
+      internalID: -6451812828664553857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_35
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d8cffd43eee35f0800000000000000
+      internalID: -774920174997566185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_36
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adade884c7c0ad730800000000000000
+      internalID: 4024542944941759194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_37
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93f8f4e0be3f7e90800000000000000
+      internalID: -7025827964197997670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_38
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30ecb59123217bb0800000000000000
+      internalID: -4940128689095647169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_39
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8e75c723f0431a0800000000000000
+      internalID: -6830818025305282332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_40
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28faf811fccf17d0800000000000000
+      internalID: -2945410295398729682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerAdvisor_41
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928966014f358d850800000000000000
+      internalID: 6401959178019444777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerAdvisor_0: 7959187261772001531
+      LaborerAdvisor_1: 6926290168634089980
+      LaborerAdvisor_10: 8043228912667816190
+      LaborerAdvisor_11: 7717583670143729862
+      LaborerAdvisor_12: -4574796857820070422
+      LaborerAdvisor_13: -6782319413071539039
+      LaborerAdvisor_14: 6061906941727458733
+      LaborerAdvisor_15: 2783614208165247312
+      LaborerAdvisor_16: 4705953324733013274
+      LaborerAdvisor_17: 7665634318077754189
+      LaborerAdvisor_18: 9016949251533010163
+      LaborerAdvisor_19: -2717938201914715412
+      LaborerAdvisor_2: -3744183926183730811
+      LaborerAdvisor_20: -3355288896492674299
+      LaborerAdvisor_21: -4041596862874970299
+      LaborerAdvisor_22: -8589770095343489807
+      LaborerAdvisor_23: 3337927840411677663
+      LaborerAdvisor_24: 3028142350398143618
+      LaborerAdvisor_25: 8198473158327424287
+      LaborerAdvisor_26: 3422970675925874091
+      LaborerAdvisor_27: -1343779616593731756
+      LaborerAdvisor_28: 8121241283478518024
+      LaborerAdvisor_29: -16088217750924980
+      LaborerAdvisor_3: -7082035439139952859
+      LaborerAdvisor_30: 412383646482772342
+      LaborerAdvisor_31: -1395807595090107611
+      LaborerAdvisor_32: 5224109518269188234
+      LaborerAdvisor_33: 8218531838302782845
+      LaborerAdvisor_34: -6451812828664553857
+      LaborerAdvisor_35: -774920174997566185
+      LaborerAdvisor_36: 4024542944941759194
+      LaborerAdvisor_37: -7025827964197997670
+      LaborerAdvisor_38: -4940128689095647169
+      LaborerAdvisor_39: -6830818025305282332
+      LaborerAdvisor_4: 2648234400585460420
+      LaborerAdvisor_40: -2945410295398729682
+      LaborerAdvisor_41: 6401959178019444777
+      LaborerAdvisor_5: -2076814499562233292
+      LaborerAdvisor_6: -664041404274395069
+      LaborerAdvisor_7: -732706093300631543
+      LaborerAdvisor_8: 862502350768472520
+      LaborerAdvisor_9: 313229851172136358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -105,21 +105,21 @@ public class PlayerInfoPanel : MonoBehaviour
     }
 
     void UpdateFavorSlot(Image slotImage, Player player, int index)
-    {
-        if (slotImage == null || player == null)
-            return;
+{
+    if (slotImage == null || player == null)
+        return;
 
-        if (index < player.favorArea.Count)
-        {
-            Sprite icon = GetFavorIcon(player.favorArea[index]);
-            slotImage.gameObject.SetActive(true);
-            slotImage.sprite = icon;
-        }
-        else
-        {
-            slotImage.gameObject.SetActive(false);
-        }
+    if (index < player.favorArea.Count)
+    {
+        Sprite icon = GetFavorIcon(player.favorArea[index].pranksterType);
+        slotImage.gameObject.SetActive(true);
+        slotImage.sprite = icon;
     }
+    else
+    {
+        slotImage.gameObject.SetActive(false);
+    }
+}
 
     Sprite GetFavorIcon(PranksterType type)
     {

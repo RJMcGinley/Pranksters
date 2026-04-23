@@ -10391,24 +10391,6 @@ MonoBehaviour:
   scribeSprite: {fileID: 21300000, guid: 06c4792aa7ebb4b328f7a45dd6e523c7, type: 3}
   thiefSprite: {fileID: 21300000, guid: 3cd9f5f32525840feaa4a60ade9e5db2, type: 3}
   wizardSprite: {fileID: 21300000, guid: c1054e7547ca94cdc8c5a5aeb8c9c108, type: 3}
-  beastMasterCrewLeaderSprite: {fileID: 21300000, guid: 7a993b5cb709241c5add736342e3bd34, type: 3}
-  engineerCrewLeaderSprite: {fileID: 21300000, guid: 23b9fdc985387457fb5db3f268f69825, type: 3}
-  laborerCrewLeaderSprite: {fileID: 21300000, guid: f7c9659ca875148ba90710e6972b6050, type: 3}
-  scribeCrewLeaderSprite: {fileID: 21300000, guid: 657e1ecec20ef437395393375b89e4e3, type: 3}
-  thiefCrewLeaderSprite: {fileID: 21300000, guid: 8191c825c3ad6434f9970b0597b64f93, type: 3}
-  wizardCrewLeaderSprite: {fileID: 21300000, guid: fd6966c6219484ecaa641c8636153ba0, type: 3}
-  beastMasterExpertSprite: {fileID: 21300000, guid: eb0833079074b47eabcf7a00b858a625, type: 3}
-  engineerExpertSprite: {fileID: 21300000, guid: 91575ac0be3d0443c9c9a1090c2cf212, type: 3}
-  laborerExpertSprite: {fileID: 21300000, guid: 944b7bd464e1645e4ba458df0a3c6e08, type: 3}
-  scribeExpertSprite: {fileID: 21300000, guid: a5757e9b7346145618dddd233dc2136d, type: 3}
-  thiefExpertSprite: {fileID: 21300000, guid: 3b9e5952fe4f74eafb38357ad00b4178, type: 3}
-  wizardExpertSprite: {fileID: 21300000, guid: a553ee91e5e284a42b23badf719bcdac, type: 3}
-  beastMasterMasterSprite: {fileID: 21300000, guid: 9f36e6f717c2144d5a51ab298370b213, type: 3}
-  engineerMasterSprite: {fileID: 21300000, guid: bea5ade16bb3d4b25ba14e59a942403d, type: 3}
-  laborerMasterSprite: {fileID: 21300000, guid: 669c339ebf9474042b827f136af59fd6, type: 3}
-  scribeMasterSprite: {fileID: 21300000, guid: e2dd0f4e74a70454b993b68272d756ca, type: 3}
-  thiefMasterSprite: {fileID: 21300000, guid: 8756295ceff6342d89f45f0beb90eac2, type: 3}
-  wizardMasterSprite: {fileID: 21300000, guid: a3478d6923eef4b019204e366716d297, type: 3}
 --- !u!4 &36702302
 Transform:
   m_ObjectHideFlags: 0
@@ -111294,7 +111276,6 @@ MonoBehaviour:
   acknowledgeButton: {fileID: 1939854675}
   revealFrame: {fileID: 1267569599}
   revealCardPrefab: {fileID: 4822830169712078141, guid: ea66dc8d55270491988de33622fcfc46, type: 3}
-  confettiFX: {fileID: 1310293921}
 --- !u!224 &1462741330
 RectTransform:
   m_ObjectHideFlags: 0
@@ -142520,9 +142501,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1285897363}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: ReturnToMainMenuFromEndGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

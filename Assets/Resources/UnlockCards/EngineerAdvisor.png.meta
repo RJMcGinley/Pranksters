@@ -1,0 +1,2093 @@
+fileFormatVersion: 2
+guid: 12906950c62b5448483127181305e33a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6712699288171502128
+    second: EngineerAdvisor_0
+  - first:
+      213: -3946309860268038794
+    second: EngineerAdvisor_1
+  - first:
+      213: -1807159402408349497
+    second: EngineerAdvisor_2
+  - first:
+      213: -3340568083569131702
+    second: EngineerAdvisor_3
+  - first:
+      213: -8398179003157543734
+    second: EngineerAdvisor_4
+  - first:
+      213: -1895291830310825309
+    second: EngineerAdvisor_5
+  - first:
+      213: 7504346553957323639
+    second: EngineerAdvisor_6
+  - first:
+      213: 1024435991828752881
+    second: EngineerAdvisor_7
+  - first:
+      213: -1457394762094174752
+    second: EngineerAdvisor_8
+  - first:
+      213: -6236156623433833469
+    second: EngineerAdvisor_9
+  - first:
+      213: -5107779509901875778
+    second: EngineerAdvisor_10
+  - first:
+      213: 7167898062799817185
+    second: EngineerAdvisor_11
+  - first:
+      213: 7443800124939203244
+    second: EngineerAdvisor_12
+  - first:
+      213: 8679510069040279889
+    second: EngineerAdvisor_13
+  - first:
+      213: -1634809295831851856
+    second: EngineerAdvisor_14
+  - first:
+      213: 4474427968250060242
+    second: EngineerAdvisor_15
+  - first:
+      213: -7019419904281798959
+    second: EngineerAdvisor_16
+  - first:
+      213: 3614442797690512616
+    second: EngineerAdvisor_17
+  - first:
+      213: 9073168594155583300
+    second: EngineerAdvisor_18
+  - first:
+      213: 8349826704468646935
+    second: EngineerAdvisor_19
+  - first:
+      213: 6256073421813412029
+    second: EngineerAdvisor_20
+  - first:
+      213: -5242935345707809296
+    second: EngineerAdvisor_21
+  - first:
+      213: 5344253217686913111
+    second: EngineerAdvisor_22
+  - first:
+      213: 3512880064699916945
+    second: EngineerAdvisor_23
+  - first:
+      213: -405390603903875725
+    second: EngineerAdvisor_24
+  - first:
+      213: -3732806932010675377
+    second: EngineerAdvisor_25
+  - first:
+      213: -6376891596259657097
+    second: EngineerAdvisor_26
+  - first:
+      213: -2244713743602276521
+    second: EngineerAdvisor_27
+  - first:
+      213: -709274283702608257
+    second: EngineerAdvisor_28
+  - first:
+      213: -5894704709368266751
+    second: EngineerAdvisor_29
+  - first:
+      213: 3377665523522249146
+    second: EngineerAdvisor_30
+  - first:
+      213: -4572720116711626976
+    second: EngineerAdvisor_31
+  - first:
+      213: -1733291951869180136
+    second: EngineerAdvisor_32
+  - first:
+      213: -6135324655823553766
+    second: EngineerAdvisor_33
+  - first:
+      213: 7749212033300440955
+    second: EngineerAdvisor_34
+  - first:
+      213: 93386316397361956
+    second: EngineerAdvisor_35
+  - first:
+      213: -4828320466689776519
+    second: EngineerAdvisor_36
+  - first:
+      213: -2251639297833513714
+    second: EngineerAdvisor_37
+  - first:
+      213: 1157345659229298918
+    second: EngineerAdvisor_38
+  - first:
+      213: 1534039600865724259
+    second: EngineerAdvisor_39
+  - first:
+      213: 2948408803273772098
+    second: EngineerAdvisor_40
+  - first:
+      213: 489625582967652337
+    second: EngineerAdvisor_41
+  - first:
+      213: -7266915104927783814
+    second: EngineerAdvisor_42
+  - first:
+      213: 8411134715424762365
+    second: EngineerAdvisor_43
+  - first:
+      213: -253206639881684741
+    second: EngineerAdvisor_44
+  - first:
+      213: -4141392524982037365
+    second: EngineerAdvisor_45
+  - first:
+      213: 5343990995149337087
+    second: EngineerAdvisor_46
+  - first:
+      213: 8143452405806242252
+    second: EngineerAdvisor_47
+  - first:
+      213: -702591913115259791
+    second: EngineerAdvisor_48
+  - first:
+      213: 2582825743403315380
+    second: EngineerAdvisor_49
+  - first:
+      213: 5512875694575880824
+    second: EngineerAdvisor_50
+  - first:
+      213: 4268921303244952453
+    second: EngineerAdvisor_51
+  - first:
+      213: -4169465161805987505
+    second: EngineerAdvisor_52
+  - first:
+      213: 1942895336946878631
+    second: EngineerAdvisor_53
+  - first:
+      213: 9080778023328869169
+    second: EngineerAdvisor_54
+  - first:
+      213: 4927637802035903792
+    second: EngineerAdvisor_55
+  - first:
+      213: 4943154279171418832
+    second: EngineerAdvisor_56
+  - first:
+      213: -2165341586553026894
+    second: EngineerAdvisor_57
+  - first:
+      213: 4107849296608881039
+    second: EngineerAdvisor_58
+  - first:
+      213: 1483813024063020853
+    second: EngineerAdvisor_59
+  - first:
+      213: 6308935584760693258
+    second: EngineerAdvisor_60
+  - first:
+      213: -8303812535774200625
+    second: EngineerAdvisor_61
+  - first:
+      213: 3491221556717453873
+    second: EngineerAdvisor_62
+  - first:
+      213: -8849049352954674594
+    second: EngineerAdvisor_63
+  - first:
+      213: 3165045197928593753
+    second: EngineerAdvisor_64
+  - first:
+      213: 265698778335283889
+    second: EngineerAdvisor_65
+  - first:
+      213: 5514141891105469601
+    second: EngineerAdvisor_66
+  - first:
+      213: 7296084906512312094
+    second: EngineerAdvisor_67
+  - first:
+      213: -5119269463283306094
+    second: EngineerAdvisor_68
+  - first:
+      213: 8563531388166253798
+    second: EngineerAdvisor_69
+  - first:
+      213: -2514973216859654392
+    second: EngineerAdvisor_70
+  - first:
+      213: 1098143685478004006
+    second: EngineerAdvisor_71
+  - first:
+      213: 1580550465294674107
+    second: EngineerAdvisor_72
+  - first:
+      213: 7584429103081961918
+    second: EngineerAdvisor_73
+  - first:
+      213: 658386721183390011
+    second: EngineerAdvisor_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerAdvisor_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d525841093b7d2a0800000000000000
+      internalID: -6712699288171502128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6752a1d2714eb39c0800000000000000
+      internalID: -3946309860268038794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1081
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c071f6291eabe6e0800000000000000
+      internalID: -1807159402408349497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 836
+        width: 292
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fbadee60be3a1d0800000000000000
+      internalID: -3340568083569131702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac486ac21bca37b80800000000000000
+      internalID: -8398179003157543734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a29f9c3f1292b5e0800000000000000
+      internalID: -1895291830310825309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1007
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7739d0c5e6bc42860800000000000000
+      internalID: 7504346553957323639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9e31c5b17873e00800000000000000
+      internalID: 1024435991828752881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed9cdb7f2b46cbe0800000000000000
+      internalID: -1457394762094174752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 992
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304e6807798b479a0800000000000000
+      internalID: -6236156623433833469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5a74119958d19b0800000000000000
+      internalID: -5107779509901875778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9c46b9f4d797360800000000000000
+      internalID: 7167898062799817185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2720256c0bd4760800000000000000
+      internalID: 7443800124939203244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1517299fb60d37870800000000000000
+      internalID: 8679510069040279889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 970
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc9f666b9dff49e0800000000000000
+      internalID: -1634809295831851856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 963
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd1e94d78c581e30800000000000000
+      internalID: 4474427968250060242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d61afb99c2069e90800000000000000
+      internalID: -7019419904281798959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 313
+        width: 749
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4ef490394192230800000000000000
+      internalID: 3614442797690512616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447bfd1c3ce5aed70800000000000000
+      internalID: 9073168594155583300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c9ceff52b80e370800000000000000
+      internalID: 8349826704468646935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db073fb81a902d650800000000000000
+      internalID: 6256073421813412029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f50fb2d41a5d37b0800000000000000
+      internalID: -5242935345707809296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75087f58cf99a2a40800000000000000
+      internalID: 5344253217686913111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1926dfa8ec140c030800000000000000
+      internalID: 3512880064699916945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3754703c463cf5af0800000000000000
+      internalID: -405390603903875725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4353626fd7623cc0800000000000000
+      internalID: -3732806932010675377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77af4c121eab087a0800000000000000
+      internalID: -6376891596259657097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75726224ebc29d0e0800000000000000
+      internalID: -2244713743602276521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e169ffbc62826f0800000000000000
+      internalID: -709274283702608257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100484e5c4dc13ea0800000000000000
+      internalID: -5894704709368266751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a0a3e5e0efde20800000000000000
+      internalID: 3377665523522249146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027ee1af74f6a80c0800000000000000
+      internalID: -4572720116711626976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 801
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8174bc4372c12f7e0800000000000000
+      internalID: -1733291951869180136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 802
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bf0fb5bb2fadaa0800000000000000
+      internalID: -6135324655823553766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 794
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b772e06894bba8b60800000000000000
+      internalID: 7749212033300440955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b3fb72c56cb4100800000000000000
+      internalID: 93386316397361956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_36
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9742539fd1c5efcb0800000000000000
+      internalID: -4828320466689776519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 797
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc2520df190c0e0800000000000000
+      internalID: -2251639297833513714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e3b4ceb7bf0010800000000000000
+      internalID: 1157345659229298918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367cbf8a3e00a4510800000000000000
+      internalID: 1534039600865724259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 800
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c84cb6f2adae820800000000000000
+      internalID: 2948408803273772098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fffab1afdf7bc600800000000000000
+      internalID: 489625582967652337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74ebddb63bb62b90800000000000000
+      internalID: -7266915104927783814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df969d6a57a5ab470800000000000000
+      internalID: 8411134715424762365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8f41f07ed6c7cf0800000000000000
+      internalID: -253206639881684741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_45
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84dcf8c071d686c0800000000000000
+      internalID: -4141392524982037365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff133c41f7ba92a40800000000000000
+      internalID: 5343990995149337087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 210
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9916531da530170800000000000000
+      internalID: 8143452405806242252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 209
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ce3b4a064ef36f0800000000000000
+      internalID: -702591913115259791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_49
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 261
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0f948445a08d320800000000000000
+      internalID: 2582825743403315380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_50
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 209
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a841a5c3ba18c40800000000000000
+      internalID: 5512875694575880824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_51
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 208
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583530ebe414e3b30800000000000000
+      internalID: 4268921303244952453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_52
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 208
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41003fa6851326c0800000000000000
+      internalID: -4169465161805987505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_53
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a84b7ad30d86fa10800000000000000
+      internalID: 1942895336946878631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 115
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13be0bc0087650e70800000000000000
+      internalID: 9080778023328869169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 109
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03df224297c726440800000000000000
+      internalID: 4927637802035903792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_56
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dae6ff70ac999440800000000000000
+      internalID: 4943154279171418832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_57
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6402cac4923f1e0800000000000000
+      internalID: -2165341586553026894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_58
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e533cb23020930800000000000000
+      internalID: 4107849296608881039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_59
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fdf547510979410800000000000000
+      internalID: 1483813024063020853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_60
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a028b78fc77dd8750800000000000000
+      internalID: 6308935584760693258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_61
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc3eb38e7ee2cc80800000000000000
+      internalID: -8303812535774200625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_62
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1328450328f437030800000000000000
+      internalID: 3491221556717453873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_63
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e528c3d6f7cd13580800000000000000
+      internalID: -8849049352954674594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_64
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959f690a6df7ceb20800000000000000
+      internalID: 3165045197928593753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_65
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba0ee391a3ffa300800000000000000
+      internalID: 265698778335283889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_66
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a43174b5da268c40800000000000000
+      internalID: 5514141891105469601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_67
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1761cfe096e04560800000000000000
+      internalID: 7296084906512312094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_68
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2917e73db83b4f8b0800000000000000
+      internalID: -5119269463283306094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_69
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecae8e0d66c7d670800000000000000
+      internalID: 8563531388166253798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_70
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80775752f25091dd0800000000000000
+      internalID: -2514973216859654392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_71
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625314d1dd36d3f00800000000000000
+      internalID: 1098143685478004006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_72
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a779264e3fe510800000000000000
+      internalID: 1580550465294674107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_73
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b551d51e414960800000000000000
+      internalID: 7584429103081961918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerAdvisor_74
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3958f01c3f032900800000000000000
+      internalID: 658386721183390011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerAdvisor_0: -6712699288171502128
+      EngineerAdvisor_1: -3946309860268038794
+      EngineerAdvisor_10: -5107779509901875778
+      EngineerAdvisor_11: 7167898062799817185
+      EngineerAdvisor_12: 7443800124939203244
+      EngineerAdvisor_13: 8679510069040279889
+      EngineerAdvisor_14: -1634809295831851856
+      EngineerAdvisor_15: 4474427968250060242
+      EngineerAdvisor_16: -7019419904281798959
+      EngineerAdvisor_17: 3614442797690512616
+      EngineerAdvisor_18: 9073168594155583300
+      EngineerAdvisor_19: 8349826704468646935
+      EngineerAdvisor_2: -1807159402408349497
+      EngineerAdvisor_20: 6256073421813412029
+      EngineerAdvisor_21: -5242935345707809296
+      EngineerAdvisor_22: 5344253217686913111
+      EngineerAdvisor_23: 3512880064699916945
+      EngineerAdvisor_24: -405390603903875725
+      EngineerAdvisor_25: -3732806932010675377
+      EngineerAdvisor_26: -6376891596259657097
+      EngineerAdvisor_27: -2244713743602276521
+      EngineerAdvisor_28: -709274283702608257
+      EngineerAdvisor_29: -5894704709368266751
+      EngineerAdvisor_3: -3340568083569131702
+      EngineerAdvisor_30: 3377665523522249146
+      EngineerAdvisor_31: -4572720116711626976
+      EngineerAdvisor_32: -1733291951869180136
+      EngineerAdvisor_33: -6135324655823553766
+      EngineerAdvisor_34: 7749212033300440955
+      EngineerAdvisor_35: 93386316397361956
+      EngineerAdvisor_36: -4828320466689776519
+      EngineerAdvisor_37: -2251639297833513714
+      EngineerAdvisor_38: 1157345659229298918
+      EngineerAdvisor_39: 1534039600865724259
+      EngineerAdvisor_4: -8398179003157543734
+      EngineerAdvisor_40: 2948408803273772098
+      EngineerAdvisor_41: 489625582967652337
+      EngineerAdvisor_42: -7266915104927783814
+      EngineerAdvisor_43: 8411134715424762365
+      EngineerAdvisor_44: -253206639881684741
+      EngineerAdvisor_45: -4141392524982037365
+      EngineerAdvisor_46: 5343990995149337087
+      EngineerAdvisor_47: 8143452405806242252
+      EngineerAdvisor_48: -702591913115259791
+      EngineerAdvisor_49: 2582825743403315380
+      EngineerAdvisor_5: -1895291830310825309
+      EngineerAdvisor_50: 5512875694575880824
+      EngineerAdvisor_51: 4268921303244952453
+      EngineerAdvisor_52: -4169465161805987505
+      EngineerAdvisor_53: 1942895336946878631
+      EngineerAdvisor_54: 9080778023328869169
+      EngineerAdvisor_55: 4927637802035903792
+      EngineerAdvisor_56: 4943154279171418832
+      EngineerAdvisor_57: -2165341586553026894
+      EngineerAdvisor_58: 4107849296608881039
+      EngineerAdvisor_59: 1483813024063020853
+      EngineerAdvisor_6: 7504346553957323639
+      EngineerAdvisor_60: 6308935584760693258
+      EngineerAdvisor_61: -8303812535774200625
+      EngineerAdvisor_62: 3491221556717453873
+      EngineerAdvisor_63: -8849049352954674594
+      EngineerAdvisor_64: 3165045197928593753
+      EngineerAdvisor_65: 265698778335283889
+      EngineerAdvisor_66: 5514141891105469601
+      EngineerAdvisor_67: 7296084906512312094
+      EngineerAdvisor_68: -5119269463283306094
+      EngineerAdvisor_69: 8563531388166253798
+      EngineerAdvisor_7: 1024435991828752881
+      EngineerAdvisor_70: -2514973216859654392
+      EngineerAdvisor_71: 1098143685478004006
+      EngineerAdvisor_72: 1580550465294674107
+      EngineerAdvisor_73: 7584429103081961918
+      EngineerAdvisor_74: 658386721183390011
+      EngineerAdvisor_8: -1457394762094174752
+      EngineerAdvisor_9: -6236156623433833469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

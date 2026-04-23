@@ -10,37 +10,13 @@ public class DiscardPileDisplay : MonoBehaviour
 
     public DeckManager deckManager;
 
-    // BASE SPRITES
+    // BASE SPRITES ONLY
     public Sprite thiefSprite;
     public Sprite wizardSprite;
     public Sprite engineerSprite;
     public Sprite beastMasterSprite;
     public Sprite laborerSprite;
     public Sprite scribeSprite;
-
-    // CREW LEADER (Tier 1)
-    public Sprite thiefCrewLeaderSprite;
-    public Sprite wizardCrewLeaderSprite;
-    public Sprite engineerCrewLeaderSprite;
-    public Sprite beastMasterCrewLeaderSprite;
-    public Sprite laborerCrewLeaderSprite;
-    public Sprite scribeCrewLeaderSprite;
-
-    // EXPERT (Tier 2)
-    public Sprite thiefExpertSprite;
-    public Sprite wizardExpertSprite;
-    public Sprite engineerExpertSprite;
-    public Sprite beastMasterExpertSprite;
-    public Sprite laborerExpertSprite;
-    public Sprite scribeExpertSprite;
-
-    // MASTER (Tier 3)
-    public Sprite thiefMasterSprite;
-    public Sprite wizardMasterSprite;
-    public Sprite engineerMasterSprite;
-    public Sprite beastMasterMasterSprite;
-    public Sprite laborerMasterSprite;
-    public Sprite scribeMasterSprite;
 
     private SpriteRenderer topDiscardRenderer;
 
@@ -55,14 +31,10 @@ public class DiscardPileDisplay : MonoBehaviour
         Transform cardArtTransform = topDiscardCard.transform.Find("CardArt");
 
         if (cardArtTransform != null)
-        {
             topDiscardRenderer = cardArtTransform.GetComponent<SpriteRenderer>();
-        }
 
         if (topDiscardRenderer == null)
-        {
             Debug.LogError("DiscardPileDisplay: TopDiscardCard/CardArt is missing a SpriteRenderer.");
-        }
 
         UpdateTopDiscardCard();
     }
@@ -113,73 +85,100 @@ public class DiscardPileDisplay : MonoBehaviour
             return;
         }
 
-        Debug.Log("DiscardPileDisplay: Top discard card = " + topCard.pranksterType + " | tier = " + topCard.tier);
+        Debug.Log("DiscardPileDisplay: Top discard card = " + topCard.pranksterType +
+                  " | tier = " + topCard.tier +
+                  " | category = " + topCard.category);
 
-        topDiscardRenderer.sprite = GetSpriteForPrankster(topCard.pranksterType, topCard.tier);
+        topDiscardRenderer.sprite = GetSpriteForEntry(topCard);
 
-        Debug.Log("DiscardPileDisplay: Assigned discard sprite = " + topDiscardRenderer.sprite);
+        Debug.Log("DiscardPileDisplay: Assigned discard sprite = " +
+                  (topDiscardRenderer.sprite != null ? topDiscardRenderer.sprite.name : "NULL"));
     }
 
-    private Sprite GetSpriteForPrankster(PranksterType type, int tier)
+    private Sprite GetSpriteForEntry(PranksterDeckEntry entry)
+    {
+        if (entry == null)
+            return null;
+
+        if (entry.tier <= 0)
+            return GetBaseSprite(entry.pranksterType);
+
+        if (entry.category == PranksterUnlockCategory.FavorOffer)
+            return GetFavorOfferSprite(entry.pranksterType, entry.tier);
+
+        return GetPrankCompletionSprite(entry.pranksterType, entry.tier);
+    }
+
+    private Sprite GetBaseSprite(PranksterType type)
     {
         switch (type)
         {
-            case PranksterType.Thief:
-                switch (tier)
-                {
-                    case 1: return thiefCrewLeaderSprite != null ? thiefCrewLeaderSprite : thiefSprite;
-                    case 2: return thiefExpertSprite != null ? thiefExpertSprite : thiefSprite;
-                    case 3: return thiefMasterSprite != null ? thiefMasterSprite : thiefSprite;
-                    default: return thiefSprite;
-                }
+            case PranksterType.Thief: return thiefSprite;
+            case PranksterType.Wizard: return wizardSprite;
+            case PranksterType.Engineer: return engineerSprite;
+            case PranksterType.BeastMaster: return beastMasterSprite;
+            case PranksterType.Laborer: return laborerSprite;
+            case PranksterType.Scribe: return scribeSprite;
+            default: return null;
+        }
+    }
 
-            case PranksterType.Wizard:
-                switch (tier)
-                {
-                    case 1: return wizardCrewLeaderSprite != null ? wizardCrewLeaderSprite : wizardSprite;
-                    case 2: return wizardExpertSprite != null ? wizardExpertSprite : wizardSprite;
-                    case 3: return wizardMasterSprite != null ? wizardMasterSprite : wizardSprite;
-                    default: return wizardSprite;
-                }
+    private Sprite GetPrankCompletionSprite(PranksterType type, int tier)
+    {
+        string pranksterName = GetResourcePranksterName(type);
+        string suffix = "";
 
-            case PranksterType.Engineer:
-                switch (tier)
-                {
-                    case 1: return engineerCrewLeaderSprite != null ? engineerCrewLeaderSprite : engineerSprite;
-                    case 2: return engineerExpertSprite != null ? engineerExpertSprite : engineerSprite;
-                    case 3: return engineerMasterSprite != null ? engineerMasterSprite : engineerSprite;
-                    default: return engineerSprite;
-                }
+        switch (tier)
+        {
+            case 1: suffix = "Crewleader"; break;
+            case 2: suffix = "Expert"; break;
+            case 3: suffix = "Master"; break;
+            default: return GetBaseSprite(type);
+        }
 
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("Missing prank-completion sprite: UnlockCards/" + pranksterName + suffix);
+            return GetBaseSprite(type);
+        }
+
+        return sprite;
+    }
+
+    private Sprite GetFavorOfferSprite(PranksterType type, int tier)
+    {
+        string pranksterName = GetResourcePranksterName(type);
+        string suffix = "";
+
+        switch (tier)
+        {
+            case 1: suffix = "Assistant"; break;
+            case 2: suffix = "Strategist"; break;
+            case 3: suffix = "Advisor"; break;
+            default: return GetBaseSprite(type);
+        }
+
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("Missing favor sprite: UnlockCards/" + pranksterName + suffix);
+            return GetBaseSprite(type);
+        }
+
+        return sprite;
+    }
+
+    private string GetResourcePranksterName(PranksterType type)
+    {
+        switch (type)
+        {
             case PranksterType.BeastMaster:
-                switch (tier)
-                {
-                    case 1: return beastMasterCrewLeaderSprite != null ? beastMasterCrewLeaderSprite : beastMasterSprite;
-                    case 2: return beastMasterExpertSprite != null ? beastMasterExpertSprite : beastMasterSprite;
-                    case 3: return beastMasterMasterSprite != null ? beastMasterMasterSprite : beastMasterSprite;
-                    default: return beastMasterSprite;
-                }
-
-            case PranksterType.Laborer:
-                switch (tier)
-                {
-                    case 1: return laborerCrewLeaderSprite != null ? laborerCrewLeaderSprite : laborerSprite;
-                    case 2: return laborerExpertSprite != null ? laborerExpertSprite : laborerSprite;
-                    case 3: return laborerMasterSprite != null ? laborerMasterSprite : laborerSprite;
-                    default: return laborerSprite;
-                }
-
-            case PranksterType.Scribe:
-                switch (tier)
-                {
-                    case 1: return scribeCrewLeaderSprite != null ? scribeCrewLeaderSprite : scribeSprite;
-                    case 2: return scribeExpertSprite != null ? scribeExpertSprite : scribeSprite;
-                    case 3: return scribeMasterSprite != null ? scribeMasterSprite : scribeSprite;
-                    default: return scribeSprite;
-                }
-
+                return "Beastmaster";
             default:
-                return null;
+                return type.ToString();
         }
     }
 }

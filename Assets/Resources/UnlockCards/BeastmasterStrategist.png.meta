@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: 06ca3cafe673b4bfeaff954498693c66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4594194520171697590
+    second: BeastmasterStrategist_0
+  - first:
+      213: 1802891780272357148
+    second: BeastmasterStrategist_1
+  - first:
+      213: -390997278215963905
+    second: BeastmasterStrategist_2
+  - first:
+      213: 8885663982501123446
+    second: BeastmasterStrategist_3
+  - first:
+      213: 2987790424802352577
+    second: BeastmasterStrategist_4
+  - first:
+      213: -6075763033746985259
+    second: BeastmasterStrategist_5
+  - first:
+      213: 100402179144896661
+    second: BeastmasterStrategist_6
+  - first:
+      213: -6879374344054599629
+    second: BeastmasterStrategist_7
+  - first:
+      213: -6472045671764509699
+    second: BeastmasterStrategist_8
+  - first:
+      213: 2669043738394552252
+    second: BeastmasterStrategist_9
+  - first:
+      213: -8601231017371481486
+    second: BeastmasterStrategist_10
+  - first:
+      213: -145932970994362402
+    second: BeastmasterStrategist_11
+  - first:
+      213: -1762873500226200651
+    second: BeastmasterStrategist_12
+  - first:
+      213: 2540556656596365794
+    second: BeastmasterStrategist_13
+  - first:
+      213: 4526938074070383142
+    second: BeastmasterStrategist_14
+  - first:
+      213: 1038515096719368433
+    second: BeastmasterStrategist_15
+  - first:
+      213: -3116616482738298843
+    second: BeastmasterStrategist_16
+  - first:
+      213: -8971441580909180880
+    second: BeastmasterStrategist_17
+  - first:
+      213: 6083917355869674188
+    second: BeastmasterStrategist_18
+  - first:
+      213: 5010621029948629303
+    second: BeastmasterStrategist_19
+  - first:
+      213: 5236067007437237353
+    second: BeastmasterStrategist_20
+  - first:
+      213: -7402955965727448085
+    second: BeastmasterStrategist_21
+  - first:
+      213: -220835440360133679
+    second: BeastmasterStrategist_22
+  - first:
+      213: -8516209441183859493
+    second: BeastmasterStrategist_23
+  - first:
+      213: 6292103799995196955
+    second: BeastmasterStrategist_24
+  - first:
+      213: 954356550196165812
+    second: BeastmasterStrategist_25
+  - first:
+      213: 3461545637753574404
+    second: BeastmasterStrategist_26
+  - first:
+      213: -1436861106855391434
+    second: BeastmasterStrategist_27
+  - first:
+      213: 8498874460806802849
+    second: BeastmasterStrategist_28
+  - first:
+      213: 4841722263629241507
+    second: BeastmasterStrategist_29
+  - first:
+      213: 6500140821273609804
+    second: BeastmasterStrategist_30
+  - first:
+      213: 7936872383733735949
+    second: BeastmasterStrategist_31
+  - first:
+      213: 2927826235521858836
+    second: BeastmasterStrategist_32
+  - first:
+      213: -4980993773462883189
+    second: BeastmasterStrategist_33
+  - first:
+      213: 8594188997967131013
+    second: BeastmasterStrategist_34
+  - first:
+      213: 7404239361787632498
+    second: BeastmasterStrategist_35
+  - first:
+      213: 5466251609865916514
+    second: BeastmasterStrategist_36
+  - first:
+      213: 2358870950226778285
+    second: BeastmasterStrategist_37
+  - first:
+      213: 2192420217191885960
+    second: BeastmasterStrategist_38
+  - first:
+      213: 7658477589305626249
+    second: BeastmasterStrategist_39
+  - first:
+      213: -1665685785434774306
+    second: BeastmasterStrategist_40
+  - first:
+      213: 7462031723488609746
+    second: BeastmasterStrategist_41
+  - first:
+      213: -1494926268835792108
+    second: BeastmasterStrategist_42
+  - first:
+      213: -3138763590418445961
+    second: BeastmasterStrategist_43
+  - first:
+      213: 7077064401041488776
+    second: BeastmasterStrategist_44
+  - first:
+      213: -2724986977568776633
+    second: BeastmasterStrategist_45
+  - first:
+      213: 7008425098895342349
+    second: BeastmasterStrategist_46
+  - first:
+      213: -230719483423600005
+    second: BeastmasterStrategist_47
+  - first:
+      213: 4668261841494894285
+    second: BeastmasterStrategist_48
+  - first:
+      213: 8722409787163946203
+    second: BeastmasterStrategist_49
+  - first:
+      213: 1357574006098469814
+    second: BeastmasterStrategist_50
+  - first:
+      213: -9026565536267145987
+    second: BeastmasterStrategist_51
+  - first:
+      213: 3775308314533156136
+    second: BeastmasterStrategist_52
+  - first:
+      213: -9112223363007118356
+    second: BeastmasterStrategist_53
+  - first:
+      213: 5840152400567586980
+    second: BeastmasterStrategist_54
+  - first:
+      213: -4799688128034357365
+    second: BeastmasterStrategist_55
+  - first:
+      213: 8807873928839862283
+    second: BeastmasterStrategist_56
+  - first:
+      213: 1528642946397044035
+    second: BeastmasterStrategist_57
+  - first:
+      213: 6469886291120415586
+    second: BeastmasterStrategist_58
+  - first:
+      213: -6581100422931100690
+    second: BeastmasterStrategist_59
+  - first:
+      213: 1013533310414717728
+    second: BeastmasterStrategist_60
+  - first:
+      213: -2071571108640717927
+    second: BeastmasterStrategist_61
+  - first:
+      213: -6823493373136602260
+    second: BeastmasterStrategist_62
+  - first:
+      213: -1645020773032127172
+    second: BeastmasterStrategist_63
+  - first:
+      213: 8746335913669573861
+    second: BeastmasterStrategist_64
+  - first:
+      213: 6010104023164570580
+    second: BeastmasterStrategist_65
+  - first:
+      213: -5710362014957073642
+    second: BeastmasterStrategist_66
+  - first:
+      213: -4908756218439081346
+    second: BeastmasterStrategist_67
+  - first:
+      213: 7253817796968170570
+    second: BeastmasterStrategist_68
+  - first:
+      213: 1697445769378033563
+    second: BeastmasterStrategist_69
+  - first:
+      213: -1506135182297135578
+    second: BeastmasterStrategist_70
+  - first:
+      213: -6696319047017344662
+    second: BeastmasterStrategist_71
+  - first:
+      213: -535023301320668159
+    second: BeastmasterStrategist_72
+  - first:
+      213: 6035856452823282942
+    second: BeastmasterStrategist_73
+  - first:
+      213: -1481645726443492388
+    second: BeastmasterStrategist_74
+  - first:
+      213: 3912088382525600979
+    second: BeastmasterStrategist_75
+  - first:
+      213: 6912801481808604024
+    second: BeastmasterStrategist_76
+  - first:
+      213: 2923420751743439867
+    second: BeastmasterStrategist_77
+  - first:
+      213: 4047219910328122021
+    second: BeastmasterStrategist_78
+  - first:
+      213: 6649426149932667389
+    second: BeastmasterStrategist_79
+  - first:
+      213: 3108700461381992449
+    second: BeastmasterStrategist_80
+  - first:
+      213: -4890539880311042166
+    second: BeastmasterStrategist_81
+  - first:
+      213: -1172019328213076233
+    second: BeastmasterStrategist_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterStrategist_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b551e3339bd1cf30800000000000000
+      internalID: 4594194520171697590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ffa93a588250910800000000000000
+      internalID: 1802891780272357148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1097
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffafacb0c06e29af0800000000000000
+      internalID: -390997278215963905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1088
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67556765058305b70800000000000000
+      internalID: 8885663982501123446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd58a5bf83c67920800000000000000
+      internalID: 2987790424802352577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deaf0a26bd8eaba0800000000000000
+      internalID: -6075763033746985259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 838
+        width: 266
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5905b9eff33b46100800000000000000
+      internalID: 100402179144896661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33090b98b7d8780a0800000000000000
+      internalID: -6879374344054599629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb3f5c70ccae26a0800000000000000
+      internalID: -6472045671764509699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1073
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7ecfc83295a0520800000000000000
+      internalID: 2669043738394552252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a408206f942a880800000000000000
+      internalID: -8601231017371481486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1055
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed71dde6cba89fdf0800000000000000
+      internalID: -145932970994362402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1057
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb511344e30987e0800000000000000
+      internalID: -1762873500226200651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e13e2891ded14320800000000000000
+      internalID: 2540556656596365794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62af721913ae2de30800000000000000
+      internalID: 4526938074070383142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1041
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0a6d96afb896e00800000000000000
+      internalID: 1038515096719368433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1033
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520a14d42dd8fb4d0800000000000000
+      internalID: -3116616482738298843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1034
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0384db63a690f7380800000000000000
+      internalID: -8971441580909180880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca1277e99a6e6450800000000000000
+      internalID: 6083917355869674188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731a032874d498540800000000000000
+      internalID: 5010621029948629303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1018
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c607e833f3aa840800000000000000
+      internalID: 5236067007437237353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3e4fe85ca634990800000000000000
+      internalID: -7402955965727448085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6487465f6fecf0800000000000000
+      internalID: -220835440360133679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_23
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc786152a850d980800000000000000
+      internalID: -8516209441183859493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 978
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b166990b11b025750800000000000000
+      internalID: 6292103799995196955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc728bd93e8e3d00800000000000000
+      internalID: 954356550196165812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 985
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404da10ea61e90030800000000000000
+      internalID: 3461545637753574404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f4f46af6e3f0ce0800000000000000
+      internalID: -1436861106855391434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_28
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 972
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad670b0b4112f570800000000000000
+      internalID: 8498874460806802849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 633
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac98b80fb0413340800000000000000
+      internalID: 4841722263629241507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46870243a3253a50800000000000000
+      internalID: 6500140821273609804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 948
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02ae04b16f652e60800000000000000
+      internalID: 7936872383733735949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d795ce27ab1a820800000000000000
+      internalID: 2927826235521858836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84ff40bd84ffdab0800000000000000
+      internalID: -4980993773462883189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581b6641c51b44770800000000000000
+      internalID: 8594188997967131013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b115f587421c660800000000000000
+      internalID: 7404239361787632498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 878
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26017f2b0e60cdb40800000000000000
+      internalID: 5466251609865916514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da85143a1a46cb020800000000000000
+      internalID: 2358870950226778285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c6b14529a0d6e10800000000000000
+      internalID: 2192420217191885960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 847
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e0ad68ac0684a60800000000000000
+      internalID: 7658477589305626249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed42eb37a9b42e8e0800000000000000
+      internalID: -1665685785434774306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50c3521567e8760800000000000000
+      internalID: 7462031723488609746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 827
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b74ac9a74f04be0800000000000000
+      internalID: -1494926268835792108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779cd27f42fd074d0800000000000000
+      internalID: -3138763590418445961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bf3aca398c63260800000000000000
+      internalID: 7077064401041488776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e927018c6ee2ad0800000000000000
+      internalID: -2724986977568776633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bb696ce7de24160800000000000000
+      internalID: 7008425098895342349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7256cb2ad15cccf0800000000000000
+      internalID: -230719483423600005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc660dc496ff8c040800000000000000
+      internalID: 4668261841494894285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc2c45fc793c0970800000000000000
+      internalID: 8722409787163946203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3adc5ad5217d210800000000000000
+      internalID: 1357574006098469814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc630538723bb280800000000000000
+      internalID: -9026565536267145987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_52
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 206
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d35dd8e6946430800000000000000
+      internalID: 3775308314533156136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce302f54121ea8180800000000000000
+      internalID: -9112223363007118356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_54
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0d9f57aa36c0150800000000000000
+      internalID: 5840152400567586980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_55
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 259
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f3adfc315146db0800000000000000
+      internalID: -4799688128034357365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_56
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 206
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b089ce21caadb3a70800000000000000
+      internalID: 8807873928839862283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_57
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 208
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34df66029a4d63510800000000000000
+      internalID: 1528642946397044035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_58
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 207
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263e6678d47a9c950800000000000000
+      internalID: 6469886291120415586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_59
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 206
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebc404980c3ba4a0800000000000000
+      internalID: -6581100422931100690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_60
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 182
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0238b470d2bc01e00800000000000000
+      internalID: 1013533310414717728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_61
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 206
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99302866d0d4043e0800000000000000
+      internalID: -2071571108640717927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_62
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bf5f6fde41e41a0800000000000000
+      internalID: -6823493373136602260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 107
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3518479256bb29e0800000000000000
+      internalID: -1645020773032127172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_64
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 110
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec34846c2a316970800000000000000
+      internalID: 8746335913669573861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 121
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbced324cd286350800000000000000
+      internalID: 6010104023164570580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_66
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 122
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b899f8008b0c0b0800000000000000
+      internalID: -5710362014957073642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_67
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72e2fe1a3890ebb0800000000000000
+      internalID: -4908756218439081346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_68
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44c1bd9adcbaa460800000000000000
+      internalID: 7253817796968170570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_69
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f644d0fe98e8710800000000000000
+      internalID: 1697445769378033563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_70
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 122
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62606731802291be0800000000000000
+      internalID: -1506135182297135578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_71
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 121
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6159db2e45e113a0800000000000000
+      internalID: -6696319047017344662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_72
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 122
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c893264273398f0800000000000000
+      internalID: -535023301320668159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_73
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 121
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4f7c9e67ba3c350800000000000000
+      internalID: 6035856452823282942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_74
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 121
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb2c58df03207be0800000000000000
+      internalID: -1481645726443492388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_75
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 39
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4fe5228a78a4630800000000000000
+      internalID: 3912088382525600979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_76
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87beef572543fef50800000000000000
+      internalID: 6912801481808604024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_77
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf35cac4fa3129820800000000000000
+      internalID: 2923420751743439867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_78
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 39
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aafefab01d9a2830800000000000000
+      internalID: 4047219910328122021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_79
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df11eea6ad1874c50800000000000000
+      internalID: 6649426149932667389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_80
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10044c95992542b20800000000000000
+      internalID: 3108700461381992449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_81
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 38
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fcd2ad3ef412cb0800000000000000
+      internalID: -4890539880311042166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterStrategist_82
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 39
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6b7ff61a62cbfe0800000000000000
+      internalID: -1172019328213076233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterStrategist_0: 4594194520171697590
+      BeastmasterStrategist_1: 1802891780272357148
+      BeastmasterStrategist_10: -8601231017371481486
+      BeastmasterStrategist_11: -145932970994362402
+      BeastmasterStrategist_12: -1762873500226200651
+      BeastmasterStrategist_13: 2540556656596365794
+      BeastmasterStrategist_14: 4526938074070383142
+      BeastmasterStrategist_15: 1038515096719368433
+      BeastmasterStrategist_16: -3116616482738298843
+      BeastmasterStrategist_17: -8971441580909180880
+      BeastmasterStrategist_18: 6083917355869674188
+      BeastmasterStrategist_19: 5010621029948629303
+      BeastmasterStrategist_2: -390997278215963905
+      BeastmasterStrategist_20: 5236067007437237353
+      BeastmasterStrategist_21: -7402955965727448085
+      BeastmasterStrategist_22: -220835440360133679
+      BeastmasterStrategist_23: -8516209441183859493
+      BeastmasterStrategist_24: 6292103799995196955
+      BeastmasterStrategist_25: 954356550196165812
+      BeastmasterStrategist_26: 3461545637753574404
+      BeastmasterStrategist_27: -1436861106855391434
+      BeastmasterStrategist_28: 8498874460806802849
+      BeastmasterStrategist_29: 4841722263629241507
+      BeastmasterStrategist_3: 8885663982501123446
+      BeastmasterStrategist_30: 6500140821273609804
+      BeastmasterStrategist_31: 7936872383733735949
+      BeastmasterStrategist_32: 2927826235521858836
+      BeastmasterStrategist_33: -4980993773462883189
+      BeastmasterStrategist_34: 8594188997967131013
+      BeastmasterStrategist_35: 7404239361787632498
+      BeastmasterStrategist_36: 5466251609865916514
+      BeastmasterStrategist_37: 2358870950226778285
+      BeastmasterStrategist_38: 2192420217191885960
+      BeastmasterStrategist_39: 7658477589305626249
+      BeastmasterStrategist_4: 2987790424802352577
+      BeastmasterStrategist_40: -1665685785434774306
+      BeastmasterStrategist_41: 7462031723488609746
+      BeastmasterStrategist_42: -1494926268835792108
+      BeastmasterStrategist_43: -3138763590418445961
+      BeastmasterStrategist_44: 7077064401041488776
+      BeastmasterStrategist_45: -2724986977568776633
+      BeastmasterStrategist_46: 7008425098895342349
+      BeastmasterStrategist_47: -230719483423600005
+      BeastmasterStrategist_48: 4668261841494894285
+      BeastmasterStrategist_49: 8722409787163946203
+      BeastmasterStrategist_5: -6075763033746985259
+      BeastmasterStrategist_50: 1357574006098469814
+      BeastmasterStrategist_51: -9026565536267145987
+      BeastmasterStrategist_52: 3775308314533156136
+      BeastmasterStrategist_53: -9112223363007118356
+      BeastmasterStrategist_54: 5840152400567586980
+      BeastmasterStrategist_55: -4799688128034357365
+      BeastmasterStrategist_56: 8807873928839862283
+      BeastmasterStrategist_57: 1528642946397044035
+      BeastmasterStrategist_58: 6469886291120415586
+      BeastmasterStrategist_59: -6581100422931100690
+      BeastmasterStrategist_6: 100402179144896661
+      BeastmasterStrategist_60: 1013533310414717728
+      BeastmasterStrategist_61: -2071571108640717927
+      BeastmasterStrategist_62: -6823493373136602260
+      BeastmasterStrategist_63: -1645020773032127172
+      BeastmasterStrategist_64: 8746335913669573861
+      BeastmasterStrategist_65: 6010104023164570580
+      BeastmasterStrategist_66: -5710362014957073642
+      BeastmasterStrategist_67: -4908756218439081346
+      BeastmasterStrategist_68: 7253817796968170570
+      BeastmasterStrategist_69: 1697445769378033563
+      BeastmasterStrategist_7: -6879374344054599629
+      BeastmasterStrategist_70: -1506135182297135578
+      BeastmasterStrategist_71: -6696319047017344662
+      BeastmasterStrategist_72: -535023301320668159
+      BeastmasterStrategist_73: 6035856452823282942
+      BeastmasterStrategist_74: -1481645726443492388
+      BeastmasterStrategist_75: 3912088382525600979
+      BeastmasterStrategist_76: 6912801481808604024
+      BeastmasterStrategist_77: 2923420751743439867
+      BeastmasterStrategist_78: 4047219910328122021
+      BeastmasterStrategist_79: 6649426149932667389
+      BeastmasterStrategist_8: -6472045671764509699
+      BeastmasterStrategist_80: 3108700461381992449
+      BeastmasterStrategist_81: -4890539880311042166
+      BeastmasterStrategist_82: -1172019328213076233
+      BeastmasterStrategist_9: 2669043738394552252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

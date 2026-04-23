@@ -163,4 +163,30 @@ public class PranksterSpriteDatabase : MonoBehaviour
             default: return "";
         }
     }
+
+    public static string GetFavorTierTitle(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return "Assistant";
+            case 2: return "Strategist";
+            case 3: return "Advisor";
+            default: return "Base";
+        }
+    }
+
+    public static string GetFavorTierFlavorText(int tier)
+    {
+        switch (tier)
+        {
+            case 1: return "+1 Favor point when offered as favor";
+            case 2: return "+3 Favor points when offered as favor";
+            case 3: return "+5 Favor points when offered as favor";
+            default: return "";
+        }
+    }
+
+
+
+
 }

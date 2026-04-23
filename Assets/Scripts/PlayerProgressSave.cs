@@ -48,6 +48,7 @@ public class PranksterUnlockEntry
 {
     public string pranksterType;
     public int tier;
+    public PranksterUnlockCategory category; // ← ADD THIS LINE
     public bool earned;
     public int unlockOrder;
 }

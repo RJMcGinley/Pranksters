@@ -652,7 +652,7 @@ public class BotManager : MonoBehaviour
 
         for (int favorIndex = 0; favorIndex < opponent.favorArea.Count; favorIndex++)
         {
-            PranksterType gainedCard = opponent.favorArea[favorIndex];
+            PranksterType gainedCard = opponent.favorArea[favorIndex].pranksterType;
             int gainedFavorValue = deckManager.BotCalculateFavorPoints(gainedCard);
 
             for (int handIndex = 0; handIndex < currentPlayer.hand.Count; handIndex++)
@@ -739,7 +739,7 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
         return false;
 
     PranksterType givenCard = GetHandTypeAt(currentPlayer, handIndexToGive);
-    PranksterType gainedCard = players[opponentIndex].favorArea[opponentFavorIndex];
+    PranksterType gainedCard = players[opponentIndex].favorArea[opponentFavorIndex].pranksterType;
 
     Debug.Log(
         "BOT: Swapping " + givenCard +
@@ -980,10 +980,10 @@ bool CanReachTwoOfFourFromVisibleSources()
             if (p == turnManager.currentPlayerIndex)
                 continue;
 
-            foreach (PranksterType favorCard in players[p].favorArea)
+            foreach (PranksterDeckEntry favorCard in players[p].favorArea)
             {
                 List<PranksterType> simulatedHand = new List<PranksterType>(currentHandTypes);
-                simulatedHand.Add(favorCard);
+                simulatedHand.Add(favorCard.pranksterType);
 
                 int newProgress = CountProgressTowardPrank(simulatedHand, pranks[i]);
 
