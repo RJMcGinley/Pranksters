@@ -33,12 +33,12 @@ public class HandDisplay : MonoBehaviour
         bool choosingFavor = deckManager != null && deckManager.IsChoosingFavor();
         bool choosingSwapHand = deckManager != null && deckManager.IsInSwapHandSelection();
 
-        float spacing = choosingFavor ? 2.4f : 1.9f;
+        float spacing = choosingFavor ? 2.5f : 2.1f;
         float yOffset = choosingFavor ? 0.2f : 0f;
 
         if (choosingSwapHand)
         {
-            spacing = 1.7f;
+            spacing = 1.9f;
             yOffset = 0f;
         }
 

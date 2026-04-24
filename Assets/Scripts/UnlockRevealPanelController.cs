@@ -222,7 +222,7 @@ public class UnlockRevealPanelController : MonoBehaviour
             instanceRect.anchoredPosition = Vector2.zero;
             instanceRect.localScale = Vector3.one;
             instanceRect.localRotation = Quaternion.identity;
-            instanceRect.sizeDelta = new Vector2(100f, 140f);
+            instanceRect.sizeDelta = new Vector2(66f, 69f);
         }
 
         RevealCardUI revealCardUI = currentRevealCardInstance.GetComponent<RevealCardUI>();
