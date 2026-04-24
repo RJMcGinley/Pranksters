@@ -10522,12 +10522,12 @@ MonoBehaviour:
   pranksterCardPrefab: {fileID: 1782839539705255315, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
   currentPlayerHandArea: {fileID: 1494165748}
   deckManager: {fileID: 1503786762}
-  beastMasterSprite: {fileID: 21300000, guid: 2745261f9e4964df08589d3bf163df77, type: 3}
-  engineerSprite: {fileID: 21300000, guid: fb81eeea429884911956000ea6afc634, type: 3}
-  laborerSprite: {fileID: 21300000, guid: 950db00b5298844ad98d7e5d3732b00c, type: 3}
-  scribeSprite: {fileID: 21300000, guid: 06c4792aa7ebb4b328f7a45dd6e523c7, type: 3}
-  thiefSprite: {fileID: 21300000, guid: 3cd9f5f32525840feaa4a60ade9e5db2, type: 3}
-  wizardSprite: {fileID: 21300000, guid: c1054e7547ca94cdc8c5a5aeb8c9c108, type: 3}
+  beastMasterSprite: {fileID: 21300000, guid: 004e52ba69f204da7ac98c884964835b, type: 3}
+  engineerSprite: {fileID: 21300000, guid: b0487214d9ebd433cbf18e88d8b81141, type: 3}
+  laborerSprite: {fileID: 21300000, guid: 7252b978c5b37474b8e93e66a2266bc1, type: 3}
+  scribeSprite: {fileID: 21300000, guid: 5ba49ab3f63ae48548ca6c567f779257, type: 3}
+  thiefSprite: {fileID: 21300000, guid: f6430c43931344c10a957c0d5b0b6890, type: 3}
+  wizardSprite: {fileID: 21300000, guid: 232a6fea97de24d77bc57ccce446e258, type: 3}
 --- !u!4 &36702302
 Transform:
   m_ObjectHideFlags: 0
@@ -65594,12 +65594,12 @@ MonoBehaviour:
   layer3: {fileID: 1246208949}
   emptyDiscardPile: {fileID: 1807246680}
   deckManager: {fileID: 1503786762}
-  thiefSprite: {fileID: 21300000, guid: 3cd9f5f32525840feaa4a60ade9e5db2, type: 3}
-  wizardSprite: {fileID: 21300000, guid: c1054e7547ca94cdc8c5a5aeb8c9c108, type: 3}
-  engineerSprite: {fileID: 21300000, guid: fb81eeea429884911956000ea6afc634, type: 3}
-  beastMasterSprite: {fileID: 21300000, guid: 2745261f9e4964df08589d3bf163df77, type: 3}
-  laborerSprite: {fileID: 21300000, guid: 950db00b5298844ad98d7e5d3732b00c, type: 3}
-  scribeSprite: {fileID: 21300000, guid: 06c4792aa7ebb4b328f7a45dd6e523c7, type: 3}
+  thiefSprite: {fileID: 21300000, guid: f6430c43931344c10a957c0d5b0b6890, type: 3}
+  wizardSprite: {fileID: 21300000, guid: 232a6fea97de24d77bc57ccce446e258, type: 3}
+  engineerSprite: {fileID: 21300000, guid: b0487214d9ebd433cbf18e88d8b81141, type: 3}
+  beastMasterSprite: {fileID: 21300000, guid: 004e52ba69f204da7ac98c884964835b, type: 3}
+  laborerSprite: {fileID: 21300000, guid: 7252b978c5b37474b8e93e66a2266bc1, type: 3}
+  scribeSprite: {fileID: 21300000, guid: 5ba49ab3f63ae48548ca6c567f779257, type: 3}
 --- !u!114 &927626835
 MonoBehaviour:
   m_ObjectHideFlags: 0

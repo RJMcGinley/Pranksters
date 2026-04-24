@@ -202,8 +202,8 @@ public static string GetDiscardTierFlavorText(int tier)
     switch (tier)
     {
         case 1: return "+1 Favor point when discarded";
-        case 2: return "+1 Favor point and +1 Renown when discarded";
-        case 3: return "+2 Favor points and +2 Renown when discarded";
+        case 2: return "+1 Favor point and +1 Prank point when discarded";
+        case 3: return "+2 Favor points and +2 Prank points when discarded";
         default: return "";
     }
 }

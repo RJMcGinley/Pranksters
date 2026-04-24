@@ -40,9 +40,13 @@ public class HandCardClick : MonoBehaviour
         if (deckManager.IsChoosingFavor())
         {
             Player player = deckManager.turnManager.GetCurrentPlayer();
-            PranksterType type = player.hand[cardIndex].pranksterType;
 
-            int favorValue = deckManager.CalculateFavorPoints(type);
+            if (cardIndex < 0 || cardIndex >= player.hand.Count)
+                return;
+
+            PranksterDeckEntry card = player.hand[cardIndex];
+
+            int favorValue = deckManager.CalculateTotalFavorForCard(card);
 
             if (deckManager.favorPreviewText != null)
             {

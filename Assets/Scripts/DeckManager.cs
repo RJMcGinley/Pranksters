@@ -375,14 +375,8 @@ public class DeckManager : MonoBehaviour
     player.favorArea.Add(offeredCard);
 
     int baseFavor = CalculateFavorPoints(offeredCard.pranksterType);
-    int bonusFavor = 0;
-
-    if (offeredCard.category == PranksterUnlockCategory.FavorOffer)
-    {
-        bonusFavor = PranksterUnlockRules.GetFavorBonusForTier(offeredCard.tier);
-    }
-
-    int favorGained = baseFavor + bonusFavor;
+    int favorGained = CalculateTotalFavorForCard(offeredCard);
+    int bonusFavor = favorGained - baseFavor;
 
     player.favorPoints += favorGained;
 
@@ -3611,6 +3605,20 @@ List<PranksterType> ConvertHandToTypes(List<PranksterDeckEntry> handEntries)
     }
 
     return result;
+}
+
+public int CalculateTotalFavorForCard(PranksterDeckEntry card)
+{
+    if (card == null)
+        return 0;
+
+    int baseFavor = CalculateFavorPoints(card.pranksterType);
+    int bonusFavor = 0;
+
+    if (card.category == PranksterUnlockCategory.FavorOffer)
+        bonusFavor = PranksterUnlockRules.GetFavorBonusForTier(card.tier);
+
+    return baseFavor + bonusFavor;
 }
 
 }

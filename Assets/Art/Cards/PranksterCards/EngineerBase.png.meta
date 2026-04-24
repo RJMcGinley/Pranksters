@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: b0487214d9ebd433cbf18e88d8b81141
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6447382901206357869
+    second: EngineerBase_0
+  - first:
+      213: 2903338658087248051
+    second: EngineerBase_1
+  - first:
+      213: 2628037663077838263
+    second: EngineerBase_2
+  - first:
+      213: 261238887659171499
+    second: EngineerBase_3
+  - first:
+      213: 8825105890777106678
+    second: EngineerBase_4
+  - first:
+      213: 1338943414749411719
+    second: EngineerBase_5
+  - first:
+      213: -3781182031872729191
+    second: EngineerBase_6
+  - first:
+      213: 269295535362515676
+    second: EngineerBase_7
+  - first:
+      213: -7724246482740704390
+    second: EngineerBase_8
+  - first:
+      213: 8564042383662285248
+    second: EngineerBase_9
+  - first:
+      213: -4508844694962280828
+    second: EngineerBase_10
+  - first:
+      213: 954583936173243638
+    second: EngineerBase_11
+  - first:
+      213: -2342068495567053994
+    second: EngineerBase_12
+  - first:
+      213: -1062741281418288235
+    second: EngineerBase_13
+  - first:
+      213: -6485448895713523522
+    second: EngineerBase_14
+  - first:
+      213: 8755038424012021600
+    second: EngineerBase_15
+  - first:
+      213: -8497357250105679415
+    second: EngineerBase_16
+  - first:
+      213: -2512628807022240168
+    second: EngineerBase_17
+  - first:
+      213: -2759482073271275808
+    second: EngineerBase_18
+  - first:
+      213: -5052686199864705811
+    second: EngineerBase_19
+  - first:
+      213: 847348362165696843
+    second: EngineerBase_20
+  - first:
+      213: 8377003219149252066
+    second: EngineerBase_21
+  - first:
+      213: -2489548726095719496
+    second: EngineerBase_22
+  - first:
+      213: -5447345783537361667
+    second: EngineerBase_23
+  - first:
+      213: 4083207235990270872
+    second: EngineerBase_24
+  - first:
+      213: 5187773416461045213
+    second: EngineerBase_25
+  - first:
+      213: -2322627111748035253
+    second: EngineerBase_26
+  - first:
+      213: 3876816879129780903
+    second: EngineerBase_27
+  - first:
+      213: -9033456181553315141
+    second: EngineerBase_28
+  - first:
+      213: -6669599390495767499
+    second: EngineerBase_29
+  - first:
+      213: -7728444751190503575
+    second: EngineerBase_30
+  - first:
+      213: -2317692993759660688
+    second: EngineerBase_31
+  - first:
+      213: 5895158177630121392
+    second: EngineerBase_32
+  - first:
+      213: -1813648654341299473
+    second: EngineerBase_33
+  - first:
+      213: -2765133344762190504
+    second: EngineerBase_34
+  - first:
+      213: -6076209319236031938
+    second: EngineerBase_35
+  - first:
+      213: 5013867545128438965
+    second: EngineerBase_36
+  - first:
+      213: 654491041320986229
+    second: EngineerBase_37
+  - first:
+      213: 4456299211215123329
+    second: EngineerBase_38
+  - first:
+      213: -808973003077791653
+    second: EngineerBase_39
+  - first:
+      213: 5768318165792230819
+    second: EngineerBase_40
+  - first:
+      213: -2996090395267429891
+    second: EngineerBase_41
+  - first:
+      213: 9195696735036250831
+    second: EngineerBase_42
+  - first:
+      213: 7264912638144417599
+    second: EngineerBase_43
+  - first:
+      213: -5600833404513597703
+    second: EngineerBase_44
+  - first:
+      213: 6367900780428691889
+    second: EngineerBase_45
+  - first:
+      213: 7735163962129741468
+    second: EngineerBase_46
+  - first:
+      213: -982155142408747532
+    second: EngineerBase_47
+  - first:
+      213: 3787353514373419992
+    second: EngineerBase_48
+  - first:
+      213: -1964411782397644294
+    second: EngineerBase_49
+  - first:
+      213: 7053587441260682163
+    second: EngineerBase_50
+  - first:
+      213: 5159322575210297855
+    second: EngineerBase_51
+  - first:
+      213: 4577263347933345836
+    second: EngineerBase_52
+  - first:
+      213: 1977133731135307237
+    second: EngineerBase_53
+  - first:
+      213: 6092614583175348068
+    second: EngineerBase_54
+  - first:
+      213: -4432836402554144799
+    second: EngineerBase_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerBase_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d671555c694b97950800000000000000
+      internalID: 6447382901206357869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b023f1802bba4820800000000000000
+      internalID: 2903338658087248051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 842
+        width: 246
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd2a14a45aa87420800000000000000
+      internalID: 2628037663077838263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1071
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae617c526b10a300800000000000000
+      internalID: 261238887659171499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1040
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80afcdc03197a70800000000000000
+      internalID: 8825105890777106678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1019
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789bc7211f1e49210800000000000000
+      internalID: 1338943414749411719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fd22fb9fa868bc0800000000000000
+      internalID: -3781182031872729191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2a1e4dcdabcb300800000000000000
+      internalID: 269295535362515676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b0eaeafb6fdc490800000000000000
+      internalID: -7724246482740704390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 985
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c184977c2799d670800000000000000
+      internalID: 8564042383662285248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 975
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4866e5983ad5d61c0800000000000000
+      internalID: -4508844694962280828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 966
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc76e7480d5f3d00800000000000000
+      internalID: 954583936173243638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b9712bc1d4f7fd0800000000000000
+      internalID: -2342068495567053994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 957
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5936be86f626041f0800000000000000
+      internalID: -1062741281418288235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 947
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8cb0a379e0ff5a0800000000000000
+      internalID: -6485448895713523522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fd12a7f05208970800000000000000
+      internalID: 8755038424012021600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_16
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 937
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c16cd91a92531a80800000000000000
+      internalID: -8497357250105679415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 918
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e96099969512dd0800000000000000
+      internalID: -2512628807022240168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee6b9abca954b9d0800000000000000
+      internalID: -2759482073271275808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 99
+        width: 659
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decbb87eba041e9b0800000000000000
+      internalID: -5052686199864705811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 909
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4935ef88d262cb00800000000000000
+      internalID: 847348362165696843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 904
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5e1b76b08114470800000000000000
+      internalID: 8377003219149252066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3d902bf98537dd0800000000000000
+      internalID: -2489548726095719496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc98830fd32764b0800000000000000
+      internalID: -5447345783537361667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893318de8577aa830800000000000000
+      internalID: 4083207235990270872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd006faf6caef740800000000000000
+      internalID: 5187773416461045213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d119a92fe54cfd0800000000000000
+      internalID: -2322627111748035253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_27
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 834
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e4cb49683dc530800000000000000
+      internalID: 3876816879129780903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_28
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 825
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb24574d677b2a280800000000000000
+      internalID: -9033456181553315141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534865ff0b2d073a0800000000000000
+      internalID: -6669599390495767499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 815
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fce03227c0fb490800000000000000
+      internalID: -7728444751190503575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0753b887086e5dfd0800000000000000
+      internalID: -2317692993759660688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 806
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bde160f02fcfc150800000000000000
+      internalID: 5895158177630121392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe22f927820a4d6e0800000000000000
+      internalID: -1813648654341299473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 796
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855acdc8fd540a9d0800000000000000
+      internalID: -2765133344762190504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 787
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aa40a31d7fcaba0800000000000000
+      internalID: -6076209319236031938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc8d3ab7f5d49540800000000000000
+      internalID: 5013867545128438965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 778
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576ec9a6228351900800000000000000
+      internalID: 654491041320986229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_38
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 761
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b459a584f7dd30800000000000000
+      internalID: 4456299211215123329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_39
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 768
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50daaef653f5c4f0800000000000000
+      internalID: -808973003077791653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 759
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad8a775fce2d0050800000000000000
+      internalID: 5768318165792230819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_41
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 740
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df90023d8afbb66d0800000000000000
+      internalID: -2996090395267429891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_42
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 750
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca1e0aa57dad9f70800000000000000
+      internalID: 9195696735036250831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 740
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f08d0ad8722d460800000000000000
+      internalID: 7264912638144417599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 710
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f643dd61b7d542b0800000000000000
+      internalID: -5600833404513597703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_45
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 731
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9826e65045f5850800000000000000
+      internalID: 6367900780428691889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 722
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96752214a2d85b60800000000000000
+      internalID: 7735163962129741468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_47
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 714
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f547660a1fae52f0800000000000000
+      internalID: -982155142408747532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 715
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d31e0f74f16f8430800000000000000
+      internalID: 3787353514373419992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_49
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 716
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1b89d44e10db4e0800000000000000
+      internalID: -1964411782397644294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 712
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbdf74086063e160800000000000000
+      internalID: 7053587441260682163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 706
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff930110c88999740800000000000000
+      internalID: 5159322575210297855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_52
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 707
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c287bf873c4b58f30800000000000000
+      internalID: 4577263347933345836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 709
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed33c537a0307b10800000000000000
+      internalID: 1977133731135307237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 712
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ff78feea05d8450800000000000000
+      internalID: 6092614583175348068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerBase_55
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 703
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7f65e27c66b72c0800000000000000
+      internalID: -4432836402554144799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerBase_0: 6447382901206357869
+      EngineerBase_1: 2903338658087248051
+      EngineerBase_10: -4508844694962280828
+      EngineerBase_11: 954583936173243638
+      EngineerBase_12: -2342068495567053994
+      EngineerBase_13: -1062741281418288235
+      EngineerBase_14: -6485448895713523522
+      EngineerBase_15: 8755038424012021600
+      EngineerBase_16: -8497357250105679415
+      EngineerBase_17: -2512628807022240168
+      EngineerBase_18: -2759482073271275808
+      EngineerBase_19: -5052686199864705811
+      EngineerBase_2: 2628037663077838263
+      EngineerBase_20: 847348362165696843
+      EngineerBase_21: 8377003219149252066
+      EngineerBase_22: -2489548726095719496
+      EngineerBase_23: -5447345783537361667
+      EngineerBase_24: 4083207235990270872
+      EngineerBase_25: 5187773416461045213
+      EngineerBase_26: -2322627111748035253
+      EngineerBase_27: 3876816879129780903
+      EngineerBase_28: -9033456181553315141
+      EngineerBase_29: -6669599390495767499
+      EngineerBase_3: 261238887659171499
+      EngineerBase_30: -7728444751190503575
+      EngineerBase_31: -2317692993759660688
+      EngineerBase_32: 5895158177630121392
+      EngineerBase_33: -1813648654341299473
+      EngineerBase_34: -2765133344762190504
+      EngineerBase_35: -6076209319236031938
+      EngineerBase_36: 5013867545128438965
+      EngineerBase_37: 654491041320986229
+      EngineerBase_38: 4456299211215123329
+      EngineerBase_39: -808973003077791653
+      EngineerBase_4: 8825105890777106678
+      EngineerBase_40: 5768318165792230819
+      EngineerBase_41: -2996090395267429891
+      EngineerBase_42: 9195696735036250831
+      EngineerBase_43: 7264912638144417599
+      EngineerBase_44: -5600833404513597703
+      EngineerBase_45: 6367900780428691889
+      EngineerBase_46: 7735163962129741468
+      EngineerBase_47: -982155142408747532
+      EngineerBase_48: 3787353514373419992
+      EngineerBase_49: -1964411782397644294
+      EngineerBase_5: 1338943414749411719
+      EngineerBase_50: 7053587441260682163
+      EngineerBase_51: 5159322575210297855
+      EngineerBase_52: 4577263347933345836
+      EngineerBase_53: 1977133731135307237
+      EngineerBase_54: 6092614583175348068
+      EngineerBase_55: -4432836402554144799
+      EngineerBase_6: -3781182031872729191
+      EngineerBase_7: 269295535362515676
+      EngineerBase_8: -7724246482740704390
+      EngineerBase_9: 8564042383662285248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
