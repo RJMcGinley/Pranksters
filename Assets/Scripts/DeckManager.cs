@@ -2768,6 +2768,22 @@ IEnumerator ResetRoundSequence()
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
 
+    Player firstPlayer = turnManager.players[firstPlayerIndex];
+
+    if (firstPlayer != null && firstPlayer.isBot && nextPlayerPanelController != null)
+    {
+        string firstPlayerName = firstPlayer.playerName;
+
+        if (string.IsNullOrWhiteSpace(firstPlayerName))
+            firstPlayerName = "Player " + (firstPlayerIndex + 1);
+
+        Debug.Log("ROUND RESET: First player is bot. Showing bot panel before dealing hands.");
+
+        nextPlayerPanelController.ShowBotTurnHeader(firstPlayerName);
+
+        yield return null;
+    }
+
     Debug.Log("New dealer: " + turnManager.players[dealerIndex].playerName);
     Debug.Log("First player this round: " + turnManager.players[firstPlayerIndex].playerName);
 

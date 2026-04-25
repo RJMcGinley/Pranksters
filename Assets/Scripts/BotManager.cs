@@ -314,13 +314,14 @@ public class BotManager : MonoBehaviour
     if (bestDiscardIndex < 0 || bestDiscardIndex >= player.hand.Count)
         return false;
 
-    PranksterType discardedCard = GetHandTypeAt(player, bestDiscardIndex);
+    PranksterDeckEntry discardedCard = player.hand[bestDiscardIndex];
+    string discardedCardName = GetBotCardDisplayName(discardedCard);
 
     deckManager.BotDiscardCardFromHand(bestDiscardIndex);
 
     actionMessage =
         "Took " + topCard + " from discard " +
-        "\nDiscarded: " + discardedCard;
+        "\nDiscarded: " + discardedCardName;
 
     return true;
 }
@@ -397,7 +398,8 @@ public class BotManager : MonoBehaviour
     if (discardIndex >= player.hand.Count)
         return false;
 
-    PranksterType discardedCard = GetHandTypeAt(player, discardIndex);
+    PranksterDeckEntry discardedCard = player.hand[discardIndex];
+        string discardedCardName = GetBotCardDisplayName(discardedCard);
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayDrawCardAction();
@@ -408,7 +410,7 @@ public class BotManager : MonoBehaviour
 
     actionMessage =
         "Drew from deck\n" +
-        "Discarded: " + discardedCard;
+        "Discarded: " + discardedCardName;
 
     return true;
 }
@@ -794,10 +796,8 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
         return false;
 
     actionMessage =
-        "Swapped: " + gainedCard.pranksterType +
-        " (tier " + gainedCard.tier + ", " + gainedCard.category + ")" +
-        "\nfor: " + givenCard.pranksterType +
-        " (tier " + givenCard.tier + ", " + givenCard.category + ")";
+        "Swapped for: " + GetBotCardDisplayName(gainedCard) +
+        "\nGave away: " + GetBotCardDisplayName(givenCard);
 
     return true;
 }
@@ -928,8 +928,7 @@ bool TryOfferFavor(out string actionMessage)
 
     actionMessage =
         "Offered as favor:\n" +
-        bestCard.pranksterType +
-        " (tier " + bestCard.tier + ", " + bestCard.category + ")";
+        GetBotCardDisplayName(bestCard);
 
     return true;
 }
@@ -1152,6 +1151,54 @@ bool HasSameTypeBaseAlternative(Player player, int handIndex)
     }
 
     return false;
+}
+
+string GetBotCardDisplayName(PranksterDeckEntry card)
+{
+    if (card == null)
+        return "Unknown";
+
+    string typeName = card.pranksterType.ToString();
+
+    if (typeName == "BeastMaster")
+        typeName = "Beastmaster";
+
+    if (card.tier <= 0)
+        return typeName;
+
+    string upgradeName = "";
+
+    string categoryName = card.category.ToString();
+
+    if (categoryName == "PrankCompletion")
+    {
+        upgradeName = PranksterSpriteDatabase.GetTierTitle(card.tier);
+    }
+    else if (categoryName == "FavorOffer" ||
+             categoryName == "Assistant" ||
+             categoryName == "Strategist" ||
+             categoryName == "Advisor")
+    {
+        upgradeName = PranksterSpriteDatabase.GetFavorTierTitle(card.tier);
+    }
+    else if (categoryName == "Discard" ||
+             categoryName == "Hustler" ||
+             categoryName == "Opportunist" ||
+             categoryName == "Manipulator" ||
+             categoryName == "Plotter" ||
+             categoryName == "Schemer")
+    {
+        upgradeName = PranksterSpriteDatabase.GetDiscardTierTitle(card.tier);
+    }
+    else
+    {
+        upgradeName = PranksterSpriteDatabase.GetTierTitle(card.tier);
+    }
+
+    if (string.IsNullOrWhiteSpace(upgradeName) || upgradeName == "Base")
+        return typeName;
+
+    return typeName + " " + upgradeName;
 }
 
 }
