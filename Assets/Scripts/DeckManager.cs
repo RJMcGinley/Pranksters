@@ -121,6 +121,11 @@ public class DeckManager : MonoBehaviour
     private Dictionary<PranksterType, int> player1DiscardCountsThisGame = new Dictionary<PranksterType, int>();
 
     public UnlockRevealPanelController unlockRevealPanelController;
+    public EndOfRoundPanelController endOfRoundPanelController;
+
+    private int pendingRoundDealerIndex = -1;
+    private int pendingRoundFirstPlayerIndex = -1;
+    private bool isEndOfRoundPending = false;
 
     public bool IsGameOver()
     {
@@ -565,13 +570,14 @@ public class DeckManager : MonoBehaviour
 
     if (activePranks.Count == 1)
     {
-        if (GetCurrentPlayer().isBot && botManager != null)
-            botManager.NotifyBotActionHandledTurnFlow();
+        isEndOfRoundPending = true;
+        Debug.Log("END OF ROUND FLAG SET TRUE");
 
-        StartCoroutine(ResetRoundSequence());
+        StartCoroutine(FinishCompletePrankSequence());
         return;
     }
 
+    // Continue normal flow if round is not ending
     StartCoroutine(FinishCompletePrankSequence());
 }
 
@@ -2687,6 +2693,16 @@ IEnumerator FinishCompletePrankSequence()
     {
         Debug.Log("BOT complete prank sequence finished");
 
+        if (TryShowEndOfRoundPanelIfPending())
+        {
+            Debug.Log("BOT END OF ROUND PANEL SHOWN. Stopping bot turn flow.");
+
+            if (botManager != null)
+                botManager.NotifyBotActionHandledTurnFlow();
+
+            yield break;
+        }
+
         ShowActivePrankCards();
         RefreshAllHighlights();
 
@@ -2697,6 +2713,8 @@ IEnumerator FinishCompletePrankSequence()
         Debug.Log("HUMAN complete prank sequence waiting for End Turn");
         FinishActionAndWaitForEndTurn();
     }
+
+    Debug.Log("FinishCompletePrankSequence END | isEndOfRoundPending = " + isEndOfRoundPending);
 }
 
 IEnumerator DealStartingHandsOneCardAtATime(float delayBetweenCards = 0.2f)
@@ -2735,15 +2753,23 @@ IEnumerator ResetRoundSequence()
 {
     LogSeparator("ROUND RESET");
 
-    int dealerIndex = DetermineDealerIndex();
-    int firstPlayerIndex = (dealerIndex + 1) % turnManager.players.Count;
+    int dealerIndex = pendingRoundDealerIndex >= 0
+        ? pendingRoundDealerIndex
+        : DetermineDealerIndex();
+
+    int firstPlayerIndex = pendingRoundFirstPlayerIndex >= 0
+        ? pendingRoundFirstPlayerIndex
+        : (dealerIndex + 1) % turnManager.players.Count;
+
+    pendingRoundDealerIndex = -1;
+    pendingRoundFirstPlayerIndex = -1;
 
     turnManager.currentPlayerIndex = firstPlayerIndex;
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
 
-    Debug.Log("New dealer: Player " + (dealerIndex + 1));
-    Debug.Log("First player this round: Player " + (firstPlayerIndex + 1));
+    Debug.Log("New dealer: " + turnManager.players[dealerIndex].playerName);
+    Debug.Log("First player this round: " + turnManager.players[firstPlayerIndex].playerName);
 
     for (int i = 0; i < turnManager.players.Count; i++)
     {
@@ -3619,6 +3645,78 @@ public int CalculateTotalFavorForCard(PranksterDeckEntry card)
         bonusFavor = PranksterUnlockRules.GetFavorBonusForTier(card.tier);
 
     return baseFavor + bonusFavor;
+}
+
+void ShowEndOfRoundPanelBeforeReset()
+{
+    PrepareNextRoundInfo();
+
+    pendingChoice = PendingChoiceType.None;
+    highlightSuppressionCount = 1;
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.HideBotMessage();
+
+    string dealerName = turnManager.players[pendingRoundDealerIndex].playerName;
+    string firstPlayerName = turnManager.players[pendingRoundFirstPlayerIndex].playerName;
+
+    if (string.IsNullOrWhiteSpace(dealerName))
+        dealerName = "Player " + (pendingRoundDealerIndex + 1);
+
+    if (string.IsNullOrWhiteSpace(firstPlayerName))
+        firstPlayerName = "Player " + (pendingRoundFirstPlayerIndex + 1);
+
+    if (endOfRoundPanelController != null)
+    {
+        endOfRoundPanelController.Show(
+            dealerName,
+            firstPlayerName,
+            () =>
+            {
+                StartCoroutine(ResetRoundSequence());
+            }
+        );
+    }
+    else
+    {
+        Debug.LogWarning("EndOfRoundPanelController is not assigned. Resetting round immediately.");
+        StartCoroutine(ResetRoundSequence());
+    }
+}
+
+void PrepareNextRoundInfo()
+{
+    pendingRoundDealerIndex = DetermineDealerIndex();
+    pendingRoundFirstPlayerIndex = (pendingRoundDealerIndex + 1) % turnManager.players.Count;
+}
+
+public bool TryShowEndOfRoundPanelIfPending()
+{
+    Debug.Log("TryShowEndOfRoundPanelIfPending CALLED | isEndOfRoundPending = " + isEndOfRoundPending);
+
+    if (!isEndOfRoundPending)
+    {
+        Debug.Log("END OF ROUND FLAG FALSE → skipping panel");
+        return false;
+    }
+
+    Debug.Log("END OF ROUND FLAG TRUE → showing panel");
+
+    isEndOfRoundPending = false;
+    ShowEndOfRoundPanelBeforeReset();
+    return true;
 }
 
 }
