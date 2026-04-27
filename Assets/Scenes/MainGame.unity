@@ -23870,7 +23870,8 @@ MonoBehaviour:
   previewPanel: {fileID: 92135885}
   favorSlotIndex: 2
   hoverDelay: 1
-  previewOffset: {x: 0, y: 2, z: 0}
+  fixedPreviewPosition: {x: 0, y: 0, z: -1}
+  fixedPreviewScale: {x: 5, y: 5, z: 0}
 --- !u!61 &281036902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71382,7 +71383,8 @@ MonoBehaviour:
   previewPanel: {fileID: 92135885}
   favorSlotIndex: 0
   hoverDelay: 1
-  previewOffset: {x: 0, y: 2, z: 0}
+  fixedPreviewPosition: {x: -80, y: 4, z: -1}
+  fixedPreviewScale: {x: 6, y: 4, z: 0}
 --- !u!61 &952660179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -113040,25 +113042,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: PranksterCardPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1782839539705255315, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalScale.x
-      value: 30
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalScale.y
-      value: 21
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 195.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3384205474764880606, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -113104,6 +113110,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5984215282537547636, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
+      propertyPath: deckManager
+      value: 
+      objectReference: {fileID: 1503786762}
     - target: {fileID: 6896918995610139415, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
       propertyPath: m_SortingOrder
       value: 32
@@ -113115,10 +113125,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6034754978244929657, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dedc51e771ab441b798d5a2f0a943d92, type: 3}
 --- !u!1 &1563209889
 GameObject:
@@ -119438,7 +119445,8 @@ MonoBehaviour:
   previewPanel: {fileID: 92135885}
   favorSlotIndex: 1
   hoverDelay: 1
-  previewOffset: {x: 0, y: 2, z: 0}
+  fixedPreviewPosition: {x: 0, y: 0, z: -1}
+  fixedPreviewScale: {x: 5, y: 5, z: 0}
 --- !u!61 &1659143165
 BoxCollider2D:
   m_ObjectHideFlags: 0
