@@ -21,6 +21,11 @@ public class OpponentPreviewPanel : MonoBehaviour
     public Image favorSlot2Image;
     public Image favorSlot3Image;
 
+    [Header("Favor Preview")]
+    public FavorAreaPreview preview;   // drag the same working preview object here
+
+    private int currentHoverSlot = -1;
+
     [Header("Prankster Icon Sprites")]
     public Sprite thiefIcon;
     public Sprite engineerIcon;
@@ -38,8 +43,11 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     bool isLockedForSwap = false;
 
+    private int currentPreviewPlayerIndex = -1;
+
     [Header("Popup Arm")]
     public PopupArm popupArm;
+    
 
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
 {
@@ -90,6 +98,8 @@ public class OpponentPreviewPanel : MonoBehaviour
     if (popupArm != null)
     {
         int opponentIndex = sourcePanel.representedPlayerIndex;
+
+        currentPreviewPlayerIndex = sourcePanel.representedPlayerIndex;
 
         Debug.Log("representedPlayerIndex = " + opponentIndex);
 
@@ -233,6 +243,46 @@ public void HideSwapTargetHighlights()
         favorSlot3Highlight.SetActive(false);
 }
 
+public void StartFavorSlotPreview(int slotIndex)
+{
+    if (preview == null || deckManager == null)
+        return;
 
+    if (currentHoverSlot == slotIndex)
+        return;
+
+    currentHoverSlot = slotIndex;
+
+    int opponentIndex = currentPreviewPlayerIndex;
+
+    if (opponentIndex < 0)
+        return;
+
+    Player opponent = deckManager.turnManager.players[opponentIndex];
+
+    if (opponent == null)
+        return;
+
+    if (slotIndex < 0 || slotIndex >= opponent.favorArea.Count)
+        return;
+
+    PranksterDeckEntry card = opponent.favorArea[slotIndex];
+
+    if (card == null)
+    {
+        preview.Hide();
+        return;
+    }
+
+    preview.Show(card);
+}
+
+public void StopFavorSlotPreview()
+{
+    currentHoverSlot = -1;
+
+    if (preview != null)
+        preview.Hide();
+}
 
 }
