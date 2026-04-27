@@ -1,175 +1,142 @@
 fileFormatVersion: 2
-guid: 6d33e2d9c47384c4ab9a97a9ad74b3df
+guid: 004e52ba69f204da7ac98c884964835b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6447382901206357869
-    second: EngineerBase_0
+      213: -785438392134497159
+    second: BeastmasterBase_0
   - first:
-      213: 2903338658087248051
-    second: EngineerBase_1
+      213: 7002154194113419763
+    second: BeastmasterBase_1
   - first:
-      213: 2628037663077838263
-    second: EngineerBase_2
+      213: -825593783487974923
+    second: BeastmasterBase_2
   - first:
-      213: 261238887659171499
-    second: EngineerBase_3
+      213: -8914254052873145435
+    second: BeastmasterBase_3
   - first:
-      213: 8825105890777106678
-    second: EngineerBase_4
+      213: 7374142733553586262
+    second: BeastmasterBase_4
   - first:
-      213: 1338943414749411719
-    second: EngineerBase_5
+      213: 7140617977327225655
+    second: BeastmasterBase_5
   - first:
-      213: -3781182031872729191
-    second: EngineerBase_6
+      213: -1444899695890583823
+    second: BeastmasterBase_6
   - first:
-      213: 269295535362515676
-    second: EngineerBase_7
+      213: -7565076975398828223
+    second: BeastmasterBase_7
   - first:
-      213: -7724246482740704390
-    second: EngineerBase_8
+      213: 3230836737820480245
+    second: BeastmasterBase_8
   - first:
-      213: 8564042383662285248
-    second: EngineerBase_9
+      213: 6523395135201266050
+    second: BeastmasterBase_9
   - first:
-      213: -4508844694962280828
-    second: EngineerBase_10
+      213: 8287100633306345852
+    second: BeastmasterBase_10
   - first:
-      213: 954583936173243638
-    second: EngineerBase_11
+      213: -3217723195728775794
+    second: BeastmasterBase_11
   - first:
-      213: -2342068495567053994
-    second: EngineerBase_12
+      213: -4860005714037051938
+    second: BeastmasterBase_12
   - first:
-      213: -1062741281418288235
-    second: EngineerBase_13
+      213: -2764562306979940627
+    second: BeastmasterBase_13
   - first:
-      213: -6485448895713523522
-    second: EngineerBase_14
+      213: 8746712581278686391
+    second: BeastmasterBase_14
   - first:
-      213: 8755038424012021600
-    second: EngineerBase_15
+      213: -6194297619364968256
+    second: BeastmasterBase_15
   - first:
-      213: -8497357250105679415
-    second: EngineerBase_16
+      213: 8833804196495554439
+    second: BeastmasterBase_16
   - first:
-      213: -2512628807022240168
-    second: EngineerBase_17
+      213: -2766010188016659760
+    second: BeastmasterBase_17
   - first:
-      213: -2759482073271275808
-    second: EngineerBase_18
+      213: -8247500346982277975
+    second: BeastmasterBase_18
   - first:
-      213: -5052686199864705811
-    second: EngineerBase_19
+      213: 5883151406686949074
+    second: BeastmasterBase_19
   - first:
-      213: 847348362165696843
-    second: EngineerBase_20
+      213: 241896569580099763
+    second: BeastmasterBase_20
   - first:
-      213: 8377003219149252066
-    second: EngineerBase_21
+      213: 1725200307066131724
+    second: BeastmasterBase_21
   - first:
-      213: -2489548726095719496
-    second: EngineerBase_22
+      213: -3904801120413736259
+    second: BeastmasterBase_22
   - first:
-      213: -5447345783537361667
-    second: EngineerBase_23
+      213: -7127786473604708369
+    second: BeastmasterBase_23
   - first:
-      213: 4083207235990270872
-    second: EngineerBase_24
+      213: 2628572394397812269
+    second: BeastmasterBase_24
   - first:
-      213: 5187773416461045213
-    second: EngineerBase_25
+      213: 4295644543370182138
+    second: BeastmasterBase_25
   - first:
-      213: -2322627111748035253
-    second: EngineerBase_26
+      213: 7951688151661857570
+    second: BeastmasterBase_26
   - first:
-      213: 3876816879129780903
-    second: EngineerBase_27
+      213: 758813468453301903
+    second: BeastmasterBase_27
   - first:
-      213: -9033456181553315141
-    second: EngineerBase_28
+      213: -4683820838024703040
+    second: BeastmasterBase_28
   - first:
-      213: -6669599390495767499
-    second: EngineerBase_29
+      213: -6198746683583625206
+    second: BeastmasterBase_29
   - first:
-      213: -7728444751190503575
-    second: EngineerBase_30
+      213: -2517227000098862524
+    second: BeastmasterBase_30
   - first:
-      213: -2317692993759660688
-    second: EngineerBase_31
+      213: -1229024977069561837
+    second: BeastmasterBase_31
   - first:
-      213: 5895158177630121392
-    second: EngineerBase_32
+      213: 4730830469763018472
+    second: BeastmasterBase_32
   - first:
-      213: -1813648654341299473
-    second: EngineerBase_33
+      213: 833397733886156333
+    second: BeastmasterBase_33
   - first:
-      213: -2765133344762190504
-    second: EngineerBase_34
+      213: 1429212819399760303
+    second: BeastmasterBase_34
   - first:
-      213: -6076209319236031938
-    second: EngineerBase_35
+      213: -1824897933288349670
+    second: BeastmasterBase_35
   - first:
-      213: 5013867545128438965
-    second: EngineerBase_36
+      213: 4874522030546973459
+    second: BeastmasterBase_36
   - first:
-      213: 654491041320986229
-    second: EngineerBase_37
+      213: -1896483729375210817
+    second: BeastmasterBase_37
   - first:
-      213: 4456299211215123329
-    second: EngineerBase_38
+      213: 435491190108548316
+    second: BeastmasterBase_38
   - first:
-      213: -808973003077791653
-    second: EngineerBase_39
+      213: 188694794070032151
+    second: BeastmasterBase_39
   - first:
-      213: 5768318165792230819
-    second: EngineerBase_40
+      213: -2690078376816489182
+    second: BeastmasterBase_40
   - first:
-      213: -2996090395267429891
-    second: EngineerBase_41
+      213: 7548000099705455594
+    second: BeastmasterBase_41
   - first:
-      213: 9195696735036250831
-    second: EngineerBase_42
+      213: 6687325086952501900
+    second: BeastmasterBase_42
   - first:
-      213: 7264912638144417599
-    second: EngineerBase_43
+      213: 1518100073818219573
+    second: BeastmasterBase_43
   - first:
-      213: -5600833404513597703
-    second: EngineerBase_44
-  - first:
-      213: 6367900780428691889
-    second: EngineerBase_45
-  - first:
-      213: 7735163962129741468
-    second: EngineerBase_46
-  - first:
-      213: -982155142408747532
-    second: EngineerBase_47
-  - first:
-      213: 3787353514373419992
-    second: EngineerBase_48
-  - first:
-      213: -1964411782397644294
-    second: EngineerBase_49
-  - first:
-      213: 7053587441260682163
-    second: EngineerBase_50
-  - first:
-      213: 5159322575210297855
-    second: EngineerBase_51
-  - first:
-      213: 4577263347933345836
-    second: EngineerBase_52
-  - first:
-      213: 1977133731135307237
-    second: EngineerBase_53
-  - first:
-      213: 6092614583175348068
-    second: EngineerBase_54
-  - first:
-      213: -4432836402554144799
-    second: EngineerBase_55
+      213: 5985680867693608776
+    second: BeastmasterBase_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -211,7 +178,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -291,13 +258,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EngineerBase_0
+      name: BeastmasterBase_0
       rect:
         serializedVersion: 2
-        x: 304
-        y: 1112
-        width: 6
-        height: 6
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,64 +273,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d671555c694b97950800000000000000
-      internalID: 6447382901206357869
+      spriteID: 97c8edb91ff8915f0800000000000000
+      internalID: -785438392134497159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_1
+      name: BeastmasterBase_1
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1101
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b023f1802bba4820800000000000000
-      internalID: 2903338658087248051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 842
-        width: 246
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7bd2a14a45aa87420800000000000000
-      internalID: 2628037663077838263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_3
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 1071
+        x: 313
+        y: 1089
         width: 8
-        height: 29
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,392 +295,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bae617c526b10a300800000000000000
-      internalID: 261238887659171499
+      spriteID: 3f954aaf326ac2160800000000000000
+      internalID: 7002154194113419763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_4
+      name: BeastmasterBase_2
       rect:
         serializedVersion: 2
-        x: 307
-        y: 1040
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f80afcdc03197a70800000000000000
-      internalID: 8825105890777106678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_5
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 1019
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 789bc7211f1e49210800000000000000
-      internalID: 1338943414749411719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_6
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1009
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99fd22fb9fa868bc0800000000000000
-      internalID: -3781182031872729191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_7
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 998
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd2a1e4dcdabcb300800000000000000
-      internalID: 269295535362515676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_8
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 968
-        width: 6
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7b0eaeafb6fdc490800000000000000
-      internalID: -7724246482740704390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_9
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 985
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c184977c2799d670800000000000000
-      internalID: 8564042383662285248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_10
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 975
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4866e5983ad5d61c0800000000000000
-      internalID: -4508844694962280828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_11
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 966
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fc76e7480d5f3d00800000000000000
-      internalID: 954583936173243638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_12
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 947
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65b9712bc1d4f7fd0800000000000000
-      internalID: -2342068495567053994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_13
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 957
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5936be86f626041f0800000000000000
-      internalID: -1062741281418288235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_14
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 947
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb8cb0a379e0ff5a0800000000000000
-      internalID: -6485448895713523522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_15
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 925
-        width: 7
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06fd12a7f05208970800000000000000
-      internalID: 8755038424012021600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_16
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 937
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c16cd91a92531a80800000000000000
-      internalID: -8497357250105679415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_17
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 918
-        width: 9
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85e96099969512dd0800000000000000
-      internalID: -2512628807022240168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_18
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 915
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ee6b9abca954b9d0800000000000000
-      internalID: -2759482073271275808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_19
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 99
-        width: 659
-        height: 817
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: decbb87eba041e9b0800000000000000
-      internalID: -5052686199864705811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_20
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 909
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4935ef88d262cb00800000000000000
-      internalID: 847348362165696843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_21
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 904
+        x: 113
+        y: 1068
         width: 16
         height: 13
       alignment: 0
@@ -768,18 +317,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e5e1b76b08114470800000000000000
-      internalID: 8377003219149252066
+      spriteID: 5f1bd6ef3d6ea84f0800000000000000
+      internalID: -825593783487974923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_22
+      name: BeastmasterBase_3
       rect:
         serializedVersion: 2
-        x: 20
-        y: 895
+        x: 301
+        y: 1079
         width: 7
         height: 18
       alignment: 0
@@ -790,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b3d902bf98537dd0800000000000000
-      internalID: -2489548726095719496
+      spriteID: 5a3f8ec2b253a4480800000000000000
+      internalID: -8914254052873145435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_23
+      name: BeastmasterBase_4
       rect:
         serializedVersion: 2
-        x: 23
-        y: 874
-        width: 7
-        height: 19
+        x: 315
+        y: 1079
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,20 +361,152 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfc98830fd32764b0800000000000000
-      internalID: -5447345783537361667
+      spriteID: 6505d7c0fb7365660800000000000000
+      internalID: 7374142733553586262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_24
+      name: BeastmasterBase_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 105
+        width: 771
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b8b5fb732981360800000000000000
+      internalID: 7140617977327225655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe2f5ac16fa2fbe0800000000000000
+      internalID: -1444899695890583823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1069
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147cdd68292730790800000000000000
+      internalID: -7565076975398828223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1009
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2521535ec36dc20800000000000000
+      internalID: 3230836737820480245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 969
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289ce232051c78a50800000000000000
+      internalID: 6523395135201266050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 989
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71b32a7e12b10370800000000000000
+      internalID: 8287100633306345852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_11
       rect:
         serializedVersion: 2
         x: 25
-        y: 864
-        width: 6
-        height: 8
+        y: 979
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,62 +515,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893318de8577aa830800000000000000
-      internalID: 4083207235990270872
+      spriteID: e853d0d3dc95853d0800000000000000
+      internalID: -3217723195728775794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_25
+      name: BeastmasterBase_12
       rect:
         serializedVersion: 2
         x: 27
-        y: 853
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddd006faf6caef740800000000000000
-      internalID: 5187773416461045213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_26
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 833
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4d119a92fe54cfd0800000000000000
-      internalID: -2322627111748035253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_27
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 834
+        y: 969
         width: 7
         height: 9
       alignment: 0
@@ -900,370 +537,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a2e4cb49683dc530800000000000000
-      internalID: 3876816879129780903
+      spriteID: edde3707d8acd8cb0800000000000000
+      internalID: -4860005714037051938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_28
+      name: BeastmasterBase_13
       rect:
         serializedVersion: 2
-        x: 61
-        y: 825
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb24574d677b2a280800000000000000
-      internalID: -9033456181553315141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_29
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 823
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 534865ff0b2d073a0800000000000000
-      internalID: -6669599390495767499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_30
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 815
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96fce03227c0fb490800000000000000
-      internalID: -7728444751190503575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_31
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 802
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0753b887086e5dfd0800000000000000
-      internalID: -2317692993759660688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_32
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 806
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bde160f02fcfc150800000000000000
-      internalID: 5895158177630121392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_33
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 792
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe22f927820a4d6e0800000000000000
-      internalID: -1813648654341299473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_34
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 796
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 855acdc8fd540a9d0800000000000000
-      internalID: -2765133344762190504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_35
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 787
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3aa40a31d7fcaba0800000000000000
-      internalID: -6076209319236031938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_36
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 781
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bc8d3ab7f5d49540800000000000000
-      internalID: 5013867545128438965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_37
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 778
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 576ec9a6228351900800000000000000
-      internalID: 654491041320986229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_38
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 761
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 183b459a584f7dd30800000000000000
-      internalID: 4456299211215123329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_39
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 768
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b50daaef653f5c4f0800000000000000
-      internalID: -808973003077791653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_40
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 759
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ad8a775fce2d0050800000000000000
-      internalID: 5768318165792230819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_41
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 740
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df90023d8afbb66d0800000000000000
-      internalID: -2996090395267429891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_42
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 750
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fca1e0aa57dad9f70800000000000000
-      internalID: 9195696735036250831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_43
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 740
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3f08d0ad8722d460800000000000000
-      internalID: 7264912638144417599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_44
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 710
+        x: 14
+        y: 939
         width: 8
         height: 27
       alignment: 0
@@ -1274,41 +559,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f643dd61b7d542b0800000000000000
-      internalID: -5600833404513597703
+      spriteID: de6b605aa3d42a9d0800000000000000
+      internalID: -2764562306979940627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_45
+      name: BeastmasterBase_14
       rect:
         serializedVersion: 2
-        x: 73
-        y: 731
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b9826e65045f5850800000000000000
-      internalID: 6367900780428691889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_46
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 722
+        x: 27
+        y: 959
         width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc5e8720c0926970800000000000000
+      internalID: 8746712581278686391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 949
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c804bc422f690aa0800000000000000
+      internalID: -6194297619364968256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 939
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787f87bfc1af79a70800000000000000
+      internalID: 8833804196495554439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1318,19 +647,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c96752214a2d85b60800000000000000
-      internalID: 7735163962129741468
+      spriteID: 0d2d72293682d99d0800000000000000
+      internalID: -2766010188016659760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_47
+      name: BeastmasterBase_18
       rect:
         serializedVersion: 2
-        x: 139
-        y: 714
-        width: 9
+        x: 31
+        y: 929
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acd53da12efa8d80800000000000000
+      internalID: -8247500346982277975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1340,20 +691,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f547660a1fae52f0800000000000000
-      internalID: -982155142408747532
+      spriteID: 2de4a6bb80725a150800000000000000
+      internalID: 5883151406686949074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_48
+      name: BeastmasterBase_20
       rect:
         serializedVersion: 2
-        x: 148
-        y: 715
-        width: 10
-        height: 8
+        x: 33
+        y: 918
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1362,40 +713,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d31e0f74f16f8430800000000000000
-      internalID: 3787353514373419992
+      spriteID: 3b8153ef5a36b5300800000000000000
+      internalID: 241896569580099763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_49
+      name: BeastmasterBase_21
       rect:
         serializedVersion: 2
-        x: 158
-        y: 716
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af1b89d44e10db4e0800000000000000
-      internalID: -1964411782397644294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_50
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 712
+        x: 35
+        y: 909
         width: 7
         height: 9
       alignment: 0
@@ -1406,19 +735,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bbdf74086063e160800000000000000
-      internalID: 7053587441260682163
+      spriteID: c05521de98421f710800000000000000
+      internalID: 1725200307066131724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_51
+      name: BeastmasterBase_22
       rect:
         serializedVersion: 2
-        x: 76
-        y: 706
-        width: 16
+        x: 21
+        y: 908
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1428,20 +757,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff930110c88999740800000000000000
-      internalID: 5159322575210297855
+      spriteID: db2213bc11c5fc9c0800000000000000
+      internalID: -3904801120413736259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_52
+      name: BeastmasterBase_23
       rect:
         serializedVersion: 2
-        x: 92
-        y: 707
-        width: 10
-        height: 8
+        x: 36
+        y: 899
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1450,63 +779,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c287bf873c4b58f30800000000000000
-      internalID: 4577263347933345836
+      spriteID: fe705f587f3051d90800000000000000
+      internalID: -7127786473604708369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerBase_53
+      name: BeastmasterBase_24
       rect:
         serializedVersion: 2
-        x: 101
-        y: 709
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ed33c537a0307b10800000000000000
-      internalID: 1977133731135307237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_54
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 712
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46ff78feea05d8450800000000000000
-      internalID: 6092614583175348068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EngineerBase_55
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 703
-        width: 17
+        x: 22
+        y: 899
+        width: 6
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1516,8 +801,448 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e7f65e27c66b72c0800000000000000
-      internalID: -4432836402554144799
+      spriteID: d26ca7a7aa09a7420800000000000000
+      internalID: 2628572394397812269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 878
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdbce0f3f13d9b30800000000000000
+      internalID: 4295644543370182138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 888
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bcc7c7e321a5e60800000000000000
+      internalID: 7951688151661857570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 878
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ee0f544d8d78a00800000000000000
+      internalID: 758813468453301903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c317f583c9bffeb0800000000000000
+      internalID: -4683820838024703040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 869
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a080e50dbb0a9f9a0800000000000000
+      internalID: -6198746683583625206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ac5185163011dd0800000000000000
+      internalID: -2517227000098862524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 858
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318afa58b40a1fee0800000000000000
+      internalID: -1229024977069561837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 848
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eea1da4f3947a140800000000000000
+      internalID: 4730830469763018472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 838
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e56ecc2d2d09b00800000000000000
+      internalID: 833397733886156333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 838
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9d1c8ac7595d310800000000000000
+      internalID: 1429212819399760303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e0079ff8aca6e0800000000000000
+      internalID: -1824897933288349670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 829
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3137190e5f7c5a340800000000000000
+      internalID: 4874522030546973459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2584c98165ea5e0800000000000000
+      internalID: -1896483729375210817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 818
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc6b391eec2b0600800000000000000
+      internalID: 435491190108548316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 808
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f728b5ae06e9200800000000000000
+      internalID: 188694794070032151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_40
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dc4eb08fbeaaad0800000000000000
+      internalID: -2690078376816489182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 799
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae38e838912efb860800000000000000
+      internalID: 7548000099705455594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 738
+        width: 12
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82bc515cb62ecc50800000000000000
+      internalID: 6687325086952501900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 788
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534ed6159ff511510800000000000000
+      internalID: 1518100073818219573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterBase_44
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 778
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fbab12909611350800000000000000
+      internalID: 5985680867693608776
       vertices: []
       indices: 
       edges: []
@@ -1526,7 +1251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -1536,62 +1261,51 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EngineerBase_0: 6447382901206357869
-      EngineerBase_1: 2903338658087248051
-      EngineerBase_10: -4508844694962280828
-      EngineerBase_11: 954583936173243638
-      EngineerBase_12: -2342068495567053994
-      EngineerBase_13: -1062741281418288235
-      EngineerBase_14: -6485448895713523522
-      EngineerBase_15: 8755038424012021600
-      EngineerBase_16: -8497357250105679415
-      EngineerBase_17: -2512628807022240168
-      EngineerBase_18: -2759482073271275808
-      EngineerBase_19: -5052686199864705811
-      EngineerBase_2: 2628037663077838263
-      EngineerBase_20: 847348362165696843
-      EngineerBase_21: 8377003219149252066
-      EngineerBase_22: -2489548726095719496
-      EngineerBase_23: -5447345783537361667
-      EngineerBase_24: 4083207235990270872
-      EngineerBase_25: 5187773416461045213
-      EngineerBase_26: -2322627111748035253
-      EngineerBase_27: 3876816879129780903
-      EngineerBase_28: -9033456181553315141
-      EngineerBase_29: -6669599390495767499
-      EngineerBase_3: 261238887659171499
-      EngineerBase_30: -7728444751190503575
-      EngineerBase_31: -2317692993759660688
-      EngineerBase_32: 5895158177630121392
-      EngineerBase_33: -1813648654341299473
-      EngineerBase_34: -2765133344762190504
-      EngineerBase_35: -6076209319236031938
-      EngineerBase_36: 5013867545128438965
-      EngineerBase_37: 654491041320986229
-      EngineerBase_38: 4456299211215123329
-      EngineerBase_39: -808973003077791653
-      EngineerBase_4: 8825105890777106678
-      EngineerBase_40: 5768318165792230819
-      EngineerBase_41: -2996090395267429891
-      EngineerBase_42: 9195696735036250831
-      EngineerBase_43: 7264912638144417599
-      EngineerBase_44: -5600833404513597703
-      EngineerBase_45: 6367900780428691889
-      EngineerBase_46: 7735163962129741468
-      EngineerBase_47: -982155142408747532
-      EngineerBase_48: 3787353514373419992
-      EngineerBase_49: -1964411782397644294
-      EngineerBase_5: 1338943414749411719
-      EngineerBase_50: 7053587441260682163
-      EngineerBase_51: 5159322575210297855
-      EngineerBase_52: 4577263347933345836
-      EngineerBase_53: 1977133731135307237
-      EngineerBase_54: 6092614583175348068
-      EngineerBase_55: -4432836402554144799
-      EngineerBase_6: -3781182031872729191
-      EngineerBase_7: 269295535362515676
-      EngineerBase_8: -7724246482740704390
-      EngineerBase_9: 8564042383662285248
+      BeastmasterBase_0: -785438392134497159
+      BeastmasterBase_1: 7002154194113419763
+      BeastmasterBase_10: 8287100633306345852
+      BeastmasterBase_11: -3217723195728775794
+      BeastmasterBase_12: -4860005714037051938
+      BeastmasterBase_13: -2764562306979940627
+      BeastmasterBase_14: 8746712581278686391
+      BeastmasterBase_15: -6194297619364968256
+      BeastmasterBase_16: 8833804196495554439
+      BeastmasterBase_17: -2766010188016659760
+      BeastmasterBase_18: -8247500346982277975
+      BeastmasterBase_19: 5883151406686949074
+      BeastmasterBase_2: -825593783487974923
+      BeastmasterBase_20: 241896569580099763
+      BeastmasterBase_21: 1725200307066131724
+      BeastmasterBase_22: -3904801120413736259
+      BeastmasterBase_23: -7127786473604708369
+      BeastmasterBase_24: 2628572394397812269
+      BeastmasterBase_25: 4295644543370182138
+      BeastmasterBase_26: 7951688151661857570
+      BeastmasterBase_27: 758813468453301903
+      BeastmasterBase_28: -4683820838024703040
+      BeastmasterBase_29: -6198746683583625206
+      BeastmasterBase_3: -8914254052873145435
+      BeastmasterBase_30: -2517227000098862524
+      BeastmasterBase_31: -1229024977069561837
+      BeastmasterBase_32: 4730830469763018472
+      BeastmasterBase_33: 833397733886156333
+      BeastmasterBase_34: 1429212819399760303
+      BeastmasterBase_35: -1824897933288349670
+      BeastmasterBase_36: 4874522030546973459
+      BeastmasterBase_37: -1896483729375210817
+      BeastmasterBase_38: 435491190108548316
+      BeastmasterBase_39: 188694794070032151
+      BeastmasterBase_4: 7374142733553586262
+      BeastmasterBase_40: -2690078376816489182
+      BeastmasterBase_41: 7548000099705455594
+      BeastmasterBase_42: 6687325086952501900
+      BeastmasterBase_43: 1518100073818219573
+      BeastmasterBase_44: 5985680867693608776
+      BeastmasterBase_5: 7140617977327225655
+      BeastmasterBase_6: -1444899695890583823
+      BeastmasterBase_7: -7565076975398828223
+      BeastmasterBase_8: 3230836737820480245
+      BeastmasterBase_9: 6523395135201266050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
