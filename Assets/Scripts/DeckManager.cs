@@ -2604,38 +2604,6 @@ public int GetNextAvailableFavorIndex()
     return player.favorArea.Count;
 }
 
-public PranksterDeckEntry GetCurrentPlayerFavorCardAtSlot(int favorSlotIndex)
-{
-    Player player = GetCurrentPlayer();
-
-    if (player == null)
-        return null;
-
-    if (favorSlotIndex < 0 || favorSlotIndex >= player.favorArea.Count)
-        return null;
-
-    return player.favorArea[favorSlotIndex];
-}
-
-public PranksterDeckEntry GetPlayerFavorCardAtSlot(int playerIndex, int favorSlotIndex)
-{
-    if (turnManager == null || turnManager.players == null)
-        return null;
-
-    if (playerIndex < 0 || playerIndex >= turnManager.players.Count)
-        return null;
-
-    Player player = turnManager.players[playerIndex];
-
-    if (player == null)
-        return null;
-
-    if (favorSlotIndex < 0 || favorSlotIndex >= player.favorArea.Count)
-        return null;
-
-    return player.favorArea[favorSlotIndex];
-}
-
 public Vector3 GetFavorWellPosition(int index)
 {
     if (index == 0 && filledMarker1 != null)

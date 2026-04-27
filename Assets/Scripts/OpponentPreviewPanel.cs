@@ -49,8 +49,6 @@ public class OpponentPreviewPanel : MonoBehaviour
     if (sourcePanel == null)
         return;
 
-   
-
     Debug.Log("ShowFromPlayerInfoPanel called");
 
     if (opponentLabelText != null && sourcePanel.playerLabelText != null)
@@ -234,4 +232,7 @@ public void HideSwapTargetHighlights()
     if (favorSlot3Highlight != null)
         favorSlot3Highlight.SetActive(false);
 }
+
+
+
 }
