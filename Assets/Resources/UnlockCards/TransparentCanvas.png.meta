@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eec90b7f458d645ccb4755046005a3d1
+guid: fb1b30d9c952c44b593ef42874d3370e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8242795580611093796
-    second: PrnksterCardBackdrop_0
+      213: 6522872306320924770
+    second: TransparentCanvas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PrnksterCardBackdrop_0
+      name: TransparentCanvas_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 425eb7a88ea446270800000000000000
-      internalID: 8242795580611093796
+      spriteID: 260ed7d8dc5e58a50800000000000000
+      internalID: 6522872306320924770
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PrnksterCardBackdrop_0: 8242795580611093796
+      TransparentCanvas_0: 6522872306320924770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

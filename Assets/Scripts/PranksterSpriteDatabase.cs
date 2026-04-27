@@ -4,7 +4,7 @@ public class PranksterSpriteDatabase : MonoBehaviour
 {
     private const string BasePath = "UnlockCards/";
 
-    // ===== EXISTING STATIC REFERENCES (KEEP THESE) =====
+    // ===== STATIC REFERENCES =====
 
     public static Sprite thief;
     public static Sprite wizard;
@@ -43,22 +43,16 @@ public class PranksterSpriteDatabase : MonoBehaviour
 
     public static Sprite GetSprite(PranksterType type, int tier)
     {
-        // 1. Try existing assigned sprites first (your current system)
-        Sprite assigned = GetAssignedSprite(type, tier);
-        if (assigned != null)
-            return assigned;
-
-        // 2. Fallback to Resources system (new system)
-        return LoadFromResources(type.ToString(), tier);
+        // Use assigned sprites only (stable gameplay path)
+        return GetAssignedSprite(type, tier);
     }
 
     public static Sprite GetSprite(string pranksterType, int tier)
     {
-        // Used by unlock system directly
         return LoadFromResources(pranksterType, tier);
     }
 
-    // ===== EXISTING LOGIC (UNCHANGED BEHAVIOR) =====
+    // ===== ASSIGNED SPRITE LOGIC =====
 
     private static Sprite GetAssignedSprite(PranksterType type, int tier)
     {
@@ -97,18 +91,23 @@ public class PranksterSpriteDatabase : MonoBehaviour
         }
     }
 
-    // ===== NEW RESOURCE LOADING SYSTEM =====
+    // ===== RESOURCE LOADING (ONLY FOR UNLOCKS / EXTRA) =====
 
     private static Sprite LoadFromResources(string pranksterType, int tier)
     {
-        string normalized = NormalizePranksterType(pranksterType);
-        string resourceName = GetResourceName(normalized, tier);
+        string normalized = pranksterType == "BeastMaster" ? "Beastmaster" : pranksterType;
+
+        string resourceName = normalized;
+
+        if (tier == 1) resourceName += "Crewleader";
+        else if (tier == 2) resourceName += "Expert";
+        else if (tier == 3) resourceName += "Master";
 
         Sprite sprite = Resources.Load<Sprite>(BasePath + resourceName);
 
         if (sprite == null && tier > 0)
         {
-            Debug.LogWarning("Missing unlock sprite: " + resourceName + " → falling back to base");
+            Debug.LogWarning("Missing unlock sprite: " + resourceName + " → fallback to base");
             sprite = Resources.Load<Sprite>(BasePath + normalized);
         }
 
@@ -120,73 +119,91 @@ public class PranksterSpriteDatabase : MonoBehaviour
         return sprite;
     }
 
-    private static string GetResourceName(string pranksterType, int tier)
-    {
-        switch (tier)
-        {
-            case 1: return pranksterType + "Crewleader";
-            case 2: return pranksterType + "Expert";
-            case 3: return pranksterType + "Master";
-            default: return pranksterType;
-        }
-    }
+    // ===== CATEGORY-BASED SPRITES (UNLOCK SYSTEM) =====
 
-    private static string NormalizePranksterType(string type)
+    public static Sprite GetSprite(PranksterType type, int tier, PranksterUnlockCategory category)
     {
-        switch (type)
-        {
-            case "BeastMaster": return "Beastmaster";
-            default: return type;
-        }
-    }
+        string pranksterName = type.ToString() == "BeastMaster" ? "Beastmaster" : type.ToString();
 
-    // ===== UI HELPERS =====
+        string suffix = "";
+
+        if (category == PranksterUnlockCategory.FavorOffer)
+        {
+            if (tier == 1) suffix = "Assistant";
+            else if (tier == 2) suffix = "Strategist";
+            else if (tier == 3) suffix = "Advisor";
+        }
+        else if (category == PranksterUnlockCategory.Discard)
+        {
+            if (tier == 1) suffix = "Hustler";
+            else if (tier == 2) suffix = "Opportunist";
+            else if (tier == 3) suffix = "Manipulator";
+        }
+        else // PrankCompletion
+        {
+            if (tier == 1) suffix = "Crewleader";
+            else if (tier == 2) suffix = "Expert";
+            else if (tier == 3) suffix = "Master";
+        }
+
+        string resourceName = pranksterName + suffix;
+
+        Sprite sprite = Resources.Load<Sprite>("UnlockCards/" + resourceName);
+
+        if (sprite == null)
+        {
+            Debug.LogWarning("SPRITE LOAD FAILED | " + resourceName + " → fallback to base");
+            sprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName);
+        }
+
+        return sprite;
+    }
 
     public static string GetTierTitle(int tier)
+{
+    switch (tier)
     {
-        switch (tier)
-        {
-            case 1: return "Crew Leader";
-            case 2: return "Expert";
-            case 3: return "Master";
-            default: return "Base";
-        }
+        case 1: return "Crew Leader";
+        case 2: return "Expert";
+        case 3: return "Master";
+        default: return "Base";
     }
+}
 
-    public static string GetTierFlavorText(int tier)
+public static string GetTierFlavorText(int tier)
+{
+    switch (tier)
     {
-        switch (tier)
-        {
-            case 1: return "+1 Prank points when used to complete a prank";
-            case 2: return "+3 Prank points when used to complete a prank";
-            case 3: return "+5 Prank points when used to complete a prank";
-            default: return "";
-        }
+        case 1: return "+1 Prank points when used to complete a prank";
+        case 2: return "+3 Prank points when used to complete a prank";
+        case 3: return "+5 Prank points when used to complete a prank";
+        default: return "";
     }
+}
 
-    public static string GetFavorTierTitle(int tier)
+public static string GetFavorTierTitle(int tier)
+{
+    switch (tier)
     {
-        switch (tier)
-        {
-            case 1: return "Assistant";
-            case 2: return "Strategist";
-            case 3: return "Advisor";
-            default: return "Base";
-        }
+        case 1: return "Assistant";
+        case 2: return "Strategist";
+        case 3: return "Advisor";
+        default: return "Base";
     }
+}
 
-    public static string GetFavorTierFlavorText(int tier)
+public static string GetFavorTierFlavorText(int tier)
+{
+    switch (tier)
     {
-        switch (tier)
-        {
-            case 1: return "+1 Favor point when offered as favor";
-            case 2: return "+3 Favor points when offered as favor";
-            case 3: return "+5 Favor points when offered as favor";
-            default: return "";
-        }
+        case 1: return "+1 Favor point when offered as favor";
+        case 2: return "+3 Favor points when offered as favor";
+        case 3: return "+5 Favor points when offered as favor";
+        default: return "";
     }
+}
 
-    public static string GetDiscardTierTitle(int tier)
+public static string GetDiscardTierTitle(int tier)
 {
     switch (tier)
     {
@@ -207,6 +224,4 @@ public static string GetDiscardTierFlavorText(int tier)
         default: return "";
     }
 }
-
-
 }

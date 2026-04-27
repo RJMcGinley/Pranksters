@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: 087c6ceccfb244a5ab15285773c08df5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2984978233117717792
+    second: Laborer_0
+  - first:
+      213: 3625289683648799399
+    second: Laborer_1
+  - first:
+      213: -8132204227259856258
+    second: Laborer_2
+  - first:
+      213: -9169840083007940426
+    second: Laborer_3
+  - first:
+      213: -4906450156542165417
+    second: Laborer_4
+  - first:
+      213: 9010081753442956793
+    second: Laborer_5
+  - first:
+      213: -6381863628432247838
+    second: Laborer_6
+  - first:
+      213: 57232640286567382
+    second: Laborer_7
+  - first:
+      213: 4206780653145423038
+    second: Laborer_8
+  - first:
+      213: -8512161956447615799
+    second: Laborer_9
+  - first:
+      213: 6867990701260084766
+    second: Laborer_10
+  - first:
+      213: -5024233996109238159
+    second: Laborer_11
+  - first:
+      213: 823864711184509748
+    second: Laborer_12
+  - first:
+      213: -1071121908660837225
+    second: Laborer_13
+  - first:
+      213: 1849907447258499212
+    second: Laborer_14
+  - first:
+      213: -7345540342618945176
+    second: Laborer_15
+  - first:
+      213: 7271963430023397742
+    second: Laborer_16
+  - first:
+      213: -3925774038057452111
+    second: Laborer_17
+  - first:
+      213: 6973856345682392268
+    second: Laborer_18
+  - first:
+      213: -6353450086857329842
+    second: Laborer_19
+  - first:
+      213: 1478628326494859482
+    second: Laborer_20
+  - first:
+      213: -6738833255685033387
+    second: Laborer_21
+  - first:
+      213: 783333625715448327
+    second: Laborer_22
+  - first:
+      213: 6233762572173378340
+    second: Laborer_23
+  - first:
+      213: 7029047362860161035
+    second: Laborer_24
+  - first:
+      213: 3553926956764214652
+    second: Laborer_25
+  - first:
+      213: -9197802824804256773
+    second: Laborer_26
+  - first:
+      213: 6640877676185235189
+    second: Laborer_27
+  - first:
+      213: 771747409467834248
+    second: Laborer_28
+  - first:
+      213: -396370495268237973
+    second: Laborer_29
+  - first:
+      213: -8494700816488910102
+    second: Laborer_30
+  - first:
+      213: 1174049875188394843
+    second: Laborer_31
+  - first:
+      213: -8048438728257790283
+    second: Laborer_32
+  - first:
+      213: -8490324415792362093
+    second: Laborer_33
+  - first:
+      213: -438652813787866370
+    second: Laborer_34
+  - first:
+      213: 5397535665417291119
+    second: Laborer_35
+  - first:
+      213: -706796220390854165
+    second: Laborer_36
+  - first:
+      213: 5232850019321791182
+    second: Laborer_37
+  - first:
+      213: -419757348623489476
+    second: Laborer_38
+  - first:
+      213: 678288471068604337
+    second: Laborer_39
+  - first:
+      213: 612146233685393687
+    second: Laborer_40
+  - first:
+      213: -1239926801444917558
+    second: Laborer_41
+  - first:
+      213: 7158626596118611825
+    second: Laborer_42
+  - first:
+      213: -4627136239045353096
+    second: Laborer_43
+  - first:
+      213: -7579220303434327886
+    second: Laborer_44
+  - first:
+      213: 2400367358477516233
+    second: Laborer_45
+  - first:
+      213: -5335182405415522595
+    second: Laborer_46
+  - first:
+      213: 1205287512634269267
+    second: Laborer_47
+  - first:
+      213: 4690818482748144798
+    second: Laborer_48
+  - first:
+      213: -4979295190666400878
+    second: Laborer_49
+  - first:
+      213: -4077098324939455914
+    second: Laborer_50
+  - first:
+      213: -6066743641345307806
+    second: Laborer_51
+  - first:
+      213: -807350606212806871
+    second: Laborer_52
+  - first:
+      213: -562849911900338570
+    second: Laborer_53
+  - first:
+      213: -566829978297199449
+    second: Laborer_54
+  - first:
+      213: 5341803510367090937
+    second: Laborer_55
+  - first:
+      213: 6420199996399675766
+    second: Laborer_56
+  - first:
+      213: -4341964336513549857
+    second: Laborer_57
+  - first:
+      213: 5693412183292902268
+    second: Laborer_58
+  - first:
+      213: 101368915606939845
+    second: Laborer_59
+  - first:
+      213: 5725553127643283389
+    second: Laborer_60
+  - first:
+      213: 4569492523622618032
+    second: Laborer_61
+  - first:
+      213: -2488143131278728656
+    second: Laborer_62
+  - first:
+      213: -2609680618748007665
+    second: Laborer_63
+  - first:
+      213: 4760358409064122061
+    second: Laborer_64
+  - first:
+      213: 2921895867146971035
+    second: Laborer_65
+  - first:
+      213: 5607097271907775853
+    second: Laborer_66
+  - first:
+      213: 6849524360278347609
+    second: Laborer_67
+  - first:
+      213: -5649058289739847828
+    second: Laborer_68
+  - first:
+      213: 9139555756767916910
+    second: Laborer_69
+  - first:
+      213: -7978270851641323225
+    second: Laborer_70
+  - first:
+      213: -3279966748281391151
+    second: Laborer_71
+  - first:
+      213: -7679984665397773270
+    second: Laborer_72
+  - first:
+      213: 1365894856623014237
+    second: Laborer_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Laborer_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1100
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaceb0bc1a3396d0800000000000000
+      internalID: -2984978233117717792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1098
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a266c972cd9f4230800000000000000
+      internalID: 3625289683648799399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1088
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a0f31775b942f80800000000000000
+      internalID: -8132204227259856258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1078
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b85c25470f2eb080800000000000000
+      internalID: -9169840083007940426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1081
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ef42ff399c8ebb0800000000000000
+      internalID: -4906450156542165417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_5
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1072
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f532370e9d3a0d70800000000000000
+      internalID: 9010081753442956793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 837
+        width: 252
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e37f4ea7d01f67a0800000000000000
+      internalID: -6381863628432247838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dba6d978c45bc000800000000000000
+      internalID: 57232640286567382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1062
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcf7be27bc716a30800000000000000
+      internalID: 4206780653145423038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1053
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4885bccc9bed980800000000000000
+      internalID: -8512161956447615799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1047
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161b459721005f50800000000000000
+      internalID: 6867990701260084766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1052
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170b771dcc5564ab0800000000000000
+      internalID: -5024233996109238159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1037
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43be12df694fe6b00800000000000000
+      internalID: 823864711184509748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1033
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e1239c4c9221f0800000000000000
+      internalID: -1071121908660837225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1026
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c884135a5013ca910800000000000000
+      internalID: 1849907447258499212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1023
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86985ea0af56f0a90800000000000000
+      internalID: -7345540342618945176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1013
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e610d2a06343be460800000000000000
+      internalID: 7271963430023397742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1005
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd7221ef49d489c0800000000000000
+      internalID: -3925774038057452111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1005
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4b007b56d18c060800000000000000
+      internalID: 6973856345682392268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 995
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43b1badec204d7a0800000000000000
+      internalID: -6353450086857329842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 994
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad07e8bf0a4258410800000000000000
+      internalID: 1478628326494859482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 964
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552fd4a9bdada72a0800000000000000
+      internalID: -6738833255685033387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 976
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a536548c5feda00800000000000000
+      internalID: 783333625715448327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 967
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305801806c28650800000000000000
+      internalID: 6233762572173378340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 956
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b081da4c5513c8160800000000000000
+      internalID: 7029047362860161035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_25
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 961
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75bd97dcb5125130800000000000000
+      internalID: 3553926956764214652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf335791017da5080800000000000000
+      internalID: -9197802824804256773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_27
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fea7d5cf03292c50800000000000000
+      internalID: 6640877676185235189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_28
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 965
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f78a51e2cc5ba00800000000000000
+      internalID: 771747409467834248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 985
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d4716722fcf7af0800000000000000
+      internalID: -396370495268237973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_30
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 955
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae235ff3d92cc1a80800000000000000
+      internalID: -8494700816488910102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_31
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 976
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b223f14201b4010800000000000000
+      internalID: 1174049875188394843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 933
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be92bd7e933e4090800000000000000
+      internalID: -8048438728257790283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 946
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dced07dee4c2a80800000000000000
+      internalID: -8490324415792362093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_34
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 937
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efad276079799e9f0800000000000000
+      internalID: -438652813787866370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_35
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 946
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6503bf1716e7ea40800000000000000
+      internalID: 5397535665417291119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_36
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 937
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1b3031594f036f0800000000000000
+      internalID: -706796220390854165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 922
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec242942e51de9840800000000000000
+      internalID: 5232850019321791182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_38
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 927
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36ef675ae8bc2af0800000000000000
+      internalID: -419757348623489476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_39
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 86
+        width: 666
+        height: 853
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7794d45c3c96900800000000000000
+      internalID: 678288471068604337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 892
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711496991c7ce7800800000000000000
+      internalID: 612146233685393687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_41
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 918
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acea36cb425eacee0800000000000000
+      internalID: -1239926801444917558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 909
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177405d06fc885360800000000000000
+      internalID: 7158626596118611825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_43
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 899
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8716d503b1c19cfb0800000000000000
+      internalID: -4627136239045353096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_44
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 861
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85e5b5a4331d690800000000000000
+      internalID: -7579220303434327886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_45
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 889
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdbe741561df4120800000000000000
+      internalID: 2400367358477516233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 879
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde2b498edf95f5b0800000000000000
+      internalID: -5335182405415522595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 870
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e97ca5b9a0ab010800000000000000
+      internalID: 1205287512634269267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_48
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 860
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c3a0a9e82291140800000000000000
+      internalID: 4690818482748144798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 819
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ba480d76df5eab0800000000000000
+      internalID: -4979295190666400878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 850
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652c4a3ccac3b67c0800000000000000
+      internalID: -4077098324939455914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_51
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 831
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc04a1dc89ecba0800000000000000
+      internalID: -6066743641345307806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_52
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 822
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9274d73b6e6bbc4f0800000000000000
+      internalID: -807350606212806871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 789
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676025bbcfa5038f0800000000000000
+      internalID: -562849911900338570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_54
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 812
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a49d8f43273228f0800000000000000
+      internalID: -566829978297199449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_55
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 803
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f87d579df5e12a40800000000000000
+      internalID: 5341803510367090937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_56
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 793
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679ed5c81e1291950800000000000000
+      internalID: 6420199996399675766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_57
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 747
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9f1bec07e3eb3c0800000000000000
+      internalID: -4341964336513549857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_58
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 783
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bfd093730130f40800000000000000
+      internalID: 5693412183292902268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 774
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8a40edd72286100800000000000000
+      internalID: 101368915606939845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_60
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 765
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbffdcbfb30457f40800000000000000
+      internalID: 5725553127643283389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_61
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 764
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b354527d391a6f30800000000000000
+      internalID: 4569492523622618032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_62
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 754
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032adcd3107587dd0800000000000000
+      internalID: -2488143131278728656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 745
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bad4ecd4d88cbd0800000000000000
+      internalID: -2609680618748007665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_64
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 705
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc68fc760c0301240800000000000000
+      internalID: 4760358409064122061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_65
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 734
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b972aff6fc8ac8820800000000000000
+      internalID: 2921895867146971035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_66
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 725
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65ff19d24960dd40800000000000000
+      internalID: 5607097271907775853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_67
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 718
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f86c68d166e0f50800000000000000
+      internalID: 6849524360278347609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_68
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 719
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67a49c5a638a91b0800000000000000
+      internalID: -5649058289739847828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 722
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63370f898936de70800000000000000
+      internalID: 9139555756767916910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_70
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 722
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d01e5eec774190800000000000000
+      internalID: -7978270851641323225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_71
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d73895de973b72d0800000000000000
+      internalID: -3279966748281391151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_72
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cb48a13a63b6590800000000000000
+      internalID: -7679984665397773270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laborer_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 702
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d514c81a222a4f210800000000000000
+      internalID: 1365894856623014237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Laborer_0: -2984978233117717792
+      Laborer_1: 3625289683648799399
+      Laborer_10: 6867990701260084766
+      Laborer_11: -5024233996109238159
+      Laborer_12: 823864711184509748
+      Laborer_13: -1071121908660837225
+      Laborer_14: 1849907447258499212
+      Laborer_15: -7345540342618945176
+      Laborer_16: 7271963430023397742
+      Laborer_17: -3925774038057452111
+      Laborer_18: 6973856345682392268
+      Laborer_19: -6353450086857329842
+      Laborer_2: -8132204227259856258
+      Laborer_20: 1478628326494859482
+      Laborer_21: -6738833255685033387
+      Laborer_22: 783333625715448327
+      Laborer_23: 6233762572173378340
+      Laborer_24: 7029047362860161035
+      Laborer_25: 3553926956764214652
+      Laborer_26: -9197802824804256773
+      Laborer_27: 6640877676185235189
+      Laborer_28: 771747409467834248
+      Laborer_29: -396370495268237973
+      Laborer_3: -9169840083007940426
+      Laborer_30: -8494700816488910102
+      Laborer_31: 1174049875188394843
+      Laborer_32: -8048438728257790283
+      Laborer_33: -8490324415792362093
+      Laborer_34: -438652813787866370
+      Laborer_35: 5397535665417291119
+      Laborer_36: -706796220390854165
+      Laborer_37: 5232850019321791182
+      Laborer_38: -419757348623489476
+      Laborer_39: 678288471068604337
+      Laborer_4: -4906450156542165417
+      Laborer_40: 612146233685393687
+      Laborer_41: -1239926801444917558
+      Laborer_42: 7158626596118611825
+      Laborer_43: -4627136239045353096
+      Laborer_44: -7579220303434327886
+      Laborer_45: 2400367358477516233
+      Laborer_46: -5335182405415522595
+      Laborer_47: 1205287512634269267
+      Laborer_48: 4690818482748144798
+      Laborer_49: -4979295190666400878
+      Laborer_5: 9010081753442956793
+      Laborer_50: -4077098324939455914
+      Laborer_51: -6066743641345307806
+      Laborer_52: -807350606212806871
+      Laborer_53: -562849911900338570
+      Laborer_54: -566829978297199449
+      Laborer_55: 5341803510367090937
+      Laborer_56: 6420199996399675766
+      Laborer_57: -4341964336513549857
+      Laborer_58: 5693412183292902268
+      Laborer_59: 101368915606939845
+      Laborer_6: -6381863628432247838
+      Laborer_60: 5725553127643283389
+      Laborer_61: 4569492523622618032
+      Laborer_62: -2488143131278728656
+      Laborer_63: -2609680618748007665
+      Laborer_64: 4760358409064122061
+      Laborer_65: 2921895867146971035
+      Laborer_66: 5607097271907775853
+      Laborer_67: 6849524360278347609
+      Laborer_68: -5649058289739847828
+      Laborer_69: 9139555756767916910
+      Laborer_7: 57232640286567382
+      Laborer_70: -7978270851641323225
+      Laborer_71: -3279966748281391151
+      Laborer_72: -7679984665397773270
+      Laborer_73: 1365894856623014237
+      Laborer_8: 4206780653145423038
+      Laborer_9: -8512161956447615799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

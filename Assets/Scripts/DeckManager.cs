@@ -3735,5 +3735,21 @@ public bool TryShowEndOfRoundPanelIfPending()
     return true;
 }
 
+public PranksterDeckEntry GetFavorCardAtIndex(int index)
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return null;
+
+    if (player.favorArea == null)
+        return null;
+
+    if (index < 0 || index >= player.favorArea.Count)
+        return null;
+
+    return player.favorArea[index];
+}
+
 }
 

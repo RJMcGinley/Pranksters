@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 82b342916f1dd49dcb8d31b2d654d7ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2752675982035780481
+    second: Scribe_0
+  - first:
+      213: 5657157238897080017
+    second: Scribe_1
+  - first:
+      213: 1821298442982974279
+    second: Scribe_2
+  - first:
+      213: -2437184888398659562
+    second: Scribe_3
+  - first:
+      213: -4620400319132031523
+    second: Scribe_4
+  - first:
+      213: 8161394778680007667
+    second: Scribe_5
+  - first:
+      213: -7872827790688354204
+    second: Scribe_6
+  - first:
+      213: 1305295946960392134
+    second: Scribe_7
+  - first:
+      213: 1705409902837960740
+    second: Scribe_8
+  - first:
+      213: 348912822927007390
+    second: Scribe_9
+  - first:
+      213: -109599825915299626
+    second: Scribe_10
+  - first:
+      213: 6982520200793618679
+    second: Scribe_11
+  - first:
+      213: -9145855131849420959
+    second: Scribe_12
+  - first:
+      213: -518569445447510065
+    second: Scribe_13
+  - first:
+      213: 7702150524908900054
+    second: Scribe_14
+  - first:
+      213: -723533619405924552
+    second: Scribe_15
+  - first:
+      213: -8332945691342399913
+    second: Scribe_16
+  - first:
+      213: -8085971360338310894
+    second: Scribe_17
+  - first:
+      213: -7149295013010229261
+    second: Scribe_18
+  - first:
+      213: -3283286350960141666
+    second: Scribe_19
+  - first:
+      213: -8853349449675218078
+    second: Scribe_20
+  - first:
+      213: -3396448612190886683
+    second: Scribe_21
+  - first:
+      213: 5422202410915654732
+    second: Scribe_22
+  - first:
+      213: -8000963220995042065
+    second: Scribe_23
+  - first:
+      213: 8219433978851639713
+    second: Scribe_24
+  - first:
+      213: -4655686713699111535
+    second: Scribe_25
+  - first:
+      213: 3774312010215455361
+    second: Scribe_26
+  - first:
+      213: 4802942435808233114
+    second: Scribe_27
+  - first:
+      213: 3753148983830564017
+    second: Scribe_28
+  - first:
+      213: 7728844463149372244
+    second: Scribe_29
+  - first:
+      213: -2979512941659898351
+    second: Scribe_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scribe_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 317
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1830efaa838733620800000000000000
+      internalID: 2752675982035780481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1040
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d67dfe2982428e40800000000000000
+      internalID: 5657157238897080017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1031
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743e8f3c84d864910800000000000000
+      internalID: 1821298442982974279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1021
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6104c0bb1416d2ed0800000000000000
+      internalID: -2437184888398659562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1012
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5a802c36a01efb0800000000000000
+      internalID: -4620400319132031523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 992
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb13fe6f49134170800000000000000
+      internalID: 8161394778680007667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 967
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460823e16d81eb290800000000000000
+      internalID: -7872827790688354204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 957
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfc45d7fb75d1210800000000000000
+      internalID: 1305295946960392134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 949
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420171f5545daa710800000000000000
+      internalID: 1705409902837960740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 106
+        width: 475
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e94242d5697d400800000000000000
+      internalID: 348912822927007390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 939
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8bfdcf98f9a7ef0800000000000000
+      internalID: -109599825915299626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 795
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8fa4da025e6e060800000000000000
+      internalID: 6982520200793618679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 786
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f8ee2e635631180800000000000000
+      internalID: -9145855131849420959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 776
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7dabc36dbadc8f0800000000000000
+      internalID: -518569445447510065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 767
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de88cb381983ea60800000000000000
+      internalID: 7702150524908900054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 758
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837d140b10e75f5f0800000000000000
+      internalID: -723533619405924552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 749
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7561ae62b0e6b5c80800000000000000
+      internalID: -8332945691342399913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 741
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2198d0b93ebd8cf80800000000000000
+      internalID: -8085971360338310894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 731
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7bd03701a98cc90800000000000000
+      internalID: -7149295013010229261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 722
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ad12b957c6f62d0800000000000000
+      internalID: -3283286350960141666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 729
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26365b32595922580800000000000000
+      internalID: -8853349449675218078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 724
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e46e7c7bf36dd0d0800000000000000
+      internalID: -3396448612190886683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 725
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ce4ea5d588f3b40800000000000000
+      internalID: 5422202410915654732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 726
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe410a7675ed6f090800000000000000
+      internalID: -8000963220995042065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 727
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a14a34c7ab411270800000000000000
+      internalID: 8219433978851639713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 716
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d657cc99da36fb0800000000000000
+      internalID: -4655686713699111535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 717
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18af160b6cc016430800000000000000
+      internalID: 3774312010215455361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 720
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96cff2c2ba77a240800000000000000
+      internalID: 4802942435808233114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 720
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcc652ad1dd51430800000000000000
+      internalID: 3753148983830564017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_29
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 721
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453534e071f524b60800000000000000
+      internalID: 7728844463149372244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scribe_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 723
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ebea404c4a6a6d0800000000000000
+      internalID: -2979512941659898351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Scribe_0: 2752675982035780481
+      Scribe_1: 5657157238897080017
+      Scribe_10: -109599825915299626
+      Scribe_11: 6982520200793618679
+      Scribe_12: -9145855131849420959
+      Scribe_13: -518569445447510065
+      Scribe_14: 7702150524908900054
+      Scribe_15: -723533619405924552
+      Scribe_16: -8332945691342399913
+      Scribe_17: -8085971360338310894
+      Scribe_18: -7149295013010229261
+      Scribe_19: -3283286350960141666
+      Scribe_2: 1821298442982974279
+      Scribe_20: -8853349449675218078
+      Scribe_21: -3396448612190886683
+      Scribe_22: 5422202410915654732
+      Scribe_23: -8000963220995042065
+      Scribe_24: 8219433978851639713
+      Scribe_25: -4655686713699111535
+      Scribe_26: 3774312010215455361
+      Scribe_27: 4802942435808233114
+      Scribe_28: 3753148983830564017
+      Scribe_29: 7728844463149372244
+      Scribe_3: -2437184888398659562
+      Scribe_30: -2979512941659898351
+      Scribe_4: -4620400319132031523
+      Scribe_5: 8161394778680007667
+      Scribe_6: -7872827790688354204
+      Scribe_7: 1305295946960392134
+      Scribe_8: 1705409902837960740
+      Scribe_9: 348912822927007390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
