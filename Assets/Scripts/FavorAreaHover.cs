@@ -17,6 +17,8 @@ public class FavorAreaHover : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
 
         if (deckManager != null && deckManager.IsPrankPreviewOpen())
             return;
@@ -35,20 +37,15 @@ public class FavorAreaHover : MonoBehaviour
 
     void OnMouseExit()
     {
-        isShowing = false;
-
-        if (helperObject != null)
-            helperObject.SetActive(false);
+        HideHelper();
     }
 
     void Update()
     {
-        if (isShowing && (deckManager == null || !deckManager.CanHoverFavorArea()))
+        if (isShowing && 
+            (deckManager == null || deckManager.IsInteractionBlocked() || !deckManager.CanHoverFavorArea()))
         {
-            isShowing = false;
-
-            if (helperObject != null)
-                helperObject.SetActive(false);
+            HideHelper();
         }
     }
 
@@ -57,13 +54,19 @@ public class FavorAreaHover : MonoBehaviour
         if (deckManager == null)
             return;
 
-        if (helperObject != null)
-            helperObject.SetActive(false);
+        if (deckManager.IsInteractionBlocked())
+            return;
 
-        isShowing = false;
+        HideHelper();
 
         deckManager.OnFavorAreaClicked();
     }
 
+    private void HideHelper()
+    {
+        isShowing = false;
 
+        if (helperObject != null)
+            helperObject.SetActive(false);
+    }
 }

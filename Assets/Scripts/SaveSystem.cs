@@ -7,6 +7,7 @@ public static class SaveSystem
     private static readonly string SaveFileName = "player1save.json";
 
     private static bool FullGamePurchased => true;
+    private static int FreeVersionUnlockLimit => 15;
     private static List<PranksterUnlockEntry> sessionNewUnlocks = new List<PranksterUnlockEntry>();
 
     private static string SavePath
@@ -310,7 +311,7 @@ public static bool IsPranksterUnlockUsable(string pranksterType, int tier, Prank
     if (FullGamePurchased)
         return true;
 
-    return entry.unlockOrder > 0 && entry.unlockOrder <= 5;
+    return entry.unlockOrder > 0 && entry.unlockOrder <= FreeVersionUnlockLimit;
 }
 
 public static bool EarnPranksterUnlock(PlayerProgressSave data, string pranksterType, int tier, PranksterUnlockCategory category)
@@ -733,9 +734,9 @@ public static List<PranksterUnlockEntry> EvaluateFavorUnlocks(PlayerProgressSave
 
         int highestTier = 0;
 
-        if (discardTotal >= 100)
+        if (discardTotal >= 75)
             highestTier = 3;
-        else if (discardTotal >= 50)
+        else if (discardTotal >= 40)
             highestTier = 2;
         else if (discardTotal >= 15)
             highestTier = 1;
@@ -802,6 +803,31 @@ public static List<PranksterUnlockEntry> EvaluateFavorUnlocks(PlayerProgressSave
     return newlyEarned;
 }
 
+public static int GetFreeVersionUnlockLimit()
+{
+    return FreeVersionUnlockLimit;
+}
 
+public static bool IsFullGamePurchased()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return false;
+
+    return data.fullGamePurchased;
+}
+
+public static void SetFullGamePurchased(bool value)
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        data = new PlayerProgressSave();
+
+    data.fullGamePurchased = value;
+
+    Save(data);
+}
 
 }

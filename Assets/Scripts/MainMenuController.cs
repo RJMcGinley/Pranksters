@@ -19,6 +19,9 @@ public class MainMenuController : MonoBehaviour
     [Header("Statistics")]
     [SerializeField] private GameObject statisticsScreen;
 
+    [Header("Shop")]
+    [SerializeField] private GameObject shopScreen;
+
 
 
     public void OpenPlaySetup()
@@ -228,6 +231,9 @@ public class MainMenuController : MonoBehaviour
     if (statisticsScreen != null)
         statisticsScreen.SetActive(false);
 
+    if (shopScreen != null)
+        shopScreen.SetActive(false);
+
     if (mainMenuButtonsRoot != null)
     {
         mainMenuButtonsRoot.SetActive(true);
@@ -239,6 +245,7 @@ public class MainMenuController : MonoBehaviour
         mainMenuCanvas.SetActive(true);
         Debug.Log("mainMenuCanvas was set to true");
     }
+
 
     Debug.Log("ReturnToMainMenu END");
 }
@@ -333,5 +340,43 @@ private void ShowUnlockScreen(List<PranksterUnlockEntry> unlocks)
     ReturnToMainMenu();
 }
 
+public void OpenShop()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayMenuClick();
+
+    Debug.Log("Opening shop");
+
+    if (playerCountPanel != null)
+        playerCountPanel.SetActive(false);
+
+    if (prankCollectionScreen != null)
+        prankCollectionScreen.SetActive(false);
+
+    if (statisticsScreen != null)
+        statisticsScreen.SetActive(false);
+
+    if (mainMenuButtonsRoot != null)
+        mainMenuButtonsRoot.SetActive(false);
+
+    if (shopScreen != null)
+        shopScreen.SetActive(true);
+    else
+        Debug.LogWarning("MainMenuController: shopScreen is not assigned.");
+}
+
+public void CloseShop()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayBackClick();
+
+    Debug.Log("Closing shop");
+
+    if (shopScreen != null)
+        shopScreen.SetActive(false);
+
+    if (mainMenuButtonsRoot != null)
+        mainMenuButtonsRoot.SetActive(true);
+}
 
 }
