@@ -756,7 +756,15 @@ public class DeckManager : MonoBehaviour
     }
 
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayPlayerTurnVoice(turnManager.currentPlayerIndex);
+    {
+        Player currentPlayer = GetCurrentPlayer();
+
+        AudioManager.Instance.PlayPlayerTurnVoice(
+            currentPlayer.playerName,
+            turnManager.currentPlayerIndex,
+            currentPlayer.isBot
+        );
+    }
 
     Debug.Log("Player " + (turnManager.currentPlayerIndex + 1) + "'s turn.");
     ShowCurrentPlayerHand();

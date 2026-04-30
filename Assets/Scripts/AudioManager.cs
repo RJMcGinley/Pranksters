@@ -160,24 +160,57 @@ public class AudioManager : MonoBehaviour
         sfxSource.PlayOneShot(fartSounds[index]);
     }
 
-    public void PlayPlayerTurnVoice(int playerIndex)
+    [Header("Bot Turn Voice Clips")]
+public AudioClip jerekTurnClip;
+public AudioClip trikstanTurnClip;
+public AudioClip drGigglesTurnClip;
+
+public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
+{
+    string name = "";
+
+    if (!string.IsNullOrEmpty(playerName))
+        name = playerName.Trim().ToLower();
+
+    Debug.Log("TURN VOICE | name=" + playerName + " | normalized=" + name + " | isBot=" + isBot);
+
+    if (isBot)
     {
-        switch (playerIndex)
+        if (name.Contains("jerek") && jerekTurnClip != null)
         {
-            case 0:
-                PlaySFX(player1TurnClip);
-                break;
-            case 1:
-                PlaySFX(player2TurnClip);
-                break;
-            case 2:
-                PlaySFX(player3TurnClip);
-                break;
-            case 3:
-                PlaySFX(player4TurnClip);
-                break;
+            PlaySFX(jerekTurnClip);
+            return;
+        }
+
+        if (name.Contains("trikstan") && trikstanTurnClip != null)
+        {
+            PlaySFX(trikstanTurnClip);
+            return;
+        }
+
+        if (name.Contains("giggles") && drGigglesTurnClip != null)
+        {
+            PlaySFX(drGigglesTurnClip);
+            return;
         }
     }
+
+    switch (playerIndex)
+    {
+        case 0:
+            PlaySFX(player1TurnClip);
+            break;
+        case 1:
+            PlaySFX(player2TurnClip);
+            break;
+        case 2:
+            PlaySFX(player3TurnClip);
+            break;
+        case 3:
+            PlaySFX(player4TurnClip);
+            break;
+    }
+}
 
     public void PlayDiscardCard()
     {

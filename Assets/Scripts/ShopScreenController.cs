@@ -9,7 +9,7 @@ public class ShopScreenController : MonoBehaviour
     public int bestPrankChain = 0;
 
     public int specialistsUnlocked = 0;
-    public int totalSpecialists = 57;
+    public int totalSpecialists = 54;
     public int freeVersionAccess = 15;
     private bool fullRosterUnlocked = false;
 
