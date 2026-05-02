@@ -22,30 +22,32 @@ public class FavorSlotHoverTrigger : MonoBehaviour
     }
 
     void OnMouseEnter()
-{
-    Debug.Log("FAVOR SLOT HOVER ENTER | slot=" + favorSlotIndex);
+    {
+        Debug.Log("FAVOR SLOT HOVER ENTER | slot=" + favorSlotIndex);
 
-    if (favorAreaHover == null || favorAreaHover.deckManager == null)
-        return;
+        if (favorAreaHover == null || favorAreaHover.deckManager == null)
+            return;
 
-    if (favorAreaHover.deckManager.IsInteractionBlocked())
-        return;
+        if (favorAreaHover.deckManager.IsInteractionBlocked())
+            return;
 
-    if (!favorAreaHover.deckManager.CanHoverFavorArea())
-        return;
+        PranksterDeckEntry card = favorAreaHover.deckManager.GetFavorCardAtIndex(favorSlotIndex);
 
-    isHovering = true;
-    hoverTimer = 0f;
-    previewVisible = false;
+        if (card == null)
+            return;
 
-    if (preview != null)
-        preview.Hide();
+        isHovering = true;
+        hoverTimer = 0f;
+        previewVisible = false;
 
-    if (favorAreaHover.helperObject != null)
-        favorAreaHover.helperObject.SetActive(true);
+        if (preview != null)
+            preview.Hide();
 
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayFavorHover();
+        if (favorAreaHover.helperObject != null)
+            favorAreaHover.helperObject.SetActive(true);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayFavorHover();
 }
 
     void OnMouseExit()

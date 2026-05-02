@@ -3,8 +3,8 @@ guid: 643be31c8a1324706828cd521dd85706
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 289389414517290468
-    second: OperationFeatherfall_0
+      213: -1065143295493465984
+    second: OperationFeatherFall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OperationFeatherfall_0
+      name: OperationFeatherFall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e5bf06a32e140400800000000000000
-      internalID: 289389414517290468
+      spriteID: 088193de0d9d731f0800000000000000
+      internalID: -1065143295493465984
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      OperationFeatherfall_0: 289389414517290468
+      OperationFeatherFall_0: -1065143295493465984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -89775,9 +89775,10 @@ MonoBehaviour:
   m_text: "RULES\n\u2022 First player to complete 4 pranks ends the game\n\u2022
     Highest score wins\n\nFINAL SCORE\n\u2022 Prank points plus Favor points\n\u2022
     Favor points are based on the games final completed prank\n\nTURN OPTIONS\n\u2022
-    Draw from deck, then discard\n\u2022 Take discard, then discard\n\u2022 Offer
-    a prankster for favor points\n\u2022 Swap a prankster with opponent\n\u2022 Complete
-    a prank\n\nUNLOCKS\n\u2022 Favor. 15/50/100\n\u2022 Discards. 15/40/75 \n\u2022
+    Draw from deck, then discard\n\u2022 Take Top card of discard pile (if available),
+    then discard \n\u2022 Offer a prankster for favor points\n\u2022 Swap a prankster
+    with opponent (only when available)\n\u2022 Complete a prank (must have matching
+    pranksters)\n\nUNLOCKS\n\u2022 Favor. 15/50/100\n\u2022 Discards. 20/45/75 \n\u2022
     Complete Pranks with 4 Identical Pranksters. 1/5/10"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
