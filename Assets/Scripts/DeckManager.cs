@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.Video;
+using System.IO;
 
 
 
@@ -3780,14 +3781,13 @@ IEnumerator PlayWinCutsceneThenShowResults()
 {
     Debug.Log("PLAYING WIN CUTSCENE");
 
-    // Mute game audio (video still plays because it's Direct)
     AudioListener.pause = true;
+
+    bool finished = false;
+    bool videoError = false;
 
     if (winVideoPlayer != null)
     {
-        bool finished = false;
-
-        // Clear stale frame BEFORE showing anything
         if (winCutsceneRenderTexture != null)
         {
             RenderTexture.active = winCutsceneRenderTexture;
@@ -3795,14 +3795,19 @@ IEnumerator PlayWinCutsceneThenShowResults()
             RenderTexture.active = null;
         }
 
-        // Reset player state
+        string videoPath = Path.Combine(Application.streamingAssetsPath, "WinScene.mp4");
+        winVideoPlayer.source = VideoSource.Url;
+        winVideoPlayer.url = videoPath;
+
+        Debug.Log("WIN VIDEO PATH: " + videoPath);
+
         winVideoPlayer.Stop();
-        winVideoPlayer.frame = 0;
         winVideoPlayer.time = 0;
 
         void OnPrepared(VideoPlayer vp)
         {
-            // Show canvas only when video is ready
+            Debug.Log("WIN VIDEO PREPARED");
+
             if (winCutsceneCanvas != null)
                 winCutsceneCanvas.SetActive(true);
 
@@ -3811,32 +3816,45 @@ IEnumerator PlayWinCutsceneThenShowResults()
 
         void OnFinished(VideoPlayer vp)
         {
+            Debug.Log("WIN VIDEO FINISHED");
             finished = true;
         }
 
-        // Subscribe
+        void OnError(VideoPlayer vp, string message)
+        {
+            Debug.LogError("WIN VIDEO ERROR: " + message);
+            videoError = true;
+            finished = true;
+        }
+
         winVideoPlayer.prepareCompleted += OnPrepared;
         winVideoPlayer.loopPointReached += OnFinished;
+        winVideoPlayer.errorReceived += OnError;
 
-        // Begin preparing video
-        winVideoPlayer.Prepare();
-
-        // Dramatic delay BEFORE showing anything
         yield return new WaitForSecondsRealtime(0.75f);
 
-        // Wait until video finishes
-        while (!finished)
-            yield return null;
+        winVideoPlayer.Prepare();
 
-        // Cleanup
+        float timeout = 30f;
+        float timer = 0f;
+
+        while (!finished && !videoError && timer < timeout)
+        {
+            timer += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        if (timer >= timeout)
+            Debug.LogWarning("WIN VIDEO TIMEOUT - showing results");
+
         winVideoPlayer.prepareCompleted -= OnPrepared;
         winVideoPlayer.loopPointReached -= OnFinished;
+        winVideoPlayer.errorReceived -= OnError;
     }
 
     if (winCutsceneCanvas != null)
         winCutsceneCanvas.SetActive(false);
 
-    // Restore game audio
     AudioListener.pause = false;
 
     ShowFinalResultsUI();
