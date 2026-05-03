@@ -102,7 +102,7 @@ public static class PrankDatabase
                 title = "Manure Mischief",
                 requiredPranksters = new List<PranksterType> { PranksterType.Engineer, PranksterType.BeastMaster, PranksterType.Laborer, PranksterType.Thief },
                 renownPoints = 8,
-                favorMultiplier = 1,
+                favorMultiplier = 2,
                 cardSprite = Resources.Load<Sprite>("PrankCards/ManureMischief")
             },
 
@@ -165,7 +165,7 @@ public static class PrankDatabase
                 title = "Sinus Scorcher",
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Wizard, PranksterType.Engineer, PranksterType.Laborer },
                 renownPoints = 8,
-                favorMultiplier = 1,
+                favorMultiplier = 2,
                 cardSprite = Resources.Load<Sprite>("PrankCards/SinusScorcher")
             },
 

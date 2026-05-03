@@ -3,6 +3,9 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.Video;
+
+
 
 
 public class DeckManager : MonoBehaviour
@@ -126,6 +129,10 @@ public class DeckManager : MonoBehaviour
     private int pendingRoundDealerIndex = -1;
     private int pendingRoundFirstPlayerIndex = -1;
     private bool isEndOfRoundPending = false;
+
+    public VideoPlayer winVideoPlayer;
+    public GameObject winCutsceneCanvas;
+    public RenderTexture winCutsceneRenderTexture; 
 
     public bool IsGameOver()
     {
@@ -1711,6 +1718,7 @@ void TriggerEndGameScoring()
     gameOver = true;
 
     LogSeparator("GAME OVER TRIGGERED");
+
     Player endgamePlayer = turnManager.players[turnManager.currentPlayerIndex];
     string endgamePlayerName = endgamePlayer.playerName;
 
@@ -1729,21 +1737,32 @@ void TriggerEndGameScoring()
     CalculateFinalScores();
     Debug.Log("CalculateFinalScores COMPLETE");
 
-    
     ApplyPlayer1MatchResultsToSave();
     Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 
-    // Show end game canvas and scoring panel
+    int playerScore = turnManager.players[0].finalScore;
+
+    if (playerScore >= 40)
+    {
+        StartCoroutine(PlayWinCutsceneThenShowResults());
+        return;
+    }
+
+    ShowFinalResultsUI();
+
+    Debug.Log("TriggerEndGameScoring END");
+}
+
+void ShowFinalResultsUI()
+{
     if (endGameCanvas != null)
         endGameCanvas.SetActive(true);
 
     if (endGameScoringPanel != null)
         endGameScoringPanel.SetActive(true);
 
-    // Start entry animation after panel is active
     StartCoroutine(AnimateEndGamePanel());
 
-    // Set final prank image if available
     if (finalCompletedPrank != null && finalPrankImage != null)
     {
         finalPrankImage.sprite = finalCompletedPrank.cardSprite;
@@ -1753,20 +1772,18 @@ void TriggerEndGameScoring()
         Debug.LogWarning("Final prank image not assigned or finalCompletedPrank is NULL");
     }
 
-    // Fill the score table
     ShowGameOverPanel();
 
     DeclareWinnerByScore();
     Debug.Log("DeclareWinnerByScore COMPLETE");
 
-    // Disable gameplay layer so it cannot block clicks
     if (gameCanvas != null)
         gameCanvas.SetActive(false);
 
     if (endTurnButton != null)
         endTurnButton.SetActive(false);
 
-    Debug.Log("TriggerEndGameScoring END");
+    Debug.Log("ShowFinalResultsUI END");
 }
 
 void CalculateFinalScores()
@@ -3757,6 +3774,74 @@ public PranksterDeckEntry GetFavorCardAtIndex(int index)
         return null;
 
     return player.favorArea[index];
+}
+
+IEnumerator PlayWinCutsceneThenShowResults()
+{
+    Debug.Log("PLAYING WIN CUTSCENE");
+
+    // Mute game audio (video still plays because it's Direct)
+    AudioListener.pause = true;
+
+    if (winVideoPlayer != null)
+    {
+        bool finished = false;
+
+        // Clear stale frame BEFORE showing anything
+        if (winCutsceneRenderTexture != null)
+        {
+            RenderTexture.active = winCutsceneRenderTexture;
+            GL.Clear(true, true, Color.black);
+            RenderTexture.active = null;
+        }
+
+        // Reset player state
+        winVideoPlayer.Stop();
+        winVideoPlayer.frame = 0;
+        winVideoPlayer.time = 0;
+
+        void OnPrepared(VideoPlayer vp)
+        {
+            // Show canvas only when video is ready
+            if (winCutsceneCanvas != null)
+                winCutsceneCanvas.SetActive(true);
+
+            vp.Play();
+        }
+
+        void OnFinished(VideoPlayer vp)
+        {
+            finished = true;
+        }
+
+        // Subscribe
+        winVideoPlayer.prepareCompleted += OnPrepared;
+        winVideoPlayer.loopPointReached += OnFinished;
+
+        // Begin preparing video
+        winVideoPlayer.Prepare();
+
+        // Dramatic delay BEFORE showing anything
+        yield return new WaitForSecondsRealtime(0.75f);
+
+        // Wait until video finishes
+        while (!finished)
+            yield return null;
+
+        // Cleanup
+        winVideoPlayer.prepareCompleted -= OnPrepared;
+        winVideoPlayer.loopPointReached -= OnFinished;
+    }
+
+    if (winCutsceneCanvas != null)
+        winCutsceneCanvas.SetActive(false);
+
+    // Restore game audio
+    AudioListener.pause = false;
+
+    ShowFinalResultsUI();
+
+    Debug.Log("Win cutscene finished, final results shown.");
 }
 
 }
