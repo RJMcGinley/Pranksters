@@ -734,9 +734,9 @@ public static List<PranksterUnlockEntry> EvaluateFavorUnlocks(PlayerProgressSave
 
         int highestTier = 0;
 
-        if (discardTotal >= 75)
+        if (discardTotal >= 90)
             highestTier = 3;
-        else if (discardTotal >= 45)
+        else if (discardTotal >= 50)
             highestTier = 2;
         else if (discardTotal >= 20)
             highestTier = 1;

@@ -1743,7 +1743,7 @@ void TriggerEndGameScoring()
 
     int playerScore = turnManager.players[0].finalScore;
 
-    if (playerScore >= 40)
+    if (playerScore >= 150)
     {
         StartCoroutine(PlayWinCutsceneThenShowResults());
         return;

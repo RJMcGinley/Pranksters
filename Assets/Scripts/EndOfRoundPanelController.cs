@@ -32,7 +32,7 @@ public class EndOfRoundPanelController : MonoBehaviour
         if (bodyText != null)
         {
             bodyText.text =
-                "All prankster cards will be reshuffled.\n\n" +
+                "All recruit cards will be reshuffled.\n\n" +
                 "Four new pranks will be dealt.\n\n" +
                 dealerName + " will be the dealer.\n\n" +
                 firstPlayerName + " will start the next round.";

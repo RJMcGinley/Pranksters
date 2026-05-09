@@ -1,0 +1,3497 @@
+fileFormatVersion: 2
+guid: 8b76a79260cd44cb3be8886810b238a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 150086971757272781
+    second: Scout_0
+  - first:
+      213: -2996265002865890668
+    second: Scout_1
+  - first:
+      213: 7006539872192781739
+    second: Scout_2
+  - first:
+      213: 2129481072653361470
+    second: Scout_3
+  - first:
+      213: 4586404275920221819
+    second: Scout_4
+  - first:
+      213: -7328043060658446834
+    second: Scout_5
+  - first:
+      213: 964393744006034760
+    second: Scout_6
+  - first:
+      213: -8951140798723595138
+    second: Scout_7
+  - first:
+      213: 4017659801710983760
+    second: Scout_8
+  - first:
+      213: 7530695892065892108
+    second: Scout_9
+  - first:
+      213: 7520455150410945128
+    second: Scout_10
+  - first:
+      213: 207581266658720867
+    second: Scout_11
+  - first:
+      213: -8496188544659081101
+    second: Scout_12
+  - first:
+      213: 2046669347833060843
+    second: Scout_13
+  - first:
+      213: 900864847943322821
+    second: Scout_14
+  - first:
+      213: 1057517558549571433
+    second: Scout_15
+  - first:
+      213: -4063690518063566499
+    second: Scout_16
+  - first:
+      213: -2010671940650692518
+    second: Scout_17
+  - first:
+      213: -3352786925899959067
+    second: Scout_18
+  - first:
+      213: 935603526435495053
+    second: Scout_19
+  - first:
+      213: 6210059035144947757
+    second: Scout_20
+  - first:
+      213: 6339001983299868503
+    second: Scout_21
+  - first:
+      213: 4776194620400457239
+    second: Scout_22
+  - first:
+      213: -6591682858909370107
+    second: Scout_23
+  - first:
+      213: -6780165063605012667
+    second: Scout_24
+  - first:
+      213: -4762106192794109584
+    second: Scout_25
+  - first:
+      213: 7303334258851578794
+    second: Scout_26
+  - first:
+      213: -2771875260844095998
+    second: Scout_27
+  - first:
+      213: 3168860980454896327
+    second: Scout_28
+  - first:
+      213: 2548661536385410840
+    second: Scout_29
+  - first:
+      213: -4806834992880520815
+    second: Scout_30
+  - first:
+      213: -4157184084911012291
+    second: Scout_31
+  - first:
+      213: 8952783720495657121
+    second: Scout_32
+  - first:
+      213: 5526397147476651785
+    second: Scout_33
+  - first:
+      213: 6605369744885137565
+    second: Scout_34
+  - first:
+      213: 8432076811547773775
+    second: Scout_35
+  - first:
+      213: 8072445120604317117
+    second: Scout_36
+  - first:
+      213: -2655795606990928
+    second: Scout_37
+  - first:
+      213: 5932864907130951385
+    second: Scout_38
+  - first:
+      213: 2479018469314157492
+    second: Scout_39
+  - first:
+      213: -9186376520165798905
+    second: Scout_40
+  - first:
+      213: -8599201997071390592
+    second: Scout_41
+  - first:
+      213: 1679289021932634074
+    second: Scout_42
+  - first:
+      213: 1930638077554558677
+    second: Scout_43
+  - first:
+      213: -42833076923270501
+    second: Scout_44
+  - first:
+      213: -1109103742385419469
+    second: Scout_45
+  - first:
+      213: 3647114292855325827
+    second: Scout_46
+  - first:
+      213: 2298864451030793967
+    second: Scout_47
+  - first:
+      213: -5747241248875760718
+    second: Scout_48
+  - first:
+      213: -6177900686475949524
+    second: Scout_49
+  - first:
+      213: -4079056537728097017
+    second: Scout_50
+  - first:
+      213: -6865252197100184693
+    second: Scout_51
+  - first:
+      213: 4211708351584218514
+    second: Scout_52
+  - first:
+      213: 7804613522528951317
+    second: Scout_53
+  - first:
+      213: 9194282321655400478
+    second: Scout_54
+  - first:
+      213: 8456194478903032024
+    second: Scout_55
+  - first:
+      213: 2490886361412510117
+    second: Scout_56
+  - first:
+      213: 8992930524154558302
+    second: Scout_57
+  - first:
+      213: 2291270083421057781
+    second: Scout_58
+  - first:
+      213: -2529707057773142142
+    second: Scout_59
+  - first:
+      213: -5436714733626506032
+    second: Scout_60
+  - first:
+      213: -2658489603615182468
+    second: Scout_61
+  - first:
+      213: 4323954105205177768
+    second: Scout_62
+  - first:
+      213: 6592962807272088470
+    second: Scout_63
+  - first:
+      213: 8130022957881370354
+    second: Scout_64
+  - first:
+      213: 4713502604870676906
+    second: Scout_65
+  - first:
+      213: -1944677261249759150
+    second: Scout_66
+  - first:
+      213: -6779498201950532668
+    second: Scout_67
+  - first:
+      213: -1527795384164475506
+    second: Scout_68
+  - first:
+      213: 3145914796859039678
+    second: Scout_69
+  - first:
+      213: -7930625321506803945
+    second: Scout_70
+  - first:
+      213: 5515861358732707839
+    second: Scout_71
+  - first:
+      213: -5881521797624235495
+    second: Scout_72
+  - first:
+      213: 5276887608690340737
+    second: Scout_73
+  - first:
+      213: 4449324178793995759
+    second: Scout_74
+  - first:
+      213: -796576438923393980
+    second: Scout_75
+  - first:
+      213: 9207156961152794125
+    second: Scout_76
+  - first:
+      213: -9040003162800998818
+    second: Scout_77
+  - first:
+      213: 6253463346628654477
+    second: Scout_78
+  - first:
+      213: 1878463412333337198
+    second: Scout_79
+  - first:
+      213: 2115484962741854705
+    second: Scout_80
+  - first:
+      213: -5909129275543568637
+    second: Scout_81
+  - first:
+      213: 3310611676470360540
+    second: Scout_82
+  - first:
+      213: 5163246475485001021
+    second: Scout_83
+  - first:
+      213: -2293816036877591663
+    second: Scout_84
+  - first:
+      213: -4670534664467822253
+    second: Scout_85
+  - first:
+      213: 3939702581185755122
+    second: Scout_86
+  - first:
+      213: -2582997100903044242
+    second: Scout_87
+  - first:
+      213: 7401742113780656299
+    second: Scout_88
+  - first:
+      213: 7748425331655400678
+    second: Scout_89
+  - first:
+      213: -4911212034344372230
+    second: Scout_90
+  - first:
+      213: 4088966589367338867
+    second: Scout_91
+  - first:
+      213: -584510852876233493
+    second: Scout_92
+  - first:
+      213: 7972405322072808692
+    second: Scout_93
+  - first:
+      213: -6897938864315034900
+    second: Scout_94
+  - first:
+      213: -8894386653221323890
+    second: Scout_95
+  - first:
+      213: -5638989792461121298
+    second: Scout_96
+  - first:
+      213: -8480460833799769163
+    second: Scout_97
+  - first:
+      213: 441100572685875743
+    second: Scout_98
+  - first:
+      213: -6929269265327783127
+    second: Scout_99
+  - first:
+      213: -8883570851761778489
+    second: Scout_100
+  - first:
+      213: 3602180340500922512
+    second: Scout_101
+  - first:
+      213: 5296518111367563705
+    second: Scout_102
+  - first:
+      213: -5246849712741077803
+    second: Scout_103
+  - first:
+      213: -2905716793027138388
+    second: Scout_104
+  - first:
+      213: -1076051597297946520
+    second: Scout_105
+  - first:
+      213: 685792299669835593
+    second: Scout_106
+  - first:
+      213: 3629719564201598761
+    second: Scout_107
+  - first:
+      213: -4439765583815843686
+    second: Scout_108
+  - first:
+      213: 2704695723874978704
+    second: Scout_109
+  - first:
+      213: -5320456349222178478
+    second: Scout_110
+  - first:
+      213: 6271929115630761805
+    second: Scout_111
+  - first:
+      213: -6270178945618623353
+    second: Scout_112
+  - first:
+      213: -6373357349971375651
+    second: Scout_113
+  - first:
+      213: 2855110358631584912
+    second: Scout_114
+  - first:
+      213: 1930372662046501499
+    second: Scout_115
+  - first:
+      213: 7649485143572155182
+    second: Scout_116
+  - first:
+      213: 7497821737310392848
+    second: Scout_117
+  - first:
+      213: -440787862103857278
+    second: Scout_118
+  - first:
+      213: -3541721289310773570
+    second: Scout_119
+  - first:
+      213: 4495307977667093699
+    second: Scout_120
+  - first:
+      213: -7169887515113478727
+    second: Scout_121
+  - first:
+      213: -7546499710776484579
+    second: Scout_122
+  - first:
+      213: -4022733145473926359
+    second: Scout_123
+  - first:
+      213: -5708362639988792526
+    second: Scout_124
+  - first:
+      213: 5830094313125467100
+    second: Scout_125
+  - first:
+      213: 6799800647719718581
+    second: Scout_126
+  - first:
+      213: 3041023285662510849
+    second: Scout_127
+  - first:
+      213: -3463964105283122998
+    second: Scout_128
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scout_0
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 821
+        height: 2133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce910d3e47351200800000000000000
+      internalID: 150086971757272781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_1
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 1382
+        height: 2133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a6e33dad02b66d0800000000000000
+      internalID: -2996265002865890668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_2
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2124
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad59aa34ea3c3160800000000000000
+      internalID: 7006539872192781739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_3
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2123
+        width: 105
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31eb6bc0cf6d8d10800000000000000
+      internalID: 2129481072653361470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_4
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2122
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76be8e936e26af30800000000000000
+      internalID: 4586404275920221819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_5
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 689
+        width: 84
+        height: 1445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0edfa679af8d4a90800000000000000
+      internalID: -7328043060658446834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_6
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 0
+        width: 882
+        height: 2133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845b6172007326d00800000000000000
+      internalID: 964393744006034760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_7
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1504
+        width: 80
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74e2956ed827c380800000000000000
+      internalID: -8951140798723595138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_8
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a795d9d4891c730800000000000000
+      internalID: 4017659801710983760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_9
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07b416b308628860800000000000000
+      internalID: 7530695892065892108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2089
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862508d3d160e5860800000000000000
+      internalID: 7520455150410945128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_11
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2089
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cf73def0a71e200800000000000000
+      internalID: 207581266658720867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3783ada8889771a80800000000000000
+      internalID: -8496188544659081101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_13
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2073
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed154a9dea376c10800000000000000
+      internalID: 2046669347833060843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_14
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2056
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc4c446ec3808c00800000000000000
+      internalID: 900864847943322821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_15
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 2053
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967e515dd9e0dae00800000000000000
+      internalID: 1057517558549571433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_16
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 2047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51b2b1110fda97c0800000000000000
+      internalID: -4063690518063566499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_17
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2003
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a509ba1e588a814e0800000000000000
+      internalID: -2010671940650692518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_18
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2009
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4b8220e028871d0800000000000000
+      internalID: -3352786925899959067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_19
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2023
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c5ac3437eebfc00800000000000000
+      internalID: 935603526435495053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_20
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2005
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2805084acf8e2650800000000000000
+      internalID: 6210059035144947757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_21
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2026
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757d515e7b8a8f750800000000000000
+      internalID: 6339001983299868503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_22
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1988
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716d91fa3b3784240800000000000000
+      internalID: 4776194620400457239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1971
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509fca23d53a584a0800000000000000
+      internalID: -6591682858909370107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_24
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1954
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5473f492cc308e1a0800000000000000
+      internalID: -6780165063605012667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_25
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1937
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079b1dbf5a999edb0800000000000000
+      internalID: -4762106192794109584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1901
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa30ace40d7aa5560800000000000000
+      internalID: 7303334258851578794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_27
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1783
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206c1b3e2225889d0800000000000000
+      internalID: -2771875260844095998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_28
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1798
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c23c9ab54e0afb20800000000000000
+      internalID: 3168860980454896327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_29
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1783
+        width: 6
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81724f8f92aae5320800000000000000
+      internalID: 2548661536385410840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_30
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1751
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191707baa01ba4db0800000000000000
+      internalID: -4806834992880520815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1747
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c8f8b917be46c0800000000000000
+      internalID: -4157184084911012291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_32
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1730
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a03b032c5dae3c70800000000000000
+      internalID: 8952783720495657121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_33
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1698
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fe31fece4b1bc40800000000000000
+      internalID: 5526397147476651785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_34
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1667
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90cdf549ccfaab50800000000000000
+      internalID: 6605369744885137565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_35
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1642
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b0d1f5f21c40570800000000000000
+      internalID: 8432076811547773775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_36
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1620
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5a47a4116170070800000000000000
+      internalID: 8072445120604317117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_37
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1566
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfcf36619096fff0800000000000000
+      internalID: -2655795606990928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_38
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1582
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6dbe90335c55250800000000000000
+      internalID: 5932864907130951385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_39
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1546
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb5a17d92e376220800000000000000
+      internalID: 2479018469314157492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_40
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1487
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c4786f93f638080800000000000000
+      internalID: -9186376520165798905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_41
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1456
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088eabc185f79a880800000000000000
+      internalID: -8599201997071390592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_42
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff18bd7780e4710800000000000000
+      internalID: 1679289021932634074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d68b724a110bca10800000000000000
+      internalID: 1930638077554558677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_44
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1434
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9af9512b83d76ff0800000000000000
+      internalID: -42833076923270501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_45
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1430
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b8f08c50cab90f0800000000000000
+      internalID: -1109103742385419469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_46
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1411
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38444e840272d9230800000000000000
+      internalID: 3647114292855325827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_47
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1394
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feeb67ec90537ef10800000000000000
+      internalID: 2298864451030793967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_48
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1386
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3b94ac882bd30b0800000000000000
+      internalID: -5747241248875760718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_49
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1375
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a85fcbe00b34aa0800000000000000
+      internalID: -6177900686475949524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_50
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7056bf1d0b74467c0800000000000000
+      internalID: -4079056537728097017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_51
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1308
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b9f5a1089b9b0a0800000000000000
+      internalID: -6865252197100184693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_52
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1268
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d29b16e6ef27a30800000000000000
+      internalID: 4211708351584218514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_53
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1244
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c5c8be5ae8f4c60800000000000000
+      internalID: 7804613522528951317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e188ce2ee07a89f70800000000000000
+      internalID: 9194282321655400478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_55
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d872a263107a5570800000000000000
+      internalID: 8456194478903032024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_56
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1198
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1abdbc2f7619220800000000000000
+      internalID: 2490886361412510117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_57
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1141
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57fff54aae4dcc70800000000000000
+      internalID: 8992930524154558302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_58
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1147
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2bace400a3ccf10800000000000000
+      internalID: 2291270083421057781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_59
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1126
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f12ab75dca4ecd0800000000000000
+      internalID: -2529707057773142142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_60
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1118
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d44f0531c8ec84b0800000000000000
+      internalID: -5436714733626506032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_61
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1105
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71b2717ac52b1bd0800000000000000
+      internalID: -2658489603615182468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_62
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1090
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adb8d17955c10c30800000000000000
+      internalID: 4323954105205177768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_63
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1054
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693a0d00eb8ee7b50800000000000000
+      internalID: 6592962807272088470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_64
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1041
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f62a443ec4a3d070800000000000000
+      internalID: 8130022957881370354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_65
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1008
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1f13b55a9b96140800000000000000
+      internalID: 4713502604870676906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_66
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 987
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258bd60955e1305e0800000000000000
+      internalID: -1944677261249759150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_67
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 991
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbc65dfd426ae1a0800000000000000
+      internalID: -6779498201950532668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_68
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 957
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d1565513e2ccae0800000000000000
+      internalID: -1527795384164475506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_69
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 940
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf9d6807d888ab20800000000000000
+      internalID: 3145914796859039678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_70
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 921
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f6ed0d942c0f190800000000000000
+      internalID: -7930625321506803945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_71
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 854
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff701957ea64c8c40800000000000000
+      internalID: 5515861358732707839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_72
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 837
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91af3e13613a06ea0800000000000000
+      internalID: -5881521797624235495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_73
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 818
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183f5ab62554b3940800000000000000
+      internalID: 5276887608690340737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_74
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 805
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed929f54cc2fbd30800000000000000
+      internalID: 4449324178793995759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_75
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 811
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444868103fdf1f4f0800000000000000
+      internalID: -796576438923393980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_76
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 754
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ef6cc797466cf70800000000000000
+      internalID: 9207156961152794125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_77
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 733
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56b6d8f4057b8280800000000000000
+      internalID: -9040003162800998818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_78
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 701
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85f9bf08c3c8c650800000000000000
+      internalID: 6253463346628654477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_79
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 683
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a52bf5584a11a10800000000000000
+      internalID: 1878463412333337198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_80
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 692
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1a8e38d56bb5d10800000000000000
+      internalID: 2115484962741854705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_81
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 659
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f3d575b3e8efda0800000000000000
+      internalID: -5909129275543568637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_82
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 634
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9b64587c7a1fd20800000000000000
+      internalID: 3310611676470360540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_83
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 626
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35321b305987a740800000000000000
+      internalID: 5163246475485001021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_84
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 619
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b11d5b77aba20e0800000000000000
+      internalID: -2293816036877591663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_85
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 602
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3594f3dd77dee2fb0800000000000000
+      internalID: -4670534664467822253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_86
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 402
+        width: 25
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f73448cf92aca630800000000000000
+      internalID: 3939702581185755122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_87
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b6fc072d9572cd0800000000000000
+      internalID: -2582997100903044242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_88
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 534
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8e1f28c3548b660800000000000000
+      internalID: 7401742113780656299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_89
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 497
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec55f549cfe78b60800000000000000
+      internalID: 7748425331655400678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_90
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 482
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7b74cecaed7dbb0800000000000000
+      internalID: -4911212034344372230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_91
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 465
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3774ea1e27deeb830800000000000000
+      internalID: 4088966589367338867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_92
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 450
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be493f6e97663e7f0800000000000000
+      internalID: -584510852876233493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_93
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 433
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc559b966ca3ae60800000000000000
+      internalID: 7972405322072808692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_94
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 383
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2142656299540a0800000000000000
+      internalID: -6897938864315034900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_95
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 414
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b74cf967ac09480800000000000000
+      internalID: -8894386653221323890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_96
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 366
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee81d4019a84eb1b0800000000000000
+      internalID: -5638989792461121298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_97
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 389
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b370c59dc95f4a80800000000000000
+      internalID: -8480460833799769163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_98
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 332
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab92142aa1f1600800000000000000
+      internalID: 441100572685875743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_99
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9230b17e05a46df90800000000000000
+      internalID: -6929269265327783127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_100
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c099b3a06737b480800000000000000
+      internalID: -8883570851761778489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_101
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 277
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090047c3fe38df130800000000000000
+      internalID: 3602180340500922512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b98c7ef823018940800000000000000
+      internalID: 5296518111367563705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_103
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 236
+        width: 18
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc253a3cf17f27b0800000000000000
+      internalID: -5246849712741077803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_104
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 195
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caceabdc8f1dca7d0800000000000000
+      internalID: -2905716793027138388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_105
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 202
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860701ff5c81111f0800000000000000
+      internalID: -1076051597297946520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_106
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 194
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fc48b867c648900800000000000000
+      internalID: 685792299669835593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_107
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 127
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f958a66ba5f5230800000000000000
+      internalID: 3629719564201598761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_108
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 180
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90e6a279b8c262c0800000000000000
+      internalID: -4439765583815843686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_109
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b06174e62098520800000000000000
+      internalID: 2704695723874978704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 125
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251f3ada321f926b0800000000000000
+      internalID: -5320456349222178478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_111
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47f991fc4e5a0750800000000000000
+      internalID: 6271929115630761805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_112
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784c4444879dbf8a0800000000000000
+      internalID: -6270178945618623353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_113
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 97
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9c458f1494d87a0800000000000000
+      internalID: -6373357349971375651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_114
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09416c08eb36f9720800000000000000
+      internalID: 2855110358631584912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_115
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a286565bf0aca10800000000000000
+      internalID: 1930372662046501499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_116
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 129
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b0f39953e682a60800000000000000
+      internalID: 7649485143572155182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_117
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0129699152d9d0860800000000000000
+      internalID: 7497821737310392848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_118
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 62
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287eef956c102e9f0800000000000000
+      internalID: -440787862103857278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_119
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 129
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5131904749dec0800000000000000
+      internalID: -3541721289310773570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_120
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 51
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4a3dcd9ca826e30800000000000000
+      internalID: 4495307977667093699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_121
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 51
+        width: 18
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5272eea417f7c90800000000000000
+      internalID: -7169887515113478727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_122
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d54910f72754790800000000000000
+      internalID: -7546499710776484579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_123
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 21
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b36dd74816c28c0800000000000000
+      internalID: -4022733145473926359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_124
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2336b525c62d7c0b0800000000000000
+      internalID: -5708362639988792526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_125
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd35edc73e7a8e050800000000000000
+      internalID: 5830094313125467100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_126
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 10
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be0ec689aebd5e50800000000000000
+      internalID: 6799800647719718581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_127
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 0
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fea97f092e33a20800000000000000
+      internalID: 3041023285662510849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_128
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac845e5cff68defc0800000000000000
+      internalID: -3463964105283122998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Scout_0: 150086971757272781
+      Scout_1: -2996265002865890668
+      Scout_10: 7520455150410945128
+      Scout_100: -8883570851761778489
+      Scout_101: 3602180340500922512
+      Scout_102: 5296518111367563705
+      Scout_103: -5246849712741077803
+      Scout_104: -2905716793027138388
+      Scout_105: -1076051597297946520
+      Scout_106: 685792299669835593
+      Scout_107: 3629719564201598761
+      Scout_108: -4439765583815843686
+      Scout_109: 2704695723874978704
+      Scout_11: 207581266658720867
+      Scout_110: -5320456349222178478
+      Scout_111: 6271929115630761805
+      Scout_112: -6270178945618623353
+      Scout_113: -6373357349971375651
+      Scout_114: 2855110358631584912
+      Scout_115: 1930372662046501499
+      Scout_116: 7649485143572155182
+      Scout_117: 7497821737310392848
+      Scout_118: -440787862103857278
+      Scout_119: -3541721289310773570
+      Scout_12: -8496188544659081101
+      Scout_120: 4495307977667093699
+      Scout_121: -7169887515113478727
+      Scout_122: -7546499710776484579
+      Scout_123: -4022733145473926359
+      Scout_124: -5708362639988792526
+      Scout_125: 5830094313125467100
+      Scout_126: 6799800647719718581
+      Scout_127: 3041023285662510849
+      Scout_128: -3463964105283122998
+      Scout_13: 2046669347833060843
+      Scout_14: 900864847943322821
+      Scout_15: 1057517558549571433
+      Scout_16: -4063690518063566499
+      Scout_17: -2010671940650692518
+      Scout_18: -3352786925899959067
+      Scout_19: 935603526435495053
+      Scout_2: 7006539872192781739
+      Scout_20: 6210059035144947757
+      Scout_21: 6339001983299868503
+      Scout_22: 4776194620400457239
+      Scout_23: -6591682858909370107
+      Scout_24: -6780165063605012667
+      Scout_25: -4762106192794109584
+      Scout_26: 7303334258851578794
+      Scout_27: -2771875260844095998
+      Scout_28: 3168860980454896327
+      Scout_29: 2548661536385410840
+      Scout_3: 2129481072653361470
+      Scout_30: -4806834992880520815
+      Scout_31: -4157184084911012291
+      Scout_32: 8952783720495657121
+      Scout_33: 5526397147476651785
+      Scout_34: 6605369744885137565
+      Scout_35: 8432076811547773775
+      Scout_36: 8072445120604317117
+      Scout_37: -2655795606990928
+      Scout_38: 5932864907130951385
+      Scout_39: 2479018469314157492
+      Scout_4: 4586404275920221819
+      Scout_40: -9186376520165798905
+      Scout_41: -8599201997071390592
+      Scout_42: 1679289021932634074
+      Scout_43: 1930638077554558677
+      Scout_44: -42833076923270501
+      Scout_45: -1109103742385419469
+      Scout_46: 3647114292855325827
+      Scout_47: 2298864451030793967
+      Scout_48: -5747241248875760718
+      Scout_49: -6177900686475949524
+      Scout_5: -7328043060658446834
+      Scout_50: -4079056537728097017
+      Scout_51: -6865252197100184693
+      Scout_52: 4211708351584218514
+      Scout_53: 7804613522528951317
+      Scout_54: 9194282321655400478
+      Scout_55: 8456194478903032024
+      Scout_56: 2490886361412510117
+      Scout_57: 8992930524154558302
+      Scout_58: 2291270083421057781
+      Scout_59: -2529707057773142142
+      Scout_6: 964393744006034760
+      Scout_60: -5436714733626506032
+      Scout_61: -2658489603615182468
+      Scout_62: 4323954105205177768
+      Scout_63: 6592962807272088470
+      Scout_64: 8130022957881370354
+      Scout_65: 4713502604870676906
+      Scout_66: -1944677261249759150
+      Scout_67: -6779498201950532668
+      Scout_68: -1527795384164475506
+      Scout_69: 3145914796859039678
+      Scout_7: -8951140798723595138
+      Scout_70: -7930625321506803945
+      Scout_71: 5515861358732707839
+      Scout_72: -5881521797624235495
+      Scout_73: 5276887608690340737
+      Scout_74: 4449324178793995759
+      Scout_75: -796576438923393980
+      Scout_76: 9207156961152794125
+      Scout_77: -9040003162800998818
+      Scout_78: 6253463346628654477
+      Scout_79: 1878463412333337198
+      Scout_8: 4017659801710983760
+      Scout_80: 2115484962741854705
+      Scout_81: -5909129275543568637
+      Scout_82: 3310611676470360540
+      Scout_83: 5163246475485001021
+      Scout_84: -2293816036877591663
+      Scout_85: -4670534664467822253
+      Scout_86: 3939702581185755122
+      Scout_87: -2582997100903044242
+      Scout_88: 7401742113780656299
+      Scout_89: 7748425331655400678
+      Scout_9: 7530695892065892108
+      Scout_90: -4911212034344372230
+      Scout_91: 4088966589367338867
+      Scout_92: -584510852876233493
+      Scout_93: 7972405322072808692
+      Scout_94: -6897938864315034900
+      Scout_95: -8894386653221323890
+      Scout_96: -5638989792461121298
+      Scout_97: -8480460833799769163
+      Scout_98: 441100572685875743
+      Scout_99: -6929269265327783127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -79,10 +79,10 @@ public class StatisticsUI : MonoBehaviour
         }
 
         if (totalFavorText != null)
-            totalFavorText.text = $"Total Favor Points: {totalFavor}";
+            totalFavorText.text = $"Total Influence Gained: {totalFavor}";
 
         if (lifetimeScoreText != null)
-            lifetimeScoreText.text = $"Total Accumulated Victory Points: {data.lifetimeFinalScorePoints}";
+            lifetimeScoreText.text = $"Lifetime Notoriety: {data.lifetimeFinalScorePoints}";
 
         if (highestScoreText != null)
             highestScoreText.text = $"Highest Single Game Score: {data.highestSingleGameScore}";

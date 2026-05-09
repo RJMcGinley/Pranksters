@@ -320,8 +320,8 @@ public class BotManager : MonoBehaviour
     deckManager.BotDiscardCardFromHand(bestDiscardIndex);
 
     actionMessage =
-        "Took " + topCard + " from discard " +
-        "\nDiscarded: " + discardedCardName;
+        "Recruited " + topCard + " from discard " +
+        "\nDismissed: " + discardedCardName;
 
     return true;
 }
@@ -409,8 +409,8 @@ public class BotManager : MonoBehaviour
     deckManager.BotDiscardCardFromHand(discardIndex);
 
     actionMessage =
-        "Drew from deck\n" +
-        "Discarded: " + discardedCardName;
+        "Scouted from recruit deck\n" +
+        "Dismissed: " + discardedCardName;
 
     return true;
 }
@@ -888,11 +888,11 @@ bool TryOfferFavor(out string actionMessage)
 
         if (!allowLateRoundFavor)
         {
-            Debug.Log("BOT: Skipping favor (late round prefers progress)");
+            
             return false;
         }
 
-        Debug.Log("BOT: Late round favor allowed");
+        
     }
     else
     {
@@ -906,7 +906,7 @@ bool TryOfferFavor(out string actionMessage)
 
         if (decisionRoll > threshold)
         {
-            Debug.Log("BOT: Skipping offer favor due to randomness");
+            
             return false;
         }
     }
@@ -914,21 +914,12 @@ bool TryOfferFavor(out string actionMessage)
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayFavorClick();
 
-    Debug.Log("BOT: Offering favor " + bestCard.pranksterType +
-              " | tier=" + bestCard.tier +
-              " | category=" + bestCard.category +
-              " | favorValue=" + bestFavorValue);
-
-    Debug.Log("BOT: TryOfferFavor selected hand index " + bestIndex +
-              " card " + bestCard.pranksterType +
-              " | tier=" + bestCard.tier +
-              " | category=" + bestCard.category);
 
     deckManager.BotOfferFavor(bestIndex);
 
     actionMessage =
-        "Offered as favor:\n" +
-        GetBotCardDisplayName(bestCard);
+    "Circulated " + GetBotCardDisplayName(bestCard) +
+    "\nfor " + bestFavorValue + " Influence Points";
 
     return true;
 }
