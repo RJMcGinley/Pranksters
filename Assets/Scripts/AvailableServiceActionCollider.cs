@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class AvailableServiceActionCollider : MonoBehaviour
 {
+    [Header("References")]
+    [SerializeField] private DeckManager deckManager;
+    
     [Header("Action Identity")]
     [SerializeField] private string actionName;
 
@@ -13,6 +16,8 @@ public class AvailableServiceActionCollider : MonoBehaviour
     [SerializeField] private TMPro.TMP_Text descriptionText;
     [SerializeField] [TextArea] private string actionDescription;
     [SerializeField] private float hoverDelay = 0.5f;
+    [SerializeField] private GameObject retainServicesImage;
+    [SerializeField] private GameObject retainServicesGlow;
 
     private bool isHovering;
     private float hoverTimer;
@@ -28,6 +33,17 @@ public class AvailableServiceActionCollider : MonoBehaviour
             return;
 
         Debug.Log("Available Service action clicked: " + actionName);
+
+        if (actionName == "Retain Services")
+        {
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayMenuClick();
+
+            if (deckManager != null)
+            {
+                deckManager.CommitRetainedServices();
+            }
+        }
     }
 
     public void SetAvailable(bool available)
@@ -73,6 +89,12 @@ private void ShowDescription()
         }
     }
 
+    if (retainServicesImage != null)
+    retainServicesImage.SetActive(false);
+
+    if (retainServicesGlow != null)
+        retainServicesGlow.SetActive(false);
+
     if (descriptionText != null)
     {
         descriptionText.gameObject.SetActive(true);
@@ -90,6 +112,12 @@ private void HideDescription()
                 obj.SetActive(true);
         }
     }
+
+    if (retainServicesImage != null)
+    retainServicesImage.SetActive(true);
+
+    if (retainServicesGlow != null && isAvailable)
+        retainServicesGlow.SetActive(true);
 
     if (descriptionText != null)
     {

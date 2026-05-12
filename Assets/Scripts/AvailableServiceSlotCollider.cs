@@ -19,33 +19,37 @@ public class AvailableServiceSlotCollider : MonoBehaviour
         SetAvailable(isAvailable);
     }
 
-    void OnMouseDown()
+    
+void OnMouseDown()
+{
+    if (!isAvailable)
+        return;
+
+    if (deckManager != null && deckManager.IsInteractionBlocked())
+        return;
+
+    if (deckManager != null && deckManager.IsPrankPreviewOpen())
+        return;
+
+    if (servicesPanelController == null)
     {
-        if (!isAvailable)
-            return;
-
-        if (deckManager != null && deckManager.IsInteractionBlocked())
-            return;
-
-        if (deckManager != null && deckManager.IsPrankPreviewOpen())
-            return;
-
-        if (servicesPanelController == null)
-        {
-            Debug.LogWarning("AvailableServiceSlotCollider has no servicesPanelController assigned.");
-            return;
-        }
-
-        servicesPanelController.OnServiceSelected(serviceType);
-
-        SetAvailable(false);
-
-        if (deckManager != null)
-        {
-            deckManager.StartAvailableServiceTurn(serviceType);
-            deckManager.SetActiveAvailableServiceSlotCollider(this);
-        }
+        Debug.LogWarning("AvailableServiceSlotCollider has no servicesPanelController assigned.");
+        return;
     }
+
+    servicesPanelController.OnServiceSelected(serviceType);
+
+    if (deckManager != null && deckManager.CanStartAvailableServiceAction())
+    {
+        deckManager.StartAvailableServiceTurn(serviceType);
+        deckManager.SetActiveAvailableServiceSlotCollider(this);
+        SetAvailable(false);
+    }
+    else if (deckManager != null)
+    {
+        deckManager.ShowAvailableServiceStateOnly(serviceType);
+    }
+}
 
     public void SetAvailable(bool available)
     {

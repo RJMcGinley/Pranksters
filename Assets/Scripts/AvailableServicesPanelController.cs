@@ -99,4 +99,10 @@ public class AvailableServicesPanelController : MonoBehaviour
         if (panel != null)
             panel.SetActive(active);
     }
+
+    public void CloseAllServicePanels()
+    {
+        HideAllServicePanels();
+    }
+    
 }

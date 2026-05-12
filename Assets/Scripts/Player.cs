@@ -9,6 +9,7 @@ public class Player
     public int renownPoints = 0;
     public int finalScore = 0;
     public string playerName = "";
+    public List<AvailableServicesRetainedServiceGroup> retainedServices = new List<AvailableServicesRetainedServiceGroup>();
 
     public bool isBot = false;
 }

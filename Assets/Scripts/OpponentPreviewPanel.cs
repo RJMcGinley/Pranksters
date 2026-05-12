@@ -51,6 +51,12 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
 {
+    if (deckManager != null && deckManager.IsChoosingAvailableService())
+        return;
+
+    if (previewPanelHighlight != null && !isLockedForSwap)
+        previewPanelHighlight.SetActive(false);
+
     if (previewPanelHighlight != null && !isLockedForSwap)
         previewPanelHighlight.SetActive(false);
 

@@ -29,15 +29,18 @@ public class PrankHoverPreview : MonoBehaviour
             prankHighlight.SetActive(shouldGlow);
     }
 
-    bool IsHoverBlocked()
+   bool IsHoverBlocked()
     {
-    if (deckManager != null && deckManager.IsInteractionBlocked())
-        return true;
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return true;
 
-    if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
-        return true;
+        if (deckManager != null && deckManager.IsChoosingAvailableService())
+            return true;
 
-    return false;
+        if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+            return true;
+
+        return false;
     }
 
     void OnMouseEnter()

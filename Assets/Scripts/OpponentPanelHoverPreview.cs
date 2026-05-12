@@ -28,6 +28,9 @@ public class OpponentPanelHoverPreview : MonoBehaviour
         if (deckManager != null && deckManager.IsInteractionBlocked())
             return;
 
+        if (deckManager != null && deckManager.IsChoosingAvailableService())
+            return;
+
         Debug.Log("OPPONENT HOVER ENTER on: " + GetPath());
 
         if (previewPanel != null && sourcePanel != null)
@@ -58,8 +61,11 @@ public class OpponentPanelHoverPreview : MonoBehaviour
     }
 
     void OnMouseDown()
-    {
-        if (deckManager != null && deckManager.IsInteractionBlocked())
-            return;
-    }
+{
+    if (deckManager != null && deckManager.IsInteractionBlocked())
+        return;
+
+    if (deckManager != null && deckManager.IsChoosingAvailableService())
+        return;
+}
 }

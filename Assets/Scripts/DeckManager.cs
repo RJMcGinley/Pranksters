@@ -139,6 +139,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] private AvailableServicesAssignmentManager availableServicesAssignmentManager;
     private List<int> temporarilyAssignedServiceHandIndexes = new List<int>();
     private AvailableServiceSlotCollider activeAvailableServiceSlotCollider;
+    [SerializeField] private AvailableServicesPanelController availableServicesPanelController;
 
     public bool IsGameOver()
     {
@@ -3932,7 +3933,7 @@ void ResolveAvailableServiceCardChoice(int handIndex)
     if (availableServicesAssignmentManager != null)
     {
         assignedSuccessfully =
-            availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt);
+            availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt, selectedCard);
     }
     else
     {
@@ -3946,6 +3947,12 @@ void ResolveAvailableServiceCardChoice(int handIndex)
     }
 
     temporarilyAssignedServiceHandIndexes.Add(handIndex);
+    if (availableServicesAssignmentManager != null)
+    {
+        availableServicesAssignmentManager.SetRetainServicesAvailable(
+            temporarilyAssignedServiceHandIndexes.Count > 0
+        );
+    }
 
     handDisplay.ShowCurrentPlayerHand();
 
@@ -3966,6 +3973,36 @@ public void StartAvailableServiceTurn(PranksterType serviceType)
     }
 
     selectedAvailableServiceType = serviceType;
+
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup retainedGroup = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == serviceType)
+        {
+            retainedGroup = group;
+            break;
+        }
+    }
+
+    if (availableServicesAssignmentManager != null)
+    {
+        if (retainedGroup != null)
+        {
+            availableServicesAssignmentManager.DisplayRetainedCardsForService(
+                serviceType,
+                retainedGroup.assignedCards
+            );
+        }
+        else
+        {
+            availableServicesAssignmentManager.ClearAllAssignments();
+        }
+
+        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+    }
 
     pendingChoice = PendingChoiceType.ChooseAvailableServiceCard;
 
@@ -3991,6 +4028,7 @@ public void CancelAvailableServicesSelection()
     if (availableServicesAssignmentManager != null)
     {
         availableServicesAssignmentManager.ClearAllAssignments();
+        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
     }
 
     if (activeAvailableServiceSlotCollider != null)
@@ -4007,6 +4045,147 @@ public void CancelAvailableServicesSelection()
 public void SetActiveAvailableServiceSlotCollider(AvailableServiceSlotCollider slotCollider)
 {
     activeAvailableServiceSlotCollider = slotCollider;
+}
+
+public void CommitRetainedServices()
+{
+    Debug.Log("CommitRetainedServices called.");
+
+    if (availableServicesAssignmentManager == null)
+    {
+        Debug.LogWarning("Cannot commit retained services. AvailableServicesAssignmentManager is missing.");
+        return;
+    }
+
+    Player player = GetCurrentPlayer();
+
+    if (temporarilyAssignedServiceHandIndexes.Count == 0)
+    {
+        Debug.Log("Cannot retain services. No new service cards were added this turn.");
+        return;
+    }
+
+    List<PranksterDeckEntry> newlyAssignedCards = new List<PranksterDeckEntry>();
+
+    foreach (int handIndex in temporarilyAssignedServiceHandIndexes)
+    {
+        if (handIndex >= 0 && handIndex < player.hand.Count)
+        {
+            PranksterDeckEntry card = player.hand[handIndex];
+
+            newlyAssignedCards.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+        }
+    }
+
+    if (newlyAssignedCards.Count == 0)
+    {
+        Debug.LogWarning("No valid newly assigned service cards found in hand.");
+        return;
+    }
+
+    AvailableServicesRetainedServiceGroup group = null;
+
+    foreach (AvailableServicesRetainedServiceGroup existingGroup in player.retainedServices)
+    {
+        if (existingGroup.serviceType == selectedAvailableServiceType)
+        {
+            group = existingGroup;
+            break;
+        }
+    }
+
+    if (group == null)
+    {
+        group = new AvailableServicesRetainedServiceGroup();
+        group.serviceType = selectedAvailableServiceType;
+        player.retainedServices.Add(group);
+    }
+
+    foreach (PranksterDeckEntry card in newlyAssignedCards)
+    {
+        group.assignedCards.Add(card);
+    }
+
+    temporarilyAssignedServiceHandIndexes.Sort();
+    temporarilyAssignedServiceHandIndexes.Reverse();
+
+    foreach (int handIndex in temporarilyAssignedServiceHandIndexes)
+    {
+        if (handIndex >= 0 && handIndex < player.hand.Count)
+        {
+            player.hand.RemoveAt(handIndex);
+        }
+    }
+
+    temporarilyAssignedServiceHandIndexes.Clear();
+
+    availableServicesAssignmentManager.ClearAllAssignments();
+    availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+
+    if (activeAvailableServiceSlotCollider != null)
+    {
+        activeAvailableServiceSlotCollider.SetAvailable(true);
+        activeAvailableServiceSlotCollider = null;
+    }
+
+    if (availableServicesPanelController != null)
+    {
+        availableServicesPanelController.CloseAllServicePanels();
+    }
+
+    Debug.Log("Retained " + newlyAssignedCards.Count +
+              " new service card(s) for " + selectedAvailableServiceType +
+              " on player " + turnManager.currentPlayerIndex +
+              ". Total retained now: " + group.assignedCards.Count);
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public void ShowAvailableServiceStateOnly(PranksterType serviceType)
+{
+    selectedAvailableServiceType = serviceType;
+
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup retainedGroup = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == serviceType)
+        {
+            retainedGroup = group;
+            break;
+        }
+    }
+
+    if (availableServicesAssignmentManager != null)
+    {
+        if (retainedGroup != null)
+        {
+            availableServicesAssignmentManager.DisplayRetainedCardsForService(
+                serviceType,
+                retainedGroup.assignedCards
+            );
+        }
+        else
+        {
+            availableServicesAssignmentManager.ClearAllAssignments();
+        }
+
+        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+    }
+
+    Debug.Log("Showing Available Service state only for: " + serviceType);
+}
+
+public bool CanStartAvailableServiceAction()
+{
+    return pendingChoice == PendingChoiceType.ChooseAction;
 }
 
 }

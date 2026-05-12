@@ -6,13 +6,14 @@ public class AvailableServicesServiceCardSlot : MonoBehaviour
     public Transform cardSpawnPoint;
 
     private GameObject assignedVisual;
+    private PranksterDeckEntry assignedCard;
 
     public bool IsEmpty()
     {
         return assignedVisual == null;
     }
 
-    public void AssignVisual(GameObject visualPrefab, Sprite cardArt)
+    public void AssignVisual(GameObject visualPrefab, Sprite cardArt, PranksterDeckEntry card)
     {
         if (!IsEmpty())
             return;
@@ -28,6 +29,13 @@ public class AvailableServicesServiceCardSlot : MonoBehaviour
             Debug.LogWarning("ServiceCardSlot missing CardSpawnPoint.");
             return;
         }
+
+        assignedCard = new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        };
 
         assignedVisual = Instantiate(visualPrefab, cardSpawnPoint);
         assignedVisual.transform.localPosition = Vector3.zero;
@@ -58,5 +66,26 @@ public class AvailableServicesServiceCardSlot : MonoBehaviour
             Destroy(assignedVisual);
             assignedVisual = null;
         }
+
+        assignedCard = null;
     }
+
+    public bool HasAssignedCard()
+    {
+        return assignedCard != null;
+    }
+
+    public PranksterDeckEntry GetAssignedCardCopy()
+    {
+        if (assignedCard == null)
+            return null;
+
+        return new PranksterDeckEntry
+        {
+            pranksterType = assignedCard.pranksterType,
+            tier = assignedCard.tier,
+            category = assignedCard.category
+        };
+    }
+
 }
