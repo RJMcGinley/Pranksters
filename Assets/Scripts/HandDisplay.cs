@@ -14,6 +14,10 @@ public class HandDisplay : MonoBehaviour
     public Sprite scribeSprite;
     public Sprite thiefSprite;
     public Sprite wizardSprite;
+    [Header("Beastmaster Action Glows")]
+    public GameObject immediateActionGlow;
+    public GameObject scoringActionGlow;
+    public GameObject ongoingActionGlow;
 
     public void ShowCurrentPlayerHand()
     {
@@ -47,14 +51,20 @@ public class HandDisplay : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
+            if (deckManager != null &&
+                deckManager.IsHandCardTemporarilyAssignedToService(i))
+            {
+                continue;
+            }
+
             float x = startX + i * spacing;
             Sprite art = GetSpriteForEntry(hand[i]);
 
             Debug.Log("HAND DISPLAY | slot=" + i +
-                      " | type=" + hand[i].pranksterType +
-                      " | tier=" + hand[i].tier +
-                      " | category=" + hand[i].category +
-                      " | sprite=" + (art != null ? art.name : "NULL"));
+                    " | type=" + hand[i].pranksterType +
+                    " | tier=" + hand[i].tier +
+                    " | category=" + hand[i].category +
+                    " | sprite=" + (art != null ? art.name : "NULL"));
 
             CreateCard(art, hand[i].tier, new Vector3(x, yOffset, 0), i);
         }

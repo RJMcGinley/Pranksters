@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 174ca168dd9d840e5aceaed66ec2dcff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6161651263948390147
+    second: AvailableServicesBackButton_0
+  - first:
+      213: 1240023176176964894
+    second: AvailableServicesBackButton_1
+  - first:
+      213: -299909682659653918
+    second: AvailableServicesBackButton_2
+  - first:
+      213: -7271783201355718884
+    second: AvailableServicesBackButton_3
+  - first:
+      213: -9123558682103346753
+    second: AvailableServicesBackButton_4
+  - first:
+      213: 4470242819808328109
+    second: AvailableServicesBackButton_5
+  - first:
+      213: 3048925476653597035
+    second: AvailableServicesBackButton_6
+  - first:
+      213: -5898617857690218524
+    second: AvailableServicesBackButton_7
+  - first:
+      213: 8632523367771043878
+    second: AvailableServicesBackButton_8
+  - first:
+      213: -6310513982709406581
+    second: AvailableServicesBackButton_9
+  - first:
+      213: -2130843281276235590
+    second: AvailableServicesBackButton_10
+  - first:
+      213: 28929953594156214
+    second: AvailableServicesBackButton_11
+  - first:
+      213: -7462117456232993217
+    second: AvailableServicesBackButton_12
+  - first:
+      213: 2543830346553782841
+    second: AvailableServicesBackButton_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0058e32da6d7aa0800000000000000
+      internalID: -6161651263948390147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 394
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1597414282753110800000000000000
+      internalID: 1240023176176964894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 365
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e60f5c8bb186dbf0800000000000000
+      internalID: -299909682659653918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 125
+        width: 317
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f1a87b4bf651b90800000000000000
+      internalID: -7271783201355718884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 375
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb98cc1a7bb926180800000000000000
+      internalID: -9123558682103346753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 340
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da97a66092e790e30800000000000000
+      internalID: 4470242819808328109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 12
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61839e2195ff4a20800000000000000
+      internalID: 3048925476653597035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 271
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef49968f46e32ea0800000000000000
+      internalID: -5898617857690218524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 256
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62870431442ecc770800000000000000
+      internalID: 8632523367771043878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 74
+        width: 101
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84687e97fc8c68a0800000000000000
+      internalID: -6310513982709406581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 88
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0908b4359bd62e0800000000000000
+      internalID: -2130843281276235590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 60
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b42957b3a7c66000800000000000000
+      internalID: 28929953594156214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 44
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eadf4a5bb317890800000000000000
+      internalID: -7462117456232993217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AvailableServicesBackButton_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932723fe8308d4320800000000000000
+      internalID: 2543830346553782841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AvailableServicesBackButton_0: -6161651263948390147
+      AvailableServicesBackButton_1: 1240023176176964894
+      AvailableServicesBackButton_10: -2130843281276235590
+      AvailableServicesBackButton_11: 28929953594156214
+      AvailableServicesBackButton_12: -7462117456232993217
+      AvailableServicesBackButton_13: 2543830346553782841
+      AvailableServicesBackButton_2: -299909682659653918
+      AvailableServicesBackButton_3: -7271783201355718884
+      AvailableServicesBackButton_4: -9123558682103346753
+      AvailableServicesBackButton_5: 4470242819808328109
+      AvailableServicesBackButton_6: 3048925476653597035
+      AvailableServicesBackButton_7: -5898617857690218524
+      AvailableServicesBackButton_8: 8632523367771043878
+      AvailableServicesBackButton_9: -6310513982709406581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

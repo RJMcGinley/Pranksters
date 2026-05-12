@@ -8,5 +8,6 @@ public enum PendingChoiceType
     ChooseSwapOpponent,
     ChooseSwapHandCard,
     ChooseSwapTarget,
-    ChoosePrankToComplete
+    ChoosePrankToComplete,
+    ChooseAvailableServiceCard
 }

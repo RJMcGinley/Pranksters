@@ -29,7 +29,8 @@ public class HandCardClick : MonoBehaviour
 
         if (!deckManager.IsInDiscardSelection() &&
             !deckManager.IsChoosingFavor() &&
-            !deckManager.IsInSwapHandSelection())
+            !deckManager.IsInSwapHandSelection() &&
+            !deckManager.IsChoosingAvailableService())
             return;
 
         transform.localScale = originalScale * 1.1f;
@@ -85,7 +86,8 @@ public class HandCardClick : MonoBehaviour
 
         if (!deckManager.IsInDiscardSelection() &&
             !deckManager.IsChoosingFavor() &&
-            !deckManager.IsInSwapHandSelection())
+            !deckManager.IsInSwapHandSelection() &&
+            !deckManager.IsChoosingAvailableService())
             return;
 
         deckManager.OnHandCardClicked(cardIndex);

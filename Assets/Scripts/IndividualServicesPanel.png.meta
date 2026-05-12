@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 51c983a2033ae49c5991f53efe95daa4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3074899460726832560
+    second: IndividualServicesPanel_0
+  - first:
+      213: 5039825358271559972
+    second: IndividualServicesPanel_1
+  - first:
+      213: -704039073660154835
+    second: IndividualServicesPanel_2
+  - first:
+      213: -1643580034017755990
+    second: IndividualServicesPanel_3
+  - first:
+      213: 7760841726175955240
+    second: IndividualServicesPanel_4
+  - first:
+      213: -8150169602838551033
+    second: IndividualServicesPanel_5
+  - first:
+      213: 2797037005035359055
+    second: IndividualServicesPanel_6
+  - first:
+      213: -6359923335941538378
+    second: IndividualServicesPanel_7
+  - first:
+      213: 5555725154489596240
+    second: IndividualServicesPanel_8
+  - first:
+      213: -3872521055801882875
+    second: IndividualServicesPanel_9
+  - first:
+      213: 6528885756224966138
+    second: IndividualServicesPanel_10
+  - first:
+      213: -3096349446714161068
+    second: IndividualServicesPanel_11
+  - first:
+      213: 7726849574032253083
+    second: IndividualServicesPanel_12
+  - first:
+      213: 4760661955832903859
+    second: IndividualServicesPanel_13
+  - first:
+      213: -4326594044583408312
+    second: IndividualServicesPanel_14
+  - first:
+      213: 4587077009212124054
+    second: IndividualServicesPanel_15
+  - first:
+      213: 3666570886157901211
+    second: IndividualServicesPanel_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IndividualServicesPanel_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 26
+        width: 1041
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05246536b33c355d0800000000000000
+      internalID: -3074899460726832560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 623
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42938c1167e01f540800000000000000
+      internalID: 5039825358271559972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 571
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ccd725130ca36f0800000000000000
+      internalID: -704039073660154835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 555
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac7278caa4d039e0800000000000000
+      internalID: -1643580034017755990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 506
+        width: 9
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8294fb66e6c04bb60800000000000000
+      internalID: 7760841726175955240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 497
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7062f9b7de7c4ee80800000000000000
+      internalID: -8150169602838551033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_6
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 462
+        width: 8
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b41c4365211d620800000000000000
+      internalID: 2797037005035359055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 418
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdbc7a1c630db7a0800000000000000
+      internalID: -6359923335941538378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 374
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059fd0fa796e91d40800000000000000
+      internalID: 5555725154489596240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 350
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50745b30e9a024ac0800000000000000
+      internalID: -3872521055801882875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd85e6f0034b9a50800000000000000
+      internalID: 6528885756224966138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 303
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4580028559e8705d0800000000000000
+      internalID: -3096349446714161068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_12
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 242
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90221dbfb84b3b60800000000000000
+      internalID: 7726849574032253083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 167
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8f22563d4411240800000000000000
+      internalID: 4760661955832903859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_14
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d0945c3a9d4f3c0800000000000000
+      internalID: -4326594044583408312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_15
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 134
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b237b8c3298af30800000000000000
+      internalID: 4587077009212124054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IndividualServicesPanel_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 134
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d1b3d6bc642e230800000000000000
+      internalID: 3666570886157901211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IndividualServicesPanel_0: -3074899460726832560
+      IndividualServicesPanel_1: 5039825358271559972
+      IndividualServicesPanel_10: 6528885756224966138
+      IndividualServicesPanel_11: -3096349446714161068
+      IndividualServicesPanel_12: 7726849574032253083
+      IndividualServicesPanel_13: 4760661955832903859
+      IndividualServicesPanel_14: -4326594044583408312
+      IndividualServicesPanel_15: 4587077009212124054
+      IndividualServicesPanel_16: 3666570886157901211
+      IndividualServicesPanel_2: -704039073660154835
+      IndividualServicesPanel_3: -1643580034017755990
+      IndividualServicesPanel_4: 7760841726175955240
+      IndividualServicesPanel_5: -8150169602838551033
+      IndividualServicesPanel_6: 2797037005035359055
+      IndividualServicesPanel_7: -6359923335941538378
+      IndividualServicesPanel_8: 5555725154489596240
+      IndividualServicesPanel_9: -3872521055801882875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

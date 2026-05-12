@@ -32,7 +32,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip favorRewardClip;
     public AudioClip cancelActionClip;
     public AudioClip completePrankBannerDropClip;
-    public AudioClip completePrankClip;
+    public AudioClip completePrankClip; 
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;

@@ -135,6 +135,11 @@ public class DeckManager : MonoBehaviour
     public GameObject winCutsceneCanvas;
     public RenderTexture winCutsceneRenderTexture; 
 
+    private PranksterType selectedAvailableServiceType;
+    [SerializeField] private AvailableServicesAssignmentManager availableServicesAssignmentManager;
+    private List<int> temporarilyAssignedServiceHandIndexes = new List<int>();
+    private AvailableServiceSlotCollider activeAvailableServiceSlotCollider;
+
     public bool IsGameOver()
     {
         return gameOver;
@@ -978,6 +983,15 @@ void Update()
         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveSwapHandChoice(4); return; }
     }
 
+    if (pendingChoice == PendingChoiceType.ChooseAvailableServiceCard)
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveAvailableServiceCardChoice(0); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveAvailableServiceCardChoice(1); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveAvailableServiceCardChoice(2); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveAvailableServiceCardChoice(3); return; }
+        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveAvailableServiceCardChoice(4); return; }
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.P))
     {
         LogSeparator("PLAYER ACTION: Draw from prankster deck");
@@ -1011,6 +1025,20 @@ void Update()
     if (Input.GetKeyDown(KeyCode.G))
     {
         PrintGameState();
+    }
+
+    if (Input.GetKeyDown(KeyCode.B))
+    {
+        Debug.Log("B pressed. Current pendingChoice = " + pendingChoice);
+
+        if (pendingChoice == PendingChoiceType.ChooseAction)
+        {
+            StartAvailableServiceTurn(PranksterType.BeastMaster);
+        }
+        else
+        {
+            return;
+        }
     }
 }
 
@@ -2536,6 +2564,12 @@ public void OnHandCardClicked(int index)
         return;
     }
 
+    if (pendingChoice == PendingChoiceType.ChooseAvailableServiceCard)
+    {
+        ResolveAvailableServiceCardChoice(index);
+        return;
+    }
+
     Debug.Log("Hand click ignored: not in valid state.");
 }
 
@@ -2922,7 +2956,6 @@ public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 
     if (pendingChoice != PendingChoiceType.ChooseAction)
     {
-        Debug.Log("FAIL: pendingChoice is not ChooseAction");
         return false;
     }
 
@@ -3860,6 +3893,120 @@ IEnumerator PlayWinCutsceneThenShowResults()
     ShowFinalResultsUI();
 
     Debug.Log("Win cutscene finished, final results shown.");
+}
+
+public bool IsChoosingAvailableService()
+{
+    return pendingChoice == PendingChoiceType.ChooseAvailableServiceCard;
+}
+
+void ResolveAvailableServiceCardChoice(int handIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseAvailableServiceCard)
+        return;
+
+    Player player = GetCurrentPlayer();
+
+    if (handIndex < 0 || handIndex >= player.hand.Count)
+    {
+        Debug.Log("Invalid Available Service hand index: " + handIndex);
+        return;
+    }
+
+    if (temporarilyAssignedServiceHandIndexes.Contains(handIndex))
+    {
+        Debug.Log("That hand card is already assigned to Available Services.");
+        return;
+    }
+
+    PranksterDeckEntry selectedCard = player.hand[handIndex];
+
+    Sprite cardArt = PranksterSpriteDatabase.GetSprite(
+        selectedCard.pranksterType,
+        selectedCard.tier,
+        selectedCard.category
+    );
+
+    bool assignedSuccessfully = false;
+
+    if (availableServicesAssignmentManager != null)
+    {
+        assignedSuccessfully =
+            availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt);
+    }
+    else
+    {
+        Debug.LogWarning("AvailableServicesAssignmentManager is not assigned in DeckManager.");
+    }
+
+    if (!assignedSuccessfully)
+    {
+        Debug.Log("Available Service assignment failed.");
+        return;
+    }
+
+    temporarilyAssignedServiceHandIndexes.Add(handIndex);
+
+    handDisplay.ShowCurrentPlayerHand();
+
+    Debug.Log("Available Service choice selected: hand index " + handIndex +
+              " | type=" + selectedCard.pranksterType +
+              " | tier=" + selectedCard.tier +
+              " | category=" + selectedCard.category);
+
+    Debug.Log("Available Service visual assigned. Still choosing more cards for layout testing.");
+}
+
+public void StartAvailableServiceTurn(PranksterType serviceType)
+{
+    if (pendingChoice != PendingChoiceType.ChooseAction)
+    {
+        Debug.Log("Cannot start Available Service right now.");
+        return;
+    }
+
+    selectedAvailableServiceType = serviceType;
+
+    pendingChoice = PendingChoiceType.ChooseAvailableServiceCard;
+
+    Debug.Log("Starting Available Service selection for: " + serviceType);
+
+    RefreshAllHighlights();
+    ShowCurrentPlayerHand();
+}
+
+public bool IsHandCardTemporarilyAssignedToService(int handIndex)
+{
+    return temporarilyAssignedServiceHandIndexes.Contains(handIndex);
+}
+
+public void CancelAvailableServicesSelection()
+{
+    Debug.Log("Canceling Available Services selection.");
+
+    pendingChoice = PendingChoiceType.ChooseAction;
+
+    temporarilyAssignedServiceHandIndexes.Clear();
+
+    if (availableServicesAssignmentManager != null)
+    {
+        availableServicesAssignmentManager.ClearAllAssignments();
+    }
+
+    if (activeAvailableServiceSlotCollider != null)
+    {
+        activeAvailableServiceSlotCollider.SetAvailable(true);
+        activeAvailableServiceSlotCollider = null;
+    }
+
+    handDisplay.ShowCurrentPlayerHand();
+
+    RefreshAllHighlights();
+}
+
+public void SetActiveAvailableServiceSlotCollider(AvailableServiceSlotCollider slotCollider)
+{
+    activeAvailableServiceSlotCollider = slotCollider;
 }
 
 }
