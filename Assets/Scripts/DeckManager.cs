@@ -1316,6 +1316,8 @@ void ResetRound()
     }
     discardPile.Clear();
 
+    ReturnRetainedServiceCardsToDeck();
+
     // Shuffle prankster deck
     ShufflePranksterDeck();
 
@@ -2926,6 +2928,8 @@ IEnumerator ResetRoundSequence()
     }
     discardPile.Clear();
 
+    ReturnRetainedServiceCardsToDeck();
+
     ShufflePranksterDeck();
 
     yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
@@ -4286,6 +4290,50 @@ IEnumerator FinishCompletePrankSequence()
     }
 
     Debug.Log("FinishCompletePrankSequence END | isEndOfRoundPending = " + isEndOfRoundPending);
+}
+
+void ReturnRetainedServiceCardsToDeck()
+{
+    int returnedCount = 0;
+
+    if (turnManager == null || turnManager.players == null)
+        return;
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        Player player = turnManager.players[i];
+
+        if (player == null || player.retainedServices == null)
+            continue;
+
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+        {
+            if (group == null || group.assignedCards == null)
+                continue;
+
+            foreach (PranksterDeckEntry entry in group.assignedCards)
+            {
+                if (entry == null)
+                    continue;
+
+                deck.Add(new PranksterDeckEntry
+                {
+                    pranksterType = entry.pranksterType,
+                    tier = entry.tier,
+                    category = entry.category
+                });
+
+                returnedCount++;
+            }
+        }
+
+        player.retainedServices.Clear();
+    }
+
+    if (availableServicesAssignmentManager != null)
+        availableServicesAssignmentManager.ClearAllAssignments();
+
+    Debug.Log("Returned " + returnedCount + " retained Available Services card(s) to the prankster deck.");
 }
 
 }
