@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class AvailableServicesPanelController : MonoBehaviour
 {
+    [Header("Testing Overrides")]
+    [SerializeField] private bool ignoreServiceUnlocksForTesting = false;
+
     [Header("Service Panels")]
     [SerializeField] private GameObject beastMasterServicePanel;
     [SerializeField] private GameObject thiefServicePanel;
@@ -10,8 +13,14 @@ public class AvailableServicesPanelController : MonoBehaviour
     [SerializeField] private GameObject engineerServicePanel;
     [SerializeField] private GameObject laborerServicePanel;
 
+    [Header("Unlock Controlled Objects")]
+    [SerializeField] private GameObject scoringActionObject;
+    [SerializeField] private GameObject immediateActionObject;
+    [SerializeField] private GameObject ongoingActionObject;
+
     private void Start()
     {
+        ApplyUnlockVisibility();
         HideAllServicePanels();
     }
 
@@ -104,5 +113,24 @@ public class AvailableServicesPanelController : MonoBehaviour
     {
         HideAllServicePanels();
     }
+
+    void ApplyUnlockVisibility()
+{
+    PlayerProgressSave save = SaveSystem.Load();
+
+    bool scoringUnlocked = ignoreServiceUnlocksForTesting || AvailableServicesUnlockRules.CanUseScoring(save);
+    bool immediateUnlocked = ignoreServiceUnlocksForTesting || AvailableServicesUnlockRules.CanUseImmediate(save);
+    bool ongoingUnlocked = ignoreServiceUnlocksForTesting || AvailableServicesUnlockRules.CanUseOngoing(save);
+
+    if (scoringActionObject != null)
+        scoringActionObject.SetActive(scoringUnlocked);
+
+    if (immediateActionObject != null)
+        immediateActionObject.SetActive(immediateUnlocked);
+
+    if (ongoingActionObject != null)
+        ongoingActionObject.SetActive(ongoingUnlocked);
+}
+
     
 }

@@ -73547,7 +73547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &947333319
 RectTransform:
   m_ObjectHideFlags: 0
@@ -74167,7 +74167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4, y: 9}
+  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &965789738
@@ -150564,12 +150564,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d7f655fa84b463293192bcde931a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AvailableServicesPanelController
+  ignoreServiceUnlocksForTesting: 0
   beastMasterServicePanel: {fileID: 947333318}
   thiefServicePanel: {fileID: 0}
   wizardServicePanel: {fileID: 0}
   scribeServicePanel: {fileID: 0}
   engineerServicePanel: {fileID: 0}
   laborerServicePanel: {fileID: 0}
+  scoringActionObject: {fileID: 1630144776}
+  immediateActionObject: {fileID: 1953499768}
+  ongoingActionObject: {fileID: 1267485586}
 --- !u!1 &2119595268
 GameObject:
   m_ObjectHideFlags: 0

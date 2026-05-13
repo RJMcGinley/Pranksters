@@ -2230,30 +2230,37 @@ void ShowGameOverPanel()
 
     endGameScoringPanel.SetActive(true);
 
-    int playerCount = turnManager.players.Count;
+    // Create sortable list
+    List<Player> sortedPlayers = new List<Player>(turnManager.players);
+
+    // Highest score first
+    sortedPlayers.Sort((a, b) => b.finalScore.CompareTo(a.finalScore));
+
+    int playerCount = sortedPlayers.Count;
 
     if (player1Row != null) player1Row.SetActive(playerCount >= 1);
     if (player2Row != null) player2Row.SetActive(playerCount >= 2);
     if (player3Row != null) player3Row.SetActive(playerCount >= 3);
     if (player4Row != null) player4Row.SetActive(playerCount >= 4);
 
-    PopulateScoreRow(0, player1NameText, player1PrankPointsText, player1FavorPointsText, player1TotalPointsText);
-    PopulateScoreRow(1, player2NameText, player2PrankPointsText, player2FavorPointsText, player2TotalPointsText);
-    PopulateScoreRow(2, player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
-    PopulateScoreRow(3, player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
+    PopulateScoreRow(sortedPlayers, 0, player1NameText, player1PrankPointsText, player1FavorPointsText, player1TotalPointsText);
+    PopulateScoreRow(sortedPlayers, 1, player2NameText, player2PrankPointsText, player2FavorPointsText, player2TotalPointsText);
+    PopulateScoreRow(sortedPlayers, 2, player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
+    PopulateScoreRow(sortedPlayers, 3, player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
 }
 
 void PopulateScoreRow(
+    List<Player> sortedPlayers,
     int playerIndex,
     TextMeshProUGUI nameText,
     TextMeshProUGUI prankPointsText,
     TextMeshProUGUI favorPointsText,
     TextMeshProUGUI totalPointsText)
 {
-    if (playerIndex < 0 || playerIndex >= turnManager.players.Count)
+    if (playerIndex < 0 || playerIndex >= sortedPlayers.Count)
         return;
 
-    Player player = turnManager.players[playerIndex];
+    Player player = sortedPlayers[playerIndex];
 
     int prankPoints = player.renownPoints;
     int favorPoints = player.favorPoints;
@@ -2264,7 +2271,7 @@ void PopulateScoreRow(
         string displayName = player.playerName;
 
         if (string.IsNullOrEmpty(displayName))
-            displayName = "Player " + (playerIndex + 1);
+            displayName = "Player " + (turnManager.players.IndexOf(player) + 1);
 
         nameText.text = displayName;
     }
