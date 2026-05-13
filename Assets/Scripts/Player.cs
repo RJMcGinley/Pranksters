@@ -11,5 +11,7 @@ public class Player
     public string playerName = "";
     public List<AvailableServicesRetainedServiceGroup> retainedServices = new List<AvailableServicesRetainedServiceGroup>();
 
+    public int maxHandSize = 4;
+
     public bool isBot = false;
 }

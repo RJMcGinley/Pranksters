@@ -140,6 +140,7 @@ public class DeckManager : MonoBehaviour
     private List<int> temporarilyAssignedServiceHandIndexes = new List<int>();
     private AvailableServiceSlotCollider activeAvailableServiceSlotCollider;
     [SerializeField] private AvailableServicesPanelController availableServicesPanelController;
+    public TextMeshPro crewCapacityText;
 
     public bool IsGameOver()
     {
@@ -872,17 +873,27 @@ void StartDrawFromDeckTurn()
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayDrawCardAction();
 
-    pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
-    RefreshAllHighlights();
-    RefreshHandVisuals();
+    if (GetCurrentPlayer().hand.Count > GetCurrentPlayer().maxHandSize)
+    {
+        pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
 
-    if (AudioManager.Instance != null && Random.value < 0.6f)
-        AudioManager.Instance.PlayHmmDecisions();
+        RefreshAllHighlights();
+        RefreshHandVisuals();
+        RefreshCrewCapacityDisplay();
 
-    LogSeparator("CHOOSE DISCARD");
+        if (AudioManager.Instance != null && Random.value < 0.6f)
+            AudioManager.Instance.PlayHmmDecisions();
 
-    Debug.Log("Choose a card to discard. Press 1, 2, 3, 4, or 5.");
-    ShowCurrentPlayerHand();
+        LogSeparator("CHOOSE DISCARD");
+
+        Debug.Log("Choose a card to discard.");
+        ShowCurrentPlayerHand();
+    }
+    else
+    {
+        RefreshHandVisuals();
+        FinishActionAndWaitForEndTurn();
+    }
 }
 
  
@@ -900,6 +911,7 @@ void ResolveDiscardChoice(int discardHandIndex)
 
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
+    RefreshCrewCapacityDisplay();
 
     FinishActionAndWaitForEndTurn();
 }
@@ -1090,6 +1102,7 @@ void PrintGameState()
         Debug.Log(
             "Player " + (i + 1) +
             " | Hand: [" + hand + "]" +
+            " | Crew: " + p.hand.Count + "/" + p.maxHandSize +
             " | Favor: [" + favor + "]" +
             " | Favor Points: " + p.favorPoints
         );
@@ -1161,23 +1174,35 @@ void StartDrawFromDiscardTurn()
 
     DrawFromDiscard();
 
+    RefreshCrewCapacityDisplay();
+
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayDrawCardAction();
 
-    pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
-    RefreshAllHighlights();
-    RefreshHandVisuals();
+    // Only discard if over max hand size.
+    if (GetCurrentPlayer().hand.Count > GetCurrentPlayer().maxHandSize)
+    {
+        pendingChoice = PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
 
-    if (AudioManager.Instance != null && Random.value < 0.6f)
-        AudioManager.Instance.PlayHmmDecisions();
+        RefreshAllHighlights();
+        RefreshHandVisuals();
 
-    LogSeparator("CHOOSE DISCARD");
+        if (AudioManager.Instance != null && Random.value < 0.6f)
+            AudioManager.Instance.PlayHmmDecisions();
 
-    Debug.Log("Choose a card to discard. Press 1, 2, 3, 4, or 5.");
-    ShowCurrentPlayerHand();
+        LogSeparator("CHOOSE DISCARD");
+
+        Debug.Log("Choose a card to discard.");
+        ShowCurrentPlayerHand();
+    }
+    else
+    {
+        RefreshHandVisuals();
+        FinishActionAndWaitForEndTurn();
+    }
 }
 
 void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
@@ -1194,6 +1219,7 @@ void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
 
     handDisplay.ShowCurrentPlayerHand();
     discardPileDisplay.UpdateTopDiscardCard();
+    RefreshCrewCapacityDisplay();
 
     FinishActionAndWaitForEndTurn();
 }
@@ -2117,6 +2143,7 @@ public void RefreshAllDisplays()
     ShowActivePrankCards();
 
     UpdateActiveFavorDisplay();
+    UpdateCrewCapacityDisplay();
 
     if (discardPileDisplay != null)
         discardPileDisplay.UpdateTopDiscardCard();
@@ -2150,6 +2177,20 @@ void UpdateCurrentPlayerStatsDisplay()
 
     if (activeFavorPointsText != null)
         activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
+
+    if (crewCapacityText != null)
+    {
+        crewCapacityText.text =
+            "Crew: " +
+            currentPlayer.hand.Count +
+            "/" +
+            currentPlayer.maxHandSize;
+
+        if (currentPlayer.hand.Count > currentPlayer.maxHandSize)
+        {
+            crewCapacityText.text += "\nDismiss 1";
+        }
+    }
 }
 
 void ReshuffleDiscardIntoDeck()
@@ -2742,45 +2783,37 @@ IEnumerator RefillHandToFourOneCardAtATime(float delayBetweenCards = 0.3f)
     }
 }
 
-IEnumerator FinishCompletePrankSequence()
+IEnumerator RefillHandToMaxOneCardAtATime(float delayBetweenCards = 0.3f)
 {
-    Debug.Log("FinishCompletePrankSequence START | isBot = " + GetCurrentPlayer().isBot);
-
-    yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
-
-    RefreshAllDisplays();
-
-    if (GetCurrentPlayer().isBot)
+    while (GetCurrentPlayer().hand.Count < GetCurrentPlayer().maxHandSize)
     {
-        Debug.Log("BOT complete prank sequence finished");
+        int handCountBefore = GetCurrentPlayer().hand.Count;
 
-        if (TryShowEndOfRoundPanelIfPending())
+        DrawCard();
+
+        if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
-            Debug.Log("BOT END OF ROUND PANEL SHOWN. Stopping bot turn flow.");
-
-            if (botManager != null)
-                botManager.NotifyBotActionHandledTurnFlow();
-
+            Debug.Log("Could not draw more cards. Stopping refill.");
             yield break;
         }
 
-        ShowActivePrankCards();
-        RefreshAllHighlights();
+        RefreshAllDisplays();
 
-        yield break;
-    }
-    else
-    {
-        Debug.Log("HUMAN complete prank sequence waiting for End Turn");
-        FinishActionAndWaitForEndTurn();
-    }
+        if (handDisplay != null)
+            handDisplay.ShowCurrentPlayerHand();
 
-    Debug.Log("FinishCompletePrankSequence END | isEndOfRoundPending = " + isEndOfRoundPending);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayDrawCardAction();
+
+        yield return new WaitForSeconds(delayBetweenCards);
+    }
 }
+
+[SerializeField] private int startingHandSize = 3;
 
 IEnumerator DealStartingHandsOneCardAtATime(float delayBetweenCards = 0.2f)
 {
-    for (int cardNumber = 0; cardNumber < 4; cardNumber++)
+    for (int cardNumber = 0; cardNumber < startingHandSize; cardNumber++)
     {
         for (int playerIndex = 0; playerIndex < turnManager.players.Count; playerIndex++)
         {
@@ -4186,6 +4219,66 @@ public void ShowAvailableServiceStateOnly(PranksterType serviceType)
 public bool CanStartAvailableServiceAction()
 {
     return pendingChoice == PendingChoiceType.ChooseAction;
+}
+
+void UpdateCrewCapacityDisplay()
+{
+    if (crewCapacityText == null)
+        return;
+
+    Player player = GetCurrentPlayer();
+
+    crewCapacityText.text =
+        "Crew: " +
+        player.hand.Count +
+        "/" +
+        player.maxHandSize;
+
+    if (player.hand.Count > player.maxHandSize)
+    {
+        crewCapacityText.text += "\nDismiss 1";
+    }
+}
+
+public void RefreshCrewCapacityDisplay()
+{
+    UpdateCrewCapacityDisplay();
+}
+
+IEnumerator FinishCompletePrankSequence()
+{
+    Debug.Log("FinishCompletePrankSequence START | isBot = " + GetCurrentPlayer().isBot);
+
+    yield return StartCoroutine(RefillHandToMaxOneCardAtATime(0.3f));
+
+    RefreshAllDisplays();
+
+    if (GetCurrentPlayer().isBot)
+    {
+        Debug.Log("BOT complete prank sequence finished");
+
+        if (TryShowEndOfRoundPanelIfPending())
+        {
+            Debug.Log("BOT END OF ROUND PANEL SHOWN. Stopping bot turn flow.");
+
+            if (botManager != null)
+                botManager.NotifyBotActionHandledTurnFlow();
+
+            yield break;
+        }
+
+        ShowActivePrankCards();
+        RefreshAllHighlights();
+
+        yield break;
+    }
+    else
+    {
+        Debug.Log("HUMAN complete prank sequence waiting for End Turn");
+        FinishActionAndWaitForEndTurn();
+    }
+
+    Debug.Log("FinishCompletePrankSequence END | isEndOfRoundPending = " + isEndOfRoundPending);
 }
 
 }

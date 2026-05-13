@@ -248,68 +248,26 @@ public class BotManager : MonoBehaviour
     if (!CardCreatesExactProgress(topCard, targetProgress, out int bestPrankIndex))
         return false;
 
-    List<PranksterType> simulatedHand = ConvertHandToTypes(player.hand);
-    simulatedHand.Add(topCard);
-
-    int bestDiscardIndex = -1;
-    int bestScore = int.MinValue;
-
-    for (int i = 0; i < simulatedHand.Count; i++)
-    {
-        if (i == simulatedHand.Count - 1)
-            continue;
-
-        List<PranksterType> handAfterDiscard = new List<PranksterType>(simulatedHand);
-        handAfterDiscard.RemoveAt(i);
-
-        int progressAfterDiscard = CountProgressTowardPrank(handAfterDiscard, deckManager.BotGetActivePranks()[bestPrankIndex]);
-
-        if (progressAfterDiscard < targetProgress)
-            continue;
-
-        // ✅ FIX: use full card instead of type-only
-        PranksterDeckEntry card = player.hand[i];
-        int favorValue = deckManager.CalculateTotalFavorForCard(card);
-
-        bool supportsThree = false;
-        bool supportsPair = false;
-
-        if (i < player.hand.Count)
-        {
-            supportsThree = CardSupportsThreeOfFour(i);
-            supportsPair = CardSupportsAnyPair(i);
-        }
-
-        int score = 0;
-
-        if (!supportsThree && !supportsPair)
-            score += 100;
-
-        if (!supportsThree && supportsPair)
-            score += 40;
-
-        if (supportsThree)
-            score -= 100;
-
-        score += (10 - favorValue);
-        score += Random.Range(0, 3);
-
-        if (score > bestScore)
-        {
-            bestScore = score;
-            bestDiscardIndex = i;
-        }
-    }
-
-    if (bestDiscardIndex == -1)
-    {
-        Debug.Log("BOT: Skipping discard-pile take because no valid discard keeps the gained card useful.");
-        return false;
-    }
-
     Debug.Log("BOT: Taking discard for " + targetProgress + "-of-4 progress");
 
     deckManager.BotDrawFromDiscard();
+
+    // Only discard if over max hand size.
+    if (player.hand.Count <= player.maxHandSize)
+    {
+        actionMessage =
+            "Recruited " + topCard + " from discard";
+
+        return true;
+    }
+
+    int bestDiscardIndex = ChooseDiscardIndexAfterGain(bestPrankIndex, targetProgress);
+
+    if (bestDiscardIndex == -1)
+    {
+        Debug.Log("BOT: No valid discard found after taking discard card.");
+        return false;
+    }
 
     if (bestDiscardIndex < 0 || bestDiscardIndex >= player.hand.Count)
         return false;
@@ -320,7 +278,7 @@ public class BotManager : MonoBehaviour
     deckManager.BotDiscardCardFromHand(bestDiscardIndex);
 
     actionMessage =
-        "Recruited " + topCard + " from discard " +
+        "Recruited " + topCard + " from discard" +
         "\nDismissed: " + discardedCardName;
 
     return true;
@@ -388,21 +346,34 @@ public class BotManager : MonoBehaviour
 
     deckManager.BotDrawFromDeck();
 
-    int discardIndex = ChooseBestDiscardIndexFromCurrentHand();
-
-    if (discardIndex < 0)
-        return false;
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDrawCardAction();
 
     Player player = GetCurrentPlayer();
 
-    if (discardIndex >= player.hand.Count)
+    // Only discard if over max hand size.
+    if (player.hand.Count <= player.maxHandSize)
+    {
+        actionMessage = "Scouted from recruit deck";
+        return true;
+    }
+
+    int discardIndex = ChooseBestDiscardIndexFromCurrentHand();
+
+    if (discardIndex < 0)
+    {
+        Debug.LogWarning("BOT: No valid discard index found after drawing.");
         return false;
+    }
+
+    if (discardIndex >= player.hand.Count)
+    {
+        Debug.LogWarning("BOT: Discard index out of range.");
+        return false;
+    }
 
     PranksterDeckEntry discardedCard = player.hand[discardIndex];
-        string discardedCardName = GetBotCardDisplayName(discardedCard);
-
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayDrawCardAction();
+    string discardedCardName = GetBotCardDisplayName(discardedCard);
 
     Debug.Log("BOT: Discarding card at hand index " + discardIndex);
 
