@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AvailableServiceSlotCollider : MonoBehaviour
 {
@@ -12,44 +13,72 @@ public class AvailableServiceSlotCollider : MonoBehaviour
     [Header("Visual References")]
     public GameObject glowObject;
 
+    [SerializeField] private Image iconImage;
+    [SerializeField] private Material grayscaleMaterial;
+
+    private Material originalMaterial;
+
     private bool isAvailable = true;
 
     void Start()
     {
-        SetAvailable(isAvailable);
+        if (deckManager == null)
+            deckManager = FindFirstObjectByType<DeckManager>();
+
+        if (iconImage != null)
+            originalMaterial = iconImage.material;
+
+        RefreshRoundAvailability();
     }
 
-    
-void OnMouseDown()
-{
-    if (!isAvailable)
-        return;
-
-    if (deckManager != null && deckManager.IsInteractionBlocked())
-        return;
-
-    if (deckManager != null && deckManager.IsPrankPreviewOpen())
-        return;
-
-    if (servicesPanelController == null)
+    void OnMouseDown()
     {
-        Debug.LogWarning("AvailableServiceSlotCollider has no servicesPanelController assigned.");
-        return;
+        if (!isAvailable)
+            return;
+
+        if (deckManager != null && deckManager.IsInteractionBlocked())
+            return;
+
+        if (deckManager != null && deckManager.IsPrankPreviewOpen())
+            return;
+
+        if (servicesPanelController == null)
+        {
+            Debug.LogWarning("AvailableServiceSlotCollider has no servicesPanelController assigned.");
+            return;
+        }
+
+        servicesPanelController.OnServiceSelected(serviceType);
+
+        if (deckManager != null && deckManager.CanStartAvailableServiceAction())
+        {
+            deckManager.StartAvailableServiceTurn(serviceType);
+            deckManager.SetActiveAvailableServiceSlotCollider(this);
+            SetAvailable(false);
+        }
+        else if (deckManager != null)
+        {
+            deckManager.ShowAvailableServiceStateOnly(serviceType);
+        }
     }
 
-    servicesPanelController.OnServiceSelected(serviceType);
+    public void RefreshRoundAvailability()
+    {
+        if (deckManager == null)
+        {
+            SetAvailable(false);
+            Debug.LogWarning("Cannot refresh service availability. DeckManager is missing.");
+            return;
+        }
 
-    if (deckManager != null && deckManager.CanStartAvailableServiceAction())
-    {
-        deckManager.StartAvailableServiceTurn(serviceType);
-        deckManager.SetActiveAvailableServiceSlotCollider(this);
-        SetAvailable(false);
+        bool availableThisRound =
+            deckManager.IsServiceTypeAvailableThisRound(serviceType);
+
+        SetAvailable(availableThisRound);
+
+        Debug.Log("Service availability refreshed: " + serviceType +
+                  " | availableThisRound=" + availableThisRound);
     }
-    else if (deckManager != null)
-    {
-        deckManager.ShowAvailableServiceStateOnly(serviceType);
-    }
-}
 
     public void SetAvailable(bool available)
     {
@@ -57,5 +86,13 @@ void OnMouseDown()
 
         if (glowObject != null)
             glowObject.SetActive(available);
+
+        if (iconImage != null)
+        {
+            if (available)
+                iconImage.material = originalMaterial;
+            else
+                iconImage.material = grayscaleMaterial;
+        }
     }
 }

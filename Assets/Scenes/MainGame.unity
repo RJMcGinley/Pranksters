@@ -17460,6 +17460,8 @@ MonoBehaviour:
   deckManager: {fileID: 1503786762}
   serviceType: 3
   glowObject: {fileID: 130673673}
+  iconImage: {fileID: 0}
+  grayscaleMaterial: {fileID: 0}
 --- !u!61 &118031402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61948,6 +61950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805529420}
+  - component: {fileID: 805529421}
   m_Layer: 0
   m_Name: ServiceSlot_Beastmaster
   m_TagString: Untagged
@@ -61977,6 +61980,24 @@ RectTransform:
   m_AnchoredPosition: {x: -72.19999, y: 0.099998474}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &805529421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805529419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fe4d46db12040cba3379c692ba0712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AvailableServiceSlotCollider
+  servicesPanelController: {fileID: 2106431556}
+  deckManager: {fileID: 1503786762}
+  serviceType: 3
+  glowObject: {fileID: 130673673}
+  iconImage: {fileID: 60022572}
+  grayscaleMaterial: {fileID: -876546973899608171, guid: e0d10178462ac461aba0bce23216a44f, type: 3}
 --- !u!1 &809249621
 GameObject:
   m_ObjectHideFlags: 0

@@ -1327,6 +1327,7 @@ void ResetRound()
     // Deal 4 new active pranks
     DealActivePranks();
     ShowActivePrankCards();
+    RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("New round started.");
 
@@ -2936,6 +2937,7 @@ IEnumerator ResetRoundSequence()
 
     DealActivePranks();
     ShowActivePrankCards();
+    RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("New round started.");
 
@@ -2962,6 +2964,7 @@ IEnumerator BeginNewGameSequence()
 
     DealActivePranks();
     ShowActivePrankCards();
+    RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("Prank deck size: " + prankDeck.Count);
     Debug.Log("Active pranks: " + activePranks.Count);
@@ -3966,6 +3969,14 @@ void ResolveAvailableServiceCardChoice(int handIndex)
 
     PranksterDeckEntry selectedCard = player.hand[handIndex];
 
+    if (selectedCard.pranksterType != selectedAvailableServiceType)
+    {
+        Debug.Log("Cannot assign " + selectedCard.pranksterType +
+                  " to " + selectedAvailableServiceType +
+                  " services. Card type must match selected service type.");
+        return;
+    }
+
     Sprite cardArt = PranksterSpriteDatabase.GetSprite(
         selectedCard.pranksterType,
         selectedCard.tier,
@@ -3991,6 +4002,7 @@ void ResolveAvailableServiceCardChoice(int handIndex)
     }
 
     temporarilyAssignedServiceHandIndexes.Add(handIndex);
+
     if (availableServicesAssignmentManager != null)
     {
         availableServicesAssignmentManager.SetRetainServicesAvailable(
@@ -4334,6 +4346,25 @@ void ReturnRetainedServiceCardsToDeck()
         availableServicesAssignmentManager.ClearAllAssignments();
 
     Debug.Log("Returned " + returnedCount + " retained Available Services card(s) to the prankster deck.");
+}
+
+public bool IsServiceTypeAvailableThisRound(PranksterType type)
+{
+    return CalculateFavorPoints(type) <= 2;
+}
+
+void RefreshAvailableServiceSlotAvailability()
+{
+    AvailableServiceSlotCollider[] serviceSlots =
+        FindObjectsByType<AvailableServiceSlotCollider>(FindObjectsSortMode.None);
+
+    foreach (AvailableServiceSlotCollider slot in serviceSlots)
+    {
+        if (slot != null)
+            slot.RefreshRoundAvailability();
+    }
+
+    Debug.Log("Refreshed Available Services slot availability for the round.");
 }
 
 }
