@@ -28,23 +28,40 @@ public class AvailableServiceActionCollider : MonoBehaviour
     }
 
     private void OnMouseDown()
+{
+    if (!isAvailable)
+        return;
+
+    if (deckManager == null)
+        return;
+
+    if (!deckManager.IsChoosingAvailableService())
     {
-        if (!isAvailable)
-            return;
+        Debug.Log("Available Service action blocked because panel is in view-only mode.");
 
-        Debug.Log("Available Service action clicked: " + actionName);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
 
-        if (actionName == "Retain Services")
-        {
-            if (AudioManager.Instance != null)
-                AudioManager.Instance.PlayMenuClick();
-
-            if (deckManager != null)
-            {
-                deckManager.CommitRetainedServices();
-            }
-        }
+        return;
     }
+
+    Debug.Log("Available Service action clicked: " + actionName);
+
+    if (actionName == "Retain Services")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.CommitRetainedServices();
+    }
+    else if (actionName == "Scoring Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateAvailableServiceScoringAction();
+    }
+}
 
     public void SetAvailable(bool available)
 {

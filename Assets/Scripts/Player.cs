@@ -10,7 +10,9 @@ public class Player
     public int finalScore = 0;
     public string playerName = "";
     public List<AvailableServicesRetainedServiceGroup> retainedServices = new List<AvailableServicesRetainedServiceGroup>();
-
+    public List<PranksterType> activeScoringServiceTypes = new List<PranksterType>();
+    public List<PranksterType> activeOngoingServiceTypes = new List<PranksterType>();
+    
     public int maxHandSize = 4;
 
     public bool isBot = false;

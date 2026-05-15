@@ -33,6 +33,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip cancelActionClip;
     public AudioClip completePrankBannerDropClip;
     public AudioClip completePrankClip; 
+    [SerializeField] private AudioClip notAnOptionClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -332,6 +333,11 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     {
         if (unlockRevealClip != null && sfxSource != null)
             sfxSource.PlayOneShot(unlockRevealClip);
+    }
+
+    public void PlayNotAnOption()
+    {
+        PlaySFX(notAnOptionClip);
     }
     
 }

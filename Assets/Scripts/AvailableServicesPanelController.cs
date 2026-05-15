@@ -26,6 +26,14 @@ public class AvailableServicesPanelController : MonoBehaviour
 
     public void OnServiceSelected(PranksterType serviceType)
     {
+        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+
+        if (deckManager != null)
+        {
+            deckManager.SetAvailableServicesPanelOpen(true);
+            deckManager.RefreshAllHighlights();
+        }
+
         Debug.Log("Selected available service: " + serviceType);
 
         if (AudioManager.Instance != null)
@@ -66,21 +74,22 @@ public class AvailableServicesPanelController : MonoBehaviour
     }
 
     public void OnCloseServicePanelClicked()
+{
+    Debug.Log("Closed available service panel.");
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayBackClick();
+
+    DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+
+    if (deckManager != null)
     {
-        Debug.Log("Closed available service panel.");
-
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayBackClick();
-
-        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
-
-        if (deckManager != null)
-        {
-            deckManager.CancelAvailableServicesSelection();
-        }
-
-        HideAllServicePanels();
+        deckManager.SetAvailableServicesPanelOpen(false);
+        deckManager.CancelAvailableServicesSelection();
     }
+
+    HideAllServicePanels();
+}
 
     public void HideAllServicePanels()
     {
@@ -111,6 +120,11 @@ public class AvailableServicesPanelController : MonoBehaviour
 
     public void CloseAllServicePanels()
     {
+        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+
+        if (deckManager != null)
+            deckManager.SetAvailableServicesPanelOpen(false);
+
         HideAllServicePanels();
     }
 

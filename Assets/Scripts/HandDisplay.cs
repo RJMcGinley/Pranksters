@@ -54,6 +54,7 @@ public class HandDisplay : MonoBehaviour
             if (deckManager != null &&
                 deckManager.IsHandCardTemporarilyAssignedToService(i))
             {
+                Debug.Log("HAND DISPLAY SKIPPING TEMP SERVICE CARD INDEX: " + i);
                 continue;
             }
 

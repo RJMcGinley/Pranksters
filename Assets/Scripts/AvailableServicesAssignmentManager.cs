@@ -21,6 +21,9 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
     public AvailableServiceActionCollider ongoingActionCollider;
     public AvailableServiceActionCollider retainServicesCollider;
 
+    [Header("References")]
+    [SerializeField] private DeckManager deckManager;
+
     public bool AssignCardToFirstAvailableSlot(Sprite cardArt, PranksterDeckEntry card)
     {
         if (beastmasterSlots == null || beastmasterSlots.Length == 0)
@@ -34,7 +37,7 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
             if (slot != null && slot.IsEmpty())
             {
                 slot.AssignVisual(cardVisualPrefab, cardArt, card);
-                UpdateBeastmasterGlowState();
+                // UpdateBeastmasterGlowState();
 
                 Debug.Log("Assigned service card visual to first available Beastmaster slot.");
                 return true;
@@ -71,17 +74,29 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
         if (immediateActionCollider != null)
             immediateActionCollider.SetAvailable(assignedCount >= 2);
 
+        bool scoringAlreadyUsed = false;
+        bool ongoingAlreadyUsed = false;
+
+        if (deckManager != null)
+        {
+            scoringAlreadyUsed = deckManager.HasCurrentPlayerUsedScoringService(PranksterType.BeastMaster);
+            ongoingAlreadyUsed = deckManager.HasCurrentPlayerUsedOngoingService(PranksterType.BeastMaster);
+        }
+
+        bool scoringAvailable = assignedCount >= 3 && !scoringAlreadyUsed;
+        bool ongoingAvailable = assignedCount >= 4 && !ongoingAlreadyUsed;
+
         if (scoringActionGlow != null)
-            scoringActionGlow.SetActive(assignedCount >= 3);
+            scoringActionGlow.SetActive(scoringAvailable);
 
         if (scoringActionCollider != null)
-            scoringActionCollider.SetAvailable(assignedCount >= 3);
+            scoringActionCollider.SetAvailable(scoringAvailable);
 
         if (ongoingActionGlow != null)
-            ongoingActionGlow.SetActive(assignedCount >= 4);
+            ongoingActionGlow.SetActive(ongoingAvailable);
 
         if (ongoingActionCollider != null)
-            ongoingActionCollider.SetAvailable(assignedCount >= 4);
+            ongoingActionCollider.SetAvailable(ongoingAvailable);
 
         Debug.Log("Beastmaster glow update | assignedCount=" + assignedCount);
     }

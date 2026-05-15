@@ -101,7 +101,7 @@ public class HandCardClick : MonoBehaviour
             return;
 
         if (deckManager != null && deckManager.IsInDiscardSelection())
-            targetRenderer.color = new Color(50f, 50f, 50f);
+            targetRenderer.color = Color.white;
         else
             targetRenderer.color = Color.white;
     }

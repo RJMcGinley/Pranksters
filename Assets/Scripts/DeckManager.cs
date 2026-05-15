@@ -141,6 +141,7 @@ public class DeckManager : MonoBehaviour
     private AvailableServiceSlotCollider activeAvailableServiceSlotCollider;
     [SerializeField] private AvailableServicesPanelController availableServicesPanelController;
     public TextMeshPro crewCapacityText;
+    private bool availableServicesPanelOpen = false;
 
     public bool IsGameOver()
     {
@@ -1863,7 +1864,24 @@ void CalculateFinalScores()
         int prankPoints = player.renownPoints;
         int favorPoints = player.favorPoints;
         int victoryPoints = favorPoints * finalCompletedPrank.favorMultiplier;
-        int totalScore = prankPoints + victoryPoints;
+        int availableServicesScoringBonus = 0;
+
+        if (player.activeScoringServiceTypes != null)
+        {
+            foreach (PranksterType scoringType in player.activeScoringServiceTypes)
+            {
+                int iconCount = CountCompletedPrankIcons(player, scoringType);
+                int typeBonus = iconCount * 2;
+
+                availableServicesScoringBonus += typeBonus;
+
+                Debug.Log("Available Services Scoring Bonus | type=" + scoringType +
+                        " | completed prank icons=" + iconCount +
+                        " | bonus=" + typeBonus);
+            }
+        }
+
+        int totalScore = prankPoints + victoryPoints + availableServicesScoringBonus;
 
         player.finalScore = totalScore;
 
@@ -1877,6 +1895,7 @@ void CalculateFinalScores()
         Debug.Log("  Prank Points: " + prankPoints);
         Debug.Log("  Favor Points: " + favorPoints);
         Debug.Log("  Victory Points: " + victoryPoints);
+        Debug.Log("  Available Services Scoring Bonus: " + availableServicesScoringBonus);
         Debug.Log("  TOTAL: " + totalScore);
     }
 }
@@ -2321,6 +2340,10 @@ public void BeginNewGame()
 
     // Reset state
     pendingChoice = PendingChoiceType.None;
+    availableServicesPanelOpen = false;
+    temporarilyAssignedServiceHandIndexes.Clear();
+    selectedAvailableServiceType = default;
+    activeAvailableServiceSlotCollider = null;
     lastPrankCompleterIndex = -1;
     selectedSwapHandIndex = -1;
     gameOver = false;
@@ -2340,6 +2363,10 @@ public void BeginNewGame()
         player.favorPoints = 0;
         player.renownPoints = 0;
         player.finalScore = 0;
+
+        player.retainedServices.Clear();
+        player.activeScoringServiceTypes.Clear();
+        player.activeOngoingServiceTypes.Clear();
     }
 
     ResetPlayer1FavorTrackingForNewGame();
@@ -2423,6 +2450,12 @@ public void RefreshAllHighlights()
     if (settingsMenuController != null && settingsMenuController.IsPanelBlockingInteraction())
     {
         Debug.Log("RefreshAllHighlights blocked because settings panel is active.");
+        return;
+    }
+
+    if (availableServicesPanelOpen)
+    {
+        Debug.Log("RefreshAllHighlights blocked because Available Services panel is open.");
         return;
     }
 
@@ -2591,6 +2624,16 @@ public bool CanHoverDiscardPile()
 public void OnHandCardClicked(int index)
 {
     Debug.Log("Hand card clicked: " + index);
+
+    if (availableServicesPanelOpen && pendingChoice != PendingChoiceType.ChooseAvailableServiceCard)
+    {
+        Debug.Log("Hand card click blocked while Available Services panel is open.");
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        return;
+    }
 
     if (pendingChoice == PendingChoiceType.ChooseFavorCard)
     {
@@ -3446,6 +3489,9 @@ public bool IsRulesPanelOpen()
 
 public bool IsInteractionBlocked()
 {
+    if (availableServicesPanelOpen)
+        return true;
+
     if (isRulesPanelOpen)
         return true;
 
@@ -3948,76 +3994,67 @@ public bool IsChoosingAvailableService()
     return pendingChoice == PendingChoiceType.ChooseAvailableServiceCard;
 }
 
-void ResolveAvailableServiceCardChoice(int handIndex)
+public void ResolveAvailableServiceCardChoice(int handIndex)
 {
-    if (pendingChoice != PendingChoiceType.ChooseAvailableServiceCard)
-        return;
-
     Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return;
 
     if (handIndex < 0 || handIndex >= player.hand.Count)
     {
-        Debug.Log("Invalid Available Service hand index: " + handIndex);
+        Debug.LogWarning("Invalid Available Service hand index: " + handIndex);
         return;
     }
 
     if (temporarilyAssignedServiceHandIndexes.Contains(handIndex))
     {
-        Debug.Log("That hand card is already assigned to Available Services.");
+        Debug.Log("This hand card is already temporarily assigned to Available Services: " + handIndex);
         return;
     }
 
-    PranksterDeckEntry selectedCard = player.hand[handIndex];
+    PranksterDeckEntry card = player.hand[handIndex];
 
-    if (selectedCard.pranksterType != selectedAvailableServiceType)
+    if (card.pranksterType != selectedAvailableServiceType)
     {
-        Debug.Log("Cannot assign " + selectedCard.pranksterType +
+        Debug.Log("Cannot assign " + card.pranksterType +
                   " to " + selectedAvailableServiceType +
                   " services. Card type must match selected service type.");
         return;
     }
 
     Sprite cardArt = PranksterSpriteDatabase.GetSprite(
-        selectedCard.pranksterType,
-        selectedCard.tier,
-        selectedCard.category
+        card.pranksterType,
+        card.tier,
+        card.category
     );
 
-    bool assignedSuccessfully = false;
+    // Add this BEFORE refreshing hand display.
+    temporarilyAssignedServiceHandIndexes.Add(handIndex);
+
+    bool assignedVisual = false;
 
     if (availableServicesAssignmentManager != null)
     {
-        assignedSuccessfully =
-            availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt, selectedCard);
-    }
-    else
-    {
-        Debug.LogWarning("AvailableServicesAssignmentManager is not assigned in DeckManager.");
+        assignedVisual = availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt, card);
     }
 
-    if (!assignedSuccessfully)
+    if (!assignedVisual)
     {
+        temporarilyAssignedServiceHandIndexes.Remove(handIndex);
         Debug.Log("Available Service assignment failed.");
         return;
     }
 
-    temporarilyAssignedServiceHandIndexes.Add(handIndex);
-
-    if (availableServicesAssignmentManager != null)
-    {
-        availableServicesAssignmentManager.SetRetainServicesAvailable(
-            temporarilyAssignedServiceHandIndexes.Count > 0
-        );
-    }
+    availableServicesAssignmentManager.SetRetainServicesAvailable(
+        temporarilyAssignedServiceHandIndexes.Count > 0
+    );
 
     handDisplay.ShowCurrentPlayerHand();
+    UpdateCrewCapacityDisplay();
 
-    Debug.Log("Available Service choice selected: hand index " + handIndex +
-              " | type=" + selectedCard.pranksterType +
-              " | tier=" + selectedCard.tier +
-              " | category=" + selectedCard.category);
-
-    Debug.Log("Available Service visual assigned. Still choosing more cards for layout testing.");
+    Debug.Log("Available Service temp assignment complete | handIndex=" + handIndex +
+              " | tempCount=" + temporarilyAssignedServiceHandIndexes.Count);
 }
 
 public void StartAvailableServiceTurn(PranksterType serviceType)
@@ -4075,9 +4112,13 @@ public bool IsHandCardTemporarilyAssignedToService(int handIndex)
 
 public void CancelAvailableServicesSelection()
 {
-    Debug.Log("Canceling Available Services selection.");
+    Debug.Log("Canceling Available Services selection. Current pendingChoice = " + pendingChoice);
 
-    pendingChoice = PendingChoiceType.ChooseAction;
+    bool wasChoosingAvailableService =
+        pendingChoice == PendingChoiceType.ChooseAvailableServiceCard;
+
+    if (wasChoosingAvailableService)
+        pendingChoice = PendingChoiceType.ChooseAction;
 
     temporarilyAssignedServiceHandIndexes.Clear();
 
@@ -4096,6 +4137,8 @@ public void CancelAvailableServicesSelection()
     handDisplay.ShowCurrentPlayerHand();
 
     RefreshAllHighlights();
+
+    Debug.Log("Available Services selection canceled. New pendingChoice = " + pendingChoice);
 }
 
 public void SetActiveAvailableServiceSlotCollider(AvailableServiceSlotCollider slotCollider)
@@ -4199,6 +4242,8 @@ public void CommitRetainedServices()
               " on player " + turnManager.currentPlayerIndex +
               ". Total retained now: " + group.assignedCards.Count);
 
+    RefreshAvailableServiceSlotAvailability();
+
     FinishActionAndWaitForEndTurn();
 }
 
@@ -4259,7 +4304,7 @@ void UpdateCrewCapacityDisplay()
 
     if (player.hand.Count > player.maxHandSize)
     {
-        crewCapacityText.text += "\nDismiss 1";
+        crewCapacityText.text += " Dismiss 1";
     }
 }
 
@@ -4365,6 +4410,147 @@ void RefreshAvailableServiceSlotAvailability()
     }
 
     Debug.Log("Refreshed Available Services slot availability for the round.");
+}
+
+public void ActivateAvailableServiceScoringAction()
+{
+    Player player = GetCurrentPlayer();
+
+    if (player.activeScoringServiceTypes.Contains(selectedAvailableServiceType))
+    {
+        Debug.Log("Scoring service already active for: " + selectedAvailableServiceType);
+        return;
+    }
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == selectedAvailableServiceType)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null)
+    {
+        Debug.LogWarning("Cannot activate scoring service. No retained card group found for: " + selectedAvailableServiceType);
+        return;
+    }
+
+    if (groupToConsume.assignedCards.Count < 3)
+    {
+        Debug.LogWarning("Cannot activate scoring service. Need 3 retained cards for: " +
+                         selectedAvailableServiceType +
+                         " | current count=" + groupToConsume.assignedCards.Count);
+        return;
+    }
+
+    int cardsToSpend = 3;
+
+    for (int i = 0; i < cardsToSpend; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    int remainingCount = groupToConsume.assignedCards.Count;
+
+    if (remainingCount == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    player.activeScoringServiceTypes.Add(selectedAvailableServiceType);
+
+    if (availableServicesAssignmentManager != null)
+    {
+        if (remainingCount > 0)
+        {
+            availableServicesAssignmentManager.DisplayRetainedCardsForService(
+                selectedAvailableServiceType,
+                groupToConsume.assignedCards
+            );
+        }
+        else
+        {
+            availableServicesAssignmentManager.ClearAllAssignments();
+        }
+
+        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+    }
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    UpdateActiveFavorDisplay();
+    RefreshAllDisplays();
+
+    Debug.Log("Activated end-game scoring service for " + selectedAvailableServiceType +
+              " on Player " + (turnManager.currentPlayerIndex + 1) +
+              ". Moved 3 retained service card(s) to discard pile. Remaining retained cards: " +
+              remainingCount);
+
+    FinishActionAndWaitForEndTurn();
+}
+
+int CountCompletedPrankIcons(Player player, PranksterType type)
+{
+    int count = 0;
+
+    if (player == null || player.completedPranks == null)
+        return count;
+
+    foreach (PrankCard prank in player.completedPranks)
+    {
+        if (prank == null || prank.requiredPranksters == null)
+            continue;
+
+        foreach (PranksterType requiredType in prank.requiredPranksters)
+        {
+            if (requiredType == type)
+                count++;
+        }
+    }
+
+    return count;
+}
+
+public bool HasCurrentPlayerUsedScoringService(PranksterType serviceType)
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null || player.activeScoringServiceTypes == null)
+        return false;
+
+    return player.activeScoringServiceTypes.Contains(serviceType);
+}
+
+public bool HasCurrentPlayerUsedOngoingService(PranksterType serviceType)
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null || player.activeOngoingServiceTypes == null)
+        return false;
+
+    return player.activeOngoingServiceTypes.Contains(serviceType);
+}
+
+public void SetAvailableServicesPanelOpen(bool open)
+{
+    availableServicesPanelOpen = open;
+}
+
+public bool IsAvailableServicesPanelOpen()
+{
+    return availableServicesPanelOpen;
 }
 
 }
