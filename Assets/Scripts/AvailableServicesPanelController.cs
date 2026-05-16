@@ -146,5 +146,41 @@ public class AvailableServicesPanelController : MonoBehaviour
         ongoingActionObject.SetActive(ongoingUnlocked);
 }
 
+public AvailableServicePanelAssignmentController GetPanelAssignmentController(PranksterType serviceType)
+{
+    GameObject panel = null;
+
+    switch (serviceType)
+    {
+        case PranksterType.BeastMaster:
+            panel = beastMasterServicePanel;
+            break;
+
+        case PranksterType.Thief:
+            panel = thiefServicePanel;
+            break;
+
+        case PranksterType.Wizard:
+            panel = wizardServicePanel;
+            break;
+
+        case PranksterType.Scribe:
+            panel = scribeServicePanel;
+            break;
+
+        case PranksterType.Engineer:
+            panel = engineerServicePanel;
+            break;
+
+        case PranksterType.Laborer:
+            panel = laborerServicePanel;
+            break;
+    }
+
+    if (panel == null)
+        return null;
+
+    return panel.GetComponent<AvailableServicePanelAssignmentController>();
+}
     
 }

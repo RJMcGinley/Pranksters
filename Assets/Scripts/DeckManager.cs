@@ -136,7 +136,7 @@ public class DeckManager : MonoBehaviour
     public RenderTexture winCutsceneRenderTexture; 
 
     private PranksterType selectedAvailableServiceType;
-    [SerializeField] private AvailableServicesAssignmentManager availableServicesAssignmentManager;
+    private AvailableServicePanelAssignmentController activeServicePanelController;
     private List<int> temporarilyAssignedServiceHandIndexes = new List<int>();
     private AvailableServiceSlotCollider activeAvailableServiceSlotCollider;
     [SerializeField] private AvailableServicesPanelController availableServicesPanelController;
@@ -4034,9 +4034,10 @@ public void ResolveAvailableServiceCardChoice(int handIndex)
 
     bool assignedVisual = false;
 
-    if (availableServicesAssignmentManager != null)
+    if (activeServicePanelController != null)
     {
-        assignedVisual = availableServicesAssignmentManager.AssignCardToFirstAvailableSlot(cardArt, card);
+        assignedVisual =
+            activeServicePanelController.AssignCardToFirstAvailableSlot(cardArt, card);
     }
 
     if (!assignedVisual)
@@ -4046,7 +4047,7 @@ public void ResolveAvailableServiceCardChoice(int handIndex)
         return;
     }
 
-    availableServicesAssignmentManager.SetRetainServicesAvailable(
+    activeServicePanelController.SetRetainServicesAvailable(
         temporarilyAssignedServiceHandIndexes.Count > 0
     );
 
@@ -4067,6 +4068,20 @@ public void StartAvailableServiceTurn(PranksterType serviceType)
 
     selectedAvailableServiceType = serviceType;
 
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+    {
+        activeServicePanelController =
+            availableServicesPanelController.GetPanelAssignmentController(serviceType);
+    }
+
+    if (activeServicePanelController == null)
+    {
+        Debug.LogWarning("No AvailableServicePanelAssignmentController found for: " + serviceType);
+        return;
+    }
+
     Player player = GetCurrentPlayer();
 
     AvailableServicesRetainedServiceGroup retainedGroup = null;
@@ -4080,22 +4095,16 @@ public void StartAvailableServiceTurn(PranksterType serviceType)
         }
     }
 
-    if (availableServicesAssignmentManager != null)
+    if (retainedGroup != null)
     {
-        if (retainedGroup != null)
-        {
-            availableServicesAssignmentManager.DisplayRetainedCardsForService(
-                serviceType,
-                retainedGroup.assignedCards
-            );
-        }
-        else
-        {
-            availableServicesAssignmentManager.ClearAllAssignments();
-        }
-
-        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+        activeServicePanelController.DisplayRetainedCards(retainedGroup.assignedCards);
     }
+    else
+    {
+        activeServicePanelController.ClearAllAssignments();
+    }
+
+    activeServicePanelController.SetRetainServicesAvailable(false);
 
     pendingChoice = PendingChoiceType.ChooseAvailableServiceCard;
 
@@ -4122,16 +4131,17 @@ public void CancelAvailableServicesSelection()
 
     temporarilyAssignedServiceHandIndexes.Clear();
 
-    if (availableServicesAssignmentManager != null)
+    if (activeServicePanelController != null)
     {
-        availableServicesAssignmentManager.ClearAllAssignments();
-        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+        activeServicePanelController.ClearAllAssignments();
+        activeServicePanelController.SetRetainServicesAvailable(false);
     }
 
     if (activeAvailableServiceSlotCollider != null)
     {
         activeAvailableServiceSlotCollider.SetAvailable(true);
         activeAvailableServiceSlotCollider = null;
+        activeServicePanelController = null;
     }
 
     handDisplay.ShowCurrentPlayerHand();
@@ -4150,9 +4160,9 @@ public void CommitRetainedServices()
 {
     Debug.Log("CommitRetainedServices called.");
 
-    if (availableServicesAssignmentManager == null)
+    if (activeServicePanelController == null)
     {
-        Debug.LogWarning("Cannot commit retained services. AvailableServicesAssignmentManager is missing.");
+        Debug.LogWarning("Cannot commit retained services. Active service panel controller is missing.");
         return;
     }
 
@@ -4223,14 +4233,16 @@ public void CommitRetainedServices()
 
     temporarilyAssignedServiceHandIndexes.Clear();
 
-    availableServicesAssignmentManager.ClearAllAssignments();
-    availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+    activeServicePanelController.ClearAllAssignments();
+    activeServicePanelController.SetRetainServicesAvailable(false);
 
     if (activeAvailableServiceSlotCollider != null)
     {
         activeAvailableServiceSlotCollider.SetAvailable(true);
         activeAvailableServiceSlotCollider = null;
     }
+
+    activeServicePanelController = null;
 
     if (availableServicesPanelController != null)
     {
@@ -4242,7 +4254,7 @@ public void CommitRetainedServices()
               " on player " + turnManager.currentPlayerIndex +
               ". Total retained now: " + group.assignedCards.Count);
 
-    RefreshAvailableServiceSlotAvailability();
+    //RefreshAvailableServiceSlotAvailability();
 
     FinishActionAndWaitForEndTurn();
 }
@@ -4264,22 +4276,30 @@ public void ShowAvailableServiceStateOnly(PranksterType serviceType)
         }
     }
 
-    if (availableServicesAssignmentManager != null)
-    {
-        if (retainedGroup != null)
-        {
-            availableServicesAssignmentManager.DisplayRetainedCardsForService(
-                serviceType,
-                retainedGroup.assignedCards
-            );
-        }
-        else
-        {
-            availableServicesAssignmentManager.ClearAllAssignments();
-        }
+    activeServicePanelController = null;
 
-        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+    if (availableServicesPanelController != null)
+    {
+        activeServicePanelController =
+            availableServicesPanelController.GetPanelAssignmentController(serviceType);
     }
+
+    if (activeServicePanelController == null)
+    {
+        Debug.LogWarning("No AvailableServicePanelAssignmentController found for: " + serviceType);
+        return;
+    }
+
+    if (retainedGroup != null)
+    {
+        activeServicePanelController.DisplayRetainedCards(retainedGroup.assignedCards);
+    }
+    else
+    {
+        activeServicePanelController.ClearAllAssignments();
+    }
+
+    activeServicePanelController.SetRetainServicesAvailable(false);
 
     Debug.Log("Showing Available Service state only for: " + serviceType);
 }
@@ -4387,8 +4407,14 @@ void ReturnRetainedServiceCardsToDeck()
         player.retainedServices.Clear();
     }
 
-    if (availableServicesAssignmentManager != null)
-        availableServicesAssignmentManager.ClearAllAssignments();
+    AvailableServicePanelAssignmentController[] panelControllers =
+        FindObjectsByType<AvailableServicePanelAssignmentController>(FindObjectsSortMode.None);
+
+    foreach (AvailableServicePanelAssignmentController controller in panelControllers)
+    {
+        if (controller != null)
+            controller.ClearAllAssignments();
+    }
 
     Debug.Log("Returned " + returnedCount + " retained Available Services card(s) to the prankster deck.");
 }
@@ -4470,21 +4496,30 @@ public void ActivateAvailableServiceScoringAction()
 
     player.activeScoringServiceTypes.Add(selectedAvailableServiceType);
 
-    if (availableServicesAssignmentManager != null)
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+    {
+        activeServicePanelController =
+            availableServicesPanelController.GetPanelAssignmentController(selectedAvailableServiceType);
+    }
+
+    if (activeServicePanelController != null)
     {
         if (remainingCount > 0)
         {
-            availableServicesAssignmentManager.DisplayRetainedCardsForService(
-                selectedAvailableServiceType,
-                groupToConsume.assignedCards
-            );
+            activeServicePanelController.DisplayRetainedCards(groupToConsume.assignedCards);
         }
         else
         {
-            availableServicesAssignmentManager.ClearAllAssignments();
+            activeServicePanelController.ClearAllAssignments();
         }
 
-        availableServicesAssignmentManager.SetRetainServicesAvailable(false);
+        activeServicePanelController.SetRetainServicesAvailable(false);
+    }
+    else
+    {
+        Debug.LogWarning("Could not refresh service panel after scoring action for: " + selectedAvailableServiceType);
     }
 
     if (availableServicesPanelController != null)

@@ -1,50 +1,55 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class AvailableServicesAssignmentManager : MonoBehaviour
+public class AvailableServicePanelAssignmentController : MonoBehaviour
 {
+    [Header("Service Identity")]
+    [SerializeField] private PranksterType serviceType;
+
     [Header("Visual Setup")]
-    public GameObject cardVisualPrefab;
+    [SerializeField] private GameObject cardVisualPrefab;
 
-    [Header("Beastmaster Slots")]
-    public AvailableServicesServiceCardSlot[] beastmasterSlots;
+    [Header("Card Slots")]
+    [SerializeField] private AvailableServicesServiceCardSlot[] serviceSlots;
 
-    [Header("Beastmaster Action Glows")]
-    public GameObject immediateActionGlow;
-    public GameObject scoringActionGlow;
-    public GameObject ongoingActionGlow;
-    public GameObject retainServicesGlow;
+    [Header("Action Glows")]
+    [SerializeField] private GameObject immediateActionGlow;
+    [SerializeField] private GameObject scoringActionGlow;
+    [SerializeField] private GameObject ongoingActionGlow;
+    [SerializeField] private GameObject retainServicesGlow;
 
-    [Header("Beastmaster Action Colliders")]
-    public AvailableServiceActionCollider immediateActionCollider;
-    public AvailableServiceActionCollider scoringActionCollider;
-    public AvailableServiceActionCollider ongoingActionCollider;
-    public AvailableServiceActionCollider retainServicesCollider;
+    [Header("Action Colliders")]
+    [SerializeField] private AvailableServiceActionCollider immediateActionCollider;
+    [SerializeField] private AvailableServiceActionCollider scoringActionCollider;
+    [SerializeField] private AvailableServiceActionCollider ongoingActionCollider;
+    [SerializeField] private AvailableServiceActionCollider retainServicesCollider;
 
     [Header("References")]
     [SerializeField] private DeckManager deckManager;
 
+    public PranksterType ServiceType => serviceType;
+
     public bool AssignCardToFirstAvailableSlot(Sprite cardArt, PranksterDeckEntry card)
     {
-        if (beastmasterSlots == null || beastmasterSlots.Length == 0)
+        if (serviceSlots == null || serviceSlots.Length == 0)
         {
-            Debug.LogWarning("No Beastmaster service slots assigned.");
+            Debug.LogWarning("No service slots assigned for: " + serviceType);
             return false;
         }
 
-        foreach (AvailableServicesServiceCardSlot slot in beastmasterSlots)
+        foreach (AvailableServicesServiceCardSlot slot in serviceSlots)
         {
             if (slot != null && slot.IsEmpty())
             {
                 slot.AssignVisual(cardVisualPrefab, cardArt, card);
-                // UpdateBeastmasterGlowState();
+                UpdateActionGlowState();
 
-                Debug.Log("Assigned service card visual to first available Beastmaster slot.");
+                Debug.Log("Assigned service card visual to first available slot for: " + serviceType);
                 return true;
             }
         }
 
-        Debug.Log("No empty Beastmaster service slots available.");
+        Debug.Log("No empty service slots available for: " + serviceType);
         return false;
     }
 
@@ -52,10 +57,10 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
     {
         int count = 0;
 
-        if (beastmasterSlots == null)
+        if (serviceSlots == null)
             return count;
 
-        foreach (AvailableServicesServiceCardSlot slot in beastmasterSlots)
+        foreach (AvailableServicesServiceCardSlot slot in serviceSlots)
         {
             if (slot != null && !slot.IsEmpty())
                 count++;
@@ -64,23 +69,25 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
         return count;
     }
 
-    private void UpdateBeastmasterGlowState()
+    public void UpdateActionGlowState()
     {
         int assignedCount = GetAssignedSlotCount();
 
+        bool immediateAvailable = assignedCount >= 2;
+
         if (immediateActionGlow != null)
-            immediateActionGlow.SetActive(assignedCount >= 2);
+            immediateActionGlow.SetActive(immediateAvailable);
 
         if (immediateActionCollider != null)
-            immediateActionCollider.SetAvailable(assignedCount >= 2);
+            immediateActionCollider.SetAvailable(immediateAvailable);
 
         bool scoringAlreadyUsed = false;
         bool ongoingAlreadyUsed = false;
 
         if (deckManager != null)
         {
-            scoringAlreadyUsed = deckManager.HasCurrentPlayerUsedScoringService(PranksterType.BeastMaster);
-            ongoingAlreadyUsed = deckManager.HasCurrentPlayerUsedOngoingService(PranksterType.BeastMaster);
+            scoringAlreadyUsed = deckManager.HasCurrentPlayerUsedScoringService(serviceType);
+            ongoingAlreadyUsed = deckManager.HasCurrentPlayerUsedOngoingService(serviceType);
         }
 
         bool scoringAvailable = assignedCount >= 3 && !scoringAlreadyUsed;
@@ -98,7 +105,8 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
         if (ongoingActionCollider != null)
             ongoingActionCollider.SetAvailable(ongoingAvailable);
 
-        Debug.Log("Beastmaster glow update | assignedCount=" + assignedCount);
+        Debug.Log("Available Service glow update | serviceType=" + serviceType +
+                  " | assignedCount=" + assignedCount);
     }
 
     public void SetRetainServicesAvailable(bool available)
@@ -112,9 +120,9 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
 
     public void ClearAllAssignments()
     {
-        if (beastmasterSlots != null)
+        if (serviceSlots != null)
         {
-            foreach (AvailableServicesServiceCardSlot slot in beastmasterSlots)
+            foreach (AvailableServicesServiceCardSlot slot in serviceSlots)
             {
                 if (slot != null)
                     slot.ClearAssignment();
@@ -132,28 +140,26 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
 
         SetRetainServicesAvailable(false);
 
-        Debug.Log("Cleared all Available Services assignments.");
+        Debug.Log("Cleared all Available Services assignments for: " + serviceType);
     }
 
     public List<PranksterDeckEntry> GetAssignedCardsInSlotOrder()
     {
         List<PranksterDeckEntry> assignedCards = new List<PranksterDeckEntry>();
 
-        if (beastmasterSlots == null)
+        if (serviceSlots == null)
             return assignedCards;
 
-        foreach (AvailableServicesServiceCardSlot slot in beastmasterSlots)
+        foreach (AvailableServicesServiceCardSlot slot in serviceSlots)
         {
             if (slot != null && slot.HasAssignedCard())
-            {
                 assignedCards.Add(slot.GetAssignedCardCopy());
-            }
         }
 
         return assignedCards;
     }
 
-    public void DisplayRetainedCardsForService(PranksterType serviceType, List<PranksterDeckEntry> retainedCards)
+    public void DisplayRetainedCards(List<PranksterDeckEntry> retainedCards)
     {
         ClearAllAssignments();
 
@@ -163,23 +169,17 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
             return;
         }
 
-        if (serviceType != PranksterType.BeastMaster)
+        if (serviceSlots == null || serviceSlots.Length == 0)
         {
-            Debug.Log("Retained service display not yet set up for: " + serviceType);
+            Debug.LogWarning("No service slots assigned for: " + serviceType);
             return;
         }
 
-        if (beastmasterSlots == null || beastmasterSlots.Length == 0)
-        {
-            Debug.LogWarning("No Beastmaster service slots assigned.");
-            return;
-        }
-
-        int maxCards = Mathf.Min(retainedCards.Count, beastmasterSlots.Length);
+        int maxCards = Mathf.Min(retainedCards.Count, serviceSlots.Length);
 
         for (int i = 0; i < maxCards; i++)
         {
-            if (beastmasterSlots[i] == null)
+            if (serviceSlots[i] == null)
                 continue;
 
             PranksterDeckEntry card = retainedCards[i];
@@ -190,10 +190,10 @@ public class AvailableServicesAssignmentManager : MonoBehaviour
                 card.category
             );
 
-            beastmasterSlots[i].AssignVisual(cardVisualPrefab, cardArt, card);
+            serviceSlots[i].AssignVisual(cardVisualPrefab, cardArt, card);
         }
 
-        UpdateBeastmasterGlowState();
+        UpdateActionGlowState();
 
         Debug.Log("Displayed " + maxCards + " retained service card(s) for " + serviceType);
     }

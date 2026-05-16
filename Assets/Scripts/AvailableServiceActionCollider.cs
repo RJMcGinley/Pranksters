@@ -4,6 +4,7 @@ public class AvailableServiceActionCollider : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private DeckManager deckManager;
+    [SerializeField] private AvailableServiceActionCollider retainServicesCollider;
     
     [Header("Action Identity")]
     [SerializeField] private string actionName;
@@ -29,15 +30,22 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
     private void OnMouseDown()
 {
-    if (!isAvailable)
-        return;
-
     if (deckManager == null)
         return;
 
     if (!deckManager.IsChoosingAvailableService())
     {
-        Debug.Log("Available Service action blocked because panel is in view-only mode.");
+        Debug.Log("Available Service action blocked because panel is in view-only mode: " + actionName);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        return;
+    }
+
+    if (!isAvailable)
+    {
+        Debug.Log("Available Service action blocked because action is not available: " + actionName);
 
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayNotAnOption();
@@ -66,6 +74,11 @@ public class AvailableServiceActionCollider : MonoBehaviour
     public void SetAvailable(bool available)
 {
     isAvailable = available;
+}
+
+    public bool IsAvailable()
+{
+    return isAvailable;
 }
 
     private void Update()
@@ -131,10 +144,10 @@ private void HideDescription()
     }
 
     if (retainServicesImage != null)
-    retainServicesImage.SetActive(true);
+        retainServicesImage.SetActive(true);
 
-    if (retainServicesGlow != null && isAvailable)
-        retainServicesGlow.SetActive(true);
+    if (retainServicesGlow != null && retainServicesCollider != null)
+        retainServicesGlow.SetActive(retainServicesCollider.IsAvailable());
 
     if (descriptionText != null)
     {
