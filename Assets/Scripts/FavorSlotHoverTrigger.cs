@@ -166,7 +166,7 @@ public class FavorSlotHoverTrigger : MonoBehaviour
             favorAreaHover.helperObject.SetActive(false);
 
         Debug.Log("CLICK | calling OnFavorAreaClicked");
-        favorAreaHover.deckManager.OnFavorAreaClicked();
+        favorAreaHover.deckManager.OnFavorAreaClicked(favorSlotIndex);
     }
 
     private void ResetHoverState()

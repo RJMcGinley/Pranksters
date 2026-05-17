@@ -34,6 +34,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip completePrankBannerDropClip;
     public AudioClip completePrankClip; 
     [SerializeField] private AudioClip notAnOptionClip;
+    public AudioClip chooseRecruitReturnVoice;
+    public AudioClip chooseAPrankToGetRidOfClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -339,5 +341,15 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     {
         PlaySFX(notAnOptionClip);
     }
+
+    public void PlayChooseRecruitReturnVoice()
+    {
+        PlaySFX(chooseRecruitReturnVoice);
+    }
+
+    public void PlayChooseAPrankToGetRidOf()
+{
+    PlaySFX(chooseAPrankToGetRidOfClip);
+}
     
 }

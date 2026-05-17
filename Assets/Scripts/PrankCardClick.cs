@@ -10,7 +10,8 @@ public class PrankCardClick : MonoBehaviour
         if (deckManager == null)
             return;
 
-        if (!deckManager.CanCompletePrank(prankIndex))
+        if (!deckManager.IsChoosingEngineerPrankReplacement() &&
+            !deckManager.CanCompletePrank(prankIndex))
             return;
 
         deckManager.OnPrankCardClicked(prankIndex);

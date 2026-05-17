@@ -76,6 +76,20 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
         deckManager.ActivateLaborerImmediateAction();
     }
+    else if (actionName == "Wizard Immediate Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateWizardImmediateAction();
+    }
+    else if (actionName == "Engineer Immediate Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateEngineerImmediateAction();
+    }
 }
 
     public void SetAvailable(bool available)

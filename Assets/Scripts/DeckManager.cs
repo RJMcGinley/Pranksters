@@ -2699,8 +2699,14 @@ public bool IsChoosingFavor()
     return pendingChoice == PendingChoiceType.ChooseFavorCard;
 }
 
-public void OnFavorAreaClicked()
+public void OnFavorAreaClicked(int favorSlotIndex)
 {
+    if (pendingChoice == PendingChoiceType.ChooseWizardFavorReturn)
+    {
+        ReturnFavorCardToHand(favorSlotIndex);
+        return;
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseFavorCard)
     {
         CancelFavorChoice();
@@ -2722,6 +2728,12 @@ public void OnFavorAreaClicked()
 public void OnPrankCardClicked(int prankIndex)
 {
     Debug.Log("Prank card clicked: " + prankIndex);
+
+    if (pendingChoice == PendingChoiceType.ChooseEngineerPrankReplacement)
+    {
+        ReplaceActivePrankAndMoveOldToBottom(prankIndex);
+        return;
+    }
 
     if (pendingChoice != PendingChoiceType.ChooseAction &&
         pendingChoice != PendingChoiceType.ChoosePrankToComplete)
@@ -4649,6 +4661,206 @@ private IEnumerator ActivateLaborerImmediateActionSequence()
     RefreshAllDisplays();
 
     FinishActionAndWaitForEndTurn();
+}
+
+public void ActivateWizardImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.Wizard)
+    {
+        Debug.LogWarning("Cannot activate Wizard Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateWizardImmediateActionSequence());
+}
+
+private IEnumerator ActivateWizardImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.Wizard)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Wizard Immediate Action. Need 2 retained Wizard cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    pendingChoice = PendingChoiceType.ChooseWizardFavorReturn;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayChooseRecruitReturnVoice();
+
+    Debug.Log("Choose a favor card to return to your hand.");
+}
+
+private void ReturnFavorCardToHand(int favorSlotIndex)
+{
+    Player player = GetCurrentPlayer();
+
+    if (favorSlotIndex < 0 || favorSlotIndex >= player.favorArea.Count)
+    {
+        Debug.LogWarning("Invalid favor slot index: " + favorSlotIndex);
+        return;
+    }
+
+    PranksterDeckEntry card = player.favorArea[favorSlotIndex];
+
+    player.favorArea.RemoveAt(favorSlotIndex);
+
+    player.hand.Add(new PranksterDeckEntry
+    {
+        pranksterType = card.pranksterType,
+        tier = card.tier,
+        category = card.category
+    });
+
+    SortCurrentPlayerHand();
+
+    pendingChoice = PendingChoiceType.None;
+
+    RefreshAllDisplays();
+
+    FinishActionAndWaitForEndTurn();
+
+    Debug.Log("Returned favor card to hand: " + card.pranksterType);
+}
+
+public void ActivateEngineerImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.Engineer)
+    {
+        Debug.LogWarning("Cannot activate Engineer Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateEngineerImmediateActionSequence());
+}
+
+private IEnumerator ActivateEngineerImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.Engineer)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Engineer Immediate Action. Need 2 retained Engineer cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    pendingChoice = PendingChoiceType.ChooseEngineerPrankReplacement;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayChooseAPrankToGetRidOf();
+
+    Debug.Log("Choose an active prank to replace.");
+}
+
+private void ReplaceActivePrankAndMoveOldToBottom(int prankIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseEngineerPrankReplacement)
+        return;
+
+    if (prankIndex < 0 || prankIndex >= activePranks.Count)
+    {
+        Debug.LogWarning("Invalid prank index for Engineer replacement: " + prankIndex);
+        return;
+    }
+
+    if (prankDeck.Count == 0)
+    {
+        Debug.LogWarning("Cannot replace prank. Prank deck is empty.");
+        return;
+    }
+
+    PrankCard oldPrank = activePranks[prankIndex];
+    PrankCard newPrank = prankDeck[0];
+
+    prankDeck.RemoveAt(0);
+    activePranks[prankIndex] = newPrank;
+    prankDeck.Add(oldPrank);
+
+    pendingChoice = PendingChoiceType.None;
+
+    ShowActivePrankCards();
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    Debug.Log("Engineer replaced prank: " + oldPrank.title + " with " + newPrank.title);
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public bool IsChoosingEngineerPrankReplacement()
+{
+    return pendingChoice == PendingChoiceType.ChooseEngineerPrankReplacement;
 }
 
 }

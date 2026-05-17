@@ -59,7 +59,7 @@ public class FavorAreaHover : MonoBehaviour
 
         HideHelper();
 
-        deckManager.OnFavorAreaClicked();
+        deckManager.OnFavorAreaClicked(-1);
     }
 
     private void HideHelper()

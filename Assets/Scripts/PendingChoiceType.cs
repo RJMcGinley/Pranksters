@@ -9,5 +9,7 @@ public enum PendingChoiceType
     ChooseSwapHandCard,
     ChooseSwapTarget,
     ChoosePrankToComplete,
-    ChooseAvailableServiceCard
+    ChooseAvailableServiceCard,
+    ChooseWizardFavorReturn,
+    ChooseEngineerPrankReplacement
 }
