@@ -435,7 +435,7 @@ public class DeckManager : MonoBehaviour
 
     yield return new WaitForSeconds(0.15f);
 
-    yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
+    // yield return StartCoroutine(RefillHandToFourOneCardAtATime(0.3f));
 
     RefreshAllDisplays();
 
@@ -4337,7 +4337,7 @@ IEnumerator FinishCompletePrankSequence()
 {
     Debug.Log("FinishCompletePrankSequence START | isBot = " + GetCurrentPlayer().isBot);
 
-    yield return StartCoroutine(RefillHandToMaxOneCardAtATime(0.3f));
+    // yield return StartCoroutine(RefillHandToMaxOneCardAtATime(0.3f));
 
     RefreshAllDisplays();
 
@@ -4586,6 +4586,69 @@ public void SetAvailableServicesPanelOpen(bool open)
 public bool IsAvailableServicesPanelOpen()
 {
     return availableServicesPanelOpen;
+}
+
+public void ActivateLaborerImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.Laborer)
+    {
+        Debug.LogWarning("Cannot activate Laborer Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateLaborerImmediateActionSequence());
+}
+
+private IEnumerator ActivateLaborerImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.Laborer)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Laborer Immediate Action. Need 2 retained Laborer cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    yield return StartCoroutine(RefillHandToMaxOneCardAtATime(0.3f));
+
+    RefreshAllDisplays();
+
+    FinishActionAndWaitForEndTurn();
 }
 
 }

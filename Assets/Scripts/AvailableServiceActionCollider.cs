@@ -69,6 +69,13 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
         deckManager.ActivateAvailableServiceScoringAction();
     }
+    else if (actionName == "Laborer Immediate Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateLaborerImmediateAction();
+    }
 }
 
     public void SetAvailable(bool available)

@@ -5170,7 +5170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &13078493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12361,9 +12361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ongoing
-
-    Action'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12527,14 +12525,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -12596,7 +12594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &75448870
@@ -18565,7 +18563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14.12}
+  m_AnchoredPosition: {x: 80.2, y: 14.3}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103642888
@@ -19024,7 +19022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
+  m_AnchoredPosition: {x: 80.3, y: 14}
   m_SizeDelta: {x: 10, y: 11.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118161953
@@ -19213,7 +19211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &122695516
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19512,7 +19510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
+  m_AnchoredPosition: {x: 80.2, y: 13.9}
   m_SizeDelta: {x: 14, y: 10.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141593593
@@ -19674,7 +19672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32899f6342f9447289fa858a54f2eeb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AvailableServicePanelAssignmentController
-  serviceType: 3
+  serviceType: 5
   cardVisualPrefab: {fileID: 5671718104291496341, guid: e322ba8e687814b028bde1f7e06eeae1, type: 3}
   serviceSlots:
   - {fileID: 1745946501}
@@ -20171,8 +20169,7 @@ MonoBehaviour:
   - {fileID: 1537380505}
   - {fileID: 1694332649}
   descriptionText: {fileID: 2003927749}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: Requires 2 recruits.
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1973029859}
   retainServicesGlow: {fileID: 41399029}
@@ -20220,7 +20217,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.5, y: 6}
+  m_Size: {x: 7.6, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &166524643
 GameObject:
@@ -20510,7 +20507,7 @@ MonoBehaviour:
   - {fileID: 1551931200}
   - {fileID: 1414292562}
   descriptionText: {fileID: 949086329}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -20636,7 +20633,7 @@ MonoBehaviour:
   - {fileID: 1537380505}
   - {fileID: 1694332649}
   descriptionText: {fileID: 2003927749}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -20799,8 +20796,12 @@ MonoBehaviour:
   - {fileID: 1109742219}
   - {fileID: 360016739}
   descriptionText: {fileID: 816616516}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: 'Requires 2 recruits.
+
+    Choose a prank.
+
+    Replace it with
+    a new one.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 878414182}
   retainServicesGlow: {fileID: 1423994106}
@@ -21062,7 +21063,7 @@ MonoBehaviour:
   - {fileID: 1042896500}
   - {fileID: 484852343}
   descriptionText: {fileID: 802999289}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -21148,7 +21149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &202084024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21171,7 +21172,7 @@ MonoBehaviour:
   - {fileID: 2007420235}
   - {fileID: 64084527}
   descriptionText: {fileID: 1933094805}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -21492,8 +21493,8 @@ MonoBehaviour:
   - {fileID: 1551931200}
   - {fileID: 1414292562}
   descriptionText: {fileID: 949086329}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: "Requires 2 recruits.\nSelect a recruit type. Return the top
+    most \nrecruit of that type from the discard pile.  "
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2054390561}
   retainServicesGlow: {fileID: 262701728}
@@ -21853,10 +21854,8 @@ MonoBehaviour:
   - {fileID: 1109742219}
   - {fileID: 360016739}
   descriptionText: {fileID: 816616516}
-  actionDescription: 'Spend 3 retained recruits.
-
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
+    pranks\n is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 878414182}
   retainServicesGlow: {fileID: 1423994106}
@@ -22078,8 +22077,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 79.9, y: 14.2}
+  m_SizeDelta: {x: 14.5, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232612866
 MonoBehaviour:
@@ -22430,7 +22429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &242697447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27667,7 +27666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -17, y: -0.20000076}
+  m_AnchoredPosition: {x: -16.8, y: -0.20000076}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &266699920
@@ -33243,7 +33242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &301956652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33260,8 +33259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 80.4, y: 13.9}
+  m_SizeDelta: {x: 15, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301956653
 MonoBehaviour:
@@ -33735,8 +33734,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 44.7, y: -4.8}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324455575
 MonoBehaviour:
@@ -33758,7 +33757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -34133,7 +34132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &340809308
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34274,7 +34273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &357756970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35345,7 +35344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14.06}
+  m_AnchoredPosition: {x: 79.5, y: 14.06}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396134623
@@ -42919,8 +42918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 45, y: -5}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504161603
 MonoBehaviour:
@@ -42942,7 +42941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43627,8 +43626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 44.7, y: -5.1}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &519592653
 MonoBehaviour:
@@ -43650,7 +43649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43684,7 +43683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &519639706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -43780,7 +43779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32899f6342f9447289fa858a54f2eeb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AvailableServicePanelAssignmentController
-  serviceType: 3
+  serviceType: 0
   cardVisualPrefab: {fileID: 5671718104291496341, guid: e322ba8e687814b028bde1f7e06eeae1, type: 3}
   serviceSlots:
   - {fileID: 606405304}
@@ -44169,7 +44168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14.06}
+  m_AnchoredPosition: {x: 79.8, y: 14.2}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550925813
@@ -44244,7 +44243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14.12}
+  m_AnchoredPosition: {x: 80.2, y: 14.12}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554276001
@@ -55810,7 +55809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.8}
+  m_AnchoredPosition: {x: 79.7, y: 13.9}
   m_SizeDelta: {x: 14, y: 10.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &621549079
@@ -57333,8 +57332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 44.6, y: -5.1}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686378115
 MonoBehaviour:
@@ -57356,7 +57355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -57468,7 +57467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &699590166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62537,9 +62536,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Change
 
-    Action'
+    of Plans'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -62635,7 +62634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.4000092, y: 8.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &711019691
@@ -69399,14 +69398,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -69468,7 +69467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &805529419
@@ -69767,14 +69766,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -69836,7 +69835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &821691428
@@ -70739,7 +70738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
+  m_AnchoredPosition: {x: 80, y: 13.9}
   m_SizeDelta: {x: 14, y: 10.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882695032
@@ -77055,9 +77054,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Rally the
 
-    Action'
+    Townsfolk'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -77084,8 +77083,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.5
-  m_fontSizeBase: 2.5
+  m_fontSize: 2.4
+  m_fontSizeBase: 2.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -77153,7 +77152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.4000092, y: 8.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &936110866
@@ -82443,7 +82442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 800, y: 11.6}
+  m_AnchoredPosition: {x: 800, y: 11.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &947333320
@@ -82552,7 +82551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &949086329
@@ -82602,14 +82601,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -83340,7 +83339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.4000092, y: 7.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &965789738
@@ -83363,9 +83362,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Tracking
 
-    Action'
+    Hounds'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -83542,7 +83541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.300003, y: 2.7999997}
+  m_AnchoredPosition: {x: -6.8, y: 2.7999997}
   m_SizeDelta: {x: 20, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &967943433
@@ -83647,10 +83646,12 @@ MonoBehaviour:
   - {fileID: 1537380505}
   - {fileID: 1694332649}
   descriptionText: {fileID: 2003927749}
-  actionDescription: 'Spend 3 retained recruits.
+  actionDescription: 'Requires 3 recruits.
 
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+    Each matching icon on your completed
+    pranks
+
+    is worth +2 Notoriety at the end of the game.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1973029859}
   retainServicesGlow: {fileID: 41399029}
@@ -83698,7 +83699,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.5, y: 6}
+  m_Size: {x: 7.6, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &977005017
 GameObject:
@@ -84199,8 +84200,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 80.2, y: 14}
+  m_SizeDelta: {x: 14.5, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984129906
 MonoBehaviour:
@@ -85090,7 +85091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
+  m_AnchoredPosition: {x: 79.7, y: 13.9}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018347171
@@ -90476,7 +90477,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: 'Arcane
+
+    Whispers'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -90572,7 +90575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.4, y: 9.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1048085920
@@ -96055,10 +96058,8 @@ MonoBehaviour:
   - {fileID: 1551931200}
   - {fileID: 1414292562}
   descriptionText: {fileID: 949086329}
-  actionDescription: 'Spend 3 retained recruits.
-
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
+    pranks\n is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2054390561}
   retainServicesGlow: {fileID: 262701728}
@@ -96366,10 +96367,12 @@ MonoBehaviour:
   - {fileID: 1042896500}
   - {fileID: 484852343}
   descriptionText: {fileID: 802999289}
-  actionDescription: 'Spend 3 retained recruits.
+  actionDescription: 'Requires 3 recruits.
 
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+    Each matching icon on your completed
+    pranks
+
+    is worth +2 Notoriety at the end of the game.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2044029236}
   retainServicesGlow: {fileID: 1895453413}
@@ -96548,7 +96551,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: 'Ingenious
+
+    Design'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -96644,7 +96649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.4, y: 9.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1113574687
@@ -96815,10 +96820,8 @@ MonoBehaviour:
   - {fileID: 2007420235}
   - {fileID: 64084527}
   descriptionText: {fileID: 1933094805}
-  actionDescription: 'Spend 3 retained recruits.
-
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
+    pranks\n is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1301393504}
   retainServicesGlow: {fileID: 1311200410}
@@ -102430,8 +102433,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 44.7, y: -4.9}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160597961
 MonoBehaviour:
@@ -102453,7 +102456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -108127,7 +108130,7 @@ MonoBehaviour:
   - {fileID: 1109742219}
   - {fileID: 360016739}
   descriptionText: {fileID: 816616516}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -109658,7 +109661,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1267485587
 RectTransform:
   m_ObjectHideFlags: 0
@@ -116667,7 +116670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1366616580
 RectTransform:
   m_ObjectHideFlags: 0
@@ -116723,7 +116726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14.06}
+  m_AnchoredPosition: {x: 79.7, y: 14.06}
   m_SizeDelta: {x: 10, y: 12.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367227482
@@ -122928,7 +122931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1431315593
 RectTransform:
   m_ObjectHideFlags: 0
@@ -129863,7 +129866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1520848608
 RectTransform:
   m_ObjectHideFlags: 0
@@ -130349,7 +130352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: Propaganda
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -130445,7 +130448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.1, y: 8.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1539998026
@@ -130536,7 +130539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1549760147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -130630,7 +130633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.2, y: 8.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1551931202
@@ -130653,7 +130656,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: 'Talk of
+
+    the Town'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -132249,8 +132254,8 @@ MonoBehaviour:
   - {fileID: 1042896500}
   - {fileID: 484852343}
   descriptionText: {fileID: 802999289}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: "Requires 2 recruits.\nReturn a recruit from your \nreferred
+    area to your hand"
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2044029236}
   retainServicesGlow: {fileID: 1895453413}
@@ -132340,7 +132345,7 @@ MonoBehaviour:
   - {fileID: 1972457913}
   - {fileID: 436755291}
   descriptionText: {fileID: 64935927}
-  actionDescription: '                        Commit Recruit(s)'
+  actionDescription: Commit Recruit(s)
   hoverDelay: 0.5
   retainServicesImage: {fileID: 0}
   retainServicesGlow: {fileID: 0}
@@ -132559,8 +132564,8 @@ MonoBehaviour:
   - {fileID: 1972457913}
   - {fileID: 436755291}
   descriptionText: {fileID: 64935927}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: "Requires 2 recruits.\nChoose a player. \nTake a random recruit
+    from their hand."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1442467980}
   retainServicesGlow: {fileID: 252452700}
@@ -137505,7 +137510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.8}
+  m_AnchoredPosition: {x: 79.9, y: 14.1}
   m_SizeDelta: {x: 14, y: 10.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616577347
@@ -139901,7 +139906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1700516320
 RectTransform:
   m_ObjectHideFlags: 0
@@ -139918,8 +139923,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.8}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 80, y: 13.9}
+  m_SizeDelta: {x: 15, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700516321
 MonoBehaviour:
@@ -140560,7 +140565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.9}
+  m_AnchoredPosition: {x: 80.1, y: 13.9}
   m_SizeDelta: {x: 14, y: 10.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734371267
@@ -145637,7 +145642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 14}
+  m_AnchoredPosition: {x: 80.1, y: 14}
   m_SizeDelta: {x: 10, y: 11.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1751466192
@@ -152400,9 +152405,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Magic
 
-    Action'
+    Portal'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -152498,7 +152503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.7, y: 8.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1833693338
@@ -159000,9 +159005,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Inside
 
-    Action'
+    Job'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -159098,7 +159103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.8, y: 7.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1928830775
@@ -159160,10 +159165,8 @@ MonoBehaviour:
   - {fileID: 1972457913}
   - {fileID: 436755291}
   descriptionText: {fileID: 64935927}
-  actionDescription: 'Spend 3 retained recruits.
-
-    Each matching icon on your
-    completed pranks is worth +2 Notoriety.'
+  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
+    pranks\n is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1442467980}
   retainServicesGlow: {fileID: 252452700}
@@ -159324,14 +159327,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -159393,7 +159396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1935851459
@@ -164482,8 +164485,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.1, y: -4.6}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: 44.5, y: -4.7}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954297952
 MonoBehaviour:
@@ -164505,7 +164508,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3074899460726832560, guid: 329d5bad218e848ebb7877ef65aa0f17, type: 3}
+  m_Sprite: {fileID: 4420199516272176816, guid: 2b57a557a7e6f4377954b67ee4418ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -164558,8 +164561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.8}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 79.6, y: 14.1}
+  m_SizeDelta: {x: 14.5, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965458143
 MonoBehaviour:
@@ -164652,7 +164655,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: 'Greased
+
+    Palms'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -164748,7 +164753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.9, y: 8.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1972533884
@@ -165290,7 +165295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1993287860
 RectTransform:
   m_ObjectHideFlags: 0
@@ -165668,14 +165673,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2.4
-  m_fontSizeBase: 2.4
+  m_fontSize: 2.3
+  m_fontSizeBase: 2.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -165737,7 +165742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 55.9, y: 4.5999985}
+  m_AnchoredPosition: {x: 48, y: 4.1}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2007420235
@@ -165778,7 +165783,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scoring \nAction"
+  m_text: 'Relentless
+
+    Effort'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -165874,7 +165881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.7, y: 9.8}
+  m_AnchoredPosition: {x: 1.3, y: 9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2015268424
@@ -167502,7 +167509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AvailableServiceActionCollider
   deckManager: {fileID: 1503786762}
   retainServicesCollider: {fileID: 202084024}
-  actionName: Immediate Action
+  actionName: Laborer Immediate Action
   isAvailable: 0
   actionTitleTextObjects:
   - {fileID: 17185818}
@@ -167510,8 +167517,7 @@ MonoBehaviour:
   - {fileID: 2007420235}
   - {fileID: 64084527}
   descriptionText: {fileID: 1933094805}
-  actionDescription: 'This text is found in BoxColliderSlot2''s inspector. Attached
-    to the script '
+  actionDescription: "Requires 2 recruits. \nRefill your crew to max size "
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1301393504}
   retainServicesGlow: {fileID: 1311200410}
@@ -167670,7 +167676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.7, y: 13.9}
+  m_AnchoredPosition: {x: 79.7, y: 14.1}
   m_SizeDelta: {x: 10, y: 11.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080602355
@@ -168691,9 +168697,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Immediate
+  m_text: 'Forged
 
-    Action'
+    Documents'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -168789,7 +168795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1.4000092, y: 9.00001}
+  m_AnchoredPosition: {x: 1.5, y: 8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2119500927
@@ -169057,8 +169063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.9, y: 13.8}
-  m_SizeDelta: {x: 14, y: 10.5}
+  m_AnchoredPosition: {x: 79.9, y: 14}
+  m_SizeDelta: {x: 14.5, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2120234997
 MonoBehaviour:

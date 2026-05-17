@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 2b57a557a7e6f4377954b67ee4418ac1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4420199516272176816
+    second: 3SlotAvailableServicesBackground_0
+  - first:
+      213: -8976908269822666233
+    second: 3SlotAvailableServicesBackground_1
+  - first:
+      213: 2577026902753202447
+    second: 3SlotAvailableServicesBackground_2
+  - first:
+      213: -1016788920887223201
+    second: 3SlotAvailableServicesBackground_3
+  - first:
+      213: -8641086571957982306
+    second: 3SlotAvailableServicesBackground_4
+  - first:
+      213: -4797998334951023119
+    second: 3SlotAvailableServicesBackground_5
+  - first:
+      213: 9015809567707802302
+    second: 3SlotAvailableServicesBackground_6
+  - first:
+      213: 7422034880771723618
+    second: 3SlotAvailableServicesBackground_7
+  - first:
+      213: 3428892344315158359
+    second: 3SlotAvailableServicesBackground_8
+  - first:
+      213: 2055204622457060398
+    second: 3SlotAvailableServicesBackground_9
+  - first:
+      213: 1388183700008797498
+    second: 3SlotAvailableServicesBackground_10
+  - first:
+      213: 5103517915480467422
+    second: 3SlotAvailableServicesBackground_11
+  - first:
+      213: -5671288115283447623
+    second: 3SlotAvailableServicesBackground_12
+  - first:
+      213: 7735320967475964512
+    second: 3SlotAvailableServicesBackground_13
+  - first:
+      213: -5202606781140837164
+    second: 3SlotAvailableServicesBackground_14
+  - first:
+      213: -3417907967792328067
+    second: 3SlotAvailableServicesBackground_15
+  - first:
+      213: -4126468248559996300
+    second: 3SlotAvailableServicesBackground_16
+  - first:
+      213: 7033108435148124828
+    second: 3SlotAvailableServicesBackground_17
+  - first:
+      213: 2769125649351210195
+    second: 3SlotAvailableServicesBackground_18
+  - first:
+      213: -4041860072644080590
+    second: 3SlotAvailableServicesBackground_19
+  - first:
+      213: -9090642959555968709
+    second: 3SlotAvailableServicesBackground_20
+  - first:
+      213: 8849541018275905844
+    second: 3SlotAvailableServicesBackground_21
+  - first:
+      213: -4021603164028877867
+    second: 3SlotAvailableServicesBackground_22
+  - first:
+      213: 3373603149721325682
+    second: 3SlotAvailableServicesBackground_23
+  - first:
+      213: 3163000004544459043
+    second: 3SlotAvailableServicesBackground_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 26
+        width: 813
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bea1c37a04b75d30800000000000000
+      internalID: 4420199516272176816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_1
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 706
+        width: 128
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a14f38d7d9b6380800000000000000
+      internalID: -8976908269822666233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 27
+        width: 169
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01da3b705073c320800000000000000
+      internalID: 2577026902753202447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 623
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cd6f61dd3a3e1f0800000000000000
+      internalID: -1016788920887223201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 571
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9beb059b81b41880800000000000000
+      internalID: -8641086571957982306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_5
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 599
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd145c6fe51a6db0800000000000000
+      internalID: -4797998334951023119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_6
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 572
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaaac5b8079e1d70800000000000000
+      internalID: 9015809567707802302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 506
+        width: 9
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26115f2866d500760800000000000000
+      internalID: 7422034880771723618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 555
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f16fb8b6fd59f20800000000000000
+      internalID: 3428892344315158359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 497
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c3b4617bd858c10800000000000000
+      internalID: 2055204622457060398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_10
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 461
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35030268b1d34310800000000000000
+      internalID: 1388183700008797498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 418
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed72e09218653d640800000000000000
+      internalID: 5103517915480467422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 374
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0b2a5c1898b41b0800000000000000
+      internalID: -5671288115283447623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_13
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 370
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a290abf61695b60800000000000000
+      internalID: 7735320967475964512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 350
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcdf0872b0acc7b0800000000000000
+      internalID: -5202606781140837164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_15
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 333
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72d2c8efc62190d0800000000000000
+      internalID: -3417907967792328067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47237abadf6dbb6c0800000000000000
+      internalID: -4126468248559996300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 303
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92bec7dbde9a9160800000000000000
+      internalID: 7033108435148124828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 241
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4700c4b19ed6620800000000000000
+      internalID: 2769125649351210195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 167
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c073abdad68e7c0800000000000000
+      internalID: -4041860072644080590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_20
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 133
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31c2cf746c87d180800000000000000
+      internalID: -9090642959555968709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 134
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43185935ba2efca70800000000000000
+      internalID: 8849541018275905844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_22
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 134
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3c87cca356038c0800000000000000
+      internalID: -4021603164028877867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_23
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 135
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2705748c03271de20800000000000000
+      internalID: 3373603149721325682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SlotAvailableServicesBackground_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 124
+        width: 657
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3217e6feebb35eb20800000000000000
+      internalID: 3163000004544459043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      3SlotAvailableServicesBackground_0: 4420199516272176816
+      3SlotAvailableServicesBackground_1: -8976908269822666233
+      3SlotAvailableServicesBackground_10: 1388183700008797498
+      3SlotAvailableServicesBackground_11: 5103517915480467422
+      3SlotAvailableServicesBackground_12: -5671288115283447623
+      3SlotAvailableServicesBackground_13: 7735320967475964512
+      3SlotAvailableServicesBackground_14: -5202606781140837164
+      3SlotAvailableServicesBackground_15: -3417907967792328067
+      3SlotAvailableServicesBackground_16: -4126468248559996300
+      3SlotAvailableServicesBackground_17: 7033108435148124828
+      3SlotAvailableServicesBackground_18: 2769125649351210195
+      3SlotAvailableServicesBackground_19: -4041860072644080590
+      3SlotAvailableServicesBackground_2: 2577026902753202447
+      3SlotAvailableServicesBackground_20: -9090642959555968709
+      3SlotAvailableServicesBackground_21: 8849541018275905844
+      3SlotAvailableServicesBackground_22: -4021603164028877867
+      3SlotAvailableServicesBackground_23: 3373603149721325682
+      3SlotAvailableServicesBackground_24: 3163000004544459043
+      3SlotAvailableServicesBackground_3: -1016788920887223201
+      3SlotAvailableServicesBackground_4: -8641086571957982306
+      3SlotAvailableServicesBackground_5: -4797998334951023119
+      3SlotAvailableServicesBackground_6: 9015809567707802302
+      3SlotAvailableServicesBackground_7: 7422034880771723618
+      3SlotAvailableServicesBackground_8: 3428892344315158359
+      3SlotAvailableServicesBackground_9: 2055204622457060398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
