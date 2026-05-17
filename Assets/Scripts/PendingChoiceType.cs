@@ -11,5 +11,6 @@ public enum PendingChoiceType
     ChoosePrankToComplete,
     ChooseAvailableServiceCard,
     ChooseWizardFavorReturn,
-    ChooseEngineerPrankReplacement
+    ChooseEngineerPrankReplacement,
+    ChooseThiefOpponentSteal
 }

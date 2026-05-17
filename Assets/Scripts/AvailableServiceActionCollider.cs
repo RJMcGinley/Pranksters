@@ -90,6 +90,13 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
         deckManager.ActivateEngineerImmediateAction();
     }
+    else if (actionName == "Thief Immediate Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateThiefImmediateAction();
+    }
 }
 
     public void SetAvailable(bool available)

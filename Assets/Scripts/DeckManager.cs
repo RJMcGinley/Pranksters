@@ -4863,5 +4863,128 @@ public bool IsChoosingEngineerPrankReplacement()
     return pendingChoice == PendingChoiceType.ChooseEngineerPrankReplacement;
 }
 
+public void ActivateThiefImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.Thief)
+    {
+        Debug.LogWarning("Cannot activate Thief Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateThiefImmediateActionSequence());
+}
+
+private IEnumerator ActivateThiefImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.Thief)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Thief Immediate Action. Need 2 retained Thief cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    pendingChoice = PendingChoiceType.ChooseThiefOpponentSteal;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayChooseOpponentToPoachRecruitFrom();
+
+    Debug.Log("Choose an opponent to poach a recruit from.");
+}
+
+public bool IsChoosingThiefOpponentSteal()
+{
+    return pendingChoice == PendingChoiceType.ChooseThiefOpponentSteal;
+}
+
+public void ResolveThiefOpponentSteal(int opponentIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseThiefOpponentSteal)
+    {
+        Debug.Log("ResolveThiefOpponentSteal ignored because pendingChoice is: " + pendingChoice);
+        return;
+    }
+
+    Player currentPlayer = GetCurrentPlayer();
+
+    if (opponentIndex < 0 || opponentIndex >= turnManager.players.Count)
+    {
+        Debug.LogWarning("Invalid opponent index for thief steal: " + opponentIndex);
+        return;
+    }
+
+    Player opponent = turnManager.players[opponentIndex];
+
+    if (opponent == currentPlayer)
+    {
+        Debug.LogWarning("Cannot steal from yourself.");
+        return;
+    }
+
+    if (opponent.hand.Count == 0)
+    {
+        Debug.LogWarning("Opponent has no cards in hand.");
+        return;
+    }
+
+    int randomIndex = Random.Range(0, opponent.hand.Count);
+
+    PranksterDeckEntry stolenCard = opponent.hand[randomIndex];
+
+    opponent.hand.RemoveAt(randomIndex);
+
+    currentPlayer.hand.Add(new PranksterDeckEntry
+    {
+        pranksterType = stolenCard.pranksterType,
+        tier = stolenCard.tier,
+        category = stolenCard.category
+    });
+
+    SortCurrentPlayerHand();
+
+    pendingChoice = PendingChoiceType.None;
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    Debug.Log("Stole random card from opponent: " + stolenCard.pranksterType);
+
+    FinishActionAndWaitForEndTurn();
+}
 }
 
