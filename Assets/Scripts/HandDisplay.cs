@@ -47,6 +47,36 @@ public class HandDisplay : MonoBehaviour
         }
 
         int count = hand.Count;
+
+        Vector3 cardScale = Vector3.one;
+
+        // Dynamic hand resizing for larger hands
+        if (count >= 9)
+        {
+            spacing = 1.25f;
+            cardScale = new Vector3(0.62f, 0.62f, 1f);
+        }
+        if (count == 8)
+        {
+            spacing = 1.25f;
+            cardScale = new Vector3(0.62f, 0.62f, 1f);
+        }
+        if (count == 7)
+        {
+            spacing = 1.45f;
+            cardScale = new Vector3(0.72f, 0.72f, 1f);
+        }
+        else if (count == 6)
+        {
+            spacing = 1.65f;
+            cardScale = new Vector3(0.82f, 0.82f, 1f);
+        }
+        else if (count == 5)
+        {
+            spacing = 1.9f;
+            cardScale = new Vector3(0.92f, 0.92f, 1f);
+        }
+
         float startX = -(count - 1) * spacing / 2f;
 
         for (int i = 0; i < count; i++)
@@ -67,7 +97,7 @@ public class HandDisplay : MonoBehaviour
                     " | category=" + hand[i].category +
                     " | sprite=" + (art != null ? art.name : "NULL"));
 
-            CreateCard(art, hand[i].tier, new Vector3(x, yOffset, 0), i);
+            CreateCard(art, hand[i].tier, new Vector3(x, yOffset, 0), i, cardScale);
         }
     }
 
@@ -185,22 +215,28 @@ public class HandDisplay : MonoBehaviour
         }
     }
 
-    void CreateCard(Sprite art, int tier, Vector3 localPosition, int index)
+    void CreateCard(Sprite art, int tier, Vector3 localPosition, int index, Vector3 cardScale)
     {
         GameObject card = Instantiate(pranksterCardPrefab, currentPlayerHandArea);
         card.transform.localPosition = localPosition;
 
+        card.transform.localScale = cardScale;
+
         if (deckManager != null && deckManager.IsChoosingFavor())
         {
-            card.transform.localScale = new Vector3(1.15f, 1.15f, 1f);
+            card.transform.localScale = new Vector3(
+                cardScale.x * 1.15f,
+                cardScale.y * 1.15f,
+                1f
+            );
         }
         else if (deckManager != null && deckManager.IsInSwapHandSelection())
         {
-            card.transform.localScale = new Vector3(0.9f, 0.9f, 1f);
-        }
-        else
-        {
-            card.transform.localScale = Vector3.one;
+            card.transform.localScale = new Vector3(
+                cardScale.x * 0.9f,
+                cardScale.y * 0.9f,
+                1f
+            );
         }
 
         PranksterCardView cardView = card.GetComponent<PranksterCardView>();

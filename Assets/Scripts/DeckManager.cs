@@ -914,7 +914,7 @@ void ResolveDiscardChoice(int discardHandIndex)
     discardPileDisplay.UpdateTopDiscardCard();
     RefreshCrewCapacityDisplay();
 
-    FinishActionAndWaitForEndTurn();
+    ContinueDiscardingUntilHandAtMax();
 }
 
 void Update()
@@ -1222,7 +1222,7 @@ void ResolveDiscardAfterDrawFromDiscard(int discardHandIndex)
     discardPileDisplay.UpdateTopDiscardCard();
     RefreshCrewCapacityDisplay();
 
-    FinishActionAndWaitForEndTurn();
+    ContinueDiscardingUntilHandAtMax();
 }
 
 void StartOfferFavorTurn()
@@ -4986,5 +4986,150 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
 
     FinishActionAndWaitForEndTurn();
 }
+
+public void ActivateScribeImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.Scribe)
+    {
+        Debug.LogWarning("Cannot activate Scribe Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateScribeImmediateActionSequence());
+}
+
+private IEnumerator ActivateScribeImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.Scribe)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Scribe Immediate Action. Need 2 retained Scribe cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    pendingChoice = PendingChoiceType.ChooseScribeFavorTheft;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayChooseOpponentToGatherTheirReferrals();
+
+    Debug.Log("Choose an opponent to gather their referrals into your crew.");
+}
+
+public bool IsChoosingScribeFavorTheft()
+{
+    return pendingChoice == PendingChoiceType.ChooseScribeFavorTheft;
+}
+
+public void ResolveScribeFavorTheft(int opponentIndex)
+{
+    if (pendingChoice != PendingChoiceType.ChooseScribeFavorTheft)
+    {
+        Debug.Log("ResolveScribeFavorTheft ignored because pendingChoice is: " + pendingChoice);
+        return;
+    }
+
+    Player currentPlayer = GetCurrentPlayer();
+
+    if (opponentIndex < 0 || opponentIndex >= turnManager.players.Count)
+    {
+        Debug.LogWarning("Invalid opponent index for scribe favor theft: " + opponentIndex);
+        return;
+    }
+
+    Player opponent = turnManager.players[opponentIndex];
+
+    if (opponent == currentPlayer)
+    {
+        Debug.LogWarning("Cannot steal favor recruits from yourself.");
+        return;
+    }
+
+    if (opponent.favorArea.Count == 0)
+    {
+        Debug.LogWarning("Opponent has no favor recruits.");
+        return;
+    }
+
+    foreach (PranksterDeckEntry card in opponent.favorArea)
+    {
+        currentPlayer.hand.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+    }
+
+    opponent.favorArea.Clear();
+
+    SortCurrentPlayerHand();
+
+    pendingChoice = PendingChoiceType.None;
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    Debug.Log("Scribe stole all favor recruits from opponent.");
+
+    FinishActionAndWaitForEndTurn();
+}
+
+private void ContinueDiscardingUntilHandAtMax()
+{
+    Player player = GetCurrentPlayer();
+
+    if (player.hand.Count > player.maxHandSize)
+    {
+        pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
+
+        RefreshAllHighlights();
+        RefreshHandVisuals();
+        RefreshCrewCapacityDisplay();
+
+        Debug.Log("Hand still above max size. Choose another card to discard.");
+        ShowCurrentPlayerHand();
+
+        return;
+    }
+
+    FinishActionAndWaitForEndTurn();
+}
+
 }
 
