@@ -38,6 +38,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip chooseAPrankToGetRidOfClip;
     public AudioClip chooseOpponentToPoachRecruitFromClip;
     public AudioClip chooseOpponentToGatherTheirReferralsClip;
+    public AudioClip houndsCouldntTrackThemDownClip;
+    public AudioClip chooseARecruitForTheDogsToTrackDownClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -362,5 +364,15 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     public void PlayChooseOpponentToGatherTheirReferrals()
     {
         PlaySFX(chooseOpponentToGatherTheirReferralsClip);
+    }
+
+    public void PlayHoundsCouldntTrackThemDown()
+    {
+        PlaySFX(houndsCouldntTrackThemDownClip);
+    }
+
+    public void PlayChooseARecruitForTheDogsToTrackDown()
+    {
+        PlaySFX(chooseARecruitForTheDogsToTrackDownClip);
     }
 }

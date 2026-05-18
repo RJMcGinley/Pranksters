@@ -33,6 +33,12 @@ public class AvailableServiceSlotCollider : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (deckManager != null && deckManager.IsChoosingBeastmasterDiscardType())
+        {
+            deckManager.ResolveBeastmasterDiscardTypeChoice(serviceType);
+            return;
+        }
+        
         if (!isAvailable)
             return;
 

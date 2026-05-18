@@ -5131,5 +5131,149 @@ private void ContinueDiscardingUntilHandAtMax()
     FinishActionAndWaitForEndTurn();
 }
 
+public bool IsChoosingBeastmasterDiscardType()
+{
+    return pendingChoice == PendingChoiceType.ChooseBeastmasterDiscardType;
+}
+
+public void ResolveBeastmasterDiscardTypeChoice(PranksterType chosenType)
+{
+    if (pendingChoice != PendingChoiceType.ChooseBeastmasterDiscardType)
+    {
+        Debug.Log("ResolveBeastmasterDiscardTypeChoice ignored because pendingChoice is: " + pendingChoice);
+        return;
+    }
+
+    Player player = GetCurrentPlayer();
+
+    int foundIndex = -1;
+
+    for (int i = discardPile.Count - 1; i >= 0; i--)
+    {
+        if (discardPile[i].pranksterType == chosenType)
+        {
+            foundIndex = i;
+            break;
+        }
+    }
+
+    if (foundIndex < 0)
+    {
+        Debug.Log("No discard pile card found for type: " + chosenType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayHoundsCouldntTrackThemDown();
+
+        return;
+    }
+
+    PranksterDeckEntry recoveredCard = discardPile[foundIndex];
+
+    discardPile.RemoveAt(foundIndex);
+
+    player.hand.Add(new PranksterDeckEntry
+    {
+        pranksterType = recoveredCard.pranksterType,
+        tier = recoveredCard.tier,
+        category = recoveredCard.category
+    });
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayMenuClick();
+
+    SortCurrentPlayerHand();
+
+    RefreshAvailableServiceSlotAvailability();
+
+    pendingChoice = PendingChoiceType.None;
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    Debug.Log("Beastmaster recovered discard card: " + recoveredCard.pranksterType);
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public void ActivateBeastmasterImmediateAction()
+{
+    if (selectedAvailableServiceType != PranksterType.BeastMaster)
+    {
+        Debug.LogWarning("Cannot activate Beastmaster Immediate Action because selected service is: " + selectedAvailableServiceType);
+        return;
+    }
+
+    StartCoroutine(ActivateBeastmasterImmediateActionSequence());
+}
+
+private IEnumerator ActivateBeastmasterImmediateActionSequence()
+{
+    Player player = GetCurrentPlayer();
+
+    AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    {
+        if (group.serviceType == PranksterType.BeastMaster)
+        {
+            groupToConsume = group;
+            break;
+        }
+    }
+
+    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    {
+        Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need 2 retained Beastmaster cards.");
+        yield break;
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+        discardPile.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+
+        groupToConsume.assignedCards.RemoveAt(0);
+    }
+
+    if (groupToConsume.assignedCards.Count == 0)
+        player.retainedServices.Remove(groupToConsume);
+
+    activeServicePanelController = null;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    RefreshAllDisplays();
+
+    pendingChoice = PendingChoiceType.ChooseBeastmasterDiscardType;
+
+    ShowBeastmasterRecruitTypeSelectionGlows();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayChooseARecruitForTheDogsToTrackDown();
+
+    Debug.Log("Choose a recruit type from the Available Services icons.");
+}
+
+private void ShowBeastmasterRecruitTypeSelectionGlows()
+{
+    AvailableServiceSlotCollider[] serviceSlots =
+        FindObjectsByType<AvailableServiceSlotCollider>(FindObjectsSortMode.None);
+
+    foreach (AvailableServiceSlotCollider slot in serviceSlots)
+    {
+        if (slot != null)
+            slot.SetAvailable(true);
+    }
+
+    Debug.Log("Beastmaster recruit type selection glows enabled.");
+}
+
 }
 

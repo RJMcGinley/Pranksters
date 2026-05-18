@@ -104,6 +104,13 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
         deckManager.ActivateScribeImmediateAction();
     }
+    else if (actionName == "Beastmaster Immediate Action")
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
+        deckManager.ActivateBeastmasterImmediateAction();
+    }
 }
 
     public void SetAvailable(bool available)
