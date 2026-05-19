@@ -5314,5 +5314,42 @@ private bool AnyOpponentHasCardsInHand()
     return false;
 }
 
+public void HardResetRuntimeStateForMainMenu()
+{
+    StopAllCoroutines();
+
+    pendingChoice = PendingChoiceType.None;
+    hasTakenActionThisTurn = false;
+    availableServicesPanelOpen = false;
+
+    temporarilyAssignedServiceHandIndexes.Clear();
+
+    selectedAvailableServiceType = default;
+    activeServicePanelController = null;
+    activeAvailableServiceSlotCollider = null;
+
+    highlightSuppressionCount = 0;
+    hoveredPrankIndex = -1;
+
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.CloseAllServicePanels();
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    if (opponentPreviewPanel != null)
+    {
+        opponentPreviewPanel.UnlockSwap();
+        opponentPreviewPanel.Hide();
+    }
+
+    RefreshAllHighlights();
+
+    Debug.Log("DeckManager hard runtime state reset for main menu.");
+}
+
 }
 

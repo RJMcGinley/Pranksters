@@ -4,6 +4,7 @@ public class SettingsMenuController : MonoBehaviour
 {
     public GameObject settingsPanel;
     public DeckManager deckManager;
+    public BotManager botManager;
 
     public void OpenSettings()
     {
@@ -27,4 +28,18 @@ public class SettingsMenuController : MonoBehaviour
     {
         return settingsPanel != null && settingsPanel.activeSelf;
     }
+
+    public void QuitToMainMenuCleanup()
+    {
+        if (botManager != null)
+            botManager.StopBotRuntime();
+
+        if (deckManager != null)
+            deckManager.HardResetRuntimeStateForMainMenu();
+
+        if (settingsPanel != null)
+            settingsPanel.SetActive(false);
+    }
+
+
 }

@@ -1163,4 +1163,17 @@ string GetBotCardDisplayName(PranksterDeckEntry card)
     return typeName + " " + upgradeName;
 }
 
+public void StopBotRuntime()
+{
+    StopAllCoroutines();
+    botActionHandledTurnFlow = false;
+
+    if (nextPlayerPanelController != null)
+    {
+        nextPlayerPanelController.HideBotMessage();
+    }
+
+    Debug.Log("Bot runtime stopped and reset.");
+}
+
 }

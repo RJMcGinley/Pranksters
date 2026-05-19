@@ -19597,6 +19597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SettingsMenuController
   settingsPanel: {fileID: 426471696}
   deckManager: {fileID: 1503786762}
+  botManager: {fileID: 0}
 --- !u!4 &150201958
 Transform:
   m_ObjectHideFlags: 0
@@ -43305,9 +43306,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1150714582}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: ReturnToMainMenu
+      - m_Target: {fileID: 150201957}
+        m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
+        m_MethodName: QuitToMainMenuCleanup
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -56817,7 +56818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99.99988, y: -0.0007324219}
+  m_AnchoredPosition: {x: 99.999756, y: -0.0007324219}
   m_SizeDelta: {x: 1792, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674456826
