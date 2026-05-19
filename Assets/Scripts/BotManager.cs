@@ -889,7 +889,7 @@ bool TryOfferFavor(out string actionMessage)
     deckManager.BotOfferFavor(bestIndex);
 
     actionMessage =
-    "Circulated " + GetBotCardDisplayName(bestCard) +
+    "Referred " + GetBotCardDisplayName(bestCard) +
     "\nfor " + bestFavorValue + " Influence Points";
 
     return true;
