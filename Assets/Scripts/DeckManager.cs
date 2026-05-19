@@ -4895,6 +4895,21 @@ private IEnumerator ActivateThiefImmediateActionSequence()
         yield break;
     }
 
+    if (!AnyOpponentHasCardsInHand())
+    {
+        Debug.LogWarning("Cannot activate Thief Immediate Action. No opponents have cards to steal.");
+
+        if (AudioManager.Instance != null)
+        {
+            if (turnManager.players.Count <= 2)
+                AudioManager.Instance.PlayYourOpponentDoesntHaveAnyRecruits();
+            else
+                AudioManager.Instance.PlayYourOpponentsDontHaveAnyRecruits();
+        }
+
+        yield break;
+    }
+
     for (int i = 0; i < 2; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
@@ -4958,7 +4973,11 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
 
     if (opponent.hand.Count == 0)
     {
-        Debug.LogWarning("Opponent has no cards in hand.");
+        Debug.LogWarning("Opponent has no cards in hand. Choose another opponent.");
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayThatPlayerDoesntHaveAnyRecruits();
+
         return;
     }
 
@@ -5104,10 +5123,14 @@ public void ResolveScribeFavorTheft(int opponentIndex)
 
     RefreshAllDisplays();
     RefreshAllHighlights();
+    RefreshCrewCapacityDisplay();
 
     Debug.Log("Scribe stole all favor recruits from opponent.");
 
-    FinishActionAndWaitForEndTurn();
+    Debug.Log("SCRIBE HAND SIZE CHECK | hand=" + currentPlayer.hand.Count +
+              " | max=" + currentPlayer.maxHandSize);
+
+    ContinueDiscardingUntilHandAtMax();
 }
 
 private void ContinueDiscardingUntilHandAtMax()
@@ -5273,6 +5296,22 @@ private void ShowBeastmasterRecruitTypeSelectionGlows()
     }
 
     Debug.Log("Beastmaster recruit type selection glows enabled.");
+}
+
+private bool AnyOpponentHasCardsInHand()
+{
+    Player currentPlayer = GetCurrentPlayer();
+
+    foreach (Player player in turnManager.players)
+    {
+        if (player == currentPlayer)
+            continue;
+
+        if (player.hand != null && player.hand.Count > 0)
+            return true;
+    }
+
+    return false;
 }
 
 }

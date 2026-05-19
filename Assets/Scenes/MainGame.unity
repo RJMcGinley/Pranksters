@@ -43095,6 +43095,9 @@ MonoBehaviour:
   chooseOpponentToGatherTheirReferralsClip: {fileID: 8300000, guid: 1507a14083e2d45dbaa1122e33167724, type: 3}
   houndsCouldntTrackThemDownClip: {fileID: 8300000, guid: b7e463b7b66404989bc730bb0b61ed62, type: 3}
   chooseARecruitForTheDogsToTrackDownClip: {fileID: 8300000, guid: d6cc4e405da484b2d84216d0d33d1a86, type: 3}
+  thatPlayerDoesntHaveAnyRecruitsClip: {fileID: 8300000, guid: b7d5d513f6fd647549d3d47cc72a7dca, type: 3}
+  yourOpponentDoesntHaveAnyRecruitsClip: {fileID: 8300000, guid: 61a3b38d22f3641bba1bb020e5991c94, type: 3}
+  yourOpponentsDontHaveAnyRecruitsClip: {fileID: 8300000, guid: 425c5c6c94a804e0697369d2b675a974, type: 3}
   fartSounds:
   - {fileID: 8300000, guid: b79517244c7a74d439ad90887f494c66, type: 3}
   - {fileID: 8300000, guid: 9471ceb90214d43c1ba6a082173ce729, type: 3}

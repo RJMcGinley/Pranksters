@@ -24,9 +24,10 @@ public class AvailableServiceActionCollider : MonoBehaviour
     private float hoverTimer;
 
     private void Start()
-    {
-        SetAvailable(isAvailable);
-    }
+{
+    SetAvailable(isAvailable);
+    ResetVisualState();
+}
 
     private void OnMouseDown()
 {
@@ -196,4 +197,38 @@ private void HideDescription()
         descriptionText.gameObject.SetActive(false);
     }
 }
+
+public void ResetVisualState()
+{
+    isHovering = false;
+    hoverTimer = 0f;
+
+    if (actionTitleTextObjects != null)
+    {
+        foreach (GameObject obj in actionTitleTextObjects)
+        {
+            if (obj != null)
+                obj.SetActive(true);
+        }
+    }
+
+    if (retainServicesImage != null)
+        retainServicesImage.SetActive(true);
+
+    if (retainServicesGlow != null)
+    {
+        bool retainAvailable =
+            retainServicesCollider != null && retainServicesCollider.IsAvailable();
+
+        retainServicesGlow.SetActive(retainAvailable);
+    }
+
+    if (descriptionText != null)
+    {
+        descriptionText.text = "";
+        descriptionText.gameObject.SetActive(false);
+    }
+}
+
+
 }

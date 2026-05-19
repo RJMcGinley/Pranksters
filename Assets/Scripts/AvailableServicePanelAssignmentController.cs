@@ -140,6 +140,8 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
 
         SetRetainServicesAvailable(false);
 
+        ResetAllActionVisualStates();
+
         Debug.Log("Cleared all Available Services assignments for: " + serviceType);
     }
 
@@ -194,7 +196,26 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
         }
 
         UpdateActionGlowState();
+        ResetAllActionVisualStates();
 
         Debug.Log("Displayed " + maxCards + " retained service card(s) for " + serviceType);
     }
+
+    public void ResetAllActionVisualStates()
+    {
+        if (immediateActionCollider != null)
+            immediateActionCollider.ResetVisualState();
+
+        if (scoringActionCollider != null)
+            scoringActionCollider.ResetVisualState();
+
+        if (ongoingActionCollider != null)
+            ongoingActionCollider.ResetVisualState();
+
+        if (retainServicesCollider != null)
+            retainServicesCollider.ResetVisualState();
+
+        Debug.Log("Reset all Available Services action visual states for: " + serviceType);
+    }
+
 }
