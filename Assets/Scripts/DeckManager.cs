@@ -2351,6 +2351,11 @@ public void BeginNewGame()
     hoveredPrankIndex = -1;
     hasTakenActionThisTurn = false;
 
+    GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
+
+    if (backgroundManager != null)
+        backgroundManager.ChooseRandomBackground();
+
     Debug.Log("BeginNewGame | resetting players");
 
     // Reset players

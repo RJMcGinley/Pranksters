@@ -1,82 +1,70 @@
 fileFormatVersion: 2
-guid: 82b342916f1dd49dcb8d31b2d654d7ae
+guid: 232a6fea97de24d77bc57ccce446e258
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2752675982035780481
-    second: Scribe_0
+      213: -5701971233957644716
+    second: WizardBase_0
   - first:
-      213: 5657157238897080017
-    second: Scribe_1
+      213: 6680623452903305130
+    second: WizardBase_1
   - first:
-      213: 1821298442982974279
-    second: Scribe_2
+      213: -3792636668719053584
+    second: WizardBase_2
   - first:
-      213: -2437184888398659562
-    second: Scribe_3
+      213: -7141270329350400951
+    second: WizardBase_3
   - first:
-      213: -4620400319132031523
-    second: Scribe_4
+      213: 4389972060117829045
+    second: WizardBase_4
   - first:
-      213: 8161394778680007667
-    second: Scribe_5
+      213: -2113391913288391366
+    second: WizardBase_5
   - first:
-      213: -7872827790688354204
-    second: Scribe_6
+      213: -3459033964221060596
+    second: WizardBase_6
   - first:
-      213: 1305295946960392134
-    second: Scribe_7
+      213: 3025769495285772656
+    second: WizardBase_7
   - first:
-      213: 1705409902837960740
-    second: Scribe_8
+      213: 2886896901006299037
+    second: WizardBase_8
   - first:
-      213: 348912822927007390
-    second: Scribe_9
+      213: -4218833711650467272
+    second: WizardBase_9
   - first:
-      213: -109599825915299626
-    second: Scribe_10
+      213: 638970385660639787
+    second: WizardBase_10
   - first:
-      213: 6982520200793618679
-    second: Scribe_11
+      213: 3554968440258075073
+    second: WizardBase_11
   - first:
-      213: -9145855131849420959
-    second: Scribe_12
+      213: -7994060722220667998
+    second: WizardBase_12
   - first:
-      213: -518569445447510065
-    second: Scribe_13
+      213: -5339689712989281350
+    second: WizardBase_13
   - first:
-      213: 7702150524908900054
-    second: Scribe_14
+      213: 8896976669731395753
+    second: WizardBase_14
   - first:
-      213: -723533619405924552
-    second: Scribe_15
+      213: 1048782874929620683
+    second: WizardBase_15
   - first:
-      213: -8332945691342399913
-    second: Scribe_16
+      213: 2142335011429452030
+    second: WizardBase_16
   - first:
-      213: -8085971360338310894
-    second: Scribe_17
+      213: -907906537744739774
+    second: WizardBase_17
   - first:
-      213: -7149295013010229261
-    second: Scribe_18
+      213: 7699579202785051036
+    second: WizardBase_18
   - first:
-      213: -3283286350960141666
-    second: Scribe_19
+      213: -7434245658831099417
+    second: WizardBase_19
   - first:
-      213: -8853349449675218078
-    second: Scribe_20
-  - first:
-      213: -3396448612190886683
-    second: Scribe_21
-  - first:
-      213: 5422202410915654732
-    second: Scribe_22
-  - first:
-      213: -8000963220995042065
-    second: Scribe_23
-  - first:
-      213: 8219433978851639713
-    second: Scribe_24
+      213: 466445752389094437
+    second: WizardBase_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -198,13 +186,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scribe_0
+      name: WizardBase_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 650
-        width: 332
-        height: 467
+        x: 314
+        y: 1000
+        width: 27
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1830efaa838733620800000000000000
-      internalID: 2752675982035780481
+      spriteID: 45675708f578ed0b0800000000000000
+      internalID: -5701971233957644716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_1
+      name: WizardBase_1
       rect:
         serializedVersion: 2
-        x: 358
-        y: 1029
-        width: 13
-        height: 12
+        x: 323
+        y: 1114
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,151 +223,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d67dfe2982428e40800000000000000
-      internalID: 5657157238897080017
+      spriteID: aafe17c82a756bc50800000000000000
+      internalID: 6680623452903305130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_2
+      name: WizardBase_2
       rect:
         serializedVersion: 2
-        x: 362
-        y: 1040
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 743e8f3c84d864910800000000000000
-      internalID: 1821298442982974279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_3
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 1002
-        width: 42
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6104c0bb1416d2ed0800000000000000
-      internalID: -2437184888398659562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_4
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 1011
-        width: 11
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd5a802c36a01efb0800000000000000
-      internalID: -4620400319132031523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_5
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 0
-        width: 720
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fb13fe6f49134170800000000000000
-      internalID: 8161394778680007667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_6
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 956
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 460823e16d81eb290800000000000000
-      internalID: -7872827790688354204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_7
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 961
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cfc45d7fb75d1210800000000000000
-      internalID: 1305295946960392134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_8
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 911
-        width: 8
+        x: 326
+        y: 1095
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -389,18 +245,282 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 420171f5545daa710800000000000000
-      internalID: 1705409902837960740
+      spriteID: 0f441e64b09dd5bc0800000000000000
+      internalID: -3792636668719053584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_9
+      name: WizardBase_3
       rect:
         serializedVersion: 2
-        x: 11
-        y: 911
+        x: 327
+        y: 1085
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9445806b87c15ec90800000000000000
+      internalID: -7141270329350400951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1075
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5863164505cec30800000000000000
+      internalID: 4389972060117829045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 784
+        width: 277
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3523498049bba2e0800000000000000
+      internalID: -2113391913288391366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1055
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0aa790bfea0fffc0800000000000000
+      internalID: -3459033964221060596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1045
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071b8b22351bdf920800000000000000
+      internalID: 3025769495285772656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1035
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f08af9f61501820800000000000000
+      internalID: 2886896901006299037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1015
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83291a27711b375c0800000000000000
+      internalID: -4218833711650467272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1005
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2afb4b2e241ed800800000000000000
+      internalID: 638970385660639787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 127
+        width: 756
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c99e4d16f8c55130800000000000000
+      internalID: 3554968440258075073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 996
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab6223a0246f0190800000000000000
+      internalID: -7994060722220667998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 992
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab367763f7c95e5b0800000000000000
+      internalID: -5339689712989281350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 985
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a817469429687b70800000000000000
+      internalID: 8896976669731395753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 926
         width: 6
         height: 7
       alignment: 0
@@ -411,86 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9e94242d5697d400800000000000000
-      internalID: 348912822927007390
+      spriteID: bc661b2d7760e8e00800000000000000
+      internalID: 1048782874929620683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_10
+      name: WizardBase_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 909
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d8bfdcf98f9a7ef0800000000000000
-      internalID: -109599825915299626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_11
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 886
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f8fa4da025e6e060800000000000000
-      internalID: 6982520200793618679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_12
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 865
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16f8ee2e635631180800000000000000
-      internalID: -9145855131849420959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_13
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 860
+        x: 48
+        y: 915
         width: 7
-        height: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc7dabc36dbadc8f0800000000000000
-      internalID: -518569445447510065
+      spriteID: ef88222a75a1bbd10800000000000000
+      internalID: 2142335011429452030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_14
+      name: WizardBase_17
       rect:
         serializedVersion: 2
-        x: 75
-        y: 809
-        width: 16
-        height: 13
+        x: 50
+        y: 906
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,19 +575,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6de88cb381983ea60800000000000000
-      internalID: 7702150524908900054
+      spriteID: 242587070d77663f0800000000000000
+      internalID: -907906537744739774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_15
+      name: WizardBase_18
       rect:
         serializedVersion: 2
-        x: 80
-        y: 804
-        width: 14
+        x: 51
+        y: 896
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c910df5ad766ada60800000000000000
+      internalID: 7699579202785051036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardBase_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 885
+        width: 7
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -543,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 837d140b10e75f5f0800000000000000
-      internalID: -723533619405924552
+      spriteID: 7e9e16c26f044d890800000000000000
+      internalID: -7434245658831099417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scribe_16
+      name: WizardBase_20
       rect:
         serializedVersion: 2
-        x: 90
-        y: 761
-        width: 40
-        height: 51
+        x: 55
+        y: 866
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,184 +641,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7561ae62b0e6b5c80800000000000000
-      internalID: -8332945691342399913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_17
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 795
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2198d0b93ebd8cf80800000000000000
-      internalID: -8085971360338310894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_18
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 801
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f7bd03701a98cc90800000000000000
-      internalID: -7149295013010229261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_19
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 788
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9ad12b957c6f62d0800000000000000
-      internalID: -3283286350960141666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_20
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 702
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26365b32595922580800000000000000
-      internalID: -8853349449675218078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_21
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 448
-        width: 21
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e46e7c7bf36dd0d0800000000000000
-      internalID: -3396448612190886683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_22
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 442
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4ce4ea5d588f3b40800000000000000
-      internalID: 5422202410915654732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_23
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 365
-        width: 87
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe410a7675ed6f090800000000000000
-      internalID: -8000963220995042065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scribe_24
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 365
-        width: 167
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a14a34c7ab411270800000000000000
-      internalID: 8219433978851639713
+      spriteID: 52c4422c0f5297600800000000000000
+      internalID: 466445752389094437
       vertices: []
       indices: 
       edges: []
@@ -761,31 +661,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scribe_0: 2752675982035780481
-      Scribe_1: 5657157238897080017
-      Scribe_10: -109599825915299626
-      Scribe_11: 6982520200793618679
-      Scribe_12: -9145855131849420959
-      Scribe_13: -518569445447510065
-      Scribe_14: 7702150524908900054
-      Scribe_15: -723533619405924552
-      Scribe_16: -8332945691342399913
-      Scribe_17: -8085971360338310894
-      Scribe_18: -7149295013010229261
-      Scribe_19: -3283286350960141666
-      Scribe_2: 1821298442982974279
-      Scribe_20: -8853349449675218078
-      Scribe_21: -3396448612190886683
-      Scribe_22: 5422202410915654732
-      Scribe_23: -8000963220995042065
-      Scribe_24: 8219433978851639713
-      Scribe_3: -2437184888398659562
-      Scribe_4: -4620400319132031523
-      Scribe_5: 8161394778680007667
-      Scribe_6: -7872827790688354204
-      Scribe_7: 1305295946960392134
-      Scribe_8: 1705409902837960740
-      Scribe_9: 348912822927007390
+      WizardBase_0: -5701971233957644716
+      WizardBase_1: 6680623452903305130
+      WizardBase_10: 638970385660639787
+      WizardBase_11: 3554968440258075073
+      WizardBase_12: -7994060722220667998
+      WizardBase_13: -5339689712989281350
+      WizardBase_14: 8896976669731395753
+      WizardBase_15: 1048782874929620683
+      WizardBase_16: 2142335011429452030
+      WizardBase_17: -907906537744739774
+      WizardBase_18: 7699579202785051036
+      WizardBase_19: -7434245658831099417
+      WizardBase_2: -3792636668719053584
+      WizardBase_20: 466445752389094437
+      WizardBase_3: -7141270329350400951
+      WizardBase_4: 4389972060117829045
+      WizardBase_5: -2113391913288391366
+      WizardBase_6: -3459033964221060596
+      WizardBase_7: 3025769495285772656
+      WizardBase_8: 2886896901006299037
+      WizardBase_9: -4218833711650467272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

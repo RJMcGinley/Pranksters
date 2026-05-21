@@ -1,43 +1,58 @@
 fileFormatVersion: 2
-guid: f6430c43931344c10a957c0d5b0b6890
+guid: a83298a8ba0e641ce8d05914acddbac8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2730977095171492291
-    second: ThiefBase_0
+      213: -1425758392880199609
+    second: ThiefBase 1_0
   - first:
-      213: 7012585878799281557
-    second: ThiefBase_1
+      213: 3535844974705622105
+    second: ThiefBase 1_1
   - first:
-      213: -6976365872834752291
-    second: ThiefBase_2
+      213: -3270904707478415456
+    second: ThiefBase 1_2
   - first:
-      213: 2441816767707468397
-    second: ThiefBase_3
+      213: 2652321277233057070
+    second: ThiefBase 1_3
   - first:
-      213: -8459846038262338117
-    second: ThiefBase_4
+      213: -1507736341933555341
+    second: ThiefBase 1_4
   - first:
-      213: 7475439381268735560
-    second: ThiefBase_5
+      213: -7742069432834838849
+    second: ThiefBase 1_5
   - first:
-      213: 4951244242822302721
-    second: ThiefBase_6
+      213: -1458745314282876514
+    second: ThiefBase 1_6
   - first:
-      213: -8973598088359038041
-    second: ThiefBase_7
+      213: 2504397992153123289
+    second: ThiefBase 1_7
   - first:
-      213: 537315502120260772
-    second: ThiefBase_8
+      213: -407040035020393526
+    second: ThiefBase 1_8
   - first:
-      213: 3695787025885929253
-    second: ThiefBase_9
+      213: 5483100841232515219
+    second: ThiefBase 1_9
   - first:
-      213: 2565613625447805303
-    second: ThiefBase_10
+      213: -6204291042221247186
+    second: ThiefBase 1_10
   - first:
-      213: -3147298990633844980
-    second: ThiefBase_11
+      213: -4962292200156596306
+    second: ThiefBase 1_11
+  - first:
+      213: 8752836242395394401
+    second: ThiefBase 1_12
+  - first:
+      213: 1244743808739266705
+    second: ThiefBase 1_13
+  - first:
+      213: -546505700397469164
+    second: ThiefBase 1_14
+  - first:
+      213: 2694255558047310284
+    second: ThiefBase 1_15
+  - first:
+      213: 84106489783661173
+    second: ThiefBase 1_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -159,13 +174,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ThiefBase_0
+      name: ThiefBase 1_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 732
-        width: 327
-        height: 390
+        x: 42
+        y: 1065
+        width: 41
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c9cc6fd23166e520800000000000000
-      internalID: 2730977095171492291
+      spriteID: 74808d0bb40b63ce0800000000000000
+      internalID: -1425758392880199609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefBase_1
+      name: ThiefBase 1_1
       rect:
         serializedVersion: 2
-        x: 337
-        y: 1002
-        width: 6
-        height: 6
+        x: 42
+        y: 813
+        width: 261
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,173 +211,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59d60c6d3b5b15160800000000000000
-      internalID: 7012585878799281557
+      spriteID: 95cbd225548d11130800000000000000
+      internalID: 3535844974705622105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefBase_2
+      name: ThiefBase 1_2
       rect:
         serializedVersion: 2
-        x: 339
-        y: 992
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd0d6867338fe2f90800000000000000
-      internalID: -6976365872834752291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_3
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 982
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d62dbc5b96313e120800000000000000
-      internalID: 2441816767707468397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_4
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 972
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbda0e2b9d6989a80800000000000000
-      internalID: -8459846038262338117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_5
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 963
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8462d7cb2881eb760800000000000000
-      internalID: 7475439381268735560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_6
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 954
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10c0f91f76a56b440800000000000000
-      internalID: 4951244242822302721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 116
-        width: 760
-        height: 830
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a33c323510677380800000000000000
-      internalID: -8973598088359038041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_8
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 944
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a450343a9de47700800000000000000
-      internalID: 537315502120260772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ThiefBase_9
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 54
-        width: 64
+        x: 84
+        y: 1085
+        width: 46
         height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -372,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52f9d6b08b21a4330800000000000000
-      internalID: 3695787025885929253
+      spriteID: 0a79890af796b92d0800000000000000
+      internalID: -3270904707478415456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefBase_10
+      name: ThiefBase 1_3
       rect:
         serializedVersion: 2
-        x: 127
-        y: 78
-        width: 6
-        height: 6
+        x: 225
+        y: 1079
+        width: 25
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 771f7b7cff3ea9320800000000000000
-      internalID: 2565613625447805303
+      spriteID: e2dcfa72620fec420800000000000000
+      internalID: 2652321277233057070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefBase_11
+      name: ThiefBase 1_4
       rect:
         serializedVersion: 2
-        x: 88
-        y: 63
-        width: 13
-        height: 7
+        x: 249
+        y: 1000
+        width: 79
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +277,272 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0ff25d3e3c8254d0800000000000000
-      internalID: -3147298990633844980
+      spriteID: 3718a1c09c1731be0800000000000000
+      internalID: -1507736341933555341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1054
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe287dbed4ae8490800000000000000
+      internalID: -7742069432834838849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1061
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91576c8dde71cbe0800000000000000
+      internalID: -1458745314282876514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1058
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d90d7a74b861c220800000000000000
+      internalID: 2504397992153123289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1053
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac33f37ae37e95af0800000000000000
+      internalID: -407040035020393526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1040
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3904f451a23e71c40800000000000000
+      internalID: 5483100841232515219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1039
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25b3493b2ee5e9a0800000000000000
+      internalID: -6204291042221247186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 934
+        width: 20
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea779f90985622bb0800000000000000
+      internalID: -4962292200156596306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161742d1032587970800000000000000
+      internalID: 8752836242395394401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190554c26e7364110800000000000000
+      internalID: 1244743808739266705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 805
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412351406fb6a68f0800000000000000
+      internalID: -546505700397469164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1288fb72be36520800000000000000
+      internalID: 2694255558047310284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefBase 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5723cd6286eca2100800000000000000
+      internalID: 84106489783661173
       vertices: []
       indices: 
       edges: []
@@ -436,18 +561,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ThiefBase_0: 2730977095171492291
-      ThiefBase_1: 7012585878799281557
-      ThiefBase_10: 2565613625447805303
-      ThiefBase_11: -3147298990633844980
-      ThiefBase_2: -6976365872834752291
-      ThiefBase_3: 2441816767707468397
-      ThiefBase_4: -8459846038262338117
-      ThiefBase_5: 7475439381268735560
-      ThiefBase_6: 4951244242822302721
-      ThiefBase_7: -8973598088359038041
-      ThiefBase_8: 537315502120260772
-      ThiefBase_9: 3695787025885929253
+      ThiefBase 1_0: -1425758392880199609
+      ThiefBase 1_1: 3535844974705622105
+      ThiefBase 1_10: -6204291042221247186
+      ThiefBase 1_11: -4962292200156596306
+      ThiefBase 1_12: 8752836242395394401
+      ThiefBase 1_13: 1244743808739266705
+      ThiefBase 1_14: -546505700397469164
+      ThiefBase 1_15: 2694255558047310284
+      ThiefBase 1_16: 84106489783661173
+      ThiefBase 1_2: -3270904707478415456
+      ThiefBase 1_3: 2652321277233057070
+      ThiefBase 1_4: -1507736341933555341
+      ThiefBase 1_5: -7742069432834838849
+      ThiefBase 1_6: -1458745314282876514
+      ThiefBase 1_7: 2504397992153123289
+      ThiefBase 1_8: -407040035020393526
+      ThiefBase 1_9: 5483100841232515219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -89,6 +89,11 @@ public class AvailableServicesPanelController : MonoBehaviour
     }
 
     HideAllServicePanels();
+
+    if (deckManager != null)
+    {
+        deckManager.RefreshAllHighlights();
+    }
 }
 
     public void HideAllServicePanels()

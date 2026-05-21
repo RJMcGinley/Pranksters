@@ -104,39 +104,6 @@ TextureImporter:
   - first:
       213: 833397733886156333
     second: BeastmasterBase_33
-  - first:
-      213: 1429212819399760303
-    second: BeastmasterBase_34
-  - first:
-      213: -1824897933288349670
-    second: BeastmasterBase_35
-  - first:
-      213: 4874522030546973459
-    second: BeastmasterBase_36
-  - first:
-      213: -1896483729375210817
-    second: BeastmasterBase_37
-  - first:
-      213: 435491190108548316
-    second: BeastmasterBase_38
-  - first:
-      213: 188694794070032151
-    second: BeastmasterBase_39
-  - first:
-      213: -2690078376816489182
-    second: BeastmasterBase_40
-  - first:
-      213: 7548000099705455594
-    second: BeastmasterBase_41
-  - first:
-      213: 6687325086952501900
-    second: BeastmasterBase_42
-  - first:
-      213: 1518100073818219573
-    second: BeastmasterBase_43
-  - first:
-      213: 5985680867693608776
-    second: BeastmasterBase_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -261,10 +228,10 @@ TextureImporter:
       name: BeastmasterBase_0
       rect:
         serializedVersion: 2
-        x: 298
-        y: 1098
-        width: 7
-        height: 17
+        x: 0
+        y: 934
+        width: 210
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +250,10 @@ TextureImporter:
       name: BeastmasterBase_1
       rect:
         serializedVersion: 2
-        x: 313
-        y: 1089
-        width: 8
-        height: 15
+        x: 201
+        y: 1120
+        width: 10
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +272,10 @@ TextureImporter:
       name: BeastmasterBase_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1068
-        width: 16
-        height: 13
+        x: 316
+        y: 1087
+        width: 52
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +294,10 @@ TextureImporter:
       name: BeastmasterBase_3
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1079
-        width: 7
-        height: 18
+        x: 427
+        y: 1074
+        width: 13
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +316,10 @@ TextureImporter:
       name: BeastmasterBase_4
       rect:
         serializedVersion: 2
-        x: 315
-        y: 1079
-        width: 8
-        height: 9
+        x: 273
+        y: 1100
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +338,10 @@ TextureImporter:
       name: BeastmasterBase_5
       rect:
         serializedVersion: 2
-        x: 46
-        y: 105
-        width: 771
-        height: 964
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +360,10 @@ TextureImporter:
       name: BeastmasterBase_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 1068
-        width: 6
-        height: 9
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,9 +382,9 @@ TextureImporter:
       name: BeastmasterBase_7
       rect:
         serializedVersion: 2
-        x: 316
-        y: 1069
-        width: 8
+        x: 355
+        y: 1083
+        width: 12
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -437,10 +404,10 @@ TextureImporter:
       name: BeastmasterBase_8
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1009
-        width: 21
-        height: 18
+        x: 357
+        y: 1078
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +426,10 @@ TextureImporter:
       name: BeastmasterBase_9
       rect:
         serializedVersion: 2
-        x: 12
-        y: 969
-        width: 18
-        height: 39
+        x: 54
+        y: 846
+        width: 224
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,9 +448,9 @@ TextureImporter:
       name: BeastmasterBase_10
       rect:
         serializedVersion: 2
-        x: 24
-        y: 989
-        width: 7
+        x: 303
+        y: 1068
+        width: 6
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -503,9 +470,9 @@ TextureImporter:
       name: BeastmasterBase_11
       rect:
         serializedVersion: 2
-        x: 25
-        y: 979
-        width: 7
+        x: 305
+        y: 1058
+        width: 6
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -525,10 +492,10 @@ TextureImporter:
       name: BeastmasterBase_12
       rect:
         serializedVersion: 2
-        x: 27
-        y: 969
-        width: 7
-        height: 9
+        x: 317
+        y: 1016
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +514,10 @@ TextureImporter:
       name: BeastmasterBase_13
       rect:
         serializedVersion: 2
-        x: 14
-        y: 939
-        width: 8
-        height: 27
+        x: 320
+        y: 1057
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +536,10 @@ TextureImporter:
       name: BeastmasterBase_14
       rect:
         serializedVersion: 2
-        x: 27
-        y: 959
-        width: 8
-        height: 9
+        x: 306
+        y: 1039
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +558,10 @@ TextureImporter:
       name: BeastmasterBase_15
       rect:
         serializedVersion: 2
-        x: 29
-        y: 949
-        width: 7
-        height: 10
+        x: 429
+        y: 1035
+        width: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +580,10 @@ TextureImporter:
       name: BeastmasterBase_16
       rect:
         serializedVersion: 2
-        x: 30
-        y: 939
+        x: 432
+        y: 1030
         width: 8
-        height: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +602,10 @@ TextureImporter:
       name: BeastmasterBase_17
       rect:
         serializedVersion: 2
-        x: 18
-        y: 928
-        width: 6
-        height: 8
+        x: 65
+        y: 0
+        width: 723
+        height: 1034
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +624,10 @@ TextureImporter:
       name: BeastmasterBase_18
       rect:
         serializedVersion: 2
-        x: 31
-        y: 929
-        width: 14
-        height: 9
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +646,10 @@ TextureImporter:
       name: BeastmasterBase_19
       rect:
         serializedVersion: 2
-        x: 19
-        y: 918
-        width: 6
-        height: 8
+        x: 427
+        y: 1030
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +668,10 @@ TextureImporter:
       name: BeastmasterBase_20
       rect:
         serializedVersion: 2
-        x: 33
-        y: 918
-        width: 8
-        height: 10
+        x: 18
+        y: 928
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,10 +690,10 @@ TextureImporter:
       name: BeastmasterBase_21
       rect:
         serializedVersion: 2
-        x: 35
-        y: 909
-        width: 7
-        height: 9
+        x: 19
+        y: 918
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +734,10 @@ TextureImporter:
       name: BeastmasterBase_23
       rect:
         serializedVersion: 2
-        x: 36
+        x: 22
         y: 899
-        width: 8
-        height: 9
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,10 +756,10 @@ TextureImporter:
       name: BeastmasterBase_24
       rect:
         serializedVersion: 2
-        x: 22
-        y: 899
-        width: 6
-        height: 7
+        x: 24
+        y: 878
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +778,10 @@ TextureImporter:
       name: BeastmasterBase_25
       rect:
         serializedVersion: 2
-        x: 24
-        y: 878
-        width: 7
-        height: 18
+        x: 26
+        y: 868
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,10 +800,10 @@ TextureImporter:
       name: BeastmasterBase_26
       rect:
         serializedVersion: 2
-        x: 37
-        y: 888
-        width: 8
-        height: 10
+        x: 28
+        y: 857
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +822,10 @@ TextureImporter:
       name: BeastmasterBase_27
       rect:
         serializedVersion: 2
-        x: 39
-        y: 878
+        x: 29
+        y: 838
         width: 7
-        height: 10
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +844,10 @@ TextureImporter:
       name: BeastmasterBase_28
       rect:
         serializedVersion: 2
-        x: 26
-        y: 868
+        x: 32
+        y: 828
         width: 6
-        height: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,10 +866,10 @@ TextureImporter:
       name: BeastmasterBase_29
       rect:
         serializedVersion: 2
-        x: 40
-        y: 869
-        width: 8
-        height: 9
+        x: 34
+        y: 808
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,10 +888,10 @@ TextureImporter:
       name: BeastmasterBase_30
       rect:
         serializedVersion: 2
-        x: 28
-        y: 857
+        x: 36
+        y: 798
         width: 6
-        height: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,10 +910,10 @@ TextureImporter:
       name: BeastmasterBase_31
       rect:
         serializedVersion: 2
-        x: 41
-        y: 858
-        width: 8
-        height: 10
+        x: 38
+        y: 717
+        width: 14
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,10 +932,10 @@ TextureImporter:
       name: BeastmasterBase_32
       rect:
         serializedVersion: 2
-        x: 43
-        y: 848
+        x: 54
+        y: 711
         width: 8
-        height: 10
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +954,10 @@ TextureImporter:
       name: BeastmasterBase_33
       rect:
         serializedVersion: 2
-        x: 29
-        y: 838
-        width: 7
-        height: 18
+        x: 64
+        y: 712
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1001,248 +968,6 @@ TextureImporter:
       bones: []
       spriteID: d2e56ecc2d2d09b00800000000000000
       internalID: 833397733886156333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_34
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 838
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa9d1c8ac7595d310800000000000000
-      internalID: 1429212819399760303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_35
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 828
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a10e0079ff8aca6e0800000000000000
-      internalID: -1824897933288349670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_36
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 829
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3137190e5f7c5a340800000000000000
-      internalID: 4874522030546973459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_37
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 808
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb2584c98165ea5e0800000000000000
-      internalID: -1896483729375210817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_38
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 818
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdc6b391eec2b0600800000000000000
-      internalID: 435491190108548316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_39
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 808
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71f728b5ae06e9200800000000000000
-      internalID: 188694794070032151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_40
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 798
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22dc4eb08fbeaaad0800000000000000
-      internalID: -2690078376816489182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_41
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 799
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae38e838912efb860800000000000000
-      internalID: 7548000099705455594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_42
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 738
-        width: 12
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c82bc515cb62ecc50800000000000000
-      internalID: 6687325086952501900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_43
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 788
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 534ed6159ff511510800000000000000
-      internalID: 1518100073818219573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterBase_44
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 778
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84fbab12909611350800000000000000
-      internalID: 5985680867693608776
       vertices: []
       indices: 
       edges: []
@@ -1289,18 +1014,7 @@ TextureImporter:
       BeastmasterBase_31: -1229024977069561837
       BeastmasterBase_32: 4730830469763018472
       BeastmasterBase_33: 833397733886156333
-      BeastmasterBase_34: 1429212819399760303
-      BeastmasterBase_35: -1824897933288349670
-      BeastmasterBase_36: 4874522030546973459
-      BeastmasterBase_37: -1896483729375210817
-      BeastmasterBase_38: 435491190108548316
-      BeastmasterBase_39: 188694794070032151
       BeastmasterBase_4: 7374142733553586262
-      BeastmasterBase_40: -2690078376816489182
-      BeastmasterBase_41: 7548000099705455594
-      BeastmasterBase_42: 6687325086952501900
-      BeastmasterBase_43: 1518100073818219573
-      BeastmasterBase_44: 5985680867693608776
       BeastmasterBase_5: 7140617977327225655
       BeastmasterBase_6: -1444899695890583823
       BeastmasterBase_7: -7565076975398828223

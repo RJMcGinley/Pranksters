@@ -5,6 +5,162 @@ TextureImporter:
   - first:
       213: -5114687732098639991
     second: IconScribe_0
+  - first:
+      213: 6697702551597808683
+    second: IconScribe_1
+  - first:
+      213: -4231792856373483109
+    second: IconScribe_2
+  - first:
+      213: 3001093976997527376
+    second: IconScribe_3
+  - first:
+      213: 1193758339410180817
+    second: IconScribe_4
+  - first:
+      213: -7888861964557065344
+    second: IconScribe_5
+  - first:
+      213: -9123796498463695802
+    second: IconScribe_6
+  - first:
+      213: 1738797843158923855
+    second: IconScribe_7
+  - first:
+      213: -569248154602515129
+    second: IconScribe_8
+  - first:
+      213: 4049203385870431914
+    second: IconScribe_9
+  - first:
+      213: -8448786713193209169
+    second: IconScribe_10
+  - first:
+      213: 4755582347937842008
+    second: IconScribe_11
+  - first:
+      213: 6397519844130904484
+    second: IconScribe_12
+  - first:
+      213: -9112180998135512642
+    second: IconScribe_13
+  - first:
+      213: 6316935878518870687
+    second: IconScribe_14
+  - first:
+      213: 5868429853702932461
+    second: IconScribe_15
+  - first:
+      213: 1447428185787451323
+    second: IconScribe_16
+  - first:
+      213: -3219868454708483447
+    second: IconScribe_17
+  - first:
+      213: -7128564584369027101
+    second: IconScribe_18
+  - first:
+      213: 8249900628078386172
+    second: IconScribe_19
+  - first:
+      213: 4905080519819326324
+    second: IconScribe_20
+  - first:
+      213: -3060273946334212735
+    second: IconScribe_21
+  - first:
+      213: 2768202978371638314
+    second: IconScribe_22
+  - first:
+      213: 131636784141330800
+    second: IconScribe_23
+  - first:
+      213: -3374357888514684538
+    second: IconScribe_24
+  - first:
+      213: -8846381056913393391
+    second: IconScribe_25
+  - first:
+      213: -1069478711285030580
+    second: IconScribe_26
+  - first:
+      213: 6077926771099144297
+    second: IconScribe_27
+  - first:
+      213: 1900839802703272173
+    second: IconScribe_28
+  - first:
+      213: -5194926093010253271
+    second: IconScribe_29
+  - first:
+      213: 4942868611194907080
+    second: IconScribe_30
+  - first:
+      213: 214364915392905247
+    second: IconScribe_31
+  - first:
+      213: 6175824836642672945
+    second: IconScribe_32
+  - first:
+      213: -7773939018066808612
+    second: IconScribe_33
+  - first:
+      213: -3278606481341461728
+    second: IconScribe_34
+  - first:
+      213: -6479011660919508285
+    second: IconScribe_35
+  - first:
+      213: -5545881497143769027
+    second: IconScribe_36
+  - first:
+      213: 4468158769663902217
+    second: IconScribe_37
+  - first:
+      213: -8349125979058310038
+    second: IconScribe_38
+  - first:
+      213: 6770981849894022985
+    second: IconScribe_39
+  - first:
+      213: -3432460923031008034
+    second: IconScribe_40
+  - first:
+      213: 1568383471325293605
+    second: IconScribe_41
+  - first:
+      213: -4437788917261201201
+    second: IconScribe_42
+  - first:
+      213: -1106548009729817819
+    second: IconScribe_43
+  - first:
+      213: 5885492507479545444
+    second: IconScribe_44
+  - first:
+      213: 8699924613802983234
+    second: IconScribe_45
+  - first:
+      213: 8032642878238547719
+    second: IconScribe_46
+  - first:
+      213: 1166147885516559071
+    second: IconScribe_47
+  - first:
+      213: 8742406820362374926
+    second: IconScribe_48
+  - first:
+      213: 6141298351805515349
+    second: IconScribe_49
+  - first:
+      213: -2200644151974501624
+    second: IconScribe_50
+  - first:
+      213: 6144583593214895622
+    second: IconScribe_51
+  - first:
+      213: 485103406408924451
+    second: IconScribe_52
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +253,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,12 +285,12 @@ TextureImporter:
       name: IconScribe_0
       rect:
         serializedVersion: 2
-        x: 485
-        y: 348
-        width: 180
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 447
+        y: 288
+        width: 235
+        height: 228
+      alignment: 9
+      pivot: {x: 0.4947263, y: 0.51006716}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +303,1155 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: IconScribe_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 500
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cf6371cf403fc50800000000000000
+      internalID: 6697702551597808683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 513
+        width: 78
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99a2d071d6a545c0800000000000000
+      internalID: -4231792856373483109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 478
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f7084521706a920800000000000000
+      internalID: 3001093976997527376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 402
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da343882e4119010800000000000000
+      internalID: 1193758339410180817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 353
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0836c7817d1258290800000000000000
+      internalID: -7888861964557065344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_6
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 362
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c5e12bc63c16180800000000000000
+      internalID: -9123796498463695802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_7
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 329
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4af3b10d63712810800000000000000
+      internalID: 1738797843158923855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 304
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745ded3c1df9918f0800000000000000
+      internalID: -569248154602515129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_9
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 153
+        width: 175
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6bd1e9609a13830800000000000000
+      internalID: 4049203385870431914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 317
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa224197f31efba80800000000000000
+      internalID: -8448786713193209169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 298
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85304f403f83ff140800000000000000
+      internalID: 4755582347937842008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_12
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 230
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a95fe8176e88c850800000000000000
+      internalID: 6397519844130904484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 245
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1811d19a70b8180800000000000000
+      internalID: -9112180998135512642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 252
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92990486b34aa750800000000000000
+      internalID: 6316935878518870687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 146
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7c2431cd9d07150800000000000000
+      internalID: 5868429853702932461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_16
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7cfb3244c461410800000000000000
+      internalID: 1447428185787451323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_17
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 233
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a6d9533bab053d0800000000000000
+      internalID: -3219868454708483447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_18
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 231
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7014e7740421d90800000000000000
+      internalID: -7128564584369027101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 234
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb52e059e88d7270800000000000000
+      internalID: 8249900628078386172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_20
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 218
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473f48a9eb8521440800000000000000
+      internalID: 4905080519819326324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_21
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 212
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dcd515f09b785d0800000000000000
+      internalID: -3060273946334212735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 190
+        width: 126
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24150831f1aa6620800000000000000
+      internalID: 2768202978371638314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_23
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 210
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0796e1e25faa3d100800000000000000
+      internalID: 131636784141330800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_24
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 220
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6898b06e06fdb21d0800000000000000
+      internalID: -3374357888514684538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 216
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119bee28c475b3580800000000000000
+      internalID: -8846381056913393391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_26
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 199
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41630747c27821f0800000000000000
+      internalID: -1069478711285030580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_27
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 190
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96093323232295450800000000000000
+      internalID: 6077926771099144297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_28
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 181
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de85d0fbab3216a10800000000000000
+      internalID: 1900839802703272173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_29
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 47
+        width: 152
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a47b70e3ae7e7b0800000000000000
+      internalID: -5194926093010253271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_30
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 138
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c963bd30d8989440800000000000000
+      internalID: 4942868611194907080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_31
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 101
+        width: 16
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f100d4a31c399f200800000000000000
+      internalID: 214364915392905247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_32
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 35
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1311f1fc7ffe4b550800000000000000
+      internalID: 6175824836642672945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_33
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 92
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd03492b6ab6d1490800000000000000
+      internalID: -7773939018066808612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_34
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 99
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b4959a6cc0082d0800000000000000
+      internalID: -3278606481341461728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2774fb83de516a0800000000000000
+      internalID: -6479011660919508285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_36
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 91
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38855469221903b0800000000000000
+      internalID: -5545881497143769027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_37
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 76
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9020dd94ab6120e30800000000000000
+      internalID: 4468158769663902217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_38
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a647e395822f12c80800000000000000
+      internalID: -8349125979058310038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 87
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fec874e1c57fd50800000000000000
+      internalID: 6770981849894022985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 81
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcc359f9f27d50d0800000000000000
+      internalID: -3432460923031008034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_41
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 76
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c20ff157404c510800000000000000
+      internalID: 1568383471325293605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_42
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 43
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc01b7efd7ec962c0800000000000000
+      internalID: -4437788917261201201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_43
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 43
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5238329a270c4a0f0800000000000000
+      internalID: -1106548009729817819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_44
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 60
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4669a8cb0487da150800000000000000
+      internalID: 5885492507479545444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_45
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f776297575cb870800000000000000
+      internalID: 8699924613802983234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_46
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fdaf4932ea97f60800000000000000
+      internalID: 8032642878238547719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_47
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 30
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd299c7c25dfe2010800000000000000
+      internalID: 1166147885516559071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_48
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fc6a11fa4435970800000000000000
+      internalID: 8742406820362374926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_49
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 42
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5564f0f10564a3550800000000000000
+      internalID: 6141298351805515349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 29
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803e484adcdb571e0800000000000000
+      internalID: -2200644151974501624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_51
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 35
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606644ef832f54550800000000000000
+      internalID: 6144583593214895622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconScribe_52
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 40
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32df55a5afe6bb600800000000000000
+      internalID: 485103406408924451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 48695a956302c4a26b37a04d31be3645
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +1462,58 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       IconScribe_0: -5114687732098639991
+      IconScribe_1: 6697702551597808683
+      IconScribe_10: -8448786713193209169
+      IconScribe_11: 4755582347937842008
+      IconScribe_12: 6397519844130904484
+      IconScribe_13: -9112180998135512642
+      IconScribe_14: 6316935878518870687
+      IconScribe_15: 5868429853702932461
+      IconScribe_16: 1447428185787451323
+      IconScribe_17: -3219868454708483447
+      IconScribe_18: -7128564584369027101
+      IconScribe_19: 8249900628078386172
+      IconScribe_2: -4231792856373483109
+      IconScribe_20: 4905080519819326324
+      IconScribe_21: -3060273946334212735
+      IconScribe_22: 2768202978371638314
+      IconScribe_23: 131636784141330800
+      IconScribe_24: -3374357888514684538
+      IconScribe_25: -8846381056913393391
+      IconScribe_26: -1069478711285030580
+      IconScribe_27: 6077926771099144297
+      IconScribe_28: 1900839802703272173
+      IconScribe_29: -5194926093010253271
+      IconScribe_3: 3001093976997527376
+      IconScribe_30: 4942868611194907080
+      IconScribe_31: 214364915392905247
+      IconScribe_32: 6175824836642672945
+      IconScribe_33: -7773939018066808612
+      IconScribe_34: -3278606481341461728
+      IconScribe_35: -6479011660919508285
+      IconScribe_36: -5545881497143769027
+      IconScribe_37: 4468158769663902217
+      IconScribe_38: -8349125979058310038
+      IconScribe_39: 6770981849894022985
+      IconScribe_4: 1193758339410180817
+      IconScribe_40: -3432460923031008034
+      IconScribe_41: 1568383471325293605
+      IconScribe_42: -4437788917261201201
+      IconScribe_43: -1106548009729817819
+      IconScribe_44: 5885492507479545444
+      IconScribe_45: 8699924613802983234
+      IconScribe_46: 8032642878238547719
+      IconScribe_47: 1166147885516559071
+      IconScribe_48: 8742406820362374926
+      IconScribe_49: 6141298351805515349
+      IconScribe_5: -7888861964557065344
+      IconScribe_50: -2200644151974501624
+      IconScribe_51: 6144583593214895622
+      IconScribe_52: 485103406408924451
+      IconScribe_6: -9123796498463695802
+      IconScribe_7: 1738797843158923855
+      IconScribe_8: -569248154602515129
+      IconScribe_9: 4049203385870431914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

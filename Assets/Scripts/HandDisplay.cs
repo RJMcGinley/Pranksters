@@ -258,7 +258,7 @@ public class HandDisplay : MonoBehaviour
                 cardView != null &&
                 cardView.characterArtRenderer != null)
             {
-                cardView.characterArtRenderer.color = Color.red;
+                cardView.characterArtRenderer.color = Color.white;
             }
         }
     }

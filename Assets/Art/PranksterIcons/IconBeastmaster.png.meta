@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 3553be017a677428d9a2ecb3dbc10d37
+guid: 674c983c15e8141a4a15f9f2a266baed
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 9092429236826970185
     second: IconBeastmaster_0
+  - first:
+      213: -8129899483015801185
+    second: IconBeastmaster_1
+  - first:
+      213: -8742652240967096414
+    second: IconBeastmaster_2
+  - first:
+      213: -1933229905391050844
+    second: IconBeastmaster_3
+  - first:
+      213: -4666202969958490756
+    second: IconBeastmaster_4
+  - first:
+      213: -1760488873504979593
+    second: IconBeastmaster_5
+  - first:
+      213: -275045721754085761
+    second: IconBeastmaster_6
+  - first:
+      213: -2230343983240598101
+    second: IconBeastmaster_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,10 +70,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5062422, y: 0.4914879}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 455, y: 295, z: 443, w: 315}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -97,7 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,12 +150,12 @@ TextureImporter:
       name: IconBeastmaster_0
       rect:
         serializedVersion: 2
-        x: 496
-        y: 301
-        width: 186
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 446
+        y: 295
+        width: 230
+        height: 228
+      alignment: 9
+      pivot: {x: 1.0073267, y: -0.006671988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +168,166 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_1
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 568
+        width: 103
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9616378e7bcc2f80800000000000000
+      internalID: -8129899483015801185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 488
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7226e7b1cdba680800000000000000
+      internalID: -8742652240967096414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 291
+        width: 228
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af110cc4a9cb25e0800000000000000
+      internalID: -1933229905391050844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 475
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d50c51f115e3fb0800000000000000
+      internalID: -4666202969958490756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 446
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77545bf62bc7197e0800000000000000
+      internalID: -1760488873504979593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 479
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f765bd19f57de2cf0800000000000000
+      internalID: -275045721754085761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBeastmaster_7
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 284
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bada300d6f93c01e0800000000000000
+      internalID: -2230343983240598101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -162,6 +337,13 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       IconBeastmaster_0: 9092429236826970185
+      IconBeastmaster_1: -8129899483015801185
+      IconBeastmaster_2: -8742652240967096414
+      IconBeastmaster_3: -1933229905391050844
+      IconBeastmaster_4: -4666202969958490756
+      IconBeastmaster_5: -1760488873504979593
+      IconBeastmaster_6: -275045721754085761
+      IconBeastmaster_7: -2230343983240598101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
