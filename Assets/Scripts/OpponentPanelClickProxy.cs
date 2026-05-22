@@ -76,7 +76,7 @@ public class OpponentPanelClickProxy : MonoBehaviour
             deckManager.ResolveScribeFavorTheft(opponentIndex);
             return;
         }
-        
+
         Debug.Log("CLICK PROXY HIT");
         Debug.Log("CLICK PROXY HIT | pendingChoice = " + deckManager.pendingChoice +
                   " | swapFlow = " + deckManager.IsSwapFlowActive() +

@@ -112,11 +112,18 @@ public class PlayerInfoPanel : MonoBehaviour
     if (index < player.favorArea.Count)
     {
         Sprite icon = GetFavorIcon(player.favorArea[index].pranksterType);
+
         slotImage.gameObject.SetActive(true);
+        slotImage.enabled = icon != null;
         slotImage.sprite = icon;
+        slotImage.color = Color.white;
+        slotImage.preserveAspect = true;
+        slotImage.raycastTarget = false;
     }
     else
     {
+        slotImage.sprite = null;
+        slotImage.enabled = false;
         slotImage.gameObject.SetActive(false);
     }
 }

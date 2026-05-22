@@ -38,7 +38,7 @@ public class AvailableServiceSlotCollider : MonoBehaviour
             deckManager.ResolveBeastmasterDiscardTypeChoice(serviceType);
             return;
         }
-        
+
         if (!isAvailable)
             return;
 
@@ -95,10 +95,10 @@ public class AvailableServiceSlotCollider : MonoBehaviour
 
         if (iconImage != null)
         {
-            if (available)
-                iconImage.material = originalMaterial;
-            else
-                iconImage.material = grayscaleMaterial;
+            iconImage.material = originalMaterial;
+            iconImage.color = available 
+                ? Color.white 
+                : new Color(0.45f, 0.45f, 0.45f, 1f);
         }
     }
 }
