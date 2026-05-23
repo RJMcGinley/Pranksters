@@ -12305,7 +12305,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1933229905391050844, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18065,11 +18065,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameBackgroundManager
   backgroundRenderer: {fileID: 90510406}
   possibleBackgrounds:
-  - {fileID: 9217658810347795486, guid: 19852fb967e904cd3a82b56bae430e7d, type: 3}
-  - {fileID: 1088861381903699965, guid: 9b975d46311be41c7b40157da2bab9e4, type: 3}
-  - {fileID: -3806390674014641473, guid: 6d482085b08c34df394989678e962174, type: 3}
-  - {fileID: 4274968718183144584, guid: 6b6380a35e5f94a0dbf6a9ce75c3a41e, type: 3}
-  - {fileID: 2451519848520690778, guid: 68a139daa67fd4b03836fb733b5005bd, type: 3}
+  - {fileID: 8838538228767868929, guid: 73093c3e8d8ec4f1e9d34ffa5ee75299, type: 3}
+  - {fileID: -3663465463516834283, guid: 3a5728c7901e3470888e6b5019773066, type: 3}
+  - {fileID: 9125852790567803208, guid: ad084be96c0884dd0b4fc4ccc37670b2, type: 3}
+  - {fileID: 1806984203452874986, guid: 908fcc7b1e0c84f5fa423ae85d242e51, type: 3}
+  - {fileID: 5135104221060702963, guid: 135a8bece2d5249f5814b279f3ed0bda, type: 3}
 --- !u!1 &97946444
 GameObject:
   m_ObjectHideFlags: 0
@@ -33376,7 +33376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bot discards '
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -34011,7 +34011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -34662,7 +34662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 784174976333938850, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36424,12 +36424,12 @@ MonoBehaviour:
   favorSlot1Image: {fileID: 565034426}
   favorSlot2Image: {fileID: 2080376681}
   favorSlot3Image: {fileID: 2070003071}
-  thiefIcon: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
-  engineerIcon: {fileID: 7161743955867860191, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
-  laborerIcon: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
-  scribeIcon: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
-  wizardIcon: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
-  beastmasterIcon: {fileID: 9092429236826970185, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  thiefIcon: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
+  engineerIcon: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
+  laborerIcon: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
+  scribeIcon: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
+  wizardIcon: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
+  beastmasterIcon: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   representedPlayerIndex: -1
 --- !u!222 &423097041
 CanvasRenderer:
@@ -42928,7 +42928,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -44039,7 +44039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -69348,7 +69348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72.19999, y: 0.099998474}
+  m_AnchoredPosition: {x: -72.19998, y: 0.099998474}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805529421
@@ -82542,7 +82542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.1, y: 12.7}
+  m_AnchoredPosition: {x: 67, y: 12.9}
   m_SizeDelta: {x: 8.5, y: 8.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957312492
@@ -82565,7 +82565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -84147,7 +84147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.1, y: 12.5}
+  m_AnchoredPosition: {x: 67.1, y: 12.9}
   m_SizeDelta: {x: 8.5, y: 8.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988089489
@@ -84170,7 +84170,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -84545,7 +84545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.2, y: 12.6}
+  m_AnchoredPosition: {x: 67.4, y: 12.6}
   m_SizeDelta: {x: 13, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &992490379
@@ -90796,7 +90796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67, y: 12.8}
+  m_AnchoredPosition: {x: 67, y: 12.6}
   m_SizeDelta: {x: 13, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1082302705
@@ -102336,7 +102336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9092429236826970185, guid: 3553be017a677428d9a2ecb3dbc10d37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -117112,7 +117112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -122752,12 +122752,12 @@ MonoBehaviour:
   highestScoreText: {fileID: 1132378824}
   rowsContainer: {fileID: 5180214}
   rowTemplate: {fileID: 1643217124}
-  thiefIcon: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
-  wizardIcon: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
-  engineerIcon: {fileID: 7161743955867860191, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
-  laborerIcon: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
-  scribeIcon: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
-  beastmasterIcon: {fileID: 9092429236826970185, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  thiefIcon: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
+  wizardIcon: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
+  engineerIcon: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
+  laborerIcon: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
+  scribeIcon: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
+  beastmasterIcon: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   iconX: -120
   nameX: -90
   favorX: 500
@@ -123382,8 +123382,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: -5.2}
-  m_SizeDelta: {x: 5.1, y: 4.4}
+  m_AnchoredPosition: {x: -35.4, y: -4.9}
+  m_SizeDelta: {x: 4, y: 4.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457515505
 MonoBehaviour:
@@ -123405,7 +123405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1933229905391050844, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -129186,12 +129186,12 @@ MonoBehaviour:
   filledMarker2: {fileID: 1378349553}
   filledMarker3: {fileID: 337433641}
   activeFavorPointsText: {fileID: 1323678068}
-  thiefIcon: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
-  engineerIcon: {fileID: 784174976333938850, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
-  laborerIcon: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
-  scribeIcon: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
-  wizardIcon: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
-  beastmasterIcon: {fileID: -1933229905391050844, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  thiefIcon: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
+  engineerIcon: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
+  laborerIcon: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
+  scribeIcon: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
+  wizardIcon: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
+  beastmasterIcon: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   filledMarker1Image: {fileID: 1457515505}
   filledMarker2Image: {fileID: 1378349555}
   filledMarker3Image: {fileID: 337433643}
@@ -131245,7 +131245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1588133829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -145913,12 +145913,12 @@ MonoBehaviour:
   favorSlot1Image: {fileID: 983672145}
   favorSlot2Image: {fileID: 725837966}
   favorSlot3Image: {fileID: 913507518}
-  thiefIcon: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
-  engineerIcon: {fileID: 7161743955867860191, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
-  laborerIcon: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
-  scribeIcon: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
-  wizardIcon: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
-  beastmasterIcon: {fileID: 9092429236826970185, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  thiefIcon: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
+  engineerIcon: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
+  laborerIcon: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
+  scribeIcon: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
+  wizardIcon: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
+  beastmasterIcon: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   representedPlayerIndex: -1
 --- !u!114 &1771102058
 MonoBehaviour:
@@ -151394,12 +151394,12 @@ MonoBehaviour:
   favorSlot1Image: {fileID: 1211112781}
   favorSlot2Image: {fileID: 1686981505}
   favorSlot3Image: {fileID: 1119269321}
-  thiefIcon: {fileID: -1635335121538496630, guid: 67e2ce135e3524241adc41b0531d4e8f, type: 3}
-  engineerIcon: {fileID: 7161743955867860191, guid: bf6e30a649436482fa9d5b9f672373d2, type: 3}
-  laborerIcon: {fileID: -5474594388430459943, guid: c8302ca2d9d164ef7a82ed73e553598e, type: 3}
-  scribeIcon: {fileID: -5114687732098639991, guid: eca5bd045df1748899d59c7a1890c986, type: 3}
-  wizardIcon: {fileID: -129065852746125259, guid: 476bb1c8084704606954639850372b33, type: 3}
-  beastmasterIcon: {fileID: 9092429236826970185, guid: 674c983c15e8141a4a15f9f2a266baed, type: 3}
+  thiefIcon: {fileID: 21300000, guid: 3b07a9dc7803847ce907286b476d45e6, type: 3}
+  engineerIcon: {fileID: 21300000, guid: 171d4e71998e542838a1a8a3e6b53bbd, type: 3}
+  laborerIcon: {fileID: 21300000, guid: 92611ea4463db4528b22ca4a857e1e48, type: 3}
+  scribeIcon: {fileID: 21300000, guid: 2ceacb7f723ec4f6790d2c214379faf7, type: 3}
+  wizardIcon: {fileID: 21300000, guid: 54d92bbaba85f4a139dd37de35ced7b2, type: 3}
+  beastmasterIcon: {fileID: 21300000, guid: 08ed3b5bc1cff4f3a8ebaad1d4f0fe52, type: 3}
   representedPlayerIndex: -1
 --- !u!114 &1806650257
 MonoBehaviour:
@@ -168143,6 +168143,13 @@ MonoBehaviour:
   scoringActionObject: {fileID: 0}
   immediateActionObject: {fileID: 0}
   ongoingActionObject: {fileID: 0}
+  serviceSelectionColliders:
+  - {fileID: 118031402}
+  - {fileID: 2049750466}
+  - {fileID: 910460396}
+  - {fileID: 583803367}
+  - {fileID: 1282155976}
+  - {fileID: 567067877}
 --- !u!1 &2107567880
 GameObject:
   m_ObjectHideFlags: 0
