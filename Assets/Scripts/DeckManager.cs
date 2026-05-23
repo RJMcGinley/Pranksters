@@ -4574,6 +4574,9 @@ public void ActivateAvailableServiceScoringAction()
               ". Moved 3 retained service card(s) to discard pile. Remaining retained cards: " +
               remainingCount);
 
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayAvailableServiceScoringAction();
+
     FinishActionAndWaitForEndTurn();
 }
 
@@ -4726,6 +4729,12 @@ private IEnumerator ActivateWizardImmediateActionSequence()
         yield break;
     }
 
+    if (player.favorArea == null || player.favorArea.Count == 0)
+    {
+        Debug.LogWarning("Cannot activate Wizard Immediate Action. No favor cards to return.");
+        yield break;
+    }
+
     for (int i = 0; i < 2; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
@@ -4745,19 +4754,35 @@ private IEnumerator ActivateWizardImmediateActionSequence()
     if (groupToConsume.assignedCards.Count == 0)
         player.retainedServices.Remove(groupToConsume);
 
+    foreach (PranksterDeckEntry card in player.favorArea)
+    {
+        player.hand.Add(new PranksterDeckEntry
+        {
+            pranksterType = card.pranksterType,
+            tier = card.tier,
+            category = card.category
+        });
+    }
+
+    int returnedCount = player.favorArea.Count;
+    player.favorArea.Clear();
+
     activeServicePanelController = null;
 
     if (availableServicesPanelController != null)
         availableServicesPanelController.CloseAllServicePanels();
 
+    SortCurrentPlayerHand();
+
+    pendingChoice = PendingChoiceType.None;
+
     RefreshAllDisplays();
+    RefreshAllHighlights();
+    RefreshCrewCapacityDisplay();
 
-    pendingChoice = PendingChoiceType.ChooseWizardFavorReturn;
+    Debug.Log("Wizard returned all favor cards to hand. Count = " + returnedCount);
 
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayChooseRecruitReturnVoice();
-
-    Debug.Log("Choose a favor card to return to your hand.");
+    ContinueDiscardingUntilHandAtMax();
 }
 
 private void ReturnFavorCardToHand(int favorSlotIndex)

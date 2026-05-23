@@ -21397,7 +21397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AvailableServiceActionCollider
   deckManager: {fileID: 1503786762}
   retainServicesCollider: {fileID: 169223547}
-  actionName: Immediate Action
+  actionName: Beastmaster Immediate Action
   isAvailable: 0
   actionTitleTextObjects:
   - {fileID: 1296508584}
@@ -43119,6 +43119,7 @@ MonoBehaviour:
   thatPlayerDoesntHaveAnyRecruitsClip: {fileID: 8300000, guid: b7d5d513f6fd647549d3d47cc72a7dca, type: 3}
   yourOpponentDoesntHaveAnyRecruitsClip: {fileID: 8300000, guid: 61a3b38d22f3641bba1bb020e5991c94, type: 3}
   yourOpponentsDontHaveAnyRecruitsClip: {fileID: 8300000, guid: 425c5c6c94a804e0697369d2b675a974, type: 3}
+  availableServiceScoringActionClip: {fileID: 8300000, guid: e0b200098189b460ca2c27fce4eb4382, type: 3}
   fartSounds:
   - {fileID: 8300000, guid: b79517244c7a74d439ad90887f494c66, type: 3}
   - {fileID: 8300000, guid: 9471ceb90214d43c1ba6a082173ce729, type: 3}

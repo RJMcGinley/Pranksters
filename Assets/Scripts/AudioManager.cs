@@ -43,6 +43,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip thatPlayerDoesntHaveAnyRecruitsClip;
     public AudioClip yourOpponentDoesntHaveAnyRecruitsClip;
     public AudioClip yourOpponentsDontHaveAnyRecruitsClip;
+    public AudioClip availableServiceScoringActionClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -393,4 +394,10 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     {
         PlaySFX(yourOpponentsDontHaveAnyRecruitsClip);
     }
+
+    public void PlayAvailableServiceScoringAction()
+    {
+        PlaySFX(availableServiceScoringActionClip);
+    }
+
 }
