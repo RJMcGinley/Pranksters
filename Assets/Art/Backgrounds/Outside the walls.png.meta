@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b7e789a5ebfdc455da30084567056d06
+guid: 135a8bece2d5249f5814b279f3ed0bda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5379301500193104967
-    second: TopDownBackground_0
+      213: 5135104221060702963
+    second: Outside the walls_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TopDownBackground_0
+      name: Outside the walls_0
       rect:
         serializedVersion: 2
-        x: 327
+        x: 0
         y: 0
-        width: 3262
+        width: 3840
         height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bb934d49c1e855b0800000000000000
-      internalID: -5379301500193104967
+      spriteID: 3f2aee4051e834740800000000000000
+      internalID: 5135104221060702963
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TopDownBackground_0: -5379301500193104967
+      Outside the walls_0: 5135104221060702963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

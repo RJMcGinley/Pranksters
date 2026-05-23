@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 68a139daa67fd4b03836fb733b5005bd
+guid: ad084be96c0884dd0b4fc4ccc37670b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2451519848520690778
-    second: Dirt Floor_0
+      213: 9125852790567803208
+    second: Forest Clearing_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dirt Floor_0
+      name: Forest Clearing_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5c25e2405c850220800000000000000
-      internalID: 2451519848520690778
+      spriteID: 8491d4e13ca85ae70800000000000000
+      internalID: 9125852790567803208
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dirt Floor_0: 2451519848520690778
+      Forest Clearing_0: 9125852790567803208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

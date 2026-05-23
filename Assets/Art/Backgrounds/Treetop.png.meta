@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ea442a5c9a1ce4309b5a86eaa3d8d424
+guid: 3a5728c7901e3470888e6b5019773066
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399011212269539787
-    second: Stone_0
+      213: -3663465463516834283
+    second: Treetop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone_0
+      name: Treetop_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc159db92384f8470800000000000000
-      internalID: 8399011212269539787
+      spriteID: 516da202291c82dc0800000000000000
+      internalID: -3663465463516834283
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone_0: 8399011212269539787
+      Treetop_0: -3663465463516834283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

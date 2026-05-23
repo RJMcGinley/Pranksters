@@ -18,6 +18,9 @@ public class AvailableServicesPanelController : MonoBehaviour
     [SerializeField] private GameObject immediateActionObject;
     [SerializeField] private GameObject ongoingActionObject;
 
+    [Header("Service Selection Colliders")]
+    [SerializeField] private BoxCollider2D[] serviceSelectionColliders;
+
     private void Start()
     {
         ApplyUnlockVisibility();
@@ -40,6 +43,7 @@ public class AvailableServicesPanelController : MonoBehaviour
             AudioManager.Instance.PlayMenuClick();
 
         HideAllServicePanels();
+        SetServiceSelectionCollidersEnabled(false);
 
         switch (serviceType)
         {
@@ -89,6 +93,7 @@ public class AvailableServicesPanelController : MonoBehaviour
     }
 
     HideAllServicePanels();
+    SetServiceSelectionCollidersEnabled(true);
 
     if (deckManager != null)
     {
@@ -131,6 +136,7 @@ public class AvailableServicesPanelController : MonoBehaviour
             deckManager.SetAvailableServicesPanelOpen(false);
 
         HideAllServicePanels();
+        SetServiceSelectionCollidersEnabled(true);
     }
 
     void ApplyUnlockVisibility()
@@ -186,6 +192,18 @@ public AvailableServicePanelAssignmentController GetPanelAssignmentController(Pr
         return null;
 
     return panel.GetComponent<AvailableServicePanelAssignmentController>();
+}
+
+private void SetServiceSelectionCollidersEnabled(bool enabled)
+{
+    if (serviceSelectionColliders == null)
+        return;
+
+    foreach (BoxCollider2D collider in serviceSelectionColliders)
+    {
+        if (collider != null)
+            collider.enabled = enabled;
+    }
 }
     
 }
