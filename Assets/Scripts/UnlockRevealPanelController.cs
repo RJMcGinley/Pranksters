@@ -106,8 +106,8 @@ public class UnlockRevealPanelController : MonoBehaviour
 
     PranksterUnlockEntry entry = unlocksToShow[currentIndex];
 
-    string unlockTitle;
-    string flavorText;
+    string unlockTitle = "Unlock";
+    string flavorText = "";
 
     if (entry.category == PranksterUnlockCategory.PrankCompletion)
     {
@@ -119,7 +119,12 @@ public class UnlockRevealPanelController : MonoBehaviour
         unlockTitle = PranksterSpriteDatabase.GetFavorTierTitle(entry.tier);
         flavorText = PranksterSpriteDatabase.GetFavorTierFlavorText(entry.tier);
     }
-    else
+    else if (entry.category == PranksterUnlockCategory.Discard)
+    {
+        unlockTitle = PranksterSpriteDatabase.GetDiscardTierTitle(entry.tier);
+        flavorText = PranksterSpriteDatabase.GetDiscardTierFlavorText(entry.tier);
+    }
+    else if (entry.category == PranksterUnlockCategory.AvailableService)
     {
         unlockTitle = PranksterSpriteDatabase.GetDiscardTierTitle(entry.tier);
         flavorText = PranksterSpriteDatabase.GetDiscardTierFlavorText(entry.tier);
@@ -165,6 +170,26 @@ public class UnlockRevealPanelController : MonoBehaviour
         if (unlockSprite == null)
         {
             Debug.LogWarning("Missing discard unlock sprite: UnlockCards/" + pranksterName + suffix);
+            unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, 0);
+        }
+    }
+    else if (entry.category == PranksterUnlockCategory.AvailableService)
+    {
+        string suffix = "";
+
+        switch (entry.tier)
+        {
+            case 1: suffix = "Hustler"; break;
+            case 2: suffix = "Opportunist"; break;
+            case 3: suffix = "Manipulator"; break;
+            default: suffix = ""; break;
+        }
+
+        unlockSprite = Resources.Load<Sprite>("UnlockCards/" + pranksterName + suffix);
+
+        if (unlockSprite == null)
+        {
+            Debug.LogWarning("Missing available service unlock sprite: UnlockCards/" + pranksterName + suffix);
             unlockSprite = PranksterSpriteDatabase.GetSprite(entry.pranksterType, 0);
         }
     }

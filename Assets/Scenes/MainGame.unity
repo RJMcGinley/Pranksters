@@ -35309,7 +35309,7 @@ GameObject:
   - component: {fileID: 396783680}
   - component: {fileID: 396783679}
   m_Layer: 5
-  m_Name: DiscardValueText
+  m_Name: ServiceValueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122315,7 +122315,7 @@ GameObject:
   - component: {fileID: 1423317279}
   - component: {fileID: 1423317278}
   m_Layer: 5
-  m_Name: TimesDiscardedHeader
+  m_Name: ServicesHeader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122360,7 +122360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Times Dismissed
+  m_text: Used for Services
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -122761,7 +122761,7 @@ MonoBehaviour:
   iconX: -120
   nameX: -90
   favorX: 500
-  discardX: 930
+  serviceX: 930
 --- !u!114 &1441079171
 MonoBehaviour:
   m_ObjectHideFlags: 0

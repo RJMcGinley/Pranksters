@@ -20,6 +20,7 @@ public class PlayerProgressSave
     public List<PrankCompletionEntry> prankCompletions = new List<PrankCompletionEntry>();
     public List<FavorPointsEntry> favorPointsByType = new List<FavorPointsEntry>();
     public List<DiscardCountEntry> discardCountsByType = new List<DiscardCountEntry>();
+    public List<AvailableServiceUseCountEntry> availableServiceUseCountsByType = new List<AvailableServiceUseCountEntry>();
     public List<PranksterUnlockEntry> pranksterUnlocks = new List<PranksterUnlockEntry>();
 }
 
@@ -42,6 +43,13 @@ public class DiscardCountEntry
 {
     public string pranksterType;
     public int totalDiscards;
+}
+
+[Serializable]
+public class AvailableServiceUseCountEntry
+{
+    public string pranksterType;
+    public int totalAvailableServiceUses;
 }
 
 [Serializable]

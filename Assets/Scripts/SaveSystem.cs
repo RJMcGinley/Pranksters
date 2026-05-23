@@ -82,6 +82,12 @@ public static class SaveSystem
                 totalDiscards = 0
             });
 
+            data.availableServiceUseCountsByType.Add(new AvailableServiceUseCountEntry
+            {
+                pranksterType = type.ToString(),
+                totalAvailableServiceUses = 0
+            });
+
             for (int tier = 1; tier <= 3; tier++)
             {
                 // Prank completion unlock (Crew Leader / Expert / Master)
@@ -113,6 +119,16 @@ public static class SaveSystem
                     earned = false,
                     unlockOrder = 0
                 });
+
+                // Available Service unlock
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
+                {
+                    pranksterType = type.ToString(),
+                    tier = tier,
+                    category = PranksterUnlockCategory.AvailableService,
+                    earned = false,
+                    unlockOrder = 0
+                });
             }
         }
 
@@ -129,6 +145,9 @@ public static class SaveSystem
 
     if (data.discardCountsByType == null)
         data.discardCountsByType = new List<DiscardCountEntry>();
+
+    if (data.availableServiceUseCountsByType == null)
+        data.availableServiceUseCountsByType = new List<AvailableServiceUseCountEntry>();    
 
     if (data.pranksterUnlocks == null)
         data.pranksterUnlocks = new List<PranksterUnlockEntry>();
@@ -175,11 +194,32 @@ public static class SaveSystem
             });
         }
 
+        bool availableServiceUseFound = false;
+
+        for (int i = 0; i < data.availableServiceUseCountsByType.Count; i++)
+        {
+            if (data.availableServiceUseCountsByType[i].pranksterType == type.ToString())
+            {
+                availableServiceUseFound = true;
+                break;
+            }
+        }
+
+        if (!availableServiceUseFound)
+        {
+            data.availableServiceUseCountsByType.Add(new AvailableServiceUseCountEntry
+            {
+                pranksterType = type.ToString(),
+                totalAvailableServiceUses = 0
+            });
+        }
+
         for (int tier = 1; tier <= 3; tier++)
         {
             bool prankCompletionUnlockFound = false;
             bool favorOfferUnlockFound = false;
             bool discardUnlockFound = false;
+            bool availableServiceUnlockFound = false;
 
             for (int i = 0; i < data.pranksterUnlocks.Count; i++)
             {
@@ -202,6 +242,13 @@ public static class SaveSystem
                     data.pranksterUnlocks[i].category == PranksterUnlockCategory.Discard)
                 {
                     discardUnlockFound = true;
+                }
+
+                if (data.pranksterUnlocks[i].pranksterType == type.ToString() &&
+                    data.pranksterUnlocks[i].tier == tier &&
+                    data.pranksterUnlocks[i].category == PranksterUnlockCategory.AvailableService)
+                {
+                    availableServiceUnlockFound = true;
                 }
             }
 
@@ -236,6 +283,18 @@ public static class SaveSystem
                     pranksterType = type.ToString(),
                     tier = tier,
                     category = PranksterUnlockCategory.Discard,
+                    earned = false,
+                    unlockOrder = 0
+                });
+            }
+
+            if (!availableServiceUnlockFound)
+            {
+                data.pranksterUnlocks.Add(new PranksterUnlockEntry
+                {
+                    pranksterType = type.ToString(),
+                    tier = tier,
+                    category = PranksterUnlockCategory.AvailableService,
                     earned = false,
                     unlockOrder = 0
                 });
@@ -828,6 +887,123 @@ public static void SetFullGamePurchased(bool value)
     data.fullGamePurchased = value;
 
     Save(data);
+}
+
+public static List<PranksterUnlockEntry> EvaluateAvailableServiceUnlocks(PlayerProgressSave data)
+{
+    Debug.Log("AVAILABLE SERVICE UNLOCK EVALUATION START");
+
+    List<PranksterUnlockEntry> newlyEarned = new List<PranksterUnlockEntry>();
+
+    if (data == null)
+    {
+        Debug.LogWarning("AVAILABLE SERVICE UNLOCK EVALUATION ABORTED: data is null");
+        return newlyEarned;
+    }
+
+    if (data.availableServiceUseCountsByType == null)
+    {
+        Debug.LogWarning("AVAILABLE SERVICE UNLOCK EVALUATION ABORTED: availableServiceUseCountsByType is null");
+        return newlyEarned;
+    }
+
+    if (data.pranksterUnlocks == null)
+    {
+        Debug.LogWarning("AVAILABLE SERVICE UNLOCK EVALUATION: pranksterUnlocks was null, creating new list");
+        data.pranksterUnlocks = new List<PranksterUnlockEntry>();
+    }
+
+    for (int i = 0; i < data.availableServiceUseCountsByType.Count; i++)
+    {
+        AvailableServiceUseCountEntry entry = data.availableServiceUseCountsByType[i];
+
+        if (entry == null)
+        {
+            Debug.Log("SKIP: available service entry at index " + i + " is null");
+            continue;
+        }
+
+        if (string.IsNullOrWhiteSpace(entry.pranksterType))
+        {
+            Debug.Log("SKIP: available service entry at index " + i + " has blank pranksterType");
+            continue;
+        }
+
+        int serviceUseTotal = entry.totalAvailableServiceUses;
+        string pranksterType = entry.pranksterType;
+
+        Debug.Log("EVALUATING AVAILABLE SERVICE UNLOCKS: " + pranksterType +
+                  " | total service uses = " + serviceUseTotal);
+
+        int highestTier = 0;
+
+        if (serviceUseTotal >= 60)
+            highestTier = 3;
+        else if (serviceUseTotal >= 25)
+            highestTier = 2;
+        else if (serviceUseTotal >= 5)
+            highestTier = 1;
+
+        if (highestTier == 0)
+        {
+            Debug.Log("SKIP: No available service unlock tier earned yet for " + pranksterType);
+            continue;
+        }
+
+        for (int tier = 1; tier <= highestTier; tier++)
+        {
+            Debug.Log("ATTEMPTING AVAILABLE SERVICE UNLOCK IN MEMORY: " + pranksterType + " tier " + tier);
+
+            bool earnedNow = EarnPranksterUnlock(
+                data,
+                pranksterType,
+                tier,
+                PranksterUnlockCategory.AvailableService
+            );
+
+            Debug.Log("EarnPranksterUnlock RESULT for available service unlock " + pranksterType +
+                      " tier " + tier + " = " + earnedNow);
+
+            if (earnedNow)
+            {
+                PranksterUnlockEntry unlockedEntry = null;
+
+                for (int j = 0; j < data.pranksterUnlocks.Count; j++)
+                {
+                    if (data.pranksterUnlocks[j].pranksterType == pranksterType &&
+                        data.pranksterUnlocks[j].tier == tier &&
+                        data.pranksterUnlocks[j].category == PranksterUnlockCategory.AvailableService)
+                    {
+                        unlockedEntry = data.pranksterUnlocks[j];
+                        break;
+                    }
+                }
+
+                if (unlockedEntry != null)
+                {
+                    newlyEarned.Add(unlockedEntry);
+                    sessionNewUnlocks.Add(unlockedEntry);
+
+                    Debug.Log("AVAILABLE SERVICE UNLOCK EARNED: " + pranksterType +
+                              " tier " + tier +
+                              " | order = " + unlockedEntry.unlockOrder);
+                }
+                else
+                {
+                    Debug.LogWarning("AVAILABLE SERVICE UNLOCK WAS EARNED BUT COULD NOT BE FOUND IN MEMORY for " +
+                                     pranksterType + " tier " + tier);
+                }
+            }
+            else
+            {
+                Debug.Log("NO NEW AVAILABLE SERVICE UNLOCK AWARDED for " + pranksterType + " tier " + tier);
+            }
+        }
+    }
+
+    Debug.Log("AVAILABLE SERVICE UNLOCK EVALUATION END | count = " + newlyEarned.Count);
+
+    return newlyEarned;
 }
 
 }

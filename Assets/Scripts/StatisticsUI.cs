@@ -32,7 +32,7 @@ public class StatisticsUI : MonoBehaviour
     [SerializeField] private float iconX = -120f;
     [SerializeField] private float nameX = -90f;
     [SerializeField] private float favorX = 500f;
-    [SerializeField] private float discardX = 930f;
+    [SerializeField] private float serviceX = 930f;
 
     private string GetTitleFromHighScore(int highScore)
     {
@@ -70,6 +70,7 @@ public class StatisticsUI : MonoBehaviour
             vs4Text.text = $"{data.wins4P}-{data.losses4P}";
 
         int totalFavor = 0;
+
         if (data.favorPointsByType != null)
         {
             for (int i = 0; i < data.favorPointsByType.Count; i++)
@@ -107,6 +108,7 @@ public class StatisticsUI : MonoBehaviour
         }
 
         Dictionary<string, int> favorLookup = new Dictionary<string, int>();
+
         if (data.favorPointsByType != null)
         {
             foreach (FavorPointsEntry entry in data.favorPointsByType)
@@ -115,28 +117,29 @@ public class StatisticsUI : MonoBehaviour
             }
         }
 
-        Dictionary<string, int> discardLookup = new Dictionary<string, int>();
-        if (data.discardCountsByType != null)
+        Dictionary<string, int> serviceLookup = new Dictionary<string, int>();
+
+        if (data.availableServiceUseCountsByType != null)
         {
-            foreach (DiscardCountEntry entry in data.discardCountsByType)
+            foreach (AvailableServiceUseCountEntry entry in data.availableServiceUseCountsByType)
             {
-                discardLookup[entry.pranksterType] = entry.totalDiscards;
+                serviceLookup[entry.pranksterType] = entry.totalAvailableServiceUses;
             }
         }
 
-        CreateRow("Thief", thiefIcon, favorLookup, discardLookup);
-        CreateRow("Wizard", wizardIcon, favorLookup, discardLookup);
-        CreateRow("Engineer", engineerIcon, favorLookup, discardLookup);
-        CreateRow("Laborer", laborerIcon, favorLookup, discardLookup);
-        CreateRow("Scribe", scribeIcon, favorLookup, discardLookup);
-        CreateRow("BeastMaster", beastmasterIcon, favorLookup, discardLookup);
+        CreateRow("Thief", thiefIcon, favorLookup, serviceLookup);
+        CreateRow("Wizard", wizardIcon, favorLookup, serviceLookup);
+        CreateRow("Engineer", engineerIcon, favorLookup, serviceLookup);
+        CreateRow("Laborer", laborerIcon, favorLookup, serviceLookup);
+        CreateRow("Scribe", scribeIcon, favorLookup, serviceLookup);
+        CreateRow("BeastMaster", beastmasterIcon, favorLookup, serviceLookup);
     }
 
     private void CreateRow(
         string type,
         Sprite icon,
         Dictionary<string, int> favorLookup,
-        Dictionary<string, int> discardLookup)
+        Dictionary<string, int> serviceLookup)
     {
         GameObject row = Instantiate(rowTemplate, rowsContainer);
         row.SetActive(true);
@@ -146,10 +149,10 @@ public class StatisticsUI : MonoBehaviour
         Transform iconTransform = row.transform.Find("Icon");
         Transform nameTransform = row.transform.Find("NameText");
         Transform favorTransform = row.transform.Find("FavorValueText");
-        Transform discardTransform = row.transform.Find("DiscardValueText");
+        Transform serviceTransform = row.transform.Find("ServiceValueText");
 
         if (iconTransform == null || nameTransform == null ||
-            favorTransform == null || discardTransform == null)
+            favorTransform == null || serviceTransform == null)
         {
             Debug.LogError("StatisticsUI: Row template is missing required children.");
             return;
@@ -158,7 +161,7 @@ public class StatisticsUI : MonoBehaviour
         Image iconImage = iconTransform.GetComponent<Image>();
         TMP_Text nameText = nameTransform.GetComponent<TMP_Text>();
         TMP_Text favorText = favorTransform.GetComponent<TMP_Text>();
-        TMP_Text discardText = discardTransform.GetComponent<TMP_Text>();
+        TMP_Text serviceText = serviceTransform.GetComponent<TMP_Text>();
 
         if (iconImage != null)
             iconImage.sprite = icon;
@@ -167,18 +170,19 @@ public class StatisticsUI : MonoBehaviour
             nameText.text = FormatDisplayName(type);
 
         int favor = favorLookup.ContainsKey(type) ? favorLookup[type] : 0;
-        int discard = discardLookup.ContainsKey(type) ? discardLookup[type] : 0;
+        int serviceUses = serviceLookup.ContainsKey(type) ? serviceLookup[type] : 0;
 
         if (favorText != null)
             favorText.text = favor.ToString();
 
-        if (discardText != null)
-            discardText.text = discard.ToString();
+        if (serviceText != null)
+            serviceText.text = serviceUses.ToString();
     }
 
     private void ApplyRowLayout(Transform rowTransform)
     {
         RectTransform rowRect = rowTransform as RectTransform;
+
         if (rowRect != null)
         {
             rowRect.anchorMin = new Vector2(0f, 1f);
@@ -191,7 +195,7 @@ public class StatisticsUI : MonoBehaviour
         RectTransform iconRect = rowTransform.Find("Icon") as RectTransform;
         RectTransform nameRect = rowTransform.Find("NameText") as RectTransform;
         RectTransform favorRect = rowTransform.Find("FavorValueText") as RectTransform;
-        RectTransform discardRect = rowTransform.Find("DiscardValueText") as RectTransform;
+        RectTransform serviceRect = rowTransform.Find("ServiceValueText") as RectTransform;
 
         if (iconRect != null)
         {
@@ -217,12 +221,12 @@ public class StatisticsUI : MonoBehaviour
             favorRect.anchoredPosition = new Vector2(favorX, 0f);
         }
 
-        if (discardRect != null)
+        if (serviceRect != null)
         {
-            discardRect.anchorMin = new Vector2(0f, 0.5f);
-            discardRect.anchorMax = new Vector2(0f, 0.5f);
-            discardRect.pivot = new Vector2(0.5f, 0.5f);
-            discardRect.anchoredPosition = new Vector2(discardX, 0f);
+            serviceRect.anchorMin = new Vector2(0f, 0.5f);
+            serviceRect.anchorMax = new Vector2(0f, 0.5f);
+            serviceRect.pivot = new Vector2(0.5f, 0.5f);
+            serviceRect.anchoredPosition = new Vector2(serviceX, 0f);
         }
     }
 

@@ -2,5 +2,6 @@ public enum PranksterUnlockCategory
 {
     PrankCompletion,
     FavorOffer,
-    Discard 
+    Discard,
+    AvailableService
 }

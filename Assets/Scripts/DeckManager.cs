@@ -123,6 +123,7 @@ public class DeckManager : MonoBehaviour
     private PlayerProgressSave player1ProgressSave;
     private Dictionary<PranksterType, int> player1FavorPointsThisGame = new Dictionary<PranksterType, int>();
     private Dictionary<PranksterType, int> player1DiscardCountsThisGame = new Dictionary<PranksterType, int>();
+    private Dictionary<PranksterType, int> player1AvailableServiceUsesThisGame = new Dictionary<PranksterType, int>();
 
     public UnlockRevealPanelController unlockRevealPanelController;
     public EndOfRoundPanelController endOfRoundPanelController;
@@ -209,14 +210,24 @@ public class DeckManager : MonoBehaviour
                     category = PranksterUnlockCategory.FavorOffer
                 });
             }
+            //Discard unlocks are currently inactive / legacy.
+            // if (SaveSystem.IsPranksterUnlockUsable(prankster.ToString(), tier, PranksterUnlockCategory.Discard))
+            // {
+            //     usableUnlockCards.Add(new PranksterDeckEntry
+            //     {
+            //         pranksterType = prankster,
+            //         tier = tier,
+            //         category = PranksterUnlockCategory.Discard
+            //     });
+            // }
 
-            if (SaveSystem.IsPranksterUnlockUsable(prankster.ToString(), tier, PranksterUnlockCategory.Discard))
+            if (SaveSystem.IsPranksterUnlockUsable(prankster.ToString(), tier, PranksterUnlockCategory.AvailableService))
             {
                 usableUnlockCards.Add(new PranksterDeckEntry
                 {
                     pranksterType = prankster,
                     tier = tier,
-                    category = PranksterUnlockCategory.Discard
+                    category = PranksterUnlockCategory.AvailableService
                 });
             }
         }
@@ -3626,10 +3637,19 @@ void ApplyPlayer1MatchResultsToSave()
         AddDiscardCountToSave(kvp.Key, kvp.Value);
     }
 
+    // Available Service use counts by prankster type
+    foreach (var kvp in player1AvailableServiceUsesThisGame)
+    {
+        Debug.Log("ADDING AVAILABLE SERVICE USE COUNT TO SAVE: " + kvp.Key + " = " + kvp.Value);
+        AddAvailableServiceUseCountToSave(kvp.Key, kvp.Value);
+    }
+
     Debug.Log("ABOUT TO EVALUATE UNLOCKS");
     List<PranksterUnlockEntry> newUnlocks = SaveSystem.EvaluateAndAwardUnlocksFromSavedProgress(player1ProgressSave);
     List<PranksterUnlockEntry> newFavorUnlocks = SaveSystem.EvaluateFavorUnlocks(player1ProgressSave);
-    List<PranksterUnlockEntry> newDiscardUnlocks = SaveSystem.EvaluateDiscardUnlocks(player1ProgressSave);
+    // Discard Unlocks are currently inactive.
+    // List<PranksterUnlockEntry> newDiscardUnlocks = SaveSystem.EvaluateDiscardUnlocks(player1ProgressSave);
+    List<PranksterUnlockEntry> newAvailableServiceUnlocks = SaveSystem.EvaluateAvailableServiceUnlocks(player1ProgressSave);
     Debug.Log("UNLOCK EVALUATION FINISHED");
 
     if (newUnlocks != null)
@@ -3777,10 +3797,12 @@ public void PrintPlayer1SaveData()
 void ResetPlayer1DiscardTrackingForNewGame()
 {
     player1DiscardCountsThisGame.Clear();
+    player1AvailableServiceUsesThisGame.Clear();
 
     foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
     {
         player1DiscardCountsThisGame[type] = 0;
+        player1AvailableServiceUsesThisGame[type] = 0;
     }
 }
 
@@ -4503,6 +4525,8 @@ public void ActivateAvailableServiceScoringAction()
             category = card.category
         });
 
+        TrackPlayer1AvailableServiceUse(card);
+
         groupToConsume.assignedCards.RemoveAt(0);
     }
 
@@ -4648,6 +4672,8 @@ private IEnumerator ActivateLaborerImmediateActionSequence()
             category = card.category
         });
 
+        TrackPlayer1AvailableServiceUse(card);
+
         groupToConsume.assignedCards.RemoveAt(0);
     }
 
@@ -4710,6 +4736,8 @@ private IEnumerator ActivateWizardImmediateActionSequence()
             tier = card.tier,
             category = card.category
         });
+
+        TrackPlayer1AvailableServiceUse(card);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4806,6 +4834,8 @@ private IEnumerator ActivateEngineerImmediateActionSequence()
             tier = card.tier,
             category = card.category
         });
+
+        TrackPlayer1AvailableServiceUse(card);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4925,6 +4955,8 @@ private IEnumerator ActivateThiefImmediateActionSequence()
             tier = card.tier,
             category = card.category
         });
+
+        TrackPlayer1AvailableServiceUse(card);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -5053,6 +5085,8 @@ private IEnumerator ActivateScribeImmediateActionSequence()
             tier = card.tier,
             category = card.category
         });
+
+        TrackPlayer1AvailableServiceUse(card);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -5266,6 +5300,8 @@ private IEnumerator ActivateBeastmasterImmediateActionSequence()
             category = card.category
         });
 
+        TrackPlayer1AvailableServiceUse(card);
+
         groupToConsume.assignedCards.RemoveAt(0);
     }
 
@@ -5354,6 +5390,47 @@ public void HardResetRuntimeStateForMainMenu()
     RefreshAllHighlights();
 
     Debug.Log("DeckManager hard runtime state reset for main menu.");
+}
+
+void AddAvailableServiceUseCountToSave(PranksterType pranksterType, int amount)
+{
+    string typeName = pranksterType.ToString();
+
+    for (int i = 0; i < player1ProgressSave.availableServiceUseCountsByType.Count; i++)
+    {
+        if (player1ProgressSave.availableServiceUseCountsByType[i].pranksterType == typeName)
+        {
+            player1ProgressSave.availableServiceUseCountsByType[i].totalAvailableServiceUses += amount;
+            return;
+        }
+    }
+
+    player1ProgressSave.availableServiceUseCountsByType.Add(new AvailableServiceUseCountEntry
+    {
+        pranksterType = typeName,
+        totalAvailableServiceUses = amount
+    });
+}
+
+void TrackPlayer1AvailableServiceUse(PranksterDeckEntry card)
+{
+    if (card == null)
+        return;
+
+    if (turnManager == null || turnManager.currentPlayerIndex != 0)
+        return;
+
+    if (!player1AvailableServiceUsesThisGame.ContainsKey(card.pranksterType))
+    {
+        player1AvailableServiceUsesThisGame[card.pranksterType] = 0;
+    }
+
+    player1AvailableServiceUsesThisGame[card.pranksterType]++;
+
+    Debug.Log("TRACKED AVAILABLE SERVICE USE: " +
+              card.pranksterType +
+              " | total this game = " +
+              player1AvailableServiceUsesThisGame[card.pranksterType]);
 }
 
 }
