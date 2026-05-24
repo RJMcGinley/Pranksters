@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: c3f4af3aefb7645039b8971e54c17aa4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2185690189347976601
+    second: WizardSpecialist_0
+  - first:
+      213: -2662439043823900421
+    second: WizardSpecialist_1
+  - first:
+      213: -3891325012077611231
+    second: WizardSpecialist_2
+  - first:
+      213: 4425508860442201675
+    second: WizardSpecialist_3
+  - first:
+      213: -6746591298381235138
+    second: WizardSpecialist_4
+  - first:
+      213: -711016084554892329
+    second: WizardSpecialist_5
+  - first:
+      213: -2152492024376058262
+    second: WizardSpecialist_6
+  - first:
+      213: 8388789615676306988
+    second: WizardSpecialist_7
+  - first:
+      213: -2477726679331112052
+    second: WizardSpecialist_8
+  - first:
+      213: 4836694232145134409
+    second: WizardSpecialist_9
+  - first:
+      213: 1031216547872724949
+    second: WizardSpecialist_10
+  - first:
+      213: 8766866707307631399
+    second: WizardSpecialist_11
+  - first:
+      213: 8261761025636323082
+    second: WizardSpecialist_12
+  - first:
+      213: -7024326415078161282
+    second: WizardSpecialist_13
+  - first:
+      213: 8252543698030223225
+    second: WizardSpecialist_14
+  - first:
+      213: -1470220099923100245
+    second: WizardSpecialist_15
+  - first:
+      213: 681758098271002197
+    second: WizardSpecialist_16
+  - first:
+      213: -2327776024164642980
+    second: WizardSpecialist_17
+  - first:
+      213: -8549649354077953171
+    second: WizardSpecialist_18
+  - first:
+      213: -8045214804253243629
+    second: WizardSpecialist_19
+  - first:
+      213: 2576185337903113727
+    second: WizardSpecialist_20
+  - first:
+      213: 3892499469090766463
+    second: WizardSpecialist_21
+  - first:
+      213: 2304793883046825074
+    second: WizardSpecialist_22
+  - first:
+      213: -7249490305074180246
+    second: WizardSpecialist_23
+  - first:
+      213: 7268415034013357873
+    second: WizardSpecialist_24
+  - first:
+      213: 9007394972048626938
+    second: WizardSpecialist_25
+  - first:
+      213: 6426870321438912904
+    second: WizardSpecialist_26
+  - first:
+      213: -4257439968526567649
+    second: WizardSpecialist_27
+  - first:
+      213: -553021095247423611
+    second: WizardSpecialist_28
+  - first:
+      213: -3685088685924369
+    second: WizardSpecialist_29
+  - first:
+      213: -7164138744230208531
+    second: WizardSpecialist_30
+  - first:
+      213: -3692101742706818720
+    second: WizardSpecialist_31
+  - first:
+      213: 508672054006651580
+    second: WizardSpecialist_32
+  - first:
+      213: 5437971619980159053
+    second: WizardSpecialist_33
+  - first:
+      213: 3424571254022658126
+    second: WizardSpecialist_34
+  - first:
+      213: 5321657440756488362
+    second: WizardSpecialist_35
+  - first:
+      213: 8862077757262059064
+    second: WizardSpecialist_36
+  - first:
+      213: -54036014210560277
+    second: WizardSpecialist_37
+  - first:
+      213: -2647489916640967381
+    second: WizardSpecialist_38
+  - first:
+      213: -3318576141202539999
+    second: WizardSpecialist_39
+  - first:
+      213: 3147225187498081392
+    second: WizardSpecialist_40
+  - first:
+      213: 3535946451671930171
+    second: WizardSpecialist_41
+  - first:
+      213: 7092158432003273872
+    second: WizardSpecialist_42
+  - first:
+      213: -5440154655208677061
+    second: WizardSpecialist_43
+  - first:
+      213: 950189030081961146
+    second: WizardSpecialist_44
+  - first:
+      213: -1113473096340441779
+    second: WizardSpecialist_45
+  - first:
+      213: -6163063906768504364
+    second: WizardSpecialist_46
+  - first:
+      213: -2667493568298956099
+    second: WizardSpecialist_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardSpecialist_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 793
+        width: 321
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995742d95a1255e10800000000000000
+      internalID: 2185690189347976601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8eebcbbcd1d0bd0800000000000000
+      internalID: -2662439043823900421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1277585c48c3ff9c0800000000000000
+      internalID: -3891325012077611231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 877
+        width: 11
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e40097cd09a6d30800000000000000
+      internalID: 4425508860442201675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 222
+        width: 635
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cbe3785fa4f52a0800000000000000
+      internalID: -6746591298381235138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 700
+        width: 23
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db348263a6f126f0800000000000000
+      internalID: -711016084554892329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 222
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e143188efc022e0800000000000000
+      internalID: -2152492024376058262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 197
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c263fd1b5b7fa6470800000000000000
+      internalID: 8388789615676306988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 222
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bf5f376b85d9dd0800000000000000
+      internalID: -2477726679331112052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 221
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943013a37c36f1340800000000000000
+      internalID: 4836694232145134409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 221
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d755769cfd9f4e00800000000000000
+      internalID: 1031216547872724949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723154a42da2aa970800000000000000
+      internalID: 8766866707307631399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f483051eba7a270800000000000000
+      internalID: 8261761025636323082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 126
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e748fda8754948e90800000000000000
+      internalID: -7024326415078161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 141
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fda7ef4cce68270800000000000000
+      internalID: 8252543698030223225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 140
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badb172db9ab89be0800000000000000
+      internalID: -1470220099923100245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_16
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e5036d067167900800000000000000
+      internalID: 681758098271002197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 140
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fcef20a0412bfd0800000000000000
+      internalID: -2327776024164642980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d632900e53b895980800000000000000
+      internalID: -8549649354077953171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_19
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 141
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31785cac2c7a95090800000000000000
+      internalID: -8045214804253243629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_20
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5e8456ae270c320800000000000000
+      internalID: 2576185337903113727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e3d8fc4afe40630800000000000000
+      internalID: 3892499469090766463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ccf7743d54cff10800000000000000
+      internalID: 2304793883046825074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 141
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f4a6b1af2a46b90800000000000000
+      internalID: -7249490305074180246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 140
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1379976b6f89ed460800000000000000
+      internalID: 7268415034013357873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_25
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 140
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4199cf002b00d70800000000000000
+      internalID: 9007394972048626938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_26
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881fdde9184d03950800000000000000
+      internalID: 6426870321438912904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_27
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 140
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f177c6fc7e88ae4c0800000000000000
+      internalID: -4257439968526567649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_28
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 141
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587da707e364358f0800000000000000
+      internalID: -553021095247423611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_29
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 140
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefd8ed6e68e2fff0800000000000000
+      internalID: -3685088685924369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb9b84f4cdd39c90800000000000000
+      internalID: -7164138744230208531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 37
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0610c5fc60503ccc0800000000000000
+      internalID: -3692101742706818720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_32
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba1c3eb98a2f0700800000000000000
+      internalID: 508672054006651580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 53
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48a293706e877b40800000000000000
+      internalID: 5437971619980159053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_34
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 52
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48d8005965868f20800000000000000
+      internalID: 3424571254022658126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 53
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8da9c3f335ad940800000000000000
+      internalID: 5321657440756488362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_36
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 52
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836de7554cc6cfa70800000000000000
+      internalID: 8862077757262059064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_37
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 52
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beec6e70886004ff0800000000000000
+      internalID: -54036014210560277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_38
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 53
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25cf24a2f9324bd0800000000000000
+      internalID: -2647489916640967381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_39
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a3987059c02f1d0800000000000000
+      internalID: -3318576141202539999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 52
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c3cf022a03dab20800000000000000
+      internalID: 3147225187498081392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_41
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 53
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3555b44094321130800000000000000
+      internalID: 3535946451671930171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_42
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 52
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094b85e94886c6260800000000000000
+      internalID: 7092158432003273872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_43
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 52
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31691d0a20b084b0800000000000000
+      internalID: -5440154655208677061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_44
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc128773efbf2d00800000000000000
+      internalID: 950189030081961146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_45
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 52
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d457ca94e162c80f0800000000000000
+      internalID: -1113473096340441779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_46
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 53
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d93805b706687aa0800000000000000
+      internalID: -6163063906768504364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardSpecialist_47
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 52
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac6ec8bb82bfad0800000000000000
+      internalID: -2667493568298956099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardSpecialist_0: 2185690189347976601
+      WizardSpecialist_1: -2662439043823900421
+      WizardSpecialist_10: 1031216547872724949
+      WizardSpecialist_11: 8766866707307631399
+      WizardSpecialist_12: 8261761025636323082
+      WizardSpecialist_13: -7024326415078161282
+      WizardSpecialist_14: 8252543698030223225
+      WizardSpecialist_15: -1470220099923100245
+      WizardSpecialist_16: 681758098271002197
+      WizardSpecialist_17: -2327776024164642980
+      WizardSpecialist_18: -8549649354077953171
+      WizardSpecialist_19: -8045214804253243629
+      WizardSpecialist_2: -3891325012077611231
+      WizardSpecialist_20: 2576185337903113727
+      WizardSpecialist_21: 3892499469090766463
+      WizardSpecialist_22: 2304793883046825074
+      WizardSpecialist_23: -7249490305074180246
+      WizardSpecialist_24: 7268415034013357873
+      WizardSpecialist_25: 9007394972048626938
+      WizardSpecialist_26: 6426870321438912904
+      WizardSpecialist_27: -4257439968526567649
+      WizardSpecialist_28: -553021095247423611
+      WizardSpecialist_29: -3685088685924369
+      WizardSpecialist_3: 4425508860442201675
+      WizardSpecialist_30: -7164138744230208531
+      WizardSpecialist_31: -3692101742706818720
+      WizardSpecialist_32: 508672054006651580
+      WizardSpecialist_33: 5437971619980159053
+      WizardSpecialist_34: 3424571254022658126
+      WizardSpecialist_35: 5321657440756488362
+      WizardSpecialist_36: 8862077757262059064
+      WizardSpecialist_37: -54036014210560277
+      WizardSpecialist_38: -2647489916640967381
+      WizardSpecialist_39: -3318576141202539999
+      WizardSpecialist_4: -6746591298381235138
+      WizardSpecialist_40: 3147225187498081392
+      WizardSpecialist_41: 3535946451671930171
+      WizardSpecialist_42: 7092158432003273872
+      WizardSpecialist_43: -5440154655208677061
+      WizardSpecialist_44: 950189030081961146
+      WizardSpecialist_45: -1113473096340441779
+      WizardSpecialist_46: -6163063906768504364
+      WizardSpecialist_47: -2667493568298956099
+      WizardSpecialist_5: -711016084554892329
+      WizardSpecialist_6: -2152492024376058262
+      WizardSpecialist_7: 8388789615676306988
+      WizardSpecialist_8: -2477726679331112052
+      WizardSpecialist_9: 4836694232145134409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

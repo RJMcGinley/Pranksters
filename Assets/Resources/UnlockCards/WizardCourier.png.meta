@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 61d31fbd449184cd3894705088d08bae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3402758204263437453
+    second: WizardCourier_0
+  - first:
+      213: -8332631607647433012
+    second: WizardCourier_1
+  - first:
+      213: -9207348738014650562
+    second: WizardCourier_2
+  - first:
+      213: 4927377661106604277
+    second: WizardCourier_3
+  - first:
+      213: 9109445600512537390
+    second: WizardCourier_4
+  - first:
+      213: -7458777074432311173
+    second: WizardCourier_5
+  - first:
+      213: 3318983277091952294
+    second: WizardCourier_6
+  - first:
+      213: 4870111100539847243
+    second: WizardCourier_7
+  - first:
+      213: 7068812354599323222
+    second: WizardCourier_8
+  - first:
+      213: -4805896001493179580
+    second: WizardCourier_9
+  - first:
+      213: -385041532106911360
+    second: WizardCourier_10
+  - first:
+      213: -912719964356438226
+    second: WizardCourier_11
+  - first:
+      213: -6563589731703687718
+    second: WizardCourier_12
+  - first:
+      213: 2646698541869920530
+    second: WizardCourier_13
+  - first:
+      213: 5648621797042604459
+    second: WizardCourier_14
+  - first:
+      213: 7711216491988965813
+    second: WizardCourier_15
+  - first:
+      213: -549845620933863738
+    second: WizardCourier_16
+  - first:
+      213: -8746470661922824804
+    second: WizardCourier_17
+  - first:
+      213: 8770141625469337394
+    second: WizardCourier_18
+  - first:
+      213: 77807380653224033
+    second: WizardCourier_19
+  - first:
+      213: -643131682453029752
+    second: WizardCourier_20
+  - first:
+      213: -4946520653604915845
+    second: WizardCourier_21
+  - first:
+      213: -6952726302206902376
+    second: WizardCourier_22
+  - first:
+      213: -5740269582987921049
+    second: WizardCourier_23
+  - first:
+      213: -4285699488989386961
+    second: WizardCourier_24
+  - first:
+      213: -7279557177729057671
+    second: WizardCourier_25
+  - first:
+      213: 5951894719742938423
+    second: WizardCourier_26
+  - first:
+      213: -3957321536857342700
+    second: WizardCourier_27
+  - first:
+      213: -915416508953455647
+    second: WizardCourier_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardCourier_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 794
+        width: 322
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37be45a1179f6c0d0800000000000000
+      internalID: -3402758204263437453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce8bf573bb8c5c80800000000000000
+      internalID: -8332631607647433012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fde7bfa1de83080800000000000000
+      internalID: -9207348738014650562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 877
+        width: 11
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8447c50ef816440800000000000000
+      internalID: 4927377661106604277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 294
+        width: 640
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e237b4f72804b6e70800000000000000
+      internalID: 9109445600512537390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 700
+        width: 23
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7082a3e4c91d7890800000000000000
+      internalID: -7458777074432311173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6178ea4b56f0e20800000000000000
+      internalID: 3318983277091952294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424d543e3c169340800000000000000
+      internalID: 4870111100539847243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65609c36267791260800000000000000
+      internalID: 7068812354599323222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4436783ac070e4db0800000000000000
+      internalID: -4805896001493179580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081defe34ce08aaf0800000000000000
+      internalID: -385041532106911360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e279029370e5553f0800000000000000
+      internalID: -912719964356438226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_12
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad576661ae179e4a0800000000000000
+      internalID: -6563589731703687718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21173bf0d46fab420800000000000000
+      internalID: 2646698541869920530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9c043c89fe36e40800000000000000
+      internalID: 5648621797042604459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9d22f2b8eb30b60800000000000000
+      internalID: 7711216491988965813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6deea225e8e58f0800000000000000
+      internalID: -549845620933863738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dd6b5164b4e9680800000000000000
+      internalID: -8746470661922824804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f77f7975dc5b970800000000000000
+      internalID: 8770141625469337394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_19
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1603db4866d641100800000000000000
+      internalID: 77807380653224033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_20
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c769b64232317f0800000000000000
+      internalID: -643131682453029752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_21
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75febf5cad6a5bb0800000000000000
+      internalID: -4946520653604915845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3178e344f28f90800000000000000
+      internalID: -6952726302206902376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769760f3a377650b0800000000000000
+      internalID: -5740269582987921049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_24
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27e6b875032684c0800000000000000
+      internalID: -4285699488989386961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_25
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c705bc051d9fa90800000000000000
+      internalID: -7279557177729057671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_26
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d0dce86b0699250800000000000000
+      internalID: 5951894719742938423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_27
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d7d9d6705c419c0800000000000000
+      internalID: -3957321536857342700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardCourier_28
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e31d420989cb43f0800000000000000
+      internalID: -915416508953455647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardCourier_0: -3402758204263437453
+      WizardCourier_1: -8332631607647433012
+      WizardCourier_10: -385041532106911360
+      WizardCourier_11: -912719964356438226
+      WizardCourier_12: -6563589731703687718
+      WizardCourier_13: 2646698541869920530
+      WizardCourier_14: 5648621797042604459
+      WizardCourier_15: 7711216491988965813
+      WizardCourier_16: -549845620933863738
+      WizardCourier_17: -8746470661922824804
+      WizardCourier_18: 8770141625469337394
+      WizardCourier_19: 77807380653224033
+      WizardCourier_2: -9207348738014650562
+      WizardCourier_20: -643131682453029752
+      WizardCourier_21: -4946520653604915845
+      WizardCourier_22: -6952726302206902376
+      WizardCourier_23: -5740269582987921049
+      WizardCourier_24: -4285699488989386961
+      WizardCourier_25: -7279557177729057671
+      WizardCourier_26: 5951894719742938423
+      WizardCourier_27: -3957321536857342700
+      WizardCourier_28: -915416508953455647
+      WizardCourier_3: 4927377661106604277
+      WizardCourier_4: 9109445600512537390
+      WizardCourier_5: -7458777074432311173
+      WizardCourier_6: 3318983277091952294
+      WizardCourier_7: 4870111100539847243
+      WizardCourier_8: 7068812354599323222
+      WizardCourier_9: -4805896001493179580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

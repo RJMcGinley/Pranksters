@@ -4526,6 +4526,7 @@ public void ActivateAvailableServiceScoringAction()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4676,6 +4677,7 @@ private IEnumerator ActivateLaborerImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4747,6 +4749,7 @@ private IEnumerator ActivateWizardImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4861,6 +4864,7 @@ private IEnumerator ActivateEngineerImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -4982,6 +4986,7 @@ private IEnumerator ActivateThiefImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -5112,6 +5117,7 @@ private IEnumerator ActivateScribeImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -5326,6 +5332,7 @@ private IEnumerator ActivateBeastmasterImmediateActionSequence()
         });
 
         TrackPlayer1AvailableServiceUse(card);
+        ApplyAvailableServiceCardBonus(card, player);
 
         groupToConsume.assignedCards.RemoveAt(0);
     }
@@ -5456,6 +5463,57 @@ void TrackPlayer1AvailableServiceUse(PranksterDeckEntry card)
               card.pranksterType +
               " | total this game = " +
               player1AvailableServiceUsesThisGame[card.pranksterType]);
+}
+
+void ApplyAvailableServiceCardBonus(PranksterDeckEntry card, Player player)
+{
+    if (card == null || player == null)
+        return;
+
+    if (card.category != PranksterUnlockCategory.AvailableService)
+        return;
+
+    int influenceBonus = 0;
+    int renownBonus = 0;
+
+    if (card.tier == 1)
+    {
+        influenceBonus = 1;
+    }
+    else if (card.tier == 2)
+    {
+        influenceBonus = 1;
+        renownBonus = 1;
+    }
+    else if (card.tier == 3)
+    {
+        influenceBonus = 2;
+        renownBonus = 2;
+    }
+
+    if (influenceBonus > 0)
+    {
+        player.favorPoints += influenceBonus;
+
+        if (turnManager != null && turnManager.currentPlayerIndex == 0)
+        {
+            if (!player1FavorPointsThisGame.ContainsKey(card.pranksterType))
+                player1FavorPointsThisGame[card.pranksterType] = 0;
+
+            player1FavorPointsThisGame[card.pranksterType] += influenceBonus;
+        }
+    }
+
+    if (renownBonus > 0)
+    {
+        player.renownPoints += renownBonus;
+    }
+
+    Debug.Log("AVAILABLE SERVICE CARD BONUS APPLIED | " +
+              card.pranksterType +
+              " | tier=" + card.tier +
+              " | influenceBonus=" + influenceBonus +
+              " | renownBonus=" + renownBonus);
 }
 
 }

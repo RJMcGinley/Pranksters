@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 6203b1774b17c46c5abe49a1071c3961
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8055637697592579426
+    second: ThiefCourier_0
+  - first:
+      213: 638694268594552640
+    second: ThiefCourier_1
+  - first:
+      213: 1340493830692453149
+    second: ThiefCourier_2
+  - first:
+      213: 5008445570029281139
+    second: ThiefCourier_3
+  - first:
+      213: 2245404828725294055
+    second: ThiefCourier_4
+  - first:
+      213: -4044940104819423965
+    second: ThiefCourier_5
+  - first:
+      213: -4234174981322561484
+    second: ThiefCourier_6
+  - first:
+      213: 300117752684220393
+    second: ThiefCourier_7
+  - first:
+      213: 562434194630149891
+    second: ThiefCourier_8
+  - first:
+      213: -6473745451811432807
+    second: ThiefCourier_9
+  - first:
+      213: -3400152849936706291
+    second: ThiefCourier_10
+  - first:
+      213: 2660625207835165465
+    second: ThiefCourier_11
+  - first:
+      213: -5465603474874219048
+    second: ThiefCourier_12
+  - first:
+      213: -4896137273326227151
+    second: ThiefCourier_13
+  - first:
+      213: -6751149117112304150
+    second: ThiefCourier_14
+  - first:
+      213: -3215041520900705888
+    second: ThiefCourier_15
+  - first:
+      213: -1969701787455359301
+    second: ThiefCourier_16
+  - first:
+      213: -1155449319059165751
+    second: ThiefCourier_17
+  - first:
+      213: -4963944290270090359
+    second: ThiefCourier_18
+  - first:
+      213: 8560315747108174881
+    second: ThiefCourier_19
+  - first:
+      213: -7633590021625478985
+    second: ThiefCourier_20
+  - first:
+      213: 7370719154491660896
+    second: ThiefCourier_21
+  - first:
+      213: -6320013982406161712
+    second: ThiefCourier_22
+  - first:
+      213: 1540127211463054860
+    second: ThiefCourier_23
+  - first:
+      213: -3616635915973507270
+    second: ThiefCourier_24
+  - first:
+      213: 4727924042477633772
+    second: ThiefCourier_25
+  - first:
+      213: 8196961905966664216
+    second: ThiefCourier_26
+  - first:
+      213: -4064477123110462389
+    second: ThiefCourier_27
+  - first:
+      213: 5443296910468282911
+    second: ThiefCourier_28
+  - first:
+      213: -8756910971695521112
+    second: ThiefCourier_29
+  - first:
+      213: -4115386915471427348
+    second: ThiefCourier_30
+  - first:
+      213: -1243009730482445846
+    second: ThiefCourier_31
+  - first:
+      213: -7801174610351038314
+    second: ThiefCourier_32
+  - first:
+      213: -2365427754738343702
+    second: ThiefCourier_33
+  - first:
+      213: 3761260479294764983
+    second: ThiefCourier_34
+  - first:
+      213: 4586125044438258196
+    second: ThiefCourier_35
+  - first:
+      213: 3776196488628843723
+    second: ThiefCourier_36
+  - first:
+      213: 6526232286671790194
+    second: ThiefCourier_37
+  - first:
+      213: -2071051636646908241
+    second: ThiefCourier_38
+  - first:
+      213: 6651803261815347803
+    second: ThiefCourier_39
+  - first:
+      213: -6673409792445659012
+    second: ThiefCourier_40
+  - first:
+      213: 3530766838145622179
+    second: ThiefCourier_41
+  - first:
+      213: 887550862731355600
+    second: ThiefCourier_42
+  - first:
+      213: 5869422636418336284
+    second: ThiefCourier_43
+  - first:
+      213: 3605458103382911375
+    second: ThiefCourier_44
+  - first:
+      213: 8424234776106001018
+    second: ThiefCourier_45
+  - first:
+      213: -3479236938007989013
+    second: ThiefCourier_46
+  - first:
+      213: -810743955994552030
+    second: ThiefCourier_47
+  - first:
+      213: -2897105990547509824
+    second: ThiefCourier_48
+  - first:
+      213: -8527392518971825628
+    second: ThiefCourier_49
+  - first:
+      213: 4640603814988384796
+    second: ThiefCourier_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThiefCourier_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 805
+        width: 289
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265504c2ecf5bcf60800000000000000
+      internalID: 8055637697592579426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1063
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ff7a7ad091dd800800000000000000
+      internalID: 638694268594552640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1083
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bb60a69046a9210800000000000000
+      internalID: 1340493830692453149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1077
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f5976c5b2918540800000000000000
+      internalID: 5008445570029281139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 939
+        width: 87
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e33e198bc7492f10800000000000000
+      internalID: 2245404828725294055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1052
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325c18ad76c7dd7c0800000000000000
+      internalID: -4044940104819423965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1059
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4382c61c9403d35c0800000000000000
+      internalID: -4234174981322561484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1056
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef0887818b3a2400800000000000000
+      internalID: 300117752684220393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1051
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307867c8bea2ec700800000000000000
+      internalID: 562434194630149891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1038
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9969a7a9fc2a826a0800000000000000
+      internalID: -6473745451811432807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1037
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d059d7d6ffa30d0d0800000000000000
+      internalID: -3400152849936706291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 932
+        width: 20
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9130779a7807ce420800000000000000
+      internalID: 2660625207835165465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 828
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d54bfcf8964624b0800000000000000
+      internalID: -5465603474874219048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13137db371d6d0cb0800000000000000
+      internalID: -4896137273326227151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 800
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed34d8a5a91f42a0800000000000000
+      internalID: -6751149117112304150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 301
+        width: 535
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1f49055c0e163d0800000000000000
+      internalID: -3215041520900705888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 793
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6754509a63aa4e0800000000000000
+      internalID: -1969701787455359301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 763
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cde28557f407ffe0800000000000000
+      internalID: -1155449319059165751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 800
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b6f95d7f68c1bb0800000000000000
+      internalID: -4963944290270090359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cb09741d95cc670800000000000000
+      internalID: 8560315747108174881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b00c00e15a001690800000000000000
+      internalID: -7633590021625478985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 636
+        width: 41
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a94aee40e0a4660800000000000000
+      internalID: 7370719154491660896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 778
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dacd2394ccca48a0800000000000000
+      internalID: -6320013982406161712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 784
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c061b24f981af5510800000000000000
+      internalID: 1540127211463054860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_24
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 621
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37ca72dbc02fcdc0800000000000000
+      internalID: -3616635915973507270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 619
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce088e4fdd5fc9140800000000000000
+      internalID: 4727924042477633772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a4d829c6571c170800000000000000
+      internalID: 8196961905966664216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c9c4f47931897c0800000000000000
+      internalID: -4064477123110462389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a717343b97a8b40800000000000000
+      internalID: 5443296910468282911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_29
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a22e5a0ed3397680800000000000000
+      internalID: -8756910971695521112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_30
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8f806976533e6c0800000000000000
+      internalID: -4115386915471427348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae16d326c31ffbee0800000000000000
+      internalID: -1243009730482445846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_32
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ea373609acb390800000000000000
+      internalID: -7801174610351038314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_33
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0a8f85dff4c2fd0800000000000000
+      internalID: -2365427754738343702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b774185a7ea23430800000000000000
+      internalID: 3761260479294764983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 78
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412d349fd6035af30800000000000000
+      internalID: 4586125044438258196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4bcc203beb76430800000000000000
+      internalID: 3776196488628843723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_37
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e1c0ffa5d19a50800000000000000
+      internalID: 6526232286671790194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_38
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae6b2662852243e0800000000000000
+      internalID: -2071051636646908241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_39
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ad948e2d3ff4c50800000000000000
+      internalID: 6651803261815347803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78c9a8a6294363a0800000000000000
+      internalID: -6673409792445659012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_41
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a026648bbdcff030800000000000000
+      internalID: 3530766838145622179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_42
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5a135aec6315c00800000000000000
+      internalID: 887550862731355600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_43
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c160a505ac0647150800000000000000
+      internalID: 5869422636418336284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_44
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8921b0ea09290230800000000000000
+      internalID: 3605458103382911375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_45
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a726a4635e4e8e470800000000000000
+      internalID: 8424234776106001018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_46
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4bd9c407447bfc0800000000000000
+      internalID: -3479236938007989013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_47
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2295623eaa8afb4f0800000000000000
+      internalID: -810743955994552030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_48
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd62cc73796bc7d0800000000000000
+      internalID: -2897105990547509824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 63
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4226c5e1fad98a980800000000000000
+      internalID: -8527392518971825628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCourier_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a84bf259cb66040800000000000000
+      internalID: 4640603814988384796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThiefCourier_0: 8055637697592579426
+      ThiefCourier_1: 638694268594552640
+      ThiefCourier_10: -3400152849936706291
+      ThiefCourier_11: 2660625207835165465
+      ThiefCourier_12: -5465603474874219048
+      ThiefCourier_13: -4896137273326227151
+      ThiefCourier_14: -6751149117112304150
+      ThiefCourier_15: -3215041520900705888
+      ThiefCourier_16: -1969701787455359301
+      ThiefCourier_17: -1155449319059165751
+      ThiefCourier_18: -4963944290270090359
+      ThiefCourier_19: 8560315747108174881
+      ThiefCourier_2: 1340493830692453149
+      ThiefCourier_20: -7633590021625478985
+      ThiefCourier_21: 7370719154491660896
+      ThiefCourier_22: -6320013982406161712
+      ThiefCourier_23: 1540127211463054860
+      ThiefCourier_24: -3616635915973507270
+      ThiefCourier_25: 4727924042477633772
+      ThiefCourier_26: 8196961905966664216
+      ThiefCourier_27: -4064477123110462389
+      ThiefCourier_28: 5443296910468282911
+      ThiefCourier_29: -8756910971695521112
+      ThiefCourier_3: 5008445570029281139
+      ThiefCourier_30: -4115386915471427348
+      ThiefCourier_31: -1243009730482445846
+      ThiefCourier_32: -7801174610351038314
+      ThiefCourier_33: -2365427754738343702
+      ThiefCourier_34: 3761260479294764983
+      ThiefCourier_35: 4586125044438258196
+      ThiefCourier_36: 3776196488628843723
+      ThiefCourier_37: 6526232286671790194
+      ThiefCourier_38: -2071051636646908241
+      ThiefCourier_39: 6651803261815347803
+      ThiefCourier_4: 2245404828725294055
+      ThiefCourier_40: -6673409792445659012
+      ThiefCourier_41: 3530766838145622179
+      ThiefCourier_42: 887550862731355600
+      ThiefCourier_43: 5869422636418336284
+      ThiefCourier_44: 3605458103382911375
+      ThiefCourier_45: 8424234776106001018
+      ThiefCourier_46: -3479236938007989013
+      ThiefCourier_47: -810743955994552030
+      ThiefCourier_48: -2897105990547509824
+      ThiefCourier_49: -8527392518971825628
+      ThiefCourier_5: -4044940104819423965
+      ThiefCourier_50: 4640603814988384796
+      ThiefCourier_6: -4234174981322561484
+      ThiefCourier_7: 300117752684220393
+      ThiefCourier_8: 562434194630149891
+      ThiefCourier_9: -6473745451811432807
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

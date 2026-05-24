@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 1aba1b60af1c2416384e5184d998c810
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7489202523061767440
+    second: LaborerCourier_0
+  - first:
+      213: -7657597519699019959
+    second: LaborerCourier_1
+  - first:
+      213: 4014221119023029239
+    second: LaborerCourier_2
+  - first:
+      213: 6751166514259028498
+    second: LaborerCourier_3
+  - first:
+      213: -6386301414656474726
+    second: LaborerCourier_4
+  - first:
+      213: 2171191625141701003
+    second: LaborerCourier_5
+  - first:
+      213: -3338922236538472262
+    second: LaborerCourier_6
+  - first:
+      213: -7025241267870358417
+    second: LaborerCourier_7
+  - first:
+      213: -7588791385515100744
+    second: LaborerCourier_8
+  - first:
+      213: 2008706938372255155
+    second: LaborerCourier_9
+  - first:
+      213: 1928316685836514931
+    second: LaborerCourier_10
+  - first:
+      213: -6427394383804413205
+    second: LaborerCourier_11
+  - first:
+      213: -5857815736972180224
+    second: LaborerCourier_12
+  - first:
+      213: -7204881162699918583
+    second: LaborerCourier_13
+  - first:
+      213: 6452246948491342000
+    second: LaborerCourier_14
+  - first:
+      213: 3170093384377539198
+    second: LaborerCourier_15
+  - first:
+      213: 6186424315427855665
+    second: LaborerCourier_16
+  - first:
+      213: 1364895345810067067
+    second: LaborerCourier_17
+  - first:
+      213: 7256428642239498106
+    second: LaborerCourier_18
+  - first:
+      213: 5915728792962344741
+    second: LaborerCourier_19
+  - first:
+      213: 8729041149870560110
+    second: LaborerCourier_20
+  - first:
+      213: 7367992484675071446
+    second: LaborerCourier_21
+  - first:
+      213: -4425187940048430033
+    second: LaborerCourier_22
+  - first:
+      213: -6502209179589576781
+    second: LaborerCourier_23
+  - first:
+      213: -7377351824146488920
+    second: LaborerCourier_24
+  - first:
+      213: 1411274372578120295
+    second: LaborerCourier_25
+  - first:
+      213: 3363762792035651107
+    second: LaborerCourier_26
+  - first:
+      213: 2532120053908209798
+    second: LaborerCourier_27
+  - first:
+      213: 3777860802786353136
+    second: LaborerCourier_28
+  - first:
+      213: 2631102808780361866
+    second: LaborerCourier_29
+  - first:
+      213: -3381911614556160855
+    second: LaborerCourier_30
+  - first:
+      213: -6918502482522353324
+    second: LaborerCourier_31
+  - first:
+      213: -3404312535474554000
+    second: LaborerCourier_32
+  - first:
+      213: 3260227337843757460
+    second: LaborerCourier_33
+  - first:
+      213: -1019552545053605831
+    second: LaborerCourier_34
+  - first:
+      213: -4577199298642932859
+    second: LaborerCourier_35
+  - first:
+      213: -4498587913992812993
+    second: LaborerCourier_36
+  - first:
+      213: -7982794406034497405
+    second: LaborerCourier_37
+  - first:
+      213: -6493497013921269102
+    second: LaborerCourier_38
+  - first:
+      213: 5402790694801414357
+    second: LaborerCourier_39
+  - first:
+      213: -6342271398040898733
+    second: LaborerCourier_40
+  - first:
+      213: -3703558780107132270
+    second: LaborerCourier_41
+  - first:
+      213: -597229437768989656
+    second: LaborerCourier_42
+  - first:
+      213: 7852975090267630968
+    second: LaborerCourier_43
+  - first:
+      213: -1005679729832503177
+    second: LaborerCourier_44
+  - first:
+      213: -8154105890438337471
+    second: LaborerCourier_45
+  - first:
+      213: -1430896949166352303
+    second: LaborerCourier_46
+  - first:
+      213: -1275380582423752185
+    second: LaborerCourier_47
+  - first:
+      213: -6673372791233934239
+    second: LaborerCourier_48
+  - first:
+      213: 7358138294684259564
+    second: LaborerCourier_49
+  - first:
+      213: 8058198540405069327
+    second: LaborerCourier_50
+  - first:
+      213: 1605950251823169396
+    second: LaborerCourier_51
+  - first:
+      213: -2810266760071539022
+    second: LaborerCourier_52
+  - first:
+      213: 6772482376968357797
+    second: LaborerCourier_53
+  - first:
+      213: -2393158179980435372
+    second: LaborerCourier_54
+  - first:
+      213: -8809245465317453864
+    second: LaborerCourier_55
+  - first:
+      213: 4071988230276846643
+    second: LaborerCourier_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerCourier_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1056
+        width: 219
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2b1f91cf1011890800000000000000
+      internalID: -7489202523061767440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9477d65a0afbab590800000000000000
+      internalID: -7657597519699019959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1074
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb1d39e6d065b730800000000000000
+      internalID: 4014221119023029239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21aebedec26f0bd50800000000000000
+      internalID: 6751166514259028498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 964
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9183de03bc4f57a0800000000000000
+      internalID: -6386301414656474726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 837
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89cfd3974f912e10800000000000000
+      internalID: 2171191625141701003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1062
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8b87e8ae3c9a1d0800000000000000
+      internalID: -3338922236538472262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f642c27c944518e90800000000000000
+      internalID: -7025241267870358417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1009
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5f3d721723fa690800000000000000
+      internalID: -7588791385515100744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1057
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd6a8f515c50eb10800000000000000
+      internalID: 2008706938372255155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 992
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3767eb12fc1c2ca10800000000000000
+      internalID: 1928316685836514931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1037
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4ff99cde4dc6a0800000000000000
+      internalID: -6427394383804413205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1014
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005841e8f9bd4bea0800000000000000
+      internalID: -5857815736972180224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1026
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9033e5071ce130c90800000000000000
+      internalID: -7204881162699918583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1005
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0bce70a6cfa8950800000000000000
+      internalID: 6452246948491342000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 995
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a93a0232f6efb20800000000000000
+      internalID: 3170093384377539198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 983
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d9ae643289ad550800000000000000
+      internalID: 6186424315427855665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ec792e51511f210800000000000000
+      internalID: 1364895345810067067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77c7a6676304b460800000000000000
+      internalID: 7256428642239498106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 856
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527221c8ef3e81250800000000000000
+      internalID: 5915728792962344741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e635dc76da8c32970800000000000000
+      internalID: 8729041149870560110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 922
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd2ec4a02e504660800000000000000
+      internalID: 7367992484675071446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 819
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c1211a3039692c0800000000000000
+      internalID: -4425187940048430033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 297
+        width: 539
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7774b833383c5a0800000000000000
+      internalID: -6502209179589576781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 789
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a12ba25a916e9990800000000000000
+      internalID: -7377351824146488920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 793
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762912a809ad59310800000000000000
+      internalID: 1411274372578120295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 714
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e06f7ff6c7eae20800000000000000
+      internalID: 3363762792035651107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 747
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68087d5f5c5e32320800000000000000
+      internalID: 2532120053908209798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 765
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffd3f85268ad6430800000000000000
+      internalID: 3777860802786353136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 738
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80d2ec701e838420800000000000000
+      internalID: 2631102808780361866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 705
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acbc900e490111d0800000000000000
+      internalID: -3381911614556160855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451d89fd5aa8cff90800000000000000
+      internalID: -6918502482522353324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b31aa29c371c0d0800000000000000
+      internalID: -3404312535474554000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 702
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491d1378d77ae3d20800000000000000
+      internalID: 3260227337843757460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9300c32bc52d9d1f0800000000000000
+      internalID: -1019552545053605831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_35
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b883a2d758a70c0800000000000000
+      internalID: -4577199298642932859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c793702ec191c0800000000000000
+      internalID: -4498587913992812993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380a65948ca673190800000000000000
+      internalID: -7982794406034497405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ab92faed672e5a0800000000000000
+      internalID: -6493497013921269102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_39
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d89c6ff2819afa40800000000000000
+      internalID: 5402790694801414357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_40
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353f6aa24c9bbf7a0800000000000000
+      internalID: -6342271398040898733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_41
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2927fea69e05a9cc0800000000000000
+      internalID: -3703558780107132270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8248f589df636b7f0800000000000000
+      internalID: -597229437768989656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87da46ddc3f5bfc60800000000000000
+      internalID: 7852975090267630968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778d5813d9b1b02f0800000000000000
+      internalID: -1005679729832503177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ca08b15ebc6de80800000000000000
+      internalID: -8154105890438337471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158dfb25ece642ce0800000000000000
+      internalID: -1430896949166352303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_47
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70293371e10fc4ee0800000000000000
+      internalID: -1275380582423752185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_48
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c8ebcadca6363a0800000000000000
+      internalID: -6673372791233934239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_49
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce49ade3bcb5d1660800000000000000
+      internalID: 7358138294684259564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_50
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f065a6ad0e874df60800000000000000
+      internalID: 8058198540405069327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_51
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f7edece3b794610800000000000000
+      internalID: 1605950251823169396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_52
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b619d9654deff8d0800000000000000
+      internalID: -2810266760071539022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_53
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7cac6f6d0bcfd50800000000000000
+      internalID: 6772482376968357797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_54
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45022f6905bc9ced0800000000000000
+      internalID: -2393158179980435372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_55
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df48843ce54fb580800000000000000
+      internalID: -8809245465317453864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCourier_56
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334193b98bb928830800000000000000
+      internalID: 4071988230276846643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerCourier_0: -7489202523061767440
+      LaborerCourier_1: -7657597519699019959
+      LaborerCourier_10: 1928316685836514931
+      LaborerCourier_11: -6427394383804413205
+      LaborerCourier_12: -5857815736972180224
+      LaborerCourier_13: -7204881162699918583
+      LaborerCourier_14: 6452246948491342000
+      LaborerCourier_15: 3170093384377539198
+      LaborerCourier_16: 6186424315427855665
+      LaborerCourier_17: 1364895345810067067
+      LaborerCourier_18: 7256428642239498106
+      LaborerCourier_19: 5915728792962344741
+      LaborerCourier_2: 4014221119023029239
+      LaborerCourier_20: 8729041149870560110
+      LaborerCourier_21: 7367992484675071446
+      LaborerCourier_22: -4425187940048430033
+      LaborerCourier_23: -6502209179589576781
+      LaborerCourier_24: -7377351824146488920
+      LaborerCourier_25: 1411274372578120295
+      LaborerCourier_26: 3363762792035651107
+      LaborerCourier_27: 2532120053908209798
+      LaborerCourier_28: 3777860802786353136
+      LaborerCourier_29: 2631102808780361866
+      LaborerCourier_3: 6751166514259028498
+      LaborerCourier_30: -3381911614556160855
+      LaborerCourier_31: -6918502482522353324
+      LaborerCourier_32: -3404312535474554000
+      LaborerCourier_33: 3260227337843757460
+      LaborerCourier_34: -1019552545053605831
+      LaborerCourier_35: -4577199298642932859
+      LaborerCourier_36: -4498587913992812993
+      LaborerCourier_37: -7982794406034497405
+      LaborerCourier_38: -6493497013921269102
+      LaborerCourier_39: 5402790694801414357
+      LaborerCourier_4: -6386301414656474726
+      LaborerCourier_40: -6342271398040898733
+      LaborerCourier_41: -3703558780107132270
+      LaborerCourier_42: -597229437768989656
+      LaborerCourier_43: 7852975090267630968
+      LaborerCourier_44: -1005679729832503177
+      LaborerCourier_45: -8154105890438337471
+      LaborerCourier_46: -1430896949166352303
+      LaborerCourier_47: -1275380582423752185
+      LaborerCourier_48: -6673372791233934239
+      LaborerCourier_49: 7358138294684259564
+      LaborerCourier_5: 2171191625141701003
+      LaborerCourier_50: 8058198540405069327
+      LaborerCourier_51: 1605950251823169396
+      LaborerCourier_52: -2810266760071539022
+      LaborerCourier_53: 6772482376968357797
+      LaborerCourier_54: -2393158179980435372
+      LaborerCourier_55: -8809245465317453864
+      LaborerCourier_56: 4071988230276846643
+      LaborerCourier_6: -3338922236538472262
+      LaborerCourier_7: -7025241267870358417
+      LaborerCourier_8: -7588791385515100744
+      LaborerCourier_9: 2008706938372255155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

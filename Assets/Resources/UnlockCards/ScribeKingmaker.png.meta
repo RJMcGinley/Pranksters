@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 7ec68cf3164c84102a13d871d1590e0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5889739281000219617
+    second: ScribeKingmaker_0
+  - first:
+      213: 2999719836932542695
+    second: ScribeKingmaker_1
+  - first:
+      213: 1559855307222740931
+    second: ScribeKingmaker_2
+  - first:
+      213: -7701023142679551321
+    second: ScribeKingmaker_3
+  - first:
+      213: 522281507516556045
+    second: ScribeKingmaker_4
+  - first:
+      213: 9069805602671441233
+    second: ScribeKingmaker_5
+  - first:
+      213: 1947921328191006886
+    second: ScribeKingmaker_6
+  - first:
+      213: 1216075395287005424
+    second: ScribeKingmaker_7
+  - first:
+      213: 7135951983677811998
+    second: ScribeKingmaker_8
+  - first:
+      213: -7242965955127259784
+    second: ScribeKingmaker_9
+  - first:
+      213: 5848342969301662454
+    second: ScribeKingmaker_10
+  - first:
+      213: -3885741122450181593
+    second: ScribeKingmaker_11
+  - first:
+      213: 6672845888025124732
+    second: ScribeKingmaker_12
+  - first:
+      213: -3760247988313780281
+    second: ScribeKingmaker_13
+  - first:
+      213: -2199483630644937856
+    second: ScribeKingmaker_14
+  - first:
+      213: 8006818252346042370
+    second: ScribeKingmaker_15
+  - first:
+      213: 4563305483495649484
+    second: ScribeKingmaker_16
+  - first:
+      213: -4705589789729146958
+    second: ScribeKingmaker_17
+  - first:
+      213: 3020625964009273011
+    second: ScribeKingmaker_18
+  - first:
+      213: 1103463050467272004
+    second: ScribeKingmaker_19
+  - first:
+      213: 4020098330393408472
+    second: ScribeKingmaker_20
+  - first:
+      213: 8893973117377310509
+    second: ScribeKingmaker_21
+  - first:
+      213: 3612263472439855063
+    second: ScribeKingmaker_22
+  - first:
+      213: -3503808799537928303
+    second: ScribeKingmaker_23
+  - first:
+      213: 6560098535408072862
+    second: ScribeKingmaker_24
+  - first:
+      213: 6198656245345221285
+    second: ScribeKingmaker_25
+  - first:
+      213: -1129175474107203103
+    second: ScribeKingmaker_26
+  - first:
+      213: 6476299977384769828
+    second: ScribeKingmaker_27
+  - first:
+      213: 4168588026976499009
+    second: ScribeKingmaker_28
+  - first:
+      213: 6929959231445306823
+    second: ScribeKingmaker_29
+  - first:
+      213: -6194975746918488696
+    second: ScribeKingmaker_30
+  - first:
+      213: 2199485418026793367
+    second: ScribeKingmaker_31
+  - first:
+      213: 930851715123865753
+    second: ScribeKingmaker_32
+  - first:
+      213: 3080306094141862782
+    second: ScribeKingmaker_33
+  - first:
+      213: 5952065607124394991
+    second: ScribeKingmaker_34
+  - first:
+      213: 5614968609320562643
+    second: ScribeKingmaker_35
+  - first:
+      213: -8412992520646211477
+    second: ScribeKingmaker_36
+  - first:
+      213: 6887342828175648393
+    second: ScribeKingmaker_37
+  - first:
+      213: 7879892080162034127
+    second: ScribeKingmaker_38
+  - first:
+      213: -4761448057439293615
+    second: ScribeKingmaker_39
+  - first:
+      213: -3974495129770949659
+    second: ScribeKingmaker_40
+  - first:
+      213: -7590824542432680494
+    second: ScribeKingmaker_41
+  - first:
+      213: 7689434937224322748
+    second: ScribeKingmaker_42
+  - first:
+      213: -5056474518269661199
+    second: ScribeKingmaker_43
+  - first:
+      213: -2675090647464551035
+    second: ScribeKingmaker_44
+  - first:
+      213: -5125627221229108871
+    second: ScribeKingmaker_45
+  - first:
+      213: -607723537437925239
+    second: ScribeKingmaker_46
+  - first:
+      213: 6414682508956868964
+    second: ScribeKingmaker_47
+  - first:
+      213: -2269716300350649356
+    second: ScribeKingmaker_48
+  - first:
+      213: -4388705968816241676
+    second: ScribeKingmaker_49
+  - first:
+      213: 95465741560186689
+    second: ScribeKingmaker_50
+  - first:
+      213: 6173749986914606317
+    second: ScribeKingmaker_51
+  - first:
+      213: 9000879385324943221
+    second: ScribeKingmaker_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeKingmaker_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 666
+        width: 312
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c31504451734ea0800000000000000
+      internalID: -5889739281000219617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1024
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e09e0a6c4521a920800000000000000
+      internalID: 2999719836932542695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1034
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfe4003328b5a510800000000000000
+      internalID: 1559855307222740931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1003
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e585e048702590800000000000000
+      internalID: -7701023142679551321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 309
+        width: 481
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03a74093448f3700800000000000000
+      internalID: 522281507516556045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1011
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1553419442c6edd70800000000000000
+      internalID: 9069805602671441233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 909
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a86b31a028680b10800000000000000
+      internalID: 1947921328191006886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 889
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8bc24012e50e010800000000000000
+      internalID: 1216075395287005424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 869
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d2c51758ef70360800000000000000
+      internalID: 7135951983677811998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 864
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d4464b6d0db7b90800000000000000
+      internalID: -7242965955127259784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 816
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf0e9d1fc792150800000000000000
+      internalID: 5848342969301662454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 813
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722ba336903131ac0800000000000000
+      internalID: -3885741122450181593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 809
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fd9ac1bf5ba9c50800000000000000
+      internalID: 6672845888025124732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 779
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf0e25906ae0dbc0800000000000000
+      internalID: -3760247988313780281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 803
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b3f129a4dd971e0800000000000000
+      internalID: -2199483630644937856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 796
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208233057ceed1f60800000000000000
+      internalID: 8006818252346042370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 771
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0b959e82e145f30800000000000000
+      internalID: 4563305483495649484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 723
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b73d7c740362beb0800000000000000
+      internalID: -4705589789729146958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 663
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b638107f4b6be920800000000000000
+      internalID: 3020625964009273011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 697
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445eed94cc9405f00800000000000000
+      internalID: 1103463050467272004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 692
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d37d31d1224ac730800000000000000
+      internalID: 4020098330393408472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fe52f8d6dbd6b70800000000000000
+      internalID: 8893973117377310509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 660
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d785e55d76512230800000000000000
+      internalID: 3612263472439855063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 475
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19767a6f578ff5fc0800000000000000
+      internalID: -3503808799537928303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 472
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98fe8e6cd62a0b50800000000000000
+      internalID: 6560098535408072862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 470
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aafe84630d060650800000000000000
+      internalID: 6198656245345221285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c1c093ec5450f0800000000000000
+      internalID: -1129175474107203103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 396
+        width: 157
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429b3ea348070e950800000000000000
+      internalID: 6476299977384769828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 186
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14571e279bcc9d930800000000000000
+      internalID: 4168588026976499009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 248
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd8c3a54392c2060800000000000000
+      internalID: 6929959231445306823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_30
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 185
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88563cc6166070aa0800000000000000
+      internalID: -6194975746918488696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 186
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79973269554268e10800000000000000
+      internalID: 2199485418026793367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_32
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 185
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998658af3bc0bec00800000000000000
+      internalID: 930851715123865753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_33
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 158
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73fbcc82127fba20800000000000000
+      internalID: 3080306094141862782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 185
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe32870622cf99250800000000000000
+      internalID: 5952065607124394991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 184
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df658763306ced40800000000000000
+      internalID: 5614968609320562643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_36
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 184
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b684ddc50eb0f3b80800000000000000
+      internalID: -8412992520646211477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_37
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 185
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9866ebfbfc1c49f50800000000000000
+      internalID: 6887342828175648393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_38
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d872f8100b5d60800000000000000
+      internalID: 7879892080162034127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 86
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f6bdf0830fbedb0800000000000000
+      internalID: -4761448057439293615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e38b7cbcb1c7d8c0800000000000000
+      internalID: -3974495129770949659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_41
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5abfbeb49f7a690800000000000000
+      internalID: -7590824542432680494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbedbb4c55c56ba60800000000000000
+      internalID: 7689434937224322748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_43
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe8ba473bc3d9b0800000000000000
+      internalID: -5056474518269661199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dd7e7ba3b20ead0800000000000000
+      internalID: -2675090647464551035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_45
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9710193f23d1ed8b0800000000000000
+      internalID: -5125627221229108871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_46
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9806e5d99aee097f0800000000000000
+      internalID: -607723537437925239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_47
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461294561c7850950800000000000000
+      internalID: 6414682508956868964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_48
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb8fa0ec095080e0800000000000000
+      internalID: -2269716300350649356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_49
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f342197c2f2813c0800000000000000
+      internalID: -4388705968816241676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_50
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1470aed0699235100800000000000000
+      internalID: 95465741560186689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_51
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1e1637e09da550800000000000000
+      internalID: 6173749986914606317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeKingmaker_52
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577fd6cbc1c89ec70800000000000000
+      internalID: 9000879385324943221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeKingmaker_0: -5889739281000219617
+      ScribeKingmaker_1: 2999719836932542695
+      ScribeKingmaker_10: 5848342969301662454
+      ScribeKingmaker_11: -3885741122450181593
+      ScribeKingmaker_12: 6672845888025124732
+      ScribeKingmaker_13: -3760247988313780281
+      ScribeKingmaker_14: -2199483630644937856
+      ScribeKingmaker_15: 8006818252346042370
+      ScribeKingmaker_16: 4563305483495649484
+      ScribeKingmaker_17: -4705589789729146958
+      ScribeKingmaker_18: 3020625964009273011
+      ScribeKingmaker_19: 1103463050467272004
+      ScribeKingmaker_2: 1559855307222740931
+      ScribeKingmaker_20: 4020098330393408472
+      ScribeKingmaker_21: 8893973117377310509
+      ScribeKingmaker_22: 3612263472439855063
+      ScribeKingmaker_23: -3503808799537928303
+      ScribeKingmaker_24: 6560098535408072862
+      ScribeKingmaker_25: 6198656245345221285
+      ScribeKingmaker_26: -1129175474107203103
+      ScribeKingmaker_27: 6476299977384769828
+      ScribeKingmaker_28: 4168588026976499009
+      ScribeKingmaker_29: 6929959231445306823
+      ScribeKingmaker_3: -7701023142679551321
+      ScribeKingmaker_30: -6194975746918488696
+      ScribeKingmaker_31: 2199485418026793367
+      ScribeKingmaker_32: 930851715123865753
+      ScribeKingmaker_33: 3080306094141862782
+      ScribeKingmaker_34: 5952065607124394991
+      ScribeKingmaker_35: 5614968609320562643
+      ScribeKingmaker_36: -8412992520646211477
+      ScribeKingmaker_37: 6887342828175648393
+      ScribeKingmaker_38: 7879892080162034127
+      ScribeKingmaker_39: -4761448057439293615
+      ScribeKingmaker_4: 522281507516556045
+      ScribeKingmaker_40: -3974495129770949659
+      ScribeKingmaker_41: -7590824542432680494
+      ScribeKingmaker_42: 7689434937224322748
+      ScribeKingmaker_43: -5056474518269661199
+      ScribeKingmaker_44: -2675090647464551035
+      ScribeKingmaker_45: -5125627221229108871
+      ScribeKingmaker_46: -607723537437925239
+      ScribeKingmaker_47: 6414682508956868964
+      ScribeKingmaker_48: -2269716300350649356
+      ScribeKingmaker_49: -4388705968816241676
+      ScribeKingmaker_5: 9069805602671441233
+      ScribeKingmaker_50: 95465741560186689
+      ScribeKingmaker_51: 6173749986914606317
+      ScribeKingmaker_52: 9000879385324943221
+      ScribeKingmaker_6: 1947921328191006886
+      ScribeKingmaker_7: 1216075395287005424
+      ScribeKingmaker_8: 7135951983677811998
+      ScribeKingmaker_9: -7242965955127259784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

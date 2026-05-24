@@ -98,6 +98,69 @@ TextureImporter:
   - first:
       213: 662059680107066190
     second: LaborerCrewleader_31
+  - first:
+      213: -6746949399506047837
+    second: LaborerCrewleader_32
+  - first:
+      213: -3569819558068622925
+    second: LaborerCrewleader_33
+  - first:
+      213: -8219771292470880765
+    second: LaborerCrewleader_34
+  - first:
+      213: 1065825006933794398
+    second: LaborerCrewleader_35
+  - first:
+      213: 5460947496549612496
+    second: LaborerCrewleader_36
+  - first:
+      213: -4613646543176661882
+    second: LaborerCrewleader_37
+  - first:
+      213: -2542850597685315917
+    second: LaborerCrewleader_38
+  - first:
+      213: -3059563628225511781
+    second: LaborerCrewleader_39
+  - first:
+      213: 2112247182074756321
+    second: LaborerCrewleader_40
+  - first:
+      213: -3443186325969289424
+    second: LaborerCrewleader_41
+  - first:
+      213: 137547261465168904
+    second: LaborerCrewleader_42
+  - first:
+      213: -542824750738612391
+    second: LaborerCrewleader_43
+  - first:
+      213: 4757186281056122452
+    second: LaborerCrewleader_44
+  - first:
+      213: -3630918446572098350
+    second: LaborerCrewleader_45
+  - first:
+      213: 8191984519420640565
+    second: LaborerCrewleader_46
+  - first:
+      213: 3396193310834710501
+    second: LaborerCrewleader_47
+  - first:
+      213: -3517599996215632391
+    second: LaborerCrewleader_48
+  - first:
+      213: 2287819397593401188
+    second: LaborerCrewleader_49
+  - first:
+      213: -5622509242564452095
+    second: LaborerCrewleader_50
+  - first:
+      213: 18013838593146466
+    second: LaborerCrewleader_51
+  - first:
+      213: 7879592789024483770
+    second: LaborerCrewleader_52
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -222,10 +285,10 @@ TextureImporter:
       name: LaborerCrewleader_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1098
-        width: 7
-        height: 16
+        x: 53
+        y: 1056
+        width: 219
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +307,10 @@ TextureImporter:
       name: LaborerCrewleader_1
       rect:
         serializedVersion: 2
-        x: 308
-        y: 1078
+        x: 305
+        y: 1098
         width: 7
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +329,10 @@ TextureImporter:
       name: LaborerCrewleader_2
       rect:
         serializedVersion: 2
-        x: 362
-        y: 1072
-        width: 6
-        height: 6
+        x: 399
+        y: 1074
+        width: 13
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +351,10 @@ TextureImporter:
       name: LaborerCrewleader_3
       rect:
         serializedVersion: 2
-        x: 11
-        y: 307
-        width: 700
-        height: 761
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +373,10 @@ TextureImporter:
       name: LaborerCrewleader_4
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1067
-        width: 6
-        height: 9
+        x: 11
+        y: 964
+        width: 63
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +395,10 @@ TextureImporter:
       name: LaborerCrewleader_5
       rect:
         serializedVersion: 2
-        x: 363
-        y: 1065
-        width: 6
-        height: 7
+        x: 54
+        y: 837
+        width: 231
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +417,10 @@ TextureImporter:
       name: LaborerCrewleader_6
       rect:
         serializedVersion: 2
-        x: 14
-        y: 943
-        width: 6
-        height: 8
+        x: 80
+        y: 1062
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +439,10 @@ TextureImporter:
       name: LaborerCrewleader_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 922
+        x: 310
+        y: 1067
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +461,10 @@ TextureImporter:
       name: LaborerCrewleader_8
       rect:
         serializedVersion: 2
-        x: 20
-        y: 902
-        width: 6
-        height: 8
+        x: 281
+        y: 1009
+        width: 32
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,8 +483,8 @@ TextureImporter:
       name: LaborerCrewleader_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 871
+        x: 312
+        y: 1057
         width: 6
         height: 8
       alignment: 0
@@ -442,10 +505,10 @@ TextureImporter:
       name: LaborerCrewleader_10
       rect:
         serializedVersion: 2
-        x: 27
-        y: 850
-        width: 6
-        height: 8
+        x: 375
+        y: 992
+        width: 37
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +527,10 @@ TextureImporter:
       name: LaborerCrewleader_11
       rect:
         serializedVersion: 2
-        x: 34
-        y: 799
-        width: 6
-        height: 8
+        x: 313
+        y: 1037
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +549,10 @@ TextureImporter:
       name: LaborerCrewleader_12
       rect:
         serializedVersion: 2
-        x: 37
-        y: 778
-        width: 6
-        height: 7
+        x: 361
+        y: 1014
+        width: 16
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +571,10 @@ TextureImporter:
       name: LaborerCrewleader_13
       rect:
         serializedVersion: 2
-        x: 44
-        y: 726
-        width: 6
-        height: 8
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +593,10 @@ TextureImporter:
       name: LaborerCrewleader_14
       rect:
         serializedVersion: 2
-        x: 148
-        y: 213
-        width: 62
-        height: 66
+        x: 316
+        y: 1026
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +615,10 @@ TextureImporter:
       name: LaborerCrewleader_15
       rect:
         serializedVersion: 2
-        x: 215
-        y: 215
-        width: 44
-        height: 41
+        x: 318
+        y: 1005
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +637,10 @@ TextureImporter:
       name: LaborerCrewleader_16
       rect:
         serializedVersion: 2
-        x: 259
-        y: 213
-        width: 44
-        height: 43
+        x: 320
+        y: 995
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +659,10 @@ TextureImporter:
       name: LaborerCrewleader_17
       rect:
         serializedVersion: 2
-        x: 303
-        y: 214
-        width: 76
-        height: 40
+        x: 405
+        y: 983
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +681,10 @@ TextureImporter:
       name: LaborerCrewleader_18
       rect:
         serializedVersion: 2
-        x: 400
-        y: 215
-        width: 59
-        height: 64
+        x: 322
+        y: 985
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +703,10 @@ TextureImporter:
       name: LaborerCrewleader_19
       rect:
         serializedVersion: 2
-        x: 461
-        y: 213
-        width: 43
-        height: 43
+        x: 323
+        y: 975
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +725,10 @@ TextureImporter:
       name: LaborerCrewleader_20
       rect:
         serializedVersion: 2
-        x: 509
-        y: 214
-        width: 50
-        height: 42
+        x: 13
+        y: 856
+        width: 65
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,10 +747,10 @@ TextureImporter:
       name: LaborerCrewleader_21
       rect:
         serializedVersion: 2
-        x: 561
-        y: 214
-        width: 54
-        height: 66
+        x: 14
+        y: 943
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +769,10 @@ TextureImporter:
       name: LaborerCrewleader_22
       rect:
         serializedVersion: 2
-        x: 617
-        y: 213
-        width: 44
-        height: 43
+        x: 319
+        y: 922
+        width: 16
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +791,10 @@ TextureImporter:
       name: LaborerCrewleader_23
       rect:
         serializedVersion: 2
-        x: 663
-        y: 215
-        width: 44
-        height: 41
+        x: 27
+        y: 819
+        width: 10
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +813,10 @@ TextureImporter:
       name: LaborerCrewleader_24
       rect:
         serializedVersion: 2
-        x: 122
-        y: 96
-        width: 58
-        height: 57
+        x: 160
+        y: 297
+        width: 539
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +835,10 @@ TextureImporter:
       name: LaborerCrewleader_25
       rect:
         serializedVersion: 2
-        x: 192
-        y: 90
-        width: 37
-        height: 71
+        x: 33
+        y: 789
+        width: 8
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,10 +857,10 @@ TextureImporter:
       name: LaborerCrewleader_26
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 111
+        y: 793
+        width: 16
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,10 +879,10 @@ TextureImporter:
       name: LaborerCrewleader_27
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 131
+        y: 714
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,10 +901,10 @@ TextureImporter:
       name: LaborerCrewleader_28
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 37
+        y: 747
+        width: 10
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,10 +923,10 @@ TextureImporter:
       name: LaborerCrewleader_29
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 103
+        y: 765
+        width: 11
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +945,10 @@ TextureImporter:
       name: LaborerCrewleader_30
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 112
+        y: 738
+        width: 10
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -904,6 +967,468 @@ TextureImporter:
       name: LaborerCrewleader_31
       rect:
         serializedVersion: 2
+        x: 43
+        y: 705
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43f3e475cb103900800000000000000
+      internalID: 662059680107066190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac28ec94450e52a0800000000000000
+      internalID: -6746949399506047837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9e3119604757ec0800000000000000
+      internalID: -3569819558068622925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 702
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306d1594f818ded80800000000000000
+      internalID: -8219771292470880765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e540362329ace00800000000000000
+      internalID: 1065825006933794398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbf5e490de29cb40800000000000000
+      internalID: 5460947496549612496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6840fb2c9e809ffb0800000000000000
+      internalID: -4613646543176661882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6b310aadaf5bcd0800000000000000
+      internalID: -2542850597685315917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eb9e3271f3a85d0800000000000000
+      internalID: -3059563628225511781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_40
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecb265fe95305d10800000000000000
+      internalID: 2112247182074756321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_41
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f3e1187485730d0800000000000000
+      internalID: -3443186325969289424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_42
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c857b618aa8e100800000000000000
+      internalID: 137547261465168904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_43
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f5fe4e3cf7778f0800000000000000
+      internalID: -542824750738612391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_44
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45636bcc7bbe40240800000000000000
+      internalID: 4757186281056122452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_45
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc28a709e26c9dc0800000000000000
+      internalID: -3630918446572098350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53df0957486cfa170800000000000000
+      internalID: 8191984519420640565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_47
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e75cd882d3b12f20800000000000000
+      internalID: 3396193310834710501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_48
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdd6a3c079fe2fc0800000000000000
+      internalID: -3517599996215632391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4678dc7ee97ffbf10800000000000000
+      internalID: 2287819397593401188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101689a12a5d8f1b0800000000000000
+      internalID: -5622509242564452095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_51
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eb262ad7fff3000800000000000000
+      internalID: 18013838593146466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerCrewleader_52
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -916,8 +1441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e43f3e475cb103900800000000000000
-      internalID: 662059680107066190
+      spriteID: ab9a88cc4efe95d60800000000000000
+      internalID: 7879592789024483770
       vertices: []
       indices: 
       edges: []
@@ -962,8 +1487,29 @@ TextureImporter:
       LaborerCrewleader_3: -776728243786136475
       LaborerCrewleader_30: -5101122549931339375
       LaborerCrewleader_31: 662059680107066190
+      LaborerCrewleader_32: -6746949399506047837
+      LaborerCrewleader_33: -3569819558068622925
+      LaborerCrewleader_34: -8219771292470880765
+      LaborerCrewleader_35: 1065825006933794398
+      LaborerCrewleader_36: 5460947496549612496
+      LaborerCrewleader_37: -4613646543176661882
+      LaborerCrewleader_38: -2542850597685315917
+      LaborerCrewleader_39: -3059563628225511781
       LaborerCrewleader_4: -8657349429757454405
+      LaborerCrewleader_40: 2112247182074756321
+      LaborerCrewleader_41: -3443186325969289424
+      LaborerCrewleader_42: 137547261465168904
+      LaborerCrewleader_43: -542824750738612391
+      LaborerCrewleader_44: 4757186281056122452
+      LaborerCrewleader_45: -3630918446572098350
+      LaborerCrewleader_46: 8191984519420640565
+      LaborerCrewleader_47: 3396193310834710501
+      LaborerCrewleader_48: -3517599996215632391
+      LaborerCrewleader_49: 2287819397593401188
       LaborerCrewleader_5: -9221429340179698784
+      LaborerCrewleader_50: -5622509242564452095
+      LaborerCrewleader_51: 18013838593146466
+      LaborerCrewleader_52: 7879592789024483770
       LaborerCrewleader_6: 2620139198351218903
       LaborerCrewleader_7: 695172088397030577
       LaborerCrewleader_8: 6552682888475401667

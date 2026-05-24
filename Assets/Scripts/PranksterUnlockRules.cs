@@ -15,9 +15,9 @@ public static class PranksterUnlockRules
     {
         switch (tier)
         {
-            case 1: return 1; // Assistant
-            case 2: return 3; // Strategist
-            case 3: return 5; // Advisor
+            case 1: return 1; // Courier
+            case 2: return 2; // Operative
+            case 3: return 4; // Kingmaker
             default: return 0; // Base
         }
     }
@@ -44,7 +44,7 @@ public static class PranksterUnlockRules
         {
             case 1: return 1; // Hustler
             case 2: return 1; // Opportunist
-            case 3: return 2; // Manipulator
+            case 3: return 2; // Specialist
             default: return 0;
         }
     }
@@ -55,7 +55,7 @@ public static class PranksterUnlockRules
         {
             case 1: return 0; // Hustler
             case 2: return 1; // Opportunist
-            case 3: return 2; // Manipulator
+            case 3: return 2; // Specialist
             default: return 0;
         }
     }

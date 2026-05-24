@@ -17,9 +17,9 @@ public static class UnlockDisplayLibrary
     {
         switch (tier)
         {
-            case 1: return "+1 Prank points when used to complete a prank";
-            case 2: return "+3 Prank points when used to complete a prank";
-            case 3: return "+5 Prank points when used to complete a prank";
+            case 1: return "+1 Mischief when used to complete a prank";
+            case 2: return "+3 Mischief when used to complete a prank";
+            case 3: return "+5 Mischief when used to complete a prank";
             default: return "";
         }
     }

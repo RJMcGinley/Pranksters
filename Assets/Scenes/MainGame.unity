@@ -20190,8 +20190,8 @@ MonoBehaviour:
   - {fileID: 1537380505}
   - {fileID: 1694332649}
   descriptionText: {fileID: 2003927749}
-  actionDescription: "Requires 2 recruits.\nChoose an opponent. Gather all their
-    \nreferred recruits into you crew."
+  actionDescription: "Requires 2 recruits.\nChoose an opponent. Entice all \noutsourced
+    recruits to join your crew."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1973029859}
   retainServicesGlow: {fileID: 41399029}
@@ -20710,10 +20710,10 @@ MonoBehaviour:
   descriptionText: {fileID: 816616516}
   actionDescription: 'Requires 2 recruits.
 
-    Choose a prank.
+    Choose a scheme.
 
-    Replace it with
-    a new one.'
+    Replace it
+    with a new one.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 878414182}
   retainServicesGlow: {fileID: 1423994106}
@@ -21766,8 +21766,8 @@ MonoBehaviour:
   - {fileID: 1109742219}
   - {fileID: 360016739}
   descriptionText: {fileID: 816616516}
-  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
-    pranks\n is worth +2 Notoriety at the end of the game."
+  actionDescription: "Requires 3 recruits.\nEach red icon on your completed pranks\n
+    is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 878414182}
   retainServicesGlow: {fileID: 1423994106}
@@ -83415,7 +83415,7 @@ MonoBehaviour:
   descriptionText: {fileID: 2003927749}
   actionDescription: 'Requires 3 recruits.
 
-    Each matching icon on your completed
+    Each blue icon on your completed
     pranks
 
     is worth +2 Notoriety at the end of the game.'
@@ -95789,8 +95789,12 @@ MonoBehaviour:
   - {fileID: 1551931200}
   - {fileID: 1414292562}
   descriptionText: {fileID: 949086329}
-  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
-    pranks\n is worth +2 Notoriety at the end of the game."
+  actionDescription: 'Requires 3 recruits.
+
+    Each green icon on your completed
+    pranks
+
+    is worth +2 Notoriety at the end of the game.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2054390561}
   retainServicesGlow: {fileID: 262701728}
@@ -96100,7 +96104,7 @@ MonoBehaviour:
   descriptionText: {fileID: 802999289}
   actionDescription: 'Requires 3 recruits.
 
-    Each matching icon on your completed
+    Each purple icon on your completed
     pranks
 
     is worth +2 Notoriety at the end of the game.'
@@ -96551,8 +96555,8 @@ MonoBehaviour:
   - {fileID: 2007420235}
   - {fileID: 64084527}
   descriptionText: {fileID: 1933094805}
-  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
-    pranks\n is worth +2 Notoriety at the end of the game."
+  actionDescription: "Requires 3 recruits.\nEach yellow icon on your completed pranks\n
+    is worth +2 Notoriety at the end of the game."
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1301393504}
   retainServicesGlow: {fileID: 1311200410}
@@ -131911,7 +131915,7 @@ MonoBehaviour:
   - {fileID: 1042896500}
   - {fileID: 484852343}
   descriptionText: {fileID: 802999289}
-  actionDescription: "Requires 2 recruits.\nReturn a recruit from your \nreferred
+  actionDescription: "Requires 2 recruits.\nReturn all recruits from your \noutsourced
     area to your hand"
   hoverDelay: 0.5
   retainServicesImage: {fileID: 2044029236}
@@ -132221,8 +132225,8 @@ MonoBehaviour:
   - {fileID: 1972457913}
   - {fileID: 436755291}
   descriptionText: {fileID: 64935927}
-  actionDescription: "Requires 2 recruits.\nChoose a player. \nTake a random recruit
-    from their hand."
+  actionDescription: "Requires 2 recruits.\nChoose a player. \nPoach a random recruit
+    from their crew"
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1442467980}
   retainServicesGlow: {fileID: 252452700}
@@ -157566,7 +157570,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 31
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6343357864249265693, guid: 0325ce37081754bc1b35e8a9e9e63ed4, type: 3}
+  m_Sprite: {fileID: 335502068012351695, guid: 3dd3e2d28f9fd4b62b54d1fa1aa0beac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158822,8 +158826,12 @@ MonoBehaviour:
   - {fileID: 1972457913}
   - {fileID: 436755291}
   descriptionText: {fileID: 64935927}
-  actionDescription: "Requires 3 recruits.\nEach matching icon on your completed
-    pranks\n is worth +2 Notoriety at the end of the game."
+  actionDescription: 'Requires 3 recruits.
+
+    Each black icon on your completed
+    pranks
+
+    is worth +2 Notoriety at the end of the game.'
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1442467980}
   retainServicesGlow: {fileID: 252452700}
@@ -167174,7 +167182,7 @@ MonoBehaviour:
   - {fileID: 2007420235}
   - {fileID: 64084527}
   descriptionText: {fileID: 1933094805}
-  actionDescription: "Requires 2 recruits. \nRefill your crew to max size "
+  actionDescription: "Requires 2 recruits. \nScout until your crew is at max capacity "
   hoverDelay: 0.5
   retainServicesImage: {fileID: 1301393504}
   retainServicesGlow: {fileID: 1311200410}

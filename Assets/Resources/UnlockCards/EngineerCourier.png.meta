@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: dc1b0ff88f74344639fb25b084da0b51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3092443477637245756
+    second: EngineerCourier_0
+  - first:
+      213: -6588662678436846258
+    second: EngineerCourier_1
+  - first:
+      213: 2523492619497987651
+    second: EngineerCourier_2
+  - first:
+      213: -4203038140789152819
+    second: EngineerCourier_3
+  - first:
+      213: 4014894138141462142
+    second: EngineerCourier_4
+  - first:
+      213: 4133642104856003567
+    second: EngineerCourier_5
+  - first:
+      213: -1854383255306692393
+    second: EngineerCourier_6
+  - first:
+      213: -5652283263158879138
+    second: EngineerCourier_7
+  - first:
+      213: -2154143180431965768
+    second: EngineerCourier_8
+  - first:
+      213: -2883806131839316462
+    second: EngineerCourier_9
+  - first:
+      213: -6431347596272719367
+    second: EngineerCourier_10
+  - first:
+      213: 6475096894881687017
+    second: EngineerCourier_11
+  - first:
+      213: 1181087927676708481
+    second: EngineerCourier_12
+  - first:
+      213: -3612140952868375616
+    second: EngineerCourier_13
+  - first:
+      213: -6163094458802300579
+    second: EngineerCourier_14
+  - first:
+      213: -3409896181485655380
+    second: EngineerCourier_15
+  - first:
+      213: -1521833719139103173
+    second: EngineerCourier_16
+  - first:
+      213: 8497456217006633916
+    second: EngineerCourier_17
+  - first:
+      213: 510287565522411592
+    second: EngineerCourier_18
+  - first:
+      213: 2814024720018775638
+    second: EngineerCourier_19
+  - first:
+      213: -7247399948581350988
+    second: EngineerCourier_20
+  - first:
+      213: 4680444977596795382
+    second: EngineerCourier_21
+  - first:
+      213: -2072623551490293823
+    second: EngineerCourier_22
+  - first:
+      213: -2870445775789807688
+    second: EngineerCourier_23
+  - first:
+      213: -5291013422653295632
+    second: EngineerCourier_24
+  - first:
+      213: 5074703648361017728
+    second: EngineerCourier_25
+  - first:
+      213: 7088620011574062005
+    second: EngineerCourier_26
+  - first:
+      213: -1489358173142826620
+    second: EngineerCourier_27
+  - first:
+      213: -4948738495650747475
+    second: EngineerCourier_28
+  - first:
+      213: -1667481801026154328
+    second: EngineerCourier_29
+  - first:
+      213: 6276346918608473416
+    second: EngineerCourier_30
+  - first:
+      213: 2467946638106974459
+    second: EngineerCourier_31
+  - first:
+      213: -5826403326224146888
+    second: EngineerCourier_32
+  - first:
+      213: 7084179842042001125
+    second: EngineerCourier_33
+  - first:
+      213: 5851972742288910788
+    second: EngineerCourier_34
+  - first:
+      213: 3591048979661965334
+    second: EngineerCourier_35
+  - first:
+      213: -1568388522853840406
+    second: EngineerCourier_36
+  - first:
+      213: -2151060231571555638
+    second: EngineerCourier_37
+  - first:
+      213: 8668770667382845003
+    second: EngineerCourier_38
+  - first:
+      213: -8794993685419016270
+    second: EngineerCourier_39
+  - first:
+      213: 7084693280908465282
+    second: EngineerCourier_40
+  - first:
+      213: -6090516433126385239
+    second: EngineerCourier_41
+  - first:
+      213: -2644201924122834133
+    second: EngineerCourier_42
+  - first:
+      213: -2996770247504803819
+    second: EngineerCourier_43
+  - first:
+      213: -3880832193268588382
+    second: EngineerCourier_44
+  - first:
+      213: -3909797851977024276
+    second: EngineerCourier_45
+  - first:
+      213: -374538745491253135
+    second: EngineerCourier_46
+  - first:
+      213: 4032690708192785331
+    second: EngineerCourier_47
+  - first:
+      213: 106915946197474014
+    second: EngineerCourier_48
+  - first:
+      213: -2777893295426812609
+    second: EngineerCourier_49
+  - first:
+      213: -2490237121386833917
+    second: EngineerCourier_50
+  - first:
+      213: -5818560733500061923
+    second: EngineerCourier_51
+  - first:
+      213: -4840899768457051727
+    second: EngineerCourier_52
+  - first:
+      213: 6807749187237270076
+    second: EngineerCourier_53
+  - first:
+      213: 812717811055829731
+    second: EngineerCourier_54
+  - first:
+      213: -7668838193671901402
+    second: EngineerCourier_55
+  - first:
+      213: -2311217266048501979
+    second: EngineerCourier_56
+  - first:
+      213: -4649763088580078710
+    second: EngineerCourier_57
+  - first:
+      213: 5570135288231128418
+    second: EngineerCourier_58
+  - first:
+      213: -504219401408233164
+    second: EngineerCourier_59
+  - first:
+      213: -2071566318939652813
+    second: EngineerCourier_60
+  - first:
+      213: -6319426997228820304
+    second: EngineerCourier_61
+  - first:
+      213: -786600824292135794
+    second: EngineerCourier_62
+  - first:
+      213: -2158534657442734646
+    second: EngineerCourier_63
+  - first:
+      213: -7852807565171730815
+    second: EngineerCourier_64
+  - first:
+      213: -7177201387117268607
+    second: EngineerCourier_65
+  - first:
+      213: -6135676082245003884
+    second: EngineerCourier_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerCourier_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1109
+        width: 105
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c45573aa0f6515d0800000000000000
+      internalID: -3092443477637245756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1112
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45e5e2c33e5094a0800000000000000
+      internalID: -6588662678436846258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1107
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e5f7ada2f350320800000000000000
+      internalID: 2523492619497987651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1109
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc328d0641fcba5c0800000000000000
+      internalID: -4203038140789152819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1105
+        width: 72
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e48b262f4c7b730800000000000000
+      internalID: 4014894138141462142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1111
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe34a88e795ad5930800000000000000
+      internalID: 4133642104856003567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1097
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d813061148e346e0800000000000000
+      internalID: -1854383255306692393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c7789b15e0f81b0800000000000000
+      internalID: -5652283263158879138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 299
+        width: 252
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1c507c032fa12e0800000000000000
+      internalID: -2154143180431965768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1030
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ecf962a99aaf7d0800000000000000
+      internalID: -2883806131839316462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1001
+        width: 121
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f92a199f634fb6a0800000000000000
+      internalID: -6431347596272719367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1054
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e568a1c15a2cd950800000000000000
+      internalID: 6475096894881687017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1062
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1862ca96631146010800000000000000
+      internalID: 1181087927676708481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3b3a9f0f81fddc0800000000000000
+      internalID: -3612140952868375616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5919e14e3a487aa0800000000000000
+      internalID: -6163094458802300579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa26954d7d9da0d0800000000000000
+      internalID: -3409896181485655380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e8083ab4c51eae0800000000000000
+      internalID: -1521833719139103173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 299
+        width: 493
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37d1d68670de570800000000000000
+      internalID: 8497456217006633916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 978
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840234456d7e41700800000000000000
+      internalID: 510287565522411592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 977
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e13e1d29c6d0720800000000000000
+      internalID: 2814024720018775638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1df9725201c6b90800000000000000
+      internalID: -7247399948581350988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f90b68b8e744f040800000000000000
+      internalID: 4680444977596795382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfff447cdf8c33e0800000000000000
+      internalID: -2072623551490293823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7270376c02a28d0800000000000000
+      internalID: -2870445775789807688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f33de8335b8296b0800000000000000
+      internalID: -5291013422653295632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081ffecc418fc6640800000000000000
+      internalID: 5074703648361017728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_26
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 576
+        width: 139
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbe899e756df5260800000000000000
+      internalID: 7088620011574062005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4814f7ae1acb45be0800000000000000
+      internalID: -1489358173142826620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabaf68ce8c825bb0800000000000000
+      internalID: -4948738495650747475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0586cf22aebd8e0800000000000000
+      internalID: -1667481801026154328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 802
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d86cad4401a1750800000000000000
+      internalID: 6276346918608473416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf85cf04468ef3220800000000000000
+      internalID: 2467946638106974459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e514e5b05742fa0800000000000000
+      internalID: -5826403326224146888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 771
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e675e16800105260800000000000000
+      internalID: 7084179842042001125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 750
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9266b3432663150800000000000000
+      internalID: 5851972742288910788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 730
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618c7c35508f5d130800000000000000
+      internalID: 3591048979661965334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 705
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae94f79b2f6fb3ae0800000000000000
+      internalID: -1568388522853840406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 708
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca35bebd16e522e0800000000000000
+      internalID: -2151060231571555638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 656
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e2eac2ef8ad4870800000000000000
+      internalID: 8668770667382845003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 683
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfbbca47d7e1f580800000000000000
+      internalID: -8794993685419016270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 668
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284552fa003e15260800000000000000
+      internalID: 7084693280908465282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a992d0b2932a7ba0800000000000000
+      internalID: -6090516433126385239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 657
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b014e0c58ed4bd0800000000000000
+      internalID: -2644201924122834133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_43
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 656
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518440466555966d0800000000000000
+      internalID: -2996770247504803819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a063578ea3842ac0800000000000000
+      internalID: -3880832193268588382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_45
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecf251919b9db9c0800000000000000
+      internalID: -3909797851977024276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_46
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1789f50defe5dcaf0800000000000000
+      internalID: -374538745491253135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_47
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b379de35def6f730800000000000000
+      internalID: 4032690708192785331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_48
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edadce19c77db7100800000000000000
+      internalID: 106915946197474014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_49
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35452604c0f279d0800000000000000
+      internalID: -2777893295426812609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_50
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3081f3d2886e07dd0800000000000000
+      internalID: -2490237121386833917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_51
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1741b747d1504fa0800000000000000
+      internalID: -5818560733500061923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c8db0f4ba1dcb0800000000000000
+      internalID: -4840899768457051727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_53
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c325b3911dbf97e50800000000000000
+      internalID: 6807749187237270076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2ad9e0b8a574b00800000000000000
+      internalID: 812717811055829731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fec3a4b40d29590800000000000000
+      internalID: -7668838193671901402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527fd625428ecefd0800000000000000
+      internalID: -2311217266048501979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_57
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83167f3b19b87fb0800000000000000
+      internalID: -4649763088580078710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_58
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d62e568881d4d40800000000000000
+      internalID: 5570135288231128418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_59
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c33a3027a009f0800000000000000
+      internalID: -504219401408233164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_60
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d30f698615043e0800000000000000
+      internalID: -2071566318939652813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_61
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8a926b0a2ec48a0800000000000000
+      internalID: -6319426997228820304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_62
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ca908c7be6515f0800000000000000
+      internalID: -786600824292135794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_63
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd91cb5a285b02e0800000000000000
+      internalID: -2158534657442734646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_64
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186507c1029350390800000000000000
+      internalID: -7852807565171730815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_65
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1813f676d55756c90800000000000000
+      internalID: -7177201387117268607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerCourier_66
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4951de48c13b9daa0800000000000000
+      internalID: -6135676082245003884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerCourier_0: -3092443477637245756
+      EngineerCourier_1: -6588662678436846258
+      EngineerCourier_10: -6431347596272719367
+      EngineerCourier_11: 6475096894881687017
+      EngineerCourier_12: 1181087927676708481
+      EngineerCourier_13: -3612140952868375616
+      EngineerCourier_14: -6163094458802300579
+      EngineerCourier_15: -3409896181485655380
+      EngineerCourier_16: -1521833719139103173
+      EngineerCourier_17: 8497456217006633916
+      EngineerCourier_18: 510287565522411592
+      EngineerCourier_19: 2814024720018775638
+      EngineerCourier_2: 2523492619497987651
+      EngineerCourier_20: -7247399948581350988
+      EngineerCourier_21: 4680444977596795382
+      EngineerCourier_22: -2072623551490293823
+      EngineerCourier_23: -2870445775789807688
+      EngineerCourier_24: -5291013422653295632
+      EngineerCourier_25: 5074703648361017728
+      EngineerCourier_26: 7088620011574062005
+      EngineerCourier_27: -1489358173142826620
+      EngineerCourier_28: -4948738495650747475
+      EngineerCourier_29: -1667481801026154328
+      EngineerCourier_3: -4203038140789152819
+      EngineerCourier_30: 6276346918608473416
+      EngineerCourier_31: 2467946638106974459
+      EngineerCourier_32: -5826403326224146888
+      EngineerCourier_33: 7084179842042001125
+      EngineerCourier_34: 5851972742288910788
+      EngineerCourier_35: 3591048979661965334
+      EngineerCourier_36: -1568388522853840406
+      EngineerCourier_37: -2151060231571555638
+      EngineerCourier_38: 8668770667382845003
+      EngineerCourier_39: -8794993685419016270
+      EngineerCourier_4: 4014894138141462142
+      EngineerCourier_40: 7084693280908465282
+      EngineerCourier_41: -6090516433126385239
+      EngineerCourier_42: -2644201924122834133
+      EngineerCourier_43: -2996770247504803819
+      EngineerCourier_44: -3880832193268588382
+      EngineerCourier_45: -3909797851977024276
+      EngineerCourier_46: -374538745491253135
+      EngineerCourier_47: 4032690708192785331
+      EngineerCourier_48: 106915946197474014
+      EngineerCourier_49: -2777893295426812609
+      EngineerCourier_5: 4133642104856003567
+      EngineerCourier_50: -2490237121386833917
+      EngineerCourier_51: -5818560733500061923
+      EngineerCourier_52: -4840899768457051727
+      EngineerCourier_53: 6807749187237270076
+      EngineerCourier_54: 812717811055829731
+      EngineerCourier_55: -7668838193671901402
+      EngineerCourier_56: -2311217266048501979
+      EngineerCourier_57: -4649763088580078710
+      EngineerCourier_58: 5570135288231128418
+      EngineerCourier_59: -504219401408233164
+      EngineerCourier_6: -1854383255306692393
+      EngineerCourier_60: -2071566318939652813
+      EngineerCourier_61: -6319426997228820304
+      EngineerCourier_62: -786600824292135794
+      EngineerCourier_63: -2158534657442734646
+      EngineerCourier_64: -7852807565171730815
+      EngineerCourier_65: -7177201387117268607
+      EngineerCourier_66: -6135676082245003884
+      EngineerCourier_7: -5652283263158879138
+      EngineerCourier_8: -2154143180431965768
+      EngineerCourier_9: -2883806131839316462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

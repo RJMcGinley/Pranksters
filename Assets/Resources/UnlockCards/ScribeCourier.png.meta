@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: d065bf25955d24eb185afe02768ef107
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1369400651946168879
+    second: ScribeCourier_0
+  - first:
+      213: 7909857290248155364
+    second: ScribeCourier_1
+  - first:
+      213: 3158409780780224766
+    second: ScribeCourier_2
+  - first:
+      213: 7463218142387566586
+    second: ScribeCourier_3
+  - first:
+      213: -4562842771627910304
+    second: ScribeCourier_4
+  - first:
+      213: -6693907068279754392
+    second: ScribeCourier_5
+  - first:
+      213: -2801219328232867630
+    second: ScribeCourier_6
+  - first:
+      213: -8204566224803711642
+    second: ScribeCourier_7
+  - first:
+      213: -7998852326974487408
+    second: ScribeCourier_8
+  - first:
+      213: -6373319757784132233
+    second: ScribeCourier_9
+  - first:
+      213: 352648426248742414
+    second: ScribeCourier_10
+  - first:
+      213: 1430588553857232360
+    second: ScribeCourier_11
+  - first:
+      213: 5166304554982584076
+    second: ScribeCourier_12
+  - first:
+      213: -4137305584562587888
+    second: ScribeCourier_13
+  - first:
+      213: 9215142146851520585
+    second: ScribeCourier_14
+  - first:
+      213: 4949709677951790638
+    second: ScribeCourier_15
+  - first:
+      213: 4459765061176471119
+    second: ScribeCourier_16
+  - first:
+      213: -6649900237995635356
+    second: ScribeCourier_17
+  - first:
+      213: -4718755581525433966
+    second: ScribeCourier_18
+  - first:
+      213: -7906593386462977311
+    second: ScribeCourier_19
+  - first:
+      213: -8959385016196339469
+    second: ScribeCourier_20
+  - first:
+      213: 7430832332722081515
+    second: ScribeCourier_21
+  - first:
+      213: -3585579225613932645
+    second: ScribeCourier_22
+  - first:
+      213: -7540553947073240246
+    second: ScribeCourier_23
+  - first:
+      213: 6291293425484493452
+    second: ScribeCourier_24
+  - first:
+      213: 9112320320185510856
+    second: ScribeCourier_25
+  - first:
+      213: 1749688902600718770
+    second: ScribeCourier_26
+  - first:
+      213: -3633999555256054679
+    second: ScribeCourier_27
+  - first:
+      213: -6318088030993435315
+    second: ScribeCourier_28
+  - first:
+      213: -2281354939886108704
+    second: ScribeCourier_29
+  - first:
+      213: 4009555228894999344
+    second: ScribeCourier_30
+  - first:
+      213: 1279668904693159557
+    second: ScribeCourier_31
+  - first:
+      213: -3351620852884128627
+    second: ScribeCourier_32
+  - first:
+      213: -3506839371417150197
+    second: ScribeCourier_33
+  - first:
+      213: 1272184033724743048
+    second: ScribeCourier_34
+  - first:
+      213: 3008451259410385495
+    second: ScribeCourier_35
+  - first:
+      213: -526455245958689552
+    second: ScribeCourier_36
+  - first:
+      213: 830296613501540755
+    second: ScribeCourier_37
+  - first:
+      213: -8036860449923986434
+    second: ScribeCourier_38
+  - first:
+      213: -4751363559676889041
+    second: ScribeCourier_39
+  - first:
+      213: -950957223392745787
+    second: ScribeCourier_40
+  - first:
+      213: -8221567136193219658
+    second: ScribeCourier_41
+  - first:
+      213: -3234550123399940152
+    second: ScribeCourier_42
+  - first:
+      213: -5323144549480148923
+    second: ScribeCourier_43
+  - first:
+      213: 3458378984171795065
+    second: ScribeCourier_44
+  - first:
+      213: 3314943571407325542
+    second: ScribeCourier_45
+  - first:
+      213: 706409530493726241
+    second: ScribeCourier_46
+  - first:
+      213: -6546064474360256342
+    second: ScribeCourier_47
+  - first:
+      213: 4097399574062706021
+    second: ScribeCourier_48
+  - first:
+      213: -7003216059425972697
+    second: ScribeCourier_49
+  - first:
+      213: -2998304200911409470
+    second: ScribeCourier_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScribeCourier_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 666
+        width: 312
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22907633a6110310800000000000000
+      internalID: 1369400651946168879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1024
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e076491c4575cd60800000000000000
+      internalID: 7909857290248155364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1034
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0568e26fce4db20800000000000000
+      internalID: 3158409780780224766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1003
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7f242db5da29760800000000000000
+      internalID: 7463218142387566586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 309
+        width: 481
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bd8279ca68da0c0800000000000000
+      internalID: -4562842771627910304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1011
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86175bbbcf67a13a0800000000000000
+      internalID: -6693907068279754392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 909
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b8baccd11029d0800000000000000
+      internalID: -2801219328232867630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 889
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665386afc76832e80800000000000000
+      internalID: -8204566224803711642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 869
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09401e7303e5ef090800000000000000
+      internalID: -7998852326974487408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 864
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7755c45927b6d87a0800000000000000
+      internalID: -6373319757784132233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 816
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06282110ebd4e400800000000000000
+      internalID: 352648426248742414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 813
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed666cc5b87ad310800000000000000
+      internalID: 1430588553857232360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 809
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f2839de9662b740800000000000000
+      internalID: 5166304554982584076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 779
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01738e0cd765596c0800000000000000
+      internalID: -4137305584562587888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 803
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940c0d965f2c2ef70800000000000000
+      internalID: 9215142146851520585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 796
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e21a73ab6e0b440800000000000000
+      internalID: 4949709677951790638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 771
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e2f1db1b444ed30800000000000000
+      internalID: 4459765061176471119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 723
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d0c7a57fec6b3a0800000000000000
+      internalID: -6649900237995635356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 663
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e845bccc938eb0800000000000000
+      internalID: -4718755581525433966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 697
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2eb68b433264290800000000000000
+      internalID: -7906593386462977311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 692
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e8afebced9a380800000000000000
+      internalID: -8959385016196339469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee0369e2ae9f1760800000000000000
+      internalID: 7430832332722081515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 660
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97e24701b67d3ec0800000000000000
+      internalID: -3585579225613932645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 475
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43a70ff2229a5790800000000000000
+      internalID: -7540553947073240246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 472
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82f0cba90a2f4750800000000000000
+      internalID: 6291293425484493452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 470
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb2b345d07757e70800000000000000
+      internalID: 9112320320185510856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b975f269c4284810800000000000000
+      internalID: 1749688902600718770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 396
+        width: 157
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c090388a0719dc0800000000000000
+      internalID: -3633999555256054679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d453df41964a158a0800000000000000
+      internalID: -6318088030993435315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_29
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7181f4cff650e0800000000000000
+      internalID: -2281354939886108704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_30
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033b895bc3dc4a730800000000000000
+      internalID: 4009555228894999344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586595eb61c42c110800000000000000
+      internalID: 1279668904693159557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_32
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cbc0a8796ac71d0800000000000000
+      internalID: -3351620852884128627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_33
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d9356fb24355fc0800000000000000
+      internalID: -3506839371417150197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_34
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d361b63a4b7a110800000000000000
+      internalID: 1272184033724743048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_35
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a8b312b7a20c920800000000000000
+      internalID: 3008451259410385495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fccd7a3eb7a1b8f0800000000000000
+      internalID: -526455245958689552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39918f1fe5ec58b00800000000000000
+      internalID: 830296613501540755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb05ec7006577090800000000000000
+      internalID: -8036860449923986434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2839ba2404cf0eb0800000000000000
+      internalID: -4751363559676889041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6651791758dc2f0800000000000000
+      internalID: -950957223392745787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_41
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b37d26df3027ed80800000000000000
+      internalID: -8221567136193219658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_42
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7fc86dcc19c13d0800000000000000
+      internalID: -3234550123399940152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540dd284c346026b0800000000000000
+      internalID: -5323144549480148923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_44
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9727c32ec51aeff20800000000000000
+      internalID: 3458378984171795065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_45
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669c2386d9b010e20800000000000000
+      internalID: 3314943571407325542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_46
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e670ba9bbadc900800000000000000
+      internalID: 706409530493726241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_47
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8e3f80b05b725a0800000000000000
+      internalID: -6546064474360256342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_48
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d28d22433ecd830800000000000000
+      internalID: 4097399574062706021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_49
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e9a9c39149fce90800000000000000
+      internalID: -7003216059425972697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCourier_50
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce2d180732e366d0800000000000000
+      internalID: -2998304200911409470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScribeCourier_0: 1369400651946168879
+      ScribeCourier_1: 7909857290248155364
+      ScribeCourier_10: 352648426248742414
+      ScribeCourier_11: 1430588553857232360
+      ScribeCourier_12: 5166304554982584076
+      ScribeCourier_13: -4137305584562587888
+      ScribeCourier_14: 9215142146851520585
+      ScribeCourier_15: 4949709677951790638
+      ScribeCourier_16: 4459765061176471119
+      ScribeCourier_17: -6649900237995635356
+      ScribeCourier_18: -4718755581525433966
+      ScribeCourier_19: -7906593386462977311
+      ScribeCourier_2: 3158409780780224766
+      ScribeCourier_20: -8959385016196339469
+      ScribeCourier_21: 7430832332722081515
+      ScribeCourier_22: -3585579225613932645
+      ScribeCourier_23: -7540553947073240246
+      ScribeCourier_24: 6291293425484493452
+      ScribeCourier_25: 9112320320185510856
+      ScribeCourier_26: 1749688902600718770
+      ScribeCourier_27: -3633999555256054679
+      ScribeCourier_28: -6318088030993435315
+      ScribeCourier_29: -2281354939886108704
+      ScribeCourier_3: 7463218142387566586
+      ScribeCourier_30: 4009555228894999344
+      ScribeCourier_31: 1279668904693159557
+      ScribeCourier_32: -3351620852884128627
+      ScribeCourier_33: -3506839371417150197
+      ScribeCourier_34: 1272184033724743048
+      ScribeCourier_35: 3008451259410385495
+      ScribeCourier_36: -526455245958689552
+      ScribeCourier_37: 830296613501540755
+      ScribeCourier_38: -8036860449923986434
+      ScribeCourier_39: -4751363559676889041
+      ScribeCourier_4: -4562842771627910304
+      ScribeCourier_40: -950957223392745787
+      ScribeCourier_41: -8221567136193219658
+      ScribeCourier_42: -3234550123399940152
+      ScribeCourier_43: -5323144549480148923
+      ScribeCourier_44: 3458378984171795065
+      ScribeCourier_45: 3314943571407325542
+      ScribeCourier_46: 706409530493726241
+      ScribeCourier_47: -6546064474360256342
+      ScribeCourier_48: 4097399574062706021
+      ScribeCourier_49: -7003216059425972697
+      ScribeCourier_5: -6693907068279754392
+      ScribeCourier_50: -2998304200911409470
+      ScribeCourier_6: -2801219328232867630
+      ScribeCourier_7: -8204566224803711642
+      ScribeCourier_8: -7998852326974487408
+      ScribeCourier_9: -6373319757784132233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

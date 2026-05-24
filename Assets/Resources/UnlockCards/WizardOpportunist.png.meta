@@ -140,6 +140,30 @@ TextureImporter:
   - first:
       213: -468612535504523990
     second: WizardOpportunist_45
+  - first:
+      213: -6754425878174838460
+    second: WizardOpportunist_46
+  - first:
+      213: 1046399780977480889
+    second: WizardOpportunist_47
+  - first:
+      213: -7981640705639679087
+    second: WizardOpportunist_48
+  - first:
+      213: -3552140606569177123
+    second: WizardOpportunist_49
+  - first:
+      213: 4803196981086367621
+    second: WizardOpportunist_50
+  - first:
+      213: 655860046683049358
+    second: WizardOpportunist_51
+  - first:
+      213: -1569413202492308063
+    second: WizardOpportunist_52
+  - first:
+      213: 377812525432847256
+    second: WizardOpportunist_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -265,9 +289,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 695
-        width: 317
-        height: 368
+        y: 794
+        width: 322
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +310,10 @@ TextureImporter:
       name: WizardOpportunist_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 286
-        width: 601
-        height: 697
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +332,10 @@ TextureImporter:
       name: WizardOpportunist_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 982
-        width: 68
-        height: 140
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +354,10 @@ TextureImporter:
       name: WizardOpportunist_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 978
-        width: 7
-        height: 7
+        x: 37
+        y: 877
+        width: 11
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +376,10 @@ TextureImporter:
       name: WizardOpportunist_4
       rect:
         serializedVersion: 2
-        x: 93
-        y: 232
-        width: 85
-        height: 78
+        x: 63
+        y: 288
+        width: 640
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +398,10 @@ TextureImporter:
       name: WizardOpportunist_5
       rect:
         serializedVersion: 2
-        x: 181
-        y: 207
-        width: 65
-        height: 75
+        x: 37
+        y: 700
+        width: 23
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +420,10 @@ TextureImporter:
       name: WizardOpportunist_6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 207
-        width: 65
-        height: 75
+        x: 93
+        y: 232
+        width: 85
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +442,10 @@ TextureImporter:
       name: WizardOpportunist_7
       rect:
         serializedVersion: 2
-        x: 320
-        y: 231
-        width: 57
-        height: 51
+        x: 181
+        y: 207
+        width: 65
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +464,10 @@ TextureImporter:
       name: WizardOpportunist_8
       rect:
         serializedVersion: 2
-        x: 381
-        y: 233
-        width: 52
-        height: 49
+        x: 249
+        y: 207
+        width: 65
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +486,10 @@ TextureImporter:
       name: WizardOpportunist_9
       rect:
         serializedVersion: 2
-        x: 432
+        x: 320
         y: 231
-        width: 41
-        height: 64
+        width: 57
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,9 +508,9 @@ TextureImporter:
       name: WizardOpportunist_10
       rect:
         serializedVersion: 2
-        x: 472
-        y: 231
-        width: 66
+        x: 381
+        y: 233
+        width: 52
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -506,10 +530,10 @@ TextureImporter:
       name: WizardOpportunist_11
       rect:
         serializedVersion: 2
-        x: 539
-        y: 233
-        width: 67
-        height: 49
+        x: 432
+        y: 231
+        width: 41
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,9 +552,9 @@ TextureImporter:
       name: WizardOpportunist_12
       rect:
         serializedVersion: 2
-        x: 605
-        y: 233
-        width: 35
+        x: 472
+        y: 231
+        width: 66
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -550,10 +574,10 @@ TextureImporter:
       name: WizardOpportunist_13
       rect:
         serializedVersion: 2
-        x: 644
-        y: 231
-        width: 48
-        height: 51
+        x: 539
+        y: 233
+        width: 67
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +596,10 @@ TextureImporter:
       name: WizardOpportunist_14
       rect:
         serializedVersion: 2
-        x: 695
-        y: 231
-        width: 41
-        height: 64
+        x: 605
+        y: 233
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +618,10 @@ TextureImporter:
       name: WizardOpportunist_15
       rect:
         serializedVersion: 2
-        x: 50
-        y: 133
-        width: 57
-        height: 55
+        x: 644
+        y: 231
+        width: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +640,10 @@ TextureImporter:
       name: WizardOpportunist_16
       rect:
         serializedVersion: 2
-        x: 117
-        y: 128
-        width: 37
-        height: 68
+        x: 695
+        y: 231
+        width: 41
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +662,10 @@ TextureImporter:
       name: WizardOpportunist_17
       rect:
         serializedVersion: 2
-        x: 165
-        y: 124
-        width: 135
-        height: 62
+        x: 29
+        y: 133
+        width: 57
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +684,10 @@ TextureImporter:
       name: WizardOpportunist_18
       rect:
         serializedVersion: 2
-        x: 312
-        y: 130
-        width: 99
-        height: 46
+        x: 96
+        y: 128
+        width: 37
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,10 +706,10 @@ TextureImporter:
       name: WizardOpportunist_19
       rect:
         serializedVersion: 2
-        x: 495
-        y: 131
-        width: 48
-        height: 44
+        x: 137
+        y: 126
+        width: 135
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,10 +728,10 @@ TextureImporter:
       name: WizardOpportunist_20
       rect:
         serializedVersion: 2
-        x: 548
-        y: 161
-        width: 14
-        height: 15
+        x: 278
+        y: 141
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -726,10 +750,10 @@ TextureImporter:
       name: WizardOpportunist_21
       rect:
         serializedVersion: 2
-        x: 689
-        y: 130
-        width: 38
-        height: 46
+        x: 311
+        y: 140
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,10 +772,10 @@ TextureImporter:
       name: WizardOpportunist_22
       rect:
         serializedVersion: 2
-        x: 759
-        y: 130
-        width: 38
-        height: 46
+        x: 343
+        y: 141
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,10 +794,10 @@ TextureImporter:
       name: WizardOpportunist_23
       rect:
         serializedVersion: 2
-        x: 411
-        y: 130
+        x: 383
+        y: 140
         width: 31
-        height: 30
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,10 +816,10 @@ TextureImporter:
       name: WizardOpportunist_24
       rect:
         serializedVersion: 2
-        x: 441
-        y: 131
-        width: 40
-        height: 29
+        x: 414
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +838,10 @@ TextureImporter:
       name: WizardOpportunist_25
       rect:
         serializedVersion: 2
-        x: 544
-        y: 131
-        width: 22
-        height: 29
+        x: 443
+        y: 141
+        width: 78
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,10 +860,10 @@ TextureImporter:
       name: WizardOpportunist_26
       rect:
         serializedVersion: 2
-        x: 566
-        y: 130
-        width: 29
-        height: 30
+        x: 504
+        y: 172
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -858,10 +882,10 @@ TextureImporter:
       name: WizardOpportunist_27
       rect:
         serializedVersion: 2
-        x: 595
-        y: 130
+        x: 520
+        y: 140
         width: 30
-        height: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,10 +904,10 @@ TextureImporter:
       name: WizardOpportunist_28
       rect:
         serializedVersion: 2
-        x: 626
-        y: 130
-        width: 35
-        height: 30
+        x: 549
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -902,10 +926,10 @@ TextureImporter:
       name: WizardOpportunist_29
       rect:
         serializedVersion: 2
-        x: 660
-        y: 131
-        width: 31
-        height: 29
+        x: 592
+        y: 141
+        width: 46
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +948,10 @@ TextureImporter:
       name: WizardOpportunist_30
       rect:
         serializedVersion: 2
-        x: 727
-        y: 130
-        width: 31
-        height: 30
+        x: 636
+        y: 140
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -946,10 +970,10 @@ TextureImporter:
       name: WizardOpportunist_31
       rect:
         serializedVersion: 2
-        x: 52
-        y: 39
-        width: 55
-        height: 55
+        x: 665
+        y: 140
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,10 +992,10 @@ TextureImporter:
       name: WizardOpportunist_32
       rect:
         serializedVersion: 2
-        x: 118
-        y: 35
-        width: 35
-        height: 66
+        x: 690
+        y: 172
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -990,10 +1014,10 @@ TextureImporter:
       name: WizardOpportunist_33
       rect:
         serializedVersion: 2
-        x: 205
-        y: 34
-        width: 71
-        height: 72
+        x: 706
+        y: 140
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1012,10 +1036,10 @@ TextureImporter:
       name: WizardOpportunist_34
       rect:
         serializedVersion: 2
-        x: 316
-        y: 44
-        width: 99
-        height: 47
+        x: 738
+        y: 141
+        width: 39
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1034,10 +1058,10 @@ TextureImporter:
       name: WizardOpportunist_35
       rect:
         serializedVersion: 2
-        x: 499
-        y: 46
-        width: 47
-        height: 43
+        x: 776
+        y: 140
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1056,10 +1080,10 @@ TextureImporter:
       name: WizardOpportunist_36
       rect:
         serializedVersion: 2
-        x: 551
-        y: 76
-        width: 15
-        height: 15
+        x: 33
+        y: 44
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1078,10 +1102,10 @@ TextureImporter:
       name: WizardOpportunist_37
       rect:
         serializedVersion: 2
-        x: 662
-        y: 45
-        width: 67
-        height: 46
+        x: 99
+        y: 40
+        width: 35
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1100,10 +1124,10 @@ TextureImporter:
       name: WizardOpportunist_38
       rect:
         serializedVersion: 2
-        x: 761
-        y: 45
-        width: 38
-        height: 46
+        x: 171
+        y: 38
+        width: 71
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1122,10 +1146,10 @@ TextureImporter:
       name: WizardOpportunist_39
       rect:
         serializedVersion: 2
-        x: 415
-        y: 44
-        width: 31
-        height: 30
+        x: 278
+        y: 53
+        width: 38
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1144,10 +1168,10 @@ TextureImporter:
       name: WizardOpportunist_40
       rect:
         serializedVersion: 2
-        x: 445
-        y: 46
-        width: 40
-        height: 28
+        x: 311
+        y: 52
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1166,10 +1190,10 @@ TextureImporter:
       name: WizardOpportunist_41
       rect:
         serializedVersion: 2
-        x: 547
-        y: 46
-        width: 22
-        height: 28
+        x: 343
+        y: 53
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1188,10 +1212,10 @@ TextureImporter:
       name: WizardOpportunist_42
       rect:
         serializedVersion: 2
-        x: 569
-        y: 44
-        width: 29
-        height: 30
+        x: 383
+        y: 52
+        width: 32
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,10 +1234,10 @@ TextureImporter:
       name: WizardOpportunist_43
       rect:
         serializedVersion: 2
-        x: 598
-        y: 44
-        width: 30
-        height: 30
+        x: 414
+        y: 52
+        width: 31
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1232,10 +1256,10 @@ TextureImporter:
       name: WizardOpportunist_44
       rect:
         serializedVersion: 2
-        x: 629
-        y: 45
-        width: 34
-        height: 29
+        x: 443
+        y: 53
+        width: 79
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1254,10 +1278,10 @@ TextureImporter:
       name: WizardOpportunist_45
       rect:
         serializedVersion: 2
-        x: 729
-        y: 44
-        width: 31
-        height: 30
+        x: 504
+        y: 84
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1268,6 +1292,182 @@ TextureImporter:
       bones: []
       spriteID: a2d25fbb1672f79f0800000000000000
       internalID: -468612535504523990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_46
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 52
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441dea543757342a0800000000000000
+      internalID: -6754425878174838460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_47
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 53
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b495368e0f858e00800000000000000
+      internalID: 1046399780977480889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 52
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b7c8711148b3190800000000000000
+      internalID: -7981640705639679087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_49
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 52
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf143930f244bec0800000000000000
+      internalID: -3552140606569177123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_50
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa1e3b43268a240800000000000000
+      internalID: 4803196981086367621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_51
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 52
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d0ae0dc351a1900800000000000000
+      internalID: 655860046683049358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_52
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 53
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a543a7e103583ae0800000000000000
+      internalID: -1569413202492308063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist_53
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 52
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b3e1a7d724e3500800000000000000
+      internalID: 377812525432847256
       vertices: []
       indices: 
       edges: []
@@ -1327,7 +1527,15 @@ TextureImporter:
       WizardOpportunist_43: 360720398798258081
       WizardOpportunist_44: -2152078634655474372
       WizardOpportunist_45: -468612535504523990
+      WizardOpportunist_46: -6754425878174838460
+      WizardOpportunist_47: 1046399780977480889
+      WizardOpportunist_48: -7981640705639679087
+      WizardOpportunist_49: -3552140606569177123
       WizardOpportunist_5: 8164070225422011332
+      WizardOpportunist_50: 4803196981086367621
+      WizardOpportunist_51: 655860046683049358
+      WizardOpportunist_52: -1569413202492308063
+      WizardOpportunist_53: 377812525432847256
       WizardOpportunist_6: 5420263082610948552
       WizardOpportunist_7: 6208202386712016402
       WizardOpportunist_8: 1675213477587752765

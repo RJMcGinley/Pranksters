@@ -86,6 +86,69 @@ TextureImporter:
   - first:
       213: 6661602998295580650
     second: LaborerMaster_27
+  - first:
+      213: 6315940108061626602
+    second: LaborerMaster_28
+  - first:
+      213: 4993430356299587909
+    second: LaborerMaster_29
+  - first:
+      213: 8561681554672928613
+    second: LaborerMaster_30
+  - first:
+      213: 7173058532714631379
+    second: LaborerMaster_31
+  - first:
+      213: -6588673539023470693
+    second: LaborerMaster_32
+  - first:
+      213: 4681828759219722168
+    second: LaborerMaster_33
+  - first:
+      213: -6821653510428343746
+    second: LaborerMaster_34
+  - first:
+      213: 4022353645168708299
+    second: LaborerMaster_35
+  - first:
+      213: 5214450314346752997
+    second: LaborerMaster_36
+  - first:
+      213: -5148893622818027518
+    second: LaborerMaster_37
+  - first:
+      213: 8946613872077916858
+    second: LaborerMaster_38
+  - first:
+      213: 8154246444580186733
+    second: LaborerMaster_39
+  - first:
+      213: 8712050913618700250
+    second: LaborerMaster_40
+  - first:
+      213: 5517137855085909434
+    second: LaborerMaster_41
+  - first:
+      213: -195497572926833835
+    second: LaborerMaster_42
+  - first:
+      213: -8677402852037797292
+    second: LaborerMaster_43
+  - first:
+      213: -8561067557648687458
+    second: LaborerMaster_44
+  - first:
+      213: 4458205336532729837
+    second: LaborerMaster_45
+  - first:
+      213: 1657429028386104240
+    second: LaborerMaster_46
+  - first:
+      213: -7294254355275635044
+    second: LaborerMaster_47
+  - first:
+      213: 2840794209568718884
+    second: LaborerMaster_48
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -210,10 +273,10 @@ TextureImporter:
       name: LaborerMaster_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1098
-        width: 7
-        height: 16
+        x: 53
+        y: 1056
+        width: 219
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +295,10 @@ TextureImporter:
       name: LaborerMaster_1
       rect:
         serializedVersion: 2
-        x: 308
-        y: 1078
+        x: 305
+        y: 1098
         width: 7
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +317,10 @@ TextureImporter:
       name: LaborerMaster_2
       rect:
         serializedVersion: 2
-        x: 362
-        y: 1072
-        width: 6
-        height: 6
+        x: 399
+        y: 1074
+        width: 13
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +339,10 @@ TextureImporter:
       name: LaborerMaster_3
       rect:
         serializedVersion: 2
-        x: 11
-        y: 307
-        width: 700
-        height: 761
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +361,10 @@ TextureImporter:
       name: LaborerMaster_4
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1067
-        width: 6
-        height: 9
+        x: 11
+        y: 964
+        width: 63
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +383,10 @@ TextureImporter:
       name: LaborerMaster_5
       rect:
         serializedVersion: 2
-        x: 363
-        y: 1065
-        width: 6
-        height: 7
+        x: 54
+        y: 837
+        width: 231
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +405,10 @@ TextureImporter:
       name: LaborerMaster_6
       rect:
         serializedVersion: 2
-        x: 14
-        y: 943
-        width: 6
-        height: 8
+        x: 80
+        y: 1062
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +427,10 @@ TextureImporter:
       name: LaborerMaster_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 922
+        x: 310
+        y: 1067
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +449,10 @@ TextureImporter:
       name: LaborerMaster_8
       rect:
         serializedVersion: 2
-        x: 20
-        y: 902
-        width: 6
-        height: 8
+        x: 281
+        y: 1009
+        width: 32
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,8 +471,8 @@ TextureImporter:
       name: LaborerMaster_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 871
+        x: 312
+        y: 1057
         width: 6
         height: 8
       alignment: 0
@@ -430,10 +493,10 @@ TextureImporter:
       name: LaborerMaster_10
       rect:
         serializedVersion: 2
-        x: 27
-        y: 850
-        width: 6
-        height: 8
+        x: 375
+        y: 992
+        width: 37
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +515,10 @@ TextureImporter:
       name: LaborerMaster_11
       rect:
         serializedVersion: 2
-        x: 34
-        y: 799
-        width: 6
-        height: 8
+        x: 313
+        y: 1037
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +537,10 @@ TextureImporter:
       name: LaborerMaster_12
       rect:
         serializedVersion: 2
-        x: 37
-        y: 778
-        width: 6
-        height: 7
+        x: 361
+        y: 1014
+        width: 16
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +559,10 @@ TextureImporter:
       name: LaborerMaster_13
       rect:
         serializedVersion: 2
-        x: 44
-        y: 726
-        width: 6
-        height: 8
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +581,10 @@ TextureImporter:
       name: LaborerMaster_14
       rect:
         serializedVersion: 2
-        x: 286
-        y: 215
-        width: 87
-        height: 61
+        x: 316
+        y: 1026
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +603,10 @@ TextureImporter:
       name: LaborerMaster_15
       rect:
         serializedVersion: 2
-        x: 376
-        y: 214
-        width: 48
-        height: 40
+        x: 318
+        y: 1005
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +625,10 @@ TextureImporter:
       name: LaborerMaster_16
       rect:
         serializedVersion: 2
-        x: 424
-        y: 213
-        width: 39
-        height: 41
+        x: 320
+        y: 995
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +647,10 @@ TextureImporter:
       name: LaborerMaster_17
       rect:
         serializedVersion: 2
-        x: 466
-        y: 214
-        width: 33
-        height: 51
+        x: 405
+        y: 983
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +669,10 @@ TextureImporter:
       name: LaborerMaster_18
       rect:
         serializedVersion: 2
-        x: 500
-        y: 214
-        width: 41
-        height: 41
+        x: 322
+        y: 985
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +691,10 @@ TextureImporter:
       name: LaborerMaster_19
       rect:
         serializedVersion: 2
-        x: 544
-        y: 215
-        width: 42
-        height: 40
+        x: 323
+        y: 975
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,10 +713,10 @@ TextureImporter:
       name: LaborerMaster_20
       rect:
         serializedVersion: 2
-        x: 124
-        y: 96
-        width: 57
-        height: 56
+        x: 13
+        y: 856
+        width: 65
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +735,10 @@ TextureImporter:
       name: LaborerMaster_21
       rect:
         serializedVersion: 2
-        x: 187
-        y: 89
-        width: 47
-        height: 69
+        x: 14
+        y: 943
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +757,10 @@ TextureImporter:
       name: LaborerMaster_22
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 319
+        y: 922
+        width: 16
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +779,10 @@ TextureImporter:
       name: LaborerMaster_23
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 27
+        y: 819
+        width: 10
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +801,10 @@ TextureImporter:
       name: LaborerMaster_24
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 160
+        y: 297
+        width: 539
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +823,10 @@ TextureImporter:
       name: LaborerMaster_25
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 33
+        y: 789
+        width: 8
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,10 +845,10 @@ TextureImporter:
       name: LaborerMaster_26
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 111
+        y: 793
+        width: 16
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,6 +867,468 @@ TextureImporter:
       name: LaborerMaster_27
       rect:
         serializedVersion: 2
+        x: 131
+        y: 714
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefc51cd1a4c27c50800000000000000
+      internalID: 6661602998295580650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 747
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0d7a3a01ab6a750800000000000000
+      internalID: 6315940108061626602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 765
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541a3e5e37a3c4540800000000000000
+      internalID: 4993430356299587909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 738
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5674b42230431d670800000000000000
+      internalID: 8561681554672928613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_31
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 705
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d05a832bb2db8360800000000000000
+      internalID: 7173058532714631379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f7d7513545094a0800000000000000
+      internalID: -6588673539023470693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7df7c737239f040800000000000000
+      internalID: 4681828759219722168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 702
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e324f12664e9451a0800000000000000
+      internalID: -6821653510428343746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_35
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 215
+        width: 87
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca4745345542d730800000000000000
+      internalID: 4022353645168708299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_36
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 214
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebef8dfee27d5840800000000000000
+      internalID: 5214450314346752997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 213
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20848a1b7847b88b0800000000000000
+      internalID: -5148893622818027518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_38
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 214
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba49cb5ae1c82c70800000000000000
+      internalID: 8946613872077916858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_39
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 214
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aa13430f3b92170800000000000000
+      internalID: 8154246444580186733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_40
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 215
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad72c53c52c67e870800000000000000
+      internalID: 8712050913618700250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 96
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5914de5afc09c40800000000000000
+      internalID: 5517137855085909434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_42
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 89
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bbe334ef3794df0800000000000000
+      internalID: -195497572926833835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a5357b41ca39780800000000000000
+      internalID: -8677402852037797292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_44
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9a303a6af03980800000000000000
+      internalID: -8561067557648687458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defb8cb022abedd30800000000000000
+      internalID: 4458205336532729837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_46
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3ef5d7bee500710800000000000000
+      internalID: 1657429028386104240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_47
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96237c7f4a95ca90800000000000000
+      internalID: -7294254355275635044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerMaster_48
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -816,8 +1341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aefc51cd1a4c27c50800000000000000
-      internalID: 6661602998295580650
+      spriteID: 420845d48478c6720800000000000000
+      internalID: 2840794209568718884
       vertices: []
       indices: 
       edges: []
@@ -857,8 +1382,29 @@ TextureImporter:
       LaborerMaster_25: -5856144112660077561
       LaborerMaster_26: -6451427387350561557
       LaborerMaster_27: 6661602998295580650
+      LaborerMaster_28: 6315940108061626602
+      LaborerMaster_29: 4993430356299587909
       LaborerMaster_3: -6297539044349124301
+      LaborerMaster_30: 8561681554672928613
+      LaborerMaster_31: 7173058532714631379
+      LaborerMaster_32: -6588673539023470693
+      LaborerMaster_33: 4681828759219722168
+      LaborerMaster_34: -6821653510428343746
+      LaborerMaster_35: 4022353645168708299
+      LaborerMaster_36: 5214450314346752997
+      LaborerMaster_37: -5148893622818027518
+      LaborerMaster_38: 8946613872077916858
+      LaborerMaster_39: 8154246444580186733
       LaborerMaster_4: 4885350892096102342
+      LaborerMaster_40: 8712050913618700250
+      LaborerMaster_41: 5517137855085909434
+      LaborerMaster_42: -195497572926833835
+      LaborerMaster_43: -8677402852037797292
+      LaborerMaster_44: -8561067557648687458
+      LaborerMaster_45: 4458205336532729837
+      LaborerMaster_46: 1657429028386104240
+      LaborerMaster_47: -7294254355275635044
+      LaborerMaster_48: 2840794209568718884
       LaborerMaster_5: -4148210128660044272
       LaborerMaster_6: -5258470582411009738
       LaborerMaster_7: -8303854617133379361

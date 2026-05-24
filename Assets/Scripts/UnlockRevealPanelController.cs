@@ -139,9 +139,9 @@ public class UnlockRevealPanelController : MonoBehaviour
 
         switch (entry.tier)
         {
-            case 1: suffix = "Assistant"; break;
-            case 2: suffix = "Strategist"; break;
-            case 3: suffix = "Advisor"; break;
+            case 1: suffix = "Courier"; break;
+            case 2: suffix = "Operative"; break;
+            case 3: suffix = "Kingmaker"; break;
             default: suffix = ""; break;
         }
 
@@ -161,7 +161,7 @@ public class UnlockRevealPanelController : MonoBehaviour
         {
             case 1: suffix = "Hustler"; break;
             case 2: suffix = "Opportunist"; break;
-            case 3: suffix = "Manipulator"; break;
+            case 3: suffix = "Specialist"; break;
             default: suffix = ""; break;
         }
 
@@ -181,7 +181,7 @@ public class UnlockRevealPanelController : MonoBehaviour
         {
             case 1: suffix = "Hustler"; break;
             case 2: suffix = "Opportunist"; break;
-            case 3: suffix = "Manipulator"; break;
+            case 3: suffix = "Specialist"; break;
             default: suffix = ""; break;
         }
 

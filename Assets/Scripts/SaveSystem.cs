@@ -100,7 +100,7 @@ public static class SaveSystem
                     unlockOrder = 0
                 });
 
-                // Favor unlock (Assistant / Strategist / Advisor)
+                // Favor unlock (Courier / Operative / Kingmaker)
                 data.pranksterUnlocks.Add(new PranksterUnlockEntry
                 {
                     pranksterType = type.ToString(),
@@ -110,7 +110,7 @@ public static class SaveSystem
                     unlockOrder = 0
                 });
             
-                // Discard unlock (Hustler / Opportunist / Manipulator)
+                // Discard unlock (Hustler / Opportunist / Specialist)
                 data.pranksterUnlocks.Add(new PranksterUnlockEntry
                 {
                     pranksterType = type.ToString(),

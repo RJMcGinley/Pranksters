@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 2045fd0355b9d4afa97a0330b04404d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4001703746467372395
+    second: ThiefOperative_0
+  - first:
+      213: -3969829696055224334
+    second: ThiefOperative_1
+  - first:
+      213: -1616171509896533524
+    second: ThiefOperative_2
+  - first:
+      213: 7634728522827694561
+    second: ThiefOperative_3
+  - first:
+      213: 5501150016246991048
+    second: ThiefOperative_4
+  - first:
+      213: 3666995723322163205
+    second: ThiefOperative_5
+  - first:
+      213: 4255200429384840098
+    second: ThiefOperative_6
+  - first:
+      213: -990412348530750223
+    second: ThiefOperative_7
+  - first:
+      213: -7642224204469002602
+    second: ThiefOperative_8
+  - first:
+      213: -3072377655264951855
+    second: ThiefOperative_9
+  - first:
+      213: 9029965792638058619
+    second: ThiefOperative_10
+  - first:
+      213: -2234136364428380711
+    second: ThiefOperative_11
+  - first:
+      213: -2161881700427636772
+    second: ThiefOperative_12
+  - first:
+      213: 6626623343638428457
+    second: ThiefOperative_13
+  - first:
+      213: 3320083063027272079
+    second: ThiefOperative_14
+  - first:
+      213: 1874540382677835178
+    second: ThiefOperative_15
+  - first:
+      213: 63129422988293120
+    second: ThiefOperative_16
+  - first:
+      213: -1195970769980919775
+    second: ThiefOperative_17
+  - first:
+      213: -3099895068665757147
+    second: ThiefOperative_18
+  - first:
+      213: 6866360281265960878
+    second: ThiefOperative_19
+  - first:
+      213: -1044581758575479378
+    second: ThiefOperative_20
+  - first:
+      213: 7567277362759128205
+    second: ThiefOperative_21
+  - first:
+      213: -1930783890765190815
+    second: ThiefOperative_22
+  - first:
+      213: -3073624366765637463
+    second: ThiefOperative_23
+  - first:
+      213: 40229833725963052
+    second: ThiefOperative_24
+  - first:
+      213: 7121441624572404594
+    second: ThiefOperative_25
+  - first:
+      213: -6368004761609357615
+    second: ThiefOperative_26
+  - first:
+      213: -9195833819248841189
+    second: ThiefOperative_27
+  - first:
+      213: -890056268211098029
+    second: ThiefOperative_28
+  - first:
+      213: 854988353242987893
+    second: ThiefOperative_29
+  - first:
+      213: 4670149252634927180
+    second: ThiefOperative_30
+  - first:
+      213: 1332028041030142205
+    second: ThiefOperative_31
+  - first:
+      213: 7911416280633648987
+    second: ThiefOperative_32
+  - first:
+      213: 6022528187634186151
+    second: ThiefOperative_33
+  - first:
+      213: 480318847827397651
+    second: ThiefOperative_34
+  - first:
+      213: 900479611934210142
+    second: ThiefOperative_35
+  - first:
+      213: 4151608663095788989
+    second: ThiefOperative_36
+  - first:
+      213: -6997210836620186938
+    second: ThiefOperative_37
+  - first:
+      213: 9114995843306604591
+    second: ThiefOperative_38
+  - first:
+      213: 8705031007272776784
+    second: ThiefOperative_39
+  - first:
+      213: 3919870032072216598
+    second: ThiefOperative_40
+  - first:
+      213: -1251540937784913015
+    second: ThiefOperative_41
+  - first:
+      213: 1406378864252571647
+    second: ThiefOperative_42
+  - first:
+      213: -7176758285472151005
+    second: ThiefOperative_43
+  - first:
+      213: -5932746432018770946
+    second: ThiefOperative_44
+  - first:
+      213: -2167762261934101336
+    second: ThiefOperative_45
+  - first:
+      213: 8404471836428236933
+    second: ThiefOperative_46
+  - first:
+      213: -9048450855863135133
+    second: ThiefOperative_47
+  - first:
+      213: 2681919858057811853
+    second: ThiefOperative_48
+  - first:
+      213: -8932254493483688676
+    second: ThiefOperative_49
+  - first:
+      213: -436796644042017313
+    second: ThiefOperative_50
+  - first:
+      213: 7085471519878524812
+    second: ThiefOperative_51
+  - first:
+      213: 1012916475238596712
+    second: ThiefOperative_52
+  - first:
+      213: -7875523869281360019
+    second: ThiefOperative_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThiefOperative_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 805
+        width: 289
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d99800b58e88730800000000000000
+      internalID: 4001703746467372395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1063
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7d4dbace458e8c0800000000000000
+      internalID: -3969829696055224334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1083
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9a28813943299e0800000000000000
+      internalID: -1616171509896533524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1077
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e100b7142104f960800000000000000
+      internalID: 7634728522827694561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 939
+        width: 87
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8498e1bc2085c40800000000000000
+      internalID: 5501150016246991048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1052
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5008e798e29c3e230800000000000000
+      internalID: 3666995723322163205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1059
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b299de328d0b30800000000000000
+      internalID: 4255200429384840098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1056
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc0aa867395142f0800000000000000
+      internalID: -990412348530750223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1051
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e9bb6839d51f590800000000000000
+      internalID: -7642224204469002602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1038
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1c51afcc8bc55d0800000000000000
+      internalID: -3072377655264951855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1037
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ce1cab02e05d70800000000000000
+      internalID: 9029965792638058619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 932
+        width: 20
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5b67240d0cef0e0800000000000000
+      internalID: -2234136364428380711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 828
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfd79f2c047ff1e0800000000000000
+      internalID: -2161881700427636772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b31e952de76fb50800000000000000
+      internalID: 6626623343638428457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 800
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89088c84fd431e20800000000000000
+      internalID: 3320083063027272079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 301
+        width: 535
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad13aadb84b30a10800000000000000
+      internalID: 1874540382677835178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 793
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004b71030e740e000800000000000000
+      internalID: 63129422988293120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 763
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1207985dbee076fe0800000000000000
+      internalID: -1195970769980919775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 800
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5224137ebd5faf4d0800000000000000
+      internalID: -3099895068665757147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea775b8db463a4f50800000000000000
+      internalID: 6866360281265960878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5714dcc66e081f0800000000000000
+      internalID: -1044581758575479378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 636
+        width: 41
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84dc141bae540960800000000000000
+      internalID: 7567277362759128205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 778
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e4e4f74a7435e0800000000000000
+      internalID: -1930783890765190815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 784
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a003f55cea4855d0800000000000000
+      internalID: -3073624366765637463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_24
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 621
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2beb9412dcee8000800000000000000
+      internalID: 40229833725963052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 619
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273a1513d6174d260800000000000000
+      internalID: 7121441624572404594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 185
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63740986d40a7a0800000000000000
+      internalID: -6368004761609357615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 184
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e262eecd5d16080800000000000000
+      internalID: -9195833819248841189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_28
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 246
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35eea2f2a82e5a3f0800000000000000
+      internalID: -890056268211098029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 162
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57df42a90678ddb00800000000000000
+      internalID: 854988353242987893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_30
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 185
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c406c537004bfc040800000000000000
+      internalID: 4670149252634927180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 186
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8067822705c7210800000000000000
+      internalID: 1332028041030142205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_32
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 185
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b572965d03ffacd60800000000000000
+      internalID: 7911416280633648987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_33
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 186
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a776b95a71549350800000000000000
+      internalID: 6022528187634186151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_34
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 185
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c4daf727f6aa600800000000000000
+      internalID: 480318847827397651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_35
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 184
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58f1d4af652f7c00800000000000000
+      internalID: 900479611934210142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 83
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5424a351a7d9930800000000000000
+      internalID: 4151608663095788989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 88
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca6db021d9e4ee90800000000000000
+      internalID: -6997210836620186938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28c3791d68fe7e70800000000000000
+      internalID: 9114995843306604591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0543143749b7ec870800000000000000
+      internalID: 8705031007272776784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6101d5b960d266630800000000000000
+      internalID: 3919870032072216598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_41
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9839875e522a1aee0800000000000000
+      internalID: -1251540937784913015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_42
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff446f2026748310800000000000000
+      internalID: 1406378864252571647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a479b0d58076c90800000000000000
+      internalID: -7176758285472151005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_44
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef31e099d86aaada0800000000000000
+      internalID: -5932746432018770946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_45
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acabe345bf8ae1e0800000000000000
+      internalID: -2167762261934101336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_46
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588741f3b9ea2a470800000000000000
+      internalID: 8404471836428236933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_47
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364d2b823e17d6280800000000000000
+      internalID: -9048450855863135133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_48
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d871a97c6e7183520800000000000000
+      internalID: 2681919858057811853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_49
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d94800dd14a0480800000000000000
+      internalID: -8932254493483688676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_50
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5fac834cf20f9f0800000000000000
+      internalID: -436796644042017313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fa1809ec6a45260800000000000000
+      internalID: 7085471519878524812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860ccb5ea2a9e0e00800000000000000
+      internalID: 1012916475238596712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefOperative_53
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 63
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67ef5764c484b290800000000000000
+      internalID: -7875523869281360019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThiefOperative_0: 4001703746467372395
+      ThiefOperative_1: -3969829696055224334
+      ThiefOperative_10: 9029965792638058619
+      ThiefOperative_11: -2234136364428380711
+      ThiefOperative_12: -2161881700427636772
+      ThiefOperative_13: 6626623343638428457
+      ThiefOperative_14: 3320083063027272079
+      ThiefOperative_15: 1874540382677835178
+      ThiefOperative_16: 63129422988293120
+      ThiefOperative_17: -1195970769980919775
+      ThiefOperative_18: -3099895068665757147
+      ThiefOperative_19: 6866360281265960878
+      ThiefOperative_2: -1616171509896533524
+      ThiefOperative_20: -1044581758575479378
+      ThiefOperative_21: 7567277362759128205
+      ThiefOperative_22: -1930783890765190815
+      ThiefOperative_23: -3073624366765637463
+      ThiefOperative_24: 40229833725963052
+      ThiefOperative_25: 7121441624572404594
+      ThiefOperative_26: -6368004761609357615
+      ThiefOperative_27: -9195833819248841189
+      ThiefOperative_28: -890056268211098029
+      ThiefOperative_29: 854988353242987893
+      ThiefOperative_3: 7634728522827694561
+      ThiefOperative_30: 4670149252634927180
+      ThiefOperative_31: 1332028041030142205
+      ThiefOperative_32: 7911416280633648987
+      ThiefOperative_33: 6022528187634186151
+      ThiefOperative_34: 480318847827397651
+      ThiefOperative_35: 900479611934210142
+      ThiefOperative_36: 4151608663095788989
+      ThiefOperative_37: -6997210836620186938
+      ThiefOperative_38: 9114995843306604591
+      ThiefOperative_39: 8705031007272776784
+      ThiefOperative_4: 5501150016246991048
+      ThiefOperative_40: 3919870032072216598
+      ThiefOperative_41: -1251540937784913015
+      ThiefOperative_42: 1406378864252571647
+      ThiefOperative_43: -7176758285472151005
+      ThiefOperative_44: -5932746432018770946
+      ThiefOperative_45: -2167762261934101336
+      ThiefOperative_46: 8404471836428236933
+      ThiefOperative_47: -9048450855863135133
+      ThiefOperative_48: 2681919858057811853
+      ThiefOperative_49: -8932254493483688676
+      ThiefOperative_5: 3666995723322163205
+      ThiefOperative_50: -436796644042017313
+      ThiefOperative_51: 7085471519878524812
+      ThiefOperative_52: 1012916475238596712
+      ThiefOperative_53: -7875523869281360019
+      ThiefOperative_6: 4255200429384840098
+      ThiefOperative_7: -990412348530750223
+      ThiefOperative_8: -7642224204469002602
+      ThiefOperative_9: -3072377655264951855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: bf43b739f67b946158af79eb61762b16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1223780348453969347
+    second: EngineerKingmaker_0
+  - first:
+      213: 6677429681289973122
+    second: EngineerKingmaker_1
+  - first:
+      213: 3233703672999592849
+    second: EngineerKingmaker_2
+  - first:
+      213: -8579801011108430241
+    second: EngineerKingmaker_3
+  - first:
+      213: 8099706221872530473
+    second: EngineerKingmaker_4
+  - first:
+      213: 5571404177184297715
+    second: EngineerKingmaker_5
+  - first:
+      213: 3905616425585973818
+    second: EngineerKingmaker_6
+  - first:
+      213: 7070467568309769774
+    second: EngineerKingmaker_7
+  - first:
+      213: 6406322803924521847
+    second: EngineerKingmaker_8
+  - first:
+      213: 489482088396326831
+    second: EngineerKingmaker_9
+  - first:
+      213: 6241157207967072655
+    second: EngineerKingmaker_10
+  - first:
+      213: -2735160706075710205
+    second: EngineerKingmaker_11
+  - first:
+      213: 4537534750292498296
+    second: EngineerKingmaker_12
+  - first:
+      213: 4428131875329423343
+    second: EngineerKingmaker_13
+  - first:
+      213: -6727981673903499474
+    second: EngineerKingmaker_14
+  - first:
+      213: -3399684514135296858
+    second: EngineerKingmaker_15
+  - first:
+      213: -598195068531915480
+    second: EngineerKingmaker_16
+  - first:
+      213: 4587525434582742513
+    second: EngineerKingmaker_17
+  - first:
+      213: -3877944784897566599
+    second: EngineerKingmaker_18
+  - first:
+      213: -1242788967699433137
+    second: EngineerKingmaker_19
+  - first:
+      213: -829363142567844923
+    second: EngineerKingmaker_20
+  - first:
+      213: 6853119495548670094
+    second: EngineerKingmaker_21
+  - first:
+      213: 2096390927402801109
+    second: EngineerKingmaker_22
+  - first:
+      213: 4779704344007632366
+    second: EngineerKingmaker_23
+  - first:
+      213: 3437697562564954310
+    second: EngineerKingmaker_24
+  - first:
+      213: 2907395854059728443
+    second: EngineerKingmaker_25
+  - first:
+      213: -1256038891056669458
+    second: EngineerKingmaker_26
+  - first:
+      213: -2645922945531996976
+    second: EngineerKingmaker_27
+  - first:
+      213: -274383445218744881
+    second: EngineerKingmaker_28
+  - first:
+      213: -4192134318640843862
+    second: EngineerKingmaker_29
+  - first:
+      213: -1459352164812785917
+    second: EngineerKingmaker_30
+  - first:
+      213: 8760682166631588785
+    second: EngineerKingmaker_31
+  - first:
+      213: 1352641256696177327
+    second: EngineerKingmaker_32
+  - first:
+      213: -1980252100458263683
+    second: EngineerKingmaker_33
+  - first:
+      213: 703057875588055792
+    second: EngineerKingmaker_34
+  - first:
+      213: 8680083969948168649
+    second: EngineerKingmaker_35
+  - first:
+      213: -4912491365043410657
+    second: EngineerKingmaker_36
+  - first:
+      213: -2494827963337224896
+    second: EngineerKingmaker_37
+  - first:
+      213: 7775488695024751331
+    second: EngineerKingmaker_38
+  - first:
+      213: -3274132364319527799
+    second: EngineerKingmaker_39
+  - first:
+      213: -2974595476981165847
+    second: EngineerKingmaker_40
+  - first:
+      213: -1666355118380284876
+    second: EngineerKingmaker_41
+  - first:
+      213: 8385704683611338689
+    second: EngineerKingmaker_42
+  - first:
+      213: 4701308951286436131
+    second: EngineerKingmaker_43
+  - first:
+      213: 602938926180062247
+    second: EngineerKingmaker_44
+  - first:
+      213: 9125735592201538152
+    second: EngineerKingmaker_45
+  - first:
+      213: 2111887067269871001
+    second: EngineerKingmaker_46
+  - first:
+      213: 1813338667202484393
+    second: EngineerKingmaker_47
+  - first:
+      213: 921697817078775928
+    second: EngineerKingmaker_48
+  - first:
+      213: -5575333359816916258
+    second: EngineerKingmaker_49
+  - first:
+      213: 3829168324638545077
+    second: EngineerKingmaker_50
+  - first:
+      213: 7478129449564470645
+    second: EngineerKingmaker_51
+  - first:
+      213: 3716087273173649510
+    second: EngineerKingmaker_52
+  - first:
+      213: -1718768132792952579
+    second: EngineerKingmaker_53
+  - first:
+      213: -3795057533632795487
+    second: EngineerKingmaker_54
+  - first:
+      213: -7949587485648152002
+    second: EngineerKingmaker_55
+  - first:
+      213: 2662746598716688120
+    second: EngineerKingmaker_56
+  - first:
+      213: 4686086153485892126
+    second: EngineerKingmaker_57
+  - first:
+      213: 5491127034328611769
+    second: EngineerKingmaker_58
+  - first:
+      213: 5187848818191417325
+    second: EngineerKingmaker_59
+  - first:
+      213: -3428569619320181455
+    second: EngineerKingmaker_60
+  - first:
+      213: -2122092555646967129
+    second: EngineerKingmaker_61
+  - first:
+      213: -2364465978826168606
+    second: EngineerKingmaker_62
+  - first:
+      213: 519194991329855937
+    second: EngineerKingmaker_63
+  - first:
+      213: 3963774702263990183
+    second: EngineerKingmaker_64
+  - first:
+      213: 7915223393802874089
+    second: EngineerKingmaker_65
+  - first:
+      213: 8615280766263491913
+    second: EngineerKingmaker_66
+  - first:
+      213: 7458185059836379415
+    second: EngineerKingmaker_67
+  - first:
+      213: 3719179898579840724
+    second: EngineerKingmaker_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EngineerKingmaker_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1109
+        width: 105
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdd3b83ebdbbf010800000000000000
+      internalID: 1223780348453969347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1112
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d40f5aaeefaac50800000000000000
+      internalID: 6677429681289973122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1107
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19344029b5c60ec20800000000000000
+      internalID: 3233703672999592849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1109
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e3859207c6ee880800000000000000
+      internalID: -8579801011108430241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1105
+        width: 72
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924cbbb05efe76070800000000000000
+      internalID: 8099706221872530473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1111
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29231a49a915d40800000000000000
+      internalID: 5571404177184297715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1097
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a9bfb3279833630800000000000000
+      internalID: 3905616425585973818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26160ddac85f1260800000000000000
+      internalID: 7070467568309769774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 299
+        width: 252
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773d764e5a4d7e850800000000000000
+      internalID: 6406322803924521847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1030
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa787c2bd5dfac600800000000000000
+      internalID: 489482088396326831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1001
+        width: 121
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f810f30e96b0d9650800000000000000
+      internalID: 6241157207967072655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1054
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d20ce44d1ca0ad0800000000000000
+      internalID: -2735160706075710205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1062
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877dc2380df88fe30800000000000000
+      internalID: 4537534750292498296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe73897ba72e37d30800000000000000
+      internalID: 4428131875329423343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27d4af505861a2a0800000000000000
+      internalID: -6727981673903499474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4b19a52f4e1d0d0800000000000000
+      internalID: -3399684514135296858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c3c921c8c2b7f0800000000000000
+      internalID: -598195068531915480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 299
+        width: 493
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5bf56b31a2aaf30800000000000000
+      internalID: 4587525434582742513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 978
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9781a9da3c5ce2ac0800000000000000
+      internalID: -3877944784897566599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 977
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f493089b40ab0cee0800000000000000
+      internalID: -1242788967699433137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c32171bd928d74f0800000000000000
+      internalID: -829363142567844923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e809b7f2fdb2b1f50800000000000000
+      internalID: 6853119495548670094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7123af070e71d10800000000000000
+      internalID: 2096390927402801109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee567f3e6cbe45240800000000000000
+      internalID: 4779704344007632366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c809ed28b725bf20800000000000000
+      internalID: 3437697562564954310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6cae0025295820800000000000000
+      internalID: 2907395854059728443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_26
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 576
+        width: 139
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecdd7a8847a19ee0800000000000000
+      internalID: -1256038891056669458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d49288891bc74bd0800000000000000
+      internalID: -2645922945531996976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc52d77d5b1313cf0800000000000000
+      internalID: -274383445218744881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa330be4c0c82d5c0800000000000000
+      internalID: -4192134318640843862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 802
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307f22620f65fbbe0800000000000000
+      internalID: -1459352164812785917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3ec24b302349970800000000000000
+      internalID: 8760682166631588785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2e9ed6e0c85c210800000000000000
+      internalID: 1352641256696177327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 771
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bc67ad43bb484e0800000000000000
+      internalID: -1980252100458263683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 750
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f287f2b963c1c900800000000000000
+      internalID: 703057875588055792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 730
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1b251b16ad57870800000000000000
+      internalID: 8680083969948168649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 705
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19e968812353dbb0800000000000000
+      internalID: -4912491365043410657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 708
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dc29d7f27906dd0800000000000000
+      internalID: -2494827963337224896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 656
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2140695c518eb60800000000000000
+      internalID: 7775488695024751331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 683
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cef1536f1ff82d0800000000000000
+      internalID: -3274132364319527799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 668
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0dd0c7c2d18b6d0800000000000000
+      internalID: -2974595476981165847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4340a4b39daefd8e0800000000000000
+      internalID: -1666355118380284876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 657
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7bbf9faf1006470800000000000000
+      internalID: 8385704683611338689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_43
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 656
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321dac425976e3140800000000000000
+      internalID: 4701308951286436131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 186
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724d73442c11e5800800000000000000
+      internalID: 602938926180062247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_45
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 248
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86acf4fbb2025ae70800000000000000
+      internalID: 9125735592201538152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_46
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 185
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995bc52391eee4d10800000000000000
+      internalID: 2111887067269871001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_47
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 186
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8951c09e54a2910800000000000000
+      internalID: 1813338667202484393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_48
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 185
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870cb3108478acc00800000000000000
+      internalID: 921697817078775928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 158
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed24abf39df60a2b0800000000000000
+      internalID: -5575333359816916258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_50
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 185
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4124fad40f32530800000000000000
+      internalID: 3829168324638545077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_51
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 184
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d7da11d17a7c760800000000000000
+      internalID: 7478129449564470645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_52
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 184
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6688ddfafa1329330800000000000000
+      internalID: 3716087273173649510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_53
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 185
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df85d995d75b528e0800000000000000
+      internalID: -1718768132792952579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_54
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aca5adb74f355bc0800000000000000
+      internalID: -3795057533632795487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 86
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a1d0fec446da190800000000000000
+      internalID: -7949587485648152002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f643677ce9f3f420800000000000000
+      internalID: 2662746598716688120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_57
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a37655782580140800000000000000
+      internalID: 4686086153485892126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb73b9c1f6643c40800000000000000
+      internalID: 5491127034328611769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_59
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defbab48301fef740800000000000000
+      internalID: 5187848818191417325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_60
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d69b8b8164b60d0800000000000000
+      internalID: -3428569619320181455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_61
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a269206010dc82e0800000000000000
+      internalID: -2122092555646967129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_62
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6e19048babf2fd0800000000000000
+      internalID: -2364465978826168606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_63
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9c063081d843700800000000000000
+      internalID: 519194991329855937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_64
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7ff1a3718220730800000000000000
+      internalID: 3963774702263990183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_65
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6b717db588dd60800000000000000
+      internalID: 7915223393802874089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_66
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94df3611630af8770800000000000000
+      internalID: 8615280766263491913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_67
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7114ca8fbcbc08760800000000000000
+      internalID: 7458185059836379415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerKingmaker_68
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deef96a96e2d9330800000000000000
+      internalID: 3719179898579840724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EngineerKingmaker_0: 1223780348453969347
+      EngineerKingmaker_1: 6677429681289973122
+      EngineerKingmaker_10: 6241157207967072655
+      EngineerKingmaker_11: -2735160706075710205
+      EngineerKingmaker_12: 4537534750292498296
+      EngineerKingmaker_13: 4428131875329423343
+      EngineerKingmaker_14: -6727981673903499474
+      EngineerKingmaker_15: -3399684514135296858
+      EngineerKingmaker_16: -598195068531915480
+      EngineerKingmaker_17: 4587525434582742513
+      EngineerKingmaker_18: -3877944784897566599
+      EngineerKingmaker_19: -1242788967699433137
+      EngineerKingmaker_2: 3233703672999592849
+      EngineerKingmaker_20: -829363142567844923
+      EngineerKingmaker_21: 6853119495548670094
+      EngineerKingmaker_22: 2096390927402801109
+      EngineerKingmaker_23: 4779704344007632366
+      EngineerKingmaker_24: 3437697562564954310
+      EngineerKingmaker_25: 2907395854059728443
+      EngineerKingmaker_26: -1256038891056669458
+      EngineerKingmaker_27: -2645922945531996976
+      EngineerKingmaker_28: -274383445218744881
+      EngineerKingmaker_29: -4192134318640843862
+      EngineerKingmaker_3: -8579801011108430241
+      EngineerKingmaker_30: -1459352164812785917
+      EngineerKingmaker_31: 8760682166631588785
+      EngineerKingmaker_32: 1352641256696177327
+      EngineerKingmaker_33: -1980252100458263683
+      EngineerKingmaker_34: 703057875588055792
+      EngineerKingmaker_35: 8680083969948168649
+      EngineerKingmaker_36: -4912491365043410657
+      EngineerKingmaker_37: -2494827963337224896
+      EngineerKingmaker_38: 7775488695024751331
+      EngineerKingmaker_39: -3274132364319527799
+      EngineerKingmaker_4: 8099706221872530473
+      EngineerKingmaker_40: -2974595476981165847
+      EngineerKingmaker_41: -1666355118380284876
+      EngineerKingmaker_42: 8385704683611338689
+      EngineerKingmaker_43: 4701308951286436131
+      EngineerKingmaker_44: 602938926180062247
+      EngineerKingmaker_45: 9125735592201538152
+      EngineerKingmaker_46: 2111887067269871001
+      EngineerKingmaker_47: 1813338667202484393
+      EngineerKingmaker_48: 921697817078775928
+      EngineerKingmaker_49: -5575333359816916258
+      EngineerKingmaker_5: 5571404177184297715
+      EngineerKingmaker_50: 3829168324638545077
+      EngineerKingmaker_51: 7478129449564470645
+      EngineerKingmaker_52: 3716087273173649510
+      EngineerKingmaker_53: -1718768132792952579
+      EngineerKingmaker_54: -3795057533632795487
+      EngineerKingmaker_55: -7949587485648152002
+      EngineerKingmaker_56: 2662746598716688120
+      EngineerKingmaker_57: 4686086153485892126
+      EngineerKingmaker_58: 5491127034328611769
+      EngineerKingmaker_59: 5187848818191417325
+      EngineerKingmaker_6: 3905616425585973818
+      EngineerKingmaker_60: -3428569619320181455
+      EngineerKingmaker_61: -2122092555646967129
+      EngineerKingmaker_62: -2364465978826168606
+      EngineerKingmaker_63: 519194991329855937
+      EngineerKingmaker_64: 3963774702263990183
+      EngineerKingmaker_65: 7915223393802874089
+      EngineerKingmaker_66: 8615280766263491913
+      EngineerKingmaker_67: 7458185059836379415
+      EngineerKingmaker_68: 3719179898579840724
+      EngineerKingmaker_7: 7070467568309769774
+      EngineerKingmaker_8: 6406322803924521847
+      EngineerKingmaker_9: 489482088396326831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

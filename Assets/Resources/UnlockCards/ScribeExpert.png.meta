@@ -68,6 +68,69 @@ TextureImporter:
   - first:
       213: -2303280120370529024
     second: ScribeExpert_21
+  - first:
+      213: 8967287333502764045
+    second: ScribeExpert_22
+  - first:
+      213: 8704039831206958404
+    second: ScribeExpert_23
+  - first:
+      213: -9026216517343736214
+    second: ScribeExpert_24
+  - first:
+      213: 1826853758703805713
+    second: ScribeExpert_25
+  - first:
+      213: -6701370633446492764
+    second: ScribeExpert_26
+  - first:
+      213: -1117191309521734937
+    second: ScribeExpert_27
+  - first:
+      213: -3581310497308430998
+    second: ScribeExpert_28
+  - first:
+      213: -3137772474973456090
+    second: ScribeExpert_29
+  - first:
+      213: -9081513743168953433
+    second: ScribeExpert_30
+  - first:
+      213: 4169454550675151112
+    second: ScribeExpert_31
+  - first:
+      213: 5267803405243873127
+    second: ScribeExpert_32
+  - first:
+      213: -2348477855308768676
+    second: ScribeExpert_33
+  - first:
+      213: 8429468874187158690
+    second: ScribeExpert_34
+  - first:
+      213: -1422979537281319592
+    second: ScribeExpert_35
+  - first:
+      213: -5466281077452469188
+    second: ScribeExpert_36
+  - first:
+      213: 7368033366350455657
+    second: ScribeExpert_37
+  - first:
+      213: -5618310370705532380
+    second: ScribeExpert_38
+  - first:
+      213: -376852412861215661
+    second: ScribeExpert_39
+  - first:
+      213: -8670441177116056363
+    second: ScribeExpert_40
+  - first:
+      213: 1400224008476921466
+    second: ScribeExpert_41
+  - first:
+      213: -7476372299560615830
+    second: ScribeExpert_42
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -193,9 +256,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13
-        y: 697
-        width: 357
-        height: 414
+        y: 666
+        width: 312
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +277,10 @@ TextureImporter:
       name: ScribeExpert_1
       rect:
         serializedVersion: 2
-        x: 246
-        y: 308
-        width: 368
-        height: 640
+        x: 353
+        y: 1024
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +299,10 @@ TextureImporter:
       name: ScribeExpert_2
       rect:
         serializedVersion: 2
-        x: 366
-        y: 947
-        width: 6
-        height: 7
+        x: 357
+        y: 1034
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +321,10 @@ TextureImporter:
       name: ScribeExpert_3
       rect:
         serializedVersion: 2
-        x: 235
-        y: 812
-        width: 48
-        height: 35
+        x: 394
+        y: 1003
+        width: 25
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +343,10 @@ TextureImporter:
       name: ScribeExpert_4
       rect:
         serializedVersion: 2
-        x: 244
-        y: 805
-        width: 6
-        height: 7
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +365,10 @@ TextureImporter:
       name: ScribeExpert_5
       rect:
         serializedVersion: 2
-        x: 239
-        y: 784
-        width: 7
-        height: 6
+        x: 178
+        y: 309
+        width: 481
+        height: 702
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +387,10 @@ TextureImporter:
       name: ScribeExpert_6
       rect:
         serializedVersion: 2
-        x: 190
-        y: 777
-        width: 7
-        height: 6
+        x: 354
+        y: 1011
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,9 +409,9 @@ TextureImporter:
       name: ScribeExpert_7
       rect:
         serializedVersion: 2
-        x: 180
-        y: 689
-        width: 7
+        x: 20
+        y: 909
+        width: 9
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -368,10 +431,10 @@ TextureImporter:
       name: ScribeExpert_8
       rect:
         serializedVersion: 2
-        x: 282
-        y: 215
-        width: 59
-        height: 63
+        x: 30
+        y: 889
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +453,10 @@ TextureImporter:
       name: ScribeExpert_9
       rect:
         serializedVersion: 2
-        x: 341
-        y: 215
-        width: 51
-        height: 39
+        x: 38
+        y: 869
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +475,10 @@ TextureImporter:
       name: ScribeExpert_10
       rect:
         serializedVersion: 2
-        x: 391
-        y: 193
-        width: 55
-        height: 63
+        x: 49
+        y: 864
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +497,10 @@ TextureImporter:
       name: ScribeExpert_11
       rect:
         serializedVersion: 2
-        x: 451
-        y: 213
-        width: 43
-        height: 43
+        x: 88
+        y: 816
+        width: 15
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +519,10 @@ TextureImporter:
       name: ScribeExpert_12
       rect:
         serializedVersion: 2
-        x: 497
-        y: 215
-        width: 43
-        height: 41
+        x: 90
+        y: 813
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +541,10 @@ TextureImporter:
       name: ScribeExpert_13
       rect:
         serializedVersion: 2
-        x: 539
-        y: 213
-        width: 35
-        height: 54
+        x: 110
+        y: 809
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,10 +563,10 @@ TextureImporter:
       name: ScribeExpert_14
       rect:
         serializedVersion: 2
-        x: 127
-        y: 97
-        width: 58
-        height: 57
+        x: 137
+        y: 779
+        width: 96
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,10 +585,10 @@ TextureImporter:
       name: ScribeExpert_15
       rect:
         serializedVersion: 2
-        x: 190
-        y: 90
-        width: 48
-        height: 72
+        x: 93
+        y: 803
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +607,10 @@ TextureImporter:
       name: ScribeExpert_16
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 100
+        y: 796
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,10 +629,10 @@ TextureImporter:
       name: ScribeExpert_17
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 104
+        y: 771
+        width: 35
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +651,10 @@ TextureImporter:
       name: ScribeExpert_18
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 115
+        y: 723
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +673,10 @@ TextureImporter:
       name: ScribeExpert_19
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 169
+        y: 663
+        width: 34
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +695,10 @@ TextureImporter:
       name: ScribeExpert_20
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 189
+        y: 697
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,6 +717,468 @@ TextureImporter:
       name: ScribeExpert_21
       rect:
         serializedVersion: 2
+        x: 189
+        y: 692
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d781f0fea1900e0800000000000000
+      internalID: -2303280120370529024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04ca40b154327c70800000000000000
+      internalID: 8967287333502764045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 660
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44511f94c16fac870800000000000000
+      internalID: 8704039831206958404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 475
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e86f186ef6cb280800000000000000
+      internalID: -9026216517343736214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 472
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115a02080d94a5910800000000000000
+      internalID: 1826853758703805713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 470
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5ff2d0ae2fff2a0800000000000000
+      internalID: -6701370633446492764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2bdc15c60fe70f0800000000000000
+      internalID: -1117191309521734937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 396
+        width: 157
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6dad89c311ac4ec0800000000000000
+      internalID: -3581310497308430998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 215
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62975330f846474d0800000000000000
+      internalID: -3137772474973456090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_30
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 215
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a32693dd5bf7f180800000000000000
+      internalID: -9081513743168953433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809d028b2d0ecd930800000000000000
+      internalID: 4169454550675151112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_32
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767772c794ffa1940800000000000000
+      internalID: 5267803405243873127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_33
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 215
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a137755d7886fd0800000000000000
+      internalID: -2348477855308768676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_34
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 213
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a43323a74d7bf470800000000000000
+      internalID: 8429468874187158690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 97
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d72bd66af804ce0800000000000000
+      internalID: -1422979537281319592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_36
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c8108525ed324b0800000000000000
+      internalID: -5466281077452469188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_37
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9636b862f43804660800000000000000
+      internalID: 7368033366350455657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_38
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a14342c70c702b0800000000000000
+      internalID: -5618310370705532380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c88a62ab625caf0800000000000000
+      internalID: -376852412861215661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_40
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4e318ffa76ca780800000000000000
+      internalID: -8670441177116056363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_41
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e8d3721589e6310800000000000000
+      internalID: 1400224008476921466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeExpert_42
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -666,8 +1191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00d781f0fea1900e0800000000000000
-      internalID: -2303280120370529024
+      spriteID: a608e1c41079e3890800000000000000
+      internalID: -7476372299560615830
       vertices: []
       indices: 
       edges: []
@@ -701,8 +1226,29 @@ TextureImporter:
       ScribeExpert_2: 8502290186897484261
       ScribeExpert_20: 3911881618220262182
       ScribeExpert_21: -2303280120370529024
+      ScribeExpert_22: 8967287333502764045
+      ScribeExpert_23: 8704039831206958404
+      ScribeExpert_24: -9026216517343736214
+      ScribeExpert_25: 1826853758703805713
+      ScribeExpert_26: -6701370633446492764
+      ScribeExpert_27: -1117191309521734937
+      ScribeExpert_28: -3581310497308430998
+      ScribeExpert_29: -3137772474973456090
       ScribeExpert_3: 670544130901942177
+      ScribeExpert_30: -9081513743168953433
+      ScribeExpert_31: 4169454550675151112
+      ScribeExpert_32: 5267803405243873127
+      ScribeExpert_33: -2348477855308768676
+      ScribeExpert_34: 8429468874187158690
+      ScribeExpert_35: -1422979537281319592
+      ScribeExpert_36: -5466281077452469188
+      ScribeExpert_37: 7368033366350455657
+      ScribeExpert_38: -5618310370705532380
+      ScribeExpert_39: -376852412861215661
       ScribeExpert_4: 2200880378977869676
+      ScribeExpert_40: -8670441177116056363
+      ScribeExpert_41: 1400224008476921466
+      ScribeExpert_42: -7476372299560615830
       ScribeExpert_5: -3222744170013290059
       ScribeExpert_6: -5786300678777740902
       ScribeExpert_7: 8244856592072206588

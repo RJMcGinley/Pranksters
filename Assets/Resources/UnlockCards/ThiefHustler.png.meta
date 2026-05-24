@@ -86,6 +86,84 @@ TextureImporter:
   - first:
       213: -7657637867791717632
     second: ThiefHustler_27
+  - first:
+      213: 3689934481967406538
+    second: ThiefHustler_28
+  - first:
+      213: 4951150944748805036
+    second: ThiefHustler_29
+  - first:
+      213: -894329654194004850
+    second: ThiefHustler_30
+  - first:
+      213: 6744050789096966530
+    second: ThiefHustler_31
+  - first:
+      213: -4815040780915495299
+    second: ThiefHustler_32
+  - first:
+      213: -3970657273258131351
+    second: ThiefHustler_33
+  - first:
+      213: -7004483164758370095
+    second: ThiefHustler_34
+  - first:
+      213: 3655573614455714
+    second: ThiefHustler_35
+  - first:
+      213: -3134827631029809339
+    second: ThiefHustler_36
+  - first:
+      213: 4253821224606094069
+    second: ThiefHustler_37
+  - first:
+      213: 1129060902482028609
+    second: ThiefHustler_38
+  - first:
+      213: 2728752035828672650
+    second: ThiefHustler_39
+  - first:
+      213: 4191066701343428965
+    second: ThiefHustler_40
+  - first:
+      213: 8016753336429327336
+    second: ThiefHustler_41
+  - first:
+      213: 5880696601823643646
+    second: ThiefHustler_42
+  - first:
+      213: -746293350445680662
+    second: ThiefHustler_43
+  - first:
+      213: 1808036880366217174
+    second: ThiefHustler_44
+  - first:
+      213: -5439667683266485230
+    second: ThiefHustler_45
+  - first:
+      213: -3906204481784828236
+    second: ThiefHustler_46
+  - first:
+      213: -8780020285284863858
+    second: ThiefHustler_47
+  - first:
+      213: 471560570019038694
+    second: ThiefHustler_48
+  - first:
+      213: -5788715182323933555
+    second: ThiefHustler_49
+  - first:
+      213: -6432580864476839836
+    second: ThiefHustler_50
+  - first:
+      213: 6137864666855034616
+    second: ThiefHustler_51
+  - first:
+      213: -2806967299345106599
+    second: ThiefHustler_52
+  - first:
+      213: -1443655355360275576
+    second: ThiefHustler_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -211,9 +289,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 695
-        width: 370
-        height: 414
+        y: 805
+        width: 289
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +310,10 @@ TextureImporter:
       name: ThiefHustler_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 816
-        width: 13
-        height: 9
+        x: 42
+        y: 1063
+        width: 41
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +332,10 @@ TextureImporter:
       name: ThiefHustler_2
       rect:
         serializedVersion: 2
-        x: 159
-        y: 310
-        width: 574
-        height: 638
+        x: 84
+        y: 1083
+        width: 46
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +354,10 @@ TextureImporter:
       name: ThiefHustler_3
       rect:
         serializedVersion: 2
-        x: 231
-        y: 210
-        width: 93
-        height: 78
+        x: 225
+        y: 1077
+        width: 25
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +376,10 @@ TextureImporter:
       name: ThiefHustler_4
       rect:
         serializedVersion: 2
-        x: 326
-        y: 208
-        width: 68
-        height: 51
+        x: 249
+        y: 939
+        width: 87
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +398,10 @@ TextureImporter:
       name: ThiefHustler_5
       rect:
         serializedVersion: 2
-        x: 396
-        y: 208
-        width: 50
-        height: 52
+        x: 40
+        y: 1052
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +420,10 @@ TextureImporter:
       name: ThiefHustler_6
       rect:
         serializedVersion: 2
-        x: 449
-        y: 208
-        width: 77
-        height: 82
+        x: 41
+        y: 1059
+        width: 12
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +442,10 @@ TextureImporter:
       name: ThiefHustler_7
       rect:
         serializedVersion: 2
-        x: 529
-        y: 208
-        width: 53
-        height: 52
+        x: 49
+        y: 1056
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +464,10 @@ TextureImporter:
       name: ThiefHustler_8
       rect:
         serializedVersion: 2
-        x: 586
-        y: 210
-        width: 54
-        height: 50
+        x: 49
+        y: 1051
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +486,10 @@ TextureImporter:
       name: ThiefHustler_9
       rect:
         serializedVersion: 2
-        x: 50
-        y: 133
-        width: 57
-        height: 55
+        x: 340
+        y: 1038
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +508,10 @@ TextureImporter:
       name: ThiefHustler_10
       rect:
         serializedVersion: 2
-        x: 117
-        y: 128
-        width: 37
-        height: 68
+        x: 293
+        y: 1037
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +530,10 @@ TextureImporter:
       name: ThiefHustler_11
       rect:
         serializedVersion: 2
-        x: 165
-        y: 124
-        width: 135
-        height: 62
+        x: 345
+        y: 932
+        width: 20
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +552,10 @@ TextureImporter:
       name: ThiefHustler_12
       rect:
         serializedVersion: 2
-        x: 312
-        y: 130
-        width: 99
-        height: 46
+        x: 0
+        y: 828
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +574,10 @@ TextureImporter:
       name: ThiefHustler_13
       rect:
         serializedVersion: 2
-        x: 495
-        y: 131
-        width: 48
-        height: 44
+        x: 0
+        y: 796
+        width: 9
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +596,10 @@ TextureImporter:
       name: ThiefHustler_14
       rect:
         serializedVersion: 2
-        x: 548
-        y: 161
-        width: 14
-        height: 15
+        x: 37
+        y: 800
+        width: 19
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +618,10 @@ TextureImporter:
       name: ThiefHustler_15
       rect:
         serializedVersion: 2
-        x: 689
-        y: 130
-        width: 38
-        height: 46
+        x: 163
+        y: 301
+        width: 535
+        height: 638
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +640,10 @@ TextureImporter:
       name: ThiefHustler_16
       rect:
         serializedVersion: 2
-        x: 759
-        y: 130
-        width: 38
-        height: 46
+        x: 37
+        y: 793
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +662,10 @@ TextureImporter:
       name: ThiefHustler_17
       rect:
         serializedVersion: 2
-        x: 411
-        y: 130
-        width: 31
-        height: 30
+        x: 87
+        y: 763
+        width: 23
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +684,10 @@ TextureImporter:
       name: ThiefHustler_18
       rect:
         serializedVersion: 2
-        x: 441
-        y: 131
-        width: 40
-        height: 29
+        x: 105
+        y: 800
+        width: 9
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +706,10 @@ TextureImporter:
       name: ThiefHustler_19
       rect:
         serializedVersion: 2
-        x: 544
-        y: 131
-        width: 22
-        height: 29
+        x: 0
+        y: 777
+        width: 8
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,10 +728,10 @@ TextureImporter:
       name: ThiefHustler_20
       rect:
         serializedVersion: 2
-        x: 566
-        y: 130
-        width: 29
-        height: 30
+        x: 0
+        y: 767
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +750,10 @@ TextureImporter:
       name: ThiefHustler_21
       rect:
         serializedVersion: 2
-        x: 595
-        y: 130
-        width: 30
-        height: 30
+        x: 34
+        y: 636
+        width: 41
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +772,10 @@ TextureImporter:
       name: ThiefHustler_22
       rect:
         serializedVersion: 2
-        x: 626
-        y: 130
-        width: 35
-        height: 30
+        x: 36
+        y: 778
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +794,10 @@ TextureImporter:
       name: ThiefHustler_23
       rect:
         serializedVersion: 2
-        x: 660
-        y: 131
-        width: 31
-        height: 29
+        x: 37
+        y: 784
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +816,10 @@ TextureImporter:
       name: ThiefHustler_24
       rect:
         serializedVersion: 2
-        x: 727
-        y: 130
-        width: 31
-        height: 30
+        x: 115
+        y: 621
+        width: 35
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +838,10 @@ TextureImporter:
       name: ThiefHustler_25
       rect:
         serializedVersion: 2
-        x: 94
-        y: 54
-        width: 64
-        height: 27
+        x: 153
+        y: 619
+        width: 12
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,10 +860,10 @@ TextureImporter:
       name: ThiefHustler_26
       rect:
         serializedVersion: 2
-        x: 127
-        y: 78
-        width: 6
-        height: 6
+        x: 231
+        y: 210
+        width: 93
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,6 +882,578 @@ TextureImporter:
       name: ThiefHustler_27
       rect:
         serializedVersion: 2
+        x: 326
+        y: 208
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00be1bf5eea9ab590800000000000000
+      internalID: -7657637867791717632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 208
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdd12a7cd7453330800000000000000
+      internalID: 3689934481967406538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_29
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 208
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab971b4d8506b440800000000000000
+      internalID: 4951150944748805036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 208
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c1ba9fae3b693f0800000000000000
+      internalID: -894329654194004850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_31
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 210
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289415f067ea79d50800000000000000
+      internalID: 6744050789096966530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 133
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e2382cbe98d2db0800000000000000
+      internalID: -4815040780915495299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960c0a65f3465e8c0800000000000000
+      internalID: -3970657273258131351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 126
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d89f594ca31bce90800000000000000
+      internalID: -7004483164758370095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_35
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 141
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab6dbe89bcfc0000800000000000000
+      internalID: 3655573614455714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_36
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 140
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f836ce0eade74d0800000000000000
+      internalID: -3134827631029809339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2d9a6bddb980b30800000000000000
+      internalID: 4253821224606094069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_38
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 140
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482936a8ea3baf00800000000000000
+      internalID: 1129060902482028609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_39
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8821bfd4897ed520800000000000000
+      internalID: 2728752035828672650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_40
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 141
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5611b8ba5f8a92a30800000000000000
+      internalID: 4191066701343428965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_41
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e33cc55faa314f60800000000000000
+      internalID: 8016753336429327336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_42
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef78b8fe66e6c9150800000000000000
+      internalID: 5880696601823643646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_43
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7f27cd622a4a5f0800000000000000
+      internalID: -746293350445680662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 141
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7a80b96ff671910800000000000000
+      internalID: 1808036880366217174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_45
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 140
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214aaba001b6284b0800000000000000
+      internalID: -5439667683266485230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_46
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 140
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2d2348bf5ac9c0800000000000000
+      internalID: -3906204481784828236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_47
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e803fdea11a172680800000000000000
+      internalID: -8780020285284863858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_48
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 140
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c01a07d15b8600800000000000000
+      internalID: 471560570019038694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_49
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 141
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8edbab263a5aafa0800000000000000
+      internalID: -5788715182323933555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_50
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 140
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46002e7f8c1eab6a0800000000000000
+      internalID: -6432580864476839836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fec05b05631e2550800000000000000
+      internalID: 6137864666855034616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959b56afc16ab09d0800000000000000
+      internalID: -2806967299345106599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefHustler_53
+      rect:
+        serializedVersion: 2
         x: 88
         y: 63
         width: 13
@@ -816,8 +1466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00be1bf5eea9ab590800000000000000
-      internalID: -7657637867791717632
+      spriteID: 88319a56a1b17fbe0800000000000000
+      internalID: -1443655355360275576
       vertices: []
       indices: 
       edges: []
@@ -857,9 +1507,35 @@ TextureImporter:
       ThiefHustler_25: 4684214503037292841
       ThiefHustler_26: -7980563534427324742
       ThiefHustler_27: -7657637867791717632
+      ThiefHustler_28: 3689934481967406538
+      ThiefHustler_29: 4951150944748805036
       ThiefHustler_3: -6448066018283532783
+      ThiefHustler_30: -894329654194004850
+      ThiefHustler_31: 6744050789096966530
+      ThiefHustler_32: -4815040780915495299
+      ThiefHustler_33: -3970657273258131351
+      ThiefHustler_34: -7004483164758370095
+      ThiefHustler_35: 3655573614455714
+      ThiefHustler_36: -3134827631029809339
+      ThiefHustler_37: 4253821224606094069
+      ThiefHustler_38: 1129060902482028609
+      ThiefHustler_39: 2728752035828672650
       ThiefHustler_4: -8314765871607073447
+      ThiefHustler_40: 4191066701343428965
+      ThiefHustler_41: 8016753336429327336
+      ThiefHustler_42: 5880696601823643646
+      ThiefHustler_43: -746293350445680662
+      ThiefHustler_44: 1808036880366217174
+      ThiefHustler_45: -5439667683266485230
+      ThiefHustler_46: -3906204481784828236
+      ThiefHustler_47: -8780020285284863858
+      ThiefHustler_48: 471560570019038694
+      ThiefHustler_49: -5788715182323933555
       ThiefHustler_5: 8471834783670484062
+      ThiefHustler_50: -6432580864476839836
+      ThiefHustler_51: 6137864666855034616
+      ThiefHustler_52: -2806967299345106599
+      ThiefHustler_53: -1443655355360275576
       ThiefHustler_6: -6607024262161077208
       ThiefHustler_7: 3451230674041543819
       ThiefHustler_8: -1483636202457815682

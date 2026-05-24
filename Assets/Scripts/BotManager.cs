@@ -1054,9 +1054,9 @@ bool IsFavorRewardCard(PranksterDeckEntry card)
 
     string categoryName = card.category.ToString();
 
-    return categoryName == "Assistant" ||
-           categoryName == "Strategist" ||
-           categoryName == "Advisor";
+    return categoryName == "Courier" ||
+           categoryName == "Operative" ||
+           categoryName == "Kingmaker";
 }
 
 int GetDiscardRewardScore(PranksterDeckEntry card)
@@ -1137,16 +1137,16 @@ string GetBotCardDisplayName(PranksterDeckEntry card)
         upgradeName = PranksterSpriteDatabase.GetTierTitle(card.tier);
     }
     else if (categoryName == "FavorOffer" ||
-             categoryName == "Assistant" ||
-             categoryName == "Strategist" ||
-             categoryName == "Advisor")
+             categoryName == "Courier" ||
+             categoryName == "Operative" ||
+             categoryName == "Kingmaker")
     {
         upgradeName = PranksterSpriteDatabase.GetFavorTierTitle(card.tier);
     }
     else if (categoryName == "Discard" ||
              categoryName == "Hustler" ||
              categoryName == "Opportunist" ||
-             categoryName == "Manipulator" ||
+             categoryName == "Specialist" ||
              categoryName == "Plotter" ||
              categoryName == "Schemer")
     {

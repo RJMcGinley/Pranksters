@@ -129,15 +129,15 @@ public class PranksterSpriteDatabase : MonoBehaviour
 
         if (category == PranksterUnlockCategory.FavorOffer)
         {
-            if (tier == 1) suffix = "Assistant";
-            else if (tier == 2) suffix = "Strategist";
-            else if (tier == 3) suffix = "Advisor";
+            if (tier == 1) suffix = "Courier";
+            else if (tier == 2) suffix = "Operative";
+            else if (tier == 3) suffix = "Kingmaker";
         }
-        else if (category == PranksterUnlockCategory.Discard)
+        else if (category == PranksterUnlockCategory.AvailableService)
         {
             if (tier == 1) suffix = "Hustler";
             else if (tier == 2) suffix = "Opportunist";
-            else if (tier == 3) suffix = "Manipulator";
+            else if (tier == 3) suffix = "Specialist";
         }
         else // PrankCompletion
         {
@@ -174,9 +174,9 @@ public static string GetTierFlavorText(int tier)
 {
     switch (tier)
     {
-        case 1: return "+1 Prank points when used to complete a prank";
-        case 2: return "+3 Prank points when used to complete a prank";
-        case 3: return "+5 Prank points when used to complete a prank";
+        case 1: return "+1 Mischief when used to complete a prank";
+        case 2: return "+3 Mischief when used to complete a prank";
+        case 3: return "+5 Mischief when used to complete a prank";
         default: return "";
     }
 }
@@ -185,9 +185,9 @@ public static string GetFavorTierTitle(int tier)
 {
     switch (tier)
     {
-        case 1: return "Assistant";
-        case 2: return "Strategist";
-        case 3: return "Advisor";
+        case 1: return "Courier";
+        case 2: return "Operative";
+        case 3: return "Kingmaker";
         default: return "Base";
     }
 }
@@ -196,9 +196,9 @@ public static string GetFavorTierFlavorText(int tier)
 {
     switch (tier)
     {
-        case 1: return "+1 Favor point when offered as favor";
-        case 2: return "+3 Favor points when offered as favor";
-        case 3: return "+5 Favor points when offered as favor";
+        case 1: return "+1 Influence when recruit is Outsourced";
+        case 2: return "+2 Influence when recruit is Outsourced";
+        case 3: return "+4 Influence when recruit is Outsourced";
         default: return "";
     }
 }
@@ -209,7 +209,7 @@ public static string GetDiscardTierTitle(int tier)
     {
         case 1: return "Hustler";
         case 2: return "Opportunist";
-        case 3: return "Manipulator";
+        case 3: return "Specialist";
         default: return "Base";
     }
 }
@@ -218,9 +218,9 @@ public static string GetDiscardTierFlavorText(int tier)
 {
     switch (tier)
     {
-        case 1: return "+1 Favor point when discarded";
-        case 2: return "+1 Favor point and +1 Prank point when discarded";
-        case 3: return "+2 Favor points and +2 Prank points when discarded";
+        case 1: return "+1 Influence when used for a service action";
+        case 2: return "+1 Influence and +1 Mischief when used for a service action";
+        case 3: return "+2 Influence and +2 Mischief when used for a service action";
         default: return "";
     }
 }

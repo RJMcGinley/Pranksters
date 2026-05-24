@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: 1c53e6ed9562a4f2d9aaad4e281221d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3146478811798996483
+    second: LaborerSpecialist_0
+  - first:
+      213: 6603205366459883834
+    second: LaborerSpecialist_1
+  - first:
+      213: -440966041503614510
+    second: LaborerSpecialist_2
+  - first:
+      213: 5192894855003131347
+    second: LaborerSpecialist_3
+  - first:
+      213: -4086405015636821081
+    second: LaborerSpecialist_4
+  - first:
+      213: -4493957138083955396
+    second: LaborerSpecialist_5
+  - first:
+      213: 6347119920500794771
+    second: LaborerSpecialist_6
+  - first:
+      213: -5479778690364239886
+    second: LaborerSpecialist_7
+  - first:
+      213: -6452862882478068026
+    second: LaborerSpecialist_8
+  - first:
+      213: 2328600639706843472
+    second: LaborerSpecialist_9
+  - first:
+      213: -3972087316994251953
+    second: LaborerSpecialist_10
+  - first:
+      213: -5327757843924136189
+    second: LaborerSpecialist_11
+  - first:
+      213: 7488237903021336822
+    second: LaborerSpecialist_12
+  - first:
+      213: -9170168761176562370
+    second: LaborerSpecialist_13
+  - first:
+      213: -7314316316440094085
+    second: LaborerSpecialist_14
+  - first:
+      213: 8398353695902588676
+    second: LaborerSpecialist_15
+  - first:
+      213: 3917575829497875903
+    second: LaborerSpecialist_16
+  - first:
+      213: 2654900802162748924
+    second: LaborerSpecialist_17
+  - first:
+      213: 2149889415019571160
+    second: LaborerSpecialist_18
+  - first:
+      213: 1173689201978886777
+    second: LaborerSpecialist_19
+  - first:
+      213: -2664572260626291094
+    second: LaborerSpecialist_20
+  - first:
+      213: -1229170797482241924
+    second: LaborerSpecialist_21
+  - first:
+      213: -292000584688074224
+    second: LaborerSpecialist_22
+  - first:
+      213: 1651085015319351412
+    second: LaborerSpecialist_23
+  - first:
+      213: 5743826639535732572
+    second: LaborerSpecialist_24
+  - first:
+      213: 5326186865761591744
+    second: LaborerSpecialist_25
+  - first:
+      213: -7492857943944569169
+    second: LaborerSpecialist_26
+  - first:
+      213: 8602382965352019338
+    second: LaborerSpecialist_27
+  - first:
+      213: -4419843334308483180
+    second: LaborerSpecialist_28
+  - first:
+      213: -3639450685861668707
+    second: LaborerSpecialist_29
+  - first:
+      213: 1992992074248476780
+    second: LaborerSpecialist_30
+  - first:
+      213: 8549456613614590040
+    second: LaborerSpecialist_31
+  - first:
+      213: 6238579043450402124
+    second: LaborerSpecialist_32
+  - first:
+      213: 4874602640908519938
+    second: LaborerSpecialist_33
+  - first:
+      213: 1365256369315312838
+    second: LaborerSpecialist_34
+  - first:
+      213: 3571640994583377837
+    second: LaborerSpecialist_35
+  - first:
+      213: 2438034469396380919
+    second: LaborerSpecialist_36
+  - first:
+      213: 7722836868326734074
+    second: LaborerSpecialist_37
+  - first:
+      213: 4237836622278444439
+    second: LaborerSpecialist_38
+  - first:
+      213: -8050669741440003741
+    second: LaborerSpecialist_39
+  - first:
+      213: -5279427990023739558
+    second: LaborerSpecialist_40
+  - first:
+      213: -2915582973187246349
+    second: LaborerSpecialist_41
+  - first:
+      213: -7807752323197956774
+    second: LaborerSpecialist_42
+  - first:
+      213: -1065521922398631533
+    second: LaborerSpecialist_43
+  - first:
+      213: -6873652932481957984
+    second: LaborerSpecialist_44
+  - first:
+      213: -6745723785697264960
+    second: LaborerSpecialist_45
+  - first:
+      213: 6035601022039654167
+    second: LaborerSpecialist_46
+  - first:
+      213: -5059526962332023555
+    second: LaborerSpecialist_47
+  - first:
+      213: -6225508960957242655
+    second: LaborerSpecialist_48
+  - first:
+      213: 1018837550604652565
+    second: LaborerSpecialist_49
+  - first:
+      213: 1824154336079725870
+    second: LaborerSpecialist_50
+  - first:
+      213: 6399689387151507896
+    second: LaborerSpecialist_51
+  - first:
+      213: -9018375070893943083
+    second: LaborerSpecialist_52
+  - first:
+      213: 5185111042616886595
+    second: LaborerSpecialist_53
+  - first:
+      213: 8957945585796090832
+    second: LaborerSpecialist_54
+  - first:
+      213: 1219304102007640995
+    second: LaborerSpecialist_55
+  - first:
+      213: 3694535651601328959
+    second: LaborerSpecialist_56
+  - first:
+      213: 2928008064735456486
+    second: LaborerSpecialist_57
+  - first:
+      213: -2501274841943128139
+    second: LaborerSpecialist_58
+  - first:
+      213: 1117884420497788863
+    second: LaborerSpecialist_59
+  - first:
+      213: -7789619824901344799
+    second: LaborerSpecialist_60
+  - first:
+      213: 2959196610973338653
+    second: LaborerSpecialist_61
+  - first:
+      213: -9193745078254605212
+    second: LaborerSpecialist_62
+  - first:
+      213: -3820024626982185514
+    second: LaborerSpecialist_63
+  - first:
+      213: -8431618793988579066
+    second: LaborerSpecialist_64
+  - first:
+      213: -6922505425154987580
+    second: LaborerSpecialist_65
+  - first:
+      213: 9068729086351076154
+    second: LaborerSpecialist_66
+  - first:
+      213: -2690879020140191617
+    second: LaborerSpecialist_67
+  - first:
+      213: 1012720923691995084
+    second: LaborerSpecialist_68
+  - first:
+      213: -3202783472612831346
+    second: LaborerSpecialist_69
+  - first:
+      213: 4056756130829085680
+    second: LaborerSpecialist_70
+  - first:
+      213: 8575313347042272752
+    second: LaborerSpecialist_71
+  - first:
+      213: 6472681471179279748
+    second: LaborerSpecialist_72
+  - first:
+      213: 266228804174188058
+    second: LaborerSpecialist_73
+  - first:
+      213: 8563437464137776099
+    second: LaborerSpecialist_74
+  - first:
+      213: -7285984436798175248
+    second: LaborerSpecialist_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaborerSpecialist_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1056
+        width: 219
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306829efec98aab20800000000000000
+      internalID: 3146478811798996483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1098
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a316bc6ab4c43ab50800000000000000
+      internalID: 6603205366459883834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1074
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9ba2ab8bf51e9f0800000000000000
+      internalID: -440966041503614510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1078
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd4a648b5ed01840800000000000000
+      internalID: 5192894855003131347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 964
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb79af94c2a47c0800000000000000
+      internalID: -4086405015636821081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 837
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dbcacfac142a1c0800000000000000
+      internalID: -4493957138083955396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1062
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395614070ff751850800000000000000
+      internalID: 6347119920500794771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1067
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8511705ae3f3b0800000000000000
+      internalID: -5479778690364239886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1009
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce6799a563d276a0800000000000000
+      internalID: -6452862882478068026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1057
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0594971c1f9d05020800000000000000
+      internalID: 2328600639706843472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 992
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4329b551af40e8c0800000000000000
+      internalID: -3972087316994251953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1037
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fc997f7700016b0800000000000000
+      internalID: -5327757843924136189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1014
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8e33bc2b09be760800000000000000
+      internalID: 7488237903021336822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1026
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35efabe8140db080800000000000000
+      internalID: -9170168761176562370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1005
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a9eb720145e7a90800000000000000
+      internalID: -7314316316440094085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 995
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fdc56a032fc8470800000000000000
+      internalID: 8398353695902588676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 983
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd80e1f5760e5630800000000000000
+      internalID: 3917575829497875903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 985
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd6fca963a18d420800000000000000
+      internalID: 2654900802162748924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d72d984801f5dd10800000000000000
+      internalID: 2149889415019571160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 856
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ac9a85c18c94010800000000000000
+      internalID: 1173689201978886777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 943
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66a20f75a9850bd0800000000000000
+      internalID: -2664572260626291094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 922
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7099cf0cab11fee0800000000000000
+      internalID: -1229170797482241924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 819
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012067be30b92fbf0800000000000000
+      internalID: -292000584688074224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 222
+        width: 539
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4709418d215d9e610800000000000000
+      internalID: 1651085015319351412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 789
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57f3f485eb26bf40800000000000000
+      internalID: 5743826639535732572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 793
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1221d2cba6ae940800000000000000
+      internalID: 5326186865761591744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 714
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae58ba1665040890800000000000000
+      internalID: -7492857943944569169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 747
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85bda7cabdc16770800000000000000
+      internalID: 8602382965352019338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 765
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2aaf97ef89a2c0800000000000000
+      internalID: -4419843334308483180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 738
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98d9a342e21e7dc0800000000000000
+      internalID: -3639450685861668707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 705
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68dfb17bb788ab10800000000000000
+      internalID: 1992992074248476780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8589c1d3e75c5a670800000000000000
+      internalID: 8549456613614590040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45be0c2692e39650800000000000000
+      internalID: 6238579043450402124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 702
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a8880764116a340800000000000000
+      internalID: 4874602640908519938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 197
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4f0683f6d52f210800000000000000
+      internalID: 1365256369315312838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_35
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 222
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da77d5baf84019130800000000000000
+      internalID: 3571640994583377837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 222
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc7782ce63a5d120800000000000000
+      internalID: 2438034469396380919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 221
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8b7e2e6370d2b60800000000000000
+      internalID: 7722836868326734074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_38
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 221
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7954c0774f1dfca30800000000000000
+      internalID: 4237836622278444439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 135
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3619b714686464090800000000000000
+      internalID: -8050669741440003741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 127
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a576165f634bbb6b0800000000000000
+      internalID: -5279427990023739558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 126
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63ff9bbb4c987d0800000000000000
+      internalID: -2915582973187246349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_42
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 141
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d0e8911aa45a390800000000000000
+      internalID: -7807752323197956774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_43
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 140
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399c90bf4718631f0800000000000000
+      internalID: -1065521922398631533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_44
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af371a7311eb90a0800000000000000
+      internalID: -6873652932481957984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_45
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 140
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca7c9015ff5262a0800000000000000
+      internalID: -6745723785697264960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f78acc623c2c350800000000000000
+      internalID: 6035601022039654167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_47
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 141
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df440b6c803f8c9b0800000000000000
+      internalID: -5059526962332023555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_48
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2e12c859c8a99a0800000000000000
+      internalID: -6225508960957242655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_49
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5109e9faa53a32e00800000000000000
+      internalID: 1018837550604652565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_50
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25458134b2b05910800000000000000
+      internalID: 1824154336079725870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_51
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 141
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1c002379340d850800000000000000
+      internalID: 6399689387151507896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_52
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 140
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6d02887ab48d280800000000000000
+      internalID: -9018375070893943083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_53
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 140
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3458228750735f740800000000000000
+      internalID: 5185111042616886595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_54
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db87ae8c04015c70800000000000000
+      internalID: 8957945585796090832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_55
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 140
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a39751ee96dbe010800000000000000
+      internalID: 1219304102007640995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_56
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 141
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ba6b3c990a54330800000000000000
+      internalID: 3694535651601328959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_57
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 140
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec290652df52a820800000000000000
+      internalID: 2928008064735456486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7cb5898cfa94dd0800000000000000
+      internalID: -2501274841943128139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_59
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 37
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfc6b725f5838f00800000000000000
+      internalID: 1117884420497788863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_60
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e13a695a06b5e390800000000000000
+      internalID: -7789619824901344799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_61
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 53
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c0b91a3ad211920800000000000000
+      internalID: 2959196610973338653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_62
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 52
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c6327df81496080800000000000000
+      internalID: -9193745078254605212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_63
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 53
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d59b7357db8cfac0800000000000000
+      internalID: -3820024626982185514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 52
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601adc6216fdcfa80800000000000000
+      internalID: -8431618793988579066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_65
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 52
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c92ce92ef15eef90800000000000000
+      internalID: -6922505425154987580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_66
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 53
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b653c4e099add70800000000000000
+      internalID: 9068729086351076154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_67
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f702efeb9c318aad0800000000000000
+      internalID: -2690879020140191617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_68
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 52
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf44418058ed0e00800000000000000
+      internalID: 1012720923691995084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_69
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 53
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f8b66966d6d83d0800000000000000
+      internalID: -3202783472612831346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_70
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 52
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fba476153e7c4830800000000000000
+      internalID: 4056756130829085680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_71
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 52
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5ee102e02a10770800000000000000
+      internalID: 8575313347042272752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_72
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc4e9118593d950800000000000000
+      internalID: 6472681471179279748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_73
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 52
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e87c5dfa5d1b300800000000000000
+      internalID: 266228804174188058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_74
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 53
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb343aa00177d670800000000000000
+      internalID: 8563437464137776099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist_75
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 52
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7ce9de1cbf2ea90800000000000000
+      internalID: -7285984436798175248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaborerSpecialist_0: 3146478811798996483
+      LaborerSpecialist_1: 6603205366459883834
+      LaborerSpecialist_10: -3972087316994251953
+      LaborerSpecialist_11: -5327757843924136189
+      LaborerSpecialist_12: 7488237903021336822
+      LaborerSpecialist_13: -9170168761176562370
+      LaborerSpecialist_14: -7314316316440094085
+      LaborerSpecialist_15: 8398353695902588676
+      LaborerSpecialist_16: 3917575829497875903
+      LaborerSpecialist_17: 2654900802162748924
+      LaborerSpecialist_18: 2149889415019571160
+      LaborerSpecialist_19: 1173689201978886777
+      LaborerSpecialist_2: -440966041503614510
+      LaborerSpecialist_20: -2664572260626291094
+      LaborerSpecialist_21: -1229170797482241924
+      LaborerSpecialist_22: -292000584688074224
+      LaborerSpecialist_23: 1651085015319351412
+      LaborerSpecialist_24: 5743826639535732572
+      LaborerSpecialist_25: 5326186865761591744
+      LaborerSpecialist_26: -7492857943944569169
+      LaborerSpecialist_27: 8602382965352019338
+      LaborerSpecialist_28: -4419843334308483180
+      LaborerSpecialist_29: -3639450685861668707
+      LaborerSpecialist_3: 5192894855003131347
+      LaborerSpecialist_30: 1992992074248476780
+      LaborerSpecialist_31: 8549456613614590040
+      LaborerSpecialist_32: 6238579043450402124
+      LaborerSpecialist_33: 4874602640908519938
+      LaborerSpecialist_34: 1365256369315312838
+      LaborerSpecialist_35: 3571640994583377837
+      LaborerSpecialist_36: 2438034469396380919
+      LaborerSpecialist_37: 7722836868326734074
+      LaborerSpecialist_38: 4237836622278444439
+      LaborerSpecialist_39: -8050669741440003741
+      LaborerSpecialist_4: -4086405015636821081
+      LaborerSpecialist_40: -5279427990023739558
+      LaborerSpecialist_41: -2915582973187246349
+      LaborerSpecialist_42: -7807752323197956774
+      LaborerSpecialist_43: -1065521922398631533
+      LaborerSpecialist_44: -6873652932481957984
+      LaborerSpecialist_45: -6745723785697264960
+      LaborerSpecialist_46: 6035601022039654167
+      LaborerSpecialist_47: -5059526962332023555
+      LaborerSpecialist_48: -6225508960957242655
+      LaborerSpecialist_49: 1018837550604652565
+      LaborerSpecialist_5: -4493957138083955396
+      LaborerSpecialist_50: 1824154336079725870
+      LaborerSpecialist_51: 6399689387151507896
+      LaborerSpecialist_52: -9018375070893943083
+      LaborerSpecialist_53: 5185111042616886595
+      LaborerSpecialist_54: 8957945585796090832
+      LaborerSpecialist_55: 1219304102007640995
+      LaborerSpecialist_56: 3694535651601328959
+      LaborerSpecialist_57: 2928008064735456486
+      LaborerSpecialist_58: -2501274841943128139
+      LaborerSpecialist_59: 1117884420497788863
+      LaborerSpecialist_6: 6347119920500794771
+      LaborerSpecialist_60: -7789619824901344799
+      LaborerSpecialist_61: 2959196610973338653
+      LaborerSpecialist_62: -9193745078254605212
+      LaborerSpecialist_63: -3820024626982185514
+      LaborerSpecialist_64: -8431618793988579066
+      LaborerSpecialist_65: -6922505425154987580
+      LaborerSpecialist_66: 9068729086351076154
+      LaborerSpecialist_67: -2690879020140191617
+      LaborerSpecialist_68: 1012720923691995084
+      LaborerSpecialist_69: -3202783472612831346
+      LaborerSpecialist_7: -5479778690364239886
+      LaborerSpecialist_70: 4056756130829085680
+      LaborerSpecialist_71: 8575313347042272752
+      LaborerSpecialist_72: 6472681471179279748
+      LaborerSpecialist_73: 266228804174188058
+      LaborerSpecialist_74: 8563437464137776099
+      LaborerSpecialist_75: -7285984436798175248
+      LaborerSpecialist_8: -6452862882478068026
+      LaborerSpecialist_9: 2328600639706843472
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

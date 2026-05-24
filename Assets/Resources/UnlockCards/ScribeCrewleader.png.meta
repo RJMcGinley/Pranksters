@@ -80,6 +80,69 @@ TextureImporter:
   - first:
       213: 7297784013773078632
     second: ScribeCrewleader_25
+  - first:
+      213: -1883384682864173839
+    second: ScribeCrewleader_26
+  - first:
+      213: -3091898139599954601
+    second: ScribeCrewleader_27
+  - first:
+      213: 3912696234866410862
+    second: ScribeCrewleader_28
+  - first:
+      213: -845195877471989305
+    second: ScribeCrewleader_29
+  - first:
+      213: -3534424641604296619
+    second: ScribeCrewleader_30
+  - first:
+      213: -9057713901051994426
+    second: ScribeCrewleader_31
+  - first:
+      213: -3659686224872171397
+    second: ScribeCrewleader_32
+  - first:
+      213: -6470200656331690580
+    second: ScribeCrewleader_33
+  - first:
+      213: -7486834121342089777
+    second: ScribeCrewleader_34
+  - first:
+      213: -7445660495893392988
+    second: ScribeCrewleader_35
+  - first:
+      213: 3685249137971824076
+    second: ScribeCrewleader_36
+  - first:
+      213: 4215574720987171091
+    second: ScribeCrewleader_37
+  - first:
+      213: 3300816663934936979
+    second: ScribeCrewleader_38
+  - first:
+      213: 8454125930997159097
+    second: ScribeCrewleader_39
+  - first:
+      213: 7481207133052707408
+    second: ScribeCrewleader_40
+  - first:
+      213: -7672030509503402224
+    second: ScribeCrewleader_41
+  - first:
+      213: 1628976456299110215
+    second: ScribeCrewleader_42
+  - first:
+      213: 8859385513461085904
+    second: ScribeCrewleader_43
+  - first:
+      213: -7114354228946661363
+    second: ScribeCrewleader_44
+  - first:
+      213: -8251004968004175071
+    second: ScribeCrewleader_45
+  - first:
+      213: -7248881062971416367
+    second: ScribeCrewleader_46
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -205,9 +268,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13
-        y: 697
-        width: 357
-        height: 414
+        y: 666
+        width: 312
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +289,10 @@ TextureImporter:
       name: ScribeCrewleader_1
       rect:
         serializedVersion: 2
-        x: 246
-        y: 308
-        width: 368
-        height: 640
+        x: 353
+        y: 1024
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +311,10 @@ TextureImporter:
       name: ScribeCrewleader_2
       rect:
         serializedVersion: 2
-        x: 366
-        y: 947
-        width: 6
-        height: 7
+        x: 357
+        y: 1034
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +333,10 @@ TextureImporter:
       name: ScribeCrewleader_3
       rect:
         serializedVersion: 2
-        x: 235
-        y: 812
-        width: 48
-        height: 35
+        x: 394
+        y: 1003
+        width: 25
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +355,10 @@ TextureImporter:
       name: ScribeCrewleader_4
       rect:
         serializedVersion: 2
-        x: 244
-        y: 805
-        width: 6
-        height: 7
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +377,10 @@ TextureImporter:
       name: ScribeCrewleader_5
       rect:
         serializedVersion: 2
-        x: 239
-        y: 784
-        width: 7
-        height: 6
+        x: 178
+        y: 309
+        width: 481
+        height: 702
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +399,10 @@ TextureImporter:
       name: ScribeCrewleader_6
       rect:
         serializedVersion: 2
-        x: 190
-        y: 777
-        width: 7
-        height: 6
+        x: 354
+        y: 1011
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,9 +421,9 @@ TextureImporter:
       name: ScribeCrewleader_7
       rect:
         serializedVersion: 2
-        x: 180
-        y: 689
-        width: 7
+        x: 20
+        y: 909
+        width: 9
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -380,10 +443,10 @@ TextureImporter:
       name: ScribeCrewleader_8
       rect:
         serializedVersion: 2
-        x: 148
-        y: 213
-        width: 62
-        height: 66
+        x: 30
+        y: 889
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +465,10 @@ TextureImporter:
       name: ScribeCrewleader_9
       rect:
         serializedVersion: 2
-        x: 215
-        y: 215
-        width: 44
-        height: 41
+        x: 38
+        y: 869
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +487,10 @@ TextureImporter:
       name: ScribeCrewleader_10
       rect:
         serializedVersion: 2
-        x: 259
-        y: 213
-        width: 44
-        height: 43
+        x: 49
+        y: 864
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +509,10 @@ TextureImporter:
       name: ScribeCrewleader_11
       rect:
         serializedVersion: 2
-        x: 303
-        y: 214
-        width: 76
-        height: 40
+        x: 88
+        y: 816
+        width: 15
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +531,10 @@ TextureImporter:
       name: ScribeCrewleader_12
       rect:
         serializedVersion: 2
-        x: 400
-        y: 215
-        width: 59
-        height: 64
+        x: 90
+        y: 813
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +553,10 @@ TextureImporter:
       name: ScribeCrewleader_13
       rect:
         serializedVersion: 2
-        x: 461
-        y: 213
-        width: 43
-        height: 43
+        x: 110
+        y: 809
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +575,10 @@ TextureImporter:
       name: ScribeCrewleader_14
       rect:
         serializedVersion: 2
-        x: 509
-        y: 214
-        width: 50
-        height: 42
+        x: 137
+        y: 779
+        width: 96
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +597,10 @@ TextureImporter:
       name: ScribeCrewleader_15
       rect:
         serializedVersion: 2
-        x: 561
-        y: 214
-        width: 54
-        height: 66
+        x: 93
+        y: 803
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +619,10 @@ TextureImporter:
       name: ScribeCrewleader_16
       rect:
         serializedVersion: 2
-        x: 617
-        y: 213
-        width: 44
-        height: 43
+        x: 100
+        y: 796
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,9 +641,9 @@ TextureImporter:
       name: ScribeCrewleader_17
       rect:
         serializedVersion: 2
-        x: 663
-        y: 215
-        width: 44
+        x: 104
+        y: 771
+        width: 35
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -600,10 +663,10 @@ TextureImporter:
       name: ScribeCrewleader_18
       rect:
         serializedVersion: 2
-        x: 122
-        y: 96
-        width: 58
-        height: 57
+        x: 115
+        y: 723
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +685,10 @@ TextureImporter:
       name: ScribeCrewleader_19
       rect:
         serializedVersion: 2
-        x: 192
-        y: 90
-        width: 37
-        height: 71
+        x: 169
+        y: 663
+        width: 34
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +707,10 @@ TextureImporter:
       name: ScribeCrewleader_20
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 189
+        y: 697
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +729,10 @@ TextureImporter:
       name: ScribeCrewleader_21
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 189
+        y: 692
+        width: 11
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +751,10 @@ TextureImporter:
       name: ScribeCrewleader_22
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 172
+        y: 675
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +773,10 @@ TextureImporter:
       name: ScribeCrewleader_23
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 200
+        y: 660
+        width: 19
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +795,10 @@ TextureImporter:
       name: ScribeCrewleader_24
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 55
+        y: 475
+        width: 20
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,6 +817,468 @@ TextureImporter:
       name: ScribeCrewleader_25
       rect:
         serializedVersion: 2
+        x: 74
+        y: 472
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860087c25efe64560800000000000000
+      internalID: 7297784013773078632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 470
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc187a0c9fdcd5e0800000000000000
+      internalID: -1883384682864173839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d147b060f5715d0800000000000000
+      internalID: -3091898139599954601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 396
+        width: 157
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658839ce70bc4630800000000000000
+      internalID: 3912696234866410862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c158a5d3d24544f0800000000000000
+      internalID: -845195877471989305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550e9cfb38333fec0800000000000000
+      internalID: -3534424641604296619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce9da262398c4280800000000000000
+      internalID: -9057713901051994426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b789a11b4ce263dc0800000000000000
+      internalID: -3659686224872171397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cada9dd98ca3536a0800000000000000
+      internalID: -6470200656331690580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc58129980c691890800000000000000
+      internalID: -7486834121342089777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a19d105a33bba890800000000000000
+      internalID: -7445660495893392988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_36
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc500a1d092a42330800000000000000
+      internalID: 3685249137971824076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_37
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198e88afdab08a30800000000000000
+      internalID: 4215574720987171091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_38
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3972882744bdecd20800000000000000
+      internalID: 3300816663934936979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4118b0eb6135570800000000000000
+      internalID: 8454125930997159097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052a9b8104692d760800000000000000
+      internalID: 7481207133052707408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_41
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f271756e8778590800000000000000
+      internalID: -7672030509503402224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_42
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fde21d4794b9610800000000000000
+      internalID: 1628976456299110215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6f61a7f2cd2fa70800000000000000
+      internalID: 8859385513461085904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_44
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d001651b58cb44d90800000000000000
+      internalID: -7114354228946661363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_45
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bb02282ba8e7d80800000000000000
+      internalID: -8251004968004175071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeCrewleader_46
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -766,8 +1291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 860087c25efe64560800000000000000
-      internalID: 7297784013773078632
+      spriteID: 1d06886541dc66b90800000000000000
+      internalID: -7248881062971416367
       vertices: []
       indices: 
       edges: []
@@ -805,8 +1330,29 @@ TextureImporter:
       ScribeCrewleader_23: 1693798244724556271
       ScribeCrewleader_24: -3685956389028154150
       ScribeCrewleader_25: 7297784013773078632
+      ScribeCrewleader_26: -1883384682864173839
+      ScribeCrewleader_27: -3091898139599954601
+      ScribeCrewleader_28: 3912696234866410862
+      ScribeCrewleader_29: -845195877471989305
       ScribeCrewleader_3: 4104149264456917589
+      ScribeCrewleader_30: -3534424641604296619
+      ScribeCrewleader_31: -9057713901051994426
+      ScribeCrewleader_32: -3659686224872171397
+      ScribeCrewleader_33: -6470200656331690580
+      ScribeCrewleader_34: -7486834121342089777
+      ScribeCrewleader_35: -7445660495893392988
+      ScribeCrewleader_36: 3685249137971824076
+      ScribeCrewleader_37: 4215574720987171091
+      ScribeCrewleader_38: 3300816663934936979
+      ScribeCrewleader_39: 8454125930997159097
       ScribeCrewleader_4: -7684997620814740119
+      ScribeCrewleader_40: 7481207133052707408
+      ScribeCrewleader_41: -7672030509503402224
+      ScribeCrewleader_42: 1628976456299110215
+      ScribeCrewleader_43: 8859385513461085904
+      ScribeCrewleader_44: -7114354228946661363
+      ScribeCrewleader_45: -8251004968004175071
+      ScribeCrewleader_46: -7248881062971416367
       ScribeCrewleader_5: 7801880459134907927
       ScribeCrewleader_6: -1794518876972417848
       ScribeCrewleader_7: 3229141620802162307

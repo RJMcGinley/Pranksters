@@ -74,6 +74,78 @@ TextureImporter:
   - first:
       213: -5406513124311811579
     second: ThiefCrewleader_23
+  - first:
+      213: -1302983681266418680
+    second: ThiefCrewleader_24
+  - first:
+      213: -3191654172811165891
+    second: ThiefCrewleader_25
+  - first:
+      213: -1365811003714194486
+    second: ThiefCrewleader_26
+  - first:
+      213: 5392049517055933642
+    second: ThiefCrewleader_27
+  - first:
+      213: -6288773677281952163
+    second: ThiefCrewleader_28
+  - first:
+      213: -3596062741520633587
+    second: ThiefCrewleader_29
+  - first:
+      213: 3905387169562604506
+    second: ThiefCrewleader_30
+  - first:
+      213: -1862329321632809677
+    second: ThiefCrewleader_31
+  - first:
+      213: 5710302863420752816
+    second: ThiefCrewleader_32
+  - first:
+      213: 2662820497879517237
+    second: ThiefCrewleader_33
+  - first:
+      213: -7045211994547841789
+    second: ThiefCrewleader_34
+  - first:
+      213: 6402329720757472296
+    second: ThiefCrewleader_35
+  - first:
+      213: -4640677909446260349
+    second: ThiefCrewleader_36
+  - first:
+      213: 6524008391177230419
+    second: ThiefCrewleader_37
+  - first:
+      213: 1803029066274390342
+    second: ThiefCrewleader_38
+  - first:
+      213: 5338473718775132269
+    second: ThiefCrewleader_39
+  - first:
+      213: 4163933881758959276
+    second: ThiefCrewleader_40
+  - first:
+      213: -8159186882123190708
+    second: ThiefCrewleader_41
+  - first:
+      213: -1230801518433280899
+    second: ThiefCrewleader_42
+  - first:
+      213: -7400889636064071730
+    second: ThiefCrewleader_43
+  - first:
+      213: -2136808724820293752
+    second: ThiefCrewleader_44
+  - first:
+      213: -1232995624448185907
+    second: ThiefCrewleader_45
+  - first:
+      213: -6099105528009141617
+    second: ThiefCrewleader_46
+  - first:
+      213: -1780339210518662496
+    second: ThiefCrewleader_47
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -199,9 +271,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 695
-        width: 370
-        height: 414
+        y: 805
+        width: 289
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +292,10 @@ TextureImporter:
       name: ThiefCrewleader_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 816
-        width: 13
-        height: 9
+        x: 42
+        y: 1063
+        width: 41
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +314,10 @@ TextureImporter:
       name: ThiefCrewleader_2
       rect:
         serializedVersion: 2
-        x: 159
-        y: 310
-        width: 574
-        height: 638
+        x: 84
+        y: 1083
+        width: 46
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +336,10 @@ TextureImporter:
       name: ThiefCrewleader_3
       rect:
         serializedVersion: 2
-        x: 148
-        y: 213
-        width: 62
-        height: 66
+        x: 225
+        y: 1077
+        width: 25
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +358,10 @@ TextureImporter:
       name: ThiefCrewleader_4
       rect:
         serializedVersion: 2
-        x: 215
-        y: 215
-        width: 44
-        height: 41
+        x: 249
+        y: 939
+        width: 87
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +380,10 @@ TextureImporter:
       name: ThiefCrewleader_5
       rect:
         serializedVersion: 2
-        x: 259
-        y: 213
-        width: 44
-        height: 43
+        x: 40
+        y: 1052
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +402,10 @@ TextureImporter:
       name: ThiefCrewleader_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 214
-        width: 76
-        height: 40
+        x: 41
+        y: 1059
+        width: 12
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +424,10 @@ TextureImporter:
       name: ThiefCrewleader_7
       rect:
         serializedVersion: 2
-        x: 400
-        y: 215
-        width: 59
-        height: 64
+        x: 49
+        y: 1056
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +446,10 @@ TextureImporter:
       name: ThiefCrewleader_8
       rect:
         serializedVersion: 2
-        x: 461
-        y: 213
-        width: 43
-        height: 43
+        x: 49
+        y: 1051
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +468,10 @@ TextureImporter:
       name: ThiefCrewleader_9
       rect:
         serializedVersion: 2
-        x: 509
-        y: 214
-        width: 50
-        height: 42
+        x: 340
+        y: 1038
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +490,10 @@ TextureImporter:
       name: ThiefCrewleader_10
       rect:
         serializedVersion: 2
-        x: 561
-        y: 214
-        width: 54
-        height: 66
+        x: 293
+        y: 1037
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +512,10 @@ TextureImporter:
       name: ThiefCrewleader_11
       rect:
         serializedVersion: 2
-        x: 617
-        y: 213
-        width: 44
-        height: 43
+        x: 345
+        y: 932
+        width: 20
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +534,10 @@ TextureImporter:
       name: ThiefCrewleader_12
       rect:
         serializedVersion: 2
-        x: 663
-        y: 215
-        width: 44
-        height: 41
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +556,10 @@ TextureImporter:
       name: ThiefCrewleader_13
       rect:
         serializedVersion: 2
-        x: 122
-        y: 96
-        width: 58
-        height: 57
+        x: 0
+        y: 828
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +578,10 @@ TextureImporter:
       name: ThiefCrewleader_14
       rect:
         serializedVersion: 2
-        x: 192
-        y: 90
-        width: 37
-        height: 71
+        x: 0
+        y: 796
+        width: 9
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +600,10 @@ TextureImporter:
       name: ThiefCrewleader_15
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 37
+        y: 800
+        width: 19
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +622,10 @@ TextureImporter:
       name: ThiefCrewleader_16
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 163
+        y: 301
+        width: 535
+        height: 638
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +644,10 @@ TextureImporter:
       name: ThiefCrewleader_17
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 37
+        y: 793
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +666,10 @@ TextureImporter:
       name: ThiefCrewleader_18
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 87
+        y: 763
+        width: 23
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +688,10 @@ TextureImporter:
       name: ThiefCrewleader_19
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 105
+        y: 800
+        width: 9
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +710,10 @@ TextureImporter:
       name: ThiefCrewleader_20
       rect:
         serializedVersion: 2
-        x: 627
-        y: 93
-        width: 134
-        height: 85
+        x: 0
+        y: 777
+        width: 8
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +732,10 @@ TextureImporter:
       name: ThiefCrewleader_21
       rect:
         serializedVersion: 2
-        x: 94
-        y: 54
-        width: 64
-        height: 27
+        x: 0
+        y: 767
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,10 +754,10 @@ TextureImporter:
       name: ThiefCrewleader_22
       rect:
         serializedVersion: 2
-        x: 127
-        y: 78
-        width: 6
-        height: 6
+        x: 34
+        y: 636
+        width: 41
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,6 +776,534 @@ TextureImporter:
       name: ThiefCrewleader_23
       rect:
         serializedVersion: 2
+        x: 36
+        y: 778
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a38e755f438f4b0800000000000000
+      internalID: -5406513124311811579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 784
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cfbf1de3fdaede0800000000000000
+      internalID: -1302983681266418680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 621
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f72bf9077f4b3d0800000000000000
+      internalID: -3191654172811165891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 619
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3bb45e02aab0de0800000000000000
+      internalID: -1365811003714194486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc7f6ba77864da40800000000000000
+      internalID: 5392049517055933642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e38cce8a9c9b8a0800000000000000
+      internalID: -6288773677281952163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0135a54df7381ec0800000000000000
+      internalID: -3596062741520633587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 214
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3b52860f8b23630800000000000000
+      internalID: 3905387169562604506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d3849595da726e0800000000000000
+      internalID: -1862329321632809677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_32
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 213
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3071623321f3f40800000000000000
+      internalID: 5710302863420752816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_33
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 214
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ccb4722d34f420800000000000000
+      internalID: 2662820497879517237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_34
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 214
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30597a1a4016a3e90800000000000000
+      internalID: -7045211994547841789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_35
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 213
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ccca4c5f4a9d850800000000000000
+      internalID: 6402329720757472296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_36
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 215
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389047a5700099fb0800000000000000
+      internalID: -4640677909446260349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_37
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35859cbe01fe98a50800000000000000
+      internalID: 6524008391177230419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6414df60265a50910800000000000000
+      internalID: 1803029066274390342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_39
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60b9521091161a40800000000000000
+      internalID: 5338473718775132269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_40
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 95
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6c472ddc349c930800000000000000
+      internalID: 4163933881758959276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e250b82ceb4ce80800000000000000
+      internalID: -8159186882123190708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_42
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cd5c04a805beee0800000000000000
+      internalID: -1230801518433280899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_43
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfe78c6612ca4990800000000000000
+      internalID: -7400889636064071730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_44
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 93
+        width: 134
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887812c39c78852e0800000000000000
+      internalID: -2136808724820293752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_45
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9a723230583eee0800000000000000
+      internalID: -1232995624448185907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82d46336df9b5ba0800000000000000
+      internalID: -6099105528009141617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefCrewleader_47
+      rect:
+        serializedVersion: 2
         x: 88
         y: 63
         width: 13
@@ -716,8 +1316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50a38e755f438f4b0800000000000000
-      internalID: -5406513124311811579
+      spriteID: 0a2f551bbe6fa47e0800000000000000
+      internalID: -1780339210518662496
       vertices: []
       indices: 
       edges: []
@@ -753,8 +1353,32 @@ TextureImporter:
       ThiefCrewleader_21: -3196477032179575750
       ThiefCrewleader_22: 677693886820082003
       ThiefCrewleader_23: -5406513124311811579
+      ThiefCrewleader_24: -1302983681266418680
+      ThiefCrewleader_25: -3191654172811165891
+      ThiefCrewleader_26: -1365811003714194486
+      ThiefCrewleader_27: 5392049517055933642
+      ThiefCrewleader_28: -6288773677281952163
+      ThiefCrewleader_29: -3596062741520633587
       ThiefCrewleader_3: -5932779174674705788
+      ThiefCrewleader_30: 3905387169562604506
+      ThiefCrewleader_31: -1862329321632809677
+      ThiefCrewleader_32: 5710302863420752816
+      ThiefCrewleader_33: 2662820497879517237
+      ThiefCrewleader_34: -7045211994547841789
+      ThiefCrewleader_35: 6402329720757472296
+      ThiefCrewleader_36: -4640677909446260349
+      ThiefCrewleader_37: 6524008391177230419
+      ThiefCrewleader_38: 1803029066274390342
+      ThiefCrewleader_39: 5338473718775132269
       ThiefCrewleader_4: -1599284030796250689
+      ThiefCrewleader_40: 4163933881758959276
+      ThiefCrewleader_41: -8159186882123190708
+      ThiefCrewleader_42: -1230801518433280899
+      ThiefCrewleader_43: -7400889636064071730
+      ThiefCrewleader_44: -2136808724820293752
+      ThiefCrewleader_45: -1232995624448185907
+      ThiefCrewleader_46: -6099105528009141617
+      ThiefCrewleader_47: -1780339210518662496
       ThiefCrewleader_5: 6724570142827642321
       ThiefCrewleader_6: 3323357850406604242
       ThiefCrewleader_7: -4597676826956533305

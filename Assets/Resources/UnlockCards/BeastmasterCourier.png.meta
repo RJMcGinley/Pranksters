@@ -1,0 +1,1703 @@
+fileFormatVersion: 2
+guid: 5bc6f4955d5814d8cb159fc7449537b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7845521958796831546
+    second: BeastmasterCourier_0
+  - first:
+      213: 7469669822370642897
+    second: BeastmasterCourier_1
+  - first:
+      213: -7097649559949179693
+    second: BeastmasterCourier_2
+  - first:
+      213: -2858901829862903785
+    second: BeastmasterCourier_3
+  - first:
+      213: -3482824425058701634
+    second: BeastmasterCourier_4
+  - first:
+      213: 5054472424473474812
+    second: BeastmasterCourier_5
+  - first:
+      213: -5976155989954601601
+    second: BeastmasterCourier_6
+  - first:
+      213: 8683411023001737826
+    second: BeastmasterCourier_7
+  - first:
+      213: 3759798736059602846
+    second: BeastmasterCourier_8
+  - first:
+      213: -1600131719221479354
+    second: BeastmasterCourier_9
+  - first:
+      213: -2112164018402064210
+    second: BeastmasterCourier_10
+  - first:
+      213: -6980262767868764988
+    second: BeastmasterCourier_11
+  - first:
+      213: 1708298272245165223
+    second: BeastmasterCourier_12
+  - first:
+      213: 1104517565876888575
+    second: BeastmasterCourier_13
+  - first:
+      213: 5916713414478169415
+    second: BeastmasterCourier_14
+  - first:
+      213: 7893915686938686374
+    second: BeastmasterCourier_15
+  - first:
+      213: 7960652955359975800
+    second: BeastmasterCourier_16
+  - first:
+      213: -4736854104241755389
+    second: BeastmasterCourier_17
+  - first:
+      213: -2815805638250157326
+    second: BeastmasterCourier_18
+  - first:
+      213: -8933959932176101550
+    second: BeastmasterCourier_19
+  - first:
+      213: -8023112282841426023
+    second: BeastmasterCourier_20
+  - first:
+      213: -7574835375048520455
+    second: BeastmasterCourier_21
+  - first:
+      213: 8418414776764314452
+    second: BeastmasterCourier_22
+  - first:
+      213: -2597303098662710299
+    second: BeastmasterCourier_23
+  - first:
+      213: -52948857094405579
+    second: BeastmasterCourier_24
+  - first:
+      213: -8501245931434403531
+    second: BeastmasterCourier_25
+  - first:
+      213: 84975090229026581
+    second: BeastmasterCourier_26
+  - first:
+      213: 1912043842411146109
+    second: BeastmasterCourier_27
+  - first:
+      213: -7862405750934638809
+    second: BeastmasterCourier_28
+  - first:
+      213: -2021593595687872915
+    second: BeastmasterCourier_29
+  - first:
+      213: 4035122430202004364
+    second: BeastmasterCourier_30
+  - first:
+      213: 3210953165698240527
+    second: BeastmasterCourier_31
+  - first:
+      213: 954717739963487860
+    second: BeastmasterCourier_32
+  - first:
+      213: 7166070850157135744
+    second: BeastmasterCourier_33
+  - first:
+      213: 8990472704149076217
+    second: BeastmasterCourier_34
+  - first:
+      213: -6545601930399681591
+    second: BeastmasterCourier_35
+  - first:
+      213: -5247819779645349148
+    second: BeastmasterCourier_36
+  - first:
+      213: 4930944093544121204
+    second: BeastmasterCourier_37
+  - first:
+      213: 1108617996787087993
+    second: BeastmasterCourier_38
+  - first:
+      213: -6895457469548190776
+    second: BeastmasterCourier_39
+  - first:
+      213: 8530554711527443761
+    second: BeastmasterCourier_40
+  - first:
+      213: -4363988196929473523
+    second: BeastmasterCourier_41
+  - first:
+      213: -7661580987811676642
+    second: BeastmasterCourier_42
+  - first:
+      213: 3233920342480404944
+    second: BeastmasterCourier_43
+  - first:
+      213: -6870678790380172714
+    second: BeastmasterCourier_44
+  - first:
+      213: 2909159466847611321
+    second: BeastmasterCourier_45
+  - first:
+      213: 6581694892883997053
+    second: BeastmasterCourier_46
+  - first:
+      213: 2315117187360438423
+    second: BeastmasterCourier_47
+  - first:
+      213: 8792699432634550340
+    second: BeastmasterCourier_48
+  - first:
+      213: 2874109084812083492
+    second: BeastmasterCourier_49
+  - first:
+      213: -8361781761879197422
+    second: BeastmasterCourier_50
+  - first:
+      213: -4843748313762794480
+    second: BeastmasterCourier_51
+  - first:
+      213: 7253948394238861853
+    second: BeastmasterCourier_52
+  - first:
+      213: -3630277192487505142
+    second: BeastmasterCourier_53
+  - first:
+      213: 6759916463179626148
+    second: BeastmasterCourier_54
+  - first:
+      213: 7234793180659278447
+    second: BeastmasterCourier_55
+  - first:
+      213: -7183245668556403354
+    second: BeastmasterCourier_56
+  - first:
+      213: -8515960501911163578
+    second: BeastmasterCourier_57
+  - first:
+      213: -6028949947763910803
+    second: BeastmasterCourier_58
+  - first:
+      213: 3277435621585081387
+    second: BeastmasterCourier_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterCourier_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 934
+        width: 207
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bac9777a4e0ec60800000000000000
+      internalID: 7845521958796831546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1101
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db7bdf902999a760800000000000000
+      internalID: 7469669822370642897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d485078455108d90800000000000000
+      internalID: -7097649559949179693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1088
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710be4fcee32358d0800000000000000
+      internalID: -2858901829862903785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1075
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe625163a58aafc0800000000000000
+      internalID: -3482824425058701634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6bfbbe3e7152640800000000000000
+      internalID: 5054472424473474812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1084
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dde684acd601da0800000000000000
+      internalID: -5976155989954601601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1079
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26adab8915ca18870800000000000000
+      internalID: 8683411023001737826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 846
+        width: 224
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e979bc9b70d7d2430800000000000000
+      internalID: 3759798736059602846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648f7f1eda03bc9e0800000000000000
+      internalID: -1600131719221479354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1058
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea888c7140610b2e0800000000000000
+      internalID: -2112164018402064210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc1c42eeff112f90800000000000000
+      internalID: -6980262767868764988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1017
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac26974a3815b710800000000000000
+      internalID: 1708298272245165223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1048
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3654acfd8045f00800000000000000
+      internalID: 1104517565876888575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_14
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1036
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74582cb90836c1250800000000000000
+      internalID: 5916713414478169415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 312
+        width: 588
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a33dd65e72dc8d60800000000000000
+      internalID: 7893915686938686374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87915608fabe97e60800000000000000
+      internalID: 7960652955359975800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ba1d30a40534eb0800000000000000
+      internalID: -4736854104241755389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1031
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faae87d0bf3ce8d0800000000000000
+      internalID: -2815805638250157326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f021d96c2340480800000000000000
+      internalID: -8933959932176101550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997d92413ed28a090800000000000000
+      internalID: -8023112282841426023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc8b2e0c57c0e690800000000000000
+      internalID: -7574835375048520455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453bfe403a734d470800000000000000
+      internalID: 8418414776764314452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 878
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e31036c79684fbd0800000000000000
+      internalID: -2597303098662710299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53200a58b43e34ff0800000000000000
+      internalID: -52948857094405579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5391e9cedd1850a80800000000000000
+      internalID: -8501245931434403531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 838
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f9bd3f464ed2100800000000000000
+      internalID: 84975090229026581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ba3e58eb1f88a10800000000000000
+      internalID: 1912043842411146109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f6d8750af13e290800000000000000
+      internalID: -7862405750934638809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66d1d8e55bd1f3e0800000000000000
+      internalID: -2021593595687872915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83c665a872aff730800000000000000
+      internalID: 4035122430202004364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f001cdf44e89f8c20800000000000000
+      internalID: 3210953165698240527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4769947e9b6df3d00800000000000000
+      internalID: 954717739963487860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087c5e2887ff27360800000000000000
+      internalID: 7166070850157135744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8b6a57a4394cc70800000000000000
+      internalID: 8990472704149076217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c37a6179b95925a0800000000000000
+      internalID: -6545601930399681591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e268fce6bffb27b0800000000000000
+      internalID: -5247819779645349148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473020f178b3e6440800000000000000
+      internalID: 4930944093544121204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_38
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 254
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a7912c13a926f00800000000000000
+      internalID: 1108617996787087993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_39
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 186
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c324c317f96e40a0800000000000000
+      internalID: -6895457469548190776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_40
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 186
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc0a5305e926670800000000000000
+      internalID: 8530554711527443761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 188
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0475063bdfff63c0800000000000000
+      internalID: -4363988196929473523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_42
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 189
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e39933fa89ca590800000000000000
+      internalID: -7661580987811676642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_43
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 188
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1447dda6131ec20800000000000000
+      internalID: 3233920342480404944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_44
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 190
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a4495ea0276a0a0800000000000000
+      internalID: -6870678790380172714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9aa682f196f5820800000000000000
+      internalID: 2909159466847611321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d717a5e32a0e65b50800000000000000
+      internalID: 6581694892883997053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798350ed0d2f02020800000000000000
+      internalID: 2315117187360438423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_48
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44806fa5c81f50a70800000000000000
+      internalID: 8792699432634550340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42182f52cf2e2e720800000000000000
+      internalID: 2874109084812083492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_50
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219b9d94acbf4fb80800000000000000
+      internalID: -8361781761879197422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_51
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01475c8629c87ccb0800000000000000
+      internalID: -4843748313762794480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_52
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d126f99a1a33ba460800000000000000
+      internalID: 7253948394238861853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_53
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a037491a02aae9dc0800000000000000
+      internalID: -3630277192487505142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_54
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6f22b253c00dd50800000000000000
+      internalID: 6759916463179626148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_55
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f626d94f016276460800000000000000
+      internalID: 7234793180659278447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_56
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d05577f1cff4c90800000000000000
+      internalID: -7183245668556403354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_57
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64de3520b0b31d980800000000000000
+      internalID: -8515960501911163578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_58
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d671cea17fdd45ca0800000000000000
+      internalID: -6028949947763910803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterCourier_59
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b245ace455acb7d20800000000000000
+      internalID: 3277435621585081387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterCourier_0: 7845521958796831546
+      BeastmasterCourier_1: 7469669822370642897
+      BeastmasterCourier_10: -2112164018402064210
+      BeastmasterCourier_11: -6980262767868764988
+      BeastmasterCourier_12: 1708298272245165223
+      BeastmasterCourier_13: 1104517565876888575
+      BeastmasterCourier_14: 5916713414478169415
+      BeastmasterCourier_15: 7893915686938686374
+      BeastmasterCourier_16: 7960652955359975800
+      BeastmasterCourier_17: -4736854104241755389
+      BeastmasterCourier_18: -2815805638250157326
+      BeastmasterCourier_19: -8933959932176101550
+      BeastmasterCourier_2: -7097649559949179693
+      BeastmasterCourier_20: -8023112282841426023
+      BeastmasterCourier_21: -7574835375048520455
+      BeastmasterCourier_22: 8418414776764314452
+      BeastmasterCourier_23: -2597303098662710299
+      BeastmasterCourier_24: -52948857094405579
+      BeastmasterCourier_25: -8501245931434403531
+      BeastmasterCourier_26: 84975090229026581
+      BeastmasterCourier_27: 1912043842411146109
+      BeastmasterCourier_28: -7862405750934638809
+      BeastmasterCourier_29: -2021593595687872915
+      BeastmasterCourier_3: -2858901829862903785
+      BeastmasterCourier_30: 4035122430202004364
+      BeastmasterCourier_31: 3210953165698240527
+      BeastmasterCourier_32: 954717739963487860
+      BeastmasterCourier_33: 7166070850157135744
+      BeastmasterCourier_34: 8990472704149076217
+      BeastmasterCourier_35: -6545601930399681591
+      BeastmasterCourier_36: -5247819779645349148
+      BeastmasterCourier_37: 4930944093544121204
+      BeastmasterCourier_38: 1108617996787087993
+      BeastmasterCourier_39: -6895457469548190776
+      BeastmasterCourier_4: -3482824425058701634
+      BeastmasterCourier_40: 8530554711527443761
+      BeastmasterCourier_41: -4363988196929473523
+      BeastmasterCourier_42: -7661580987811676642
+      BeastmasterCourier_43: 3233920342480404944
+      BeastmasterCourier_44: -6870678790380172714
+      BeastmasterCourier_45: 2909159466847611321
+      BeastmasterCourier_46: 6581694892883997053
+      BeastmasterCourier_47: 2315117187360438423
+      BeastmasterCourier_48: 8792699432634550340
+      BeastmasterCourier_49: 2874109084812083492
+      BeastmasterCourier_5: 5054472424473474812
+      BeastmasterCourier_50: -8361781761879197422
+      BeastmasterCourier_51: -4843748313762794480
+      BeastmasterCourier_52: 7253948394238861853
+      BeastmasterCourier_53: -3630277192487505142
+      BeastmasterCourier_54: 6759916463179626148
+      BeastmasterCourier_55: 7234793180659278447
+      BeastmasterCourier_56: -7183245668556403354
+      BeastmasterCourier_57: -8515960501911163578
+      BeastmasterCourier_58: -6028949947763910803
+      BeastmasterCourier_59: 3277435621585081387
+      BeastmasterCourier_6: -5976155989954601601
+      BeastmasterCourier_7: 8683411023001737826
+      BeastmasterCourier_8: 3759798736059602846
+      BeastmasterCourier_9: -1600131719221479354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -56,6 +56,15 @@ TextureImporter:
   - first:
       213: -7727687006532403525
     second: WizardMaster_17
+  - first:
+      213: -642065113257592407
+    second: WizardMaster_18
+  - first:
+      213: -8551487708218123781
+    second: WizardMaster_19
+  - first:
+      213: -7764054894456204837
+    second: WizardMaster_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -181,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 695
-        width: 317
-        height: 368
+        y: 794
+        width: 322
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +211,10 @@ TextureImporter:
       name: WizardMaster_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 286
-        width: 601
-        height: 697
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +233,10 @@ TextureImporter:
       name: WizardMaster_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 982
-        width: 68
-        height: 140
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +255,10 @@ TextureImporter:
       name: WizardMaster_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 978
-        width: 7
-        height: 7
+        x: 37
+        y: 877
+        width: 11
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +277,10 @@ TextureImporter:
       name: WizardMaster_4
       rect:
         serializedVersion: 2
-        x: 286
-        y: 215
-        width: 87
-        height: 61
+        x: 63
+        y: 294
+        width: 640
+        height: 643
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +299,10 @@ TextureImporter:
       name: WizardMaster_5
       rect:
         serializedVersion: 2
-        x: 376
-        y: 214
-        width: 48
-        height: 40
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +321,10 @@ TextureImporter:
       name: WizardMaster_6
       rect:
         serializedVersion: 2
-        x: 424
-        y: 213
-        width: 39
-        height: 41
+        x: 37
+        y: 700
+        width: 23
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +343,10 @@ TextureImporter:
       name: WizardMaster_7
       rect:
         serializedVersion: 2
-        x: 466
-        y: 214
-        width: 33
-        height: 51
+        x: 286
+        y: 215
+        width: 87
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +365,10 @@ TextureImporter:
       name: WizardMaster_8
       rect:
         serializedVersion: 2
-        x: 500
+        x: 376
         y: 214
-        width: 41
-        height: 41
+        width: 48
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +387,10 @@ TextureImporter:
       name: WizardMaster_9
       rect:
         serializedVersion: 2
-        x: 544
-        y: 215
-        width: 42
-        height: 40
+        x: 424
+        y: 213
+        width: 39
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +409,10 @@ TextureImporter:
       name: WizardMaster_10
       rect:
         serializedVersion: 2
-        x: 124
-        y: 96
-        width: 57
-        height: 56
+        x: 466
+        y: 214
+        width: 33
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +431,10 @@ TextureImporter:
       name: WizardMaster_11
       rect:
         serializedVersion: 2
-        x: 187
-        y: 89
-        width: 47
-        height: 69
+        x: 500
+        y: 214
+        width: 41
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +453,10 @@ TextureImporter:
       name: WizardMaster_12
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 544
+        y: 215
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +475,10 @@ TextureImporter:
       name: WizardMaster_13
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 124
+        y: 96
+        width: 57
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +497,10 @@ TextureImporter:
       name: WizardMaster_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 187
+        y: 89
+        width: 47
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +519,10 @@ TextureImporter:
       name: WizardMaster_15
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 262
+        y: 87
+        width: 77
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +541,10 @@ TextureImporter:
       name: WizardMaster_16
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 362
+        y: 95
+        width: 87
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,6 +563,72 @@ TextureImporter:
       name: WizardMaster_17
       rect:
         serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbefb305c9db1c490800000000000000
+      internalID: -7727687006532403525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMaster_18
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a93c996e2de617f0800000000000000
+      internalID: -642065113257592407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMaster_19
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf91a82bc33035980800000000000000
+      internalID: -8551487708218123781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMaster_20
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -566,8 +641,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbefb305c9db1c490800000000000000
-      internalID: -7727687006532403525
+      spriteID: bd11e4f8539804490800000000000000
+      internalID: -7764054894456204837
       vertices: []
       indices: 
       edges: []
@@ -596,7 +671,10 @@ TextureImporter:
       WizardMaster_15: 1980527503784060877
       WizardMaster_16: 4901732674927013188
       WizardMaster_17: -7727687006532403525
+      WizardMaster_18: -642065113257592407
+      WizardMaster_19: -8551487708218123781
       WizardMaster_2: -6628029326749773603
+      WizardMaster_20: -7764054894456204837
       WizardMaster_3: -8352527515727528229
       WizardMaster_4: -9002466997585751392
       WizardMaster_5: 1518033440128030268

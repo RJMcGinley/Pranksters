@@ -260,33 +260,6 @@ TextureImporter:
   - first:
       213: -3147893005328805008
     second: BeastmasterOpportunist_85
-  - first:
-      213: 5316431775829982710
-    second: BeastmasterOpportunist_86
-  - first:
-      213: 7445997720642992685
-    second: BeastmasterOpportunist_87
-  - first:
-      213: -7719571118067610075
-    second: BeastmasterOpportunist_88
-  - first:
-      213: 5889347942275372154
-    second: BeastmasterOpportunist_89
-  - first:
-      213: -4049036655629901089
-    second: BeastmasterOpportunist_90
-  - first:
-      213: 3622302088174093465
-    second: BeastmasterOpportunist_91
-  - first:
-      213: 5558804269637190011
-    second: BeastmasterOpportunist_92
-  - first:
-      213: 5412868048229577867
-    second: BeastmasterOpportunist_93
-  - first:
-      213: -8569405152051805175
-    second: BeastmasterOpportunist_94
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -411,10 +384,10 @@ TextureImporter:
       name: BeastmasterOpportunist_0
       rect:
         serializedVersion: 2
-        x: 298
-        y: 1098
-        width: 7
-        height: 17
+        x: 0
+        y: 934
+        width: 207
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +406,10 @@ TextureImporter:
       name: BeastmasterOpportunist_1
       rect:
         serializedVersion: 2
-        x: 363
-        y: 1105
-        width: 7
-        height: 12
+        x: 270
+        y: 1101
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,10 +428,10 @@ TextureImporter:
       name: BeastmasterOpportunist_2
       rect:
         serializedVersion: 2
-        x: 364
-        y: 1097
+        x: 298
+        y: 1098
         width: 7
-        height: 8
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +450,10 @@ TextureImporter:
       name: BeastmasterOpportunist_3
       rect:
         serializedVersion: 2
-        x: 203
+        x: 313
         y: 1088
-        width: 13
-        height: 11
+        width: 52
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +472,10 @@ TextureImporter:
       name: BeastmasterOpportunist_4
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1079
-        width: 7
-        height: 18
+        x: 424
+        y: 1075
+        width: 13
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,10 +494,10 @@ TextureImporter:
       name: BeastmasterOpportunist_5
       rect:
         serializedVersion: 2
-        x: 366
-        y: 1089
-        width: 6
-        height: 8
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +516,10 @@ TextureImporter:
       name: BeastmasterOpportunist_6
       rect:
         serializedVersion: 2
-        x: 12
-        y: 838
-        width: 266
-        height: 248
+        x: 352
+        y: 1084
+        width: 12
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,10 +538,10 @@ TextureImporter:
       name: BeastmasterOpportunist_7
       rect:
         serializedVersion: 2
-        x: 303
-        y: 1068
-        width: 18
-        height: 17
+        x: 354
+        y: 1079
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,10 +560,10 @@ TextureImporter:
       name: BeastmasterOpportunist_8
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1081
-        width: 6
-        height: 7
+        x: 54
+        y: 846
+        width: 224
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +582,10 @@ TextureImporter:
       name: BeastmasterOpportunist_9
       rect:
         serializedVersion: 2
-        x: 368
-        y: 1073
+        x: 303
+        y: 1068
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +604,10 @@ TextureImporter:
       name: BeastmasterOpportunist_10
       rect:
         serializedVersion: 2
-        x: 305
+        x: 317
         y: 1058
-        width: 6
-        height: 9
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,10 +626,10 @@ TextureImporter:
       name: BeastmasterOpportunist_11
       rect:
         serializedVersion: 2
-        x: 329
-        y: 1055
-        width: 7
-        height: 11
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,10 +648,10 @@ TextureImporter:
       name: BeastmasterOpportunist_12
       rect:
         serializedVersion: 2
-        x: 370
-        y: 1057
-        width: 6
-        height: 15
+        x: 308
+        y: 1017
+        width: 49
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +670,10 @@ TextureImporter:
       name: BeastmasterOpportunist_13
       rect:
         serializedVersion: 2
-        x: 422
-        y: 1058
+        x: 306
+        y: 1048
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,10 +692,10 @@ TextureImporter:
       name: BeastmasterOpportunist_14
       rect:
         serializedVersion: 2
-        x: 306
-        y: 1039
-        width: 7
-        height: 18
+        x: 426
+        y: 1036
+        width: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,10 +714,10 @@ TextureImporter:
       name: BeastmasterOpportunist_15
       rect:
         serializedVersion: 2
-        x: 372
-        y: 1041
-        width: 6
-        height: 16
+        x: 135
+        y: 312
+        width: 588
+        height: 723
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,10 +736,10 @@ TextureImporter:
       name: BeastmasterOpportunist_16
       rect:
         serializedVersion: 2
-        x: 374
-        y: 1033
+        x: 309
+        y: 1028
         width: 6
-        height: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +758,10 @@ TextureImporter:
       name: BeastmasterOpportunist_17
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1034
+        x: 424
+        y: 1031
         width: 7
-        height: 12
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -807,10 +780,10 @@ TextureImporter:
       name: BeastmasterOpportunist_18
       rect:
         serializedVersion: 2
-        x: 309
-        y: 1028
-        width: 6
-        height: 8
+        x: 429
+        y: 1031
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,10 +802,10 @@ TextureImporter:
       name: BeastmasterOpportunist_19
       rect:
         serializedVersion: 2
-        x: 374
-        y: 1025
-        width: 7
-        height: 7
+        x: 18
+        y: 928
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,8 +824,8 @@ TextureImporter:
       name: BeastmasterOpportunist_20
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1018
+        x: 19
+        y: 918
         width: 6
         height: 8
       alignment: 0
@@ -873,10 +846,10 @@ TextureImporter:
       name: BeastmasterOpportunist_21
       rect:
         serializedVersion: 2
-        x: 375
-        y: 1017
-        width: 7
-        height: 7
+        x: 21
+        y: 908
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,10 +868,10 @@ TextureImporter:
       name: BeastmasterOpportunist_22
       rect:
         serializedVersion: 2
-        x: 312
-        y: 1008
+        x: 22
+        y: 899
         width: 6
-        height: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -917,10 +890,10 @@ TextureImporter:
       name: BeastmasterOpportunist_23
       rect:
         serializedVersion: 2
-        x: 377
-        y: 1009
-        width: 6
-        height: 7
+        x: 24
+        y: 878
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -939,10 +912,10 @@ TextureImporter:
       name: BeastmasterOpportunist_24
       rect:
         serializedVersion: 2
-        x: 313
-        y: 978
-        width: 8
-        height: 28
+        x: 26
+        y: 868
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,10 +934,10 @@ TextureImporter:
       name: BeastmasterOpportunist_25
       rect:
         serializedVersion: 2
-        x: 377
-        y: 992
-        width: 8
-        height: 16
+        x: 28
+        y: 857
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -983,10 +956,10 @@ TextureImporter:
       name: BeastmasterOpportunist_26
       rect:
         serializedVersion: 2
-        x: 380
-        y: 985
+        x: 29
+        y: 838
         width: 7
-        height: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1005,10 +978,10 @@ TextureImporter:
       name: BeastmasterOpportunist_27
       rect:
         serializedVersion: 2
-        x: 381
-        y: 977
-        width: 7
-        height: 8
+        x: 32
+        y: 828
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,10 +1000,10 @@ TextureImporter:
       name: BeastmasterOpportunist_28
       rect:
         serializedVersion: 2
-        x: 428
-        y: 972
-        width: 8
-        height: 12
+        x: 34
+        y: 808
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,10 +1022,10 @@ TextureImporter:
       name: BeastmasterOpportunist_29
       rect:
         serializedVersion: 2
-        x: 135
-        y: 316
-        width: 633
-        height: 660
+        x: 36
+        y: 798
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,10 +1044,10 @@ TextureImporter:
       name: BeastmasterOpportunist_30
       rect:
         serializedVersion: 2
-        x: 382
-        y: 968
-        width: 7
-        height: 8
+        x: 38
+        y: 717
+        width: 14
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,10 +1066,10 @@ TextureImporter:
       name: BeastmasterOpportunist_31
       rect:
         serializedVersion: 2
-        x: 15
-        y: 948
-        width: 6
-        height: 8
+        x: 54
+        y: 711
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,10 +1088,10 @@ TextureImporter:
       name: BeastmasterOpportunist_32
       rect:
         serializedVersion: 2
-        x: 18
-        y: 928
-        width: 6
-        height: 8
+        x: 64
+        y: 712
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,10 +1110,10 @@ TextureImporter:
       name: BeastmasterOpportunist_33
       rect:
         serializedVersion: 2
-        x: 19
-        y: 918
-        width: 6
-        height: 8
+        x: 74
+        y: 714
+        width: 18
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1159,10 +1132,10 @@ TextureImporter:
       name: BeastmasterOpportunist_34
       rect:
         serializedVersion: 2
-        x: 21
-        y: 908
-        width: 6
-        height: 8
+        x: 94
+        y: 716
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1181,10 +1154,10 @@ TextureImporter:
       name: BeastmasterOpportunist_35
       rect:
         serializedVersion: 2
-        x: 22
-        y: 899
-        width: 6
-        height: 7
+        x: 104
+        y: 718
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1203,10 +1176,10 @@ TextureImporter:
       name: BeastmasterOpportunist_36
       rect:
         serializedVersion: 2
-        x: 25
-        y: 878
-        width: 6
-        height: 8
+        x: 115
+        y: 719
+        width: 17
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1225,10 +1198,10 @@ TextureImporter:
       name: BeastmasterOpportunist_37
       rect:
         serializedVersion: 2
-        x: 26
-        y: 868
-        width: 6
-        height: 8
+        x: 93
+        y: 232
+        width: 85
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1247,10 +1220,10 @@ TextureImporter:
       name: BeastmasterOpportunist_38
       rect:
         serializedVersion: 2
-        x: 28
-        y: 857
-        width: 6
-        height: 8
+        x: 432
+        y: 231
+        width: 41
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1269,10 +1242,10 @@ TextureImporter:
       name: BeastmasterOpportunist_39
       rect:
         serializedVersion: 2
-        x: 29
-        y: 847
-        width: 6
-        height: 9
+        x: 612
+        y: 288
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1291,10 +1264,10 @@ TextureImporter:
       name: BeastmasterOpportunist_40
       rect:
         serializedVersion: 2
-        x: 32
-        y: 828
-        width: 6
-        height: 7
+        x: 695
+        y: 231
+        width: 41
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1313,10 +1286,10 @@ TextureImporter:
       name: BeastmasterOpportunist_41
       rect:
         serializedVersion: 2
-        x: 158
-        y: 832
-        width: 6
-        height: 7
+        x: 181
+        y: 207
+        width: 65
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1335,10 +1308,10 @@ TextureImporter:
       name: BeastmasterOpportunist_42
       rect:
         serializedVersion: 2
-        x: 163
-        y: 827
-        width: 8
-        height: 6
+        x: 249
+        y: 207
+        width: 65
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1357,10 +1330,10 @@ TextureImporter:
       name: BeastmasterOpportunist_43
       rect:
         serializedVersion: 2
-        x: 34
-        y: 808
-        width: 7
-        height: 17
+        x: 320
+        y: 231
+        width: 57
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1379,10 +1352,10 @@ TextureImporter:
       name: BeastmasterOpportunist_44
       rect:
         serializedVersion: 2
-        x: 36
-        y: 798
-        width: 6
-        height: 7
+        x: 381
+        y: 233
+        width: 52
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1401,10 +1374,10 @@ TextureImporter:
       name: BeastmasterOpportunist_45
       rect:
         serializedVersion: 2
-        x: 38
-        y: 717
-        width: 14
-        height: 78
+        x: 472
+        y: 231
+        width: 66
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1423,10 +1396,10 @@ TextureImporter:
       name: BeastmasterOpportunist_46
       rect:
         serializedVersion: 2
-        x: 54
-        y: 711
-        width: 8
-        height: 6
+        x: 539
+        y: 233
+        width: 67
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1445,10 +1418,10 @@ TextureImporter:
       name: BeastmasterOpportunist_47
       rect:
         serializedVersion: 2
-        x: 64
-        y: 712
-        width: 8
-        height: 6
+        x: 605
+        y: 233
+        width: 35
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1467,10 +1440,10 @@ TextureImporter:
       name: BeastmasterOpportunist_48
       rect:
         serializedVersion: 2
-        x: 74
-        y: 714
-        width: 18
-        height: 7
+        x: 644
+        y: 231
+        width: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,10 +1462,10 @@ TextureImporter:
       name: BeastmasterOpportunist_49
       rect:
         serializedVersion: 2
-        x: 94
-        y: 716
-        width: 8
-        height: 6
+        x: 29
+        y: 133
+        width: 57
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1511,10 +1484,10 @@ TextureImporter:
       name: BeastmasterOpportunist_50
       rect:
         serializedVersion: 2
-        x: 104
-        y: 718
-        width: 8
-        height: 6
+        x: 96
+        y: 128
+        width: 37
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1506,10 @@ TextureImporter:
       name: BeastmasterOpportunist_51
       rect:
         serializedVersion: 2
-        x: 115
-        y: 719
-        width: 17
-        height: 7
+        x: 137
+        y: 126
+        width: 135
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1555,10 +1528,10 @@ TextureImporter:
       name: BeastmasterOpportunist_52
       rect:
         serializedVersion: 2
-        x: 93
-        y: 232
-        width: 85
-        height: 78
+        x: 278
+        y: 141
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1577,10 +1550,10 @@ TextureImporter:
       name: BeastmasterOpportunist_53
       rect:
         serializedVersion: 2
-        x: 432
-        y: 231
-        width: 41
-        height: 64
+        x: 311
+        y: 140
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,10 +1572,10 @@ TextureImporter:
       name: BeastmasterOpportunist_54
       rect:
         serializedVersion: 2
-        x: 612
-        y: 288
-        width: 22
-        height: 22
+        x: 343
+        y: 141
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1621,10 +1594,10 @@ TextureImporter:
       name: BeastmasterOpportunist_55
       rect:
         serializedVersion: 2
-        x: 695
-        y: 231
-        width: 41
-        height: 64
+        x: 383
+        y: 140
+        width: 31
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1643,10 +1616,10 @@ TextureImporter:
       name: BeastmasterOpportunist_56
       rect:
         serializedVersion: 2
-        x: 181
-        y: 207
-        width: 65
-        height: 75
+        x: 414
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1665,10 +1638,10 @@ TextureImporter:
       name: BeastmasterOpportunist_57
       rect:
         serializedVersion: 2
-        x: 249
-        y: 207
-        width: 65
-        height: 75
+        x: 443
+        y: 141
+        width: 78
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1687,10 +1660,10 @@ TextureImporter:
       name: BeastmasterOpportunist_58
       rect:
         serializedVersion: 2
-        x: 320
-        y: 231
-        width: 57
-        height: 51
+        x: 504
+        y: 172
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1709,10 +1682,10 @@ TextureImporter:
       name: BeastmasterOpportunist_59
       rect:
         serializedVersion: 2
-        x: 381
-        y: 233
-        width: 52
-        height: 49
+        x: 520
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1731,10 +1704,10 @@ TextureImporter:
       name: BeastmasterOpportunist_60
       rect:
         serializedVersion: 2
-        x: 472
-        y: 231
-        width: 66
-        height: 49
+        x: 549
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1753,10 +1726,10 @@ TextureImporter:
       name: BeastmasterOpportunist_61
       rect:
         serializedVersion: 2
-        x: 539
-        y: 233
-        width: 67
-        height: 49
+        x: 592
+        y: 141
+        width: 46
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1775,10 +1748,10 @@ TextureImporter:
       name: BeastmasterOpportunist_62
       rect:
         serializedVersion: 2
-        x: 605
-        y: 233
-        width: 35
-        height: 49
+        x: 636
+        y: 140
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1797,10 +1770,10 @@ TextureImporter:
       name: BeastmasterOpportunist_63
       rect:
         serializedVersion: 2
-        x: 644
-        y: 231
-        width: 48
-        height: 51
+        x: 665
+        y: 140
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1819,10 +1792,10 @@ TextureImporter:
       name: BeastmasterOpportunist_64
       rect:
         serializedVersion: 2
-        x: 50
-        y: 133
-        width: 57
-        height: 55
+        x: 690
+        y: 172
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1841,10 +1814,10 @@ TextureImporter:
       name: BeastmasterOpportunist_65
       rect:
         serializedVersion: 2
-        x: 117
-        y: 128
-        width: 37
-        height: 68
+        x: 706
+        y: 140
+        width: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1863,10 +1836,10 @@ TextureImporter:
       name: BeastmasterOpportunist_66
       rect:
         serializedVersion: 2
-        x: 165
-        y: 124
-        width: 135
-        height: 62
+        x: 738
+        y: 141
+        width: 39
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1885,10 +1858,10 @@ TextureImporter:
       name: BeastmasterOpportunist_67
       rect:
         serializedVersion: 2
-        x: 312
-        y: 130
-        width: 99
-        height: 46
+        x: 776
+        y: 140
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1907,10 +1880,10 @@ TextureImporter:
       name: BeastmasterOpportunist_68
       rect:
         serializedVersion: 2
-        x: 495
-        y: 131
-        width: 48
-        height: 44
+        x: 33
+        y: 44
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1929,10 +1902,10 @@ TextureImporter:
       name: BeastmasterOpportunist_69
       rect:
         serializedVersion: 2
-        x: 548
-        y: 161
-        width: 14
-        height: 15
+        x: 99
+        y: 40
+        width: 35
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1951,10 +1924,10 @@ TextureImporter:
       name: BeastmasterOpportunist_70
       rect:
         serializedVersion: 2
-        x: 689
-        y: 130
-        width: 38
-        height: 46
+        x: 171
+        y: 38
+        width: 71
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1973,10 +1946,10 @@ TextureImporter:
       name: BeastmasterOpportunist_71
       rect:
         serializedVersion: 2
-        x: 759
-        y: 130
+        x: 278
+        y: 53
         width: 38
-        height: 46
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,10 +1968,10 @@ TextureImporter:
       name: BeastmasterOpportunist_72
       rect:
         serializedVersion: 2
-        x: 411
-        y: 130
-        width: 31
-        height: 30
+        x: 311
+        y: 52
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2017,10 +1990,10 @@ TextureImporter:
       name: BeastmasterOpportunist_73
       rect:
         serializedVersion: 2
-        x: 441
-        y: 131
-        width: 40
-        height: 29
+        x: 343
+        y: 53
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2039,10 +2012,10 @@ TextureImporter:
       name: BeastmasterOpportunist_74
       rect:
         serializedVersion: 2
-        x: 544
-        y: 131
-        width: 22
-        height: 29
+        x: 383
+        y: 52
+        width: 32
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2061,10 +2034,10 @@ TextureImporter:
       name: BeastmasterOpportunist_75
       rect:
         serializedVersion: 2
-        x: 566
-        y: 130
-        width: 29
-        height: 30
+        x: 414
+        y: 52
+        width: 31
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2083,10 +2056,10 @@ TextureImporter:
       name: BeastmasterOpportunist_76
       rect:
         serializedVersion: 2
-        x: 595
-        y: 130
-        width: 30
-        height: 30
+        x: 443
+        y: 53
+        width: 79
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2105,10 +2078,10 @@ TextureImporter:
       name: BeastmasterOpportunist_77
       rect:
         serializedVersion: 2
-        x: 626
-        y: 130
-        width: 35
-        height: 30
+        x: 504
+        y: 84
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2127,10 +2100,10 @@ TextureImporter:
       name: BeastmasterOpportunist_78
       rect:
         serializedVersion: 2
-        x: 660
-        y: 131
-        width: 31
-        height: 29
+        x: 520
+        y: 52
+        width: 60
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2149,10 +2122,10 @@ TextureImporter:
       name: BeastmasterOpportunist_79
       rect:
         serializedVersion: 2
-        x: 727
-        y: 130
-        width: 31
-        height: 30
+        x: 592
+        y: 53
+        width: 47
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2171,10 +2144,10 @@ TextureImporter:
       name: BeastmasterOpportunist_80
       rect:
         serializedVersion: 2
-        x: 52
-        y: 39
-        width: 55
-        height: 55
+        x: 636
+        y: 52
+        width: 30
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2193,10 +2166,10 @@ TextureImporter:
       name: BeastmasterOpportunist_81
       rect:
         serializedVersion: 2
-        x: 118
-        y: 35
-        width: 35
-        height: 66
+        x: 665
+        y: 52
+        width: 43
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2215,10 +2188,10 @@ TextureImporter:
       name: BeastmasterOpportunist_82
       rect:
         serializedVersion: 2
-        x: 205
-        y: 34
-        width: 71
-        height: 72
+        x: 690
+        y: 84
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2237,10 +2210,10 @@ TextureImporter:
       name: BeastmasterOpportunist_83
       rect:
         serializedVersion: 2
-        x: 316
-        y: 44
-        width: 99
-        height: 47
+        x: 706
+        y: 52
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2259,10 +2232,10 @@ TextureImporter:
       name: BeastmasterOpportunist_84
       rect:
         serializedVersion: 2
-        x: 499
-        y: 46
-        width: 47
-        height: 43
+        x: 738
+        y: 53
+        width: 39
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2281,10 +2254,10 @@ TextureImporter:
       name: BeastmasterOpportunist_85
       rect:
         serializedVersion: 2
-        x: 551
-        y: 76
-        width: 15
-        height: 15
+        x: 776
+        y: 52
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2295,204 +2268,6 @@ TextureImporter:
       bones: []
       spriteID: 073907a6dff6054d0800000000000000
       internalID: -3147893005328805008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_86
-      rect:
-        serializedVersion: 2
-        x: 662
-        y: 45
-        width: 67
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fdf1fe4882c7c940800000000000000
-      internalID: 5316431775829982710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_87
-      rect:
-        serializedVersion: 2
-        x: 761
-        y: 45
-        width: 38
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a3b41f97f755760800000000000000
-      internalID: 7445997720642992685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_88
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 44
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52e0739d7f29ed490800000000000000
-      internalID: -7719571118067610075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_89
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 46
-        width: 40
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a74500a10ca2bb150800000000000000
-      internalID: 5889347942275372154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_90
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 46
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd2e4aa4d9eeec7c0800000000000000
-      internalID: -4049036655629901089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_91
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 44
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 994c5c2be80054230800000000000000
-      internalID: 3622302088174093465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_92
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 44
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7146ab0807d42d40800000000000000
-      internalID: 5558804269637190011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_93
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 45
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8439ceafce5e1b40800000000000000
-      internalID: 5412868048229577867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterOpportunist_94
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 44
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 904cc87ba6b531980800000000000000
-      internalID: -8569405152051805175
       vertices: []
       indices: 
       edges: []
@@ -2596,16 +2371,7 @@ TextureImporter:
       BeastmasterOpportunist_83: 255869658768261820
       BeastmasterOpportunist_84: -3202938911271943390
       BeastmasterOpportunist_85: -3147893005328805008
-      BeastmasterOpportunist_86: 5316431775829982710
-      BeastmasterOpportunist_87: 7445997720642992685
-      BeastmasterOpportunist_88: -7719571118067610075
-      BeastmasterOpportunist_89: 5889347942275372154
       BeastmasterOpportunist_9: 1027335755286912124
-      BeastmasterOpportunist_90: -4049036655629901089
-      BeastmasterOpportunist_91: 3622302088174093465
-      BeastmasterOpportunist_92: 5558804269637190011
-      BeastmasterOpportunist_93: 5412868048229577867
-      BeastmasterOpportunist_94: -8569405152051805175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

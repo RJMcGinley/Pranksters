@@ -170,48 +170,6 @@ TextureImporter:
   - first:
       213: 7839501271972937839
     second: BeastmasterCrewleader_55
-  - first:
-      213: -6116268417332331770
-    second: BeastmasterCrewleader_56
-  - first:
-      213: 9200749764372011686
-    second: BeastmasterCrewleader_57
-  - first:
-      213: 8513029734920876539
-    second: BeastmasterCrewleader_58
-  - first:
-      213: -7701736296477229648
-    second: BeastmasterCrewleader_59
-  - first:
-      213: -1821276812312371969
-    second: BeastmasterCrewleader_60
-  - first:
-      213: 5677485122180017961
-    second: BeastmasterCrewleader_61
-  - first:
-      213: -8442757358252695097
-    second: BeastmasterCrewleader_62
-  - first:
-      213: 597959289856960882
-    second: BeastmasterCrewleader_63
-  - first:
-      213: -2679601748272951159
-    second: BeastmasterCrewleader_64
-  - first:
-      213: -6418870455606654378
-    second: BeastmasterCrewleader_65
-  - first:
-      213: -5736363625072442857
-    second: BeastmasterCrewleader_66
-  - first:
-      213: -5374331125264110384
-    second: BeastmasterCrewleader_67
-  - first:
-      213: 2073162538275448652
-    second: BeastmasterCrewleader_68
-  - first:
-      213: 1755274910346960394
-    second: BeastmasterCrewleader_69
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -336,10 +294,10 @@ TextureImporter:
       name: BeastmasterCrewleader_0
       rect:
         serializedVersion: 2
-        x: 298
-        y: 1098
-        width: 7
-        height: 17
+        x: 0
+        y: 934
+        width: 207
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +316,10 @@ TextureImporter:
       name: BeastmasterCrewleader_1
       rect:
         serializedVersion: 2
-        x: 363
-        y: 1105
-        width: 7
-        height: 12
+        x: 270
+        y: 1101
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +338,10 @@ TextureImporter:
       name: BeastmasterCrewleader_2
       rect:
         serializedVersion: 2
-        x: 364
-        y: 1097
+        x: 298
+        y: 1098
         width: 7
-        height: 8
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +360,10 @@ TextureImporter:
       name: BeastmasterCrewleader_3
       rect:
         serializedVersion: 2
-        x: 203
+        x: 313
         y: 1088
-        width: 13
-        height: 11
+        width: 52
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +382,10 @@ TextureImporter:
       name: BeastmasterCrewleader_4
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1079
-        width: 7
-        height: 18
+        x: 424
+        y: 1075
+        width: 13
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +404,10 @@ TextureImporter:
       name: BeastmasterCrewleader_5
       rect:
         serializedVersion: 2
-        x: 366
-        y: 1089
-        width: 6
-        height: 8
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +426,10 @@ TextureImporter:
       name: BeastmasterCrewleader_6
       rect:
         serializedVersion: 2
-        x: 12
-        y: 838
-        width: 266
-        height: 248
+        x: 352
+        y: 1084
+        width: 12
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +448,10 @@ TextureImporter:
       name: BeastmasterCrewleader_7
       rect:
         serializedVersion: 2
-        x: 303
-        y: 1068
-        width: 18
-        height: 17
+        x: 354
+        y: 1079
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +470,10 @@ TextureImporter:
       name: BeastmasterCrewleader_8
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1081
-        width: 6
-        height: 7
+        x: 54
+        y: 846
+        width: 224
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +492,10 @@ TextureImporter:
       name: BeastmasterCrewleader_9
       rect:
         serializedVersion: 2
-        x: 368
-        y: 1073
+        x: 303
+        y: 1068
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +514,10 @@ TextureImporter:
       name: BeastmasterCrewleader_10
       rect:
         serializedVersion: 2
-        x: 305
+        x: 317
         y: 1058
-        width: 6
-        height: 9
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +536,10 @@ TextureImporter:
       name: BeastmasterCrewleader_11
       rect:
         serializedVersion: 2
-        x: 329
-        y: 1055
-        width: 7
-        height: 11
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +558,10 @@ TextureImporter:
       name: BeastmasterCrewleader_12
       rect:
         serializedVersion: 2
-        x: 370
-        y: 1057
-        width: 6
-        height: 15
+        x: 308
+        y: 1017
+        width: 49
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +580,10 @@ TextureImporter:
       name: BeastmasterCrewleader_13
       rect:
         serializedVersion: 2
-        x: 422
-        y: 1058
+        x: 306
+        y: 1048
         width: 6
-        height: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +602,10 @@ TextureImporter:
       name: BeastmasterCrewleader_14
       rect:
         serializedVersion: 2
-        x: 306
-        y: 1039
-        width: 7
-        height: 18
+        x: 426
+        y: 1036
+        width: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +624,10 @@ TextureImporter:
       name: BeastmasterCrewleader_15
       rect:
         serializedVersion: 2
-        x: 372
-        y: 1041
-        width: 6
-        height: 16
+        x: 135
+        y: 312
+        width: 588
+        height: 723
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +646,10 @@ TextureImporter:
       name: BeastmasterCrewleader_16
       rect:
         serializedVersion: 2
-        x: 374
-        y: 1033
+        x: 309
+        y: 1028
         width: 6
-        height: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +668,10 @@ TextureImporter:
       name: BeastmasterCrewleader_17
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1034
+        x: 424
+        y: 1031
         width: 7
-        height: 12
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +690,10 @@ TextureImporter:
       name: BeastmasterCrewleader_18
       rect:
         serializedVersion: 2
-        x: 309
-        y: 1028
-        width: 6
-        height: 8
+        x: 429
+        y: 1031
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +712,10 @@ TextureImporter:
       name: BeastmasterCrewleader_19
       rect:
         serializedVersion: 2
-        x: 374
-        y: 1025
-        width: 7
-        height: 7
+        x: 576
+        y: 924
+        width: 193
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,8 +734,8 @@ TextureImporter:
       name: BeastmasterCrewleader_20
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1018
+        x: 18
+        y: 928
         width: 6
         height: 8
       alignment: 0
@@ -798,10 +756,10 @@ TextureImporter:
       name: BeastmasterCrewleader_21
       rect:
         serializedVersion: 2
-        x: 375
-        y: 1017
-        width: 7
-        height: 7
+        x: 19
+        y: 918
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +778,10 @@ TextureImporter:
       name: BeastmasterCrewleader_22
       rect:
         serializedVersion: 2
-        x: 312
-        y: 1008
+        x: 21
+        y: 908
         width: 6
-        height: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,8 +800,8 @@ TextureImporter:
       name: BeastmasterCrewleader_23
       rect:
         serializedVersion: 2
-        x: 377
-        y: 1009
+        x: 22
+        y: 899
         width: 6
         height: 7
       alignment: 0
@@ -864,10 +822,10 @@ TextureImporter:
       name: BeastmasterCrewleader_24
       rect:
         serializedVersion: 2
-        x: 313
-        y: 978
-        width: 8
-        height: 28
+        x: 24
+        y: 878
+        width: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +844,10 @@ TextureImporter:
       name: BeastmasterCrewleader_25
       rect:
         serializedVersion: 2
-        x: 377
-        y: 992
-        width: 8
-        height: 16
+        x: 26
+        y: 868
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,9 +866,9 @@ TextureImporter:
       name: BeastmasterCrewleader_26
       rect:
         serializedVersion: 2
-        x: 380
-        y: 985
-        width: 7
+        x: 28
+        y: 857
+        width: 6
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -930,10 +888,10 @@ TextureImporter:
       name: BeastmasterCrewleader_27
       rect:
         serializedVersion: 2
-        x: 381
-        y: 977
+        x: 29
+        y: 838
         width: 7
-        height: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,10 +910,10 @@ TextureImporter:
       name: BeastmasterCrewleader_28
       rect:
         serializedVersion: 2
-        x: 428
-        y: 972
-        width: 8
-        height: 12
+        x: 32
+        y: 828
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +932,10 @@ TextureImporter:
       name: BeastmasterCrewleader_29
       rect:
         serializedVersion: 2
-        x: 135
-        y: 316
-        width: 633
-        height: 660
+        x: 34
+        y: 808
+        width: 7
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,10 +954,10 @@ TextureImporter:
       name: BeastmasterCrewleader_30
       rect:
         serializedVersion: 2
-        x: 382
-        y: 968
-        width: 7
-        height: 8
+        x: 36
+        y: 798
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,10 +976,10 @@ TextureImporter:
       name: BeastmasterCrewleader_31
       rect:
         serializedVersion: 2
-        x: 15
-        y: 948
-        width: 6
-        height: 8
+        x: 38
+        y: 717
+        width: 14
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,10 +998,10 @@ TextureImporter:
       name: BeastmasterCrewleader_32
       rect:
         serializedVersion: 2
-        x: 18
-        y: 928
-        width: 6
-        height: 8
+        x: 54
+        y: 711
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1062,10 +1020,10 @@ TextureImporter:
       name: BeastmasterCrewleader_33
       rect:
         serializedVersion: 2
-        x: 19
-        y: 918
-        width: 6
-        height: 8
+        x: 64
+        y: 712
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1042,10 @@ TextureImporter:
       name: BeastmasterCrewleader_34
       rect:
         serializedVersion: 2
-        x: 21
-        y: 908
-        width: 6
-        height: 8
+        x: 74
+        y: 714
+        width: 18
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,10 +1064,10 @@ TextureImporter:
       name: BeastmasterCrewleader_35
       rect:
         serializedVersion: 2
-        x: 22
-        y: 899
-        width: 6
-        height: 7
+        x: 94
+        y: 716
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1086,10 @@ TextureImporter:
       name: BeastmasterCrewleader_36
       rect:
         serializedVersion: 2
-        x: 25
-        y: 878
-        width: 6
-        height: 8
+        x: 104
+        y: 718
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1108,10 @@ TextureImporter:
       name: BeastmasterCrewleader_37
       rect:
         serializedVersion: 2
-        x: 26
-        y: 868
-        width: 6
-        height: 8
+        x: 115
+        y: 719
+        width: 17
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,10 +1130,10 @@ TextureImporter:
       name: BeastmasterCrewleader_38
       rect:
         serializedVersion: 2
-        x: 28
-        y: 857
-        width: 6
-        height: 8
+        x: 148
+        y: 213
+        width: 62
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1194,10 +1152,10 @@ TextureImporter:
       name: BeastmasterCrewleader_39
       rect:
         serializedVersion: 2
-        x: 29
-        y: 847
-        width: 6
-        height: 9
+        x: 215
+        y: 215
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,10 +1174,10 @@ TextureImporter:
       name: BeastmasterCrewleader_40
       rect:
         serializedVersion: 2
-        x: 32
-        y: 828
-        width: 6
-        height: 7
+        x: 259
+        y: 213
+        width: 44
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1238,10 +1196,10 @@ TextureImporter:
       name: BeastmasterCrewleader_41
       rect:
         serializedVersion: 2
-        x: 158
-        y: 832
-        width: 6
-        height: 7
+        x: 303
+        y: 214
+        width: 76
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1218,10 @@ TextureImporter:
       name: BeastmasterCrewleader_42
       rect:
         serializedVersion: 2
-        x: 163
-        y: 827
-        width: 8
-        height: 6
+        x: 400
+        y: 215
+        width: 59
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1282,10 +1240,10 @@ TextureImporter:
       name: BeastmasterCrewleader_43
       rect:
         serializedVersion: 2
-        x: 34
-        y: 808
-        width: 7
-        height: 17
+        x: 461
+        y: 213
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,10 +1262,10 @@ TextureImporter:
       name: BeastmasterCrewleader_44
       rect:
         serializedVersion: 2
-        x: 36
-        y: 798
-        width: 6
-        height: 7
+        x: 509
+        y: 214
+        width: 50
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,10 +1284,10 @@ TextureImporter:
       name: BeastmasterCrewleader_45
       rect:
         serializedVersion: 2
-        x: 38
-        y: 717
-        width: 14
-        height: 78
+        x: 561
+        y: 214
+        width: 54
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1306,10 @@ TextureImporter:
       name: BeastmasterCrewleader_46
       rect:
         serializedVersion: 2
-        x: 54
-        y: 711
-        width: 8
-        height: 6
+        x: 617
+        y: 213
+        width: 44
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,10 +1328,10 @@ TextureImporter:
       name: BeastmasterCrewleader_47
       rect:
         serializedVersion: 2
-        x: 64
-        y: 712
-        width: 8
-        height: 6
+        x: 663
+        y: 215
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,10 +1350,10 @@ TextureImporter:
       name: BeastmasterCrewleader_48
       rect:
         serializedVersion: 2
-        x: 74
-        y: 714
-        width: 18
-        height: 7
+        x: 122
+        y: 96
+        width: 58
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1414,10 +1372,10 @@ TextureImporter:
       name: BeastmasterCrewleader_49
       rect:
         serializedVersion: 2
-        x: 94
-        y: 716
-        width: 8
-        height: 6
+        x: 192
+        y: 90
+        width: 37
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1436,10 +1394,10 @@ TextureImporter:
       name: BeastmasterCrewleader_50
       rect:
         serializedVersion: 2
-        x: 104
-        y: 718
-        width: 8
-        height: 6
+        x: 262
+        y: 87
+        width: 77
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1458,10 +1416,10 @@ TextureImporter:
       name: BeastmasterCrewleader_51
       rect:
         serializedVersion: 2
-        x: 115
-        y: 719
-        width: 17
-        height: 7
+        x: 362
+        y: 95
+        width: 87
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1480,10 +1438,10 @@ TextureImporter:
       name: BeastmasterCrewleader_52
       rect:
         serializedVersion: 2
-        x: 148
-        y: 213
-        width: 62
-        height: 66
+        x: 448
+        y: 96
+        width: 54
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1502,10 +1460,10 @@ TextureImporter:
       name: BeastmasterCrewleader_53
       rect:
         serializedVersion: 2
-        x: 215
-        y: 215
-        width: 44
-        height: 41
+        x: 504
+        y: 94
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1524,10 +1482,10 @@ TextureImporter:
       name: BeastmasterCrewleader_54
       rect:
         serializedVersion: 2
-        x: 259
-        y: 213
-        width: 44
-        height: 43
+        x: 548
+        y: 96
+        width: 54
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1546,314 +1504,6 @@ TextureImporter:
       name: BeastmasterCrewleader_55
       rect:
         serializedVersion: 2
-        x: 303
-        y: 214
-        width: 76
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f608b241fd08bcc60800000000000000
-      internalID: 7839501271972937839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_56
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 215
-        width: 59
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60b37f1a746ae1ba0800000000000000
-      internalID: -6116268417332331770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_57
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 213
-        width: 43
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6aa17acb921afaf70800000000000000
-      internalID: 9200749764372011686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_58
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 214
-        width: 50
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf1fb40a07b542670800000000000000
-      internalID: 8513029734920876539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_59
-      rect:
-        serializedVersion: 2
-        x: 561
-        y: 214
-        width: 54
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bdfdb6d4afed1590800000000000000
-      internalID: -7701736296477229648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_60
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 213
-        width: 44
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffc1774836689b6e0800000000000000
-      internalID: -1821276812312371969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_61
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 215
-        width: 44
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92fea1553aa7ace40800000000000000
-      internalID: 5677485122180017961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_62
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 96
-        width: 58
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c168801aec45da80800000000000000
-      internalID: -8442757358252695097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_63
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 90
-        width: 37
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 279a1165ec06c4800800000000000000
-      internalID: 597959289856960882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_64
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 980dca6386420dad0800000000000000
-      internalID: -2679601748272951159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_65
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65ac05a44579be6a0800000000000000
-      internalID: -6418870455606654378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_66
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 712c511fca75460b0800000000000000
-      internalID: -5736363625072442857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_67
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0dcae45e05a8a65b0800000000000000
-      internalID: -5374331125264110384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_68
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c472e8f285a55cc10800000000000000
-      internalID: 2073162538275448652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeastmasterCrewleader_69
-      rect:
-        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -1866,8 +1516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0ed26a2b3dfb5810800000000000000
-      internalID: 1755274910346960394
+      spriteID: f608b241fd08bcc60800000000000000
+      internalID: 7839501271972937839
       vertices: []
       indices: 
       edges: []
@@ -1938,21 +1588,7 @@ TextureImporter:
       BeastmasterCrewleader_53: -1892233657606665217
       BeastmasterCrewleader_54: 7324274517855999379
       BeastmasterCrewleader_55: 7839501271972937839
-      BeastmasterCrewleader_56: -6116268417332331770
-      BeastmasterCrewleader_57: 9200749764372011686
-      BeastmasterCrewleader_58: 8513029734920876539
-      BeastmasterCrewleader_59: -7701736296477229648
       BeastmasterCrewleader_6: -2790272159448380632
-      BeastmasterCrewleader_60: -1821276812312371969
-      BeastmasterCrewleader_61: 5677485122180017961
-      BeastmasterCrewleader_62: -8442757358252695097
-      BeastmasterCrewleader_63: 597959289856960882
-      BeastmasterCrewleader_64: -2679601748272951159
-      BeastmasterCrewleader_65: -6418870455606654378
-      BeastmasterCrewleader_66: -5736363625072442857
-      BeastmasterCrewleader_67: -5374331125264110384
-      BeastmasterCrewleader_68: 2073162538275448652
-      BeastmasterCrewleader_69: 1755274910346960394
       BeastmasterCrewleader_7: -7424952391153487521
       BeastmasterCrewleader_8: -1560322662550021372
       BeastmasterCrewleader_9: 4991550466522582391

@@ -56,6 +56,15 @@ TextureImporter:
   - first:
       213: -2586964894792369492
     second: WizardExpert_17
+  - first:
+      213: -1480407518834330922
+    second: WizardExpert_18
+  - first:
+      213: 2131436429114513249
+    second: WizardExpert_19
+  - first:
+      213: 4870517572645378393
+    second: WizardExpert_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -181,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 695
-        width: 317
-        height: 368
+        y: 794
+        width: 322
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +211,10 @@ TextureImporter:
       name: WizardExpert_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 286
-        width: 601
-        height: 697
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +233,10 @@ TextureImporter:
       name: WizardExpert_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 982
-        width: 68
-        height: 140
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +255,10 @@ TextureImporter:
       name: WizardExpert_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 978
-        width: 7
-        height: 7
+        x: 37
+        y: 877
+        width: 11
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +277,10 @@ TextureImporter:
       name: WizardExpert_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 215
-        width: 59
-        height: 63
+        x: 63
+        y: 294
+        width: 640
+        height: 643
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +299,10 @@ TextureImporter:
       name: WizardExpert_5
       rect:
         serializedVersion: 2
-        x: 341
-        y: 215
-        width: 51
-        height: 39
+        x: 577
+        y: 924
+        width: 192
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +321,10 @@ TextureImporter:
       name: WizardExpert_6
       rect:
         serializedVersion: 2
-        x: 391
-        y: 193
-        width: 55
-        height: 63
+        x: 37
+        y: 700
+        width: 23
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +343,10 @@ TextureImporter:
       name: WizardExpert_7
       rect:
         serializedVersion: 2
-        x: 451
-        y: 213
-        width: 43
-        height: 43
+        x: 282
+        y: 215
+        width: 59
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +365,10 @@ TextureImporter:
       name: WizardExpert_8
       rect:
         serializedVersion: 2
-        x: 497
+        x: 341
         y: 215
-        width: 43
-        height: 41
+        width: 51
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +387,10 @@ TextureImporter:
       name: WizardExpert_9
       rect:
         serializedVersion: 2
-        x: 539
-        y: 213
-        width: 35
-        height: 54
+        x: 391
+        y: 193
+        width: 55
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +409,10 @@ TextureImporter:
       name: WizardExpert_10
       rect:
         serializedVersion: 2
-        x: 127
-        y: 97
-        width: 58
-        height: 57
+        x: 451
+        y: 213
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +431,10 @@ TextureImporter:
       name: WizardExpert_11
       rect:
         serializedVersion: 2
-        x: 190
-        y: 90
-        width: 48
-        height: 72
+        x: 497
+        y: 215
+        width: 43
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +453,10 @@ TextureImporter:
       name: WizardExpert_12
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 539
+        y: 213
+        width: 35
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +475,10 @@ TextureImporter:
       name: WizardExpert_13
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 127
+        y: 97
+        width: 58
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +497,10 @@ TextureImporter:
       name: WizardExpert_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 190
+        y: 90
+        width: 48
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +519,10 @@ TextureImporter:
       name: WizardExpert_15
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 262
+        y: 87
+        width: 77
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +541,10 @@ TextureImporter:
       name: WizardExpert_16
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 362
+        y: 95
+        width: 87
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,6 +563,72 @@ TextureImporter:
       name: WizardExpert_17
       rect:
         serializedVersion: 2
+        x: 448
+        y: 96
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caabe7f6221491cd0800000000000000
+      internalID: -2586964894792369492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_18
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 94
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2ff058439847be0800000000000000
+      internalID: -1480407518834330922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_19
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 96
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16792b2b322649d10800000000000000
+      internalID: 2131436429114513249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardExpert_20
+      rect:
+        serializedVersion: 2
         x: 627
         y: 93
         width: 134
@@ -566,8 +641,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caabe7f6221491cd0800000000000000
-      internalID: -2586964894792369492
+      spriteID: 95953dd5ded879340800000000000000
+      internalID: 4870517572645378393
       vertices: []
       indices: 
       edges: []
@@ -596,7 +671,10 @@ TextureImporter:
       WizardExpert_15: 5990089028441714330
       WizardExpert_16: 8983037173964225790
       WizardExpert_17: -2586964894792369492
+      WizardExpert_18: -1480407518834330922
+      WizardExpert_19: 2131436429114513249
       WizardExpert_2: 4546742090282609457
+      WizardExpert_20: 4870517572645378393
       WizardExpert_3: -2267606426045082450
       WizardExpert_4: -1298442497135931872
       WizardExpert_5: 2865113407375918494

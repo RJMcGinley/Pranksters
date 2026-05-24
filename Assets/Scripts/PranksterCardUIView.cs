@@ -15,11 +15,16 @@ public class PranksterCardUIView : MonoBehaviour
             return;
         }
 
-        Sprite sprite = PranksterSpriteDatabase.GetSprite(card.pranksterType, card.tier);
+        Sprite sprite = PranksterSpriteDatabase.GetSprite(
+            card.pranksterType,
+            card.tier,
+            card.category
+        );
 
         Debug.Log("CARD UI VIEW SET CARD | type=" + card.pranksterType +
-                  " | tier=" + card.tier +
-                  " | sprite=" + (sprite != null ? sprite.name : "NULL"));
+                " | tier=" + card.tier +
+                " | category=" + card.category +
+                " | sprite=" + (sprite != null ? sprite.name : "NULL"));
 
         SetCharacterArt(sprite);
     }

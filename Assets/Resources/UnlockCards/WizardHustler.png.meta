@@ -80,6 +80,21 @@ TextureImporter:
   - first:
       213: -5598806011048219350
     second: WizardHustler_25
+  - first:
+      213: -6406912381733539946
+    second: WizardHustler_26
+  - first:
+      213: 261420653174841093
+    second: WizardHustler_27
+  - first:
+      213: 7312024776948533298
+    second: WizardHustler_28
+  - first:
+      213: 3741147721120845455
+    second: WizardHustler_29
+  - first:
+      213: 5903095172418474494
+    second: WizardHustler_30
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -205,9 +220,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 695
-        width: 317
-        height: 368
+        y: 794
+        width: 322
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +241,10 @@ TextureImporter:
       name: WizardHustler_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 286
-        width: 601
-        height: 697
+        x: 37
+        y: 1054
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +263,10 @@ TextureImporter:
       name: WizardHustler_2
       rect:
         serializedVersion: 2
-        x: 314
-        y: 982
-        width: 68
-        height: 140
+        x: 73
+        y: 1047
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +285,10 @@ TextureImporter:
       name: WizardHustler_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 978
-        width: 7
-        height: 7
+        x: 37
+        y: 877
+        width: 11
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +307,10 @@ TextureImporter:
       name: WizardHustler_4
       rect:
         serializedVersion: 2
-        x: 231
-        y: 210
-        width: 93
-        height: 78
+        x: 63
+        y: 294
+        width: 640
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +329,10 @@ TextureImporter:
       name: WizardHustler_5
       rect:
         serializedVersion: 2
-        x: 326
-        y: 208
-        width: 68
-        height: 51
+        x: 37
+        y: 700
+        width: 23
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +351,10 @@ TextureImporter:
       name: WizardHustler_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 208
-        width: 50
-        height: 52
+        x: 231
+        y: 210
+        width: 93
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +373,10 @@ TextureImporter:
       name: WizardHustler_7
       rect:
         serializedVersion: 2
-        x: 449
+        x: 326
         y: 208
-        width: 77
-        height: 82
+        width: 68
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,9 +395,9 @@ TextureImporter:
       name: WizardHustler_8
       rect:
         serializedVersion: 2
-        x: 529
+        x: 396
         y: 208
-        width: 53
+        width: 50
         height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -402,10 +417,10 @@ TextureImporter:
       name: WizardHustler_9
       rect:
         serializedVersion: 2
-        x: 586
-        y: 210
-        width: 54
-        height: 50
+        x: 449
+        y: 208
+        width: 77
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +439,10 @@ TextureImporter:
       name: WizardHustler_10
       rect:
         serializedVersion: 2
-        x: 50
-        y: 133
-        width: 57
-        height: 55
+        x: 529
+        y: 208
+        width: 53
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +461,10 @@ TextureImporter:
       name: WizardHustler_11
       rect:
         serializedVersion: 2
-        x: 117
-        y: 128
-        width: 37
-        height: 68
+        x: 586
+        y: 210
+        width: 54
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +483,10 @@ TextureImporter:
       name: WizardHustler_12
       rect:
         serializedVersion: 2
-        x: 165
-        y: 124
-        width: 135
-        height: 62
+        x: 29
+        y: 133
+        width: 57
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +505,10 @@ TextureImporter:
       name: WizardHustler_13
       rect:
         serializedVersion: 2
-        x: 312
-        y: 130
-        width: 99
-        height: 46
+        x: 96
+        y: 128
+        width: 37
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +527,10 @@ TextureImporter:
       name: WizardHustler_14
       rect:
         serializedVersion: 2
-        x: 495
-        y: 131
-        width: 48
-        height: 44
+        x: 137
+        y: 126
+        width: 135
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +549,10 @@ TextureImporter:
       name: WizardHustler_15
       rect:
         serializedVersion: 2
-        x: 548
-        y: 161
-        width: 14
-        height: 15
+        x: 278
+        y: 141
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +571,10 @@ TextureImporter:
       name: WizardHustler_16
       rect:
         serializedVersion: 2
-        x: 689
-        y: 130
-        width: 38
-        height: 46
+        x: 311
+        y: 140
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +593,10 @@ TextureImporter:
       name: WizardHustler_17
       rect:
         serializedVersion: 2
-        x: 759
-        y: 130
-        width: 38
-        height: 46
+        x: 343
+        y: 141
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +615,10 @@ TextureImporter:
       name: WizardHustler_18
       rect:
         serializedVersion: 2
-        x: 411
-        y: 130
+        x: 383
+        y: 140
         width: 31
-        height: 30
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +637,10 @@ TextureImporter:
       name: WizardHustler_19
       rect:
         serializedVersion: 2
-        x: 441
-        y: 131
-        width: 40
-        height: 29
+        x: 414
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +659,10 @@ TextureImporter:
       name: WizardHustler_20
       rect:
         serializedVersion: 2
-        x: 544
-        y: 131
-        width: 22
-        height: 29
+        x: 443
+        y: 141
+        width: 78
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +681,10 @@ TextureImporter:
       name: WizardHustler_21
       rect:
         serializedVersion: 2
-        x: 566
-        y: 130
-        width: 29
-        height: 30
+        x: 504
+        y: 172
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +703,10 @@ TextureImporter:
       name: WizardHustler_22
       rect:
         serializedVersion: 2
-        x: 595
-        y: 130
+        x: 520
+        y: 140
         width: 30
-        height: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +725,10 @@ TextureImporter:
       name: WizardHustler_23
       rect:
         serializedVersion: 2
-        x: 626
-        y: 130
-        width: 35
-        height: 30
+        x: 549
+        y: 140
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +747,10 @@ TextureImporter:
       name: WizardHustler_24
       rect:
         serializedVersion: 2
-        x: 660
-        y: 131
-        width: 31
-        height: 29
+        x: 592
+        y: 141
+        width: 46
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +769,10 @@ TextureImporter:
       name: WizardHustler_25
       rect:
         serializedVersion: 2
-        x: 727
-        y: 130
-        width: 31
-        height: 30
+        x: 636
+        y: 140
+        width: 29
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -768,6 +783,116 @@ TextureImporter:
       bones: []
       spriteID: a2d2621c89b0d42b0800000000000000
       internalID: -5598806011048219350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHustler_26
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 140
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f68b352231617a0800000000000000
+      internalID: -6406912381733539946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHustler_27
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 172
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fdf61f2b0c0a300800000000000000
+      internalID: 261420653174841093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHustler_28
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 140
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2384fda3bc7897560800000000000000
+      internalID: 7312024776948533298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHustler_29
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 141
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e8ba9e70a3be330800000000000000
+      internalID: 3741147721120845455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHustler_30
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 140
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1935b88c10ce150800000000000000
+      internalID: 5903095172418474494
       vertices: []
       indices: 
       edges: []
@@ -805,7 +930,12 @@ TextureImporter:
       WizardHustler_23: -376025002926849143
       WizardHustler_24: -3004981620208839290
       WizardHustler_25: -5598806011048219350
+      WizardHustler_26: -6406912381733539946
+      WizardHustler_27: 261420653174841093
+      WizardHustler_28: 7312024776948533298
+      WizardHustler_29: 3741147721120845455
       WizardHustler_3: -3770732737762680969
+      WizardHustler_30: 5903095172418474494
       WizardHustler_4: -180756914508062823
       WizardHustler_5: -3872333998845088
       WizardHustler_6: 6551001445761240901

@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 38d5cf4075bda477d86055ad73b5a021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6348637017008334447
+    second: BeastmasterKingmaker_0
+  - first:
+      213: -1760863675396204862
+    second: BeastmasterKingmaker_1
+  - first:
+      213: -5812633022499954812
+    second: BeastmasterKingmaker_2
+  - first:
+      213: 2014404850699140006
+    second: BeastmasterKingmaker_3
+  - first:
+      213: 6771908394033007162
+    second: BeastmasterKingmaker_4
+  - first:
+      213: -4866726329950338515
+    second: BeastmasterKingmaker_5
+  - first:
+      213: -8897656181179246752
+    second: BeastmasterKingmaker_6
+  - first:
+      213: -5934153383153434231
+    second: BeastmasterKingmaker_7
+  - first:
+      213: -55687557260456576
+    second: BeastmasterKingmaker_8
+  - first:
+      213: 3791975502926995976
+    second: BeastmasterKingmaker_9
+  - first:
+      213: 7358422715813168170
+    second: BeastmasterKingmaker_10
+  - first:
+      213: 2279479409288254160
+    second: BeastmasterKingmaker_11
+  - first:
+      213: -4917421491818177309
+    second: BeastmasterKingmaker_12
+  - first:
+      213: -8940913263496757628
+    second: BeastmasterKingmaker_13
+  - first:
+      213: 6099896828741497290
+    second: BeastmasterKingmaker_14
+  - first:
+      213: 3788550791683834738
+    second: BeastmasterKingmaker_15
+  - first:
+      213: -3620748492899965826
+    second: BeastmasterKingmaker_16
+  - first:
+      213: -6813513141385526255
+    second: BeastmasterKingmaker_17
+  - first:
+      213: -7497514072220609519
+    second: BeastmasterKingmaker_18
+  - first:
+      213: -556657794633078538
+    second: BeastmasterKingmaker_19
+  - first:
+      213: 3691918464727334665
+    second: BeastmasterKingmaker_20
+  - first:
+      213: -7671396724472737747
+    second: BeastmasterKingmaker_21
+  - first:
+      213: -3880803127290607939
+    second: BeastmasterKingmaker_22
+  - first:
+      213: 5054372650324241019
+    second: BeastmasterKingmaker_23
+  - first:
+      213: -7233290001349089235
+    second: BeastmasterKingmaker_24
+  - first:
+      213: 5056128819232717092
+    second: BeastmasterKingmaker_25
+  - first:
+      213: 3295380332257540441
+    second: BeastmasterKingmaker_26
+  - first:
+      213: -5423180980804038664
+    second: BeastmasterKingmaker_27
+  - first:
+      213: 2790751771199346784
+    second: BeastmasterKingmaker_28
+  - first:
+      213: 2806074067761097653
+    second: BeastmasterKingmaker_29
+  - first:
+      213: -5372979666300763861
+    second: BeastmasterKingmaker_30
+  - first:
+      213: 1228700040598056123
+    second: BeastmasterKingmaker_31
+  - first:
+      213: 4187925703251475816
+    second: BeastmasterKingmaker_32
+  - first:
+      213: -2477171103971724961
+    second: BeastmasterKingmaker_33
+  - first:
+      213: 5923567935851917677
+    second: BeastmasterKingmaker_34
+  - first:
+      213: 8394060450241664304
+    second: BeastmasterKingmaker_35
+  - first:
+      213: 6207570722951906489
+    second: BeastmasterKingmaker_36
+  - first:
+      213: 8666336732417508169
+    second: BeastmasterKingmaker_37
+  - first:
+      213: 3805316274509247686
+    second: BeastmasterKingmaker_38
+  - first:
+      213: 746484182158446147
+    second: BeastmasterKingmaker_39
+  - first:
+      213: 1145222818538326598
+    second: BeastmasterKingmaker_40
+  - first:
+      213: 6359757433887156794
+    second: BeastmasterKingmaker_41
+  - first:
+      213: 5058967049267882087
+    second: BeastmasterKingmaker_42
+  - first:
+      213: 623950271866544231
+    second: BeastmasterKingmaker_43
+  - first:
+      213: 1376545828449610647
+    second: BeastmasterKingmaker_44
+  - first:
+      213: 9175378837059551292
+    second: BeastmasterKingmaker_45
+  - first:
+      213: -5382528277653841201
+    second: BeastmasterKingmaker_46
+  - first:
+      213: 7035215939398494868
+    second: BeastmasterKingmaker_47
+  - first:
+      213: 5956219462339370000
+    second: BeastmasterKingmaker_48
+  - first:
+      213: -3931685306293175011
+    second: BeastmasterKingmaker_49
+  - first:
+      213: 5092462612131219293
+    second: BeastmasterKingmaker_50
+  - first:
+      213: 222676335367596069
+    second: BeastmasterKingmaker_51
+  - first:
+      213: 8600401199075086336
+    second: BeastmasterKingmaker_52
+  - first:
+      213: 8612219070235261579
+    second: BeastmasterKingmaker_53
+  - first:
+      213: -6199483386462629349
+    second: BeastmasterKingmaker_54
+  - first:
+      213: 4856369046363697723
+    second: BeastmasterKingmaker_55
+  - first:
+      213: 6044807596231726778
+    second: BeastmasterKingmaker_56
+  - first:
+      213: -5445236138183051853
+    second: BeastmasterKingmaker_57
+  - first:
+      213: 6579279241561740487
+    second: BeastmasterKingmaker_58
+  - first:
+      213: -3529784915877510583
+    second: BeastmasterKingmaker_59
+  - first:
+      213: -5887899156082227496
+    second: BeastmasterKingmaker_60
+  - first:
+      213: -7661449188875366059
+    second: BeastmasterKingmaker_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 934
+        width: 207
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f666daefab3ea1850800000000000000
+      internalID: 6348637017008334447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1101
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6de1211d72097e0800000000000000
+      internalID: -1760863675396204862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1098
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f5f2c0011655fa0800000000000000
+      internalID: -5812633022499954812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1088
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abfeb7f98a94fb10800000000000000
+      internalID: 2014404850699140006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1075
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ac2d52ec6aafd50800000000000000
+      internalID: 6771908394033007162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1079
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22054c103ae57cb0800000000000000
+      internalID: -4866726329950338515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1084
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067904358dc258480800000000000000
+      internalID: -8897656181179246752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1079
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981057240f6a5ada0800000000000000
+      internalID: -5934153383153434231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 846
+        width: 224
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dc41336782a3ff0800000000000000
+      internalID: -55687557260456576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1068
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80262f011adcf9430800000000000000
+      internalID: 3791975502926995976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1058
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a248533397e5e1660800000000000000
+      internalID: 7358422715813168170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1058
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2917f027652af10800000000000000
+      internalID: 2279479409288254160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1017
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec5e41f43fc1cbb0800000000000000
+      internalID: -4917421491818177309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1048
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e72b102ce7be380800000000000000
+      internalID: -8940913263496757628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_14
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1036
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac13babd8df27a450800000000000000
+      internalID: 6099896828741497290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 312
+        width: 588
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27307d75fd2a39430800000000000000
+      internalID: 3788550791683834738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1028
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74aaa3ed6480cdc0800000000000000
+      internalID: -3620748492899965826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114824fb5e98171a0800000000000000
+      internalID: -6813513141385526255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1031
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1145cc2ccaa73f790800000000000000
+      internalID: -7497514072220609519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f861716faa5648f0800000000000000
+      internalID: -556657794633078538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f37c578445c3330800000000000000
+      internalID: 3691918464727334665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 908
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2015bae259b98590800000000000000
+      internalID: -7671396724472737747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 899
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db64e9afd1e942ac0800000000000000
+      internalID: -3880803127290607939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 878
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aa601752db42640800000000000000
+      internalID: 5054372650324241019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 868
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28e33041113e9b90800000000000000
+      internalID: -7233290001349089235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 857
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4293bf06f5afa2640800000000000000
+      internalID: 5056128819232717092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 838
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959f408d3fa8bbd20800000000000000
+      internalID: 3295380332257540441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff458691adfcb4b0800000000000000
+      internalID: -5423180980804038664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 808
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06811aa23fdbab620800000000000000
+      internalID: 2790751771199346784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbe5565f7d21f620800000000000000
+      internalID: 2806074067761097653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 717
+        width: 14
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b210fb4f5775f65b0800000000000000
+      internalID: -5372979666300763861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 711
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcea5f4d283d0110800000000000000
+      internalID: 1228700040598056123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d38001d308e1a30800000000000000
+      internalID: 4187925703251475816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 714
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5137eb61025f9dd0800000000000000
+      internalID: -2477171103971724961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61f85b37adb43250800000000000000
+      internalID: 5923567935851917677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 718
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0355fcf7181bd7470800000000000000
+      internalID: 8394060450241664304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 719
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4c9a3fea8b52650800000000000000
+      internalID: 6207570722951906489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_37
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 186
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9434aa78753054870800000000000000
+      internalID: 8666336732417508169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_38
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 248
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4f2208df23fc430800000000000000
+      internalID: 3805316274509247686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_39
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 185
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e800c986b0c5a00800000000000000
+      internalID: 746484182158446147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 186
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a06a7f516a4ef00800000000000000
+      internalID: 1145222818538326598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 185
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6e70d0b5624850800000000000000
+      internalID: 6359757433887156794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 158
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768a40e4abf053640800000000000000
+      internalID: 5058967049267882087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_43
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 185
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7602d186777b8a800800000000000000
+      internalID: 623950271866544231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 184
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79be8c143297a1310800000000000000
+      internalID: 1376545828449610647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_45
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 184
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c304296607e755f70800000000000000
+      internalID: 9175378837059551292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_46
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 185
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca92f0ac0b6d45b0800000000000000
+      internalID: -5382528277653841201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a630a6f9b12a160800000000000000
+      internalID: 7035215939398494868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 86
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c91092b0eb8a250800000000000000
+      internalID: 5956219462339370000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 145
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db5cd7b09df69c0800000000000000
+      internalID: -3931685306293175011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 94
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d570a04c3cf0ca640800000000000000
+      internalID: 5092462612131219293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a87d72fa171300800000000000000
+      internalID: 222676335367596069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_52
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000d6bcd253ca5770800000000000000
+      internalID: 8600401199075086336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_53
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 94
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ab7396d9fb48770800000000000000
+      internalID: 8612219070235261579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_54
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1295fec4b207f9a0800000000000000
+      internalID: -6199483386462629349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_55
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f5b2eae9456340800000000000000
+      internalID: 4856369046363697723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_56
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 93
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab699f46b7873e350800000000000000
+      internalID: 6044807596231726778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_57
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 94
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5ba791592ae64b0800000000000000
+      internalID: -5445236138183051853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_58
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 94
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c493679c9b4e4b50800000000000000
+      internalID: 6579279241561740487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_59
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942c693125fa30fc0800000000000000
+      internalID: -3529784915877510583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_60
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 93
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d68568b9eaf94ea0800000000000000
+      internalID: -5887899156082227496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeastmasterKingmaker_61
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 93
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55111680e801da590800000000000000
+      internalID: -7661449188875366059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeastmasterKingmaker_0: 6348637017008334447
+      BeastmasterKingmaker_1: -1760863675396204862
+      BeastmasterKingmaker_10: 7358422715813168170
+      BeastmasterKingmaker_11: 2279479409288254160
+      BeastmasterKingmaker_12: -4917421491818177309
+      BeastmasterKingmaker_13: -8940913263496757628
+      BeastmasterKingmaker_14: 6099896828741497290
+      BeastmasterKingmaker_15: 3788550791683834738
+      BeastmasterKingmaker_16: -3620748492899965826
+      BeastmasterKingmaker_17: -6813513141385526255
+      BeastmasterKingmaker_18: -7497514072220609519
+      BeastmasterKingmaker_19: -556657794633078538
+      BeastmasterKingmaker_2: -5812633022499954812
+      BeastmasterKingmaker_20: 3691918464727334665
+      BeastmasterKingmaker_21: -7671396724472737747
+      BeastmasterKingmaker_22: -3880803127290607939
+      BeastmasterKingmaker_23: 5054372650324241019
+      BeastmasterKingmaker_24: -7233290001349089235
+      BeastmasterKingmaker_25: 5056128819232717092
+      BeastmasterKingmaker_26: 3295380332257540441
+      BeastmasterKingmaker_27: -5423180980804038664
+      BeastmasterKingmaker_28: 2790751771199346784
+      BeastmasterKingmaker_29: 2806074067761097653
+      BeastmasterKingmaker_3: 2014404850699140006
+      BeastmasterKingmaker_30: -5372979666300763861
+      BeastmasterKingmaker_31: 1228700040598056123
+      BeastmasterKingmaker_32: 4187925703251475816
+      BeastmasterKingmaker_33: -2477171103971724961
+      BeastmasterKingmaker_34: 5923567935851917677
+      BeastmasterKingmaker_35: 8394060450241664304
+      BeastmasterKingmaker_36: 6207570722951906489
+      BeastmasterKingmaker_37: 8666336732417508169
+      BeastmasterKingmaker_38: 3805316274509247686
+      BeastmasterKingmaker_39: 746484182158446147
+      BeastmasterKingmaker_4: 6771908394033007162
+      BeastmasterKingmaker_40: 1145222818538326598
+      BeastmasterKingmaker_41: 6359757433887156794
+      BeastmasterKingmaker_42: 5058967049267882087
+      BeastmasterKingmaker_43: 623950271866544231
+      BeastmasterKingmaker_44: 1376545828449610647
+      BeastmasterKingmaker_45: 9175378837059551292
+      BeastmasterKingmaker_46: -5382528277653841201
+      BeastmasterKingmaker_47: 7035215939398494868
+      BeastmasterKingmaker_48: 5956219462339370000
+      BeastmasterKingmaker_49: -3931685306293175011
+      BeastmasterKingmaker_5: -4866726329950338515
+      BeastmasterKingmaker_50: 5092462612131219293
+      BeastmasterKingmaker_51: 222676335367596069
+      BeastmasterKingmaker_52: 8600401199075086336
+      BeastmasterKingmaker_53: 8612219070235261579
+      BeastmasterKingmaker_54: -6199483386462629349
+      BeastmasterKingmaker_55: 4856369046363697723
+      BeastmasterKingmaker_56: 6044807596231726778
+      BeastmasterKingmaker_57: -5445236138183051853
+      BeastmasterKingmaker_58: 6579279241561740487
+      BeastmasterKingmaker_59: -3529784915877510583
+      BeastmasterKingmaker_6: -8897656181179246752
+      BeastmasterKingmaker_60: -5887899156082227496
+      BeastmasterKingmaker_61: -7661449188875366059
+      BeastmasterKingmaker_7: -5934153383153434231
+      BeastmasterKingmaker_8: -55687557260456576
+      BeastmasterKingmaker_9: 3791975502926995976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
