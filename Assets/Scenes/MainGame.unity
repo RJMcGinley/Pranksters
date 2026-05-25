@@ -36328,6 +36328,7 @@ RectTransform:
   - {fileID: 1686884030}
   - {fileID: 413285255}
   - {fileID: 480614155}
+  - {fileID: 725345814}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -43108,7 +43109,7 @@ MonoBehaviour:
   favorRewardClip: {fileID: 8300000, guid: ef058029b1e2b463c81652044fab102b, type: 3}
   cancelActionClip: {fileID: 8300000, guid: 4a3729c846ccf4fc39e207464ec5bf25, type: 3}
   completePrankBannerDropClip: {fileID: 8300000, guid: d9b7f7a1fe0464885a47f6a6b39b48e4, type: 3}
-  completePrankClip: {fileID: 8300000, guid: 720faf039db544586b0d148a55225b4a, type: 3}
+  completePrankClip: {fileID: 8300000, guid: b336e7709f0574b66a4effcf943fc68c, type: 3}
   notAnOptionClip: {fileID: 8300000, guid: 2593930dc490147ed8ab5ec58ac0a92f, type: 3}
   chooseRecruitReturnVoice: {fileID: 8300000, guid: 7e14f2bc3109840b3ba8ece353432954, type: 3}
   chooseAPrankToGetRidOfClip: {fileID: 8300000, guid: dd993e546616a4e0ca44bad043f58132, type: 3}
@@ -43130,6 +43131,47 @@ MonoBehaviour:
   confirmClickClip: {fileID: 8300000, guid: 6e4b25a62086c42aeb7f2162fa93724b, type: 3}
   backClickClip: {fileID: 8300000, guid: 6e4b25a62086c42aeb7f2162fa93724b, type: 3}
   unlockRevealClip: {fileID: 8300000, guid: 7cc5f3e6705b24e359f46633c8df3189, type: 3}
+  prankCompletionAudioEntries:
+  - prankTitle: Cabbage Cash
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 128f582a13e4d4a2c8a48398c0efaecc, type: 3}
+  - prankTitle: False Fruit
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 7335ae1dc33d44a69903fcca67ef7161, type: 3}
+  - prankTitle: Foaming Fountain
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 34bd1ca53931d476c907c19467d4729d, type: 3}
+  - prankTitle: Fowl Play Exchange
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: e561165a904ee45048f97f75e2477970, type: 3}
+  - prankTitle: Grave Greetings
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 39ca47d2f7afa497c836dcc7a9bb2a3b, type: 3}
+  - prankTitle: Guano-teed Delivery
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: f13c9a2bc2f0444e9a07ccb582959c60, type: 3}
+  - prankTitle: Headless Hounds
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: b00048b4d26934622a9398fa7be2129b, type: 3}
+  - prankTitle: Ink Stink
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 7584f58d4f2564023a24cd3992efb4ad, type: 3}
+  - prankTitle: Manure Mischief
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: 77207a2f1af6c4d2c9d153ba0327db1a, type: 3}
+  - prankTitle: Mayor's Moat
+    completePrankVolume: 0.3
+    clips:
+    - {fileID: 8300000, guid: d74ca4bf6af244fab89bd1ecb2c84cea, type: 3}
   jerekTurnClip: {fileID: 8300000, guid: 0c27d324041ff4115b31af08f17d887e, type: 3}
   trikstanTurnClip: {fileID: 8300000, guid: 91f5f5e58307b49ca8128d93cc676a87, type: 3}
   drGigglesTurnClip: {fileID: 8300000, guid: d87b964da9ab744d2b2bc9d8f3855aae, type: 3}
@@ -67698,6 +67740,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724770591}
   m_CullTransparentMesh: 1
+--- !u!1 &725345812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725345814}
+  - component: {fileID: 725345813}
+  m_Layer: 0
+  m_Name: PrankCompletionShowcasePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &725345813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725345812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f48e4dd2400488781d9d4d191dbbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrankCompletionShowcasePanel
+  rootObject: {fileID: 1803849143}
+  prankImage: {fileID: 1300215589}
+  duration: 2
+  startScale: 1
+  endScale: 2
+--- !u!224 &725345814
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725345812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1803849144}
+  m_Father: {fileID: 418317531}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &725837965
 GameObject:
   m_ObjectHideFlags: 0
@@ -109906,6 +110002,81 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1300215588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300215591}
+  - component: {fileID: 1300215590}
+  - component: {fileID: 1300215589}
+  m_Layer: 0
+  m_Name: PrankImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1300215589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300215588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6596138110000451123, guid: 6eff8166f72b24776a5702f8b19bb0c6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1300215590
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300215588}
+  m_CullTransparentMesh: 1
+--- !u!224 &1300215591
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300215588}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1803849144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.5, y: 0}
+  m_SizeDelta: {x: 75, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1300678376
 GameObject:
   m_ObjectHideFlags: 0
@@ -129254,6 +129425,7 @@ MonoBehaviour:
   winCutsceneRenderTexture: {fileID: 0}
   availableServicesPanelController: {fileID: 2106431556}
   crewCapacityText: {fileID: 480614156}
+  prankCompletionShowcasePanel: {fileID: 725345813}
   startingHandSize: 3
 --- !u!4 &1503786763
 Transform:
@@ -151327,6 +151499,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795161126}
   m_CullTransparentMesh: 1
+--- !u!1 &1803849143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1803849144}
+  m_Layer: 0
+  m_Name: ShowcaseRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1803849144
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803849143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1300215591}
+  m_Father: {fileID: 725345814}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1806650254
 GameObject:
   m_ObjectHideFlags: 0
