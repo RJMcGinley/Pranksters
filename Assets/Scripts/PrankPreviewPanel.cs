@@ -150,8 +150,9 @@ public class PrankPreviewPanel : MonoBehaviour
 
         if (rootObject != null)
             rootObject.SetActive(false);
-        else
-            gameObject.SetActive(false);
+
+        // Do NOT disable the PrankPreviewPanel object itself.
+        // Only hide the visual root object.
 
         if (deckManager != null)
             deckManager.SetAllPrankHighlightsVisible(true);
@@ -195,4 +196,5 @@ public class PrankPreviewPanel : MonoBehaviour
     {
         return isVisible;
     }
+
 }

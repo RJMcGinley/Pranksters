@@ -1,5 +1,16 @@
 using UnityEngine;
 
+[System.Serializable]
+public class PrankCompletionAudioEntry
+{
+    public string prankTitle;
+
+    [Range(0f, 1f)]
+    public float completePrankVolume = 1f;
+
+    public AudioClip[] clips;
+}
+
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
@@ -57,6 +68,9 @@ public class AudioManager : MonoBehaviour
     
     [Header("Unlock / Reveal")]
     public AudioClip unlockRevealClip;
+
+    [Header("Prank Completion Sounds")]
+    public PrankCompletionAudioEntry[] prankCompletionAudioEntries;
 
     void Awake()
     {
@@ -398,6 +412,37 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     public void PlayAvailableServiceScoringAction()
     {
         PlaySFX(availableServiceScoringActionClip);
+    }
+
+    public void PlayPrankCompletionSound(string prankTitle)
+    {
+        // Always play the generic completion sound first.
+        PlayCompletePrank();
+
+        if (sfxSource == null)
+            return;
+
+        for (int i = 0; i < prankCompletionAudioEntries.Length; i++)
+        {
+            PrankCompletionAudioEntry entry = prankCompletionAudioEntries[i];
+
+            if (entry == null)
+                continue;
+
+            if (entry.prankTitle != prankTitle)
+                continue;
+
+            if (entry.clips == null || entry.clips.Length == 0)
+                return;
+
+            AudioClip chosenClip =
+                entry.clips[Random.Range(0, entry.clips.Length)];
+
+            if (chosenClip != null)
+                sfxSource.PlayOneShot(chosenClip);
+
+            return;
+        }
     }
 
 }

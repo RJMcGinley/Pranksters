@@ -144,6 +144,8 @@ public class DeckManager : MonoBehaviour
     public TextMeshPro crewCapacityText;
     private bool availableServicesPanelOpen = false;
 
+    public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
+
     public bool IsGameOver()
     {
         return gameOver;
@@ -583,8 +585,11 @@ public class DeckManager : MonoBehaviour
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
 
+    if (prankCompletionShowcasePanel != null)
+        prankCompletionShowcasePanel.Show(completedPrank.cardSprite);
+
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayCompletePrank();
+        AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
 
     if (HasPlayerCompletedFourPranks())
     {
