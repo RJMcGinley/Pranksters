@@ -1,184 +1,148 @@
 fileFormatVersion: 2
-guid: 32f36fdedc7814351b236a5bc7cb0198
+guid: 141e09d1dd3474294a4ee1e6a39d6a97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7630305202689260914
-    second: LaborerHustler_0
+      213: 6949087263933426707
+    second: LaborerHustler 1_0
   - first:
-      213: -3856512241519215497
-    second: LaborerHustler_1
+      213: -5421490375744284719
+    second: LaborerHustler 1_1
   - first:
-      213: -2472689790192921781
-    second: LaborerHustler_2
+      213: -6263853210422949648
+    second: LaborerHustler 1_2
   - first:
-      213: 2196897757867827741
-    second: LaborerHustler_3
+      213: -107907954747217754
+    second: LaborerHustler 1_3
   - first:
-      213: -1774649655327743142
-    second: LaborerHustler_4
+      213: 4220412442353680776
+    second: LaborerHustler 1_4
   - first:
-      213: -6192064811619870463
-    second: LaborerHustler_5
+      213: 3211035057122652006
+    second: LaborerHustler 1_5
   - first:
-      213: -871300478088743915
-    second: LaborerHustler_6
+      213: -7228253834965087325
+    second: LaborerHustler 1_6
   - first:
-      213: 3771651499119943081
-    second: LaborerHustler_7
+      213: 9196934335982050830
+    second: LaborerHustler 1_7
   - first:
-      213: -3953023393326037794
-    second: LaborerHustler_8
+      213: 6927056814166856318
+    second: LaborerHustler 1_8
   - first:
-      213: -1375081360214215732
-    second: LaborerHustler_9
+      213: -7829987939156503636
+    second: LaborerHustler 1_9
   - first:
-      213: 8832047001830902631
-    second: LaborerHustler_10
+      213: -8314897527709830155
+    second: LaborerHustler 1_10
   - first:
-      213: -4966431674553136792
-    second: LaborerHustler_11
+      213: 9172477313872401167
+    second: LaborerHustler 1_11
   - first:
-      213: -3938296742907812471
-    second: LaborerHustler_12
+      213: 8406255925860233153
+    second: LaborerHustler 1_12
   - first:
-      213: 5901228714126979336
-    second: LaborerHustler_13
+      213: 7045777619069003359
+    second: LaborerHustler 1_13
   - first:
-      213: -63181250652452428
-    second: LaborerHustler_14
+      213: -8007131174640058521
+    second: LaborerHustler 1_14
   - first:
-      213: -1129783342296912036
-    second: LaborerHustler_15
+      213: -6391830892552972308
+    second: LaborerHustler 1_15
   - first:
-      213: -4748587304722268452
-    second: LaborerHustler_16
+      213: -3214648798690476935
+    second: LaborerHustler 1_16
   - first:
-      213: -4725287529123587565
-    second: LaborerHustler_17
+      213: -7211607491551458133
+    second: LaborerHustler 1_17
   - first:
-      213: 9004888694453628461
-    second: LaborerHustler_18
+      213: 862883400045315154
+    second: LaborerHustler 1_18
   - first:
-      213: 4410264113423132804
-    second: LaborerHustler_19
+      213: -572921116186549214
+    second: LaborerHustler 1_19
   - first:
-      213: 3679765868889553486
-    second: LaborerHustler_20
+      213: -7129187871724825468
+    second: LaborerHustler 1_20
   - first:
-      213: -7119036071438974492
-    second: LaborerHustler_21
+      213: -1141749931586412938
+    second: LaborerHustler 1_21
   - first:
-      213: -741943824043274752
-    second: LaborerHustler_22
+      213: 1508243346228649726
+    second: LaborerHustler 1_22
   - first:
-      213: 3495826619531805401
-    second: LaborerHustler_23
+      213: 4410508353941881048
+    second: LaborerHustler 1_23
   - first:
-      213: -6320739106860122289
-    second: LaborerHustler_24
+      213: -2809817462710131032
+    second: LaborerHustler 1_24
   - first:
-      213: -7644912089700459226
-    second: LaborerHustler_25
+      213: 8114707330725077778
+    second: LaborerHustler 1_25
   - first:
-      213: 6917041434020912308
-    second: LaborerHustler_26
+      213: -6446987896222921080
+    second: LaborerHustler 1_26
   - first:
-      213: -9076405754276139788
-    second: LaborerHustler_27
+      213: -6122079518701406650
+    second: LaborerHustler 1_27
   - first:
-      213: 3598615728177843714
-    second: LaborerHustler_28
+      213: 1904004384827156544
+    second: LaborerHustler 1_28
   - first:
-      213: 7340475302526066804
-    second: LaborerHustler_29
+      213: -8680165669471210962
+    second: LaborerHustler 1_29
   - first:
-      213: 4199411331857418904
-    second: LaborerHustler_30
+      213: 5912162059926499309
+    second: LaborerHustler 1_30
   - first:
-      213: 6612880072453824954
-    second: LaborerHustler_31
+      213: 1029760003698694475
+    second: LaborerHustler 1_31
   - first:
-      213: -2276650783666094223
-    second: LaborerHustler_32
+      213: 7504873526485561000
+    second: LaborerHustler 1_32
   - first:
-      213: -5405911292026680439
-    second: LaborerHustler_33
+      213: -1958014533091108033
+    second: LaborerHustler 1_33
   - first:
-      213: 5140376807283202755
-    second: LaborerHustler_34
+      213: 5773561368414924588
+    second: LaborerHustler 1_34
   - first:
-      213: 4501711839549680276
-    second: LaborerHustler_35
+      213: 3661546100717505730
+    second: LaborerHustler 1_35
   - first:
-      213: 7198548230351062973
-    second: LaborerHustler_36
+      213: -8702106200467105370
+    second: LaborerHustler 1_36
   - first:
-      213: -8797149004924634649
-    second: LaborerHustler_37
+      213: 3199338358151912890
+    second: LaborerHustler 1_37
   - first:
-      213: 3992895995347961280
-    second: LaborerHustler_38
+      213: 1043934736140166833
+    second: LaborerHustler 1_38
   - first:
-      213: -4500717392772686385
-    second: LaborerHustler_39
+      213: 1814637900141651001
+    second: LaborerHustler 1_39
   - first:
-      213: -1321760306674134370
-    second: LaborerHustler_40
+      213: 3124002880908428869
+    second: LaborerHustler 1_40
   - first:
-      213: -9137242188239818310
-    second: LaborerHustler_41
+      213: 4717049596180376646
+    second: LaborerHustler 1_41
   - first:
-      213: -5285959087208505294
-    second: LaborerHustler_42
+      213: -8301817529438126226
+    second: LaborerHustler 1_42
   - first:
-      213: -3454962583469324672
-    second: LaborerHustler_43
+      213: -7418643449335087296
+    second: LaborerHustler 1_43
   - first:
-      213: 2228857369263048512
-    second: LaborerHustler_44
+      213: -1234007928445116132
+    second: LaborerHustler 1_44
   - first:
-      213: 2126963997461552702
-    second: LaborerHustler_45
+      213: -2309525904787653007
+    second: LaborerHustler 1_45
   - first:
-      213: -5577059629192055507
-    second: LaborerHustler_46
-  - first:
-      213: -8707950223377564623
-    second: LaborerHustler_47
-  - first:
-      213: -3159548557627340750
-    second: LaborerHustler_48
-  - first:
-      213: -6580172441247412278
-    second: LaborerHustler_49
-  - first:
-      213: 644754117001187122
-    second: LaborerHustler_50
-  - first:
-      213: -6456165866232386126
-    second: LaborerHustler_51
-  - first:
-      213: 6647360178783804703
-    second: LaborerHustler_52
-  - first:
-      213: -178657496961666665
-    second: LaborerHustler_53
-  - first:
-      213: 6388740419623232659
-    second: LaborerHustler_54
-  - first:
-      213: -6763049157565609676
-    second: LaborerHustler_55
-  - first:
-      213: 1738531960911283257
-    second: LaborerHustler_56
-  - first:
-      213: 7175671079227165280
-    second: LaborerHustler_57
-  - first:
-      213: -5887879787132380801
-    second: LaborerHustler_58
+      213: 962757774132302137
+    second: LaborerHustler 1_46
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -300,7 +264,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LaborerHustler_0
+      name: LaborerHustler 1_0
       rect:
         serializedVersion: 2
         x: 53
@@ -315,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27dbb1e972a44e960800000000000000
-      internalID: 7630305202689260914
+      spriteID: 31c61f77c0e107060800000000000000
+      internalID: 6949087263933426707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_1
+      name: LaborerHustler 1_1
       rect:
         serializedVersion: 2
         x: 305
@@ -337,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77c3d4c8c8aea7ac0800000000000000
-      internalID: -3856512241519215497
+      spriteID: 1d710904a3ff2c4b0800000000000000
+      internalID: -5421490375744284719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_2
+      name: LaborerHustler 1_2
       rect:
         serializedVersion: 2
         x: 399
-        y: 1074
+        y: 1081
         width: 13
-        height: 46
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,14 +323,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b43d0d79cbd3fadd0800000000000000
-      internalID: -2472689790192921781
+      spriteID: 0f8cc8341b25219a0800000000000000
+      internalID: -6263853210422949648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_3
+      name: LaborerHustler 1_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 297
+        width: 612
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a86ad07942a08ef0800000000000000
+      internalID: -107907954747217754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerHustler 1_4
       rect:
         serializedVersion: 2
         x: 308
@@ -381,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1260910fd2fc7e10800000000000000
-      internalID: 2196897757867827741
+      spriteID: 881412071cae19a30800000000000000
+      internalID: 4220412442353680776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_4
+      name: LaborerHustler 1_5
       rect:
         serializedVersion: 2
         x: 11
@@ -403,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a53ab6d7a8d2f57e0800000000000000
-      internalID: -1774649655327743142
+      spriteID: 66f2f152f53ef8c20800000000000000
+      internalID: 3211035057122652006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_5
+      name: LaborerHustler 1_6
       rect:
         serializedVersion: 2
         x: 54
@@ -425,14 +411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 109933d5cdd511aa0800000000000000
-      internalID: -6192064811619870463
+      spriteID: 3ab0d8c1f6510bb90800000000000000
+      internalID: -7228253834965087325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_6
+      name: LaborerHustler 1_7
       rect:
         serializedVersion: 2
         x: 80
@@ -447,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51474eed4d488e3f0800000000000000
-      internalID: -871300478088743915
+      spriteID: e0e9dc61d0312af70800000000000000
+      internalID: 9196934335982050830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_7
+      name: LaborerHustler 1_8
       rect:
         serializedVersion: 2
         x: 310
@@ -469,256 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ad1d9d2e09975430800000000000000
-      internalID: 3771651499119943081
+      spriteID: e725d5ba879d12060800000000000000
+      internalID: 6927056814166856318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_8
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 1009
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed40ef3fa2a0429c0800000000000000
-      internalID: -3953023393326037794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_9
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 1057
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc3bb23d9cabaece0800000000000000
-      internalID: -1375081360214215732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_10
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 992
-        width: 37
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76b4fa734fbb19a70800000000000000
-      internalID: 8832047001830902631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_11
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 1037
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 869030d84b0b31bb0800000000000000
-      internalID: -4966431674553136792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_12
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 1014
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 985e6e27afb5859c0800000000000000
-      internalID: -3938296742907812471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_13
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 1026
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 801bfdbdf3065e150800000000000000
-      internalID: 5901228714126979336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_14
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 1005
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b9456ebcf88f1ff0800000000000000
-      internalID: -63181250652452428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 995
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5f2d3939043250f0800000000000000
-      internalID: -1129783342296912036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_16
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 983
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde79156101a91eb0800000000000000
-      internalID: -4748587304722268452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_17
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 985
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31a510527086c6eb0800000000000000
-      internalID: -4725287529123587565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_18
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 975
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2ee6d2ce8ac7fc70800000000000000
-      internalID: 9004888694453628461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_19
+      name: LaborerHustler 1_9
       rect:
         serializedVersion: 2
         x: 13
@@ -733,14 +477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4882d3638d7643d30800000000000000
-      internalID: 4410264113423132804
+      spriteID: ca3dbf2547b465390800000000000000
+      internalID: -7829987939156503636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_20
+      name: LaborerHustler 1_10
       rect:
         serializedVersion: 2
         x: 14
@@ -755,36 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4ab4cfbf87211330800000000000000
-      internalID: 3679765868889553486
+      spriteID: 5f3f415b0cc8b9c80800000000000000
+      internalID: -8314897527709830155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_21
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 922
-        width: 16
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e100ba496a143d90800000000000000
-      internalID: -7119036071438974492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_22
+      name: LaborerHustler 1_11
       rect:
         serializedVersion: 2
         x: 27
@@ -799,36 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00e0b94e50614b5f0800000000000000
-      internalID: -741943824043274752
+      spriteID: f0391b3e48f2b4f70800000000000000
+      internalID: 9172477313872401167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_23
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 297
-        width: 539
-        height: 640
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d24c8de9cba38030800000000000000
-      internalID: 3495826619531805401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerHustler_24
+      name: LaborerHustler 1_12
       rect:
         serializedVersion: 2
         x: 33
@@ -843,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4fbea165493848a0800000000000000
-      internalID: -6320739106860122289
+      spriteID: 1cfebefe93509a470800000000000000
+      internalID: 8406255925860233153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_25
+      name: LaborerHustler 1_13
       rect:
         serializedVersion: 2
         x: 111
@@ -865,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62d905a75f0d7e590800000000000000
-      internalID: -7644912089700459226
+      spriteID: f5661071a61a7c160800000000000000
+      internalID: 7045777619069003359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_26
+      name: LaborerHustler 1_14
       rect:
         serializedVersion: 2
         x: 131
@@ -887,14 +587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bc997349844eff50800000000000000
-      internalID: 6917041434020912308
+      spriteID: 76f7f99ce94f0e090800000000000000
+      internalID: -8007131174640058521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_27
+      name: LaborerHustler 1_15
       rect:
         serializedVersion: 2
         x: 37
@@ -909,14 +609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fc2f0b2e012a0280800000000000000
-      internalID: -9076405754276139788
+      spriteID: ce713092ba7ab47a0800000000000000
+      internalID: -6391830892552972308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_28
+      name: LaborerHustler 1_16
       rect:
         serializedVersion: 2
         x: 103
@@ -931,14 +631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20e8c2140f9d0f130800000000000000
-      internalID: 3598615728177843714
+      spriteID: 97cfa6413f54363d0800000000000000
+      internalID: -3214648798690476935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_29
+      name: LaborerHustler 1_17
       rect:
         serializedVersion: 2
         x: 112
@@ -953,14 +653,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4702899656b9ed560800000000000000
-      internalID: 7340475302526066804
+      spriteID: bac8786f1393beb90800000000000000
+      internalID: -7211607491551458133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_30
+      name: LaborerHustler 1_18
       rect:
         serializedVersion: 2
         x: 43
@@ -975,14 +675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89a8c1d5b5e474a30800000000000000
-      internalID: 4199411331857418904
+      spriteID: 254484e61e399fb00800000000000000
+      internalID: 862883400045315154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_31
+      name: LaborerHustler 1_19
       rect:
         serializedVersion: 2
         x: 55
@@ -997,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab1aedca36ba5cb50800000000000000
-      internalID: 6612880072453824954
+      spriteID: 2246161c7439c08f0800000000000000
+      internalID: -572921116186549214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_32
+      name: LaborerHustler 1_20
       rect:
         serializedVersion: 2
         x: 65
@@ -1019,14 +719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17fb7f9ac26b760e0800000000000000
-      internalID: -2276650783666094223
+      spriteID: 48491d81769001d90800000000000000
+      internalID: -7129187871724825468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_33
+      name: LaborerHustler 1_21
       rect:
         serializedVersion: 2
         x: 75
@@ -1041,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98b0a7752585af4b0800000000000000
-      internalID: -5405911292026680439
+      spriteID: 67e17798c70b720f0800000000000000
+      internalID: -1141749931586412938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_34
+      name: LaborerHustler 1_22
       rect:
         serializedVersion: 2
         x: 231
@@ -1063,14 +763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ca95c9a879465740800000000000000
-      internalID: 5140376807283202755
+      spriteID: efe1ec6155b5ee410800000000000000
+      internalID: 1508243346228649726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_35
+      name: LaborerHustler 1_23
       rect:
         serializedVersion: 2
         x: 326
@@ -1085,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49a6785211b497e30800000000000000
-      internalID: 4501711839549680276
+      spriteID: 8d04993eaf5453d30800000000000000
+      internalID: 4410508353941881048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_36
+      name: LaborerHustler 1_24
       rect:
         serializedVersion: 2
         x: 396
@@ -1107,14 +807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db78798d97166e360800000000000000
-      internalID: 7198548230351062973
+      spriteID: 8a6297b97e58109d0800000000000000
+      internalID: -2809817462710131032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_37
+      name: LaborerHustler 1_25
       rect:
         serializedVersion: 2
         x: 449
@@ -1129,14 +829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e9394dd69f3ae580800000000000000
-      internalID: -8797149004924634649
+      spriteID: 2136020e25b3d9070800000000000000
+      internalID: 8114707330725077778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_38
+      name: LaborerHustler 1_26
       rect:
         serializedVersion: 2
         x: 529
@@ -1151,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c58bc3a0cd996730800000000000000
-      internalID: 3992895995347961280
+      spriteID: 88ec36e7aa2b786a0800000000000000
+      internalID: -6446987896222921080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_39
+      name: LaborerHustler 1_27
       rect:
         serializedVersion: 2
         x: 586
@@ -1173,14 +873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcd9c59806d3a81c0800000000000000
-      internalID: -4500717392772686385
+      spriteID: 646bb192d110a0ba0800000000000000
+      internalID: -6122079518701406650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_40
+      name: LaborerHustler 1_28
       rect:
         serializedVersion: 2
         x: 29
@@ -1195,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e921a7a010a28ade0800000000000000
-      internalID: -1321760306674134370
+      spriteID: 048a86076e16c6a10800000000000000
+      internalID: 1904004384827156544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_41
+      name: LaborerHustler 1_29
       rect:
         serializedVersion: 2
         x: 96
@@ -1217,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab1b04714aef13180800000000000000
-      internalID: -9137242188239818310
+      spriteID: e22b0a7205bd98780800000000000000
+      internalID: -8680165669471210962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_42
+      name: LaborerHustler 1_30
       rect:
         serializedVersion: 2
         x: 137
@@ -1239,14 +939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23060b5673084a6b0800000000000000
-      internalID: -5285959087208505294
+      spriteID: defe57cc1183c0250800000000000000
+      internalID: 5912162059926499309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_43
+      name: LaborerHustler 1_31
       rect:
         serializedVersion: 2
         x: 278
@@ -1261,14 +961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0868b04e5d18d00d0800000000000000
-      internalID: -3454962583469324672
+      spriteID: b499d5874417a4e00800000000000000
+      internalID: 1029760003698694475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_44
+      name: LaborerHustler 1_32
       rect:
         serializedVersion: 2
         x: 311
@@ -1283,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0478fe5e7fd7eee10800000000000000
-      internalID: 2228857369263048512
+      spriteID: 8aea766b5baa62860800000000000000
+      internalID: 7504873526485561000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_45
+      name: LaborerHustler 1_33
       rect:
         serializedVersion: 2
         x: 343
@@ -1305,14 +1005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3e9dbe8c7e748d10800000000000000
-      internalID: 2126963997461552702
+      spriteID: f3b5d0af72cb3d4e0800000000000000
+      internalID: -1958014533091108033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_46
+      name: LaborerHustler 1_34
       rect:
         serializedVersion: 2
         x: 383
@@ -1327,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d25f5d6d0dd4a92b0800000000000000
-      internalID: -5577059629192055507
+      spriteID: c2f2a45997fcf1050800000000000000
+      internalID: 5773561368414924588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_47
+      name: LaborerHustler 1_35
       rect:
         serializedVersion: 2
         x: 414
@@ -1349,14 +1049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13cfbc59865272780800000000000000
-      internalID: -8707950223377564623
+      spriteID: 2cccbf567cc60d230800000000000000
+      internalID: 3661546100717505730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_48
+      name: LaborerHustler 1_36
       rect:
         serializedVersion: 2
         x: 443
@@ -1371,14 +1071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 238460ca3570724d0800000000000000
-      internalID: -3159548557627340750
+      spriteID: 6a91f633488eb3780800000000000000
+      internalID: -8702106200467105370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_49
+      name: LaborerHustler 1_37
       rect:
         serializedVersion: 2
         x: 504
@@ -1393,14 +1093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acf02a627088ea4a0800000000000000
-      internalID: -6580172441247412278
+      spriteID: abd1de13945566c20800000000000000
+      internalID: 3199338358151912890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_50
+      name: LaborerHustler 1_38
       rect:
         serializedVersion: 2
         x: 520
@@ -1415,14 +1115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23f835f0470a2f800800000000000000
-      internalID: 644754117001187122
+      spriteID: 1b6635c8c1dcc7e00800000000000000
+      internalID: 1043934736140166833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_51
+      name: LaborerHustler 1_39
       rect:
         serializedVersion: 2
         x: 549
@@ -1437,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bd6734d9571766a0800000000000000
-      internalID: -6456165866232386126
+      spriteID: 93467e94e83ee2910800000000000000
+      internalID: 1814637900141651001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_52
+      name: LaborerHustler 1_40
       rect:
         serializedVersion: 2
         x: 592
@@ -1459,14 +1159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1d5c760dda204c50800000000000000
-      internalID: 6647360178783804703
+      spriteID: 54608d98110ba5b20800000000000000
+      internalID: 3124002880908428869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_53
+      name: LaborerHustler 1_41
       rect:
         serializedVersion: 2
         x: 636
@@ -1481,14 +1181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 791b32df3f7458df0800000000000000
-      internalID: -178657496961666665
+      spriteID: 64c2b30ad93567140800000000000000
+      internalID: 4717049596180376646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_54
+      name: LaborerHustler 1_42
       rect:
         serializedVersion: 2
         x: 665
@@ -1503,14 +1203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 394a2d9009d59a850800000000000000
-      internalID: 6388740419623232659
+      spriteID: e6fbabf11f40acc80800000000000000
+      internalID: -8301817529438126226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_55
+      name: LaborerHustler 1_43
       rect:
         serializedVersion: 2
         x: 690
@@ -1525,14 +1225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4390cc49f92d422a0800000000000000
-      internalID: -6763049157565609676
+      spriteID: 04f7a17a61fab0990800000000000000
+      internalID: -7418643449335087296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_56
+      name: LaborerHustler 1_44
       rect:
         serializedVersion: 2
         x: 706
@@ -1547,14 +1247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 934c7c87b91802810800000000000000
-      internalID: 1738531960911283257
+      spriteID: c11630fb35cefdee0800000000000000
+      internalID: -1234007928445116132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_57
+      name: LaborerHustler 1_45
       rect:
         serializedVersion: 2
         x: 738
@@ -1569,14 +1269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06a016604da159360800000000000000
-      internalID: 7175671079227165280
+      spriteID: 17eb19d0d6ae2ffd0800000000000000
+      internalID: -2309525904787653007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerHustler_58
+      name: LaborerHustler 1_46
       rect:
         serializedVersion: 2
         x: 776
@@ -1591,8 +1291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7995c7678c0a4ea0800000000000000
-      internalID: -5887879787132380801
+      spriteID: 931d6eb38176c5d00800000000000000
+      internalID: 962757774132302137
       vertices: []
       indices: 
       edges: []
@@ -1611,65 +1311,53 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LaborerHustler_0: 7630305202689260914
-      LaborerHustler_1: -3856512241519215497
-      LaborerHustler_10: 8832047001830902631
-      LaborerHustler_11: -4966431674553136792
-      LaborerHustler_12: -3938296742907812471
-      LaborerHustler_13: 5901228714126979336
-      LaborerHustler_14: -63181250652452428
-      LaborerHustler_15: -1129783342296912036
-      LaborerHustler_16: -4748587304722268452
-      LaborerHustler_17: -4725287529123587565
-      LaborerHustler_18: 9004888694453628461
-      LaborerHustler_19: 4410264113423132804
-      LaborerHustler_2: -2472689790192921781
-      LaborerHustler_20: 3679765868889553486
-      LaborerHustler_21: -7119036071438974492
-      LaborerHustler_22: -741943824043274752
-      LaborerHustler_23: 3495826619531805401
-      LaborerHustler_24: -6320739106860122289
-      LaborerHustler_25: -7644912089700459226
-      LaborerHustler_26: 6917041434020912308
-      LaborerHustler_27: -9076405754276139788
-      LaborerHustler_28: 3598615728177843714
-      LaborerHustler_29: 7340475302526066804
-      LaborerHustler_3: 2196897757867827741
-      LaborerHustler_30: 4199411331857418904
-      LaborerHustler_31: 6612880072453824954
-      LaborerHustler_32: -2276650783666094223
-      LaborerHustler_33: -5405911292026680439
-      LaborerHustler_34: 5140376807283202755
-      LaborerHustler_35: 4501711839549680276
-      LaborerHustler_36: 7198548230351062973
-      LaborerHustler_37: -8797149004924634649
-      LaborerHustler_38: 3992895995347961280
-      LaborerHustler_39: -4500717392772686385
-      LaborerHustler_4: -1774649655327743142
-      LaborerHustler_40: -1321760306674134370
-      LaborerHustler_41: -9137242188239818310
-      LaborerHustler_42: -5285959087208505294
-      LaborerHustler_43: -3454962583469324672
-      LaborerHustler_44: 2228857369263048512
-      LaborerHustler_45: 2126963997461552702
-      LaborerHustler_46: -5577059629192055507
-      LaborerHustler_47: -8707950223377564623
-      LaborerHustler_48: -3159548557627340750
-      LaborerHustler_49: -6580172441247412278
-      LaborerHustler_5: -6192064811619870463
-      LaborerHustler_50: 644754117001187122
-      LaborerHustler_51: -6456165866232386126
-      LaborerHustler_52: 6647360178783804703
-      LaborerHustler_53: -178657496961666665
-      LaborerHustler_54: 6388740419623232659
-      LaborerHustler_55: -6763049157565609676
-      LaborerHustler_56: 1738531960911283257
-      LaborerHustler_57: 7175671079227165280
-      LaborerHustler_58: -5887879787132380801
-      LaborerHustler_6: -871300478088743915
-      LaborerHustler_7: 3771651499119943081
-      LaborerHustler_8: -3953023393326037794
-      LaborerHustler_9: -1375081360214215732
+      LaborerHustler 1_0: 6949087263933426707
+      LaborerHustler 1_1: -5421490375744284719
+      LaborerHustler 1_10: -8314897527709830155
+      LaborerHustler 1_11: 9172477313872401167
+      LaborerHustler 1_12: 8406255925860233153
+      LaborerHustler 1_13: 7045777619069003359
+      LaborerHustler 1_14: -8007131174640058521
+      LaborerHustler 1_15: -6391830892552972308
+      LaborerHustler 1_16: -3214648798690476935
+      LaborerHustler 1_17: -7211607491551458133
+      LaborerHustler 1_18: 862883400045315154
+      LaborerHustler 1_19: -572921116186549214
+      LaborerHustler 1_2: -6263853210422949648
+      LaborerHustler 1_20: -7129187871724825468
+      LaborerHustler 1_21: -1141749931586412938
+      LaborerHustler 1_22: 1508243346228649726
+      LaborerHustler 1_23: 4410508353941881048
+      LaborerHustler 1_24: -2809817462710131032
+      LaborerHustler 1_25: 8114707330725077778
+      LaborerHustler 1_26: -6446987896222921080
+      LaborerHustler 1_27: -6122079518701406650
+      LaborerHustler 1_28: 1904004384827156544
+      LaborerHustler 1_29: -8680165669471210962
+      LaborerHustler 1_3: -107907954747217754
+      LaborerHustler 1_30: 5912162059926499309
+      LaborerHustler 1_31: 1029760003698694475
+      LaborerHustler 1_32: 7504873526485561000
+      LaborerHustler 1_33: -1958014533091108033
+      LaborerHustler 1_34: 5773561368414924588
+      LaborerHustler 1_35: 3661546100717505730
+      LaborerHustler 1_36: -8702106200467105370
+      LaborerHustler 1_37: 3199338358151912890
+      LaborerHustler 1_38: 1043934736140166833
+      LaborerHustler 1_39: 1814637900141651001
+      LaborerHustler 1_4: 4220412442353680776
+      LaborerHustler 1_40: 3124002880908428869
+      LaborerHustler 1_41: 4717049596180376646
+      LaborerHustler 1_42: -8301817529438126226
+      LaborerHustler 1_43: -7418643449335087296
+      LaborerHustler 1_44: -1234007928445116132
+      LaborerHustler 1_45: -2309525904787653007
+      LaborerHustler 1_46: 962757774132302137
+      LaborerHustler 1_5: 3211035057122652006
+      LaborerHustler 1_6: -7228253834965087325
+      LaborerHustler 1_7: 9196934335982050830
+      LaborerHustler 1_8: 6927056814166856318
+      LaborerHustler 1_9: -7829987939156503636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

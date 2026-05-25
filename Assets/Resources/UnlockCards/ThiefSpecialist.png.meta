@@ -1,214 +1,217 @@
 fileFormatVersion: 2
-guid: a936f9abaad6b4218b0b237dd9209a0d
+guid: b74cda569915442ffb6da7a55177c625
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4866991436403325559
-    second: ThiefSpecialist_0
+      213: 4938310638507684540
+    second: ThiefSpecialist 1_0
   - first:
-      213: 4469490815191995287
-    second: ThiefSpecialist_1
+      213: 5738571194771566401
+    second: ThiefSpecialist 1_1
   - first:
-      213: 4995862379143341123
-    second: ThiefSpecialist_2
+      213: 5962171123644963236
+    second: ThiefSpecialist 1_2
   - first:
-      213: 3460781372824315958
-    second: ThiefSpecialist_3
+      213: 5026651256942442990
+    second: ThiefSpecialist 1_3
   - first:
-      213: 5998276712084108559
-    second: ThiefSpecialist_4
+      213: -8748865576999464372
+    second: ThiefSpecialist 1_4
   - first:
-      213: 358249832356566066
-    second: ThiefSpecialist_5
+      213: 1652617554766775393
+    second: ThiefSpecialist 1_5
   - first:
-      213: -7268741693260604953
-    second: ThiefSpecialist_6
+      213: 2533260208270722980
+    second: ThiefSpecialist 1_6
   - first:
-      213: -1161879430099993615
-    second: ThiefSpecialist_7
+      213: 6116907838796804468
+    second: ThiefSpecialist 1_7
   - first:
-      213: 1531949048137289768
-    second: ThiefSpecialist_8
+      213: 6412571437302718028
+    second: ThiefSpecialist 1_8
   - first:
-      213: 7627455880320325967
-    second: ThiefSpecialist_9
+      213: -6375456920819464241
+    second: ThiefSpecialist 1_9
   - first:
-      213: -6681265435284191959
-    second: ThiefSpecialist_10
+      213: 8666577302352743984
+    second: ThiefSpecialist 1_10
   - first:
-      213: 3520039740954132661
-    second: ThiefSpecialist_11
+      213: 2968135226102964923
+    second: ThiefSpecialist 1_11
   - first:
-      213: -6669497996327871756
-    second: ThiefSpecialist_12
+      213: 4108116927392335760
+    second: ThiefSpecialist 1_12
   - first:
-      213: 7664489756672639256
-    second: ThiefSpecialist_13
+      213: -2329957165546295061
+    second: ThiefSpecialist 1_13
   - first:
-      213: 6601153416445582467
-    second: ThiefSpecialist_14
+      213: 588750471797994050
+    second: ThiefSpecialist 1_14
   - first:
-      213: 8675558460969558607
-    second: ThiefSpecialist_15
+      213: 7092696982915140764
+    second: ThiefSpecialist 1_15
   - first:
-      213: 1470982697079405074
-    second: ThiefSpecialist_16
+      213: 7287884563375697309
+    second: ThiefSpecialist 1_16
   - first:
-      213: -7509140182748727526
-    second: ThiefSpecialist_17
+      213: 829871391044656649
+    second: ThiefSpecialist 1_17
   - first:
-      213: 3761128158014667696
-    second: ThiefSpecialist_18
+      213: -7610479158760593700
+    second: ThiefSpecialist 1_18
   - first:
-      213: -5324560407483101418
-    second: ThiefSpecialist_19
+      213: 1000591565658220702
+    second: ThiefSpecialist 1_19
   - first:
-      213: -4959188012006347860
-    second: ThiefSpecialist_20
+      213: 5676723973636984055
+    second: ThiefSpecialist 1_20
   - first:
-      213: 5724152173716472556
-    second: ThiefSpecialist_21
+      213: 278620736894201956
+    second: ThiefSpecialist 1_21
   - first:
-      213: -6417108059310516781
-    second: ThiefSpecialist_22
+      213: -6053504840829189942
+    second: ThiefSpecialist 1_22
   - first:
-      213: 5556640447685553724
-    second: ThiefSpecialist_23
+      213: 8267243344698362192
+    second: ThiefSpecialist 1_23
   - first:
-      213: -6791057059082129287
-    second: ThiefSpecialist_24
+      213: -2596897994875006186
+    second: ThiefSpecialist 1_24
   - first:
-      213: 2898126447190615845
-    second: ThiefSpecialist_25
+      213: 7961291210656601729
+    second: ThiefSpecialist 1_25
   - first:
-      213: 286123134374335353
-    second: ThiefSpecialist_26
+      213: 2767899982564370562
+    second: ThiefSpecialist 1_26
   - first:
-      213: -6480327751694010792
-    second: ThiefSpecialist_27
+      213: 6504332184814007144
+    second: ThiefSpecialist 1_27
   - first:
-      213: 420106229592974111
-    second: ThiefSpecialist_28
+      213: 3108374896186221852
+    second: ThiefSpecialist 1_28
   - first:
-      213: -7134170095287296379
-    second: ThiefSpecialist_29
+      213: -3331510329498904539
+    second: ThiefSpecialist 1_29
   - first:
-      213: -3813453826139199326
-    second: ThiefSpecialist_30
+      213: 8174237825821413532
+    second: ThiefSpecialist 1_30
   - first:
-      213: -7376510870645482670
-    second: ThiefSpecialist_31
+      213: -2192817150731912532
+    second: ThiefSpecialist 1_31
   - first:
-      213: -8913738390171658180
-    second: ThiefSpecialist_32
+      213: -7034089438169531580
+    second: ThiefSpecialist 1_32
   - first:
-      213: 6858641584395127497
-    second: ThiefSpecialist_33
+      213: 2212682258409455723
+    second: ThiefSpecialist 1_33
   - first:
-      213: 4874412601406697737
-    second: ThiefSpecialist_34
+      213: -3679138820261056417
+    second: ThiefSpecialist 1_34
   - first:
-      213: 7329208777186268296
-    second: ThiefSpecialist_35
+      213: 2997783803333825360
+    second: ThiefSpecialist 1_35
   - first:
-      213: -3206710310007695453
-    second: ThiefSpecialist_36
+      213: -8263484629278738255
+    second: ThiefSpecialist 1_36
   - first:
-      213: -52236247729781168
-    second: ThiefSpecialist_37
+      213: 5600409893410871276
+    second: ThiefSpecialist 1_37
   - first:
-      213: -1596136657607824043
-    second: ThiefSpecialist_38
+      213: 7338793640780228138
+    second: ThiefSpecialist 1_38
   - first:
-      213: 1402007091826983112
-    second: ThiefSpecialist_39
+      213: 3881044011719963155
+    second: ThiefSpecialist 1_39
   - first:
-      213: 4959719030923386245
-    second: ThiefSpecialist_40
+      213: 1695225352636256828
+    second: ThiefSpecialist 1_40
   - first:
-      213: 6364159370392008732
-    second: ThiefSpecialist_41
+      213: 7443153855405606606
+    second: ThiefSpecialist 1_41
   - first:
-      213: -1284461881703378009
-    second: ThiefSpecialist_42
+      213: 3887939380869941108
+    second: ThiefSpecialist 1_42
   - first:
-      213: -8094236384864961138
-    second: ThiefSpecialist_43
+      213: -3576696291001509889
+    second: ThiefSpecialist 1_43
   - first:
-      213: 5631441749149482719
-    second: ThiefSpecialist_44
+      213: -2404597721684005039
+    second: ThiefSpecialist 1_44
   - first:
-      213: 1040009231604853645
-    second: ThiefSpecialist_45
+      213: 4645941555571484189
+    second: ThiefSpecialist 1_45
   - first:
-      213: 297890398612324967
-    second: ThiefSpecialist_46
+      213: 5441970896162066860
+    second: ThiefSpecialist 1_46
   - first:
-      213: 7125436859260914491
-    second: ThiefSpecialist_47
+      213: 8699315572459138825
+    second: ThiefSpecialist 1_47
   - first:
-      213: -7313814820289946817
-    second: ThiefSpecialist_48
+      213: -6191117535046514237
+    second: ThiefSpecialist 1_48
   - first:
-      213: 6322702845491449776
-    second: ThiefSpecialist_49
+      213: -5917161163400624427
+    second: ThiefSpecialist 1_49
   - first:
-      213: 1896908720983305836
-    second: ThiefSpecialist_50
+      213: -5154070025258917158
+    second: ThiefSpecialist 1_50
   - first:
-      213: 1834922386930445034
-    second: ThiefSpecialist_51
+      213: -4825668404700312557
+    second: ThiefSpecialist 1_51
   - first:
-      213: -6672531800762869479
-    second: ThiefSpecialist_52
+      213: -8867743755618306940
+    second: ThiefSpecialist 1_52
   - first:
-      213: -7127350192460736235
-    second: ThiefSpecialist_53
+      213: 3309494927963443792
+    second: ThiefSpecialist 1_53
   - first:
-      213: -5268429536252967299
-    second: ThiefSpecialist_54
+      213: -8411824954073824803
+    second: ThiefSpecialist 1_54
   - first:
-      213: 320220048739523365
-    second: ThiefSpecialist_55
+      213: 6583572437311472927
+    second: ThiefSpecialist 1_55
   - first:
-      213: -5995904985885393799
-    second: ThiefSpecialist_56
+      213: 4489975889069749752
+    second: ThiefSpecialist 1_56
   - first:
-      213: -5545930888454914023
-    second: ThiefSpecialist_57
+      213: 352028439404296604
+    second: ThiefSpecialist 1_57
   - first:
-      213: 151665376289389297
-    second: ThiefSpecialist_58
+      213: -5089957744022818354
+    second: ThiefSpecialist 1_58
   - first:
-      213: -5461379640057023066
-    second: ThiefSpecialist_59
+      213: -6719605484022340318
+    second: ThiefSpecialist 1_59
   - first:
-      213: 6870446350565235511
-    second: ThiefSpecialist_60
+      213: -2456798757081694809
+    second: ThiefSpecialist 1_60
   - first:
-      213: 653607967148710150
-    second: ThiefSpecialist_61
+      213: 5883089382256076222
+    second: ThiefSpecialist 1_61
   - first:
-      213: -2464387550637115737
-    second: ThiefSpecialist_62
+      213: 2390653973376463971
+    second: ThiefSpecialist 1_62
   - first:
-      213: 5258265400717407141
-    second: ThiefSpecialist_63
+      213: -5439432987461192365
+    second: ThiefSpecialist 1_63
   - first:
-      213: -6579549856175246940
-    second: ThiefSpecialist_64
+      213: 2790950395297174666
+    second: ThiefSpecialist 1_64
   - first:
-      213: 6545516038935486689
-    second: ThiefSpecialist_65
+      213: -3532604551336323291
+    second: ThiefSpecialist 1_65
   - first:
-      213: -7089987795830180220
-    second: ThiefSpecialist_66
+      213: -2903954577064898781
+    second: ThiefSpecialist 1_66
   - first:
-      213: 8061876457582612434
-    second: ThiefSpecialist_67
+      213: -4209875855820325382
+    second: ThiefSpecialist 1_67
   - first:
-      213: 1480442429332661989
-    second: ThiefSpecialist_68
+      213: 3580279599724426487
+    second: ThiefSpecialist 1_68
+  - first:
+      213: -6704786013052476299
+    second: ThiefSpecialist 1_69
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -330,7 +333,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ThiefSpecialist_0
+      name: ThiefSpecialist 1_0
       rect:
         serializedVersion: 2
         x: 14
@@ -345,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77a30bbcce60b8340800000000000000
-      internalID: 4866991436403325559
+      spriteID: cb278c68c57688440800000000000000
+      internalID: 4938310638507684540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_1
+      name: ThiefSpecialist 1_1
       rect:
         serializedVersion: 2
         x: 42
@@ -367,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 793d36e4732d60e30800000000000000
-      internalID: 4469490815191995287
+      spriteID: 14fe5aee81083af40800000000000000
+      internalID: 5738571194771566401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_2
+      name: ThiefSpecialist 1_2
       rect:
         serializedVersion: 2
         x: 84
@@ -389,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 344a3975d5ed45540800000000000000
-      internalID: 4995862379143341123
+      spriteID: 4a913fa4c03edb250800000000000000
+      internalID: 5962171123644963236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_3
+      name: ThiefSpecialist 1_3
       rect:
         serializedVersion: 2
         x: 225
@@ -411,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6386b74925a270030800000000000000
-      internalID: 3460781372824315958
+      spriteID: ee933d39fa042c540800000000000000
+      internalID: 5026651256942442990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_4
+      name: ThiefSpecialist 1_4
       rect:
         serializedVersion: 2
         x: 249
@@ -433,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f057540b3e82e3350800000000000000
-      internalID: 5998276712084108559
+      spriteID: c42dd477c19c59680800000000000000
+      internalID: -8748865576999464372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_5
+      name: ThiefSpecialist 1_5
       rect:
         serializedVersion: 2
         x: 40
@@ -455,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 234d47e0352c8f400800000000000000
-      internalID: 358249832356566066
+      spriteID: 164c27df8e64fe610800000000000000
+      internalID: 1652617554766775393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_6
+      name: ThiefSpecialist 1_6
       rect:
         serializedVersion: 2
         x: 41
@@ -477,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e9512101fd302b90800000000000000
-      internalID: -7268741693260604953
+      spriteID: 4a7cb95dcb2f72320800000000000000
+      internalID: 2533260208270722980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_7
+      name: ThiefSpecialist 1_7
       rect:
         serializedVersion: 2
         x: 49
@@ -499,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1fb7e0170dc20efe0800000000000000
-      internalID: -1161879430099993615
+      spriteID: 4713947454f93e450800000000000000
+      internalID: 6116907838796804468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_8
+      name: ThiefSpecialist 1_8
       rect:
         serializedVersion: 2
         x: 49
@@ -521,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 820983cea83924510800000000000000
-      internalID: 1531949048137289768
+      spriteID: c4e9e393fb70ef850800000000000000
+      internalID: 6412571437302718028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_9
+      name: ThiefSpecialist 1_9
       rect:
         serializedVersion: 2
         x: 340
@@ -543,14 +546,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f49157e06ba2ad960800000000000000
-      internalID: 7627455880320325967
+      spriteID: fc700c985b3d587a0800000000000000
+      internalID: -6375456920819464241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_10
+      name: ThiefSpecialist 1_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 854
+        width: 255
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ec235932ed54870800000000000000
+      internalID: 8666577302352743984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefSpecialist 1_11
       rect:
         serializedVersion: 2
         x: 293
@@ -565,14 +590,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9254ac74c706743a0800000000000000
-      internalID: -6681265435284191959
+      spriteID: bb2e035234fe03920800000000000000
+      internalID: 2968135226102964923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_11
+      name: ThiefSpecialist 1_12
       rect:
         serializedVersion: 2
         x: 345
@@ -587,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b044d29e71b9d030800000000000000
-      internalID: 3520039740954132661
+      spriteID: 0974df86496f20930800000000000000
+      internalID: 4108116927392335760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_12
+      name: ThiefSpecialist 1_13
       rect:
         serializedVersion: 2
         x: 0
@@ -609,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fa92baa8ee2173a0800000000000000
-      internalID: -6669497996327871756
+      spriteID: be0bcb57d445aafd0800000000000000
+      internalID: -2329957165546295061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_13
+      name: ThiefSpecialist 1_14
       rect:
         serializedVersion: 2
         x: 0
@@ -631,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 811c71353dcbd5a60800000000000000
-      internalID: 7664489756672639256
+      spriteID: 242fcdc4f69ab2800800000000000000
+      internalID: 588750471797994050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_14
+      name: ThiefSpecialist 1_15
       rect:
         serializedVersion: 2
         x: 37
@@ -653,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38c581fce020c9b50800000000000000
-      internalID: 6601153416445582467
+      spriteID: c9c4426c3525e6260800000000000000
+      internalID: 7092696982915140764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_15
+      name: ThiefSpecialist 1_16
       rect:
         serializedVersion: 2
         x: 163
@@ -675,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f42a9368476c56870800000000000000
-      internalID: 8675558460969558607
+      spriteID: d9daf04c564c32560800000000000000
+      internalID: 7287884563375697309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_16
+      name: ThiefSpecialist 1_17
       rect:
         serializedVersion: 2
         x: 37
@@ -697,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21af92a28faf96410800000000000000
-      internalID: 1470982697079405074
+      spriteID: 90ed97022ab448b00800000000000000
+      internalID: 829871391044656649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_17
+      name: ThiefSpecialist 1_18
       rect:
         serializedVersion: 2
         x: 87
@@ -719,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1776a6f9cc2ac790800000000000000
-      internalID: -7509140182748727526
+      spriteID: cd6af83f685226690800000000000000
+      internalID: -7610479158760593700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_18
+      name: ThiefSpecialist 1_19
       rect:
         serializedVersion: 2
         x: 105
@@ -741,14 +766,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbfe25e126323430800000000000000
-      internalID: 3761128158014667696
+      spriteID: e986f444ab0d2ed00800000000000000
+      internalID: 1000591565658220702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_19
+      name: ThiefSpecialist 1_20
       rect:
         serializedVersion: 2
         x: 0
@@ -763,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61f4cd6258c5b16b0800000000000000
-      internalID: -5324560407483101418
+      spriteID: 7fc8390a066c7ce40800000000000000
+      internalID: 5676723973636984055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_20
+      name: ThiefSpecialist 1_21
       rect:
         serializedVersion: 2
         x: 0
@@ -785,14 +810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cab6cf927cc6d2bb0800000000000000
-      internalID: -4959188012006347860
+      spriteID: 460f2a1851cddd300800000000000000
+      internalID: 278620736894201956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_21
+      name: ThiefSpecialist 1_22
       rect:
         serializedVersion: 2
         x: 34
@@ -807,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce286aaf216407f40800000000000000
-      internalID: 5724152173716472556
+      spriteID: ac0c44c8b61adfba0800000000000000
+      internalID: -6053504840829189942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_22
+      name: ThiefSpecialist 1_23
       rect:
         serializedVersion: 2
         x: 36
@@ -829,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d51087283ad1f6a0800000000000000
-      internalID: -6417108059310516781
+      spriteID: 059457035062bb270800000000000000
+      internalID: 8267243344698362192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_23
+      name: ThiefSpecialist 1_24
       rect:
         serializedVersion: 2
         x: 37
@@ -851,14 +876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3e6ddcfb072d1d40800000000000000
-      internalID: 5556640447685553724
+      spriteID: 6131d895807f5fbd0800000000000000
+      internalID: -2596897994875006186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_24
+      name: ThiefSpecialist 1_25
       rect:
         serializedVersion: 2
         x: 115
@@ -873,14 +898,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9703008d59151c1a0800000000000000
-      internalID: -6791057059082129287
+      spriteID: 18650a4ec203c7e60800000000000000
+      internalID: 7961291210656601729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_25
+      name: ThiefSpecialist 1_26
       rect:
         serializedVersion: 2
         x: 153
@@ -895,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52726f616a6383820800000000000000
-      internalID: 2898126447190615845
+      spriteID: 2882f828e5e896620800000000000000
+      internalID: 2767899982564370562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_26
+      name: ThiefSpecialist 1_27
       rect:
         serializedVersion: 2
         x: 164
@@ -917,14 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 973576a897388f300800000000000000
-      internalID: 286123134374335353
+      spriteID: 863baf029a7044a50800000000000000
+      internalID: 6504332184814007144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_27
+      name: ThiefSpecialist 1_28
       rect:
         serializedVersion: 2
         x: 223
@@ -939,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8563c2c7e304116a0800000000000000
-      internalID: -6480327751694010792
+      spriteID: c15ebebcf7a232b20800000000000000
+      internalID: 3108374896186221852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_28
+      name: ThiefSpecialist 1_29
       rect:
         serializedVersion: 2
         x: 355
@@ -961,14 +986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1361d6d36484d500800000000000000
-      internalID: 420106229592974111
+      spriteID: 5285ca4a10914c1d0800000000000000
+      internalID: -3331510329498904539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_29
+      name: ThiefSpecialist 1_30
       rect:
         serializedVersion: 2
         x: 592
@@ -983,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58e9f27c8165efc90800000000000000
-      internalID: -7134170095287296379
+      spriteID: c9095ad5ef9b07170800000000000000
+      internalID: 8174237825821413532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_30
+      name: ThiefSpecialist 1_31
       rect:
         serializedVersion: 2
         x: 642
@@ -1005,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a86e9d13f3e31bc0800000000000000
-      internalID: -3813453826139199326
+      spriteID: caa7d316b6c8191e0800000000000000
+      internalID: -2192817150731912532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_31
+      name: ThiefSpecialist 1_32
       rect:
         serializedVersion: 2
         x: 29
@@ -1027,14 +1052,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25b5e51127e51a990800000000000000
-      internalID: -7376510870645482670
+      spriteID: 44bf3979ce4e16e90800000000000000
+      internalID: -7034089438169531580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_32
+      name: ThiefSpecialist 1_33
       rect:
         serializedVersion: 2
         x: 89
@@ -1049,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c385e01492a0c4480800000000000000
-      internalID: -8913738390171658180
+      spriteID: b600e4d6ac605be10800000000000000
+      internalID: 2212682258409455723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_33
+      name: ThiefSpecialist 1_34
       rect:
         serializedVersion: 2
         x: 137
@@ -1071,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ca089fae2ace2f50800000000000000
-      internalID: 6858641584395127497
+      spriteID: f507df26cb211fcc0800000000000000
+      internalID: -3679138820261056417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_34
+      name: ThiefSpecialist 1_35
       rect:
         serializedVersion: 2
         x: 278
@@ -1093,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 901b88b6f6465a340800000000000000
-      internalID: 4874412601406697737
+      spriteID: 053d1277c744a9920800000000000000
+      internalID: 2997783803333825360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_35
+      name: ThiefSpecialist 1_36
       rect:
         serializedVersion: 2
         x: 311
@@ -1115,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 884dcd01d8496b560800000000000000
-      internalID: 7329208777186268296
+      spriteID: 1b8b0f0f284325d80800000000000000
+      internalID: -8263484629278738255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_36
+      name: ThiefSpecialist 1_37
       rect:
         serializedVersion: 2
         x: 343
@@ -1137,14 +1162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a7986286f97f73d0800000000000000
-      internalID: -3206710310007695453
+      spriteID: ce796553027a8bd40800000000000000
+      internalID: 5600409893410871276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_37
+      name: ThiefSpecialist 1_38
       rect:
         serializedVersion: 2
         x: 383
@@ -1159,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 056caa1d86b664ff0800000000000000
-      internalID: -52236247729781168
+      spriteID: a26e9960fe1a8d560800000000000000
+      internalID: 7338793640780228138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_38
+      name: ThiefSpecialist 1_39
       rect:
         serializedVersion: 2
         x: 414
@@ -1181,14 +1206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55d6e46aa2269d9e0800000000000000
-      internalID: -1596136657607824043
+      spriteID: 312b93c47fc3cd530800000000000000
+      internalID: 3881044011719963155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_39
+      name: ThiefSpecialist 1_40
       rect:
         serializedVersion: 2
         x: 443
@@ -1203,14 +1228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c00de8950ee47310800000000000000
-      internalID: 1402007091826983112
+      spriteID: c32de1ef976a68710800000000000000
+      internalID: 1695225352636256828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_40
+      name: ThiefSpecialist 1_41
       rect:
         serializedVersion: 2
         x: 504
@@ -1225,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58ddeef4e2674d440800000000000000
-      internalID: 4959719030923386245
+      spriteID: ec6c708fef46b4760800000000000000
+      internalID: 7443153855405606606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_41
+      name: ThiefSpecialist 1_42
       rect:
         serializedVersion: 2
         x: 520
@@ -1247,14 +1272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1870368a39025850800000000000000
-      internalID: 6364159370392008732
+      spriteID: 4774109844cb4f530800000000000000
+      internalID: 3887939380869941108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_42
+      name: ThiefSpecialist 1_43
       rect:
         serializedVersion: 2
         x: 549
@@ -1269,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a35a8559bcac2ee0800000000000000
-      internalID: -1284461881703378009
+      spriteID: ff7d5696ca50d5ec0800000000000000
+      internalID: -3576696291001509889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_43
+      name: ThiefSpecialist 1_44
       rect:
         serializedVersion: 2
         x: 592
@@ -1291,14 +1316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8df410a4ee7baf80800000000000000
-      internalID: -8094236384864961138
+      spriteID: 15faf4bbc1721aed0800000000000000
+      internalID: -2404597721684005039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_44
+      name: ThiefSpecialist 1_45
       rect:
         serializedVersion: 2
         x: 636
@@ -1313,14 +1338,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdefb572f66e62e40800000000000000
-      internalID: 5631441749149482719
+      spriteID: d166013ca33b97040800000000000000
+      internalID: 4645941555571484189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_45
+      name: ThiefSpecialist 1_46
       rect:
         serializedVersion: 2
         x: 665
@@ -1335,14 +1360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8b2fecc2eade6e00800000000000000
-      internalID: 1040009231604853645
+      spriteID: ca111cf72b3c58b40800000000000000
+      internalID: 5441970896162066860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_46
+      name: ThiefSpecialist 1_47
       rect:
         serializedVersion: 2
         x: 690
@@ -1357,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 762894f3db1522400800000000000000
-      internalID: 297890398612324967
+      spriteID: 90f63751c6d2ab870800000000000000
+      internalID: 8699315572459138825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_47
+      name: ThiefSpecialist 1_48
       rect:
         serializedVersion: 2
         x: 706
@@ -1379,14 +1404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3bc8b14213a2e260800000000000000
-      internalID: 7125436859260914491
+      spriteID: 3c94cd0676bb41aa0800000000000000
+      internalID: -6191117535046514237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_48
+      name: ThiefSpecialist 1_49
       rect:
         serializedVersion: 2
         x: 738
@@ -1401,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3b51a3db2c108a90800000000000000
-      internalID: -7313814820289946817
+      spriteID: 5d6c4c8b54502eda0800000000000000
+      internalID: -5917161163400624427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_49
+      name: ThiefSpecialist 1_50
       rect:
         serializedVersion: 2
         x: 776
@@ -1423,14 +1448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bf8ed52db0ceb750800000000000000
-      internalID: 6322702845491449776
+      spriteID: ad224f49e901978b0800000000000000
+      internalID: -5154070025258917158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_50
+      name: ThiefSpecialist 1_51
       rect:
         serializedVersion: 2
         x: 32
@@ -1445,14 +1470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6eec857e6c235a10800000000000000
-      internalID: 1896908720983305836
+      spriteID: 31c03064728c70db0800000000000000
+      internalID: -4825668404700312557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_51
+      name: ThiefSpecialist 1_52
       rect:
         serializedVersion: 2
         x: 92
@@ -1467,14 +1492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aeaa6676034f67910800000000000000
-      internalID: 1834922386930445034
+      spriteID: 484be2f99027fe480800000000000000
+      internalID: -8867743755618306940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_52
+      name: ThiefSpecialist 1_53
       rect:
         serializedVersion: 2
         x: 171
@@ -1489,14 +1514,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91918070ea76663a0800000000000000
-      internalID: -6672531800762869479
+      spriteID: 052d73f3a10bded20800000000000000
+      internalID: 3309494927963443792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_53
+      name: ThiefSpecialist 1_54
       rect:
         serializedVersion: 2
         x: 278
@@ -1511,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 519d09423c0961d90800000000000000
-      internalID: -7127350192460736235
+      spriteID: dd1c9a3a5c1334b80800000000000000
+      internalID: -8411824954073824803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_54
+      name: ThiefSpecialist 1_55
       rect:
         serializedVersion: 2
         x: 311
@@ -1533,14 +1558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7647770047c2e6b0800000000000000
-      internalID: -5268429536252967299
+      spriteID: f15c00f104c8d5b50800000000000000
+      internalID: 6583572437311472927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_55
+      name: ThiefSpecialist 1_56
       rect:
         serializedVersion: 2
         x: 343
@@ -1555,14 +1580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52bd31f0076a17400800000000000000
-      internalID: 320220048739523365
+      spriteID: 8f5321e38499f4e30800000000000000
+      internalID: 4489975889069749752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_56
+      name: ThiefSpecialist 1_57
       rect:
         serializedVersion: 2
         x: 383
@@ -1577,14 +1602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97cbe49de244acca0800000000000000
-      internalID: -5995904985885393799
+      spriteID: c9937812008a2e400800000000000000
+      internalID: 352028439404296604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_57
+      name: ThiefSpecialist 1_58
       rect:
         serializedVersion: 2
         x: 414
@@ -1599,14 +1624,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91047c49d35e803b0800000000000000
-      internalID: -5545930888454914023
+      spriteID: ec175c94666dc59b0800000000000000
+      internalID: -5089957744022818354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_58
+      name: ThiefSpecialist 1_59
       rect:
         serializedVersion: 2
         x: 443
@@ -1621,14 +1646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1fa747e2bd2da1200800000000000000
-      internalID: 151665376289389297
+      spriteID: 225e41e0a6a2fb2a0800000000000000
+      internalID: -6719605484022340318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_59
+      name: ThiefSpecialist 1_60
       rect:
         serializedVersion: 2
         x: 504
@@ -1643,14 +1668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a5b9da27284534b0800000000000000
-      internalID: -5461379640057023066
+      spriteID: 7ad368f0c82b7edd0800000000000000
+      internalID: -2456798757081694809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_60
+      name: ThiefSpecialist 1_61
       rect:
         serializedVersion: 2
         x: 520
@@ -1665,14 +1690,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73bd1ddfd8ab85f50800000000000000
-      internalID: 6870446350565235511
+      spriteID: eb5ee3b8f9ee4a150800000000000000
+      internalID: 5883089382256076222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_61
+      name: ThiefSpecialist 1_62
       rect:
         serializedVersion: 2
         x: 592
@@ -1687,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6099340bbf4121900800000000000000
-      internalID: 653607967148710150
+      spriteID: 364faff5f1f4d2120800000000000000
+      internalID: 2390653973376463971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_62
+      name: ThiefSpecialist 1_63
       rect:
         serializedVersion: 2
         x: 636
@@ -1709,14 +1734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a6316f549cbccdd0800000000000000
-      internalID: -2464387550637115737
+      spriteID: 35575da64804384b0800000000000000
+      internalID: -5439432987461192365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_63
+      name: ThiefSpecialist 1_64
       rect:
         serializedVersion: 2
         x: 665
@@ -1731,14 +1756,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a3fc70c58c19f840800000000000000
-      internalID: 5258265400717407141
+      spriteID: a849c61f8927bb620800000000000000
+      internalID: 2790950395297174666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_64
+      name: ThiefSpecialist 1_65
       rect:
         serializedVersion: 2
         x: 690
@@ -1753,14 +1778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a1b3b8044eb0b4a0800000000000000
-      internalID: -6579549856175246940
+      spriteID: 5279ba980eaa9fec0800000000000000
+      internalID: -3532604551336323291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_65
+      name: ThiefSpecialist 1_66
       rect:
         serializedVersion: 2
         x: 706
@@ -1775,14 +1800,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e02f54682856da50800000000000000
-      internalID: 6545516038935486689
+      spriteID: 32f4d2ea2b413b7d0800000000000000
+      internalID: -2903954577064898781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_66
+      name: ThiefSpecialist 1_67
       rect:
         serializedVersion: 2
         x: 738
@@ -1797,14 +1822,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 486ffaff9ad4b9d90800000000000000
-      internalID: -7089987795830180220
+      spriteID: afdf559c6348395c0800000000000000
+      internalID: -4209875855820325382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_67
+      name: ThiefSpecialist 1_68
       rect:
         serializedVersion: 2
         x: 776
@@ -1819,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dfcb4dace981ef60800000000000000
-      internalID: 8061876457582612434
+      spriteID: 7f4f62aa355bfa130800000000000000
+      internalID: 3580279599724426487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefSpecialist_68
+      name: ThiefSpecialist 1_69
       rect:
         serializedVersion: 2
         x: 88
@@ -1841,8 +1866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e62ac6bb869b8410800000000000000
-      internalID: 1480442429332661989
+      spriteID: 574eff405a0d3f2a0800000000000000
+      internalID: -6704786013052476299
       vertices: []
       indices: 
       edges: []
@@ -1861,75 +1886,76 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ThiefSpecialist_0: 4866991436403325559
-      ThiefSpecialist_1: 4469490815191995287
-      ThiefSpecialist_10: -6681265435284191959
-      ThiefSpecialist_11: 3520039740954132661
-      ThiefSpecialist_12: -6669497996327871756
-      ThiefSpecialist_13: 7664489756672639256
-      ThiefSpecialist_14: 6601153416445582467
-      ThiefSpecialist_15: 8675558460969558607
-      ThiefSpecialist_16: 1470982697079405074
-      ThiefSpecialist_17: -7509140182748727526
-      ThiefSpecialist_18: 3761128158014667696
-      ThiefSpecialist_19: -5324560407483101418
-      ThiefSpecialist_2: 4995862379143341123
-      ThiefSpecialist_20: -4959188012006347860
-      ThiefSpecialist_21: 5724152173716472556
-      ThiefSpecialist_22: -6417108059310516781
-      ThiefSpecialist_23: 5556640447685553724
-      ThiefSpecialist_24: -6791057059082129287
-      ThiefSpecialist_25: 2898126447190615845
-      ThiefSpecialist_26: 286123134374335353
-      ThiefSpecialist_27: -6480327751694010792
-      ThiefSpecialist_28: 420106229592974111
-      ThiefSpecialist_29: -7134170095287296379
-      ThiefSpecialist_3: 3460781372824315958
-      ThiefSpecialist_30: -3813453826139199326
-      ThiefSpecialist_31: -7376510870645482670
-      ThiefSpecialist_32: -8913738390171658180
-      ThiefSpecialist_33: 6858641584395127497
-      ThiefSpecialist_34: 4874412601406697737
-      ThiefSpecialist_35: 7329208777186268296
-      ThiefSpecialist_36: -3206710310007695453
-      ThiefSpecialist_37: -52236247729781168
-      ThiefSpecialist_38: -1596136657607824043
-      ThiefSpecialist_39: 1402007091826983112
-      ThiefSpecialist_4: 5998276712084108559
-      ThiefSpecialist_40: 4959719030923386245
-      ThiefSpecialist_41: 6364159370392008732
-      ThiefSpecialist_42: -1284461881703378009
-      ThiefSpecialist_43: -8094236384864961138
-      ThiefSpecialist_44: 5631441749149482719
-      ThiefSpecialist_45: 1040009231604853645
-      ThiefSpecialist_46: 297890398612324967
-      ThiefSpecialist_47: 7125436859260914491
-      ThiefSpecialist_48: -7313814820289946817
-      ThiefSpecialist_49: 6322702845491449776
-      ThiefSpecialist_5: 358249832356566066
-      ThiefSpecialist_50: 1896908720983305836
-      ThiefSpecialist_51: 1834922386930445034
-      ThiefSpecialist_52: -6672531800762869479
-      ThiefSpecialist_53: -7127350192460736235
-      ThiefSpecialist_54: -5268429536252967299
-      ThiefSpecialist_55: 320220048739523365
-      ThiefSpecialist_56: -5995904985885393799
-      ThiefSpecialist_57: -5545930888454914023
-      ThiefSpecialist_58: 151665376289389297
-      ThiefSpecialist_59: -5461379640057023066
-      ThiefSpecialist_6: -7268741693260604953
-      ThiefSpecialist_60: 6870446350565235511
-      ThiefSpecialist_61: 653607967148710150
-      ThiefSpecialist_62: -2464387550637115737
-      ThiefSpecialist_63: 5258265400717407141
-      ThiefSpecialist_64: -6579549856175246940
-      ThiefSpecialist_65: 6545516038935486689
-      ThiefSpecialist_66: -7089987795830180220
-      ThiefSpecialist_67: 8061876457582612434
-      ThiefSpecialist_68: 1480442429332661989
-      ThiefSpecialist_7: -1161879430099993615
-      ThiefSpecialist_8: 1531949048137289768
-      ThiefSpecialist_9: 7627455880320325967
+      ThiefSpecialist 1_0: 4938310638507684540
+      ThiefSpecialist 1_1: 5738571194771566401
+      ThiefSpecialist 1_10: 8666577302352743984
+      ThiefSpecialist 1_11: 2968135226102964923
+      ThiefSpecialist 1_12: 4108116927392335760
+      ThiefSpecialist 1_13: -2329957165546295061
+      ThiefSpecialist 1_14: 588750471797994050
+      ThiefSpecialist 1_15: 7092696982915140764
+      ThiefSpecialist 1_16: 7287884563375697309
+      ThiefSpecialist 1_17: 829871391044656649
+      ThiefSpecialist 1_18: -7610479158760593700
+      ThiefSpecialist 1_19: 1000591565658220702
+      ThiefSpecialist 1_2: 5962171123644963236
+      ThiefSpecialist 1_20: 5676723973636984055
+      ThiefSpecialist 1_21: 278620736894201956
+      ThiefSpecialist 1_22: -6053504840829189942
+      ThiefSpecialist 1_23: 8267243344698362192
+      ThiefSpecialist 1_24: -2596897994875006186
+      ThiefSpecialist 1_25: 7961291210656601729
+      ThiefSpecialist 1_26: 2767899982564370562
+      ThiefSpecialist 1_27: 6504332184814007144
+      ThiefSpecialist 1_28: 3108374896186221852
+      ThiefSpecialist 1_29: -3331510329498904539
+      ThiefSpecialist 1_3: 5026651256942442990
+      ThiefSpecialist 1_30: 8174237825821413532
+      ThiefSpecialist 1_31: -2192817150731912532
+      ThiefSpecialist 1_32: -7034089438169531580
+      ThiefSpecialist 1_33: 2212682258409455723
+      ThiefSpecialist 1_34: -3679138820261056417
+      ThiefSpecialist 1_35: 2997783803333825360
+      ThiefSpecialist 1_36: -8263484629278738255
+      ThiefSpecialist 1_37: 5600409893410871276
+      ThiefSpecialist 1_38: 7338793640780228138
+      ThiefSpecialist 1_39: 3881044011719963155
+      ThiefSpecialist 1_4: -8748865576999464372
+      ThiefSpecialist 1_40: 1695225352636256828
+      ThiefSpecialist 1_41: 7443153855405606606
+      ThiefSpecialist 1_42: 3887939380869941108
+      ThiefSpecialist 1_43: -3576696291001509889
+      ThiefSpecialist 1_44: -2404597721684005039
+      ThiefSpecialist 1_45: 4645941555571484189
+      ThiefSpecialist 1_46: 5441970896162066860
+      ThiefSpecialist 1_47: 8699315572459138825
+      ThiefSpecialist 1_48: -6191117535046514237
+      ThiefSpecialist 1_49: -5917161163400624427
+      ThiefSpecialist 1_5: 1652617554766775393
+      ThiefSpecialist 1_50: -5154070025258917158
+      ThiefSpecialist 1_51: -4825668404700312557
+      ThiefSpecialist 1_52: -8867743755618306940
+      ThiefSpecialist 1_53: 3309494927963443792
+      ThiefSpecialist 1_54: -8411824954073824803
+      ThiefSpecialist 1_55: 6583572437311472927
+      ThiefSpecialist 1_56: 4489975889069749752
+      ThiefSpecialist 1_57: 352028439404296604
+      ThiefSpecialist 1_58: -5089957744022818354
+      ThiefSpecialist 1_59: -6719605484022340318
+      ThiefSpecialist 1_6: 2533260208270722980
+      ThiefSpecialist 1_60: -2456798757081694809
+      ThiefSpecialist 1_61: 5883089382256076222
+      ThiefSpecialist 1_62: 2390653973376463971
+      ThiefSpecialist 1_63: -5439432987461192365
+      ThiefSpecialist 1_64: 2790950395297174666
+      ThiefSpecialist 1_65: -3532604551336323291
+      ThiefSpecialist 1_66: -2903954577064898781
+      ThiefSpecialist 1_67: -4209875855820325382
+      ThiefSpecialist 1_68: 3580279599724426487
+      ThiefSpecialist 1_69: -6704786013052476299
+      ThiefSpecialist 1_7: 6116907838796804468
+      ThiefSpecialist 1_8: 6412571437302718028
+      ThiefSpecialist 1_9: -6375456920819464241
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

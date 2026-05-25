@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dce4f1a0464614527b18964929f2fc99
+guid: eb8979ad357484524a45e65ae37754d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4808502602165329157
-    second: Opponents Background Image_0
+      213: -1560125542784085267
+    second: InstructionalPointerStick_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opponents Background Image_0
+      name: InstructionalPointerStick_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1125
-        height: 825
+        x: 93
+        y: 97
+        width: 1325
+        height: 802
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf2e4602c54c44db0800000000000000
-      internalID: -4808502602165329157
+      spriteID: de25751b512595ae0800000000000000
+      internalID: -1560125542784085267
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Opponents Background Image_0: -4808502602165329157
+      InstructionalPointerStick_0: -1560125542784085267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

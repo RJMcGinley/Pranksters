@@ -1,235 +1,238 @@
 fileFormatVersion: 2
-guid: 26f36e3465c2e424cb47f832774a7890
+guid: 11c01829611ed4e95a893ce2be37d8da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8495676215499661803
-    second: ScribeSpecialist_0
+      213: 384590253854935019
+    second: ScribeSpecialist 1_0
   - first:
-      213: -8796892777728199186
-    second: ScribeSpecialist_1
+      213: 5825291244128422262
+    second: ScribeSpecialist 1_1
   - first:
-      213: -5973515799715591174
-    second: ScribeSpecialist_2
+      213: 5468071271992378897
+    second: ScribeSpecialist 1_2
   - first:
-      213: 2815756466431521638
-    second: ScribeSpecialist_3
+      213: 657858558744591731
+    second: ScribeSpecialist 1_3
   - first:
-      213: -7135965074306782280
-    second: ScribeSpecialist_4
+      213: 3589474029203658392
+    second: ScribeSpecialist 1_4
   - first:
-      213: -4615141492525277655
-    second: ScribeSpecialist_5
+      213: 2587849947463160443
+    second: ScribeSpecialist 1_5
   - first:
-      213: 3524770246191482704
-    second: ScribeSpecialist_6
+      213: -5204633843607897369
+    second: ScribeSpecialist 1_6
   - first:
-      213: -444808621482364712
-    second: ScribeSpecialist_7
+      213: 4093716994967514078
+    second: ScribeSpecialist 1_7
   - first:
-      213: -396646095850056565
-    second: ScribeSpecialist_8
+      213: -2406469502395303216
+    second: ScribeSpecialist 1_8
   - first:
-      213: -8681725946377889746
-    second: ScribeSpecialist_9
+      213: -2608931144322072263
+    second: ScribeSpecialist 1_9
   - first:
-      213: -6522024519283378187
-    second: ScribeSpecialist_10
+      213: 1185169366449805668
+    second: ScribeSpecialist 1_10
   - first:
-      213: 2006248052898387186
-    second: ScribeSpecialist_11
+      213: -3915103007051258688
+    second: ScribeSpecialist 1_11
   - first:
-      213: -8514176875039063888
-    second: ScribeSpecialist_12
+      213: -6213571267401019098
+    second: ScribeSpecialist 1_12
   - first:
-      213: -9171066984169906764
-    second: ScribeSpecialist_13
+      213: -8795326784680040291
+    second: ScribeSpecialist 1_13
   - first:
-      213: -3177274192547731340
-    second: ScribeSpecialist_14
+      213: -1250509563466511288
+    second: ScribeSpecialist 1_14
   - first:
-      213: -1463081803141332489
-    second: ScribeSpecialist_15
+      213: 5192985132319668536
+    second: ScribeSpecialist 1_15
   - first:
-      213: 5404513181227235446
-    second: ScribeSpecialist_16
+      213: -2905833368229292471
+    second: ScribeSpecialist 1_16
   - first:
-      213: 3475373719038008065
-    second: ScribeSpecialist_17
+      213: 6424940525803515778
+    second: ScribeSpecialist 1_17
   - first:
-      213: -659519673507320160
-    second: ScribeSpecialist_18
+      213: 8210337117824605312
+    second: ScribeSpecialist 1_18
   - first:
-      213: 2108860400172439055
-    second: ScribeSpecialist_19
+      213: 8583244837219520571
+    second: ScribeSpecialist 1_19
   - first:
-      213: -3367681246327044934
-    second: ScribeSpecialist_20
+      213: 5968537120138069290
+    second: ScribeSpecialist 1_20
   - first:
-      213: -4165223316613984006
-    second: ScribeSpecialist_21
+      213: -416908733175965739
+    second: ScribeSpecialist 1_21
   - first:
-      213: 7230807487724545309
-    second: ScribeSpecialist_22
+      213: -1487268674208021685
+    second: ScribeSpecialist 1_22
   - first:
-      213: -1943739544329029688
-    second: ScribeSpecialist_23
+      213: -4049302346878195671
+    second: ScribeSpecialist 1_23
   - first:
-      213: -2106478525871634012
-    second: ScribeSpecialist_24
+      213: 8565543042537921227
+    second: ScribeSpecialist 1_24
   - first:
-      213: 4074626095223071086
-    second: ScribeSpecialist_25
+      213: -6170138938960731599
+    second: ScribeSpecialist 1_25
   - first:
-      213: 6898629132360032273
-    second: ScribeSpecialist_26
+      213: -4096304260188815577
+    second: ScribeSpecialist 1_26
   - first:
-      213: 1661067098362982707
-    second: ScribeSpecialist_27
+      213: 5540008362379139619
+    second: ScribeSpecialist 1_27
   - first:
-      213: 1083216051884459361
-    second: ScribeSpecialist_28
+      213: -4253344213401085045
+    second: ScribeSpecialist 1_28
   - first:
-      213: 658851496813093784
-    second: ScribeSpecialist_29
+      213: -8274654907979622564
+    second: ScribeSpecialist 1_29
   - first:
-      213: -1338720654534968775
-    second: ScribeSpecialist_30
+      213: -2819293341516868600
+    second: ScribeSpecialist 1_30
   - first:
-      213: 7584929891490353129
-    second: ScribeSpecialist_31
+      213: 115181991135153222
+    second: ScribeSpecialist 1_31
   - first:
-      213: 78341265634621714
-    second: ScribeSpecialist_32
+      213: 5211587644457816836
+    second: ScribeSpecialist 1_32
   - first:
-      213: 7710005287440592084
-    second: ScribeSpecialist_33
+      213: 4213688615010340083
+    second: ScribeSpecialist 1_33
   - first:
-      213: -1127453694132981388
-    second: ScribeSpecialist_34
+      213: -3708826019611192801
+    second: ScribeSpecialist 1_34
   - first:
-      213: 3332811428739683029
-    second: ScribeSpecialist_35
+      213: 4960841330912866044
+    second: ScribeSpecialist 1_35
   - first:
-      213: 3452829580412541779
-    second: ScribeSpecialist_36
+      213: 7195908709658487760
+    second: ScribeSpecialist 1_36
   - first:
-      213: -3884221320673126890
-    second: ScribeSpecialist_37
+      213: -3830026390374073706
+    second: ScribeSpecialist 1_37
   - first:
-      213: -695680179811893238
-    second: ScribeSpecialist_38
+      213: 2969616973568652360
+    second: ScribeSpecialist 1_38
   - first:
-      213: 4718052140854572643
-    second: ScribeSpecialist_39
+      213: -2725999212388729278
+    second: ScribeSpecialist 1_39
   - first:
-      213: -4255250722898049801
-    second: ScribeSpecialist_40
+      213: 4498772112278457094
+    second: ScribeSpecialist 1_40
   - first:
-      213: 8607669367134586979
-    second: ScribeSpecialist_41
+      213: -4620215970838488520
+    second: ScribeSpecialist 1_41
   - first:
-      213: 344946640616093750
-    second: ScribeSpecialist_42
+      213: -6457838332208184603
+    second: ScribeSpecialist 1_42
   - first:
-      213: 2373708839520302011
-    second: ScribeSpecialist_43
+      213: -3312812642607451083
+    second: ScribeSpecialist 1_43
   - first:
-      213: 9021964186412391566
-    second: ScribeSpecialist_44
+      213: -236921236537705898
+    second: ScribeSpecialist 1_44
   - first:
-      213: 6374948104126492750
-    second: ScribeSpecialist_45
+      213: -5136427234213406596
+    second: ScribeSpecialist 1_45
   - first:
-      213: -2149679475638625643
-    second: ScribeSpecialist_46
+      213: 9192536389565632626
+    second: ScribeSpecialist 1_46
   - first:
-      213: -1707418177713747769
-    second: ScribeSpecialist_47
+      213: 7668811312387091040
+    second: ScribeSpecialist 1_47
   - first:
-      213: 2670742583644502974
-    second: ScribeSpecialist_48
+      213: 2444643136702882229
+    second: ScribeSpecialist 1_48
   - first:
-      213: -7467789279698026470
-    second: ScribeSpecialist_49
+      213: 586009059017042211
+    second: ScribeSpecialist 1_49
   - first:
-      213: -4629529954200967622
-    second: ScribeSpecialist_50
+      213: 1044029145980275696
+    second: ScribeSpecialist 1_50
   - first:
-      213: -6773522982004510270
-    second: ScribeSpecialist_51
+      213: -1753543939289863563
+    second: ScribeSpecialist 1_51
   - first:
-      213: 4367903196775774514
-    second: ScribeSpecialist_52
+      213: 8784874801521171765
+    second: ScribeSpecialist 1_52
   - first:
-      213: 6100460921978071960
-    second: ScribeSpecialist_53
+      213: -5488528850841402432
+    second: ScribeSpecialist 1_53
   - first:
-      213: -1363735043595520108
-    second: ScribeSpecialist_54
+      213: -2336932279804497914
+    second: ScribeSpecialist 1_54
   - first:
-      213: 1147582951392165216
-    second: ScribeSpecialist_55
+      213: -1210482086404056
+    second: ScribeSpecialist 1_55
   - first:
-      213: -8364302164325230297
-    second: ScribeSpecialist_56
+      213: -830262163753241443
+    second: ScribeSpecialist 1_56
   - first:
-      213: -9136669065639036266
-    second: ScribeSpecialist_57
+      213: 7733180662085662384
+    second: ScribeSpecialist 1_57
   - first:
-      213: 2777991458658182940
-    second: ScribeSpecialist_58
+      213: -3478426394376260758
+    second: ScribeSpecialist 1_58
   - first:
-      213: -7233283563667453416
-    second: ScribeSpecialist_59
+      213: 8404623256623560367
+    second: ScribeSpecialist 1_59
   - first:
-      213: 8879288372240837459
-    second: ScribeSpecialist_60
+      213: -4946943812763643292
+    second: ScribeSpecialist 1_60
   - first:
-      213: 3887723961121215980
-    second: ScribeSpecialist_61
+      213: 959092577021065562
+    second: ScribeSpecialist 1_61
   - first:
-      213: -2755335685277852040
-    second: ScribeSpecialist_62
+      213: 1289554725473842711
+    second: ScribeSpecialist 1_62
   - first:
-      213: 6169120834454035312
-    second: ScribeSpecialist_63
+      213: -4426988564375707722
+    second: ScribeSpecialist 1_63
   - first:
-      213: -3355069744731233035
-    second: ScribeSpecialist_64
+      213: 3506742613766213551
+    second: ScribeSpecialist 1_64
   - first:
-      213: -2612225709515803219
-    second: ScribeSpecialist_65
+      213: -8430958428719095744
+    second: ScribeSpecialist 1_65
   - first:
-      213: -5619347741379623413
-    second: ScribeSpecialist_66
+      213: 4923014099588337133
+    second: ScribeSpecialist 1_66
   - first:
-      213: -3270099160351220265
-    second: ScribeSpecialist_67
+      213: 5318820285701990847
+    second: ScribeSpecialist 1_67
   - first:
-      213: 2483948460784959877
-    second: ScribeSpecialist_68
+      213: 3760236447337209842
+    second: ScribeSpecialist 1_68
   - first:
-      213: -8704661370175351645
-    second: ScribeSpecialist_69
+      213: -800838341245526065
+    second: ScribeSpecialist 1_69
   - first:
-      213: -1435436193146071963
-    second: ScribeSpecialist_70
+      213: 3405036976262335467
+    second: ScribeSpecialist 1_70
   - first:
-      213: -1475473503882843137
-    second: ScribeSpecialist_71
+      213: -6135092953555494160
+    second: ScribeSpecialist 1_71
   - first:
-      213: 1510172294956719815
-    second: ScribeSpecialist_72
+      213: -8711576063397898189
+    second: ScribeSpecialist 1_72
   - first:
-      213: 6301514514117350249
-    second: ScribeSpecialist_73
+      213: -6261619660112461714
+    second: ScribeSpecialist 1_73
   - first:
-      213: -7378485755243049050
-    second: ScribeSpecialist_74
+      213: -6030806023739936972
+    second: ScribeSpecialist 1_74
   - first:
-      213: -734673843533086453
-    second: ScribeSpecialist_75
+      213: 3362195981813736039
+    second: ScribeSpecialist 1_75
+  - first:
+      213: -4135958097701646439
+    second: ScribeSpecialist 1_76
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -351,12 +354,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScribeSpecialist_0
+      name: ScribeSpecialist 1_0
       rect:
         serializedVersion: 2
         x: 13
         y: 666
-        width: 312
+        width: 308
         height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -366,19 +369,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51e58687e7b491a80800000000000000
-      internalID: -8495676215499661803
+      spriteID: be7c9195cc6565500800000000000000
+      internalID: 384590253854935019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_1
+      name: ScribeSpecialist 1_1
       rect:
         serializedVersion: 2
-        x: 353
+        x: 213
+        y: 309
+        width: 446
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679c777d58797d050800000000000000
+      internalID: 5825291244128422262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeSpecialist 1_2
+      rect:
+        serializedVersion: 2
+        x: 354
         y: 1024
-        width: 12
+        width: 11
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -388,19 +413,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee5bf4860a82be580800000000000000
-      internalID: -8796892777728199186
+      spriteID: 116cf9dc9dd72eb40800000000000000
+      internalID: 5468071271992378897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_2
+      name: ScribeSpecialist 1_3
       rect:
         serializedVersion: 2
         x: 357
         y: 1034
-        width: 8
+        width: 6
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -410,14 +435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afbc4c9770fc91da0800000000000000
-      internalID: -5973515799715591174
+      spriteID: 37dfb6aafde212900800000000000000
+      internalID: 657858558744591731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_3
+      name: ScribeSpecialist 1_4
       rect:
         serializedVersion: 2
         x: 394
@@ -432,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 663f8a37693931720800000000000000
-      internalID: 2815756466431521638
+      spriteID: 8969c299c9f50d130800000000000000
+      internalID: 3589474029203658392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_4
+      name: ScribeSpecialist 1_5
       rect:
         serializedVersion: 2
-        x: 213
-        y: 309
-        width: 446
-        height: 702
+        x: 609
+        y: 854
+        width: 163
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +479,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bba958a295f7fc90800000000000000
-      internalID: -7135965074306782280
+      spriteID: b721e82f0d3e9e320800000000000000
+      internalID: 2587849947463160443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_5
+      name: ScribeSpecialist 1_6
       rect:
         serializedVersion: 2
-        x: 354
-        y: 1011
-        width: 11
-        height: 16
+        x: 356
+        y: 1019
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92e5dddb349b3ffb0800000000000000
-      internalID: -4615141492525277655
+      spriteID: 7ea76c5381d65c7b0800000000000000
+      internalID: -5204633843607897369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_6
+      name: ScribeSpecialist 1_7
       rect:
         serializedVersion: 2
         x: 20
@@ -498,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0570c172ddf7ae030800000000000000
-      internalID: 3524770246191482704
+      spriteID: edba400eaedcfc830800000000000000
+      internalID: 4093716994967514078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_7
+      name: ScribeSpecialist 1_8
       rect:
         serializedVersion: 2
         x: 30
@@ -520,14 +545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d0338b5ae8b3d9f0800000000000000
-      internalID: -444808621482364712
+      spriteID: 0dabae2dcb08a9ed0800000000000000
+      internalID: -2406469502395303216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_8
+      name: ScribeSpecialist 1_9
       rect:
         serializedVersion: 2
         x: 38
@@ -542,14 +567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b84df433a74de7af0800000000000000
-      internalID: -396646095850056565
+      spriteID: 931ca3b62f63bcbd0800000000000000
+      internalID: -2608931144322072263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_9
+      name: ScribeSpecialist 1_10
       rect:
         serializedVersion: 2
         x: 49
@@ -564,14 +589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e289ad0ef30548780800000000000000
-      internalID: -8681725946377889746
+      spriteID: 4695aed6241927010800000000000000
+      internalID: 1185169366449805668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_10
+      name: ScribeSpecialist 1_11
       rect:
         serializedVersion: 2
         x: 88
@@ -586,14 +611,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f7f9bf314d1d75a0800000000000000
-      internalID: -6522024519283378187
+      spriteID: 0c465a5ee82caa9c0800000000000000
+      internalID: -3915103007051258688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_11
+      name: ScribeSpecialist 1_12
       rect:
         serializedVersion: 2
         x: 90
@@ -608,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f4d35c79ff97db10800000000000000
-      internalID: 2006248052898387186
+      spriteID: 6211dfb6ad5f4c9a0800000000000000
+      internalID: -6213571267401019098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_12
+      name: ScribeSpecialist 1_13
       rect:
         serializedVersion: 2
         x: 110
@@ -630,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b083700e3197d980800000000000000
-      internalID: -8514176875039063888
+      spriteID: d98eaa393e8b0f580800000000000000
+      internalID: -8795326784680040291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_13
+      name: ScribeSpecialist 1_14
       rect:
         serializedVersion: 2
         x: 137
@@ -652,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bd5d351b23d9b080800000000000000
-      internalID: -9171066984169906764
+      spriteID: 84c89517d2c45aee0800000000000000
+      internalID: -1250509563466511288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_14
+      name: ScribeSpecialist 1_15
       rect:
         serializedVersion: 2
         x: 93
@@ -674,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4782d2fa4fd08e3d0800000000000000
-      internalID: -3177274192547731340
+      spriteID: 8397cc7d670311840800000000000000
+      internalID: 5192985132319668536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_15
+      name: ScribeSpecialist 1_16
       rect:
         serializedVersion: 2
         x: 100
@@ -696,14 +721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f14c6e0ad612bbe0800000000000000
-      internalID: -1463081803141332489
+      spriteID: 946573682f76ca7d0800000000000000
+      internalID: -2905833368229292471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_16
+      name: ScribeSpecialist 1_17
       rect:
         serializedVersion: 2
         x: 104
@@ -718,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67837fe9a10b00b40800000000000000
-      internalID: 5404513181227235446
+      spriteID: 28fa78f0e59f92950800000000000000
+      internalID: 6424940525803515778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_17
+      name: ScribeSpecialist 1_18
       rect:
         serializedVersion: 2
         x: 115
@@ -740,14 +765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10b1df0fbf10b3030800000000000000
-      internalID: 3475373719038008065
+      spriteID: 08cd322cb1af0f170800000000000000
+      internalID: 8210337117824605312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_18
+      name: ScribeSpecialist 1_19
       rect:
         serializedVersion: 2
         x: 169
@@ -762,14 +787,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0aee63ae95ae8d6f0800000000000000
-      internalID: -659519673507320160
+      spriteID: b30dca614bfcd1770800000000000000
+      internalID: 8583244837219520571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_19
+      name: ScribeSpecialist 1_20
       rect:
         serializedVersion: 2
         x: 189
@@ -784,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f069a295c5d244d10800000000000000
-      internalID: 2108860400172439055
+      spriteID: a25009a53e084d250800000000000000
+      internalID: 5968537120138069290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_20
+      name: ScribeSpecialist 1_21
       rect:
         serializedVersion: 2
         x: 189
@@ -806,14 +831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab48eebcfb79341d0800000000000000
-      internalID: -3367681246327044934
+      spriteID: 5d7d94f47b7d63af0800000000000000
+      internalID: -416908733175965739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_21
+      name: ScribeSpecialist 1_22
       rect:
         serializedVersion: 2
         x: 172
@@ -828,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af09c0b36772236c0800000000000000
-      internalID: -4165223316613984006
+      spriteID: b43c34c45092c5be0800000000000000
+      internalID: -1487268674208021685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_22
+      name: ScribeSpecialist 1_23
       rect:
         serializedVersion: 2
         x: 200
@@ -850,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d156e01891df85460800000000000000
-      internalID: 7230807487724545309
+      spriteID: 9286b2a38fcfdc7c0800000000000000
+      internalID: -4049302346878195671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_23
+      name: ScribeSpecialist 1_24
       rect:
         serializedVersion: 2
         x: 55
@@ -872,14 +897,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c7736cce237605e0800000000000000
-      internalID: -1943739544329029688
+      spriteID: bca9ac6d30ceed670800000000000000
+      internalID: 8565543042537921227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_24
+      name: ScribeSpecialist 1_25
       rect:
         serializedVersion: 2
         x: 74
@@ -894,14 +919,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a9ce6af0f844c2e0800000000000000
-      internalID: -2106478525871634012
+      spriteID: 132a07863534f5aa0800000000000000
+      internalID: -6170138938960731599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_25
+      name: ScribeSpecialist 1_26
       rect:
         serializedVersion: 2
         x: 80
@@ -916,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e61ee4668dafb8830800000000000000
-      internalID: 4074626095223071086
+      spriteID: 72fb68f7af00727c0800000000000000
+      internalID: -4096304260188815577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_26
+      name: ScribeSpecialist 1_27
       rect:
         serializedVersion: 2
         x: 13
@@ -938,14 +963,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1102b7735aadcbf50800000000000000
-      internalID: 6898629132360032273
+      spriteID: 32a5d4cd04012ec40800000000000000
+      internalID: 5540008362379139619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_27
+      name: ScribeSpecialist 1_28
       rect:
         serializedVersion: 2
         x: 83
@@ -960,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 331b30aa9bb4d0710800000000000000
-      internalID: 1661067098362982707
+      spriteID: b8bd3cc19f519f4c0800000000000000
+      internalID: -4253344213401085045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_28
+      name: ScribeSpecialist 1_29
       rect:
         serializedVersion: 2
         x: 164
@@ -982,14 +1007,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1650393924b580f00800000000000000
-      internalID: 1083216051884459361
+      spriteID: c579ee2c3358a2d80800000000000000
+      internalID: -8274654907979622564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_29
+      name: ScribeSpecialist 1_30
       rect:
         serializedVersion: 2
         x: 420
@@ -1004,14 +1029,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893674312f5b42900800000000000000
-      internalID: 658851496813093784
+      spriteID: 8045345a4abdfd8d0800000000000000
+      internalID: -2819293341516868600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_30
+      name: ScribeSpecialist 1_31
       rect:
         serializedVersion: 2
         x: 453
@@ -1026,14 +1051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93af6f458a8eb6de0800000000000000
-      internalID: -1338720654534968775
+      spriteID: 64c02222965399100800000000000000
+      internalID: 115181991135153222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_31
+      name: ScribeSpecialist 1_32
       rect:
         serializedVersion: 2
         x: 559
@@ -1048,14 +1073,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ef4684bc85134960800000000000000
-      internalID: 7584929891490353129
+      spriteID: 40319b7b957435840800000000000000
+      internalID: 5211587644457816836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_32
+      name: ScribeSpecialist 1_33
       rect:
         serializedVersion: 2
         x: 642
@@ -1070,14 +1095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 219f76d47f2561100800000000000000
-      internalID: 78341265634621714
+      spriteID: 3fc8cc368770a7a30800000000000000
+      internalID: 4213688615010340083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_33
+      name: ScribeSpecialist 1_34
       rect:
         serializedVersion: 2
         x: 223
@@ -1092,14 +1117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dca746a5f07ffa60800000000000000
-      internalID: 7710005287440592084
+      spriteID: f125957a26a978cc0800000000000000
+      internalID: -3708826019611192801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_34
+      name: ScribeSpecialist 1_35
       rect:
         serializedVersion: 2
         x: 295
@@ -1114,14 +1139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4717084b6da7a50f0800000000000000
-      internalID: -1127453694132981388
+      spriteID: cfe232428e278d440800000000000000
+      internalID: 4960841330912866044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_35
+      name: ScribeSpecialist 1_36
       rect:
         serializedVersion: 2
         x: 355
@@ -1136,14 +1161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d214612656804e20800000000000000
-      internalID: 3332811428739683029
+      spriteID: 0db655b88d00dd360800000000000000
+      internalID: 7195908709658487760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_36
+      name: ScribeSpecialist 1_37
       rect:
         serializedVersion: 2
         x: 412
@@ -1158,14 +1183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35b5372a53aeaef20800000000000000
-      internalID: 3452829580412541779
+      spriteID: 69ab1615a4309dac0800000000000000
+      internalID: -3830026390374073706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_37
+      name: ScribeSpecialist 1_38
       rect:
         serializedVersion: 2
         x: 551
@@ -1180,14 +1205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6169740d949781ac0800000000000000
-      internalID: -3884221320673126890
+      spriteID: 844b78c57e2363920800000000000000
+      internalID: 2969616973568652360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_38
+      name: ScribeSpecialist 1_39
       rect:
         serializedVersion: 2
         x: 592
@@ -1202,14 +1227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a004805ff827856f0800000000000000
-      internalID: -695680179811893238
+      spriteID: 24e3397c82e4b2ad0800000000000000
+      internalID: -2725999212388729278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_39
+      name: ScribeSpecialist 1_40
       rect:
         serializedVersion: 2
         x: 29
@@ -1224,14 +1249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 366786fbc63e97140800000000000000
-      internalID: 4718052140854572643
+      spriteID: 60b8acd8669de6e30800000000000000
+      internalID: 4498772112278457094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_40
+      name: ScribeSpecialist 1_41
       rect:
         serializedVersion: 2
         x: 89
@@ -1246,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f40077430052f4c0800000000000000
-      internalID: -4255250722898049801
+      spriteID: 83ad590bd02b1efb0800000000000000
+      internalID: -4620215970838488520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_41
+      name: ScribeSpecialist 1_42
       rect:
         serializedVersion: 2
         x: 137
@@ -1268,14 +1293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 368811c1fa5947770800000000000000
-      internalID: 8607669367134586979
+      spriteID: 5e284df70462166a0800000000000000
+      internalID: -6457838332208184603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_42
+      name: ScribeSpecialist 1_43
       rect:
         serializedVersion: 2
         x: 278
@@ -1290,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 638f26c542f79c400800000000000000
-      internalID: 344946640616093750
+      spriteID: 534b5fd14768602d0800000000000000
+      internalID: -3312812642607451083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_43
+      name: ScribeSpecialist 1_44
       rect:
         serializedVersion: 2
         x: 311
@@ -1312,14 +1337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb3ffc3fc9b11f020800000000000000
-      internalID: 2373708839520302011
+      spriteID: 65a7c60046946bcf0800000000000000
+      internalID: -236921236537705898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_44
+      name: ScribeSpecialist 1_45
       rect:
         serializedVersion: 2
         x: 343
@@ -1334,14 +1359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8c186b80a4743d70800000000000000
-      internalID: 9021964186412391566
+      spriteID: c78511af4aeb7b8b0800000000000000
+      internalID: -5136427234213406596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_45
+      name: ScribeSpecialist 1_46
       rect:
         serializedVersion: 2
         x: 383
@@ -1356,14 +1381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e407208568d587850800000000000000
-      internalID: 6374948104126492750
+      spriteID: 27059e46423729f70800000000000000
+      internalID: 9192536389565632626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_46
+      name: ScribeSpecialist 1_47
       rect:
         serializedVersion: 2
         x: 414
@@ -1378,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59a9c9908edca22e0800000000000000
-      internalID: -2149679475638625643
+      spriteID: 06a645ce1471d6a60800000000000000
+      internalID: 7668811312387091040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_47
+      name: ScribeSpecialist 1_48
       rect:
         serializedVersion: 2
         x: 443
@@ -1400,14 +1425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c8c352b6380e48e0800000000000000
-      internalID: -1707418177713747769
+      spriteID: 5b1a5c50bfd1de120800000000000000
+      internalID: 2444643136702882229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_48
+      name: ScribeSpecialist 1_49
       rect:
         serializedVersion: 2
         x: 504
@@ -1422,14 +1447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebbb3a8ca32601520800000000000000
-      internalID: 2670742583644502974
+      spriteID: 3292fd5622ce12800800000000000000
+      internalID: 586009059017042211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_49
+      name: ScribeSpecialist 1_50
       rect:
         serializedVersion: 2
         x: 520
@@ -1444,14 +1469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a10012657351d5890800000000000000
-      internalID: -7467789279698026470
+      spriteID: 0fb0f4d0af22d7e00800000000000000
+      internalID: 1044029145980275696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_50
+      name: ScribeSpecialist 1_51
       rect:
         serializedVersion: 2
         x: 549
@@ -1466,14 +1491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3622d2f80b90cfb0800000000000000
-      internalID: -4629529954200967622
+      spriteID: 57aa690f3192aa7e0800000000000000
+      internalID: -1753543939289863563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_51
+      name: ScribeSpecialist 1_52
       rect:
         serializedVersion: 2
         x: 592
@@ -1488,14 +1513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c13dab4cbc9ff1a0800000000000000
-      internalID: -6773522982004510270
+      spriteID: 53d13f476152ae970800000000000000
+      internalID: 8784874801521171765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_52
+      name: ScribeSpecialist 1_53
       rect:
         serializedVersion: 2
         x: 636
@@ -1510,14 +1535,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 239fc19b0d8ed9c30800000000000000
-      internalID: 4367903196775774514
+      spriteID: 0c38d12f614d4d3b0800000000000000
+      internalID: -5488528850841402432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_53
+      name: ScribeSpecialist 1_54
       rect:
         serializedVersion: 2
         x: 665
@@ -1532,14 +1557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89ba7ac03e039a450800000000000000
-      internalID: 6100460921978071960
+      spriteID: 600fb1e197c819fd0800000000000000
+      internalID: -2336932279804497914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_54
+      name: ScribeSpecialist 1_55
       rect:
         serializedVersion: 2
         x: 690
@@ -1554,14 +1579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 497bcb6043a031de0800000000000000
-      internalID: -1363735043595520108
+      spriteID: 820ab3da213bbfff0800000000000000
+      internalID: -1210482086404056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_55
+      name: ScribeSpecialist 1_56
       rect:
         serializedVersion: 2
         x: 706
@@ -1576,14 +1601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06d36083d980def00800000000000000
-      internalID: 1147582951392165216
+      spriteID: d947a0306f05a74f0800000000000000
+      internalID: -830262163753241443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_56
+      name: ScribeSpecialist 1_57
       rect:
         serializedVersion: 2
         x: 738
@@ -1598,14 +1623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7291d5d5f770ceb80800000000000000
-      internalID: -8364302164325230297
+      spriteID: 0b6398b07d6c15b60800000000000000
+      internalID: 7733180662085662384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_57
+      name: ScribeSpecialist 1_58
       rect:
         serializedVersion: 2
         x: 776
@@ -1620,14 +1645,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69af84894e7043180800000000000000
-      internalID: -9136669065639036266
+      spriteID: a633cd1bf952abfc0800000000000000
+      internalID: -3478426394376260758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_58
+      name: ScribeSpecialist 1_59
       rect:
         serializedVersion: 2
         x: 32
@@ -1642,14 +1667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c17e36263886d8620800000000000000
-      internalID: 2777991458658182940
+      spriteID: fa6b802825833a470800000000000000
+      internalID: 8404623256623560367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_59
+      name: ScribeSpecialist 1_60
       rect:
         serializedVersion: 2
         x: 92
@@ -1664,14 +1689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81a0ee32ce63e9b90800000000000000
-      internalID: -7233283563667453416
+      spriteID: 4621864ffcce85bb0800000000000000
+      internalID: -4946943812763643292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_60
+      name: ScribeSpecialist 1_61
       rect:
         serializedVersion: 2
         x: 171
@@ -1686,14 +1711,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35beba5eab1993b70800000000000000
-      internalID: 8879288372240837459
+      spriteID: a59fd080e916f4d00800000000000000
+      internalID: 959092577021065562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_61
+      name: ScribeSpecialist 1_62
       rect:
         serializedVersion: 2
         x: 278
@@ -1708,14 +1733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce597673858f3f530800000000000000
-      internalID: 3887723961121215980
+      spriteID: 7167b42c03b65e110800000000000000
+      internalID: 1289554725473842711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_62
+      name: ScribeSpecialist 1_63
       rect:
         serializedVersion: 2
         x: 311
@@ -1730,14 +1755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87e5e0aeac413c9d0800000000000000
-      internalID: -2755335685277852040
+      spriteID: 6bf5bab1b5d2092c0800000000000000
+      internalID: -4426988564375707722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_63
+      name: ScribeSpecialist 1_64
       rect:
         serializedVersion: 2
         x: 343
@@ -1752,14 +1777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07b181aa6be1d9550800000000000000
-      internalID: 6169120834454035312
+      spriteID: faf8244e3d37aa030800000000000000
+      internalID: 3506742613766213551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_64
+      name: ScribeSpecialist 1_65
       rect:
         serializedVersion: 2
         x: 383
@@ -1774,14 +1799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f462a4d7d56071d0800000000000000
-      internalID: -3355069744731233035
+      spriteID: 040ec1c6af73ffa80800000000000000
+      internalID: -8430958428719095744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_65
+      name: ScribeSpecialist 1_66
       rect:
         serializedVersion: 2
         x: 414
@@ -1796,14 +1821,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da5fa2fae828fbbd0800000000000000
-      internalID: -2612225709515803219
+      spriteID: dedc3368d3f025440800000000000000
+      internalID: 4923014099588337133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_66
+      name: ScribeSpecialist 1_67
       rect:
         serializedVersion: 2
         x: 443
@@ -1818,14 +1843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b068ca570011402b0800000000000000
-      internalID: -5619347741379623413
+      spriteID: fb9a8699ede30d940800000000000000
+      internalID: 5318820285701990847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_67
+      name: ScribeSpecialist 1_68
       rect:
         serializedVersion: 2
         x: 504
@@ -1840,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dd56fea3264e92d0800000000000000
-      internalID: -3270099160351220265
+      spriteID: 2ffd203502b0f2430800000000000000
+      internalID: 3760236447337209842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_68
+      name: ScribeSpecialist 1_69
       rect:
         serializedVersion: 2
         x: 520
@@ -1862,14 +1887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 581477de6f1c87220800000000000000
-      internalID: 2483948460784959877
+      spriteID: fcf1c8b85c9d2e4f0800000000000000
+      internalID: -800838341245526065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_69
+      name: ScribeSpecialist 1_70
       rect:
         serializedVersion: 2
         x: 592
@@ -1884,14 +1909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a412a46a94d23780800000000000000
-      internalID: -8704661370175351645
+      spriteID: bebcf29d61f114f20800000000000000
+      internalID: 3405036976262335467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_70
+      name: ScribeSpecialist 1_71
       rect:
         serializedVersion: 2
         x: 636
@@ -1906,14 +1931,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5641ac9336e441ce0800000000000000
-      internalID: -1435436193146071963
+      spriteID: 0fa925fb675cbdaa0800000000000000
+      internalID: -6135092953555494160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_71
+      name: ScribeSpecialist 1_72
       rect:
         serializedVersion: 2
         x: 665
@@ -1928,14 +1953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffbef856aa0168be0800000000000000
-      internalID: -1475473503882843137
+      spriteID: 3385f5be9b34a1780800000000000000
+      internalID: -8711576063397898189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_72
+      name: ScribeSpecialist 1_73
       rect:
         serializedVersion: 2
         x: 690
@@ -1950,14 +1975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ce188673b535f410800000000000000
-      internalID: 1510172294956719815
+      spriteID: e60056838124a19a0800000000000000
+      internalID: -6261619660112461714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_73
+      name: ScribeSpecialist 1_74
       rect:
         serializedVersion: 2
         x: 706
@@ -1972,14 +1997,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 963dee0501a737750800000000000000
-      internalID: 6301514514117350249
+      spriteID: 43fe1bdbfd54e4ca0800000000000000
+      internalID: -6030806023739936972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_74
+      name: ScribeSpecialist 1_75
       rect:
         serializedVersion: 2
         x: 738
@@ -1994,14 +2019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6af457a6c4a5a9990800000000000000
-      internalID: -7378485755243049050
+      spriteID: 762e0498e6be8ae20800000000000000
+      internalID: 3362195981813736039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeSpecialist_75
+      name: ScribeSpecialist 1_76
       rect:
         serializedVersion: 2
         x: 776
@@ -2016,8 +2041,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b018072280aedc5f0800000000000000
-      internalID: -734673843533086453
+      spriteID: 99fc79cf5002a96c0800000000000000
+      internalID: -4135958097701646439
       vertices: []
       indices: 
       edges: []
@@ -2036,82 +2061,83 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScribeSpecialist_0: -8495676215499661803
-      ScribeSpecialist_1: -8796892777728199186
-      ScribeSpecialist_10: -6522024519283378187
-      ScribeSpecialist_11: 2006248052898387186
-      ScribeSpecialist_12: -8514176875039063888
-      ScribeSpecialist_13: -9171066984169906764
-      ScribeSpecialist_14: -3177274192547731340
-      ScribeSpecialist_15: -1463081803141332489
-      ScribeSpecialist_16: 5404513181227235446
-      ScribeSpecialist_17: 3475373719038008065
-      ScribeSpecialist_18: -659519673507320160
-      ScribeSpecialist_19: 2108860400172439055
-      ScribeSpecialist_2: -5973515799715591174
-      ScribeSpecialist_20: -3367681246327044934
-      ScribeSpecialist_21: -4165223316613984006
-      ScribeSpecialist_22: 7230807487724545309
-      ScribeSpecialist_23: -1943739544329029688
-      ScribeSpecialist_24: -2106478525871634012
-      ScribeSpecialist_25: 4074626095223071086
-      ScribeSpecialist_26: 6898629132360032273
-      ScribeSpecialist_27: 1661067098362982707
-      ScribeSpecialist_28: 1083216051884459361
-      ScribeSpecialist_29: 658851496813093784
-      ScribeSpecialist_3: 2815756466431521638
-      ScribeSpecialist_30: -1338720654534968775
-      ScribeSpecialist_31: 7584929891490353129
-      ScribeSpecialist_32: 78341265634621714
-      ScribeSpecialist_33: 7710005287440592084
-      ScribeSpecialist_34: -1127453694132981388
-      ScribeSpecialist_35: 3332811428739683029
-      ScribeSpecialist_36: 3452829580412541779
-      ScribeSpecialist_37: -3884221320673126890
-      ScribeSpecialist_38: -695680179811893238
-      ScribeSpecialist_39: 4718052140854572643
-      ScribeSpecialist_4: -7135965074306782280
-      ScribeSpecialist_40: -4255250722898049801
-      ScribeSpecialist_41: 8607669367134586979
-      ScribeSpecialist_42: 344946640616093750
-      ScribeSpecialist_43: 2373708839520302011
-      ScribeSpecialist_44: 9021964186412391566
-      ScribeSpecialist_45: 6374948104126492750
-      ScribeSpecialist_46: -2149679475638625643
-      ScribeSpecialist_47: -1707418177713747769
-      ScribeSpecialist_48: 2670742583644502974
-      ScribeSpecialist_49: -7467789279698026470
-      ScribeSpecialist_5: -4615141492525277655
-      ScribeSpecialist_50: -4629529954200967622
-      ScribeSpecialist_51: -6773522982004510270
-      ScribeSpecialist_52: 4367903196775774514
-      ScribeSpecialist_53: 6100460921978071960
-      ScribeSpecialist_54: -1363735043595520108
-      ScribeSpecialist_55: 1147582951392165216
-      ScribeSpecialist_56: -8364302164325230297
-      ScribeSpecialist_57: -9136669065639036266
-      ScribeSpecialist_58: 2777991458658182940
-      ScribeSpecialist_59: -7233283563667453416
-      ScribeSpecialist_6: 3524770246191482704
-      ScribeSpecialist_60: 8879288372240837459
-      ScribeSpecialist_61: 3887723961121215980
-      ScribeSpecialist_62: -2755335685277852040
-      ScribeSpecialist_63: 6169120834454035312
-      ScribeSpecialist_64: -3355069744731233035
-      ScribeSpecialist_65: -2612225709515803219
-      ScribeSpecialist_66: -5619347741379623413
-      ScribeSpecialist_67: -3270099160351220265
-      ScribeSpecialist_68: 2483948460784959877
-      ScribeSpecialist_69: -8704661370175351645
-      ScribeSpecialist_7: -444808621482364712
-      ScribeSpecialist_70: -1435436193146071963
-      ScribeSpecialist_71: -1475473503882843137
-      ScribeSpecialist_72: 1510172294956719815
-      ScribeSpecialist_73: 6301514514117350249
-      ScribeSpecialist_74: -7378485755243049050
-      ScribeSpecialist_75: -734673843533086453
-      ScribeSpecialist_8: -396646095850056565
-      ScribeSpecialist_9: -8681725946377889746
+      ScribeSpecialist 1_0: 384590253854935019
+      ScribeSpecialist 1_1: 5825291244128422262
+      ScribeSpecialist 1_10: 1185169366449805668
+      ScribeSpecialist 1_11: -3915103007051258688
+      ScribeSpecialist 1_12: -6213571267401019098
+      ScribeSpecialist 1_13: -8795326784680040291
+      ScribeSpecialist 1_14: -1250509563466511288
+      ScribeSpecialist 1_15: 5192985132319668536
+      ScribeSpecialist 1_16: -2905833368229292471
+      ScribeSpecialist 1_17: 6424940525803515778
+      ScribeSpecialist 1_18: 8210337117824605312
+      ScribeSpecialist 1_19: 8583244837219520571
+      ScribeSpecialist 1_2: 5468071271992378897
+      ScribeSpecialist 1_20: 5968537120138069290
+      ScribeSpecialist 1_21: -416908733175965739
+      ScribeSpecialist 1_22: -1487268674208021685
+      ScribeSpecialist 1_23: -4049302346878195671
+      ScribeSpecialist 1_24: 8565543042537921227
+      ScribeSpecialist 1_25: -6170138938960731599
+      ScribeSpecialist 1_26: -4096304260188815577
+      ScribeSpecialist 1_27: 5540008362379139619
+      ScribeSpecialist 1_28: -4253344213401085045
+      ScribeSpecialist 1_29: -8274654907979622564
+      ScribeSpecialist 1_3: 657858558744591731
+      ScribeSpecialist 1_30: -2819293341516868600
+      ScribeSpecialist 1_31: 115181991135153222
+      ScribeSpecialist 1_32: 5211587644457816836
+      ScribeSpecialist 1_33: 4213688615010340083
+      ScribeSpecialist 1_34: -3708826019611192801
+      ScribeSpecialist 1_35: 4960841330912866044
+      ScribeSpecialist 1_36: 7195908709658487760
+      ScribeSpecialist 1_37: -3830026390374073706
+      ScribeSpecialist 1_38: 2969616973568652360
+      ScribeSpecialist 1_39: -2725999212388729278
+      ScribeSpecialist 1_4: 3589474029203658392
+      ScribeSpecialist 1_40: 4498772112278457094
+      ScribeSpecialist 1_41: -4620215970838488520
+      ScribeSpecialist 1_42: -6457838332208184603
+      ScribeSpecialist 1_43: -3312812642607451083
+      ScribeSpecialist 1_44: -236921236537705898
+      ScribeSpecialist 1_45: -5136427234213406596
+      ScribeSpecialist 1_46: 9192536389565632626
+      ScribeSpecialist 1_47: 7668811312387091040
+      ScribeSpecialist 1_48: 2444643136702882229
+      ScribeSpecialist 1_49: 586009059017042211
+      ScribeSpecialist 1_5: 2587849947463160443
+      ScribeSpecialist 1_50: 1044029145980275696
+      ScribeSpecialist 1_51: -1753543939289863563
+      ScribeSpecialist 1_52: 8784874801521171765
+      ScribeSpecialist 1_53: -5488528850841402432
+      ScribeSpecialist 1_54: -2336932279804497914
+      ScribeSpecialist 1_55: -1210482086404056
+      ScribeSpecialist 1_56: -830262163753241443
+      ScribeSpecialist 1_57: 7733180662085662384
+      ScribeSpecialist 1_58: -3478426394376260758
+      ScribeSpecialist 1_59: 8404623256623560367
+      ScribeSpecialist 1_6: -5204633843607897369
+      ScribeSpecialist 1_60: -4946943812763643292
+      ScribeSpecialist 1_61: 959092577021065562
+      ScribeSpecialist 1_62: 1289554725473842711
+      ScribeSpecialist 1_63: -4426988564375707722
+      ScribeSpecialist 1_64: 3506742613766213551
+      ScribeSpecialist 1_65: -8430958428719095744
+      ScribeSpecialist 1_66: 4923014099588337133
+      ScribeSpecialist 1_67: 5318820285701990847
+      ScribeSpecialist 1_68: 3760236447337209842
+      ScribeSpecialist 1_69: -800838341245526065
+      ScribeSpecialist 1_7: 4093716994967514078
+      ScribeSpecialist 1_70: 3405036976262335467
+      ScribeSpecialist 1_71: -6135092953555494160
+      ScribeSpecialist 1_72: -8711576063397898189
+      ScribeSpecialist 1_73: -6261619660112461714
+      ScribeSpecialist 1_74: -6030806023739936972
+      ScribeSpecialist 1_75: 3362195981813736039
+      ScribeSpecialist 1_76: -4135958097701646439
+      ScribeSpecialist 1_8: -2406469502395303216
+      ScribeSpecialist 1_9: -2608931144322072263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

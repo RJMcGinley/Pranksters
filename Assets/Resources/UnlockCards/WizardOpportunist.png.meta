@@ -1,169 +1,175 @@
 fileFormatVersion: 2
-guid: 49d85ab24f90d4772b5c62e346ec17ae
+guid: 92d00fb2de0dd4590bfc99dbe86c8304
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -166634630450608508
-    second: WizardOpportunist_0
+      213: 8003335265481846636
+    second: WizardOpportunist 1_0
   - first:
-      213: 3983695557385295279
-    second: WizardOpportunist_1
+      213: 1349068872998284609
+    second: WizardOpportunist 1_1
   - first:
-      213: 5758491604394371494
-    second: WizardOpportunist_2
+      213: 8367015378015499418
+    second: WizardOpportunist 1_2
   - first:
-      213: -3396685147924955732
-    second: WizardOpportunist_3
+      213: -8100287770747508443
+    second: WizardOpportunist 1_3
   - first:
-      213: 4786059096336435812
-    second: WizardOpportunist_4
+      213: 5254391736235430908
+    second: WizardOpportunist 1_4
   - first:
-      213: 8164070225422011332
-    second: WizardOpportunist_5
+      213: -2171482226639759091
+    second: WizardOpportunist 1_5
   - first:
-      213: 5420263082610948552
-    second: WizardOpportunist_6
+      213: 5060142059023013239
+    second: WizardOpportunist 1_6
   - first:
-      213: 6208202386712016402
-    second: WizardOpportunist_7
+      213: -4323580770856210136
+    second: WizardOpportunist 1_7
   - first:
-      213: 1675213477587752765
-    second: WizardOpportunist_8
+      213: -3993229925276944633
+    second: WizardOpportunist 1_8
   - first:
-      213: 3284715253204211579
-    second: WizardOpportunist_9
+      213: -7270619108926885715
+    second: WizardOpportunist 1_9
   - first:
-      213: 5403381865284522195
-    second: WizardOpportunist_10
+      213: -1386142926854244143
+    second: WizardOpportunist 1_10
   - first:
-      213: 5233480569498137950
-    second: WizardOpportunist_11
+      213: -4987357871373672264
+    second: WizardOpportunist 1_11
   - first:
-      213: -6694296068506189030
-    second: WizardOpportunist_12
+      213: 1594155198040804966
+    second: WizardOpportunist 1_12
   - first:
-      213: -4450026811841474089
-    second: WizardOpportunist_13
+      213: -7935520953739969177
+    second: WizardOpportunist 1_13
   - first:
-      213: -8439963888448156763
-    second: WizardOpportunist_14
+      213: -1101521169136369761
+    second: WizardOpportunist 1_14
   - first:
-      213: -4304529783253899213
-    second: WizardOpportunist_15
+      213: 7563598425523768908
+    second: WizardOpportunist 1_15
   - first:
-      213: -5583222903145730782
-    second: WizardOpportunist_16
+      213: -9080227971419673716
+    second: WizardOpportunist 1_16
   - first:
-      213: 2147894404090895288
-    second: WizardOpportunist_17
+      213: -6563500935891086075
+    second: WizardOpportunist 1_17
   - first:
-      213: 5161361937706501990
-    second: WizardOpportunist_18
+      213: -3144161343532991883
+    second: WizardOpportunist 1_18
   - first:
-      213: 4491362800139592731
-    second: WizardOpportunist_19
+      213: -3331736470375581468
+    second: WizardOpportunist 1_19
   - first:
-      213: -4426198636335863611
-    second: WizardOpportunist_20
+      213: -344204586736972583
+    second: WizardOpportunist 1_20
   - first:
-      213: 1206030440716853664
-    second: WizardOpportunist_21
+      213: 2416537882419901253
+    second: WizardOpportunist 1_21
   - first:
-      213: 853808390517031130
-    second: WizardOpportunist_22
+      213: -1947997400629718507
+    second: WizardOpportunist 1_22
   - first:
-      213: -6981230202298361203
-    second: WizardOpportunist_23
+      213: 7499402508217753450
+    second: WizardOpportunist 1_23
   - first:
-      213: 5055245493482957769
-    second: WizardOpportunist_24
+      213: 3101109216451329445
+    second: WizardOpportunist 1_24
   - first:
-      213: -1316344054093378425
-    second: WizardOpportunist_25
+      213: 7187314368706732117
+    second: WizardOpportunist 1_25
   - first:
-      213: 6247357028266736409
-    second: WizardOpportunist_26
+      213: 4064510573043251211
+    second: WizardOpportunist 1_26
   - first:
-      213: 2624852427851511689
-    second: WizardOpportunist_27
+      213: 1862051408595533936
+    second: WizardOpportunist 1_27
   - first:
-      213: -408424898013145545
-    second: WizardOpportunist_28
+      213: -3267603722880477886
+    second: WizardOpportunist 1_28
   - first:
-      213: 771832877136058941
-    second: WizardOpportunist_29
+      213: 2248806738027323369
+    second: WizardOpportunist 1_29
   - first:
-      213: -6806595776297746306
-    second: WizardOpportunist_30
+      213: 131009971820906919
+    second: WizardOpportunist 1_30
   - first:
-      213: 422422957169666111
-    second: WizardOpportunist_31
+      213: 6531411672176798154
+    second: WizardOpportunist 1_31
   - first:
-      213: -2827956338527157413
-    second: WizardOpportunist_32
+      213: 4599102027030297317
+    second: WizardOpportunist 1_32
   - first:
-      213: 2426212491324836771
-    second: WizardOpportunist_33
+      213: 3336362783704340419
+    second: WizardOpportunist 1_33
   - first:
-      213: -3719987602679835817
-    second: WizardOpportunist_34
+      213: 5649787351124901691
+    second: WizardOpportunist 1_34
   - first:
-      213: 6382225676571057969
-    second: WizardOpportunist_35
+      213: 4174294428659606384
+    second: WizardOpportunist 1_35
   - first:
-      213: -8537129261394876318
-    second: WizardOpportunist_36
+      213: 6633960995699729588
+    second: WizardOpportunist 1_36
   - first:
-      213: -7951206920456738405
-    second: WizardOpportunist_37
+      213: 2513201686890372076
+    second: WizardOpportunist 1_37
   - first:
-      213: 8164739396618359809
-    second: WizardOpportunist_38
+      213: -8345212871878497127
+    second: WizardOpportunist 1_38
   - first:
-      213: 5803478445229221622
-    second: WizardOpportunist_39
+      213: -6004516081443898448
+    second: WizardOpportunist 1_39
   - first:
-      213: -7957623623269898903
-    second: WizardOpportunist_40
+      213: 9071701127252615398
+    second: WizardOpportunist 1_40
   - first:
-      213: 6033592278034550927
-    second: WizardOpportunist_41
+      213: 4849838766527204475
+    second: WizardOpportunist 1_41
   - first:
-      213: -49309675165765482
-    second: WizardOpportunist_42
+      213: -43317897290925568
+    second: WizardOpportunist 1_42
   - first:
-      213: 360720398798258081
-    second: WizardOpportunist_43
+      213: 5623920485661996875
+    second: WizardOpportunist 1_43
   - first:
-      213: -2152078634655474372
-    second: WizardOpportunist_44
+      213: 5272496876919031314
+    second: WizardOpportunist 1_44
   - first:
-      213: -468612535504523990
-    second: WizardOpportunist_45
+      213: -4753790419753178871
+    second: WizardOpportunist 1_45
   - first:
-      213: -6754425878174838460
-    second: WizardOpportunist_46
+      213: 8655854067178233771
+    second: WizardOpportunist 1_46
   - first:
-      213: 1046399780977480889
-    second: WizardOpportunist_47
+      213: 898705022115039353
+    second: WizardOpportunist 1_47
   - first:
-      213: -7981640705639679087
-    second: WizardOpportunist_48
+      213: 1835394088282383487
+    second: WizardOpportunist 1_48
   - first:
-      213: -3552140606569177123
-    second: WizardOpportunist_49
+      213: -1562863094936294458
+    second: WizardOpportunist 1_49
   - first:
-      213: 4803196981086367621
-    second: WizardOpportunist_50
+      213: 4266337095841896863
+    second: WizardOpportunist 1_50
   - first:
-      213: 655860046683049358
-    second: WizardOpportunist_51
+      213: -8572382626034975817
+    second: WizardOpportunist 1_51
   - first:
-      213: -1569413202492308063
-    second: WizardOpportunist_52
+      213: -4988625439203875726
+    second: WizardOpportunist 1_52
   - first:
-      213: 377812525432847256
-    second: WizardOpportunist_53
+      213: -4239968552464649108
+    second: WizardOpportunist 1_53
+  - first:
+      213: 1994858679556102206
+    second: WizardOpportunist 1_54
+  - first:
+      213: -2190032944058681873
+    second: WizardOpportunist 1_55
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -285,13 +291,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WizardOpportunist_0
+      name: WizardOpportunist 1_0
       rect:
         serializedVersion: 2
         x: 19
-        y: 794
-        width: 322
-        height: 315
+        y: 793
+        width: 321
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,14 +306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48686bcbfaeffadf0800000000000000
-      internalID: -166634630450608508
+      spriteID: c6fe66d350f811f60800000000000000
+      internalID: 8003335265481846636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_1
+      name: WizardOpportunist 1_1
       rect:
         serializedVersion: 2
         x: 37
@@ -322,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa5904fb00ee84730800000000000000
-      internalID: 3983695557385295279
+      spriteID: 14d69980efad8b210800000000000000
+      internalID: 1349068872998284609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_2
+      name: WizardOpportunist 1_2
       rect:
         serializedVersion: 2
         x: 73
@@ -344,14 +350,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a9eef9ba954aef40800000000000000
-      internalID: 5758491604394371494
+      spriteID: a9438dce72c9d1470800000000000000
+      internalID: 8367015378015499418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_3
+      name: WizardOpportunist 1_3
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 854
+        width: 255
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529672e803ff59f80800000000000000
+      internalID: -8100287770747508443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_4
       rect:
         serializedVersion: 2
         x: 37
@@ -366,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cad7618badc8cd0d0800000000000000
-      internalID: -3396685147924955732
+      spriteID: cf39f05f1795be840800000000000000
+      internalID: 5254391736235430908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_4
+      name: WizardOpportunist 1_5
       rect:
         serializedVersion: 2
         x: 63
-        y: 288
-        width: 640
-        height: 650
+        y: 305
+        width: 635
+        height: 641
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46a0927f36f7b6240800000000000000
-      internalID: 4786059096336435812
+      spriteID: d09101d7b685dd1e0800000000000000
+      internalID: -2171482226639759091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_5
+      name: WizardOpportunist 1_6
       rect:
         serializedVersion: 2
         x: 37
@@ -410,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cb4f9b6d9a9c4170800000000000000
-      internalID: 8164070225422011332
+      spriteID: 7759415946c393640800000000000000
+      internalID: 5060142059023013239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_6
+      name: WizardOpportunist 1_7
       rect:
         serializedVersion: 2
         x: 93
@@ -432,102 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c9703c4e84a83b40800000000000000
-      internalID: 5420263082610948552
+      spriteID: 821f76b323e8ff3c0800000000000000
+      internalID: -4323580770856210136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_7
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 207
-        width: 65
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 216b3b1ad27f72650800000000000000
-      internalID: 6208202386712016402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_8
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 207
-        width: 65
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d37909e38cd8f3710800000000000000
-      internalID: 1675213477587752765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_9
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 231
-        width: 57
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b775b8f9e17a59d20800000000000000
-      internalID: 3284715253204211579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_10
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 233
-        width: 52
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d0521a9d2bacfa40800000000000000
-      internalID: 5403381865284522195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_11
+      name: WizardOpportunist 1_8
       rect:
         serializedVersion: 2
         x: 432
@@ -542,20 +482,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5578db89de01a840800000000000000
-      internalID: 5233480569498137950
+      spriteID: 707786d3a823598c0800000000000000
+      internalID: -3993229925276944633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_12
+      name: WizardOpportunist 1_9
       rect:
         serializedVersion: 2
-        x: 472
-        y: 231
-        width: 66
-        height: 49
+        x: 612
+        y: 288
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,80 +504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a13056f81351913a0800000000000000
-      internalID: -6694296068506189030
+      spriteID: da0fe3b1172991b90800000000000000
+      internalID: -7270619108926885715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_13
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 233
-        width: 67
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d1993f11345e32c0800000000000000
-      internalID: -4450026811841474089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_14
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 233
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ab4cef6f893fda80800000000000000
-      internalID: -8439963888448156763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_15
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 231
-        width: 48
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 338ef00f7fc3344c0800000000000000
-      internalID: -4304529783253899213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardOpportunist_16
+      name: WizardOpportunist 1_10
       rect:
         serializedVersion: 2
         x: 695
@@ -652,14 +526,190 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22d6c2cc9586482b0800000000000000
-      internalID: -5583222903145730782
+      spriteID: 1d8bee42a5e63cce0800000000000000
+      internalID: -1386142926854244143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_17
+      name: WizardOpportunist 1_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0260da07859cab0800000000000000
+      internalID: -4987357871373672264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 207
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e8018d4b39f1610800000000000000
+      internalID: 1594155198040804966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76df8ac9cbd5fd190800000000000000
+      internalID: -7935520953739969177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_14
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 233
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fbd01355c96b0f0800000000000000
+      internalID: -1101521169136369761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_15
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 231
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e4c01c1bc47f860800000000000000
+      internalID: 7563598425523768908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 233
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8be6f3e4cc8cf180800000000000000
+      internalID: -9080227971419673716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_17
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 233
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50594497ca2c9e4a0800000000000000
+      internalID: -6563500935891086075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 231
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a7332aae1bd54d0800000000000000
+      internalID: -3144161343532991883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardOpportunist 1_19
       rect:
         serializedVersion: 2
         x: 29
@@ -674,14 +724,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bb13ea949adecd10800000000000000
-      internalID: 2147894404090895288
+      spriteID: 4e8bc0e155b43c1d0800000000000000
+      internalID: -3331736470375581468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_18
+      name: WizardOpportunist 1_20
       rect:
         serializedVersion: 2
         x: 96
@@ -696,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 667c7361657d0a740800000000000000
-      internalID: 5161361937706501990
+      spriteID: 9dc8b7580c3293bf0800000000000000
+      internalID: -344204586736972583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_19
+      name: WizardOpportunist 1_21
       rect:
         serializedVersion: 2
         x: 137
@@ -718,14 +768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1469b3aba6845e30800000000000000
-      internalID: 4491362800139592731
+      spriteID: 543b9e39664498120800000000000000
+      internalID: 2416537882419901253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_20
+      name: WizardOpportunist 1_22
       rect:
         serializedVersion: 2
         x: 278
@@ -740,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c8e1ef8acbf292c0800000000000000
-      internalID: -4426198636335863611
+      spriteID: 512d4106fa257f4e0800000000000000
+      internalID: -1947997400629718507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_21
+      name: WizardOpportunist 1_23
       rect:
         serializedVersion: 2
         x: 311
@@ -762,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a16c37cb4eacb010800000000000000
-      internalID: 1206030440716853664
+      spriteID: a6f1ef109da331860800000000000000
+      internalID: 7499402508217753450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_22
+      name: WizardOpportunist 1_24
       rect:
         serializedVersion: 2
         x: 343
@@ -784,14 +834,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad0040f153659db00800000000000000
-      internalID: 853808390517031130
+      spriteID: 5ad7548e66a590b20800000000000000
+      internalID: 3101109216451329445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_23
+      name: WizardOpportunist 1_25
       rect:
         serializedVersion: 2
         x: 383
@@ -806,14 +856,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8a17c08e10bd1f90800000000000000
-      internalID: -6981230202298361203
+      spriteID: 55063db96587eb360800000000000000
+      internalID: 7187314368706732117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_24
+      name: WizardOpportunist 1_26
       rect:
         serializedVersion: 2
         x: 414
@@ -828,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cb22731ef6d72640800000000000000
-      internalID: 5055245493482957769
+      spriteID: b08ff0cd4da086830800000000000000
+      internalID: 4064510573043251211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_25
+      name: WizardOpportunist 1_27
       rect:
         serializedVersion: 2
         x: 443
@@ -850,14 +900,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78c019d9e086bbde0800000000000000
-      internalID: -1316344054093378425
+      spriteID: 0704adaf3e557d910800000000000000
+      internalID: 1862051408595533936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_26
+      name: WizardOpportunist 1_28
       rect:
         serializedVersion: 2
         x: 504
@@ -872,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91bf0e60e1213b650800000000000000
-      internalID: 6247357028266736409
+      spriteID: 24517fef9b327a2d0800000000000000
+      internalID: -3267603722880477886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_27
+      name: WizardOpportunist 1_29
       rect:
         serializedVersion: 2
         x: 520
@@ -894,14 +944,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98739e540695d6420800000000000000
-      internalID: 2624852427851511689
+      spriteID: 9ef9f9440dd553f10800000000000000
+      internalID: 2248806738027323369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_28
+      name: WizardOpportunist 1_30
       rect:
         serializedVersion: 2
         x: 549
@@ -916,14 +966,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 736508c18bbf45af0800000000000000
-      internalID: -408424898013145545
+      spriteID: 7a94b6010e071d100800000000000000
+      internalID: 131009971820906919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_29
+      name: WizardOpportunist 1_31
       rect:
         serializedVersion: 2
         x: 592
@@ -938,14 +988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3a99a399e916ba00800000000000000
-      internalID: 771832877136058941
+      spriteID: ac920f99f4c34aa50800000000000000
+      internalID: 6531411672176798154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_30
+      name: WizardOpportunist 1_32
       rect:
         serializedVersion: 2
         x: 636
@@ -960,14 +1010,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e704910543d1a81a0800000000000000
-      internalID: -6806595776297746306
+      spriteID: 5ea7bee2dea43df30800000000000000
+      internalID: 4599102027030297317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_31
+      name: WizardOpportunist 1_33
       rect:
         serializedVersion: 2
         x: 665
@@ -982,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f386113017fbcd500800000000000000
-      internalID: 422422957169666111
+      spriteID: 3c7d78466442d4e20800000000000000
+      internalID: 3336362783704340419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_32
+      name: WizardOpportunist 1_34
       rect:
         serializedVersion: 2
         x: 690
@@ -1004,14 +1054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5346c971b411c8d0800000000000000
-      internalID: -2827956338527157413
+      spriteID: b3f7b4879a3186e40800000000000000
+      internalID: 5649787351124901691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_33
+      name: WizardOpportunist 1_35
       rect:
         serializedVersion: 2
         x: 706
@@ -1026,14 +1076,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ab480ff763aba120800000000000000
-      internalID: 2426212491324836771
+      spriteID: 073e520aaa21ee930800000000000000
+      internalID: 4174294428659606384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_34
+      name: WizardOpportunist 1_36
       rect:
         serializedVersion: 2
         x: 738
@@ -1048,14 +1098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75359651cf2ff5cc0800000000000000
-      internalID: -3719987602679835817
+      spriteID: 4b4aa7a9060901c50800000000000000
+      internalID: 6633960995699729588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_35
+      name: WizardOpportunist 1_37
       rect:
         serializedVersion: 2
         x: 776
@@ -1070,14 +1120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13f15683078329850800000000000000
-      internalID: 6382225676571057969
+      spriteID: ceb53046e9fa0e220800000000000000
+      internalID: 2513201686890372076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_36
+      name: WizardOpportunist 1_38
       rect:
         serializedVersion: 2
         x: 33
@@ -1092,14 +1142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26827fc1b26068980800000000000000
-      internalID: -8537129261394876318
+      spriteID: 99c2aac9b19df2c80800000000000000
+      internalID: -8345212871878497127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_37
+      name: WizardOpportunist 1_39
       rect:
         serializedVersion: 2
         x: 99
@@ -1114,14 +1164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b996c82ee63a7a190800000000000000
-      internalID: -7951206920456738405
+      spriteID: 0bb7a6def6cabaca0800000000000000
+      internalID: -6004516081443898448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_38
+      name: WizardOpportunist 1_40
       rect:
         serializedVersion: 2
         x: 171
@@ -1136,14 +1186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 104131bf83bfe4170800000000000000
-      internalID: 8164739396618359809
+      spriteID: 6e0276e7c1825ed70800000000000000
+      internalID: 9071701127252615398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_39
+      name: WizardOpportunist 1_41
       rect:
         serializedVersion: 2
         x: 278
@@ -1158,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f62685d5e81a8050800000000000000
-      internalID: 5803478445229221622
+      spriteID: b7cc5c0a9a61e4340800000000000000
+      internalID: 4849838766527204475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_40
+      name: WizardOpportunist 1_42
       rect:
         serializedVersion: 2
         x: 311
@@ -1180,14 +1230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 965adb6d977d09190800000000000000
-      internalID: -7957623623269898903
+      spriteID: 00abe871a9a166ff0800000000000000
+      internalID: -43317897290925568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_41
+      name: WizardOpportunist 1_43
       rect:
         serializedVersion: 2
         x: 343
@@ -1202,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f801ac3a530abb350800000000000000
-      internalID: 6033592278034550927
+      spriteID: b47fce882ed2c0e40800000000000000
+      internalID: 5623920485661996875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_42
+      name: WizardOpportunist 1_44
       rect:
         serializedVersion: 2
         x: 383
@@ -1224,14 +1274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69031c79c11d05ff0800000000000000
-      internalID: -49309675165765482
+      spriteID: 2168d1489fbab2940800000000000000
+      internalID: 5272496876919031314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_43
+      name: WizardOpportunist 1_45
       rect:
         serializedVersion: 2
         x: 414
@@ -1246,14 +1296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1af7b91aa49810500800000000000000
-      internalID: 360720398798258081
+      spriteID: 909e4f5ccc4270eb0800000000000000
+      internalID: -4753790419753178871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_44
+      name: WizardOpportunist 1_46
       rect:
         serializedVersion: 2
         x: 443
@@ -1268,14 +1318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3d17ac42e74222e0800000000000000
-      internalID: -2152078634655474372
+      spriteID: baf57c5d965cf1870800000000000000
+      internalID: 8655854067178233771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_45
+      name: WizardOpportunist 1_47
       rect:
         serializedVersion: 2
         x: 504
@@ -1290,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2d25fbb1672f79f0800000000000000
-      internalID: -468612535504523990
+      spriteID: 978c601c477d87c00800000000000000
+      internalID: 898705022115039353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_46
+      name: WizardOpportunist 1_48
       rect:
         serializedVersion: 2
         x: 520
@@ -1312,14 +1362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 441dea543757342a0800000000000000
-      internalID: -6754425878174838460
+      spriteID: f746ceee231a87910800000000000000
+      internalID: 1835394088282383487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_47
+      name: WizardOpportunist 1_49
       rect:
         serializedVersion: 2
         x: 592
@@ -1334,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b495368e0f858e00800000000000000
-      internalID: 1046399780977480889
+      spriteID: 6cb21c9ab489f4ae0800000000000000
+      internalID: -1562863094936294458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_48
+      name: WizardOpportunist 1_50
       rect:
         serializedVersion: 2
         x: 636
@@ -1356,14 +1406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19b7c8711148b3190800000000000000
-      internalID: -7981640705639679087
+      spriteID: f995ab11cf2153b30800000000000000
+      internalID: 4266337095841896863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_49
+      name: WizardOpportunist 1_51
       rect:
         serializedVersion: 2
         x: 665
@@ -1378,14 +1428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddf143930f244bec0800000000000000
-      internalID: -3552140606569177123
+      spriteID: 7bb74788b67c80980800000000000000
+      internalID: -8572382626034975817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_50
+      name: WizardOpportunist 1_52
       rect:
         serializedVersion: 2
         x: 690
@@ -1400,14 +1450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58fa1e3b43268a240800000000000000
-      internalID: 4803196981086367621
+      spriteID: 274a6ca0897d4cab0800000000000000
+      internalID: -4988625439203875726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_51
+      name: WizardOpportunist 1_53
       rect:
         serializedVersion: 2
         x: 706
@@ -1422,14 +1472,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8d0ae0dc351a1900800000000000000
-      internalID: 655860046683049358
+      spriteID: c64748bd01b9825c0800000000000000
+      internalID: -4239968552464649108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_52
+      name: WizardOpportunist 1_54
       rect:
         serializedVersion: 2
         x: 738
@@ -1444,14 +1494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a543a7e103583ae0800000000000000
-      internalID: -1569413202492308063
+      spriteID: e38db0c56692fab10800000000000000
+      internalID: 1994858679556102206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardOpportunist_53
+      name: WizardOpportunist 1_55
       rect:
         serializedVersion: 2
         x: 776
@@ -1466,8 +1516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89b3e1a7d724e3500800000000000000
-      internalID: 377812525432847256
+      spriteID: fe5baf204a07b91e0800000000000000
+      internalID: -2190032944058681873
       vertices: []
       indices: 
       edges: []
@@ -1486,60 +1536,62 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WizardOpportunist_0: -166634630450608508
-      WizardOpportunist_1: 3983695557385295279
-      WizardOpportunist_10: 5403381865284522195
-      WizardOpportunist_11: 5233480569498137950
-      WizardOpportunist_12: -6694296068506189030
-      WizardOpportunist_13: -4450026811841474089
-      WizardOpportunist_14: -8439963888448156763
-      WizardOpportunist_15: -4304529783253899213
-      WizardOpportunist_16: -5583222903145730782
-      WizardOpportunist_17: 2147894404090895288
-      WizardOpportunist_18: 5161361937706501990
-      WizardOpportunist_19: 4491362800139592731
-      WizardOpportunist_2: 5758491604394371494
-      WizardOpportunist_20: -4426198636335863611
-      WizardOpportunist_21: 1206030440716853664
-      WizardOpportunist_22: 853808390517031130
-      WizardOpportunist_23: -6981230202298361203
-      WizardOpportunist_24: 5055245493482957769
-      WizardOpportunist_25: -1316344054093378425
-      WizardOpportunist_26: 6247357028266736409
-      WizardOpportunist_27: 2624852427851511689
-      WizardOpportunist_28: -408424898013145545
-      WizardOpportunist_29: 771832877136058941
-      WizardOpportunist_3: -3396685147924955732
-      WizardOpportunist_30: -6806595776297746306
-      WizardOpportunist_31: 422422957169666111
-      WizardOpportunist_32: -2827956338527157413
-      WizardOpportunist_33: 2426212491324836771
-      WizardOpportunist_34: -3719987602679835817
-      WizardOpportunist_35: 6382225676571057969
-      WizardOpportunist_36: -8537129261394876318
-      WizardOpportunist_37: -7951206920456738405
-      WizardOpportunist_38: 8164739396618359809
-      WizardOpportunist_39: 5803478445229221622
-      WizardOpportunist_4: 4786059096336435812
-      WizardOpportunist_40: -7957623623269898903
-      WizardOpportunist_41: 6033592278034550927
-      WizardOpportunist_42: -49309675165765482
-      WizardOpportunist_43: 360720398798258081
-      WizardOpportunist_44: -2152078634655474372
-      WizardOpportunist_45: -468612535504523990
-      WizardOpportunist_46: -6754425878174838460
-      WizardOpportunist_47: 1046399780977480889
-      WizardOpportunist_48: -7981640705639679087
-      WizardOpportunist_49: -3552140606569177123
-      WizardOpportunist_5: 8164070225422011332
-      WizardOpportunist_50: 4803196981086367621
-      WizardOpportunist_51: 655860046683049358
-      WizardOpportunist_52: -1569413202492308063
-      WizardOpportunist_53: 377812525432847256
-      WizardOpportunist_6: 5420263082610948552
-      WizardOpportunist_7: 6208202386712016402
-      WizardOpportunist_8: 1675213477587752765
-      WizardOpportunist_9: 3284715253204211579
+      WizardOpportunist 1_0: 8003335265481846636
+      WizardOpportunist 1_1: 1349068872998284609
+      WizardOpportunist 1_10: -1386142926854244143
+      WizardOpportunist 1_11: -4987357871373672264
+      WizardOpportunist 1_12: 1594155198040804966
+      WizardOpportunist 1_13: -7935520953739969177
+      WizardOpportunist 1_14: -1101521169136369761
+      WizardOpportunist 1_15: 7563598425523768908
+      WizardOpportunist 1_16: -9080227971419673716
+      WizardOpportunist 1_17: -6563500935891086075
+      WizardOpportunist 1_18: -3144161343532991883
+      WizardOpportunist 1_19: -3331736470375581468
+      WizardOpportunist 1_2: 8367015378015499418
+      WizardOpportunist 1_20: -344204586736972583
+      WizardOpportunist 1_21: 2416537882419901253
+      WizardOpportunist 1_22: -1947997400629718507
+      WizardOpportunist 1_23: 7499402508217753450
+      WizardOpportunist 1_24: 3101109216451329445
+      WizardOpportunist 1_25: 7187314368706732117
+      WizardOpportunist 1_26: 4064510573043251211
+      WizardOpportunist 1_27: 1862051408595533936
+      WizardOpportunist 1_28: -3267603722880477886
+      WizardOpportunist 1_29: 2248806738027323369
+      WizardOpportunist 1_3: -8100287770747508443
+      WizardOpportunist 1_30: 131009971820906919
+      WizardOpportunist 1_31: 6531411672176798154
+      WizardOpportunist 1_32: 4599102027030297317
+      WizardOpportunist 1_33: 3336362783704340419
+      WizardOpportunist 1_34: 5649787351124901691
+      WizardOpportunist 1_35: 4174294428659606384
+      WizardOpportunist 1_36: 6633960995699729588
+      WizardOpportunist 1_37: 2513201686890372076
+      WizardOpportunist 1_38: -8345212871878497127
+      WizardOpportunist 1_39: -6004516081443898448
+      WizardOpportunist 1_4: 5254391736235430908
+      WizardOpportunist 1_40: 9071701127252615398
+      WizardOpportunist 1_41: 4849838766527204475
+      WizardOpportunist 1_42: -43317897290925568
+      WizardOpportunist 1_43: 5623920485661996875
+      WizardOpportunist 1_44: 5272496876919031314
+      WizardOpportunist 1_45: -4753790419753178871
+      WizardOpportunist 1_46: 8655854067178233771
+      WizardOpportunist 1_47: 898705022115039353
+      WizardOpportunist 1_48: 1835394088282383487
+      WizardOpportunist 1_49: -1562863094936294458
+      WizardOpportunist 1_5: -2171482226639759091
+      WizardOpportunist 1_50: 4266337095841896863
+      WizardOpportunist 1_51: -8572382626034975817
+      WizardOpportunist 1_52: -4988625439203875726
+      WizardOpportunist 1_53: -4239968552464649108
+      WizardOpportunist 1_54: 1994858679556102206
+      WizardOpportunist 1_55: -2190032944058681873
+      WizardOpportunist 1_6: 5060142059023013239
+      WizardOpportunist 1_7: -4323580770856210136
+      WizardOpportunist 1_8: -3993229925276944633
+      WizardOpportunist 1_9: -7270619108926885715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

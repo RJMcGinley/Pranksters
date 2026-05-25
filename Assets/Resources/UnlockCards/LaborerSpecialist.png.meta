@@ -1,235 +1,199 @@
 fileFormatVersion: 2
-guid: 1c53e6ed9562a4f2d9aaad4e281221d2
+guid: 81b1c8691d4a54603a764dd666991172
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3146478811798996483
-    second: LaborerSpecialist_0
+      213: 6286762239872604754
+    second: LaborerSpecialist 1_0
   - first:
-      213: 6603205366459883834
-    second: LaborerSpecialist_1
+      213: 8923003181780279914
+    second: LaborerSpecialist 1_1
   - first:
-      213: -440966041503614510
-    second: LaborerSpecialist_2
+      213: -10325235565975277
+    second: LaborerSpecialist 1_2
   - first:
-      213: 5192894855003131347
-    second: LaborerSpecialist_3
+      213: 1306705084220505519
+    second: LaborerSpecialist 1_3
   - first:
-      213: -4086405015636821081
-    second: LaborerSpecialist_4
+      213: -7303773396068757984
+    second: LaborerSpecialist 1_4
   - first:
-      213: -4493957138083955396
-    second: LaborerSpecialist_5
+      213: 2354951250799031082
+    second: LaborerSpecialist 1_5
   - first:
-      213: 6347119920500794771
-    second: LaborerSpecialist_6
+      213: -4610276424795091281
+    second: LaborerSpecialist 1_6
   - first:
-      213: -5479778690364239886
-    second: LaborerSpecialist_7
+      213: 3855165064592868555
+    second: LaborerSpecialist 1_7
   - first:
-      213: -6452862882478068026
-    second: LaborerSpecialist_8
+      213: -6344675148835707950
+    second: LaborerSpecialist 1_8
   - first:
-      213: 2328600639706843472
-    second: LaborerSpecialist_9
+      213: 2855284200583212179
+    second: LaborerSpecialist 1_9
   - first:
-      213: -3972087316994251953
-    second: LaborerSpecialist_10
+      213: 2643957575988156650
+    second: LaborerSpecialist 1_10
   - first:
-      213: -5327757843924136189
-    second: LaborerSpecialist_11
+      213: -3329229469423383400
+    second: LaborerSpecialist 1_11
   - first:
-      213: 7488237903021336822
-    second: LaborerSpecialist_12
+      213: 2314816709858180988
+    second: LaborerSpecialist 1_12
   - first:
-      213: -9170168761176562370
-    second: LaborerSpecialist_13
+      213: -7631308456583952798
+    second: LaborerSpecialist 1_13
   - first:
-      213: -7314316316440094085
-    second: LaborerSpecialist_14
+      213: -1793770490723960999
+    second: LaborerSpecialist 1_14
   - first:
-      213: 8398353695902588676
-    second: LaborerSpecialist_15
+      213: 4397381112937775830
+    second: LaborerSpecialist 1_15
   - first:
-      213: 3917575829497875903
-    second: LaborerSpecialist_16
+      213: 519100869071301658
+    second: LaborerSpecialist 1_16
   - first:
-      213: 2654900802162748924
-    second: LaborerSpecialist_17
+      213: 2311310046521317723
+    second: LaborerSpecialist 1_17
   - first:
-      213: 2149889415019571160
-    second: LaborerSpecialist_18
+      213: -3573627132338499081
+    second: LaborerSpecialist 1_18
   - first:
-      213: 1173689201978886777
-    second: LaborerSpecialist_19
+      213: -1757652066593942009
+    second: LaborerSpecialist 1_19
   - first:
-      213: -2664572260626291094
-    second: LaborerSpecialist_20
+      213: 1282492106770380856
+    second: LaborerSpecialist 1_20
   - first:
-      213: -1229170797482241924
-    second: LaborerSpecialist_21
+      213: -285683468024145849
+    second: LaborerSpecialist 1_21
   - first:
-      213: -292000584688074224
-    second: LaborerSpecialist_22
+      213: -4710296552670777929
+    second: LaborerSpecialist 1_22
   - first:
-      213: 1651085015319351412
-    second: LaborerSpecialist_23
+      213: -3726500163381090911
+    second: LaborerSpecialist 1_23
   - first:
-      213: 5743826639535732572
-    second: LaborerSpecialist_24
+      213: 2696846772540380043
+    second: LaborerSpecialist 1_24
   - first:
-      213: 5326186865761591744
-    second: LaborerSpecialist_25
+      213: 7631882192980661414
+    second: LaborerSpecialist 1_25
   - first:
-      213: -7492857943944569169
-    second: LaborerSpecialist_26
+      213: -2333211011800397826
+    second: LaborerSpecialist 1_26
   - first:
-      213: 8602382965352019338
-    second: LaborerSpecialist_27
+      213: 3314454953079008707
+    second: LaborerSpecialist 1_27
   - first:
-      213: -4419843334308483180
-    second: LaborerSpecialist_28
+      213: -8207104632519367089
+    second: LaborerSpecialist 1_28
   - first:
-      213: -3639450685861668707
-    second: LaborerSpecialist_29
+      213: 4920078133437964073
+    second: LaborerSpecialist 1_29
   - first:
-      213: 1992992074248476780
-    second: LaborerSpecialist_30
+      213: -941215862081435599
+    second: LaborerSpecialist 1_30
   - first:
-      213: 8549456613614590040
-    second: LaborerSpecialist_31
+      213: 3092724058836535795
+    second: LaborerSpecialist 1_31
   - first:
-      213: 6238579043450402124
-    second: LaborerSpecialist_32
+      213: 5410573340343452138
+    second: LaborerSpecialist 1_32
   - first:
-      213: 4874602640908519938
-    second: LaborerSpecialist_33
+      213: -4709786945998699599
+    second: LaborerSpecialist 1_33
   - first:
-      213: 1365256369315312838
-    second: LaborerSpecialist_34
+      213: 8301338783173210635
+    second: LaborerSpecialist 1_34
   - first:
-      213: 3571640994583377837
-    second: LaborerSpecialist_35
+      213: 5263777986135155284
+    second: LaborerSpecialist 1_35
   - first:
-      213: 2438034469396380919
-    second: LaborerSpecialist_36
+      213: -851227288287242768
+    second: LaborerSpecialist 1_36
   - first:
-      213: 7722836868326734074
-    second: LaborerSpecialist_37
+      213: 4639298033855419725
+    second: LaborerSpecialist 1_37
   - first:
-      213: 4237836622278444439
-    second: LaborerSpecialist_38
+      213: 3067782733766620322
+    second: LaborerSpecialist 1_38
   - first:
-      213: -8050669741440003741
-    second: LaborerSpecialist_39
+      213: 6686956051426004141
+    second: LaborerSpecialist 1_39
   - first:
-      213: -5279427990023739558
-    second: LaborerSpecialist_40
+      213: 7342515244264684030
+    second: LaborerSpecialist 1_40
   - first:
-      213: -2915582973187246349
-    second: LaborerSpecialist_41
+      213: 5616892781347113271
+    second: LaborerSpecialist 1_41
   - first:
-      213: -7807752323197956774
-    second: LaborerSpecialist_42
+      213: -1385790836661944613
+    second: LaborerSpecialist 1_42
   - first:
-      213: -1065521922398631533
-    second: LaborerSpecialist_43
+      213: -4027129821405101125
+    second: LaborerSpecialist 1_43
   - first:
-      213: -6873652932481957984
-    second: LaborerSpecialist_44
+      213: 6703287111480281500
+    second: LaborerSpecialist 1_44
   - first:
-      213: -6745723785697264960
-    second: LaborerSpecialist_45
+      213: 2738625488489588613
+    second: LaborerSpecialist 1_45
   - first:
-      213: 6035601022039654167
-    second: LaborerSpecialist_46
+      213: 925500122794589546
+    second: LaborerSpecialist 1_46
   - first:
-      213: -5059526962332023555
-    second: LaborerSpecialist_47
+      213: -6871251435300222447
+    second: LaborerSpecialist 1_47
   - first:
-      213: -6225508960957242655
-    second: LaborerSpecialist_48
+      213: -9058604561269112144
+    second: LaborerSpecialist 1_48
   - first:
-      213: 1018837550604652565
-    second: LaborerSpecialist_49
+      213: -2156937949402702097
+    second: LaborerSpecialist 1_49
   - first:
-      213: 1824154336079725870
-    second: LaborerSpecialist_50
+      213: -4731954275244920105
+    second: LaborerSpecialist 1_50
   - first:
-      213: 6399689387151507896
-    second: LaborerSpecialist_51
+      213: 8670845236981474303
+    second: LaborerSpecialist 1_51
   - first:
-      213: -9018375070893943083
-    second: LaborerSpecialist_52
+      213: -9026132686699240866
+    second: LaborerSpecialist 1_52
   - first:
-      213: 5185111042616886595
-    second: LaborerSpecialist_53
+      213: -3705079391699203086
+    second: LaborerSpecialist 1_53
   - first:
-      213: 8957945585796090832
-    second: LaborerSpecialist_54
+      213: -8696176487449225214
+    second: LaborerSpecialist 1_54
   - first:
-      213: 1219304102007640995
-    second: LaborerSpecialist_55
+      213: -8295397495455628000
+    second: LaborerSpecialist 1_55
   - first:
-      213: 3694535651601328959
-    second: LaborerSpecialist_56
+      213: -1271203770786149932
+    second: LaborerSpecialist 1_56
   - first:
-      213: 2928008064735456486
-    second: LaborerSpecialist_57
+      213: 2556353531534042560
+    second: LaborerSpecialist 1_57
   - first:
-      213: -2501274841943128139
-    second: LaborerSpecialist_58
+      213: 1605397906049476161
+    second: LaborerSpecialist 1_58
   - first:
-      213: 1117884420497788863
-    second: LaborerSpecialist_59
+      213: 2794996395236768738
+    second: LaborerSpecialist 1_59
   - first:
-      213: -7789619824901344799
-    second: LaborerSpecialist_60
+      213: 1313967725873792947
+    second: LaborerSpecialist 1_60
   - first:
-      213: 2959196610973338653
-    second: LaborerSpecialist_61
+      213: -4508707903449410764
+    second: LaborerSpecialist 1_61
   - first:
-      213: -9193745078254605212
-    second: LaborerSpecialist_62
+      213: -1228740278963554179
+    second: LaborerSpecialist 1_62
   - first:
-      213: -3820024626982185514
-    second: LaborerSpecialist_63
-  - first:
-      213: -8431618793988579066
-    second: LaborerSpecialist_64
-  - first:
-      213: -6922505425154987580
-    second: LaborerSpecialist_65
-  - first:
-      213: 9068729086351076154
-    second: LaborerSpecialist_66
-  - first:
-      213: -2690879020140191617
-    second: LaborerSpecialist_67
-  - first:
-      213: 1012720923691995084
-    second: LaborerSpecialist_68
-  - first:
-      213: -3202783472612831346
-    second: LaborerSpecialist_69
-  - first:
-      213: 4056756130829085680
-    second: LaborerSpecialist_70
-  - first:
-      213: 8575313347042272752
-    second: LaborerSpecialist_71
-  - first:
-      213: 6472681471179279748
-    second: LaborerSpecialist_72
-  - first:
-      213: 266228804174188058
-    second: LaborerSpecialist_73
-  - first:
-      213: 8563437464137776099
-    second: LaborerSpecialist_74
-  - first:
-      213: -7285984436798175248
-    second: LaborerSpecialist_75
+      213: -6729082088797707584
+    second: LaborerSpecialist 1_63
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -351,7 +315,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LaborerSpecialist_0
+      name: LaborerSpecialist 1_0
       rect:
         serializedVersion: 2
         x: 53
@@ -366,14 +330,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 306829efec98aab20800000000000000
-      internalID: 3146478811798996483
+      spriteID: 25a12fec2f01f3750800000000000000
+      internalID: 6286762239872604754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_1
+      name: LaborerSpecialist 1_1
       rect:
         serializedVersion: 2
         x: 305
@@ -388,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a316bc6ab4c43ab50800000000000000
-      internalID: 6603205366459883834
+      spriteID: a62a1b32e10e4db70800000000000000
+      internalID: 8923003181780279914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_2
+      name: LaborerSpecialist 1_2
       rect:
         serializedVersion: 2
         x: 399
-        y: 1074
+        y: 1081
         width: 13
-        height: 46
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,14 +374,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d9ba2ab8bf51e9f0800000000000000
-      internalID: -440966041503614510
+      spriteID: 3192ed1c0415bdff0800000000000000
+      internalID: -10325235565975277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_3
+      name: LaborerSpecialist 1_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 222
+        width: 612
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadf823d959522210800000000000000
+      internalID: 1306705084220505519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaborerSpecialist 1_4
       rect:
         serializedVersion: 2
         x: 308
@@ -432,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dd4a648b5ed01840800000000000000
-      internalID: 5192894855003131347
+      spriteID: 02e8f571bc8c3aa90800000000000000
+      internalID: -7303773396068757984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_4
+      name: LaborerSpecialist 1_5
       rect:
         serializedVersion: 2
         x: 11
@@ -454,14 +440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7abb79af94c2a47c0800000000000000
-      internalID: -4086405015636821081
+      spriteID: a23fc3f7fa77ea020800000000000000
+      internalID: 2354951250799031082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_5
+      name: LaborerSpecialist 1_6
       rect:
         serializedVersion: 2
         x: 54
@@ -476,14 +462,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3dbcacfac142a1c0800000000000000
-      internalID: -4493957138083955396
+      spriteID: fae0bb794020500c0800000000000000
+      internalID: -4610276424795091281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_6
+      name: LaborerSpecialist 1_7
       rect:
         serializedVersion: 2
         x: 80
@@ -498,14 +484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 395614070ff751850800000000000000
-      internalID: 6347119920500794771
+      spriteID: bc4cd81633c408530800000000000000
+      internalID: 3855165064592868555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_7
+      name: LaborerSpecialist 1_8
       rect:
         serializedVersion: 2
         x: 310
@@ -520,256 +506,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff8511705ae3f3b0800000000000000
-      internalID: -5479778690364239886
+      spriteID: 2d32662519f23f7a0800000000000000
+      internalID: -6344675148835707950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_8
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 1009
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ce6799a563d276a0800000000000000
-      internalID: -6452862882478068026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_9
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 1057
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0594971c1f9d05020800000000000000
-      internalID: 2328600639706843472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_10
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 992
-        width: 37
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4329b551af40e8c0800000000000000
-      internalID: -3972087316994251953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_11
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 1037
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30fc997f7700016b0800000000000000
-      internalID: -5327757843924136189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_12
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 1014
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f8e33bc2b09be760800000000000000
-      internalID: 7488237903021336822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_13
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 1026
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e35efabe8140db080800000000000000
-      internalID: -9170168761176562370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_14
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 1005
-        width: 7
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7a9eb720145e7a90800000000000000
-      internalID: -7314316316440094085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_15
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 995
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40fdc56a032fc8470800000000000000
-      internalID: 8398353695902588676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_16
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 983
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbd80e1f5760e5630800000000000000
-      internalID: 3917575829497875903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_17
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 985
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cfd6fca963a18d420800000000000000
-      internalID: 2654900802162748924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_18
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 975
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d72d984801f5dd10800000000000000
-      internalID: 2149889415019571160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_19
+      name: LaborerSpecialist 1_9
       rect:
         serializedVersion: 2
         x: 13
@@ -784,14 +528,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97ac9a85c18c94010800000000000000
-      internalID: 1173689201978886777
+      spriteID: 39c2c8c3ad100a720800000000000000
+      internalID: 2855284200583212179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_20
+      name: LaborerSpecialist 1_10
       rect:
         serializedVersion: 2
         x: 14
@@ -806,36 +550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a66a20f75a9850bd0800000000000000
-      internalID: -2664572260626291094
+      spriteID: ae81af5386931b420800000000000000
+      internalID: 2643957575988156650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_21
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 922
-        width: 16
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7099cf0cab11fee0800000000000000
-      internalID: -1229170797482241924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_22
+      name: LaborerSpecialist 1_11
       rect:
         serializedVersion: 2
         x: 27
@@ -850,36 +572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 012067be30b92fbf0800000000000000
-      internalID: -292000584688074224
+      spriteID: 89cc143cf633cc1d0800000000000000
+      internalID: -3329229469423383400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_23
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 222
-        width: 539
-        height: 715
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4709418d215d9e610800000000000000
-      internalID: 1651085015319351412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LaborerSpecialist_24
+      name: LaborerSpecialist 1_12
       rect:
         serializedVersion: 2
         x: 33
@@ -894,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c57f3f485eb26bf40800000000000000
-      internalID: 5743826639535732572
+      spriteID: c7f3c3f7881ef1020800000000000000
+      internalID: 2314816709858180988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_25
+      name: LaborerSpecialist 1_13
       rect:
         serializedVersion: 2
         x: 111
@@ -916,14 +616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c1221d2cba6ae940800000000000000
-      internalID: 5326186865761591744
+      spriteID: 26601e12465281690800000000000000
+      internalID: -7631308456583952798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_26
+      name: LaborerSpecialist 1_14
       rect:
         serializedVersion: 2
         x: 131
@@ -938,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fae58ba1665040890800000000000000
-      internalID: -7492857943944569169
+      spriteID: 957f1d31e3f3b17e0800000000000000
+      internalID: -1793770490723960999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_27
+      name: LaborerSpecialist 1_15
       rect:
         serializedVersion: 2
         x: 37
@@ -960,14 +660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85bda7cabdc16770800000000000000
-      internalID: 8602382965352019338
+      spriteID: 6d20baae2d2a60d30800000000000000
+      internalID: 4397381112937775830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_28
+      name: LaborerSpecialist 1_16
       rect:
         serializedVersion: 2
         x: 103
@@ -982,14 +682,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49f2aaf97ef89a2c0800000000000000
-      internalID: -4419843334308483180
+      spriteID: a1c67977d77343700800000000000000
+      internalID: 519100869071301658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_29
+      name: LaborerSpecialist 1_17
       rect:
         serializedVersion: 2
         x: 112
@@ -1004,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d98d9a342e21e7dc0800000000000000
-      internalID: -3639450685861668707
+      spriteID: b59d1b0dd3c631020800000000000000
+      internalID: 2311310046521317723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_30
+      name: LaborerSpecialist 1_18
       rect:
         serializedVersion: 2
         x: 43
@@ -1026,14 +726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c68dfb17bb788ab10800000000000000
-      internalID: 1992992074248476780
+      spriteID: 7f114499e0de76ec0800000000000000
+      internalID: -3573627132338499081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_31
+      name: LaborerSpecialist 1_19
       rect:
         serializedVersion: 2
         x: 55
@@ -1048,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8589c1d3e75c5a670800000000000000
-      internalID: 8549456613614590040
+      spriteID: 706dfe302c09b97e0800000000000000
+      internalID: -1757652066593942009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_32
+      name: LaborerSpecialist 1_20
       rect:
         serializedVersion: 2
         x: 65
@@ -1070,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c45be0c2692e39650800000000000000
-      internalID: 6238579043450402124
+      spriteID: 8387a43b6c35cc110800000000000000
+      internalID: 1282492106770380856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_33
+      name: LaborerSpecialist 1_21
       rect:
         serializedVersion: 2
         x: 75
@@ -1092,14 +792,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20a8880764116a340800000000000000
-      internalID: 4874602640908519938
+      spriteID: 7481832466c090cf0800000000000000
+      internalID: -285683468024145849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_34
+      name: LaborerSpecialist 1_22
       rect:
         serializedVersion: 2
         x: 223
@@ -1114,14 +814,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c4f0683f6d52f210800000000000000
-      internalID: 1365256369315312838
+      spriteID: 7bdaf47dd3aa1aeb0800000000000000
+      internalID: -4710296552670777929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_35
+      name: LaborerSpecialist 1_23
       rect:
         serializedVersion: 2
         x: 295
@@ -1136,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da77d5baf84019130800000000000000
-      internalID: 3571640994583377837
+      spriteID: 1a52c3268dfc84cc0800000000000000
+      internalID: -3726500163381090911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_36
+      name: LaborerSpecialist 1_24
       rect:
         serializedVersion: 2
         x: 355
@@ -1158,14 +858,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fc7782ce63a5d120800000000000000
-      internalID: 2438034469396380919
+      spriteID: b839de2e9df1d6520800000000000000
+      internalID: 2696846772540380043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_37
+      name: LaborerSpecialist 1_25
       rect:
         serializedVersion: 2
         x: 592
@@ -1180,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af8b7e2e6370d2b60800000000000000
-      internalID: 7722836868326734074
+      spriteID: 6a4dd384b64e9e960800000000000000
+      internalID: 7631882192980661414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_38
+      name: LaborerSpecialist 1_26
       rect:
         serializedVersion: 2
         x: 642
@@ -1202,14 +902,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7954c0774f1dfca30800000000000000
-      internalID: 4237836622278444439
+      spriteID: ef78b9752f4ce9fd0800000000000000
+      internalID: -2333211011800397826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_39
+      name: LaborerSpecialist 1_27
       rect:
         serializedVersion: 2
         x: 29
@@ -1224,14 +924,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3619b714686464090800000000000000
-      internalID: -8050669741440003741
+      spriteID: 3cdee46183f4ffd20800000000000000
+      internalID: 3314454953079008707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_40
+      name: LaborerSpecialist 1_28
       rect:
         serializedVersion: 2
         x: 89
@@ -1246,14 +946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a576165f634bbb6b0800000000000000
-      internalID: -5279427990023739558
+      spriteID: f466830e1d18a1e80800000000000000
+      internalID: -8207104632519367089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_41
+      name: LaborerSpecialist 1_29
       rect:
         serializedVersion: 2
         x: 137
@@ -1268,14 +968,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f63ff9bbb4c987d0800000000000000
-      internalID: -2915582973187246349
+      spriteID: 92f9cb2aef0a74440800000000000000
+      internalID: 4920078133437964073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_42
+      name: LaborerSpecialist 1_30
       rect:
         serializedVersion: 2
         x: 278
@@ -1290,14 +990,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5d0e8911aa45a390800000000000000
-      internalID: -7807752323197956774
+      spriteID: 1384ca3092120f2f0800000000000000
+      internalID: -941215862081435599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_43
+      name: LaborerSpecialist 1_31
       rect:
         serializedVersion: 2
         x: 311
@@ -1312,14 +1012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 399c90bf4718631f0800000000000000
-      internalID: -1065521922398631533
+      spriteID: 3f9814345209bea20800000000000000
+      internalID: 3092724058836535795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_44
+      name: LaborerSpecialist 1_32
       rect:
         serializedVersion: 2
         x: 343
@@ -1334,14 +1034,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0af371a7311eb90a0800000000000000
-      internalID: -6873652932481957984
+      spriteID: ae1ce5e59c7361b40800000000000000
+      internalID: 5410573340343452138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_45
+      name: LaborerSpecialist 1_33
       rect:
         serializedVersion: 2
         x: 383
@@ -1356,14 +1056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ca7c9015ff5262a0800000000000000
-      internalID: -6745723785697264960
+      spriteID: 1b3c9f3e9b973aeb0800000000000000
+      internalID: -4709786945998699599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_46
+      name: LaborerSpecialist 1_34
       rect:
         serializedVersion: 2
         x: 414
@@ -1378,14 +1078,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71f78acc623c2c350800000000000000
-      internalID: 6035601022039654167
+      spriteID: b02763314a7443370800000000000000
+      internalID: 8301338783173210635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_47
+      name: LaborerSpecialist 1_35
       rect:
         serializedVersion: 2
         x: 443
@@ -1400,14 +1100,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df440b6c803f8c9b0800000000000000
-      internalID: -5059526962332023555
+      spriteID: 4526b109032bc0940800000000000000
+      internalID: 5263777986135155284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_48
+      name: LaborerSpecialist 1_36
       rect:
         serializedVersion: 2
         x: 504
@@ -1422,14 +1122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e2e12c859c8a99a0800000000000000
-      internalID: -6225508960957242655
+      spriteID: 0f515829a45df24f0800000000000000
+      internalID: -851227288287242768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_49
+      name: LaborerSpecialist 1_37
       rect:
         serializedVersion: 2
         x: 520
@@ -1444,14 +1144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5109e9faa53a32e00800000000000000
-      internalID: 1018837550604652565
+      spriteID: d45de135bf8126040800000000000000
+      internalID: 4639298033855419725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_50
+      name: LaborerSpecialist 1_38
       rect:
         serializedVersion: 2
         x: 549
@@ -1466,14 +1166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e25458134b2b05910800000000000000
-      internalID: 1824154336079725870
+      spriteID: 2a47c3e7424f29a20800000000000000
+      internalID: 3067782733766620322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_51
+      name: LaborerSpecialist 1_39
       rect:
         serializedVersion: 2
         x: 592
@@ -1488,14 +1188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b1c002379340d850800000000000000
-      internalID: 6399689387151507896
+      spriteID: dac45e98917dccc50800000000000000
+      internalID: 6686956051426004141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_52
+      name: LaborerSpecialist 1_40
       rect:
         serializedVersion: 2
         x: 636
@@ -1510,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d6d02887ab48d280800000000000000
-      internalID: -9018375070893943083
+      spriteID: ef9794c56bad5e560800000000000000
+      internalID: 7342515244264684030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_53
+      name: LaborerSpecialist 1_41
       rect:
         serializedVersion: 2
         x: 665
@@ -1532,14 +1232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3458228750735f740800000000000000
-      internalID: 5185111042616886595
+      spriteID: 73986ad993633fd40800000000000000
+      internalID: 5616892781347113271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_54
+      name: LaborerSpecialist 1_42
       rect:
         serializedVersion: 2
         x: 690
@@ -1554,14 +1254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db87ae8c04015c70800000000000000
-      internalID: 8957945585796090832
+      spriteID: bdef5c7839ea4cce0800000000000000
+      internalID: -1385790836661944613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_55
+      name: LaborerSpecialist 1_43
       rect:
         serializedVersion: 2
         x: 706
@@ -1576,14 +1276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a39751ee96dbe010800000000000000
-      internalID: 1219304102007640995
+      spriteID: bb344ca93c2cc18c0800000000000000
+      internalID: -4027129821405101125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_56
+      name: LaborerSpecialist 1_44
       rect:
         serializedVersion: 2
         x: 738
@@ -1598,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3ba6b3c990a54330800000000000000
-      internalID: 3694535651601328959
+      spriteID: c998c33cc1cd60d50800000000000000
+      internalID: 6703287111480281500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_57
+      name: LaborerSpecialist 1_45
       rect:
         serializedVersion: 2
         x: 776
@@ -1620,14 +1320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ec290652df52a820800000000000000
-      internalID: 2928008064735456486
+      spriteID: 587a0463f5d810620800000000000000
+      internalID: 2738625488489588613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_58
+      name: LaborerSpecialist 1_46
       rect:
         serializedVersion: 2
         x: 32
@@ -1642,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b7cb5898cfa94dd0800000000000000
-      internalID: -2501274841943128139
+      spriteID: a6d70ca457908dc00800000000000000
+      internalID: 925500122794589546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_59
+      name: LaborerSpecialist 1_47
       rect:
         serializedVersion: 2
         x: 92
@@ -1664,14 +1364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbfc6b725f5838f00800000000000000
-      internalID: 1117884420497788863
+      spriteID: 11a898c993964a0a0800000000000000
+      internalID: -6871251435300222447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_60
+      name: LaborerSpecialist 1_48
       rect:
         serializedVersion: 2
         x: 171
@@ -1686,14 +1386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e13a695a06b5e390800000000000000
-      internalID: -7789619824901344799
+      spriteID: 0b242d4652f594280800000000000000
+      internalID: -9058604561269112144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_61
+      name: LaborerSpecialist 1_49
       rect:
         serializedVersion: 2
         x: 278
@@ -1708,14 +1408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1c0b91a3ad211920800000000000000
-      internalID: 2959196610973338653
+      spriteID: feeda4bec540112e0800000000000000
+      internalID: -2156937949402702097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_62
+      name: LaborerSpecialist 1_50
       rect:
         serializedVersion: 2
         x: 311
@@ -1730,14 +1430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46c6327df81496080800000000000000
-      internalID: -9193745078254605212
+      spriteID: 7d2b2aa58a8b45eb0800000000000000
+      internalID: -4731954275244920105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_63
+      name: LaborerSpecialist 1_51
       rect:
         serializedVersion: 2
         x: 343
@@ -1752,14 +1452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d59b7357db8cfac0800000000000000
-      internalID: -3820024626982185514
+      spriteID: ff32bac8dc7055870800000000000000
+      internalID: 8670845236981474303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_64
+      name: LaborerSpecialist 1_52
       rect:
         serializedVersion: 2
         x: 383
@@ -1774,14 +1474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 601adc6216fdcfa80800000000000000
-      internalID: -8431618793988579066
+      spriteID: e52efb9d42cbcb280800000000000000
+      internalID: -9026132686699240866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_65
+      name: LaborerSpecialist 1_53
       rect:
         serializedVersion: 2
         x: 414
@@ -1796,14 +1496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c92ce92ef15eef90800000000000000
-      internalID: -6922505425154987580
+      spriteID: 2fb06217ce9e49cc0800000000000000
+      internalID: -3705079391699203086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_66
+      name: LaborerSpecialist 1_54
       rect:
         serializedVersion: 2
         x: 443
@@ -1818,14 +1518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3b653c4e099add70800000000000000
-      internalID: 9068729086351076154
+      spriteID: 2081c791f89f05780800000000000000
+      internalID: -8696176487449225214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_67
+      name: LaborerSpecialist 1_55
       rect:
         serializedVersion: 2
         x: 504
@@ -1840,14 +1540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f702efeb9c318aad0800000000000000
-      internalID: -2690879020140191617
+      spriteID: 025c3b4cde3d0ec80800000000000000
+      internalID: -8295397495455628000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_68
+      name: LaborerSpecialist 1_56
       rect:
         serializedVersion: 2
         x: 520
@@ -1862,14 +1562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccf44418058ed0e00800000000000000
-      internalID: 1012720923691995084
+      spriteID: 4d98725d7e6cb5ee0800000000000000
+      internalID: -1271203770786149932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_69
+      name: LaborerSpecialist 1_57
       rect:
         serializedVersion: 2
         x: 592
@@ -1884,14 +1584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8f8b66966d6d83d0800000000000000
-      internalID: -3202783472612831346
+      spriteID: 0c5e6672efdf97320800000000000000
+      internalID: 2556353531534042560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_70
+      name: LaborerSpecialist 1_58
       rect:
         serializedVersion: 2
         x: 636
@@ -1906,14 +1606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fba476153e7c4830800000000000000
-      internalID: 4056756130829085680
+      spriteID: 1462c39c3e4874610800000000000000
+      internalID: 1605397906049476161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_71
+      name: LaborerSpecialist 1_59
       rect:
         serializedVersion: 2
         x: 665
@@ -1928,14 +1628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f5ee102e02a10770800000000000000
-      internalID: 8575313347042272752
+      spriteID: 2ebb596b962d9c620800000000000000
+      internalID: 2794996395236768738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_72
+      name: LaborerSpecialist 1_60
       rect:
         serializedVersion: 2
         x: 690
@@ -1950,14 +1650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48dc4e9118593d950800000000000000
-      internalID: 6472681471179279748
+      spriteID: 3b7090b5fa62c3210800000000000000
+      internalID: 1313967725873792947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_73
+      name: LaborerSpecialist 1_61
       rect:
         serializedVersion: 2
         x: 706
@@ -1972,14 +1672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1e87c5dfa5d1b300800000000000000
-      internalID: 266228804174188058
+      spriteID: 433d6eacc0add61c0800000000000000
+      internalID: -4508707903449410764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_74
+      name: LaborerSpecialist 1_62
       rect:
         serializedVersion: 2
         x: 738
@@ -1994,14 +1694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eb343aa00177d670800000000000000
-      internalID: 8563437464137776099
+      spriteID: d78b927f933a2fee0800000000000000
+      internalID: -1228740278963554179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LaborerSpecialist_75
+      name: LaborerSpecialist 1_63
       rect:
         serializedVersion: 2
         x: 776
@@ -2016,8 +1716,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f7ce9de1cbf2ea90800000000000000
-      internalID: -7285984436798175248
+      spriteID: 0c2e4c01e7f7d92a0800000000000000
+      internalID: -6729082088797707584
       vertices: []
       indices: 
       edges: []
@@ -2036,82 +1736,70 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LaborerSpecialist_0: 3146478811798996483
-      LaborerSpecialist_1: 6603205366459883834
-      LaborerSpecialist_10: -3972087316994251953
-      LaborerSpecialist_11: -5327757843924136189
-      LaborerSpecialist_12: 7488237903021336822
-      LaborerSpecialist_13: -9170168761176562370
-      LaborerSpecialist_14: -7314316316440094085
-      LaborerSpecialist_15: 8398353695902588676
-      LaborerSpecialist_16: 3917575829497875903
-      LaborerSpecialist_17: 2654900802162748924
-      LaborerSpecialist_18: 2149889415019571160
-      LaborerSpecialist_19: 1173689201978886777
-      LaborerSpecialist_2: -440966041503614510
-      LaborerSpecialist_20: -2664572260626291094
-      LaborerSpecialist_21: -1229170797482241924
-      LaborerSpecialist_22: -292000584688074224
-      LaborerSpecialist_23: 1651085015319351412
-      LaborerSpecialist_24: 5743826639535732572
-      LaborerSpecialist_25: 5326186865761591744
-      LaborerSpecialist_26: -7492857943944569169
-      LaborerSpecialist_27: 8602382965352019338
-      LaborerSpecialist_28: -4419843334308483180
-      LaborerSpecialist_29: -3639450685861668707
-      LaborerSpecialist_3: 5192894855003131347
-      LaborerSpecialist_30: 1992992074248476780
-      LaborerSpecialist_31: 8549456613614590040
-      LaborerSpecialist_32: 6238579043450402124
-      LaborerSpecialist_33: 4874602640908519938
-      LaborerSpecialist_34: 1365256369315312838
-      LaborerSpecialist_35: 3571640994583377837
-      LaborerSpecialist_36: 2438034469396380919
-      LaborerSpecialist_37: 7722836868326734074
-      LaborerSpecialist_38: 4237836622278444439
-      LaborerSpecialist_39: -8050669741440003741
-      LaborerSpecialist_4: -4086405015636821081
-      LaborerSpecialist_40: -5279427990023739558
-      LaborerSpecialist_41: -2915582973187246349
-      LaborerSpecialist_42: -7807752323197956774
-      LaborerSpecialist_43: -1065521922398631533
-      LaborerSpecialist_44: -6873652932481957984
-      LaborerSpecialist_45: -6745723785697264960
-      LaborerSpecialist_46: 6035601022039654167
-      LaborerSpecialist_47: -5059526962332023555
-      LaborerSpecialist_48: -6225508960957242655
-      LaborerSpecialist_49: 1018837550604652565
-      LaborerSpecialist_5: -4493957138083955396
-      LaborerSpecialist_50: 1824154336079725870
-      LaborerSpecialist_51: 6399689387151507896
-      LaborerSpecialist_52: -9018375070893943083
-      LaborerSpecialist_53: 5185111042616886595
-      LaborerSpecialist_54: 8957945585796090832
-      LaborerSpecialist_55: 1219304102007640995
-      LaborerSpecialist_56: 3694535651601328959
-      LaborerSpecialist_57: 2928008064735456486
-      LaborerSpecialist_58: -2501274841943128139
-      LaborerSpecialist_59: 1117884420497788863
-      LaborerSpecialist_6: 6347119920500794771
-      LaborerSpecialist_60: -7789619824901344799
-      LaborerSpecialist_61: 2959196610973338653
-      LaborerSpecialist_62: -9193745078254605212
-      LaborerSpecialist_63: -3820024626982185514
-      LaborerSpecialist_64: -8431618793988579066
-      LaborerSpecialist_65: -6922505425154987580
-      LaborerSpecialist_66: 9068729086351076154
-      LaborerSpecialist_67: -2690879020140191617
-      LaborerSpecialist_68: 1012720923691995084
-      LaborerSpecialist_69: -3202783472612831346
-      LaborerSpecialist_7: -5479778690364239886
-      LaborerSpecialist_70: 4056756130829085680
-      LaborerSpecialist_71: 8575313347042272752
-      LaborerSpecialist_72: 6472681471179279748
-      LaborerSpecialist_73: 266228804174188058
-      LaborerSpecialist_74: 8563437464137776099
-      LaborerSpecialist_75: -7285984436798175248
-      LaborerSpecialist_8: -6452862882478068026
-      LaborerSpecialist_9: 2328600639706843472
+      LaborerSpecialist 1_0: 6286762239872604754
+      LaborerSpecialist 1_1: 8923003181780279914
+      LaborerSpecialist 1_10: 2643957575988156650
+      LaborerSpecialist 1_11: -3329229469423383400
+      LaborerSpecialist 1_12: 2314816709858180988
+      LaborerSpecialist 1_13: -7631308456583952798
+      LaborerSpecialist 1_14: -1793770490723960999
+      LaborerSpecialist 1_15: 4397381112937775830
+      LaborerSpecialist 1_16: 519100869071301658
+      LaborerSpecialist 1_17: 2311310046521317723
+      LaborerSpecialist 1_18: -3573627132338499081
+      LaborerSpecialist 1_19: -1757652066593942009
+      LaborerSpecialist 1_2: -10325235565975277
+      LaborerSpecialist 1_20: 1282492106770380856
+      LaborerSpecialist 1_21: -285683468024145849
+      LaborerSpecialist 1_22: -4710296552670777929
+      LaborerSpecialist 1_23: -3726500163381090911
+      LaborerSpecialist 1_24: 2696846772540380043
+      LaborerSpecialist 1_25: 7631882192980661414
+      LaborerSpecialist 1_26: -2333211011800397826
+      LaborerSpecialist 1_27: 3314454953079008707
+      LaborerSpecialist 1_28: -8207104632519367089
+      LaborerSpecialist 1_29: 4920078133437964073
+      LaborerSpecialist 1_3: 1306705084220505519
+      LaborerSpecialist 1_30: -941215862081435599
+      LaborerSpecialist 1_31: 3092724058836535795
+      LaborerSpecialist 1_32: 5410573340343452138
+      LaborerSpecialist 1_33: -4709786945998699599
+      LaborerSpecialist 1_34: 8301338783173210635
+      LaborerSpecialist 1_35: 5263777986135155284
+      LaborerSpecialist 1_36: -851227288287242768
+      LaborerSpecialist 1_37: 4639298033855419725
+      LaborerSpecialist 1_38: 3067782733766620322
+      LaborerSpecialist 1_39: 6686956051426004141
+      LaborerSpecialist 1_4: -7303773396068757984
+      LaborerSpecialist 1_40: 7342515244264684030
+      LaborerSpecialist 1_41: 5616892781347113271
+      LaborerSpecialist 1_42: -1385790836661944613
+      LaborerSpecialist 1_43: -4027129821405101125
+      LaborerSpecialist 1_44: 6703287111480281500
+      LaborerSpecialist 1_45: 2738625488489588613
+      LaborerSpecialist 1_46: 925500122794589546
+      LaborerSpecialist 1_47: -6871251435300222447
+      LaborerSpecialist 1_48: -9058604561269112144
+      LaborerSpecialist 1_49: -2156937949402702097
+      LaborerSpecialist 1_5: 2354951250799031082
+      LaborerSpecialist 1_50: -4731954275244920105
+      LaborerSpecialist 1_51: 8670845236981474303
+      LaborerSpecialist 1_52: -9026132686699240866
+      LaborerSpecialist 1_53: -3705079391699203086
+      LaborerSpecialist 1_54: -8696176487449225214
+      LaborerSpecialist 1_55: -8295397495455628000
+      LaborerSpecialist 1_56: -1271203770786149932
+      LaborerSpecialist 1_57: 2556353531534042560
+      LaborerSpecialist 1_58: 1605397906049476161
+      LaborerSpecialist 1_59: 2794996395236768738
+      LaborerSpecialist 1_6: -4610276424795091281
+      LaborerSpecialist 1_60: 1313967725873792947
+      LaborerSpecialist 1_61: -4508707903449410764
+      LaborerSpecialist 1_62: -1228740278963554179
+      LaborerSpecialist 1_63: -6729082088797707584
+      LaborerSpecialist 1_7: 3855165064592868555
+      LaborerSpecialist 1_8: -6344675148835707950
+      LaborerSpecialist 1_9: 2855284200583212179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

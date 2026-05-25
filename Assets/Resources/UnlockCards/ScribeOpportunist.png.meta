@@ -1,238 +1,241 @@
 fileFormatVersion: 2
-guid: 93259adf1db394d37ba70e8ed8c5780c
+guid: 5521bc763a6724ad589772f7ff68ae73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 66862115661919881
-    second: ScribeOpportunist_0
+      213: -8685976437237572460
+    second: ScribeOpportunist 1_0
   - first:
-      213: -7077180232543473559
-    second: ScribeOpportunist_1
+      213: 8755448536238195106
+    second: ScribeOpportunist 1_1
   - first:
-      213: 2616989488636469142
-    second: ScribeOpportunist_2
+      213: -3963827379145492031
+    second: ScribeOpportunist 1_2
   - first:
-      213: -4276406210513925100
-    second: ScribeOpportunist_3
+      213: -901813729955885616
+    second: ScribeOpportunist 1_3
   - first:
-      213: 3890743422876505159
-    second: ScribeOpportunist_4
+      213: 2143680069733811422
+    second: ScribeOpportunist 1_4
   - first:
-      213: -2237397959162843660
-    second: ScribeOpportunist_5
+      213: -4908558875027424730
+    second: ScribeOpportunist 1_5
   - first:
-      213: -4813035833772577738
-    second: ScribeOpportunist_6
+      213: 8688685069252062349
+    second: ScribeOpportunist 1_6
   - first:
-      213: -7313446959790906471
-    second: ScribeOpportunist_7
+      213: 3166664773040414913
+    second: ScribeOpportunist 1_7
   - first:
-      213: -8472157870520764335
-    second: ScribeOpportunist_8
+      213: 6752105186854736668
+    second: ScribeOpportunist 1_8
   - first:
-      213: 1800213103845088835
-    second: ScribeOpportunist_9
+      213: -4428677332172019441
+    second: ScribeOpportunist 1_9
   - first:
-      213: -3703819376061123655
-    second: ScribeOpportunist_10
+      213: 100648616600823433
+    second: ScribeOpportunist 1_10
   - first:
-      213: 1297387183447557931
-    second: ScribeOpportunist_11
+      213: -7260411632577073159
+    second: ScribeOpportunist 1_11
   - first:
-      213: -8262178105361082646
-    second: ScribeOpportunist_12
+      213: 6502488074392166377
+    second: ScribeOpportunist 1_12
   - first:
-      213: -2086040538235842297
-    second: ScribeOpportunist_13
+      213: 4206785442991216479
+    second: ScribeOpportunist 1_13
   - first:
-      213: 1222426932973275614
-    second: ScribeOpportunist_14
+      213: -3000276024499827243
+    second: ScribeOpportunist 1_14
   - first:
-      213: 2679285589636650799
-    second: ScribeOpportunist_15
+      213: 1978163687836643520
+    second: ScribeOpportunist 1_15
   - first:
-      213: -7722819005842269468
-    second: ScribeOpportunist_16
+      213: 266305572849812300
+    second: ScribeOpportunist 1_16
   - first:
-      213: 1762902786457928389
-    second: ScribeOpportunist_17
+      213: -4593586987322401445
+    second: ScribeOpportunist 1_17
   - first:
-      213: 2409841354983702188
-    second: ScribeOpportunist_18
+      213: 4890384998866707255
+    second: ScribeOpportunist 1_18
   - first:
-      213: -2980322162921504588
-    second: ScribeOpportunist_19
+      213: 6100810576831836598
+    second: ScribeOpportunist 1_19
   - first:
-      213: 7659610976022658017
-    second: ScribeOpportunist_20
+      213: 5384507347747191179
+    second: ScribeOpportunist 1_20
   - first:
-      213: 2492531176561127679
-    second: ScribeOpportunist_21
+      213: -4786012038813181722
+    second: ScribeOpportunist 1_21
   - first:
-      213: 6208093061811966900
-    second: ScribeOpportunist_22
+      213: 3730601732471361031
+    second: ScribeOpportunist 1_22
   - first:
-      213: 8614391337696173925
-    second: ScribeOpportunist_23
+      213: -1093177447987707661
+    second: ScribeOpportunist 1_23
   - first:
-      213: 551041987146187044
-    second: ScribeOpportunist_24
+      213: 6748768154543654931
+    second: ScribeOpportunist 1_24
   - first:
-      213: 545921667334403296
-    second: ScribeOpportunist_25
+      213: -7485991682774880709
+    second: ScribeOpportunist 1_25
   - first:
-      213: -3397072479062101105
-    second: ScribeOpportunist_26
+      213: 9158077487562936381
+    second: ScribeOpportunist 1_26
   - first:
-      213: -2797928952149641684
-    second: ScribeOpportunist_27
+      213: -2307376982288900410
+    second: ScribeOpportunist 1_27
   - first:
-      213: 1253585943264606119
-    second: ScribeOpportunist_28
+      213: 1064865913014725590
+    second: ScribeOpportunist 1_28
   - first:
-      213: 1071425785669847612
-    second: ScribeOpportunist_29
+      213: 7069829962265509452
+    second: ScribeOpportunist 1_29
   - first:
-      213: -2001326284833179727
-    second: ScribeOpportunist_30
+      213: 3641592151881990787
+    second: ScribeOpportunist 1_30
   - first:
-      213: 374493828638574162
-    second: ScribeOpportunist_31
+      213: 6687537002328301248
+    second: ScribeOpportunist 1_31
   - first:
-      213: -4156807028961797344
-    second: ScribeOpportunist_32
+      213: 1879079388547623796
+    second: ScribeOpportunist 1_32
   - first:
-      213: 1386797522214682457
-    second: ScribeOpportunist_33
+      213: -6911230392401864640
+    second: ScribeOpportunist 1_33
   - first:
-      213: -595655751910843612
-    second: ScribeOpportunist_34
+      213: 4337727927068691076
+    second: ScribeOpportunist 1_34
   - first:
-      213: -1704804604152385360
-    second: ScribeOpportunist_35
+      213: 5986453772783222409
+    second: ScribeOpportunist 1_35
   - first:
-      213: 7725968027060275348
-    second: ScribeOpportunist_36
+      213: 4588625068543913221
+    second: ScribeOpportunist 1_36
   - first:
-      213: -2145448914136327459
-    second: ScribeOpportunist_37
+      213: 5739637679893153525
+    second: ScribeOpportunist 1_37
   - first:
-      213: -1032685034293128923
-    second: ScribeOpportunist_38
+      213: -1129399090004542414
+    second: ScribeOpportunist 1_38
   - first:
-      213: 6867625525930610791
-    second: ScribeOpportunist_39
+      213: -5952395398927691540
+    second: ScribeOpportunist 1_39
   - first:
-      213: -3726028080756516048
-    second: ScribeOpportunist_40
+      213: 8611302998677453496
+    second: ScribeOpportunist 1_40
   - first:
-      213: 8898855498784275982
-    second: ScribeOpportunist_41
+      213: -7692329151223682582
+    second: ScribeOpportunist 1_41
   - first:
-      213: -518467719783564921
-    second: ScribeOpportunist_42
+      213: 8561606691067719698
+    second: ScribeOpportunist 1_42
   - first:
-      213: 7198070728631595402
-    second: ScribeOpportunist_43
+      213: 4621604431643778154
+    second: ScribeOpportunist 1_43
   - first:
-      213: 5965224679831324969
-    second: ScribeOpportunist_44
+      213: 4595884798485161232
+    second: ScribeOpportunist 1_44
   - first:
-      213: 6315912860051124082
-    second: ScribeOpportunist_45
+      213: 4097701340868525654
+    second: ScribeOpportunist 1_45
   - first:
-      213: 6440565885582858732
-    second: ScribeOpportunist_46
+      213: 7677032067368159175
+    second: ScribeOpportunist 1_46
   - first:
-      213: 7873721388239657966
-    second: ScribeOpportunist_47
+      213: -1971223184760523164
+    second: ScribeOpportunist 1_47
   - first:
-      213: 1678918421027835615
-    second: ScribeOpportunist_48
+      213: 5811803931066552798
+    second: ScribeOpportunist 1_48
   - first:
-      213: -123411729674238106
-    second: ScribeOpportunist_49
+      213: 4197985844832898236
+    second: ScribeOpportunist 1_49
   - first:
-      213: -3065933904723489243
-    second: ScribeOpportunist_50
+      213: 1962894790289488932
+    second: ScribeOpportunist 1_50
   - first:
-      213: -5188556356236525151
-    second: ScribeOpportunist_51
+      213: 3645395396894390631
+    second: ScribeOpportunist 1_51
   - first:
-      213: -5766931587636244155
-    second: ScribeOpportunist_52
+      213: -8424137293164596147
+    second: ScribeOpportunist 1_52
   - first:
-      213: 4630811645351808313
-    second: ScribeOpportunist_53
+      213: -8922872372168573474
+    second: ScribeOpportunist 1_53
   - first:
-      213: 2726346621337354276
-    second: ScribeOpportunist_54
+      213: -6148382755258626908
+    second: ScribeOpportunist 1_54
   - first:
-      213: -2780440747857082743
-    second: ScribeOpportunist_55
+      213: 4167040118960665616
+    second: ScribeOpportunist 1_55
   - first:
-      213: -768785113427932870
-    second: ScribeOpportunist_56
+      213: -1315020848423997743
+    second: ScribeOpportunist 1_56
   - first:
-      213: 4099160009942355142
-    second: ScribeOpportunist_57
+      213: -6188558010816051345
+    second: ScribeOpportunist 1_57
   - first:
-      213: -1593694175154182706
-    second: ScribeOpportunist_58
+      213: 8264632707778659495
+    second: ScribeOpportunist 1_58
   - first:
-      213: -4621109509325979378
-    second: ScribeOpportunist_59
+      213: -5913199869161696677
+    second: ScribeOpportunist 1_59
   - first:
-      213: 9152303694633912042
-    second: ScribeOpportunist_60
+      213: 6796810047498390609
+    second: ScribeOpportunist 1_60
   - first:
-      213: -2508422507629712430
-    second: ScribeOpportunist_61
+      213: 6125714213937695243
+    second: ScribeOpportunist 1_61
   - first:
-      213: -2342981171845061654
-    second: ScribeOpportunist_62
+      213: 2140678175051476971
+    second: ScribeOpportunist 1_62
   - first:
-      213: 4875315188081993219
-    second: ScribeOpportunist_63
+      213: -5247030075473921849
+    second: ScribeOpportunist 1_63
   - first:
-      213: 6531504017841371474
-    second: ScribeOpportunist_64
+      213: 701338379756886677
+    second: ScribeOpportunist 1_64
   - first:
-      213: 5413728683163411439
-    second: ScribeOpportunist_65
+      213: -2147692956319235538
+    second: ScribeOpportunist 1_65
   - first:
-      213: 612158665641928323
-    second: ScribeOpportunist_66
+      213: 6120454911619245254
+    second: ScribeOpportunist 1_66
   - first:
-      213: -6222018347942125372
-    second: ScribeOpportunist_67
+      213: -6833477054657772324
+    second: ScribeOpportunist 1_67
   - first:
-      213: -6257575676075799437
-    second: ScribeOpportunist_68
+      213: 490289231490684287
+    second: ScribeOpportunist 1_68
   - first:
-      213: -5990187600720062919
-    second: ScribeOpportunist_69
+      213: 1522959103563850292
+    second: ScribeOpportunist 1_69
   - first:
-      213: 6406117512383696009
-    second: ScribeOpportunist_70
+      213: 3270973539943770728
+    second: ScribeOpportunist 1_70
   - first:
-      213: 9157201743460261972
-    second: ScribeOpportunist_71
+      213: -852829260814674508
+    second: ScribeOpportunist 1_71
   - first:
-      213: -8573059509821280590
-    second: ScribeOpportunist_72
+      213: -6612166263789111214
+    second: ScribeOpportunist 1_72
   - first:
-      213: -216914179771396574
-    second: ScribeOpportunist_73
+      213: 4679362999263500159
+    second: ScribeOpportunist 1_73
   - first:
-      213: 849071874937558976
-    second: ScribeOpportunist_74
+      213: 365306422975405601
+    second: ScribeOpportunist 1_74
   - first:
-      213: -3999788523994904197
-    second: ScribeOpportunist_75
+      213: 7800638086185319289
+    second: ScribeOpportunist 1_75
   - first:
-      213: -6815727753584988764
-    second: ScribeOpportunist_76
+      213: 8371191805792825437
+    second: ScribeOpportunist 1_76
+  - first:
+      213: 9132113530807337936
+    second: ScribeOpportunist 1_77
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -354,12 +357,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScribeOpportunist_0
+      name: ScribeOpportunist 1_0
       rect:
         serializedVersion: 2
         x: 13
         y: 666
-        width: 312
+        width: 308
         height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -369,19 +372,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 986b5fc6dba8de000800000000000000
-      internalID: 66862115661919881
+      spriteID: 49c9a0b5376357780800000000000000
+      internalID: -8685976437237572460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_1
+      name: ScribeOpportunist 1_1
       rect:
         serializedVersion: 2
-        x: 353
+        x: 213
+        y: 309
+        width: 446
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a101bb2e0a918970800000000000000
+      internalID: 8755448536238195106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOpportunist 1_2
+      rect:
+        serializedVersion: 2
+        x: 354
         y: 1024
-        width: 12
+        width: 11
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -391,19 +416,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96074d3331ec8cd90800000000000000
-      internalID: -7077180232543473559
+      spriteID: 1c9b01bfff7adf8c0800000000000000
+      internalID: -3963827379145492031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_2
+      name: ScribeOpportunist 1_3
       rect:
         serializedVersion: 2
         x: 357
         y: 1034
-        width: 8
+        width: 6
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -413,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69f9b13131a615420800000000000000
-      internalID: 2616989488636469142
+      spriteID: 0ddc86cc03d1c73f0800000000000000
+      internalID: -901813729955885616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_3
+      name: ScribeOpportunist 1_4
       rect:
         serializedVersion: 2
         x: 394
@@ -435,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41c0b0b753727a4c0800000000000000
-      internalID: -4276406210513925100
+      spriteID: ed4819c6aa1efbd10800000000000000
+      internalID: 2143680069733811422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_4
+      name: ScribeOpportunist 1_5
       rect:
         serializedVersion: 2
-        x: 213
-        y: 309
-        width: 446
-        height: 702
+        x: 609
+        y: 854
+        width: 163
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,20 +482,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 744ddb07782bef530800000000000000
-      internalID: 3890743422876505159
+      spriteID: 62a36e6b5bb41ebb0800000000000000
+      internalID: -4908558875027424730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_5
+      name: ScribeOpportunist 1_6
       rect:
         serializedVersion: 2
-        x: 354
-        y: 1011
-        width: 11
-        height: 16
+        x: 356
+        y: 1019
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,14 +504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fd2aee096a23f0e0800000000000000
-      internalID: -2237397959162843660
+      spriteID: d8c620e2909649870800000000000000
+      internalID: 8688685069252062349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_6
+      name: ScribeOpportunist 1_7
       rect:
         serializedVersion: 2
         x: 20
@@ -501,14 +526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63c62c4e869a43db0800000000000000
-      internalID: -4813035833772577738
+      spriteID: 1c021d755d042fb20800000000000000
+      internalID: 3166664773040414913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_7
+      name: ScribeOpportunist 1_8
       rect:
         serializedVersion: 2
         x: 30
@@ -523,14 +548,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 993a0060dba618a90800000000000000
-      internalID: -7313446959790906471
+      spriteID: c139c8ca4eb44bd50800000000000000
+      internalID: 6752105186854736668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_8
+      name: ScribeOpportunist 1_9
       rect:
         serializedVersion: 2
         x: 38
@@ -545,14 +570,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 158749edd49dc6a80800000000000000
-      internalID: -8472157870520764335
+      spriteID: f09ef073e6d2a82c0800000000000000
+      internalID: -4428677332172019441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_9
+      name: ScribeOpportunist 1_10
       rect:
         serializedVersion: 2
         x: 49
@@ -567,14 +592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34e90bea744abf810800000000000000
-      internalID: 1800213103845088835
+      spriteID: 98660af2263956100800000000000000
+      internalID: 100648616600823433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_10
+      name: ScribeOpportunist 1_11
       rect:
         serializedVersion: 2
         x: 88
@@ -589,14 +614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b3faa1b6e3699cc0800000000000000
-      internalID: -3703819376061123655
+      spriteID: 9ff21256616dd3b90800000000000000
+      internalID: -7260411632577073159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_11
+      name: ScribeOpportunist 1_12
       rect:
         serializedVersion: 2
         x: 90
@@ -611,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b27498df4ce310210800000000000000
-      internalID: 1297387183447557931
+      spriteID: 9efdb56b37a7d3a50800000000000000
+      internalID: 6502488074392166377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_12
+      name: ScribeOpportunist 1_13
       rect:
         serializedVersion: 2
         x: 110
@@ -633,14 +658,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae651feb9c8d65d80800000000000000
-      internalID: -8262178105361082646
+      spriteID: f5796c76211816a30800000000000000
+      internalID: 4206785442991216479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_13
+      name: ScribeOpportunist 1_14
       rect:
         serializedVersion: 2
         x: 137
@@ -655,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 701536bce25ec03e0800000000000000
-      internalID: -2086040538235842297
+      spriteID: 5dd01931ad0ec56d0800000000000000
+      internalID: -3000276024499827243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_14
+      name: ScribeOpportunist 1_15
       rect:
         serializedVersion: 2
         x: 93
@@ -677,14 +702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed90ebf91dee6f010800000000000000
-      internalID: 1222426932973275614
+      spriteID: 0c07411b469d37b10800000000000000
+      internalID: 1978163687836643520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_15
+      name: ScribeOpportunist 1_16
       rect:
         serializedVersion: 2
         x: 100
@@ -699,14 +724,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f279d1e5c0cbe2520800000000000000
-      internalID: 2679285589636650799
+      spriteID: c438b6fe18b12b300800000000000000
+      internalID: 266305572849812300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_16
+      name: ScribeOpportunist 1_17
       rect:
         serializedVersion: 2
         x: 104
@@ -721,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ead22c080903d490800000000000000
-      internalID: -7722819005842269468
+      spriteID: b5d9acf09fc4040c0800000000000000
+      internalID: -4593586987322401445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_17
+      name: ScribeOpportunist 1_18
       rect:
         serializedVersion: 2
         x: 115
@@ -743,14 +768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c20f587eb6177810800000000000000
-      internalID: 1762902786457928389
+      spriteID: 73369500f332ed340800000000000000
+      internalID: 4890384998866707255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_18
+      name: ScribeOpportunist 1_19
       rect:
         serializedVersion: 2
         x: 169
@@ -765,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cae79d8c1f9717120800000000000000
-      internalID: 2409841354983702188
+      spriteID: 6b1f10a65ee6aa450800000000000000
+      internalID: 6100810576831836598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_19
+      name: ScribeOpportunist 1_20
       rect:
         serializedVersion: 2
         x: 189
@@ -787,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b007d288c4c3a6d0800000000000000
-      internalID: -2980322162921504588
+      spriteID: b89b3f887ec99ba40800000000000000
+      internalID: 5384507347747191179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_20
+      name: ScribeOpportunist 1_21
       rect:
         serializedVersion: 2
         x: 189
@@ -809,14 +834,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1eb738fa9976c4a60800000000000000
-      internalID: 7659610976022658017
+      spriteID: 6e81cc7786ba49db0800000000000000
+      internalID: -4786012038813181722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_21
+      name: ScribeOpportunist 1_22
       rect:
         serializedVersion: 2
         x: 172
@@ -831,14 +856,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff0338a26ef379220800000000000000
-      internalID: 2492531176561127679
+      spriteID: 70e89669282c5c330800000000000000
+      internalID: 3730601732471361031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_22
+      name: ScribeOpportunist 1_23
       rect:
         serializedVersion: 2
         x: 200
@@ -853,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b39ed17fb3972650800000000000000
-      internalID: 6208093061811966900
+      spriteID: 3f0893827e044d0f0800000000000000
+      internalID: -1093177447987707661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_23
+      name: ScribeOpportunist 1_24
       rect:
         serializedVersion: 2
         x: 55
@@ -875,14 +900,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56f1597d7477c8770800000000000000
-      internalID: 8614391337696173925
+      spriteID: 3180b0b41e078ad50800000000000000
+      internalID: 6748768154543654931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_24
+      name: ScribeOpportunist 1_25
       rect:
         serializedVersion: 2
         x: 74
@@ -897,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4218c2c84c1b5a700800000000000000
-      internalID: 551041987146187044
+      spriteID: b3eacac1a3a6c1890800000000000000
+      internalID: -7485991682774880709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_25
+      name: ScribeOpportunist 1_26
       rect:
         serializedVersion: 2
         x: 80
@@ -919,14 +944,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e4f7a03dd0839700800000000000000
-      internalID: 545921667334403296
+      spriteID: d30d0bf04f6081f70800000000000000
+      internalID: 9158077487562936381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_26
+      name: ScribeOpportunist 1_27
       rect:
         serializedVersion: 2
         x: 13
@@ -941,14 +966,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f837f39249c2bd0d0800000000000000
-      internalID: -3397072479062101105
+      spriteID: 6ced1cf0cdc8affd0800000000000000
+      internalID: -2307376982288900410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_27
+      name: ScribeOpportunist 1_28
       rect:
         serializedVersion: 2
         x: 83
@@ -963,14 +988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c26f65c2172cb29d0800000000000000
-      internalID: -2797928952149641684
+      spriteID: 6db2aaee7e927ce00800000000000000
+      internalID: 1064865913014725590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_28
+      name: ScribeOpportunist 1_29
       rect:
         serializedVersion: 2
         x: 93
@@ -985,14 +1010,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a7b5bb06c1a56110800000000000000
-      internalID: 1253585943264606119
+      spriteID: c4ebf33a4e41d1260800000000000000
+      internalID: 7069829962265509452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_29
+      name: ScribeOpportunist 1_30
       rect:
         serializedVersion: 2
         x: 432
@@ -1007,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3a8b0e43187ede00800000000000000
-      internalID: 1071425785669847612
+      spriteID: 382c6c5a4c8898230800000000000000
+      internalID: 3641592151881990787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_30
+      name: ScribeOpportunist 1_31
       rect:
         serializedVersion: 2
         x: 612
@@ -1029,14 +1054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b7bdd0f85cd934e0800000000000000
-      internalID: -2001326284833179727
+      spriteID: 0ce1f06b877eecc50800000000000000
+      internalID: 6687537002328301248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_31
+      name: ScribeOpportunist 1_32
       rect:
         serializedVersion: 2
         x: 695
@@ -1051,14 +1076,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 256049a2728723500800000000000000
-      internalID: 374493828638574162
+      spriteID: 47ba3238fb4d31a10800000000000000
+      internalID: 1879079388547623796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_32
+      name: ScribeOpportunist 1_33
       rect:
         serializedVersion: 2
         x: 181
@@ -1073,14 +1098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02b92e6e70e0056c0800000000000000
-      internalID: -4156807028961797344
+      spriteID: 048d00c43906610a0800000000000000
+      internalID: -6911230392401864640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_33
+      name: ScribeOpportunist 1_34
       rect:
         serializedVersion: 2
         x: 249
@@ -1095,14 +1120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f7ff6bff4ee3310800000000000000
-      internalID: 1386797522214682457
+      spriteID: 48a88314194b23c30800000000000000
+      internalID: 4337727927068691076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_34
+      name: ScribeOpportunist 1_35
       rect:
         serializedVersion: 2
         x: 320
@@ -1117,14 +1142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42b9fe2ef3ecbb7f0800000000000000
-      internalID: -595655751910843612
+      spriteID: 98e7a0f1df7241350800000000000000
+      internalID: 5986453772783222409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_35
+      name: ScribeOpportunist 1_36
       rect:
         serializedVersion: 2
         x: 381
@@ -1139,14 +1164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b0fb06be315758e0800000000000000
-      internalID: -1704804604152385360
+      spriteID: 50d230230321eaf30800000000000000
+      internalID: 4588625068543913221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_36
+      name: ScribeOpportunist 1_37
       rect:
         serializedVersion: 2
         x: 472
@@ -1161,14 +1186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49804f69cf6283b60800000000000000
-      internalID: 7725968027060275348
+      spriteID: 5f68a795f0a47af40800000000000000
+      internalID: 5739637679893153525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_37
+      name: ScribeOpportunist 1_38
       rect:
         serializedVersion: 2
         x: 539
@@ -1183,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dda18256495d932e0800000000000000
-      internalID: -2145448914136327459
+      spriteID: 23c31aee2819350f0800000000000000
+      internalID: -1129399090004542414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_38
+      name: ScribeOpportunist 1_39
       rect:
         serializedVersion: 2
         x: 605
@@ -1205,14 +1230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5219816ce6a2ba1f0800000000000000
-      internalID: -1032685034293128923
+      spriteID: ce0de3cfbe7d46da0800000000000000
+      internalID: -5952395398927691540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_39
+      name: ScribeOpportunist 1_40
       rect:
         serializedVersion: 2
         x: 644
@@ -1227,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 760df739705be4f50800000000000000
-      internalID: 6867625525930610791
+      spriteID: 8bafc61e37e718770800000000000000
+      internalID: 8611302998677453496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_40
+      name: ScribeOpportunist 1_41
       rect:
         serializedVersion: 2
         x: 29
@@ -1249,14 +1274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03b906fa33d7a4cc0800000000000000
-      internalID: -3726028080756516048
+      spriteID: ae92ee5846b5f3590800000000000000
+      internalID: -7692329151223682582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_41
+      name: ScribeOpportunist 1_42
       rect:
         serializedVersion: 2
         x: 96
@@ -1271,14 +1296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0e71909de51f7b70800000000000000
-      internalID: 8898855498784275982
+      spriteID: 210f2b79cefe0d670800000000000000
+      internalID: 8561606691067719698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_42
+      name: ScribeOpportunist 1_43
       rect:
         serializedVersion: 2
         x: 137
@@ -1293,14 +1318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7893bc61b580ec8f0800000000000000
-      internalID: -518467719783564921
+      spriteID: a6c9f788ebc332040800000000000000
+      internalID: 4621604431643778154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_43
+      name: ScribeOpportunist 1_44
       rect:
         serializedVersion: 2
         x: 278
@@ -1315,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a813930d03fa4e360800000000000000
-      internalID: 7198070728631595402
+      spriteID: 015635acfdcd7cf30800000000000000
+      internalID: 4595884798485161232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_44
+      name: ScribeOpportunist 1_45
       rect:
         serializedVersion: 2
         x: 311
@@ -1337,14 +1362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9294dbebd3cb8c250800000000000000
-      internalID: 5965224679831324969
+      spriteID: 65e3c12b8a5fdd830800000000000000
+      internalID: 4097701340868525654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_45
+      name: ScribeOpportunist 1_46
       rect:
         serializedVersion: 2
         x: 343
@@ -1359,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27f2ba77841a6a750800000000000000
-      internalID: 6315912860051124082
+      spriteID: 7c703c89dfb4a8a60800000000000000
+      internalID: 7677032067368159175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_46
+      name: ScribeOpportunist 1_47
       rect:
         serializedVersion: 2
         x: 383
@@ -1381,14 +1406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce95aa2ac8c716950800000000000000
-      internalID: 6440565885582858732
+      spriteID: 466b55b15fec4a4e0800000000000000
+      internalID: -1971223184760523164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_47
+      name: ScribeOpportunist 1_48
       rect:
         serializedVersion: 2
         x: 414
@@ -1403,14 +1428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eeb9b66c2e3154d60800000000000000
-      internalID: 7873721388239657966
+      spriteID: ed1d07f02eca7a050800000000000000
+      internalID: 5811803931066552798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_48
+      name: ScribeOpportunist 1_49
       rect:
         serializedVersion: 2
         x: 443
@@ -1425,14 +1450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fde493c9867bc4710800000000000000
-      internalID: 1678918421027835615
+      spriteID: cbc026d42ed324a30800000000000000
+      internalID: 4197985844832898236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_49
+      name: ScribeOpportunist 1_50
       rect:
         serializedVersion: 2
         x: 504
@@ -1447,14 +1472,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66786ab8fad894ef0800000000000000
-      internalID: -123411729674238106
+      spriteID: 42c7ba2796a9d3b10800000000000000
+      internalID: 1962894790289488932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_50
+      name: ScribeOpportunist 1_51
       rect:
         serializedVersion: 2
         x: 520
@@ -1469,14 +1494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52e41209b5d9375d0800000000000000
-      internalID: -3065933904723489243
+      spriteID: 769fbb1accb079230800000000000000
+      internalID: 3645395396894390631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_51
+      name: ScribeOpportunist 1_52
       rect:
         serializedVersion: 2
         x: 549
@@ -1491,14 +1516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a14d61fb7b8ef7b0800000000000000
-      internalID: -5188556356236525151
+      spriteID: d44bdcdc3c3771b80800000000000000
+      internalID: -8424137293164596147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_52
+      name: ScribeOpportunist 1_53
       rect:
         serializedVersion: 2
         x: 592
@@ -1513,14 +1538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54156fa864eb7ffa0800000000000000
-      internalID: -5766931587636244155
+      spriteID: eddbeb85ad69b2480800000000000000
+      internalID: -8922872372168573474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_53
+      name: ScribeOpportunist 1_54
       rect:
         serializedVersion: 2
         x: 636
@@ -1535,14 +1560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93dcfe608a2f34040800000000000000
-      internalID: 4630811645351808313
+      spriteID: 4ac0ca9a57e8caaa0800000000000000
+      internalID: -6148382755258626908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_54
+      name: ScribeOpportunist 1_55
       rect:
         serializedVersion: 2
         x: 665
@@ -1557,14 +1582,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 420466baecde5d520800000000000000
-      internalID: 2726346621337354276
+      spriteID: 014b37709ec44d930800000000000000
+      internalID: 4167040118960665616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_55
+      name: ScribeOpportunist 1_56
       rect:
         serializedVersion: 2
         x: 690
@@ -1579,14 +1604,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98605f80fd3e969d0800000000000000
-      internalID: -2780440747857082743
+      spriteID: 1de6471718b10cde0800000000000000
+      internalID: -1315020848423997743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_56
+      name: ScribeOpportunist 1_57
       rect:
         serializedVersion: 2
         x: 706
@@ -1601,14 +1626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a390585330ab455f0800000000000000
-      internalID: -768785113427932870
+      spriteID: f67496d0743dd1aa0800000000000000
+      internalID: -6188558010816051345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_57
+      name: ScribeOpportunist 1_58
       rect:
         serializedVersion: 2
         x: 738
@@ -1623,14 +1648,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ccc91e8f4423e830800000000000000
-      internalID: 4099160009942355142
+      spriteID: 7a4c83ae8afd1b270800000000000000
+      internalID: 8264632707778659495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_58
+      name: ScribeOpportunist 1_59
       rect:
         serializedVersion: 2
         x: 776
@@ -1645,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec56359679f02e9e0800000000000000
-      internalID: -1593694175154182706
+      spriteID: b521bb86c0810fda0800000000000000
+      internalID: -5913199869161696677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_59
+      name: ScribeOpportunist 1_60
       rect:
         serializedVersion: 2
         x: 33
@@ -1667,14 +1692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e01027c82658edfb0800000000000000
-      internalID: -4621109509325979378
+      spriteID: 15c82f62abe135e50800000000000000
+      internalID: 6796810047498390609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_60
+      name: ScribeOpportunist 1_61
       rect:
         serializedVersion: 2
         x: 99
@@ -1689,14 +1714,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae6462328b3830f70800000000000000
-      internalID: 9152303694633912042
+      spriteID: b0a41554f98e20550800000000000000
+      internalID: 6125714213937695243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_61
+      name: ScribeOpportunist 1_62
       rect:
         serializedVersion: 2
         x: 171
@@ -1711,14 +1736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dbe22ef40b403dd0800000000000000
-      internalID: -2508422507629712430
+      spriteID: befef5a557735bd10800000000000000
+      internalID: 2140678175051476971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_62
+      name: ScribeOpportunist 1_63
       rect:
         serializedVersion: 2
         x: 278
@@ -1733,14 +1758,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae32fb0b90f0c7fd0800000000000000
-      internalID: -2342981171845061654
+      spriteID: 7c8f59142fdce27b0800000000000000
+      internalID: -5247030075473921849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_63
+      name: ScribeOpportunist 1_64
       rect:
         serializedVersion: 2
         x: 311
@@ -1755,14 +1780,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 306a1b1455998a340800000000000000
-      internalID: 4875315188081993219
+      spriteID: 59ad1c06a87abb900800000000000000
+      internalID: 701338379756886677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_64
+      name: ScribeOpportunist 1_65
       rect:
         serializedVersion: 2
         x: 343
@@ -1777,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 259b8708c4094aa50800000000000000
-      internalID: 6531504017841371474
+      spriteID: e22cbfb92acd132e0800000000000000
+      internalID: -2147692956319235538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_65
+      name: ScribeOpportunist 1_66
       rect:
         serializedVersion: 2
         x: 383
@@ -1799,14 +1824,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe36c4edd8d612b40800000000000000
-      internalID: 5413728683163411439
+      spriteID: 6c42cd6805930f450800000000000000
+      internalID: 6120454911619245254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_66
+      name: ScribeOpportunist 1_67
       rect:
         serializedVersion: 2
         x: 414
@@ -1821,14 +1846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 386a3c32013de7800800000000000000
-      internalID: 612158665641928323
+      spriteID: cd44758f2dc9a21a0800000000000000
+      internalID: -6833477054657772324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_67
+      name: ScribeOpportunist 1_68
       rect:
         serializedVersion: 2
         x: 443
@@ -1843,14 +1868,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c062f83743f6a9a0800000000000000
-      internalID: -6222018347942125372
+      spriteID: f759338557bddc600800000000000000
+      internalID: 490289231490684287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_68
+      name: ScribeOpportunist 1_69
       rect:
         serializedVersion: 2
         x: 504
@@ -1865,14 +1890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37c8060a310a829a0800000000000000
-      internalID: -6257575676075799437
+      spriteID: 432ee575c33a22510800000000000000
+      internalID: 1522959103563850292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_69
+      name: ScribeOpportunist 1_70
       rect:
         serializedVersion: 2
         x: 520
@@ -1887,14 +1912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93691215d149edca0800000000000000
-      internalID: -5990187600720062919
+      spriteID: 86aec0eaa15d46d20800000000000000
+      internalID: 3270973539943770728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_70
+      name: ScribeOpportunist 1_71
       rect:
         serializedVersion: 2
         x: 592
@@ -1909,14 +1934,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98c0a0bbfe917e850800000000000000
-      internalID: 6406117512383696009
+      spriteID: 4b515174e442a24f0800000000000000
+      internalID: -852829260814674508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_71
+      name: ScribeOpportunist 1_72
       rect:
         serializedVersion: 2
         x: 636
@@ -1931,14 +1956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 450698ff77ae41f70800000000000000
-      internalID: 9157201743460261972
+      spriteID: 258370bd0dddc34a0800000000000000
+      internalID: -6612166263789111214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_72
+      name: ScribeOpportunist 1_73
       rect:
         serializedVersion: 2
         x: 665
@@ -1953,14 +1978,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2be61de3ccf560980800000000000000
-      internalID: -8573059509821280590
+      spriteID: f7715320bdf60f040800000000000000
+      internalID: 4679362999263500159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_73
+      name: ScribeOpportunist 1_74
       rect:
         serializedVersion: 2
         x: 690
@@ -1975,14 +2000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22e0bf7e3bd5dfcf0800000000000000
-      internalID: -216914179771396574
+      spriteID: 12e1e979144d11500800000000000000
+      internalID: 365306422975405601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_74
+      name: ScribeOpportunist 1_75
       rect:
         serializedVersion: 2
         x: 706
@@ -1997,14 +2022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c79d662f5288cb00800000000000000
-      internalID: 849071874937558976
+      spriteID: 97b7574820f614c60800000000000000
+      internalID: 7800638086185319289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_75
+      name: ScribeOpportunist 1_76
       rect:
         serializedVersion: 2
         x: 738
@@ -2019,14 +2044,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b79899a7785ed78c0800000000000000
-      internalID: -3999788523994904197
+      spriteID: d5031fa48927c2470800000000000000
+      internalID: 8371191805792825437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOpportunist_76
+      name: ScribeOpportunist 1_77
       rect:
         serializedVersion: 2
         x: 776
@@ -2041,8 +2066,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4adabc928bba961a0800000000000000
-      internalID: -6815727753584988764
+      spriteID: 0d34f4c4fd8cbbe70800000000000000
+      internalID: 9132113530807337936
       vertices: []
       indices: 
       edges: []
@@ -2061,83 +2086,84 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScribeOpportunist_0: 66862115661919881
-      ScribeOpportunist_1: -7077180232543473559
-      ScribeOpportunist_10: -3703819376061123655
-      ScribeOpportunist_11: 1297387183447557931
-      ScribeOpportunist_12: -8262178105361082646
-      ScribeOpportunist_13: -2086040538235842297
-      ScribeOpportunist_14: 1222426932973275614
-      ScribeOpportunist_15: 2679285589636650799
-      ScribeOpportunist_16: -7722819005842269468
-      ScribeOpportunist_17: 1762902786457928389
-      ScribeOpportunist_18: 2409841354983702188
-      ScribeOpportunist_19: -2980322162921504588
-      ScribeOpportunist_2: 2616989488636469142
-      ScribeOpportunist_20: 7659610976022658017
-      ScribeOpportunist_21: 2492531176561127679
-      ScribeOpportunist_22: 6208093061811966900
-      ScribeOpportunist_23: 8614391337696173925
-      ScribeOpportunist_24: 551041987146187044
-      ScribeOpportunist_25: 545921667334403296
-      ScribeOpportunist_26: -3397072479062101105
-      ScribeOpportunist_27: -2797928952149641684
-      ScribeOpportunist_28: 1253585943264606119
-      ScribeOpportunist_29: 1071425785669847612
-      ScribeOpportunist_3: -4276406210513925100
-      ScribeOpportunist_30: -2001326284833179727
-      ScribeOpportunist_31: 374493828638574162
-      ScribeOpportunist_32: -4156807028961797344
-      ScribeOpportunist_33: 1386797522214682457
-      ScribeOpportunist_34: -595655751910843612
-      ScribeOpportunist_35: -1704804604152385360
-      ScribeOpportunist_36: 7725968027060275348
-      ScribeOpportunist_37: -2145448914136327459
-      ScribeOpportunist_38: -1032685034293128923
-      ScribeOpportunist_39: 6867625525930610791
-      ScribeOpportunist_4: 3890743422876505159
-      ScribeOpportunist_40: -3726028080756516048
-      ScribeOpportunist_41: 8898855498784275982
-      ScribeOpportunist_42: -518467719783564921
-      ScribeOpportunist_43: 7198070728631595402
-      ScribeOpportunist_44: 5965224679831324969
-      ScribeOpportunist_45: 6315912860051124082
-      ScribeOpportunist_46: 6440565885582858732
-      ScribeOpportunist_47: 7873721388239657966
-      ScribeOpportunist_48: 1678918421027835615
-      ScribeOpportunist_49: -123411729674238106
-      ScribeOpportunist_5: -2237397959162843660
-      ScribeOpportunist_50: -3065933904723489243
-      ScribeOpportunist_51: -5188556356236525151
-      ScribeOpportunist_52: -5766931587636244155
-      ScribeOpportunist_53: 4630811645351808313
-      ScribeOpportunist_54: 2726346621337354276
-      ScribeOpportunist_55: -2780440747857082743
-      ScribeOpportunist_56: -768785113427932870
-      ScribeOpportunist_57: 4099160009942355142
-      ScribeOpportunist_58: -1593694175154182706
-      ScribeOpportunist_59: -4621109509325979378
-      ScribeOpportunist_6: -4813035833772577738
-      ScribeOpportunist_60: 9152303694633912042
-      ScribeOpportunist_61: -2508422507629712430
-      ScribeOpportunist_62: -2342981171845061654
-      ScribeOpportunist_63: 4875315188081993219
-      ScribeOpportunist_64: 6531504017841371474
-      ScribeOpportunist_65: 5413728683163411439
-      ScribeOpportunist_66: 612158665641928323
-      ScribeOpportunist_67: -6222018347942125372
-      ScribeOpportunist_68: -6257575676075799437
-      ScribeOpportunist_69: -5990187600720062919
-      ScribeOpportunist_7: -7313446959790906471
-      ScribeOpportunist_70: 6406117512383696009
-      ScribeOpportunist_71: 9157201743460261972
-      ScribeOpportunist_72: -8573059509821280590
-      ScribeOpportunist_73: -216914179771396574
-      ScribeOpportunist_74: 849071874937558976
-      ScribeOpportunist_75: -3999788523994904197
-      ScribeOpportunist_76: -6815727753584988764
-      ScribeOpportunist_8: -8472157870520764335
-      ScribeOpportunist_9: 1800213103845088835
+      ScribeOpportunist 1_0: -8685976437237572460
+      ScribeOpportunist 1_1: 8755448536238195106
+      ScribeOpportunist 1_10: 100648616600823433
+      ScribeOpportunist 1_11: -7260411632577073159
+      ScribeOpportunist 1_12: 6502488074392166377
+      ScribeOpportunist 1_13: 4206785442991216479
+      ScribeOpportunist 1_14: -3000276024499827243
+      ScribeOpportunist 1_15: 1978163687836643520
+      ScribeOpportunist 1_16: 266305572849812300
+      ScribeOpportunist 1_17: -4593586987322401445
+      ScribeOpportunist 1_18: 4890384998866707255
+      ScribeOpportunist 1_19: 6100810576831836598
+      ScribeOpportunist 1_2: -3963827379145492031
+      ScribeOpportunist 1_20: 5384507347747191179
+      ScribeOpportunist 1_21: -4786012038813181722
+      ScribeOpportunist 1_22: 3730601732471361031
+      ScribeOpportunist 1_23: -1093177447987707661
+      ScribeOpportunist 1_24: 6748768154543654931
+      ScribeOpportunist 1_25: -7485991682774880709
+      ScribeOpportunist 1_26: 9158077487562936381
+      ScribeOpportunist 1_27: -2307376982288900410
+      ScribeOpportunist 1_28: 1064865913014725590
+      ScribeOpportunist 1_29: 7069829962265509452
+      ScribeOpportunist 1_3: -901813729955885616
+      ScribeOpportunist 1_30: 3641592151881990787
+      ScribeOpportunist 1_31: 6687537002328301248
+      ScribeOpportunist 1_32: 1879079388547623796
+      ScribeOpportunist 1_33: -6911230392401864640
+      ScribeOpportunist 1_34: 4337727927068691076
+      ScribeOpportunist 1_35: 5986453772783222409
+      ScribeOpportunist 1_36: 4588625068543913221
+      ScribeOpportunist 1_37: 5739637679893153525
+      ScribeOpportunist 1_38: -1129399090004542414
+      ScribeOpportunist 1_39: -5952395398927691540
+      ScribeOpportunist 1_4: 2143680069733811422
+      ScribeOpportunist 1_40: 8611302998677453496
+      ScribeOpportunist 1_41: -7692329151223682582
+      ScribeOpportunist 1_42: 8561606691067719698
+      ScribeOpportunist 1_43: 4621604431643778154
+      ScribeOpportunist 1_44: 4595884798485161232
+      ScribeOpportunist 1_45: 4097701340868525654
+      ScribeOpportunist 1_46: 7677032067368159175
+      ScribeOpportunist 1_47: -1971223184760523164
+      ScribeOpportunist 1_48: 5811803931066552798
+      ScribeOpportunist 1_49: 4197985844832898236
+      ScribeOpportunist 1_5: -4908558875027424730
+      ScribeOpportunist 1_50: 1962894790289488932
+      ScribeOpportunist 1_51: 3645395396894390631
+      ScribeOpportunist 1_52: -8424137293164596147
+      ScribeOpportunist 1_53: -8922872372168573474
+      ScribeOpportunist 1_54: -6148382755258626908
+      ScribeOpportunist 1_55: 4167040118960665616
+      ScribeOpportunist 1_56: -1315020848423997743
+      ScribeOpportunist 1_57: -6188558010816051345
+      ScribeOpportunist 1_58: 8264632707778659495
+      ScribeOpportunist 1_59: -5913199869161696677
+      ScribeOpportunist 1_6: 8688685069252062349
+      ScribeOpportunist 1_60: 6796810047498390609
+      ScribeOpportunist 1_61: 6125714213937695243
+      ScribeOpportunist 1_62: 2140678175051476971
+      ScribeOpportunist 1_63: -5247030075473921849
+      ScribeOpportunist 1_64: 701338379756886677
+      ScribeOpportunist 1_65: -2147692956319235538
+      ScribeOpportunist 1_66: 6120454911619245254
+      ScribeOpportunist 1_67: -6833477054657772324
+      ScribeOpportunist 1_68: 490289231490684287
+      ScribeOpportunist 1_69: 1522959103563850292
+      ScribeOpportunist 1_7: 3166664773040414913
+      ScribeOpportunist 1_70: 3270973539943770728
+      ScribeOpportunist 1_71: -852829260814674508
+      ScribeOpportunist 1_72: -6612166263789111214
+      ScribeOpportunist 1_73: 4679362999263500159
+      ScribeOpportunist 1_74: 365306422975405601
+      ScribeOpportunist 1_75: 7800638086185319289
+      ScribeOpportunist 1_76: 8371191805792825437
+      ScribeOpportunist 1_77: 9132113530807337936
+      ScribeOpportunist 1_8: 6752105186854736668
+      ScribeOpportunist 1_9: -4428677332172019441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,166 +1,169 @@
 fileFormatVersion: 2
-guid: d565cfbddac4d42368dbcd2367a4d70d
+guid: a812aa54ae51743cdb9131af19c6d9ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4402852114331986939
-    second: ScribeHustler_0
+      213: -1197733297696197639
+    second: ScribeHustler 1_0
   - first:
-      213: -1553750044480990285
-    second: ScribeHustler_1
+      213: 3596807401280662796
+    second: ScribeHustler 1_1
   - first:
-      213: -3172241900672132483
-    second: ScribeHustler_2
+      213: 1897335588869859628
+    second: ScribeHustler 1_2
   - first:
-      213: -183819893073053940
-    second: ScribeHustler_3
+      213: 3785694970994484445
+    second: ScribeHustler 1_3
   - first:
-      213: -975897099904340398
-    second: ScribeHustler_4
+      213: -1248352774280705887
+    second: ScribeHustler 1_4
   - first:
-      213: 7124177729352650659
-    second: ScribeHustler_5
+      213: 1807355621666951933
+    second: ScribeHustler 1_5
   - first:
-      213: 8130397428744319206
-    second: ScribeHustler_6
+      213: -2097652829438525366
+    second: ScribeHustler 1_6
   - first:
-      213: -2336698772149336355
-    second: ScribeHustler_7
+      213: 6122235505568556551
+    second: ScribeHustler 1_7
   - first:
-      213: 4051769160912970447
-    second: ScribeHustler_8
+      213: -8681962639778467159
+    second: ScribeHustler 1_8
   - first:
-      213: -5994295966043893740
-    second: ScribeHustler_9
+      213: 3904394812887089248
+    second: ScribeHustler 1_9
   - first:
-      213: -8528123808992091739
-    second: ScribeHustler_10
+      213: 5043699496896447376
+    second: ScribeHustler 1_10
   - first:
-      213: -4335133191449604767
-    second: ScribeHustler_11
+      213: -7020803586823062411
+    second: ScribeHustler 1_11
   - first:
-      213: 5154215595480104303
-    second: ScribeHustler_12
+      213: 7110311715020661011
+    second: ScribeHustler 1_12
   - first:
-      213: -2643473082910824865
-    second: ScribeHustler_13
+      213: 5104735982789131587
+    second: ScribeHustler 1_13
   - first:
-      213: 8158258372695812655
-    second: ScribeHustler_14
+      213: -830695856888495034
+    second: ScribeHustler 1_14
   - first:
-      213: -5137511024158053915
-    second: ScribeHustler_15
+      213: 542246375970821545
+    second: ScribeHustler 1_15
   - first:
-      213: 7639644937288316857
-    second: ScribeHustler_16
+      213: 5151149040643051879
+    second: ScribeHustler 1_16
   - first:
-      213: -8904788144784067461
-    second: ScribeHustler_17
+      213: -6878959943174724109
+    second: ScribeHustler 1_17
   - first:
-      213: -4637999142180921380
-    second: ScribeHustler_18
+      213: -3762969471161973605
+    second: ScribeHustler 1_18
   - first:
-      213: 974833180810323882
-    second: ScribeHustler_19
+      213: -4858631021363430937
+    second: ScribeHustler 1_19
   - first:
-      213: -7360069722540616946
-    second: ScribeHustler_20
+      213: -4775865783289426671
+    second: ScribeHustler 1_20
   - first:
-      213: -2326595676596407995
-    second: ScribeHustler_21
+      213: 5307890032720490448
+    second: ScribeHustler 1_21
   - first:
-      213: 6075285382779031126
-    second: ScribeHustler_22
+      213: -3713988215491357092
+    second: ScribeHustler 1_22
   - first:
-      213: -1163833200997897072
-    second: ScribeHustler_23
+      213: 5306434025769537499
+    second: ScribeHustler 1_23
   - first:
-      213: -300665625081862655
-    second: ScribeHustler_24
+      213: -4497820694359988613
+    second: ScribeHustler 1_24
   - first:
-      213: -1146725683888187855
-    second: ScribeHustler_25
+      213: -7655828385639281588
+    second: ScribeHustler 1_25
   - first:
-      213: 7357276849620380774
-    second: ScribeHustler_26
+      213: -5190267086131621454
+    second: ScribeHustler 1_26
   - first:
-      213: -2397669917226433563
-    second: ScribeHustler_27
+      213: -7058386655816550158
+    second: ScribeHustler 1_27
   - first:
-      213: -5643443956546301381
-    second: ScribeHustler_28
+      213: 6470412722104434519
+    second: ScribeHustler 1_28
   - first:
-      213: 7527643198336593242
-    second: ScribeHustler_29
+      213: 4231081481624411429
+    second: ScribeHustler 1_29
   - first:
-      213: 7340145638264575049
-    second: ScribeHustler_30
+      213: -6815698135079289985
+    second: ScribeHustler 1_30
   - first:
-      213: -5827968186954172413
-    second: ScribeHustler_31
+      213: 4187259453860617564
+    second: ScribeHustler 1_31
   - first:
-      213: -7963895492166024396
-    second: ScribeHustler_32
+      213: -8698568481708119067
+    second: ScribeHustler 1_32
   - first:
-      213: 2704088850081899675
-    second: ScribeHustler_33
+      213: -6379872679340942910
+    second: ScribeHustler 1_33
   - first:
-      213: 8875986887505999884
-    second: ScribeHustler_34
+      213: 8193492525688164024
+    second: ScribeHustler 1_34
   - first:
-      213: 802553941767548150
-    second: ScribeHustler_35
+      213: 5704193070292412608
+    second: ScribeHustler 1_35
   - first:
-      213: -6570571915577673349
-    second: ScribeHustler_36
+      213: -4599230174302572605
+    second: ScribeHustler 1_36
   - first:
-      213: 8201240550237658966
-    second: ScribeHustler_37
+      213: -5546383565690074220
+    second: ScribeHustler 1_37
   - first:
-      213: 6390475200148660039
-    second: ScribeHustler_38
+      213: -5687779546750709553
+    second: ScribeHustler 1_38
   - first:
-      213: 6650935930900804246
-    second: ScribeHustler_39
+      213: -473587383489220096
+    second: ScribeHustler 1_39
   - first:
-      213: -5814180618114615305
-    second: ScribeHustler_40
+      213: 7500700096036650416
+    second: ScribeHustler 1_40
   - first:
-      213: 7731195430373249687
-    second: ScribeHustler_41
+      213: 7986308303125307373
+    second: ScribeHustler 1_41
   - first:
-      213: -7048925795195367558
-    second: ScribeHustler_42
+      213: -8057598202581594022
+    second: ScribeHustler 1_42
   - first:
-      213: 7002213747515234383
-    second: ScribeHustler_43
+      213: -6292950724459974567
+    second: ScribeHustler 1_43
   - first:
-      213: 2555935701194382621
-    second: ScribeHustler_44
+      213: 6004291687570018055
+    second: ScribeHustler 1_44
   - first:
-      213: 8049521670699286858
-    second: ScribeHustler_45
+      213: 2988650958080699006
+    second: ScribeHustler 1_45
   - first:
-      213: 6724468706111237238
-    second: ScribeHustler_46
+      213: 3049962398611409303
+    second: ScribeHustler 1_46
   - first:
-      213: -894733325253901236
-    second: ScribeHustler_47
+      213: 595203961540250587
+    second: ScribeHustler 1_47
   - first:
-      213: 3859374590115876454
-    second: ScribeHustler_48
+      213: 3088670463682600753
+    second: ScribeHustler 1_48
   - first:
-      213: 520509180338291569
-    second: ScribeHustler_49
+      213: 2516333618056991375
+    second: ScribeHustler 1_49
   - first:
-      213: -2754567078979790364
-    second: ScribeHustler_50
+      213: -7378919549761864470
+    second: ScribeHustler 1_50
   - first:
-      213: -7203000488766535126
-    second: ScribeHustler_51
+      213: -7838678919378842319
+    second: ScribeHustler 1_51
   - first:
-      213: -3507707285697082722
-    second: ScribeHustler_52
+      213: 3483819574901596509
+    second: ScribeHustler 1_52
+  - first:
+      213: 3867580199627393016
+    second: ScribeHustler 1_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -282,12 +285,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScribeHustler_0
+      name: ScribeHustler 1_0
       rect:
         serializedVersion: 2
         x: 13
         y: 666
-        width: 312
+        width: 308
         height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -297,19 +300,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5041aae445de5e2c0800000000000000
-      internalID: -4402852114331986939
+      spriteID: 9f3392f59ebc06fe0800000000000000
+      internalID: -1197733297696197639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_1
+      name: ScribeHustler 1_1
       rect:
         serializedVersion: 2
-        x: 353
+        x: 178
+        y: 309
+        width: 481
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d64d6564d6ae130800000000000000
+      internalID: 3596807401280662796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeHustler 1_2
+      rect:
+        serializedVersion: 2
+        x: 354
         y: 1024
-        width: 12
+        width: 11
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,19 +344,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b396f01198ff6ae0800000000000000
-      internalID: -1553750044480990285
+      spriteID: c296b426aa0b45a10800000000000000
+      internalID: 1897335588869859628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_2
+      name: ScribeHustler 1_3
       rect:
         serializedVersion: 2
         x: 357
         y: 1034
-        width: 8
+        width: 6
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -341,14 +366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7ad3d07ccee9f3d0800000000000000
-      internalID: -3172241900672132483
+      spriteID: dd4eb16c48d798430800000000000000
+      internalID: 3785694970994484445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_3
+      name: ScribeHustler 1_4
       rect:
         serializedVersion: 2
         x: 394
@@ -363,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c07fabaf7c0f27df0800000000000000
-      internalID: -183819893073053940
+      spriteID: 1a800ae04c5fcaee0800000000000000
+      internalID: -1248352774280705887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_4
+      name: ScribeHustler 1_5
       rect:
         serializedVersion: 2
-        x: 178
-        y: 309
-        width: 481
-        height: 702
+        x: 609
+        y: 854
+        width: 163
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25e2ed612cae472f0800000000000000
-      internalID: -975897099904340398
+      spriteID: df29344bc54051910800000000000000
+      internalID: 1807355621666951933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_5
+      name: ScribeHustler 1_6
       rect:
         serializedVersion: 2
-        x: 354
-        y: 1011
-        width: 11
-        height: 16
+        x: 356
+        y: 1019
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,14 +432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3af40da36e92ed260800000000000000
-      internalID: 7124177729352650659
+      spriteID: a40493f8dd3a3e2e0800000000000000
+      internalID: -2097652829438525366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_6
+      name: ScribeHustler 1_7
       rect:
         serializedVersion: 2
         x: 20
@@ -429,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e0fd0f7269f4d070800000000000000
-      internalID: 8130397428744319206
+      spriteID: 706a2bc51cc86f450800000000000000
+      internalID: 6122235505568556551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_7
+      name: ScribeHustler 1_8
       rect:
         serializedVersion: 2
         x: 30
@@ -451,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd682fad8d0629fd0800000000000000
-      internalID: -2336698772149336355
+      spriteID: 9a2bac66af8738780800000000000000
+      internalID: -8681962639778467159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_8
+      name: ScribeHustler 1_9
       rect:
         serializedVersion: 2
         x: 38
@@ -473,14 +498,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc2a91ca596ca3830800000000000000
-      internalID: 4051769160912970447
+      spriteID: 060430d55623f2630800000000000000
+      internalID: 3904394812887089248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_9
+      name: ScribeHustler 1_10
       rect:
         serializedVersion: 2
         x: 49
@@ -495,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4109569f39bffcca0800000000000000
-      internalID: -5994295966043893740
+      spriteID: 093445248f1def540800000000000000
+      internalID: 5043699496896447376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_10
+      name: ScribeHustler 1_11
       rect:
         serializedVersion: 2
         x: 88
@@ -517,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a1a974649406a980800000000000000
-      internalID: -8528123808992091739
+      spriteID: 57c7f99e558119e90800000000000000
+      internalID: -7020803586823062411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_11
+      name: ScribeHustler 1_12
       rect:
         serializedVersion: 2
         x: 90
@@ -539,14 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16d04a5b45386d3c0800000000000000
-      internalID: -4335133191449604767
+      spriteID: 311ea1035d6eca260800000000000000
+      internalID: 7110311715020661011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_12
+      name: ScribeHustler 1_13
       rect:
         serializedVersion: 2
         x: 110
@@ -561,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6dbe50a6c3778740800000000000000
-      internalID: 5154215595480104303
+      spriteID: 34dfc4e845aa7d640800000000000000
+      internalID: 5104735982789131587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_13
+      name: ScribeHustler 1_14
       rect:
         serializedVersion: 2
         x: 137
@@ -583,14 +608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f562bcf9c3f705bd0800000000000000
-      internalID: -2643473082910824865
+      spriteID: 644c5c5f486c874f0800000000000000
+      internalID: -830695856888495034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_14
+      name: ScribeHustler 1_15
       rect:
         serializedVersion: 2
         x: 93
@@ -605,14 +630,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2ae36204c4f73170800000000000000
-      internalID: 8158258372695812655
+      spriteID: 9a5db7cb432768700800000000000000
+      internalID: 542246375970821545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_15
+      name: ScribeHustler 1_16
       rect:
         serializedVersion: 2
         x: 100
@@ -627,14 +652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e9e76771f4e3b8b0800000000000000
-      internalID: -5137511024158053915
+      spriteID: 7619f90b2ce8c7740800000000000000
+      internalID: 5151149040643051879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_16
+      name: ScribeHustler 1_17
       rect:
         serializedVersion: 2
         x: 104
@@ -649,14 +674,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b77e290898750a60800000000000000
-      internalID: 7639644937288316857
+      spriteID: 3f5ede2c0660980a0800000000000000
+      internalID: -6878959943174724109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_17
+      name: ScribeHustler 1_18
       rect:
         serializedVersion: 2
         x: 115
@@ -671,14 +696,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b743906ac56db6480800000000000000
-      internalID: -8904788144784067461
+      spriteID: b9440caf33f37cbc0800000000000000
+      internalID: -3762969471161973605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_18
+      name: ScribeHustler 1_19
       rect:
         serializedVersion: 2
         x: 169
@@ -693,14 +718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf5db57a5482afb0800000000000000
-      internalID: -4637999142180921380
+      spriteID: 7e970f404dca29cb0800000000000000
+      internalID: -4858631021363430937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_19
+      name: ScribeHustler 1_20
       rect:
         serializedVersion: 2
         x: 189
@@ -715,14 +740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa7a671fc9d478d00800000000000000
-      internalID: 974833180810323882
+      spriteID: 11d471caf57b8bdb0800000000000000
+      internalID: -4775865783289426671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_20
+      name: ScribeHustler 1_21
       rect:
         serializedVersion: 2
         x: 189
@@ -737,14 +762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e03dbd92597cbd990800000000000000
-      internalID: -7360069722540616946
+      spriteID: 0df2423ccd969a940800000000000000
+      internalID: 5307890032720490448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_21
+      name: ScribeHustler 1_22
       rect:
         serializedVersion: 2
         x: 172
@@ -759,14 +784,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 541f2881f8546bfd0800000000000000
-      internalID: -2326595676596407995
+      spriteID: c5696a34563457cc0800000000000000
+      internalID: -3713988215491357092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_22
+      name: ScribeHustler 1_23
       rect:
         serializedVersion: 2
         x: 200
@@ -781,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65ecaad0edfbf4450800000000000000
-      internalID: 6075285382779031126
+      spriteID: bdf0a0ab1ad34a940800000000000000
+      internalID: 5306434025769537499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_23
+      name: ScribeHustler 1_24
       rect:
         serializedVersion: 2
         x: 55
@@ -803,14 +828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09ce6b4bedb39dfe0800000000000000
-      internalID: -1163833200997897072
+      spriteID: b76a541b8e78491c0800000000000000
+      internalID: -4497820694359988613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_24
+      name: ScribeHustler 1_25
       rect:
         serializedVersion: 2
         x: 74
@@ -825,14 +850,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10623dcf432d3dbf0800000000000000
-      internalID: -300665625081862655
+      spriteID: c4c4e9445a801c590800000000000000
+      internalID: -7655828385639281588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_25
+      name: ScribeHustler 1_26
       rect:
         serializedVersion: 2
         x: 80
@@ -847,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 136170de0130610f0800000000000000
-      internalID: -1146725683888187855
+      spriteID: 2b119b9959778f7b0800000000000000
+      internalID: -5190267086131621454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_26
+      name: ScribeHustler 1_27
       rect:
         serializedVersion: 2
         x: 13
@@ -869,14 +894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66ce3df605c4a1660800000000000000
-      internalID: 7357276849620380774
+      spriteID: 2f872b4cbb29b0e90800000000000000
+      internalID: -7058386655816550158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_27
+      name: ScribeHustler 1_28
       rect:
         serializedVersion: 2
         x: 83
@@ -891,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e30417e9e3c9bed0800000000000000
-      internalID: -2397669917226433563
+      spriteID: 75ff33bc6168bc950800000000000000
+      internalID: 6470412722104434519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_28
+      name: ScribeHustler 1_29
       rect:
         serializedVersion: 2
         x: 231
@@ -913,14 +938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b329b3c2f957ea1b0800000000000000
-      internalID: -5643443956546301381
+      spriteID: 52dd4f7b032d7ba30800000000000000
+      internalID: 4231081481624411429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_29
+      name: ScribeHustler 1_30
       rect:
         serializedVersion: 2
         x: 326
@@ -935,14 +960,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5decb01b9f877860800000000000000
-      internalID: 7527643198336593242
+      spriteID: f7b7e4248a6c961a0800000000000000
+      internalID: -6815698135079289985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_30
+      name: ScribeHustler 1_31
       rect:
         serializedVersion: 2
         x: 396
@@ -957,14 +982,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9449468719f6dd560800000000000000
-      internalID: 7340145638264575049
+      spriteID: c5d12c9c9422c1a30800000000000000
+      internalID: 4187259453860617564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_31
+      name: ScribeHustler 1_32
       rect:
         serializedVersion: 2
         x: 449
@@ -979,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 308b156dfc5ee1fa0800000000000000
-      internalID: -5827968186954172413
+      spriteID: 5ebe0698d0a784780800000000000000
+      internalID: -8698568481708119067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_32
+      name: ScribeHustler 1_33
       rect:
         serializedVersion: 2
         x: 529
@@ -1001,14 +1026,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4330c119e3f8a7190800000000000000
-      internalID: -7963895492166024396
+      spriteID: 2c9d9a3a9932677a0800000000000000
+      internalID: -6379872679340942910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_33
+      name: ScribeHustler 1_34
       rect:
         serializedVersion: 2
         x: 586
@@ -1023,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b94e9367b7ad68520800000000000000
-      internalID: 2704088850081899675
+      spriteID: 8be06778a0225b170800000000000000
+      internalID: 8193492525688164024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_34
+      name: ScribeHustler 1_35
       rect:
         serializedVersion: 2
         x: 29
@@ -1045,14 +1070,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c08f1d41c07dd2b70800000000000000
-      internalID: 8875986887505999884
+      spriteID: 0c82605106d592f40800000000000000
+      internalID: 5704193070292412608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_35
+      name: ScribeHustler 1_36
       rect:
         serializedVersion: 2
         x: 96
@@ -1067,14 +1092,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fce424de8e332b00800000000000000
-      internalID: 802553941767548150
+      spriteID: 3cfef6436804c20c0800000000000000
+      internalID: -4599230174302572605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_36
+      name: ScribeHustler 1_37
       rect:
         serializedVersion: 2
         x: 137
@@ -1089,14 +1114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b79b5d8b7a3a0d4a0800000000000000
-      internalID: -6570571915577673349
+      spriteID: 49b8af278894703b0800000000000000
+      internalID: -5546383565690074220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_37
+      name: ScribeHustler 1_38
       rect:
         serializedVersion: 2
         x: 278
@@ -1111,14 +1136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65fd17214d8a0d170800000000000000
-      internalID: 8201240550237658966
+      spriteID: fc0113b23a2f011b0800000000000000
+      internalID: -5687779546750709553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_38
+      name: ScribeHustler 1_39
       rect:
         serializedVersion: 2
         x: 311
@@ -1133,14 +1158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74fddca16578fa850800000000000000
-      internalID: 6390475200148660039
+      spriteID: 002b40da8ca7d69f0800000000000000
+      internalID: -473587383489220096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_39
+      name: ScribeHustler 1_40
       rect:
         serializedVersion: 2
         x: 343
@@ -1155,14 +1180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6927931bdfedc4c50800000000000000
-      internalID: 6650935930900804246
+      spriteID: 0bdb0073ff6d71860800000000000000
+      internalID: 7500700096036650416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_40
+      name: ScribeHustler 1_41
       rect:
         serializedVersion: 2
         x: 383
@@ -1177,14 +1202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f7315d5881ef4fa0800000000000000
-      internalID: -5814180618114615305
+      spriteID: def5982a61115de60800000000000000
+      internalID: 7986308303125307373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_41
+      name: ScribeHustler 1_42
       rect:
         serializedVersion: 2
         x: 414
@@ -1199,14 +1224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79255844849ba4b60800000000000000
-      internalID: 7731195430373249687
+      spriteID: a505c403029ad2090800000000000000
+      internalID: -8057598202581594022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_42
+      name: ScribeHustler 1_43
       rect:
         serializedVersion: 2
         x: 443
@@ -1221,14 +1246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7fca49065f2d2e90800000000000000
-      internalID: -7048925795195367558
+      spriteID: 950b68758a2faa8a0800000000000000
+      internalID: -6292950724459974567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_43
+      name: ScribeHustler 1_44
       rect:
         serializedVersion: 2
         x: 504
@@ -1243,14 +1268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f489006dd4cdc2160800000000000000
-      internalID: 7002213747515234383
+      spriteID: 70f017d4a77835350800000000000000
+      internalID: 6004291687570018055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_44
+      name: ScribeHustler 1_45
       rect:
         serializedVersion: 2
         x: 520
@@ -1265,14 +1290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1d1e627af1887320800000000000000
-      internalID: 2555935701194382621
+      spriteID: e7ae70a3632d97920800000000000000
+      internalID: 2988650958080699006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_45
+      name: ScribeHustler 1_46
       rect:
         serializedVersion: 2
         x: 549
@@ -1287,14 +1312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4107d1bf45a5bf60800000000000000
-      internalID: 8049521670699286858
+      spriteID: 799088364a4a35a20800000000000000
+      internalID: 3049962398611409303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_46
+      name: ScribeHustler 1_47
       rect:
         serializedVersion: 2
         x: 592
@@ -1309,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67cadf219ac125d50800000000000000
-      internalID: 6724468706111237238
+      spriteID: bdb038879d6924800800000000000000
+      internalID: 595203961540250587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_47
+      name: ScribeHustler 1_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1331,14 +1356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c44898bf7c44593f0800000000000000
-      internalID: -894733325253901236
+      spriteID: 13fda081c692dda20800000000000000
+      internalID: 3088670463682600753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_48
+      name: ScribeHustler 1_49
       rect:
         serializedVersion: 2
         x: 665
@@ -1353,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66e860bedb04f8530800000000000000
-      internalID: 3859374590115876454
+      spriteID: f8219a0f710dbe220800000000000000
+      internalID: 2516333618056991375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_49
+      name: ScribeHustler 1_50
       rect:
         serializedVersion: 2
         x: 690
@@ -1375,14 +1400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 173c46c7758393700800000000000000
-      internalID: 520509180338291569
+      spriteID: aec3242c3cfc89990800000000000000
+      internalID: -7378919549761864470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_50
+      name: ScribeHustler 1_51
       rect:
         serializedVersion: 2
         x: 706
@@ -1397,14 +1422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e99c6306dfc5c9d0800000000000000
-      internalID: -2754567078979790364
+      spriteID: 13dc41ecd0b673390800000000000000
+      internalID: -7838678919378842319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_51
+      name: ScribeHustler 1_52
       rect:
         serializedVersion: 2
         x: 738
@@ -1419,14 +1444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2a0b16f73dc90c90800000000000000
-      internalID: -7203000488766535126
+      spriteID: d51ef8ff173095030800000000000000
+      internalID: 3483819574901596509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeHustler_52
+      name: ScribeHustler 1_53
       rect:
         serializedVersion: 2
         x: 776
@@ -1441,8 +1466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9ac9fbeece125fc0800000000000000
-      internalID: -3507707285697082722
+      spriteID: 8f7002343b76ca530800000000000000
+      internalID: 3867580199627393016
       vertices: []
       indices: 
       edges: []
@@ -1461,59 +1486,60 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScribeHustler_0: -4402852114331986939
-      ScribeHustler_1: -1553750044480990285
-      ScribeHustler_10: -8528123808992091739
-      ScribeHustler_11: -4335133191449604767
-      ScribeHustler_12: 5154215595480104303
-      ScribeHustler_13: -2643473082910824865
-      ScribeHustler_14: 8158258372695812655
-      ScribeHustler_15: -5137511024158053915
-      ScribeHustler_16: 7639644937288316857
-      ScribeHustler_17: -8904788144784067461
-      ScribeHustler_18: -4637999142180921380
-      ScribeHustler_19: 974833180810323882
-      ScribeHustler_2: -3172241900672132483
-      ScribeHustler_20: -7360069722540616946
-      ScribeHustler_21: -2326595676596407995
-      ScribeHustler_22: 6075285382779031126
-      ScribeHustler_23: -1163833200997897072
-      ScribeHustler_24: -300665625081862655
-      ScribeHustler_25: -1146725683888187855
-      ScribeHustler_26: 7357276849620380774
-      ScribeHustler_27: -2397669917226433563
-      ScribeHustler_28: -5643443956546301381
-      ScribeHustler_29: 7527643198336593242
-      ScribeHustler_3: -183819893073053940
-      ScribeHustler_30: 7340145638264575049
-      ScribeHustler_31: -5827968186954172413
-      ScribeHustler_32: -7963895492166024396
-      ScribeHustler_33: 2704088850081899675
-      ScribeHustler_34: 8875986887505999884
-      ScribeHustler_35: 802553941767548150
-      ScribeHustler_36: -6570571915577673349
-      ScribeHustler_37: 8201240550237658966
-      ScribeHustler_38: 6390475200148660039
-      ScribeHustler_39: 6650935930900804246
-      ScribeHustler_4: -975897099904340398
-      ScribeHustler_40: -5814180618114615305
-      ScribeHustler_41: 7731195430373249687
-      ScribeHustler_42: -7048925795195367558
-      ScribeHustler_43: 7002213747515234383
-      ScribeHustler_44: 2555935701194382621
-      ScribeHustler_45: 8049521670699286858
-      ScribeHustler_46: 6724468706111237238
-      ScribeHustler_47: -894733325253901236
-      ScribeHustler_48: 3859374590115876454
-      ScribeHustler_49: 520509180338291569
-      ScribeHustler_5: 7124177729352650659
-      ScribeHustler_50: -2754567078979790364
-      ScribeHustler_51: -7203000488766535126
-      ScribeHustler_52: -3507707285697082722
-      ScribeHustler_6: 8130397428744319206
-      ScribeHustler_7: -2336698772149336355
-      ScribeHustler_8: 4051769160912970447
-      ScribeHustler_9: -5994295966043893740
+      ScribeHustler 1_0: -1197733297696197639
+      ScribeHustler 1_1: 3596807401280662796
+      ScribeHustler 1_10: 5043699496896447376
+      ScribeHustler 1_11: -7020803586823062411
+      ScribeHustler 1_12: 7110311715020661011
+      ScribeHustler 1_13: 5104735982789131587
+      ScribeHustler 1_14: -830695856888495034
+      ScribeHustler 1_15: 542246375970821545
+      ScribeHustler 1_16: 5151149040643051879
+      ScribeHustler 1_17: -6878959943174724109
+      ScribeHustler 1_18: -3762969471161973605
+      ScribeHustler 1_19: -4858631021363430937
+      ScribeHustler 1_2: 1897335588869859628
+      ScribeHustler 1_20: -4775865783289426671
+      ScribeHustler 1_21: 5307890032720490448
+      ScribeHustler 1_22: -3713988215491357092
+      ScribeHustler 1_23: 5306434025769537499
+      ScribeHustler 1_24: -4497820694359988613
+      ScribeHustler 1_25: -7655828385639281588
+      ScribeHustler 1_26: -5190267086131621454
+      ScribeHustler 1_27: -7058386655816550158
+      ScribeHustler 1_28: 6470412722104434519
+      ScribeHustler 1_29: 4231081481624411429
+      ScribeHustler 1_3: 3785694970994484445
+      ScribeHustler 1_30: -6815698135079289985
+      ScribeHustler 1_31: 4187259453860617564
+      ScribeHustler 1_32: -8698568481708119067
+      ScribeHustler 1_33: -6379872679340942910
+      ScribeHustler 1_34: 8193492525688164024
+      ScribeHustler 1_35: 5704193070292412608
+      ScribeHustler 1_36: -4599230174302572605
+      ScribeHustler 1_37: -5546383565690074220
+      ScribeHustler 1_38: -5687779546750709553
+      ScribeHustler 1_39: -473587383489220096
+      ScribeHustler 1_4: -1248352774280705887
+      ScribeHustler 1_40: 7500700096036650416
+      ScribeHustler 1_41: 7986308303125307373
+      ScribeHustler 1_42: -8057598202581594022
+      ScribeHustler 1_43: -6292950724459974567
+      ScribeHustler 1_44: 6004291687570018055
+      ScribeHustler 1_45: 2988650958080699006
+      ScribeHustler 1_46: 3049962398611409303
+      ScribeHustler 1_47: 595203961540250587
+      ScribeHustler 1_48: 3088670463682600753
+      ScribeHustler 1_49: 2516333618056991375
+      ScribeHustler 1_5: 1807355621666951933
+      ScribeHustler 1_50: -7378919549761864470
+      ScribeHustler 1_51: -7838678919378842319
+      ScribeHustler 1_52: 3483819574901596509
+      ScribeHustler 1_53: 3867580199627393016
+      ScribeHustler 1_6: -2097652829438525366
+      ScribeHustler 1_7: 6122235505568556551
+      ScribeHustler 1_8: -8681962639778467159
+      ScribeHustler 1_9: 3904394812887089248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -146,6 +146,9 @@ public class DeckManager : MonoBehaviour
 
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
 
+    [Header("Available Service Instructions")]
+    [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
+
     public bool IsGameOver()
     {
         return gameOver;
@@ -2343,6 +2346,11 @@ public void BeginNewGame()
         return;
     }
 
+    // Force every new game to begin with Player 1
+    turnManager.currentPlayerIndex = 0;
+
+    Debug.Log("BeginNewGame | currentPlayerIndex reset to Player 1");
+
     Debug.Log("BeginNewGame | clearing runtime data");
 
     // Clear all runtime data
@@ -4368,7 +4376,8 @@ void UpdateCrewCapacityDisplay()
 
     if (player.hand.Count > player.maxHandSize)
     {
-        crewCapacityText.text += " Dismiss 1";
+        int dismissCount = player.hand.Count - player.maxHandSize;
+        crewCapacityText.text += " Dismiss " + dismissCount;
     }
 }
 
@@ -4784,6 +4793,8 @@ private IEnumerator ActivateWizardImmediateActionSequence()
 
     pendingChoice = PendingChoiceType.None;
 
+    //availableServiceInstructionPanel.ShowWizardInstruction("Choose one of your referred recruits to return to your hand.");
+
     RefreshAllDisplays();
     RefreshAllHighlights();
     RefreshCrewCapacityDisplay();
@@ -4886,6 +4897,8 @@ private IEnumerator ActivateEngineerImmediateActionSequence()
 
     pendingChoice = PendingChoiceType.ChooseEngineerPrankReplacement;
 
+    availableServiceInstructionPanel.ShowEngineerInstruction("Choose an active prank to replace.");
+
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayChooseAPrankToGetRidOf();
 
@@ -4915,6 +4928,8 @@ private void ReplaceActivePrankAndMoveOldToBottom(int prankIndex)
     prankDeck.RemoveAt(0);
     activePranks[prankIndex] = newPrank;
     prankDeck.Add(oldPrank);
+
+    HideAvailableServiceInstruction();
 
     pendingChoice = PendingChoiceType.None;
 
@@ -5008,6 +5023,8 @@ private IEnumerator ActivateThiefImmediateActionSequence()
 
     pendingChoice = PendingChoiceType.ChooseThiefOpponentSteal;
 
+    availableServiceInstructionPanel.ShowThiefInstruction("Choose an opponent to poach a recruit from.");
+
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayChooseOpponentToPoachRecruitFrom();
 
@@ -5068,6 +5085,8 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
 
     SortCurrentPlayerHand();
 
+    HideAvailableServiceInstruction();
+
     pendingChoice = PendingChoiceType.None;
 
     RefreshAllDisplays();
@@ -5075,7 +5094,12 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
 
     Debug.Log("Stole random card from opponent: " + stolenCard.pranksterType);
 
-    FinishActionAndWaitForEndTurn();
+    RefreshCrewCapacityDisplay();
+
+    Debug.Log("THIEF HAND SIZE CHECK | hand=" + currentPlayer.hand.Count +
+            " | max=" + currentPlayer.maxHandSize);
+
+    ContinueDiscardingUntilHandAtMax();
 }
 
 public void ActivateScribeImmediateAction()
@@ -5139,6 +5163,8 @@ private IEnumerator ActivateScribeImmediateActionSequence()
 
     pendingChoice = PendingChoiceType.ChooseScribeFavorTheft;
 
+    availableServiceInstructionPanel.ShowScribeInstruction("Choose an opponent to gather their recruits.");
+
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayChooseOpponentToGatherTheirReferrals();
 
@@ -5193,6 +5219,8 @@ public void ResolveScribeFavorTheft(int opponentIndex)
     opponent.favorArea.Clear();
 
     SortCurrentPlayerHand();
+
+    HideAvailableServiceInstruction();
 
     pendingChoice = PendingChoiceType.None;
 
@@ -5283,14 +5311,20 @@ public void ResolveBeastmasterDiscardTypeChoice(PranksterType chosenType)
 
     RefreshAvailableServiceSlotAvailability();
 
+    HideAvailableServiceInstruction();
+
     pendingChoice = PendingChoiceType.None;
 
     RefreshAllDisplays();
     RefreshAllHighlights();
+    RefreshCrewCapacityDisplay();
 
     Debug.Log("Beastmaster recovered discard card: " + recoveredCard.pranksterType);
 
-    FinishActionAndWaitForEndTurn();
+    Debug.Log("BEASTMASTER HAND SIZE CHECK | hand=" + player.hand.Count +
+            " | max=" + player.maxHandSize);
+
+    ContinueDiscardingUntilHandAtMax();
 }
 
 public void ActivateBeastmasterImmediateAction()
@@ -5353,6 +5387,7 @@ private IEnumerator ActivateBeastmasterImmediateActionSequence()
     RefreshAllDisplays();
 
     pendingChoice = PendingChoiceType.ChooseBeastmasterDiscardType;
+    availableServiceInstructionPanel.ShowBeastmasterInstruction("Choose a recruit type to recover" + "\nfrom the discard pile.");
 
     ShowBeastmasterRecruitTypeSelectionGlows();
 
@@ -5519,6 +5554,18 @@ void ApplyAvailableServiceCardBonus(PranksterDeckEntry card, Player player)
               " | tier=" + card.tier +
               " | influenceBonus=" + influenceBonus +
               " | renownBonus=" + renownBonus);
+}
+
+public void ShowAvailableServiceInstruction(string message)
+{
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Show(message);
+}
+
+public void HideAvailableServiceInstruction()
+{
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Hide();
 }
 
 }

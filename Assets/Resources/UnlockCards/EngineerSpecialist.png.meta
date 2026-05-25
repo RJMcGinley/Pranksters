@@ -1,139 +1,268 @@
 fileFormatVersion: 2
-guid: 2e82e3438cbd34c46837fef79f4fef2f
+guid: 94a17453d196145de80322964244f1ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8240904991984859803
-    second: EngineerSpecialist_0
+      213: 8915287262551893131
+    second: EngineerSpecialist 1_0
   - first:
-      213: 565167824611342147
-    second: EngineerSpecialist_1
+      213: 8775167100301928805
+    second: EngineerSpecialist 1_1
   - first:
-      213: -1241905053185179190
-    second: EngineerSpecialist_2
+      213: 4296288584376970501
+    second: EngineerSpecialist 1_2
   - first:
-      213: 4377054525971686547
-    second: EngineerSpecialist_3
+      213: -4132519097867476600
+    second: EngineerSpecialist 1_3
   - first:
-      213: -8242497631774686004
-    second: EngineerSpecialist_4
+      213: 284362816452280893
+    second: EngineerSpecialist 1_4
   - first:
-      213: -2554614815119284025
-    second: EngineerSpecialist_5
+      213: 6137067809663538333
+    second: EngineerSpecialist 1_5
   - first:
-      213: 4665722508546130917
-    second: EngineerSpecialist_6
+      213: -3858113912168223014
+    second: EngineerSpecialist 1_6
   - first:
-      213: -8975913853458432757
-    second: EngineerSpecialist_7
+      213: -5743886970049364064
+    second: EngineerSpecialist 1_7
   - first:
-      213: 8853743856346841488
-    second: EngineerSpecialist_8
+      213: 1025763794469171679
+    second: EngineerSpecialist 1_8
   - first:
-      213: -3952611966322884701
-    second: EngineerSpecialist_9
+      213: 5646996256245377083
+    second: EngineerSpecialist 1_9
   - first:
-      213: -1655141723058418437
-    second: EngineerSpecialist_10
+      213: -4464623684546892743
+    second: EngineerSpecialist 1_10
   - first:
-      213: -2554820264052461962
-    second: EngineerSpecialist_11
+      213: -1023510950917322814
+    second: EngineerSpecialist 1_11
   - first:
-      213: -1105041837703012998
-    second: EngineerSpecialist_12
+      213: -3924459456172474747
+    second: EngineerSpecialist 1_12
   - first:
-      213: 6155603773172493166
-    second: EngineerSpecialist_13
+      213: -6367957314411440212
+    second: EngineerSpecialist 1_13
   - first:
-      213: -6943499568257990717
-    second: EngineerSpecialist_14
+      213: 842189799031500360
+    second: EngineerSpecialist 1_14
   - first:
-      213: 5223974331978127346
-    second: EngineerSpecialist_15
+      213: 8338636732056540752
+    second: EngineerSpecialist 1_15
   - first:
-      213: -465989776712067590
-    second: EngineerSpecialist_16
+      213: -7842614789913537733
+    second: EngineerSpecialist 1_16
   - first:
-      213: -7894957587139744606
-    second: EngineerSpecialist_17
+      213: 4554373316531027855
+    second: EngineerSpecialist 1_17
   - first:
-      213: -2513293139206755286
-    second: EngineerSpecialist_18
+      213: 6268852750814611334
+    second: EngineerSpecialist 1_18
   - first:
-      213: 2787986824966507179
-    second: EngineerSpecialist_19
+      213: 5912209706600960618
+    second: EngineerSpecialist 1_19
   - first:
-      213: -1334558067745374163
-    second: EngineerSpecialist_20
+      213: -4805412313501973065
+    second: EngineerSpecialist 1_20
   - first:
-      213: -3192018298509916476
-    second: EngineerSpecialist_21
+      213: -4195559831381774540
+    second: EngineerSpecialist 1_21
   - first:
-      213: 7569958187204432100
-    second: EngineerSpecialist_22
+      213: 4824801922507762010
+    second: EngineerSpecialist 1_22
   - first:
-      213: -7401842105353219508
-    second: EngineerSpecialist_23
+      213: 161452771511729747
+    second: EngineerSpecialist 1_23
   - first:
-      213: -8933462434515802353
-    second: EngineerSpecialist_24
+      213: 3289672886022221521
+    second: EngineerSpecialist 1_24
   - first:
-      213: 5685379662879206050
-    second: EngineerSpecialist_25
+      213: 193111127703778866
+    second: EngineerSpecialist 1_25
   - first:
-      213: 5315004414211653591
-    second: EngineerSpecialist_26
+      213: -4042064413683467277
+    second: EngineerSpecialist 1_26
   - first:
-      213: 3210187813767291639
-    second: EngineerSpecialist_27
+      213: 5385578536230355702
+    second: EngineerSpecialist 1_27
   - first:
-      213: 6482199002745363765
-    second: EngineerSpecialist_28
+      213: -4560660303274658493
+    second: EngineerSpecialist 1_28
   - first:
-      213: -6767863160216070731
-    second: EngineerSpecialist_29
+      213: 6395358960171585392
+    second: EngineerSpecialist 1_29
   - first:
-      213: -801144487139356513
-    second: EngineerSpecialist_30
+      213: 5367492358156722757
+    second: EngineerSpecialist 1_30
   - first:
-      213: 7827507018938355360
-    second: EngineerSpecialist_31
+      213: -2657691543145866017
+    second: EngineerSpecialist 1_31
   - first:
-      213: 8160009003624873244
-    second: EngineerSpecialist_32
+      213: 4364902644268576522
+    second: EngineerSpecialist 1_32
   - first:
-      213: -7201105323575031780
-    second: EngineerSpecialist_33
+      213: 2933215915606639164
+    second: EngineerSpecialist 1_33
   - first:
-      213: -5991239555022732983
-    second: EngineerSpecialist_34
+      213: -5768252464598466872
+    second: EngineerSpecialist 1_34
   - first:
-      213: 5859736163763422001
-    second: EngineerSpecialist_35
+      213: 9084568569258152183
+    second: EngineerSpecialist 1_35
   - first:
-      213: 6813728060225034067
-    second: EngineerSpecialist_36
+      213: 1417808472435203187
+    second: EngineerSpecialist 1_36
   - first:
-      213: -6137214666800083397
-    second: EngineerSpecialist_37
+      213: 6828205563548140465
+    second: EngineerSpecialist 1_37
   - first:
-      213: -5286960453825130758
-    second: EngineerSpecialist_38
+      213: -1142209474710006739
+    second: EngineerSpecialist 1_38
   - first:
-      213: -5671647959982668961
-    second: EngineerSpecialist_39
+      213: 4144521507084971104
+    second: EngineerSpecialist 1_39
   - first:
-      213: -5837847189047526985
-    second: EngineerSpecialist_40
+      213: -3552849562031521270
+    second: EngineerSpecialist 1_40
   - first:
-      213: -3380620508703422693
-    second: EngineerSpecialist_41
+      213: -6286678087925372841
+    second: EngineerSpecialist 1_41
   - first:
-      213: 1996749474847398767
-    second: EngineerSpecialist_42
+      213: 1313578055532403133
+    second: EngineerSpecialist 1_42
   - first:
-      213: 1623499199233682061
-    second: EngineerSpecialist_43
+      213: 7155499728308252484
+    second: EngineerSpecialist 1_43
+  - first:
+      213: -8751895594092485606
+    second: EngineerSpecialist 1_44
+  - first:
+      213: -3918161131439265170
+    second: EngineerSpecialist 1_45
+  - first:
+      213: 8635688554782436032
+    second: EngineerSpecialist 1_46
+  - first:
+      213: 4207567106474147268
+    second: EngineerSpecialist 1_47
+  - first:
+      213: -2060216275915162834
+    second: EngineerSpecialist 1_48
+  - first:
+      213: 5269523141658309531
+    second: EngineerSpecialist 1_49
+  - first:
+      213: 7657396243943723979
+    second: EngineerSpecialist 1_50
+  - first:
+      213: -1869996312791648952
+    second: EngineerSpecialist 1_51
+  - first:
+      213: -2630078487090297795
+    second: EngineerSpecialist 1_52
+  - first:
+      213: -299740599923408869
+    second: EngineerSpecialist 1_53
+  - first:
+      213: 1638612825011391562
+    second: EngineerSpecialist 1_54
+  - first:
+      213: 8705637625228937941
+    second: EngineerSpecialist 1_55
+  - first:
+      213: 8310367703369985572
+    second: EngineerSpecialist 1_56
+  - first:
+      213: 65952781597364124
+    second: EngineerSpecialist 1_57
+  - first:
+      213: 6902441965683749301
+    second: EngineerSpecialist 1_58
+  - first:
+      213: 2810030375029937731
+    second: EngineerSpecialist 1_59
+  - first:
+      213: 8177342070223940676
+    second: EngineerSpecialist 1_60
+  - first:
+      213: -1588010961434315662
+    second: EngineerSpecialist 1_61
+  - first:
+      213: 6473771150554648559
+    second: EngineerSpecialist 1_62
+  - first:
+      213: -8743952286200070766
+    second: EngineerSpecialist 1_63
+  - first:
+      213: 4346827176411653271
+    second: EngineerSpecialist 1_64
+  - first:
+      213: 3574487177735408701
+    second: EngineerSpecialist 1_65
+  - first:
+      213: 4578586628734643195
+    second: EngineerSpecialist 1_66
+  - first:
+      213: -8024839907530721353
+    second: EngineerSpecialist 1_67
+  - first:
+      213: -3060562434911957225
+    second: EngineerSpecialist 1_68
+  - first:
+      213: 5527005428978082053
+    second: EngineerSpecialist 1_69
+  - first:
+      213: -439756680582223288
+    second: EngineerSpecialist 1_70
+  - first:
+      213: 4772484840168246369
+    second: EngineerSpecialist 1_71
+  - first:
+      213: 1603854353021785730
+    second: EngineerSpecialist 1_72
+  - first:
+      213: -1175614655366049843
+    second: EngineerSpecialist 1_73
+  - first:
+      213: 8881127079673672637
+    second: EngineerSpecialist 1_74
+  - first:
+      213: 3787124754405908075
+    second: EngineerSpecialist 1_75
+  - first:
+      213: -1507612094274341150
+    second: EngineerSpecialist 1_76
+  - first:
+      213: 1543521403558569976
+    second: EngineerSpecialist 1_77
+  - first:
+      213: 7601912012698088144
+    second: EngineerSpecialist 1_78
+  - first:
+      213: 4948008369089302067
+    second: EngineerSpecialist 1_79
+  - first:
+      213: -7587760280725260612
+    second: EngineerSpecialist 1_80
+  - first:
+      213: 1183412184837775340
+    second: EngineerSpecialist 1_81
+  - first:
+      213: -8379014953734025472
+    second: EngineerSpecialist 1_82
+  - first:
+      213: 4805603991270799510
+    second: EngineerSpecialist 1_83
+  - first:
+      213: 5341822224960274088
+    second: EngineerSpecialist 1_84
+  - first:
+      213: -527480426179617194
+    second: EngineerSpecialist 1_85
+  - first:
+      213: 8270128811822748855
+    second: EngineerSpecialist 1_86
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -255,13 +384,189 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EngineerSpecialist_0
+      name: EngineerSpecialist 1_0
       rect:
         serializedVersion: 2
-        x: 153
+        x: 55
+        y: 1109
+        width: 105
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8468f2b78679bb70800000000000000
+      internalID: 8915287262551893131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1112
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569e0322cf7a7c970800000000000000
+      internalID: 8775167100301928805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1107
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dea5c64bb7f9b30800000000000000
+      internalID: 4296288584376970501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1109
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881671886c756a6c0800000000000000
+      internalID: -4132519097867476600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1105
+        width: 72
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c7f5997242f300800000000000000
+      internalID: 284362816452280893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1111
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94da7548ae3b2550800000000000000
+      internalID: 6137067809663538333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1097
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade683a86d9357ac0800000000000000
+      internalID: -3858113912168223014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af7630bb3d9940b0800000000000000
+      internalID: -5743886970049364064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_8
+      rect:
+        serializedVersion: 2
+        x: 32
         y: 303
-        width: 7
-        height: 695
+        width: 252
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9a30039d639d5270800000000000000
-      internalID: 8240904991984859803
+      spriteID: fd1bac08cbe3c3e00800000000000000
+      internalID: 1025763794469171679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_1
+      name: EngineerSpecialist 1_9
       rect:
         serializedVersion: 2
-        x: 162
-        y: 222
-        width: 497
-        height: 776
+        x: 56
+        y: 1030
+        width: 59
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,14 +597,784 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34770706421e7d700800000000000000
-      internalID: 565167824611342147
+      spriteID: b38677d0d292e5e40800000000000000
+      internalID: 5646996256245377083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_2
+      name: EngineerSpecialist 1_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1001
+        width: 121
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c69cad9687a02c0800000000000000
+      internalID: -4464623684546892743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1054
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7c9d28632cbc1f0800000000000000
+      internalID: -1023510950917322814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1062
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eba63dae48989c0800000000000000
+      internalID: -3924459456172474747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 303
+        width: 163
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7d7a9bf8870a7a0800000000000000
+      internalID: -6367957314411440212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 222
+        width: 479
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eeabcf82f00bb00800000000000000
+      internalID: 842189799031500360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1019
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05611458de9c8b370800000000000000
+      internalID: 8338636732056540752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1009
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b339af8866f692390800000000000000
+      internalID: -7842614789913537733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 998
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f795ab662643f30800000000000000
+      internalID: 4554373316531027855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6870981fc507ff650800000000000000
+      internalID: 6268852750814611334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62119767636c0250800000000000000
+      internalID: 5912209706600960618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 979
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b54d6606febf4db0800000000000000
+      internalID: -4805412313501973065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6798ff8066c5c0800000000000000
+      internalID: -4195559831381774540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 925
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5962be19c325f240800000000000000
+      internalID: 4824801922507762010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e75f5b0789d3200800000000000000
+      internalID: 161452771511729747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 895
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dea6967f0447ad20800000000000000
+      internalID: 3289672886022221521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 874
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23675f82c811ea200800000000000000
+      internalID: 193111127703778866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 864
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb362fd4d3b7e7c0800000000000000
+      internalID: -4042064413683467277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 576
+        width: 138
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f28af9052b6dba40800000000000000
+      internalID: 5385578536230355702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345b61a1e9745b0c0800000000000000
+      internalID: -4560660303274658493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 833
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f83281711e0c850800000000000000
+      internalID: 6395358960171585392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5422e8e8cd92d7a40800000000000000
+      internalID: 5367492358156722757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 802
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc1b306f9bfd1bd0800000000000000
+      internalID: -2657691543145866017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0faac624df339c30800000000000000
+      internalID: 4364902644268576522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32814b9550e4b820800000000000000
+      internalID: 2933215915606639164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 771
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce36d8e1fc03ffa0800000000000000
+      internalID: -5768252464598466872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_35
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 750
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f09f4c4bfed21e70800000000000000
+      internalID: 9084568569258152183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_36
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 730
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c1a073b411da310800000000000000
+      internalID: 1417808472435203187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 705
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b302ac58c8a2ce50800000000000000
+      internalID: 6828205563548140465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 708
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2413d0d88e0620f0800000000000000
+      internalID: -1142209474710006739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 656
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c24c12a5c448930800000000000000
+      internalID: 4144521507084971104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 683
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0285baa52eb1bec0800000000000000
+      internalID: -3552849562031521270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 668
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e9f7569b31c8a0800000000000000
+      internalID: -6286678087925372841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9d1c82844ca3210800000000000000
+      internalID: 1313578055532403133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 657
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fa73867117d4360800000000000000
+      internalID: 7155499728308252484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_44
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 656
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14afc2a3550b8680800000000000000
+      internalID: -8751895594092485606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EngineerSpecialist 1_45
       rect:
         serializedVersion: 2
         x: 164
@@ -314,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac1822c1fedd3cee0800000000000000
-      internalID: -1241905053185179190
+      spriteID: e6ae1d3d535ef99c0800000000000000
+      internalID: -3918161131439265170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_3
+      name: EngineerSpecialist 1_46
       rect:
         serializedVersion: 2
         x: 223
@@ -336,14 +1411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 394ee0796eb6ebc30800000000000000
-      internalID: 4377054525971686547
+      spriteID: 0caa6ba9cf028d770800000000000000
+      internalID: 8635688554782436032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_4
+      name: EngineerSpecialist 1_47
       rect:
         serializedVersion: 2
         x: 355
@@ -358,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc442141314cc9d80800000000000000
-      internalID: -8242497631774686004
+      spriteID: 4cd720e9df7446a30800000000000000
+      internalID: 4207567106474147268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_5
+      name: EngineerSpecialist 1_48
       rect:
         serializedVersion: 2
         x: 592
@@ -380,14 +1455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c86dde4c5f2c8cd0800000000000000
-      internalID: -2554614815119284025
+      spriteID: e2b39996634a863e0800000000000000
+      internalID: -2060216275915162834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_6
+      name: EngineerSpecialist 1_49
       rect:
         serializedVersion: 2
         x: 642
@@ -402,14 +1477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e3cf66c6e9ffb040800000000000000
-      internalID: 4665722508546130917
+      spriteID: b937e32d06b112940800000000000000
+      internalID: 5269523141658309531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_7
+      name: EngineerSpecialist 1_50
       rect:
         serializedVersion: 2
         x: 29
@@ -424,14 +1499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0d3a1e18e52f6380800000000000000
-      internalID: -8975913853458432757
+      spriteID: bc31da03059844a60800000000000000
+      internalID: 7657396243943723979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_8
+      name: EngineerSpecialist 1_51
       rect:
         serializedVersion: 2
         x: 89
@@ -446,14 +1521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 091c9d1d021deda70800000000000000
-      internalID: 8853743856346841488
+      spriteID: 84573ccd2407c06e0800000000000000
+      internalID: -1869996312791648952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_9
+      name: EngineerSpecialist 1_52
       rect:
         serializedVersion: 2
         x: 137
@@ -468,14 +1543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3afbd54cb508529c0800000000000000
-      internalID: -3952611966322884701
+      spriteID: d34069dfc85108bd0800000000000000
+      internalID: -2630078487090297795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_10
+      name: EngineerSpecialist 1_53
       rect:
         serializedVersion: 2
         x: 278
@@ -490,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfccc284f51c709e0800000000000000
-      internalID: -1655141723058418437
+      spriteID: b108dc0338b17dbf0800000000000000
+      internalID: -299740599923408869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_11
+      name: EngineerSpecialist 1_54
       rect:
         serializedVersion: 2
         x: 311
@@ -512,14 +1587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67eee2081847b8cd0800000000000000
-      internalID: -2554820264052461962
+      spriteID: a4c043fbea58db610800000000000000
+      internalID: 1638612825011391562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_12
+      name: EngineerSpecialist 1_55
       rect:
         serializedVersion: 2
         x: 343
@@ -534,14 +1609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7d54c9ad4a1aa0f0800000000000000
-      internalID: -1105041837703012998
+      spriteID: 5dacb03bb43a0d870800000000000000
+      internalID: 8705637625228937941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_13
+      name: EngineerSpecialist 1_56
       rect:
         serializedVersion: 2
         x: 383
@@ -556,14 +1631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b200694091d6550800000000000000
-      internalID: 6155603773172493166
+      spriteID: 42e2f30656b545370800000000000000
+      internalID: 8310367703369985572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_14
+      name: EngineerSpecialist 1_57
       rect:
         serializedVersion: 2
         x: 414
@@ -578,14 +1653,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cf77ef4eebb3af90800000000000000
-      internalID: -6943499568257990717
+      spriteID: c9f4f0794bf4ae000800000000000000
+      internalID: 65952781597364124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_15
+      name: EngineerSpecialist 1_58
       rect:
         serializedVersion: 2
         x: 443
@@ -600,14 +1675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f790552af84f7840800000000000000
-      internalID: 5223974331978127346
+      spriteID: 5b13457a5666acf50800000000000000
+      internalID: 6902441965683749301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_16
+      name: EngineerSpecialist 1_59
       rect:
         serializedVersion: 2
         x: 504
@@ -622,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af51d1a54c87889f0800000000000000
-      internalID: -465989776712067590
+      spriteID: 34697b7ecbb3ff620800000000000000
+      internalID: 2810030375029937731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_17
+      name: EngineerSpecialist 1_60
       rect:
         serializedVersion: 2
         x: 520
@@ -644,14 +1719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2aca2cd57e97f6290800000000000000
-      internalID: -7894957587139744606
+      spriteID: 44c2e869941cb7170800000000000000
+      internalID: 8177342070223940676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_18
+      name: EngineerSpecialist 1_61
       rect:
         serializedVersion: 2
         x: 549
@@ -666,14 +1741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2ca725b43dfe1dd0800000000000000
-      internalID: -2513293139206755286
+      spriteID: 274f748b17046f9e0800000000000000
+      internalID: -1588010961434315662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_19
+      name: EngineerSpecialist 1_62
       rect:
         serializedVersion: 2
         x: 592
@@ -688,14 +1763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: baa0994fe3be0b620800000000000000
-      internalID: 2787986824966507179
+      spriteID: fef4bf9df8477d950800000000000000
+      internalID: 6473771150554648559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_20
+      name: EngineerSpecialist 1_63
       rect:
         serializedVersion: 2
         x: 636
@@ -710,14 +1785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d20c7e71282ba7de0800000000000000
-      internalID: -1334558067745374163
+      spriteID: 29d741029bd37a680800000000000000
+      internalID: -8743952286200070766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_21
+      name: EngineerSpecialist 1_64
       rect:
         serializedVersion: 2
         x: 665
@@ -732,14 +1807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c605c0054ca3b3d0800000000000000
-      internalID: -3192018298509916476
+      spriteID: 794e7065948035c30800000000000000
+      internalID: 4346827176411653271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_22
+      name: EngineerSpecialist 1_65
       rect:
         serializedVersion: 2
         x: 690
@@ -754,14 +1829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e051e82dd4ed0960800000000000000
-      internalID: 7569958187204432100
+      spriteID: d3c8b1356212b9130800000000000000
+      internalID: 3574487177735408701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_23
+      name: EngineerSpecialist 1_66
       rect:
         serializedVersion: 2
         x: 706
@@ -776,14 +1851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4254e262df574990800000000000000
-      internalID: -7401842105353219508
+      spriteID: bfbe41bc7486a8f30800000000000000
+      internalID: 4578586628734643195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_24
+      name: EngineerSpecialist 1_67
       rect:
         serializedVersion: 2
         x: 738
@@ -798,14 +1873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f07a3605f37f50480800000000000000
-      internalID: -8933462434515802353
+      spriteID: 7b7b04c1f9a02a090800000000000000
+      internalID: -8024839907530721353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_25
+      name: EngineerSpecialist 1_68
       rect:
         serializedVersion: 2
         x: 776
@@ -820,14 +1895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2aa25235ea686ee40800000000000000
-      internalID: 5685379662879206050
+      spriteID: 71f0b265ea2b685d0800000000000000
+      internalID: -3060562434911957225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_26
+      name: EngineerSpecialist 1_69
       rect:
         serializedVersion: 2
         x: 32
@@ -842,14 +1917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dff7b8ca50b2c940800000000000000
-      internalID: 5315004414211653591
+      spriteID: 501e4e1872ed3bc40800000000000000
+      internalID: 5527005428978082053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_27
+      name: EngineerSpecialist 1_70
       rect:
         serializedVersion: 2
         x: 92
@@ -864,14 +1939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f223edeec0ec8c20800000000000000
-      internalID: 3210187813767291639
+      spriteID: 84aaa4201aba5e9f0800000000000000
+      internalID: -439756680582223288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_28
+      name: EngineerSpecialist 1_71
       rect:
         serializedVersion: 2
         x: 171
@@ -886,14 +1961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53d570a16a565f950800000000000000
-      internalID: 6482199002745363765
+      spriteID: 16c4a2a2da54b3240800000000000000
+      internalID: 4772484840168246369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_29
+      name: EngineerSpecialist 1_72
       rect:
         serializedVersion: 2
         x: 278
@@ -908,14 +1983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b55ede3058b312a0800000000000000
-      internalID: -6767863160216070731
+      spriteID: 286d3575909024610800000000000000
+      internalID: 1603854353021785730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_30
+      name: EngineerSpecialist 1_73
       rect:
         serializedVersion: 2
         x: 311
@@ -930,14 +2005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f90db466553c1e4f0800000000000000
-      internalID: -801144487139356513
+      spriteID: dcfc92a13b06fafe0800000000000000
+      internalID: -1175614655366049843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_31
+      name: EngineerSpecialist 1_74
       rect:
         serializedVersion: 2
         x: 343
@@ -952,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ae82bc6924e0ac60800000000000000
-      internalID: 7827507018938355360
+      spriteID: db33d05560a104b70800000000000000
+      internalID: 8881127079673672637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_32
+      name: EngineerSpecialist 1_75
       rect:
         serializedVersion: 2
         x: 383
@@ -974,14 +2049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1dbc0984fc2e3170800000000000000
-      internalID: 8160009003624873244
+      spriteID: b6ed37a26e19e8430800000000000000
+      internalID: 3787124754405908075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_33
+      name: EngineerSpecialist 1_76
       rect:
         serializedVersion: 2
         x: 414
@@ -996,14 +2071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c18c22e7cd8801c90800000000000000
-      internalID: -7201105323575031780
+      spriteID: 2e6f1b5b9c2e31be0800000000000000
+      internalID: -1507612094274341150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_34
+      name: EngineerSpecialist 1_77
       rect:
         serializedVersion: 2
         x: 443
@@ -1018,14 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 941c99e1e57dadca0800000000000000
-      internalID: -5991239555022732983
+      spriteID: 8f72252e980bb6510800000000000000
+      internalID: 1543521403558569976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_35
+      name: EngineerSpecialist 1_78
       rect:
         serializedVersion: 2
         x: 504
@@ -1040,14 +2115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13301a6aef6f15150800000000000000
-      internalID: 5859736163763422001
+      spriteID: 0d2f4aae2ba6f7960800000000000000
+      internalID: 7601912012698088144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_36
+      name: EngineerSpecialist 1_79
       rect:
         serializedVersion: 2
         x: 520
@@ -1062,14 +2137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35713d1f1993f8e50800000000000000
-      internalID: 6813728060225034067
+      spriteID: 33e4a31656bdaa440800000000000000
+      internalID: 4948008369089302067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_37
+      name: EngineerSpecialist 1_80
       rect:
         serializedVersion: 2
         x: 592
@@ -1084,14 +2159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3e4013e6cb34daa0800000000000000
-      internalID: -6137214666800083397
+      spriteID: cb67d82f93cd2b690800000000000000
+      internalID: -7587760280725260612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_38
+      name: EngineerSpecialist 1_81
       rect:
         serializedVersion: 2
         x: 636
@@ -1106,14 +2181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afe07309a71f0a6b0800000000000000
-      internalID: -5286960453825130758
+      spriteID: cefdf14bc135c6010800000000000000
+      internalID: 1183412184837775340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_39
+      name: EngineerSpecialist 1_82
       rect:
         serializedVersion: 2
         x: 665
@@ -1128,14 +2203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f530a26ea324a41b0800000000000000
-      internalID: -5671647959982668961
+      spriteID: 00f4ff22b42c7bb80800000000000000
+      internalID: -8379014953734025472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_40
+      name: EngineerSpecialist 1_83
       rect:
         serializedVersion: 2
         x: 690
@@ -1150,14 +2225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b93fcb69eccbfea0800000000000000
-      internalID: -5837847189047526985
+      spriteID: 69835ee6e5fe0b240800000000000000
+      internalID: 4805603991270799510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_41
+      name: EngineerSpecialist 1_84
       rect:
         serializedVersion: 2
         x: 706
@@ -1172,14 +2247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1705520f8f9511d0800000000000000
-      internalID: -3380620508703422693
+      spriteID: 8ae3b0ce207f12a40800000000000000
+      internalID: 5341822224960274088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_42
+      name: EngineerSpecialist 1_85
       rect:
         serializedVersion: 2
         x: 738
@@ -1194,14 +2269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6b1ab17111e5bb10800000000000000
-      internalID: 1996749474847398767
+      spriteID: 65e979bd8530ea8f0800000000000000
+      internalID: -527480426179617194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EngineerSpecialist_43
+      name: EngineerSpecialist 1_86
       rect:
         serializedVersion: 2
         x: 776
@@ -1216,8 +2291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8a64778be3d78610800000000000000
-      internalID: 1623499199233682061
+      spriteID: 7b41b6b565665c270800000000000000
+      internalID: 8270128811822748855
       vertices: []
       indices: 
       edges: []
@@ -1236,50 +2311,93 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EngineerSpecialist_0: 8240904991984859803
-      EngineerSpecialist_1: 565167824611342147
-      EngineerSpecialist_10: -1655141723058418437
-      EngineerSpecialist_11: -2554820264052461962
-      EngineerSpecialist_12: -1105041837703012998
-      EngineerSpecialist_13: 6155603773172493166
-      EngineerSpecialist_14: -6943499568257990717
-      EngineerSpecialist_15: 5223974331978127346
-      EngineerSpecialist_16: -465989776712067590
-      EngineerSpecialist_17: -7894957587139744606
-      EngineerSpecialist_18: -2513293139206755286
-      EngineerSpecialist_19: 2787986824966507179
-      EngineerSpecialist_2: -1241905053185179190
-      EngineerSpecialist_20: -1334558067745374163
-      EngineerSpecialist_21: -3192018298509916476
-      EngineerSpecialist_22: 7569958187204432100
-      EngineerSpecialist_23: -7401842105353219508
-      EngineerSpecialist_24: -8933462434515802353
-      EngineerSpecialist_25: 5685379662879206050
-      EngineerSpecialist_26: 5315004414211653591
-      EngineerSpecialist_27: 3210187813767291639
-      EngineerSpecialist_28: 6482199002745363765
-      EngineerSpecialist_29: -6767863160216070731
-      EngineerSpecialist_3: 4377054525971686547
-      EngineerSpecialist_30: -801144487139356513
-      EngineerSpecialist_31: 7827507018938355360
-      EngineerSpecialist_32: 8160009003624873244
-      EngineerSpecialist_33: -7201105323575031780
-      EngineerSpecialist_34: -5991239555022732983
-      EngineerSpecialist_35: 5859736163763422001
-      EngineerSpecialist_36: 6813728060225034067
-      EngineerSpecialist_37: -6137214666800083397
-      EngineerSpecialist_38: -5286960453825130758
-      EngineerSpecialist_39: -5671647959982668961
-      EngineerSpecialist_4: -8242497631774686004
-      EngineerSpecialist_40: -5837847189047526985
-      EngineerSpecialist_41: -3380620508703422693
-      EngineerSpecialist_42: 1996749474847398767
-      EngineerSpecialist_43: 1623499199233682061
-      EngineerSpecialist_5: -2554614815119284025
-      EngineerSpecialist_6: 4665722508546130917
-      EngineerSpecialist_7: -8975913853458432757
-      EngineerSpecialist_8: 8853743856346841488
-      EngineerSpecialist_9: -3952611966322884701
+      EngineerSpecialist 1_0: 8915287262551893131
+      EngineerSpecialist 1_1: 8775167100301928805
+      EngineerSpecialist 1_10: -4464623684546892743
+      EngineerSpecialist 1_11: -1023510950917322814
+      EngineerSpecialist 1_12: -3924459456172474747
+      EngineerSpecialist 1_13: -6367957314411440212
+      EngineerSpecialist 1_14: 842189799031500360
+      EngineerSpecialist 1_15: 8338636732056540752
+      EngineerSpecialist 1_16: -7842614789913537733
+      EngineerSpecialist 1_17: 4554373316531027855
+      EngineerSpecialist 1_18: 6268852750814611334
+      EngineerSpecialist 1_19: 5912209706600960618
+      EngineerSpecialist 1_2: 4296288584376970501
+      EngineerSpecialist 1_20: -4805412313501973065
+      EngineerSpecialist 1_21: -4195559831381774540
+      EngineerSpecialist 1_22: 4824801922507762010
+      EngineerSpecialist 1_23: 161452771511729747
+      EngineerSpecialist 1_24: 3289672886022221521
+      EngineerSpecialist 1_25: 193111127703778866
+      EngineerSpecialist 1_26: -4042064413683467277
+      EngineerSpecialist 1_27: 5385578536230355702
+      EngineerSpecialist 1_28: -4560660303274658493
+      EngineerSpecialist 1_29: 6395358960171585392
+      EngineerSpecialist 1_3: -4132519097867476600
+      EngineerSpecialist 1_30: 5367492358156722757
+      EngineerSpecialist 1_31: -2657691543145866017
+      EngineerSpecialist 1_32: 4364902644268576522
+      EngineerSpecialist 1_33: 2933215915606639164
+      EngineerSpecialist 1_34: -5768252464598466872
+      EngineerSpecialist 1_35: 9084568569258152183
+      EngineerSpecialist 1_36: 1417808472435203187
+      EngineerSpecialist 1_37: 6828205563548140465
+      EngineerSpecialist 1_38: -1142209474710006739
+      EngineerSpecialist 1_39: 4144521507084971104
+      EngineerSpecialist 1_4: 284362816452280893
+      EngineerSpecialist 1_40: -3552849562031521270
+      EngineerSpecialist 1_41: -6286678087925372841
+      EngineerSpecialist 1_42: 1313578055532403133
+      EngineerSpecialist 1_43: 7155499728308252484
+      EngineerSpecialist 1_44: -8751895594092485606
+      EngineerSpecialist 1_45: -3918161131439265170
+      EngineerSpecialist 1_46: 8635688554782436032
+      EngineerSpecialist 1_47: 4207567106474147268
+      EngineerSpecialist 1_48: -2060216275915162834
+      EngineerSpecialist 1_49: 5269523141658309531
+      EngineerSpecialist 1_5: 6137067809663538333
+      EngineerSpecialist 1_50: 7657396243943723979
+      EngineerSpecialist 1_51: -1869996312791648952
+      EngineerSpecialist 1_52: -2630078487090297795
+      EngineerSpecialist 1_53: -299740599923408869
+      EngineerSpecialist 1_54: 1638612825011391562
+      EngineerSpecialist 1_55: 8705637625228937941
+      EngineerSpecialist 1_56: 8310367703369985572
+      EngineerSpecialist 1_57: 65952781597364124
+      EngineerSpecialist 1_58: 6902441965683749301
+      EngineerSpecialist 1_59: 2810030375029937731
+      EngineerSpecialist 1_6: -3858113912168223014
+      EngineerSpecialist 1_60: 8177342070223940676
+      EngineerSpecialist 1_61: -1588010961434315662
+      EngineerSpecialist 1_62: 6473771150554648559
+      EngineerSpecialist 1_63: -8743952286200070766
+      EngineerSpecialist 1_64: 4346827176411653271
+      EngineerSpecialist 1_65: 3574487177735408701
+      EngineerSpecialist 1_66: 4578586628734643195
+      EngineerSpecialist 1_67: -8024839907530721353
+      EngineerSpecialist 1_68: -3060562434911957225
+      EngineerSpecialist 1_69: 5527005428978082053
+      EngineerSpecialist 1_7: -5743886970049364064
+      EngineerSpecialist 1_70: -439756680582223288
+      EngineerSpecialist 1_71: 4772484840168246369
+      EngineerSpecialist 1_72: 1603854353021785730
+      EngineerSpecialist 1_73: -1175614655366049843
+      EngineerSpecialist 1_74: 8881127079673672637
+      EngineerSpecialist 1_75: 3787124754405908075
+      EngineerSpecialist 1_76: -1507612094274341150
+      EngineerSpecialist 1_77: 1543521403558569976
+      EngineerSpecialist 1_78: 7601912012698088144
+      EngineerSpecialist 1_79: 4948008369089302067
+      EngineerSpecialist 1_8: 1025763794469171679
+      EngineerSpecialist 1_80: -7587760280725260612
+      EngineerSpecialist 1_81: 1183412184837775340
+      EngineerSpecialist 1_82: -8379014953734025472
+      EngineerSpecialist 1_83: 4805603991270799510
+      EngineerSpecialist 1_84: 5341822224960274088
+      EngineerSpecialist 1_85: -527480426179617194
+      EngineerSpecialist 1_86: 8270128811822748855
+      EngineerSpecialist 1_9: 5646996256245377083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
