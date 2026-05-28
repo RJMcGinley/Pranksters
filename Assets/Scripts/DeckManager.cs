@@ -132,6 +132,8 @@ public class DeckManager : MonoBehaviour
     private int pendingRoundFirstPlayerIndex = -1;
     private bool isEndOfRoundPending = false;
 
+    private GameLocationType pendingRoundLocation = GameLocationType.RebelWorkshop;
+
     public VideoPlayer winVideoPlayer;
     public GameObject winCutsceneCanvas;
     public RenderTexture winCutsceneRenderTexture; 
@@ -2378,7 +2380,7 @@ public void BeginNewGame()
     GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
 
     if (backgroundManager != null)
-        backgroundManager.ChooseRandomBackground();
+        backgroundManager.SetLocation(GameLocationType.RebelWorkshop);
 
     Debug.Log("BeginNewGame | resetting players");
 
@@ -3016,6 +3018,18 @@ IEnumerator ResetRoundSequence()
     ReturnRetainedServiceCardsToDeck();
 
     ShufflePranksterDeck();
+
+    GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
+
+    if (backgroundManager != null)
+    {
+        backgroundManager.SetLocation(pendingRoundLocation);
+        Debug.Log("ROUND RESET APPLY LOCATION | " + pendingRoundLocation);
+    }
+    else
+    {
+        Debug.LogWarning("GameBackgroundManager not found during round reset.");
+    }
 
     yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
 
@@ -3899,15 +3913,55 @@ void ShowEndOfRoundPanelBeforeReset()
     if (string.IsNullOrWhiteSpace(firstPlayerName))
         firstPlayerName = "Player " + (pendingRoundFirstPlayerIndex + 1);
 
+    int influenceWinnerIndex = DetermineInfluenceWinnerIndex();
+
+    Player influenceWinner = turnManager.players[influenceWinnerIndex];
+
+    string influenceWinnerName = influenceWinner.playerName;
+
+    if (string.IsNullOrWhiteSpace(influenceWinnerName))
+        influenceWinnerName = "Player " + (influenceWinnerIndex + 1);
+
+    bool playerChoosesLocation = influenceWinnerIndex == 0;
+
+    string influenceWinnerText;
+
+    if (playerChoosesLocation)
+    {
+        influenceWinnerText =
+            influenceWinnerName + " has the most influence and will choose" + "\nthe location for the upcoming round.";
+    }
+    else
+    {
+        GameLocationType botLocation = GetRandomBotLocation();
+
+        pendingRoundLocation = botLocation;
+
+        influenceWinnerText =
+            influenceWinnerName + " has the most influence.\n" +
+            influenceWinnerName + " chooses " + GetLocationDisplayName(botLocation) + " for the upcoming round.";
+
+        GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
+
+        if (backgroundManager != null)
+            backgroundManager.SetLocation(botLocation);
+        else
+            Debug.LogWarning("GameBackgroundManager not found. Bot location could not be applied.");
+    }
+
     if (endOfRoundPanelController != null)
     {
         endOfRoundPanelController.Show(
             dealerName,
             firstPlayerName,
+            influenceWinnerText,
+            playerChoosesLocation,
             () =>
             {
+                Debug.Log("Start Next Round callback invoked.");
                 StartCoroutine(ResetRoundSequence());
-            }
+            },
+            OnChooseNextLocationFromEndOfRound
         );
     }
     else
@@ -5566,6 +5620,96 @@ public void HideAvailableServiceInstruction()
 {
     if (availableServiceInstructionPanel != null)
         availableServiceInstructionPanel.Hide();
+}
+
+[SerializeField] private LocationSelectionPanelController locationSelectionPanelController;
+
+private void OnChooseNextLocationFromEndOfRound()
+{
+    Debug.Log("DeckManager: opening location selection panel.");
+
+    if (locationSelectionPanelController != null)
+    {
+        locationSelectionPanelController.Open((selectedLocation) =>
+        {
+            Debug.Log("DeckManager: location selected = " + selectedLocation);
+
+            pendingRoundLocation = selectedLocation;
+
+            Debug.Log("DeckManager: starting next round.");
+
+            StartCoroutine(ResetRoundSequence());
+        });
+    }
+    else
+    {
+        Debug.LogWarning("DeckManager: locationSelectionPanelController is not assigned.");
+
+        StartCoroutine(ResetRoundSequence());
+    }
+}
+
+GameLocationType GetRandomBotLocation()
+{
+    GameLocationType[] possibleLocations =
+    {
+        GameLocationType.SewerHideout,
+        GameLocationType.ForestClearing,
+        GameLocationType.OutsideTheWalls,
+        GameLocationType.Treetop
+    };
+
+    int randomIndex = Random.Range(0, possibleLocations.Length);
+    return possibleLocations[randomIndex];
+}
+
+int DetermineInfluenceWinnerIndex()
+{
+    int bestIndex = 0;
+
+    for (int i = 1; i < turnManager.players.Count; i++)
+    {
+        Player current = turnManager.players[i];
+        Player best = turnManager.players[bestIndex];
+
+        if (current.favorPoints > best.favorPoints)
+        {
+            bestIndex = i;
+        }
+        else if (current.favorPoints == best.favorPoints)
+        {
+            if (current.renownPoints > best.renownPoints)
+            {
+                bestIndex = i;
+            }
+        }
+    }
+
+    return bestIndex;
+}
+
+string GetLocationDisplayName(GameLocationType locationType)
+{
+    switch (locationType)
+    {
+        case GameLocationType.RebelWorkshop:
+            return "Rebel Workshop";
+
+        case GameLocationType.SewerHideout:
+            return "Sewer Hideout";
+
+        case GameLocationType.ForestClearing:
+            return "Forest Clearing";
+
+        case GameLocationType.OutsideTheWalls:
+            return "Outside the Walls";
+
+        case GameLocationType.Treetop:
+            return "Treetop";
+
+        default:
+            return locationType.ToString();
+    }
 }
 
 }

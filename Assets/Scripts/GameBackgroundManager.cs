@@ -1,16 +1,40 @@
 using UnityEngine;
 
+public enum GameLocationType
+{
+    RebelWorkshop,
+    SewerHideout,
+    ForestClearing,
+    OutsideTheWalls,
+    Treetop
+}
+
+[System.Serializable]
+public class GameLocationData
+{
+    public GameLocationType locationType;
+    public string locationName;
+    public Sprite backgroundSprite;
+}
+
 public class GameBackgroundManager : MonoBehaviour
 {
     [Header("Background Renderer")]
     [SerializeField] private SpriteRenderer backgroundRenderer;
 
-    [Header("Background Options")]
-    [SerializeField] private Sprite[] possibleBackgrounds;
+    [Header("Locations")]
+    [SerializeField] private GameLocationData[] locations;
 
-    private int lastBackgroundIndex = -1;
+    private GameLocationType currentLocation = GameLocationType.RebelWorkshop;
 
-    public void ChooseRandomBackground()
+    public GameLocationType CurrentLocation => currentLocation;
+
+    private void Start()
+    {
+        SetLocation(GameLocationType.RebelWorkshop);
+    }
+
+    public void SetLocation(GameLocationType locationType)
     {
         if (backgroundRenderer == null)
         {
@@ -18,28 +42,36 @@ public class GameBackgroundManager : MonoBehaviour
             return;
         }
 
-        if (possibleBackgrounds == null || possibleBackgrounds.Length == 0)
+        GameLocationData location = GetLocationData(locationType);
+
+        if (location == null || location.backgroundSprite == null)
         {
-            Debug.LogWarning("GameBackgroundManager: no possible backgrounds assigned.");
+            Debug.LogWarning("GameBackgroundManager: missing location/background for " + locationType);
             return;
         }
 
-        int randomIndex = Random.Range(0, possibleBackgrounds.Length);
+        backgroundRenderer.sprite = location.backgroundSprite;
+        currentLocation = locationType;
 
-        if (possibleBackgrounds.Length > 1)
+        Debug.Log("Game location changed to: " + location.locationName);
+    }
+
+    public GameLocationData[] GetAllLocations()
+    {
+        return locations;
+    }
+
+    public GameLocationData GetLocationData(GameLocationType locationType)
+    {
+        if (locations == null)
+            return null;
+
+        foreach (GameLocationData location in locations)
         {
-            int safety = 0;
-
-            while (randomIndex == lastBackgroundIndex && safety < 20)
-            {
-                randomIndex = Random.Range(0, possibleBackgrounds.Length);
-                safety++;
-            }
+            if (location != null && location.locationType == locationType)
+                return location;
         }
 
-        backgroundRenderer.sprite = possibleBackgrounds[randomIndex];
-        lastBackgroundIndex = randomIndex;
-
-        Debug.Log("Game background changed to: " + possibleBackgrounds[randomIndex].name);
+        return null;
     }
 }
