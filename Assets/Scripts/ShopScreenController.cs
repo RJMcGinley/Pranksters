@@ -42,7 +42,7 @@ public class ShopScreenController : MonoBehaviour
             mayorText.text = "Mayor’s Breaking Point: " + mayorBreakingPoint;
 
         if (scoreText != null)
-            scoreText.text = "Your Best Pranking: " + bestPrankChain + " / " + mayorBreakingPoint;
+            scoreText.text = "Your Best Performance: " + bestPrankChain + " / " + mayorBreakingPoint;
 
         if (specialistsUnlockedText != null)
             specialistsUnlockedText.text = "Specialists Unlocked: " + specialistsUnlocked + " / " + totalSpecialists;
@@ -52,7 +52,7 @@ public class ShopScreenController : MonoBehaviour
             if (fullRosterUnlocked)
                 freeVersionText.text = "Full Roster Access: Unlocked";
             else
-                freeVersionText.text = "Free Version Access: " + freeVersionAccess;
+                freeVersionText.text = "Demo Specialists Limit: " + freeVersionAccess;
         }
 
         if (unlockFullRosterButton != null)

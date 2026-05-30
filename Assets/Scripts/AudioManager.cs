@@ -414,13 +414,15 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
         PlaySFX(availableServiceScoringActionClip);
     }
 
-    public void PlayPrankCompletionSound(string prankTitle)
+    public float PlayPrankCompletionSound(string prankTitle)
     {
         // Always play the generic completion sound first.
         PlayCompletePrank();
 
+        float fallbackDuration = 1.75f;
+
         if (sfxSource == null)
-            return;
+            return fallbackDuration;
 
         for (int i = 0; i < prankCompletionAudioEntries.Length; i++)
         {
@@ -433,16 +435,20 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
                 continue;
 
             if (entry.clips == null || entry.clips.Length == 0)
-                return;
+                return fallbackDuration;
 
-            AudioClip chosenClip =
-                entry.clips[Random.Range(0, entry.clips.Length)];
+            AudioClip chosenClip = entry.clips[Random.Range(0, entry.clips.Length)];
 
             if (chosenClip != null)
+            {
                 sfxSource.PlayOneShot(chosenClip);
+                return chosenClip.length;
+            }
 
-            return;
+            return fallbackDuration;
         }
+
+        return fallbackDuration;
     }
 
 }

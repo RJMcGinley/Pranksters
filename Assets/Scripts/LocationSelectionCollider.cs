@@ -22,11 +22,15 @@ public class LocationSelectionCollider : MonoBehaviour,
 
     [Header("Hover")]
     [SerializeField] private float hoverDelay = 0.5f;
+    [SerializeField] private GameObject glowObject;
 
     private Coroutine hoverCoroutine;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (glowObject != null)
+            glowObject.SetActive(true);
+
         if (hoverCoroutine != null)
             StopCoroutine(hoverCoroutine);
 
@@ -40,6 +44,9 @@ public class LocationSelectionCollider : MonoBehaviour,
             StopCoroutine(hoverCoroutine);
             hoverCoroutine = null;
         }
+
+        if (glowObject != null)
+            glowObject.SetActive(false);
 
         if (panelController != null)
             panelController.HidePopup();
@@ -68,4 +75,12 @@ public class LocationSelectionCollider : MonoBehaviour,
             );
         }
     }
+
+    private void Start()
+    {
+        if (glowObject != null)
+            glowObject.SetActive(false);
+    }
+
+
 }

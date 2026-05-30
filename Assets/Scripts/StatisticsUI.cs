@@ -127,16 +127,17 @@ public class StatisticsUI : MonoBehaviour
             }
         }
 
-        CreateRow("Thief", thiefIcon, favorLookup, serviceLookup);
-        CreateRow("Wizard", wizardIcon, favorLookup, serviceLookup);
-        CreateRow("Engineer", engineerIcon, favorLookup, serviceLookup);
-        CreateRow("Laborer", laborerIcon, favorLookup, serviceLookup);
-        CreateRow("Scribe", scribeIcon, favorLookup, serviceLookup);
-        CreateRow("BeastMaster", beastmasterIcon, favorLookup, serviceLookup);
+        CreateRow("Thief", "Coverts", thiefIcon, favorLookup, serviceLookup);
+        CreateRow("Wizard", "Mystics", wizardIcon, favorLookup, serviceLookup);
+        CreateRow("Engineer", "Planners", engineerIcon, favorLookup, serviceLookup);
+        CreateRow("Laborer", "Hard Hands", laborerIcon, favorLookup, serviceLookup);
+        CreateRow("Scribe", "Linguists", scribeIcon, favorLookup, serviceLookup);
+        CreateRow("BeastMaster", "Wranglers", beastmasterIcon, favorLookup, serviceLookup);
     }
 
     private void CreateRow(
-        string type,
+        string saveKey,
+        string displayName,
         Sprite icon,
         Dictionary<string, int> favorLookup,
         Dictionary<string, int> serviceLookup)
@@ -167,10 +168,10 @@ public class StatisticsUI : MonoBehaviour
             iconImage.sprite = icon;
 
         if (nameText != null)
-            nameText.text = FormatDisplayName(type);
+            nameText.text = displayName;
 
-        int favor = favorLookup.ContainsKey(type) ? favorLookup[type] : 0;
-        int serviceUses = serviceLookup.ContainsKey(type) ? serviceLookup[type] : 0;
+        int favor = favorLookup.ContainsKey(saveKey) ? favorLookup[saveKey] : 0;
+        int serviceUses = serviceLookup.ContainsKey(saveKey) ? serviceLookup[saveKey] : 0;
 
         if (favorText != null)
             favorText.text = favor.ToString();

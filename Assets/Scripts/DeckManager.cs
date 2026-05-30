@@ -590,11 +590,13 @@ public class DeckManager : MonoBehaviour
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
 
-    if (prankCompletionShowcasePanel != null)
-        prankCompletionShowcasePanel.Show(completedPrank.cardSprite);
+    float showcaseDuration = 1.75f;
 
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
+        showcaseDuration = AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
+
+    if (prankCompletionShowcasePanel != null)
+        prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
 
     if (HasPlayerCompletedFourPranks())
     {

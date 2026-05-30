@@ -26,7 +26,7 @@ public class PrankCompletionShowcasePanel : MonoBehaviour
         rootObject.SetActive(false);
     }
 
-    public void Show(Sprite sprite)
+    public void Show(Sprite sprite, float customDuration)
     {
         if (sprite == null)
             return;
@@ -34,10 +34,10 @@ public class PrankCompletionShowcasePanel : MonoBehaviour
         if (showcaseCoroutine != null)
             StopCoroutine(showcaseCoroutine);
 
-        showcaseCoroutine = StartCoroutine(ShowSequence(sprite));
+        showcaseCoroutine = StartCoroutine(ShowSequence(sprite, customDuration));
     }
 
-    private IEnumerator ShowSequence(Sprite sprite)
+    private IEnumerator ShowSequence(Sprite sprite, float customDuration)
     {
         prankImage.sprite = sprite;
 
@@ -45,11 +45,11 @@ public class PrankCompletionShowcasePanel : MonoBehaviour
 
         float elapsed = 0f;
 
-        while (elapsed < duration)
+        while (elapsed < customDuration)
         {
             elapsed += Time.deltaTime;
 
-            float t = Mathf.Clamp01(elapsed / duration);
+            float t = Mathf.Clamp01(elapsed / customDuration);
             float scale = Mathf.Lerp(startScale, endScale, t);
 
             rootObject.transform.localScale =
