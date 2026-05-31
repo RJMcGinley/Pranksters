@@ -131,7 +131,7 @@ public class StatisticsUI : MonoBehaviour
         CreateRow("Wizard", "Mystics", wizardIcon, favorLookup, serviceLookup);
         CreateRow("Engineer", "Planners", engineerIcon, favorLookup, serviceLookup);
         CreateRow("Laborer", "Hard Hands", laborerIcon, favorLookup, serviceLookup);
-        CreateRow("Scribe", "Linguists", scribeIcon, favorLookup, serviceLookup);
+        CreateRow("Scribe", "Scholars", scribeIcon, favorLookup, serviceLookup);
         CreateRow("BeastMaster", "Wranglers", beastmasterIcon, favorLookup, serviceLookup);
     }
 

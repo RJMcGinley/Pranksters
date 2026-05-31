@@ -256,7 +256,10 @@ public class BotManager : MonoBehaviour
     if (!BotDiscardDownToMaxHandSize(out discardMessage))
         return false;
 
-    actionMessage = "Recruited " + topCard + " from discard";
+    actionMessage =
+        "Recruited " +
+        PranksterNameUtility.GetPranksterDisplayName(topCard) +
+        " from discard";
 
     if (!string.IsNullOrEmpty(discardMessage))
         actionMessage += "\n" + discardMessage;
@@ -1078,7 +1081,8 @@ string GetBotCardDisplayName(PranksterDeckEntry card)
     if (card == null)
         return "Unknown";
 
-    string typeName = card.pranksterType.ToString();
+    string typeName =
+        PranksterNameUtility.GetPranksterDisplayName(card.pranksterType);
 
     if (typeName == "BeastMaster")
         typeName = "Beastmaster";
