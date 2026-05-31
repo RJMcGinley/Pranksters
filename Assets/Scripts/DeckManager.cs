@@ -892,32 +892,19 @@ void StartDrawFromDeckTurn()
 
     DrawCard();
 
-    handDisplay.ShowCurrentPlayerHand();
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayDrawCardAction();
 
-    if (GetCurrentPlayer().hand.Count > GetCurrentPlayer().maxHandSize)
+    if (pendingRoundLocation == GameLocationType.ForestClearing)
     {
-        pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
-
-        RefreshAllHighlights();
-        RefreshHandVisuals();
-        RefreshCrewCapacityDisplay();
-
-        if (AudioManager.Instance != null && Random.value < 0.6f)
-            AudioManager.Instance.PlayHmmDecisions();
-
-        LogSeparator("CHOOSE DISCARD");
-
-        Debug.Log("Choose a card to discard.");
-        ShowCurrentPlayerHand();
+        StartCoroutine(ForestClearingSecondDraw());
+        return;
     }
-    else
-    {
-        RefreshHandVisuals();
-        FinishActionAndWaitForEndTurn();
-    }
+
+    FinishDrawFromDeckTurn();
 }
 
  
@@ -3342,7 +3329,13 @@ public void BotCompletePrank(int prankIndex)
 
 public void BotDrawFromDeck()
 {
-    DrawCard();
+    int drawAmount = GetDrawFromDeckAmount();
+
+    for (int i = 0; i < drawAmount; i++)
+    {
+        DrawCard();
+    }
+
     RefreshAllDisplays();
 }
 
@@ -5711,6 +5704,83 @@ string GetLocationDisplayName(GameLocationType locationType)
 
         default:
             return locationType.ToString();
+    }
+}
+
+int GetDrawFromDeckAmount()
+{
+    if (pendingRoundLocation == GameLocationType.ForestClearing)
+        return 2;
+
+    return 1;
+}
+
+IEnumerator DrawCardsOneAtATime(int cardsToDraw, float delayBetweenCards = 0.3f)
+{
+    for (int i = 0; i < cardsToDraw; i++)
+    {
+        int handCountBefore = GetCurrentPlayer().hand.Count;
+
+        DrawCard();
+
+        if (GetCurrentPlayer().hand.Count == handCountBefore)
+        {
+            Debug.Log("Could not draw more cards. Stopping draw sequence.");
+            yield break;
+        }
+
+        RefreshAllDisplays();
+
+        if (handDisplay != null)
+            handDisplay.ShowCurrentPlayerHand();
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayDrawCardAction();
+
+        yield return new WaitForSeconds(delayBetweenCards);
+    }
+}
+
+IEnumerator ForestClearingSecondDraw()
+{
+    yield return new WaitForSeconds(0.3f);
+
+    DrawCard();
+
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
+
+    RefreshHandVisuals();
+    RefreshCrewCapacityDisplay();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayDrawCardAction();
+
+    FinishDrawFromDeckTurn();
+}
+
+void FinishDrawFromDeckTurn()
+{
+    if (GetCurrentPlayer().hand.Count > GetCurrentPlayer().maxHandSize)
+    {
+        pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
+
+        RefreshAllHighlights();
+        RefreshHandVisuals();
+        RefreshCrewCapacityDisplay();
+
+        if (AudioManager.Instance != null && Random.value < 0.6f)
+            AudioManager.Instance.PlayHmmDecisions();
+
+        LogSeparator("CHOOSE DISCARD");
+
+        Debug.Log("Choose a card to discard.");
+        ShowCurrentPlayerHand();
+    }
+    else
+    {
+        RefreshHandVisuals();
+        FinishActionAndWaitForEndTurn();
     }
 }
 

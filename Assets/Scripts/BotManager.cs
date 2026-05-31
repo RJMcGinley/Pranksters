@@ -233,7 +233,7 @@ public class BotManager : MonoBehaviour
     return false;
 }   
 
-    bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage)
+   bool TryTakeDiscardForExactProgress(int targetProgress, out string actionMessage)
 {   
     actionMessage = "";
 
@@ -243,7 +243,6 @@ public class BotManager : MonoBehaviour
         return false;
 
     PranksterType topCard = discardPile[discardPile.Count - 1];
-    Player player = GetCurrentPlayer();
 
     if (!CardCreatesExactProgress(topCard, targetProgress, out int bestPrankIndex))
         return false;
@@ -252,34 +251,15 @@ public class BotManager : MonoBehaviour
 
     deckManager.BotDrawFromDiscard();
 
-    // Only discard if over max hand size.
-    if (player.hand.Count <= player.maxHandSize)
-    {
-        actionMessage =
-            "Recruited " + topCard + " from discard";
+    string discardMessage;
 
-        return true;
-    }
-
-    int bestDiscardIndex = ChooseDiscardIndexAfterGain(bestPrankIndex, targetProgress);
-
-    if (bestDiscardIndex == -1)
-    {
-        Debug.Log("BOT: No valid discard found after taking discard card.");
-        return false;
-    }
-
-    if (bestDiscardIndex < 0 || bestDiscardIndex >= player.hand.Count)
+    if (!BotDiscardDownToMaxHandSize(out discardMessage))
         return false;
 
-    PranksterDeckEntry discardedCard = player.hand[bestDiscardIndex];
-    string discardedCardName = GetBotCardDisplayName(discardedCard);
+    actionMessage = "Recruited " + topCard + " from discard";
 
-    deckManager.BotDiscardCardFromHand(bestDiscardIndex);
-
-    actionMessage =
-        "Recruited " + topCard + " from discard" +
-        "\nDismissed: " + discardedCardName;
+    if (!string.IsNullOrEmpty(discardMessage))
+        actionMessage += "\n" + discardMessage;
 
     return true;
 }
@@ -351,39 +331,17 @@ public class BotManager : MonoBehaviour
 
     Player player = GetCurrentPlayer();
 
-    // Only discard if over max hand size.
-    if (player.hand.Count <= player.maxHandSize)
-    {
-        actionMessage = "Scouted from recruit deck";
-        return true;
-    }
+    string discardMessage;
 
-    int discardIndex = ChooseBestDiscardIndexFromCurrentHand();
+if (!BotDiscardDownToMaxHandSize(out discardMessage))
+    return false;
 
-    if (discardIndex < 0)
-    {
-        Debug.LogWarning("BOT: No valid discard index found after drawing.");
-        return false;
-    }
+actionMessage = "Scouted from recruit deck";
 
-    if (discardIndex >= player.hand.Count)
-    {
-        Debug.LogWarning("BOT: Discard index out of range.");
-        return false;
-    }
+if (!string.IsNullOrEmpty(discardMessage))
+    actionMessage += "\n" + discardMessage;
 
-    PranksterDeckEntry discardedCard = player.hand[discardIndex];
-    string discardedCardName = GetBotCardDisplayName(discardedCard);
-
-    Debug.Log("BOT: Discarding card at hand index " + discardIndex);
-
-    deckManager.BotDiscardCardFromHand(discardIndex);
-
-    actionMessage =
-        "Scouted from recruit deck\n" +
-        "Dismissed: " + discardedCardName;
-
-    return true;
+return true;
 }
 
     int ChooseLowestFavorValueHandIndex()
@@ -1174,6 +1132,41 @@ public void StopBotRuntime()
     }
 
     Debug.Log("Bot runtime stopped and reset.");
+}
+
+bool BotDiscardDownToMaxHandSize(out string discardMessage)
+{
+    discardMessage = "";
+
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return false;
+
+    List<string> discardedCardNames = new List<string>();
+
+    while (player.hand.Count > player.maxHandSize)
+    {
+        int discardIndex = ChooseBestDiscardIndexFromCurrentHand();
+
+        if (discardIndex < 0 || discardIndex >= player.hand.Count)
+        {
+            Debug.LogWarning("BOT: Could not find valid discard while over max hand size.");
+            return false;
+        }
+
+        PranksterDeckEntry discardedCard = player.hand[discardIndex];
+        discardedCardNames.Add(GetBotCardDisplayName(discardedCard));
+
+        deckManager.BotDiscardCardFromHand(discardIndex);
+    }
+
+    if (discardedCardNames.Count > 0)
+    {
+        discardMessage = "Dismissed: " + string.Join(", ", discardedCardNames);
+    }
+
+    return true;
 }
 
 }
