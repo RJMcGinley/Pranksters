@@ -130565,7 +130565,7 @@ MonoBehaviour:
   discardPileDisplay: {fileID: 927626834}
   prankCardPrefab: {fileID: 3272355035657756648, guid: c4939a6d70bfc4ed1ac6edf9c3479f10, type: 3}
   activePrankDisplay: {fileID: 453076674}
-  prankCardSpacing: 4
+  prankCardSpacing: 3.6
   prankCardScale: {x: 0.28, y: 0.28, z: 1}
   turnText: {fileID: 488703512}
   filledMarker1: {fileID: 1457515503}

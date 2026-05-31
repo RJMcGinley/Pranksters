@@ -26,7 +26,7 @@ public class DeckManager : MonoBehaviour
     public DiscardPileDisplay discardPileDisplay;
     public GameObject prankCardPrefab;
     public Transform activePrankDisplay;
-    public float prankCardSpacing = 2.8f;
+    public float prankCardSpacing = 2.0f;
     public Vector3 prankCardScale = new Vector3(0.28f, 0.28f, 1f);
     public TextMeshProUGUI turnText;
 
@@ -313,7 +313,9 @@ public class DeckManager : MonoBehaviour
 {
     activePranks.Clear();
 
-    for (int i = 0; i < 4; i++)
+    int prankCount = GetActivePrankCountForCurrentLocation();
+
+    for (int i = 0; i < prankCount; i++)
     {
         if (prankDeck.Count == 0)
         {
@@ -5813,6 +5815,14 @@ void ApplyCurrentLocationEffects()
 
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshDisplays();
+}
+
+int GetActivePrankCountForCurrentLocation()
+{
+    if (pendingRoundLocation == GameLocationType.Treetop)
+        return 5;
+
+    return 4;
 }
 
 }
