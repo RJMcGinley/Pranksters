@@ -1332,6 +1332,9 @@ void ResetRound()
     // Shuffle prankster deck
     ShufflePranksterDeck();
 
+    // Apply location effects before dealing new hands
+    ApplyCurrentLocationEffects();
+
     // Deal fresh hands
     DealStartingHands();
 
@@ -2373,6 +2376,9 @@ public void BeginNewGame()
 
     Debug.Log("BeginNewGame | resetting players");
 
+    pendingRoundLocation = GameLocationType.RebelWorkshop;
+    ApplyCurrentLocationEffects();
+
     // Reset players
     for (int i = 0; i < turnManager.players.Count; i++)
     {
@@ -3019,6 +3025,8 @@ IEnumerator ResetRoundSequence()
     {
         Debug.LogWarning("GameBackgroundManager not found during round reset.");
     }
+
+    ApplyCurrentLocationEffects();
 
     yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
 
@@ -5782,6 +5790,29 @@ void FinishDrawFromDeckTurn()
         RefreshHandVisuals();
         FinishActionAndWaitForEndTurn();
     }
+}
+
+void ApplyCurrentLocationEffects()
+{
+    foreach (Player player in turnManager.players)
+    {
+        player.maxHandSize = 4;
+    }
+
+    if (pendingRoundLocation == GameLocationType.SewerHideout)
+    {
+        foreach (Player player in turnManager.players)
+        {
+            player.maxHandSize = 5;
+        }
+
+        Debug.Log("LOCATION EFFECT: Sewer Hideout active. Max hand size increased to 5.");
+    }
+
+    RefreshCrewCapacityDisplay();
+
+    if (opponentDisplayManager != null)
+        opponentDisplayManager.RefreshDisplays();
 }
 
 }
