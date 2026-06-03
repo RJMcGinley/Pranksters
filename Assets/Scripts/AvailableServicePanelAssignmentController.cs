@@ -73,7 +73,12 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
     {
         int assignedCount = GetAssignedSlotCount();
 
-        bool immediateAvailable = assignedCount >= 2;
+        int immediateCost = 2;
+
+        if (deckManager != null)
+            immediateCost = deckManager.GetImmediateAvailableServiceCost();
+
+        bool immediateAvailable = assignedCount >= immediateCost;
 
         if (immediateActionGlow != null)
             immediateActionGlow.SetActive(immediateAvailable);
@@ -90,7 +95,13 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
             ongoingAlreadyUsed = deckManager.HasCurrentPlayerUsedOngoingService(serviceType);
         }
 
-        bool scoringAvailable = assignedCount >= 3 && !scoringAlreadyUsed;
+        int scoringCost = 3;
+
+        if (deckManager != null)
+            scoringCost = deckManager.GetScoringAvailableServiceCost();
+
+        bool scoringAvailable = assignedCount >= scoringCost && !scoringAlreadyUsed;
+        
         bool ongoingAvailable = assignedCount >= 4 && !ongoingAlreadyUsed;
 
         if (scoringActionGlow != null)

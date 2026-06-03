@@ -2327,8 +2327,13 @@ public void BeginNewGame()
 {
     Debug.Log("BeginNewGame START");
 
+    StopAllCoroutines();
+
     if (favorPreviewText != null)
         favorPreviewText.gameObject.SetActive(false);
+
+    if (prankCompletionShowcasePanel != null)
+        prankCompletionShowcasePanel.Hide();
 
     if (turnManager == null)
     {
@@ -2371,15 +2376,20 @@ public void BeginNewGame()
     hoveredPrankIndex = -1;
     hasTakenActionThisTurn = false;
 
-    GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
+    pendingRoundLocation = GameLocationType.RebelWorkshop;
+
+    GameBackgroundManager backgroundManager =
+        FindFirstObjectByType<GameBackgroundManager>(FindObjectsInactive.Include);
 
     if (backgroundManager != null)
+    {
+        Debug.Log("BeginNewGame | setting background to " + pendingRoundLocation);
         backgroundManager.SetLocation(GameLocationType.RebelWorkshop);
-
-    Debug.Log("BeginNewGame | resetting players");
-
-    pendingRoundLocation = GameLocationType.RebelWorkshop;
-    ApplyCurrentLocationEffects();
+    }
+    else
+    {
+        Debug.LogWarning("BeginNewGame | GameBackgroundManager not found.");
+    }
 
     // Reset players
     for (int i = 0; i < turnManager.players.Count; i++)
@@ -2396,6 +2406,8 @@ public void BeginNewGame()
         player.activeScoringServiceTypes.Clear();
         player.activeOngoingServiceTypes.Clear();
     }
+
+    ApplyCurrentLocationEffects();
 
     ResetPlayer1FavorTrackingForNewGame();
     ResetPlayer1DiscardTrackingForNewGame();
@@ -4577,15 +4589,16 @@ public void ActivateAvailableServiceScoringAction()
         return;
     }
 
-    if (groupToConsume.assignedCards.Count < 3)
+    int cardsToSpend = GetScoringAvailableServiceCost();
+
+    if (groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate scoring service. Need 3 retained cards for: " +
-                         selectedAvailableServiceType +
-                         " | current count=" + groupToConsume.assignedCards.Count);
+        Debug.LogWarning("Cannot activate scoring service. Need " + cardsToSpend +
+                        " retained cards for: " +
+                        selectedAvailableServiceType +
+                        " | current count=" + groupToConsume.assignedCards.Count);
         return;
     }
-
-    int cardsToSpend = 3;
 
     for (int i = 0; i < cardsToSpend; i++)
     {
@@ -4645,7 +4658,7 @@ public void ActivateAvailableServiceScoringAction()
 
     Debug.Log("Activated end-game scoring service for " + selectedAvailableServiceType +
               " on Player " + (turnManager.currentPlayerIndex + 1) +
-              ". Moved 3 retained service card(s) to discard pile. Remaining retained cards: " +
+              ". Moved " + cardsToSpend + " retained service card(s) to discard pile. Remaining retained cards: " +
               remainingCount);
 
     if (AudioManager.Instance != null)
@@ -4732,13 +4745,20 @@ private IEnumerator ActivateLaborerImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Laborer Immediate Action. Need 2 retained Laborer cards.");
+        Debug.LogWarning("Cannot activate Laborer Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Laborer cards.");
+
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -4798,9 +4818,16 @@ private IEnumerator ActivateWizardImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Wizard Immediate Action. Need 2 retained Wizard cards.");
+        Debug.LogWarning("Cannot activate Wizard Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Wizard cards.");
+
         yield break;
     }
 
@@ -4810,7 +4837,7 @@ private IEnumerator ActivateWizardImmediateActionSequence()
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -4921,13 +4948,20 @@ private IEnumerator ActivateEngineerImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Engineer Immediate Action. Need 2 retained Engineer cards.");
+        Debug.LogWarning("Cannot activate Engineer Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Engineer cards.");
+
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -5032,9 +5066,16 @@ private IEnumerator ActivateThiefImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Thief Immediate Action. Need 2 retained Thief cards.");
+        Debug.LogWarning("Cannot activate Thief Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Thief cards.");
+
         yield break;
     }
 
@@ -5053,7 +5094,7 @@ private IEnumerator ActivateThiefImmediateActionSequence()
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -5187,13 +5228,20 @@ private IEnumerator ActivateScribeImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Scribe Immediate Action. Need 2 retained Scribe cards.");
+        Debug.LogWarning("Cannot activate Scribe Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Scribe cards.");
+
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -5412,13 +5460,20 @@ private IEnumerator ActivateBeastmasterImmediateActionSequence()
         }
     }
 
-    if (groupToConsume == null || groupToConsume.assignedCards == null || groupToConsume.assignedCards.Count < 2)
+    int cardsToSpend = GetImmediateAvailableServiceCost();
+
+    if (groupToConsume == null ||
+        groupToConsume.assignedCards == null ||
+        groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need 2 retained Beastmaster cards.");
+        Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need " +
+                        cardsToSpend +
+                        " retained Beastmaster cards.");
+
         yield break;
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < cardsToSpend; i++)
     {
         PranksterDeckEntry card = groupToConsume.assignedCards[0];
 
@@ -5824,6 +5879,40 @@ int GetActivePrankCountForCurrentLocation()
 
     return 4;
 }
+
+public bool IsAvailableServiceDiscountActive()
+{
+    return pendingRoundLocation == GameLocationType.OutsideTheWalls;
+}
+
+public int GetImmediateAvailableServiceCost()
+{
+    return IsAvailableServiceDiscountActive() ? 1 : 2;
+}
+
+public int GetScoringAvailableServiceCost()
+{
+    return IsAvailableServiceDiscountActive() ? 2 : 3;
+}
+
+public bool CanSafelyReadCurrentPlayer()
+{
+    if (turnManager == null)
+        return false;
+
+    if (turnManager.players == null)
+        return false;
+
+    if (turnManager.players.Count == 0)
+        return false;
+
+    if (turnManager.currentPlayerIndex < 0 ||
+        turnManager.currentPlayerIndex >= turnManager.players.Count)
+        return false;
+
+    return true;
+}
+
 
 }
 

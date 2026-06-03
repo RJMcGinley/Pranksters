@@ -64,4 +64,19 @@ public class PrankCompletionShowcasePanel : MonoBehaviour
 
         showcaseCoroutine = null;
     }
+
+    public void Hide()
+    {
+        if (showcaseCoroutine != null)
+        {
+            StopCoroutine(showcaseCoroutine);
+            showcaseCoroutine = null;
+        }
+
+        if (rootObject == null)
+            rootObject = gameObject;
+
+        rootObject.transform.localScale = originalScale;
+        rootObject.SetActive(false);
+    }
 }

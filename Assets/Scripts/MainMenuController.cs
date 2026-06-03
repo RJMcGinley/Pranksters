@@ -111,6 +111,12 @@ public class MainMenuController : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayConfirmClick();
 
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(false);
+
+        if (playerCountPanel != null)
+            playerCountPanel.SetActive(false);    
+
         if (playerSetup == null)
         {
             Debug.LogWarning("MainMenuController: playerSetup is not assigned.");
