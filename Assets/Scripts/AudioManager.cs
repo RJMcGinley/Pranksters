@@ -55,6 +55,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip yourOpponentDoesntHaveAnyRecruitsClip;
     public AudioClip yourOpponentsDontHaveAnyRecruitsClip;
     public AudioClip availableServiceScoringActionClip;
+    public AudioClip spendInfluenceClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -71,6 +72,8 @@ public class AudioManager : MonoBehaviour
 
     [Header("Prank Completion Sounds")]
     public PrankCompletionAudioEntry[] prankCompletionAudioEntries;
+
+    
 
     void Awake()
     {
@@ -449,6 +452,11 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
         }
 
         return fallbackDuration;
+    }
+
+    public void PlaySpendInfluence()
+    {
+        PlaySFX(spendInfluenceClip);
     }
 
 }

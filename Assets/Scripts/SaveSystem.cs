@@ -649,11 +649,11 @@ public static List<PranksterUnlockEntry> EvaluateFavorUnlocks(PlayerProgressSave
 
         int highestTier = 0;
 
-        if (favorTotal >= 100)
+        if (favorTotal >= 70)
             highestTier = 3;
-        else if (favorTotal >= 50)
+        else if (favorTotal >= 35)
             highestTier = 2;
-        else if (favorTotal >= 15)
+        else if (favorTotal >= 10)
             highestTier = 1;
 
         if (highestTier == 0)
@@ -937,9 +937,9 @@ public static List<PranksterUnlockEntry> EvaluateAvailableServiceUnlocks(PlayerP
 
         int highestTier = 0;
 
-        if (serviceUseTotal >= 60)
+        if (serviceUseTotal >= 35)
             highestTier = 3;
-        else if (serviceUseTotal >= 25)
+        else if (serviceUseTotal >= 15)
             highestTier = 2;
         else if (serviceUseTotal >= 5)
             highestTier = 1;
@@ -1004,6 +1004,32 @@ public static List<PranksterUnlockEntry> EvaluateAvailableServiceUnlocks(PlayerP
     Debug.Log("AVAILABLE SERVICE UNLOCK EVALUATION END | count = " + newlyEarned.Count);
 
     return newlyEarned;
+}
+
+public static bool HasLifetimeCrewSizeUnlock()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return false;
+
+    return data.lifetimeFinalScorePoints >= 500;
+}
+
+public static int GetLifetimeCrewSizeUpgradeCost()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return 10;
+
+    if (data.lifetimeFinalScorePoints >= 2000)
+        return 6;
+
+    if (data.lifetimeFinalScorePoints >= 1000)
+        return 8;
+
+    return 10;
 }
 
 }

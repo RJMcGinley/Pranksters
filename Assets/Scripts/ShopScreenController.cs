@@ -29,6 +29,10 @@ public class ShopScreenController : MonoBehaviour
     [Header("Score Bar")]
     public Slider scoreProgressSlider;
 
+    [Header("Panels")]
+    public GameObject shopScreenPanel;
+    public GameObject unlockCollectionPanel;
+
     void OnEnable()
     {
         Refresh();
@@ -106,4 +110,34 @@ public class ShopScreenController : MonoBehaviour
 
         Refresh();
     }
+
+    public void OpenUnlockCollectionPanel()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
+    if (shopScreenPanel != null)
+        shopScreenPanel.SetActive(false);
+
+    if (unlockCollectionPanel != null)
+        unlockCollectionPanel.SetActive(true);
+}
+
+public void ReturnToShopScreen()
+{
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
+    if (unlockCollectionPanel != null)
+        unlockCollectionPanel.SetActive(false);
+
+    if (shopScreenPanel != null)
+    {
+        shopScreenPanel.SetActive(true);
+
+        ShopScreenController shopController = shopScreenPanel.GetComponent<ShopScreenController>();
+        if (shopController != null)
+            shopController.Refresh();
+    }
+}
 }

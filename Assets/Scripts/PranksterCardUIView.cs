@@ -22,9 +22,9 @@ public class PranksterCardUIView : MonoBehaviour
         );
 
         Debug.Log("CARD UI VIEW SET CARD | type=" + card.pranksterType +
-                " | tier=" + card.tier +
-                " | category=" + card.category +
-                " | sprite=" + (sprite != null ? sprite.name : "NULL"));
+                  " | tier=" + card.tier +
+                  " | category=" + card.category +
+                  " | sprite=" + (sprite != null ? sprite.name : "NULL"));
 
         SetCharacterArt(sprite);
     }
@@ -41,5 +41,19 @@ public class PranksterCardUIView : MonoBehaviour
         characterArtImage.enabled = sprite != null;
         characterArtImage.color = Color.white;
         characterArtImage.preserveAspect = true;
+    }
+
+    public void SetUnlockedVisual(bool unlocked)
+    {
+        Color targetColor = unlocked ? Color.white : Color.gray;
+
+        if (backgroundImage != null)
+            backgroundImage.color = targetColor;
+
+        if (characterArtImage != null)
+            characterArtImage.color = targetColor;
+
+        if (frameImage != null)
+            frameImage.color = targetColor;
     }
 }

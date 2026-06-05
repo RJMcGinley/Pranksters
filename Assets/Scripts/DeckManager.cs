@@ -146,6 +146,8 @@ public class DeckManager : MonoBehaviour
     public TextMeshPro crewCapacityText;
     private bool availableServicesPanelOpen = false;
 
+    [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
+
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
 
     [Header("Available Service Instructions")]
@@ -2189,6 +2191,9 @@ public void RefreshAllDisplays()
         opponentDisplayManager.RefreshDisplays();
 
     RefreshActionHighlights();
+
+    if (lifetimeCrewSizeButton != null)
+        lifetimeCrewSizeButton.Refresh();
 }
 
 void UpdateCurrentPlayerStatsDisplay()
@@ -2401,6 +2406,10 @@ public void BeginNewGame()
         player.favorPoints = 0;
         player.renownPoints = 0;
         player.finalScore = 0;
+
+        player.maxHandSize = 4;
+        player.lifetimeNotorietyMaxHandSizeBonus = 0;
+        player.lifetimeNotorietyCrewUpgradeUsedThisGame = false;
 
         player.retainedServices.Clear();
         player.activeScoringServiceTypes.Clear();
@@ -5853,17 +5862,10 @@ void ApplyCurrentLocationEffects()
 {
     foreach (Player player in turnManager.players)
     {
-        player.maxHandSize = 4;
-    }
+        player.maxHandSize = 4 + player.lifetimeNotorietyMaxHandSizeBonus;
 
-    if (pendingRoundLocation == GameLocationType.SewerHideout)
-    {
-        foreach (Player player in turnManager.players)
-        {
-            player.maxHandSize = 5;
-        }
-
-        Debug.Log("LOCATION EFFECT: Sewer Hideout active. Max hand size increased to 5.");
+        if (pendingRoundLocation == GameLocationType.SewerHideout)
+            player.maxHandSize += 1;
     }
 
     RefreshCrewCapacityDisplay();
@@ -5913,6 +5915,57 @@ public bool CanSafelyReadCurrentPlayer()
     return true;
 }
 
+public void TryPurchaseLifetimeCrewSizeUpgrade()
+{
+    Player player = GetCurrentPlayer();
+
+    if (hasTakenActionThisTurn)
+        return;
+
+    if (player == null)
+        return;
+
+    if (player.isBot)
+        return;
+
+    if (!SaveSystem.HasLifetimeCrewSizeUnlock())
+        return;
+
+    if (player.lifetimeNotorietyCrewUpgradeUsedThisGame)
+        return;
+
+    int cost = SaveSystem.GetLifetimeCrewSizeUpgradeCost();
+
+    if (player.favorPoints < cost)
+    {
+        Debug.Log("Not enough influence to purchase lifetime crew size upgrade.");
+        return;
+    }
+
+    player.favorPoints -= cost;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlaySpendInfluence();
+        
+    player.lifetimeNotorietyMaxHandSizeBonus = 1;
+    player.lifetimeNotorietyCrewUpgradeUsedThisGame = true;
+
+    ApplyCurrentLocationEffects();
+
+    Debug.Log("LIFETIME NOTORIETY ACTION: Spent " + cost + " influence to gain +1 max crew size this game.");
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public Player GetCurrentPlayerForUI()
+{
+    return GetCurrentPlayer();
+}
+
+public bool HasCurrentPlayerTakenActionThisTurn()
+{
+    return hasTakenActionThisTurn;
+}
 
 }
 
