@@ -15,13 +15,18 @@ public class LifetimeNotorietyCrewSizeButton : MonoBehaviour
             buttonRoot.SetActive(false);
     }
 
+    public int GetCurrentCost()
+    {
+        return SaveSystem.GetLifetimeCrewSizeUpgradeCost();
+    }
+
     public void Refresh()
     {
         if (buttonRoot == null)
             return;
 
         bool unlocked = SaveSystem.HasLifetimeCrewSizeUnlock();
-        int cost = SaveSystem.GetLifetimeCrewSizeUpgradeCost();
+        int cost = GetCurrentCost();
 
         if (costText != null)
             costText.text = "-" + cost;
@@ -60,4 +65,5 @@ public class LifetimeNotorietyCrewSizeButton : MonoBehaviour
 
         Refresh();
     }
+
 }
