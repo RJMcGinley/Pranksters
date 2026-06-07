@@ -33,6 +33,13 @@ public class AvailableServiceSlotCollider : MonoBehaviour
 
     void OnMouseDown()
     {
+        Debug.Log(
+            "SERVICE SLOT CLICKED | type=" + serviceType +
+            " | isAvailable=" + isAvailable +
+            " | inactiveMode=" + (deckManager != null && deckManager.IsSelectingInactiveInfluenceService()) +
+            " | viewingInactivePanel=" + (deckManager != null && deckManager.IsViewingInactiveInfluenceServicePanel())
+        );
+
         if (deckManager != null && deckManager.IsChoosingBeastmasterDiscardType())
         {
             deckManager.ResolveBeastmasterDiscardTypeChoice(serviceType);

@@ -80,7 +80,9 @@ public class AvailableServiceActionCollider : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateLaborerImmediateAction();
+        deckManager.ActivateLaborerImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+        );
     }
     else if (actionName == "Wizard Immediate Action")
     {
@@ -110,14 +112,18 @@ public class AvailableServiceActionCollider : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateScribeImmediateAction();
+        deckManager.ActivateScribeImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+        );
     }
     else if (actionName == "Beastmaster Immediate Action")
     {
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateBeastmasterImmediateAction();
+        deckManager.ActivateBeastmasterImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+        );
     }
 }
 

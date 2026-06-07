@@ -30,6 +30,7 @@ public class AvailableServicesPanelController : MonoBehaviour
     public void OnServiceSelected(PranksterType serviceType)
     {
         DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+        Debug.Log("Inactive influence selected service type set to: " + serviceType);
 
         if (deckManager != null)
         {

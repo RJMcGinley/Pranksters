@@ -149,10 +149,10 @@ public class DeckManager : MonoBehaviour
     private bool selectingInactiveInfluenceService = false;
     private bool viewingInactiveInfluenceServicePanel = false;
 
-    private int inactiveInfluenceServiceCost = 5;
-
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
+    private Dictionary<PranksterType, bool> serviceAvailabilityThisRound =
+        new Dictionary<PranksterType, bool>();
 
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
 
@@ -1340,11 +1340,14 @@ void ResetRound()
     ApplyCurrentLocationEffects();
 
     // Deal fresh hands
+    // Deal fresh hands
     DealStartingHands();
 
     // Deal 4 new active pranks
     DealActivePranks();
     ShowActivePrankCards();
+
+    CacheServiceAvailabilityForRound();
     RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("New round started.");
@@ -3058,6 +3061,7 @@ IEnumerator ResetRoundSequence()
 
     DealActivePranks();
     ShowActivePrankCards();
+    CacheServiceAvailabilityForRound();
     RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("New round started.");
@@ -3085,6 +3089,7 @@ IEnumerator BeginNewGameSequence()
 
     DealActivePranks();
     ShowActivePrankCards();
+    CacheServiceAvailabilityForRound();
     RefreshAvailableServiceSlotAvailability();
 
     Debug.Log("Prank deck size: " + prankDeck.Count);
@@ -4396,8 +4401,6 @@ public void CommitRetainedServices()
               " on player " + turnManager.currentPlayerIndex +
               ". Total retained now: " + group.assignedCards.Count);
 
-    //RefreshAvailableServiceSlotAvailability();
-
     FinishActionAndWaitForEndTurn();
 }
 
@@ -4564,7 +4567,11 @@ void ReturnRetainedServiceCardsToDeck()
 
 public bool IsServiceTypeAvailableThisRound(PranksterType type)
 {
-    return CalculateFavorPoints(type) <= 2;
+    if (serviceAvailabilityThisRound.TryGetValue(type, out bool available))
+        return available;
+
+    Debug.LogWarning("Service availability was not cached for: " + type);
+    return false;
 }
 
 void RefreshAvailableServiceSlotAvailability()
@@ -4738,7 +4745,7 @@ public bool IsAvailableServicesPanelOpen()
     return availableServicesPanelOpen;
 }
 
-public void ActivateLaborerImmediateAction()
+public void ActivateLaborerImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.Laborer)
     {
@@ -4746,56 +4753,65 @@ public void ActivateLaborerImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateLaborerImmediateActionSequence());
+    StartCoroutine(ActivateLaborerImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateLaborerImmediateActionSequence()
+private IEnumerator ActivateLaborerImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.Laborer)
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
+    }
+
+    if (!ignoreServiceRequirements)
+    {
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            groupToConsume = group;
-            break;
+            if (group.serviceType == PranksterType.Laborer)
+            {
+                groupToConsume = group;
+                break;
+            }
         }
-    }
 
-    int cardsToSpend = GetImmediateAvailableServiceCost();
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Laborer Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Laborer cards.");
-
-        yield break;
-    }
-
-    for (int i = 0; i < cardsToSpend; i++)
-    {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
-
-        discardPile.Add(new PranksterDeckEntry
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            Debug.LogWarning("Cannot activate Laborer Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Laborer cards.");
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+            yield break;
+        }
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     activeServicePanelController = null;
 
@@ -4811,7 +4827,7 @@ private IEnumerator ActivateLaborerImmediateActionSequence()
     FinishActionAndWaitForEndTurn();
 }
 
-public void ActivateWizardImmediateAction()
+public void ActivateWizardImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.Wizard)
     {
@@ -4819,35 +4835,17 @@ public void ActivateWizardImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateWizardImmediateActionSequence());
+    StartCoroutine(ActivateWizardImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateWizardImmediateActionSequence()
+private IEnumerator ActivateWizardImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.Wizard)
-        {
-            groupToConsume = group;
-            break;
-        }
-    }
-
-    int cardsToSpend = GetImmediateAvailableServiceCost();
-
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Wizard Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Wizard cards.");
-
-        yield break;
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
     }
 
     if (player.favorArea == null || player.favorArea.Count == 0)
@@ -4856,25 +4854,52 @@ private IEnumerator ActivateWizardImmediateActionSequence()
         yield break;
     }
 
-    for (int i = 0; i < cardsToSpend; i++)
+    if (!ignoreServiceRequirements)
     {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
 
-        discardPile.Add(new PranksterDeckEntry
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            if (group.serviceType == PranksterType.Wizard)
+            {
+                groupToConsume = group;
+                break;
+            }
+        }
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
+        {
+            Debug.LogWarning("Cannot activate Wizard Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Wizard cards.");
+
+            yield break;
+        }
+
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     foreach (PranksterDeckEntry card in player.favorArea)
     {
@@ -4897,8 +4922,6 @@ private IEnumerator ActivateWizardImmediateActionSequence()
     SortCurrentPlayerHand();
 
     pendingChoice = PendingChoiceType.None;
-
-    //availableServiceInstructionPanel.ShowWizardInstruction("Choose one of your referred recruits to return to your hand.");
 
     RefreshAllDisplays();
     RefreshAllHighlights();
@@ -5069,7 +5092,7 @@ public bool IsChoosingEngineerPrankReplacement()
     return pendingChoice == PendingChoiceType.ChooseEngineerPrankReplacement;
 }
 
-public void ActivateThiefImmediateAction()
+public void ActivateThiefImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.Thief)
     {
@@ -5077,35 +5100,17 @@ public void ActivateThiefImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateThiefImmediateActionSequence());
+    StartCoroutine(ActivateThiefImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateThiefImmediateActionSequence()
+private IEnumerator ActivateThiefImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.Thief)
-        {
-            groupToConsume = group;
-            break;
-        }
-    }
-
-    int cardsToSpend = GetImmediateAvailableServiceCost();
-
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Thief Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Thief cards.");
-
-        yield break;
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
     }
 
     if (!AnyOpponentHasCardsInHand())
@@ -5123,25 +5128,52 @@ private IEnumerator ActivateThiefImmediateActionSequence()
         yield break;
     }
 
-    for (int i = 0; i < cardsToSpend; i++)
+    if (!ignoreServiceRequirements)
     {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
 
-        discardPile.Add(new PranksterDeckEntry
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            if (group.serviceType == PranksterType.Thief)
+            {
+                groupToConsume = group;
+                break;
+            }
+        }
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
+        {
+            Debug.LogWarning("Cannot activate Thief Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Thief cards.");
+
+            yield break;
+        }
+
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     activeServicePanelController = null;
 
@@ -5231,7 +5263,7 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
     ContinueDiscardingUntilHandAtMax();
 }
 
-public void ActivateScribeImmediateAction()
+public void ActivateScribeImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.Scribe)
     {
@@ -5239,72 +5271,84 @@ public void ActivateScribeImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateScribeImmediateActionSequence());
+    StartCoroutine(ActivateScribeImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateScribeImmediateActionSequence()
+private IEnumerator ActivateScribeImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.Scribe)
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
+    }
+
+    if (!ignoreServiceRequirements)
+    {
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            groupToConsume = group;
-            break;
+            if (group.serviceType == PranksterType.Scribe)
+            {
+                groupToConsume = group;
+                break;
+            }
         }
-    }
 
-    int cardsToSpend = GetImmediateAvailableServiceCost();
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Scribe Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Scribe cards.");
-
-        yield break;
-    }
-
-    for (int i = 0; i < cardsToSpend; i++)
-    {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
-
-        discardPile.Add(new PranksterDeckEntry
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            Debug.LogWarning("Cannot activate Scribe Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Scribe cards.");
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+            yield break;
+        }
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     activeServicePanelController = null;
 
-    if (availableServicesPanelController != null)
-        availableServicesPanelController.CloseAllServicePanels();
+if (availableServicesPanelController != null)
+    availableServicesPanelController.CloseAllServicePanels();
 
-    RefreshAllDisplays();
+pendingChoice = PendingChoiceType.ChooseScribeFavorTheft;
 
-    pendingChoice = PendingChoiceType.ChooseScribeFavorTheft;
+availableServiceInstructionPanel.ShowScribeInstruction(
+    "Choose an opponent to gather their recruits."
+);
 
-    availableServiceInstructionPanel.ShowScribeInstruction("Choose an opponent to gather their recruits.");
+if (AudioManager.Instance != null)
+    AudioManager.Instance.PlayChooseOpponentToGatherTheirReferrals();
 
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayChooseOpponentToGatherTheirReferrals();
+RefreshAllDisplays();
+RefreshAllHighlights();
 
-    Debug.Log("Choose an opponent to gather their referrals into your crew.");
+Debug.Log("Choose an opponent to gather their referrals into your crew.");
 }
 
 public bool IsChoosingScribeFavorTheft()
@@ -5445,7 +5489,7 @@ public void ResolveBeastmasterDiscardTypeChoice(PranksterType chosenType)
 
     SortCurrentPlayerHand();
 
-    RefreshAvailableServiceSlotAvailability();
+    //RefreshAvailableServiceSlotAvailability();
 
     HideAvailableServiceInstruction();
 
@@ -5463,7 +5507,7 @@ public void ResolveBeastmasterDiscardTypeChoice(PranksterType chosenType)
     ContinueDiscardingUntilHandAtMax();
 }
 
-public void ActivateBeastmasterImmediateAction()
+public void ActivateBeastmasterImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.BeastMaster)
     {
@@ -5471,71 +5515,84 @@ public void ActivateBeastmasterImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateBeastmasterImmediateActionSequence());
+    StartCoroutine(ActivateBeastmasterImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateBeastmasterImmediateActionSequence()
+private IEnumerator ActivateBeastmasterImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.BeastMaster)
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
+    }
+
+    if (!ignoreServiceRequirements)
+    {
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            groupToConsume = group;
-            break;
+            if (group.serviceType == PranksterType.BeastMaster)
+            {
+                groupToConsume = group;
+                break;
+            }
         }
-    }
 
-    int cardsToSpend = GetImmediateAvailableServiceCost();
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Beastmaster cards.");
-
-        yield break;
-    }
-
-    for (int i = 0; i < cardsToSpend; i++)
-    {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
-
-        discardPile.Add(new PranksterDeckEntry
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Beastmaster cards.");
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+            yield break;
+        }
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     activeServicePanelController = null;
 
     if (availableServicesPanelController != null)
         availableServicesPanelController.CloseAllServicePanels();
 
-    RefreshAllDisplays();
-
     pendingChoice = PendingChoiceType.ChooseBeastmasterDiscardType;
-    availableServiceInstructionPanel.ShowBeastmasterInstruction("Choose a recruit type to recover" + "\nfrom the discard pile.");
+
+    availableServiceInstructionPanel.ShowBeastmasterInstruction(
+        "Choose a recruit type to recover\nfrom the discard pile."
+    );
 
     ShowBeastmasterRecruitTypeSelectionGlows();
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayChooseARecruitForTheDogsToTrackDown();
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
 
     Debug.Log("Choose a recruit type from the Available Services icons.");
 }
@@ -6012,6 +6069,16 @@ public void StartInactiveInfluenceServiceSelection()
 {
     Player player = GetCurrentPlayer();
 
+    Debug.Log(
+        "START INACTIVE INFLUENCE CHECK | " +
+        "playerNull=" + (player == null) +
+        " | isBot=" + (player != null && player.isBot) +
+        " | hasTakenActionThisTurn=" + hasTakenActionThisTurn +
+        " | favor=" + (player != null ? player.favorPoints : -1) +
+        " | cost=" + GetInactiveInfluenceServiceCost() +
+        " | hasInactiveOptions=" + HasInactiveServiceOptionsThisRound()
+    );
+
     if (player == null)
         return;
 
@@ -6021,7 +6088,9 @@ public void StartInactiveInfluenceServiceSelection()
     if (hasTakenActionThisTurn)
         return;
 
-    if (player.favorPoints < inactiveInfluenceServiceCost)
+    int cost = GetInactiveInfluenceServiceCost();
+
+    if (player.favorPoints < cost)
         return;
 
     if (!HasInactiveServiceOptionsThisRound())
@@ -6097,6 +6166,23 @@ private bool TrySpendInactiveInfluenceServiceCost()
     Debug.Log("Spent " + cost + " influence to use inactive service action.");
 
     return true;
+}
+
+private void CacheServiceAvailabilityForRound()
+{
+    serviceAvailabilityThisRound.Clear();
+
+    foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
+    {
+        serviceAvailabilityThisRound[type] = CalculateFavorPoints(type) <= 2;
+
+        Debug.Log(
+            "Cached service availability | " +
+            type +
+            " | availableThisRound=" +
+            serviceAvailabilityThisRound[type]
+        );
+    }
 }
 
 }
