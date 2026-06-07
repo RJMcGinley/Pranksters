@@ -16,6 +16,7 @@ public class AvailableServiceActionCollider : MonoBehaviour
     [SerializeField] private GameObject[] actionTitleTextObjects;
     [SerializeField] private TMPro.TMP_Text descriptionText;
     [SerializeField] [TextArea] private string actionDescription;
+    [SerializeField] [TextArea] private string influenceModeActionDescription;
     [SerializeField] private float hoverDelay = 0.5f;
     [SerializeField] private GameObject retainServicesImage;
     [SerializeField] private GameObject retainServicesGlow;
@@ -34,7 +35,11 @@ public class AvailableServiceActionCollider : MonoBehaviour
     if (deckManager == null)
         return;
 
-    if (!deckManager.IsChoosingAvailableService())
+    bool canUseAction =
+        deckManager.IsChoosingAvailableService() ||
+        deckManager.IsViewingInactiveInfluenceServicePanel();
+
+    if (!canUseAction)
     {
         Debug.Log("Available Service action blocked because panel is in view-only mode: " + actionName);
 
@@ -89,7 +94,9 @@ public class AvailableServiceActionCollider : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateEngineerImmediateAction();
+        deckManager.ActivateEngineerImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+);
     }
     else if (actionName == "Thief Immediate Action")
     {
@@ -163,7 +170,7 @@ private void ShowDescription()
     }
 
     if (retainServicesImage != null)
-    retainServicesImage.SetActive(false);
+        retainServicesImage.SetActive(false);
 
     if (retainServicesGlow != null)
         retainServicesGlow.SetActive(false);
@@ -171,7 +178,17 @@ private void ShowDescription()
     if (descriptionText != null)
     {
         descriptionText.gameObject.SetActive(true);
-        descriptionText.text = actionDescription;
+
+        if (deckManager != null &&
+            deckManager.IsViewingInactiveInfluenceServicePanel() &&
+            !string.IsNullOrWhiteSpace(influenceModeActionDescription))
+        {
+            descriptionText.text = influenceModeActionDescription;
+        }
+        else
+        {
+            descriptionText.text = actionDescription;
+        }
     }
 }
 

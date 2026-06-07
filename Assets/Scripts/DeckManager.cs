@@ -146,7 +146,13 @@ public class DeckManager : MonoBehaviour
     public TextMeshPro crewCapacityText;
     private bool availableServicesPanelOpen = false;
 
+    private bool selectingInactiveInfluenceService = false;
+    private bool viewingInactiveInfluenceServicePanel = false;
+
+    private int inactiveInfluenceServiceCost = 5;
+
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
+    [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
 
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
 
@@ -378,9 +384,6 @@ public class DeckManager : MonoBehaviour
 {
     int total = 0;
 
-    Debug.Log("----- CALCULATE FAVOR POINTS -----");
-    Debug.Log("Checking prankster type: " + pranksterType);
-
     foreach (PrankCard prank in activePranks)
     {
         int prankCount = 0;
@@ -393,11 +396,8 @@ public class DeckManager : MonoBehaviour
                 total++;
             }
         }
-
-        Debug.Log(prank.title + " contributes: " + prankCount);
     }
 
-    Debug.Log("TOTAL FAVOR = " + total);
     return total;
 }
 
@@ -2194,6 +2194,9 @@ public void RefreshAllDisplays()
 
     if (lifetimeCrewSizeButton != null)
         lifetimeCrewSizeButton.Refresh();
+
+    if (inactiveServicesButton != null)
+        inactiveServicesButton.Refresh();   
 }
 
 void UpdateCurrentPlayerStatsDisplay()
@@ -4271,9 +4274,16 @@ public void CancelAvailableServicesSelection()
 
     if (activeAvailableServiceSlotCollider != null)
     {
-        activeAvailableServiceSlotCollider.SetAvailable(true);
+        if (!selectingInactiveInfluenceService && !viewingInactiveInfluenceServicePanel)
+            activeAvailableServiceSlotCollider.SetAvailable(true);
+
         activeAvailableServiceSlotCollider = null;
         activeServicePanelController = null;
+    }
+
+    if (selectingInactiveInfluenceService || viewingInactiveInfluenceServicePanel)
+    {
+        CancelInactiveInfluenceServiceSelection();
     }
 
     handDisplay.ShowCurrentPlayerHand();
@@ -4931,7 +4941,7 @@ private void ReturnFavorCardToHand(int favorSlotIndex)
     Debug.Log("Returned favor card to hand: " + card.pranksterType);
 }
 
-public void ActivateEngineerImmediateAction()
+public void ActivateEngineerImmediateAction(bool ignoreServiceRequirements = false)
 {
     if (selectedAvailableServiceType != PranksterType.Engineer)
     {
@@ -4939,56 +4949,65 @@ public void ActivateEngineerImmediateAction()
         return;
     }
 
-    StartCoroutine(ActivateEngineerImmediateActionSequence());
+    StartCoroutine(ActivateEngineerImmediateActionSequence(ignoreServiceRequirements));
 }
 
-private IEnumerator ActivateEngineerImmediateActionSequence()
+private IEnumerator ActivateEngineerImmediateActionSequence(bool ignoreServiceRequirements)
 {
     Player player = GetCurrentPlayer();
 
-    AvailableServicesRetainedServiceGroup groupToConsume = null;
-
-    foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
+    if (ignoreServiceRequirements)
     {
-        if (group.serviceType == PranksterType.Engineer)
+        if (!TrySpendInactiveInfluenceServiceCost())
+            yield break;
+    }
+
+    if (!ignoreServiceRequirements)
+    {
+        AvailableServicesRetainedServiceGroup groupToConsume = null;
+
+        foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
         {
-            groupToConsume = group;
-            break;
+            if (group.serviceType == PranksterType.Engineer)
+            {
+                groupToConsume = group;
+                break;
+            }
         }
-    }
 
-    int cardsToSpend = GetImmediateAvailableServiceCost();
+        int cardsToSpend = GetImmediateAvailableServiceCost();
 
-    if (groupToConsume == null ||
-        groupToConsume.assignedCards == null ||
-        groupToConsume.assignedCards.Count < cardsToSpend)
-    {
-        Debug.LogWarning("Cannot activate Engineer Immediate Action. Need " +
-                        cardsToSpend +
-                        " retained Engineer cards.");
-
-        yield break;
-    }
-
-    for (int i = 0; i < cardsToSpend; i++)
-    {
-        PranksterDeckEntry card = groupToConsume.assignedCards[0];
-
-        discardPile.Add(new PranksterDeckEntry
+        if (groupToConsume == null ||
+            groupToConsume.assignedCards == null ||
+            groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
+            Debug.LogWarning("Cannot activate Engineer Immediate Action. Need " +
+                            cardsToSpend +
+                            " retained Engineer cards.");
 
-        TrackPlayer1AvailableServiceUse(card);
-        ApplyAvailableServiceCardBonus(card, player);
+            yield break;
+        }
 
-        groupToConsume.assignedCards.RemoveAt(0);
+        for (int i = 0; i < cardsToSpend; i++)
+        {
+            PranksterDeckEntry card = groupToConsume.assignedCards[0];
+
+            discardPile.Add(new PranksterDeckEntry
+            {
+                pranksterType = card.pranksterType,
+                tier = card.tier,
+                category = card.category
+            });
+
+            TrackPlayer1AvailableServiceUse(card);
+            ApplyAvailableServiceCardBonus(card, player);
+
+            groupToConsume.assignedCards.RemoveAt(0);
+        }
+
+        if (groupToConsume.assignedCards.Count == 0)
+            player.retainedServices.Remove(groupToConsume);
     }
-
-    if (groupToConsume.assignedCards.Count == 0)
-        player.retainedServices.Remove(groupToConsume);
 
     activeServicePanelController = null;
 
@@ -4998,6 +5017,7 @@ private IEnumerator ActivateEngineerImmediateActionSequence()
     RefreshAllDisplays();
 
     pendingChoice = PendingChoiceType.ChooseEngineerPrankReplacement;
+    RefreshAllHighlights();
 
     availableServiceInstructionPanel.ShowEngineerInstruction("Choose an active prank to replace.");
 
@@ -5946,7 +5966,7 @@ public void TryPurchaseLifetimeCrewSizeUpgrade()
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlaySpendInfluence();
-        
+
     player.lifetimeNotorietyMaxHandSizeBonus = 1;
     player.lifetimeNotorietyCrewUpgradeUsedThisGame = true;
 
@@ -5965,6 +5985,118 @@ public Player GetCurrentPlayerForUI()
 public bool HasCurrentPlayerTakenActionThisTurn()
 {
     return hasTakenActionThisTurn;
+}
+
+public bool IsSelectingInactiveInfluenceService()
+{
+    return selectingInactiveInfluenceService;
+}
+
+public int GetInactiveInfluenceServiceCost()
+{
+    return SaveSystem.GetInactiveInfluenceServiceCost();
+}
+
+public bool HasInactiveServiceOptionsThisRound()
+{
+    foreach (PranksterType type in System.Enum.GetValues(typeof(PranksterType)))
+    {
+        if (!IsServiceTypeAvailableThisRound(type))
+            return true;
+    }
+
+    return false;
+}
+
+public void StartInactiveInfluenceServiceSelection()
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return;
+
+    if (player.isBot)
+        return;
+
+    if (hasTakenActionThisTurn)
+        return;
+
+    if (player.favorPoints < inactiveInfluenceServiceCost)
+        return;
+
+    if (!HasInactiveServiceOptionsThisRound())
+        return;
+
+    selectingInactiveInfluenceService = true;
+
+    Debug.Log("Inactive Influence Service selection started.");
+
+    RefreshAvailableServiceSlotAvailability();
+}
+
+public void CancelInactiveInfluenceServiceSelection()
+{
+    selectingInactiveInfluenceService = false;
+    viewingInactiveInfluenceServicePanel = false;
+
+    RefreshAvailableServiceSlotAvailability();
+
+    Debug.Log("Inactive Influence Service selection canceled.");
+}
+
+public void SetInactiveServicesButtonVisible(bool visible)
+{
+    if (inactiveServicesButton != null)
+        inactiveServicesButton.SetVisible(visible);
+}
+
+public bool IsViewingInactiveInfluenceServicePanel()
+{
+    return viewingInactiveInfluenceServicePanel;
+}
+
+public void MarkInactiveInfluenceServicePanelOpen()
+{
+    if (!selectingInactiveInfluenceService)
+        return;
+
+    viewingInactiveInfluenceServicePanel = true;
+
+    Debug.Log("Viewing inactive influence service panel.");
+}
+
+public void SetSelectedInactiveInfluenceServiceType(PranksterType serviceType)
+{
+    selectedAvailableServiceType = serviceType;
+}
+
+private bool TrySpendInactiveInfluenceServiceCost()
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return false;
+
+    int cost = GetInactiveInfluenceServiceCost();
+
+    if (player.favorPoints < cost)
+    {
+        Debug.LogWarning("Cannot use inactive service action. Need " + cost + " influence.");
+        return false;
+    }
+
+    player.favorPoints -= cost;
+    hasTakenActionThisTurn = true;
+
+    selectingInactiveInfluenceService = false;
+    viewingInactiveInfluenceServicePanel = false;
+
+    RefreshAvailableServiceSlotAvailability();
+    UpdateActiveFavorDisplay();
+
+    Debug.Log("Spent " + cost + " influence to use inactive service action.");
+
+    return true;
 }
 
 }

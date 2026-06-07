@@ -101,7 +101,7 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
             scoringCost = deckManager.GetScoringAvailableServiceCost();
 
         bool scoringAvailable = assignedCount >= scoringCost && !scoringAlreadyUsed;
-        
+
         bool ongoingAvailable = assignedCount >= 4 && !ongoingAlreadyUsed;
 
         if (scoringActionGlow != null)
@@ -228,5 +228,36 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
 
         Debug.Log("Reset all Available Services action visual states for: " + serviceType);
     }
+
+    public void ShowInactiveInfluenceModeActions()
+{
+    if (immediateActionGlow != null)
+        immediateActionGlow.SetActive(true);
+
+    if (immediateActionCollider != null)
+        immediateActionCollider.SetAvailable(true);
+
+    if (scoringActionGlow != null)
+        scoringActionGlow.SetActive(false);
+
+    if (scoringActionCollider != null)
+        scoringActionCollider.SetAvailable(false);
+
+    if (ongoingActionGlow != null)
+        ongoingActionGlow.SetActive(false);
+
+    if (ongoingActionCollider != null)
+        ongoingActionCollider.SetAvailable(false);
+
+    if (retainServicesGlow != null)
+        retainServicesGlow.SetActive(false);
+
+    if (retainServicesCollider != null)
+        retainServicesCollider.SetAvailable(false);
+
+    ResetAllActionVisualStates();
+
+    Debug.Log("Available Services panel set to inactive influence mode for: " + serviceType);
+}
 
 }

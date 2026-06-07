@@ -12,6 +12,7 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
 
     [Header("Cost Source")]
     [SerializeField] private LifetimeNotorietyCrewSizeButton crewSizeButton;
+    [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
 
     [Header("Content")]
     [SerializeField] private string tooltipTitle;
@@ -74,8 +75,14 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
         {
             int cost = 0;
 
-            if (crewSizeButton != null)
-                cost = crewSizeButton.GetCurrentCost();
+    if (crewSizeButton != null)
+    {
+        cost = crewSizeButton.GetCurrentCost();
+    }
+    else if (inactiveServicesButton != null)
+    {
+        cost = inactiveServicesButton.GetCurrentCost();
+    }
 
             descriptionText.text =
                 tooltipDescription +

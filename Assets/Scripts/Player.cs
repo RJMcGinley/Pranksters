@@ -14,6 +14,7 @@ public class Player
     public List<PranksterType> activeOngoingServiceTypes = new List<PranksterType>();
     public int lifetimeNotorietyMaxHandSizeBonus = 0;
     public bool lifetimeNotorietyCrewUpgradeUsedThisGame = false;
+    public bool usedInactiveServiceInfluenceActionThisRound = false;
 
     public int maxHandSize = 4;
 

@@ -33,7 +33,10 @@ public class AvailableServicesPanelController : MonoBehaviour
 
         if (deckManager != null)
         {
+            deckManager.SetInactiveServicesButtonVisible(false);
             deckManager.SetAvailableServicesPanelOpen(true);
+            deckManager.MarkInactiveInfluenceServicePanelOpen();
+            deckManager.SetSelectedInactiveInfluenceServiceType(serviceType);
             deckManager.RefreshAllHighlights();
         }
 
@@ -75,31 +78,41 @@ public class AvailableServicesPanelController : MonoBehaviour
                 Debug.LogWarning("No service panel exists for: " + serviceType);
                 break;
         }
+
+        if (deckManager != null && deckManager.IsViewingInactiveInfluenceServicePanel())
+        {
+            AvailableServicePanelAssignmentController panelController =
+                GetPanelAssignmentController(serviceType);
+
+            if (panelController != null)
+                panelController.ShowInactiveInfluenceModeActions();
+        }
     }
 
     public void OnCloseServicePanelClicked()
-{
-    Debug.Log("Closed available service panel.");
-
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayBackClick();
-
-    DeckManager deckManager = FindFirstObjectByType<DeckManager>();
-
-    if (deckManager != null)
     {
-        deckManager.SetAvailableServicesPanelOpen(false);
-        deckManager.CancelAvailableServicesSelection();
-    }
+        Debug.Log("Closed available service panel.");
 
-    HideAllServicePanels();
-    SetServiceSelectionCollidersEnabled(true);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBackClick();
 
-    if (deckManager != null)
-    {
-        deckManager.RefreshAllHighlights();
+        DeckManager deckManager = FindFirstObjectByType<DeckManager>();
+
+        if (deckManager != null)
+        {
+            deckManager.SetAvailableServicesPanelOpen(false);
+            deckManager.SetInactiveServicesButtonVisible(true);
+            deckManager.CancelAvailableServicesSelection();
+        }
+
+        HideAllServicePanels();
+        SetServiceSelectionCollidersEnabled(true);
+
+        if (deckManager != null)
+        {
+            deckManager.RefreshAllHighlights();
+        }
     }
-}
 
     public void HideAllServicePanels()
     {

@@ -56,6 +56,9 @@ public class AvailableServiceSlotCollider : MonoBehaviour
 
         servicesPanelController.OnServiceSelected(serviceType);
 
+        if (deckManager != null && deckManager.IsViewingInactiveInfluenceServicePanel())
+            return;
+
         if (deckManager != null && deckManager.CanStartAvailableServiceAction())
         {
             deckManager.StartAvailableServiceTurn(serviceType);
@@ -80,10 +83,19 @@ public class AvailableServiceSlotCollider : MonoBehaviour
         bool availableThisRound =
             deckManager.IsServiceTypeAvailableThisRound(serviceType);
 
-        SetAvailable(availableThisRound);
+        bool selectableNow = availableThisRound;
+
+        if (deckManager.IsSelectingInactiveInfluenceService())
+        {
+            selectableNow = !availableThisRound;
+        }
+
+        SetAvailable(selectableNow);
 
         Debug.Log("Service availability refreshed: " + serviceType +
-                  " | availableThisRound=" + availableThisRound);
+                " | availableThisRound=" + availableThisRound +
+                " | selectableNow=" + selectableNow +
+                " | inactiveInfluenceMode=" + deckManager.IsSelectingInactiveInfluenceService());
     }
 
     public void SetAvailable(bool available)

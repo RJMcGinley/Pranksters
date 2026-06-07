@@ -1032,4 +1032,19 @@ public static int GetLifetimeCrewSizeUpgradeCost()
     return 10;
 }
 
+public static int GetInactiveInfluenceServiceCost()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return 5;
+
+    if (data.lifetimeFinalScorePoints >= 1500)
+        return 3;
+
+    if (data.lifetimeFinalScorePoints >= 500)
+        return 4;
+
+    return 5;
+}
 }
