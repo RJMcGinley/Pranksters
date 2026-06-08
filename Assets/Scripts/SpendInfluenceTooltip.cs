@@ -13,6 +13,7 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
     [Header("Cost Source")]
     [SerializeField] private LifetimeNotorietyCrewSizeButton crewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
+    [SerializeField] private LifetimeNotorietyPesterMayorButton pesterMayorButton;
 
     [Header("Content")]
     [SerializeField] private string tooltipTitle;
@@ -74,19 +75,30 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
         if (descriptionText != null)
         {
             int cost = 0;
+            int gain = 0;
+            bool hasGain = false;
 
-    if (crewSizeButton != null)
-    {
-        cost = crewSizeButton.GetCurrentCost();
-    }
-    else if (inactiveServicesButton != null)
-    {
-        cost = inactiveServicesButton.GetCurrentCost();
-    }
+            if (crewSizeButton != null)
+            {
+                cost = crewSizeButton.GetCurrentCost();
+            }
+            else if (inactiveServicesButton != null)
+            {
+                cost = inactiveServicesButton.GetCurrentCost();
+            }
+            else if (pesterMayorButton != null)
+            {
+                cost = pesterMayorButton.GetCurrentCost();
+                gain = pesterMayorButton.GetCurrentMischiefGain();
+                hasGain = true;
+            }
 
             descriptionText.text =
                 tooltipDescription +
                 "\n\nCost: " + cost + " Influence";
+
+            if (hasGain)
+                descriptionText.text += "\nGain: " + gain + " Mischief";
         }
 
         if (tooltipPanel != null)

@@ -151,6 +151,7 @@ public class DeckManager : MonoBehaviour
 
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
+    [SerializeField] private LifetimeNotorietyPesterMayorButton pesterMayorButton;
     private Dictionary<PranksterType, bool> serviceAvailabilityThisRound =
         new Dictionary<PranksterType, bool>();
 
@@ -2225,6 +2226,9 @@ void UpdateCurrentPlayerStatsDisplay()
 
     if (activeFavorPointsText != null)
         activeFavorPointsText.text = currentPlayer.favorPoints.ToString();
+
+    if (pesterMayorButton != null)
+        pesterMayorButton.Refresh();
 
     if (crewCapacityText != null)
     {
@@ -6185,5 +6189,94 @@ private void CacheServiceAvailabilityForRound()
     }
 }
 
+public int GetPesterMayorCurrentCost()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return 0;
+
+    switch (player.pesterMayorUsesThisGame)
+    {
+        case 0: return 3;
+        case 1: return 4;
+        case 2: return 5;
+        case 3: return 6;
+        case 4: return 7;
+        case 5: return 8;
+        default: return 0;
+    }
+}
+
+public int GetPesterMayorCurrentMischiefGain()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return 0;
+
+    switch (player.pesterMayorUsesThisGame)
+    {
+        case 0: return 1;
+        case 1: return 3;
+        case 2: return 5;
+        case 3: return 7;
+        case 4: return 10;
+        case 5: return 15;
+        default: return 0;
+    }
+}
+
+public bool CanCurrentPlayerPesterMayor()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return false;
+
+    if (player.isBot)
+        return false;
+
+    if (hasTakenActionThisTurn)
+        return false;
+
+    if (!SaveSystem.HasPesterMayorUnlock())
+        return false;
+
+    if (player.pesterMayorUsesThisGame >= 6)
+        return false;
+
+    int cost = GetPesterMayorCurrentCost();
+
+    return player.favorPoints >= cost;
+}
+
+public void TryPesterMayor()
+{
+    Player player = GetCurrentPlayer();
+
+    if (!CanCurrentPlayerPesterMayor())
+    {
+        Debug.Log("Cannot pester the Mayor right now.");
+        return;
+    }
+
+    int cost = GetPesterMayorCurrentCost();
+    int mischiefGain = GetPesterMayorCurrentMischiefGain();
+
+    player.favorPoints -= cost;
+    player.renownPoints += mischiefGain;
+    player.pesterMayorUsesThisGame++;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlaySpendInfluence();
+
+    Debug.Log("PESTER MAYOR: Spent " + cost +
+              " influence to gain " + mischiefGain +
+              " mischief. Uses this game = " +
+              player.pesterMayorUsesThisGame);
+
+    FinishActionAndWaitForEndTurn();
+}
 }
 

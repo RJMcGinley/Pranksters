@@ -1047,4 +1047,17 @@ public static int GetInactiveInfluenceServiceCost()
 
     return 5;
 }
+
+public static bool HasPesterMayorUnlock()
+{
+    PlayerProgressSave data = Load();
+
+    Debug.Log("PESTER MAYOR UNLOCK CHECK | lifetimeFinalScorePoints=" + data.lifetimeFinalScorePoints);
+
+
+    if (data == null)
+        return false;
+
+    return data.lifetimeFinalScorePoints >= 750;
+}
 }
