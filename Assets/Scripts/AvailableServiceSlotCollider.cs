@@ -28,7 +28,7 @@ public class AvailableServiceSlotCollider : MonoBehaviour
         if (iconImage != null)
             originalMaterial = iconImage.material;
 
-        RefreshRoundAvailability();
+        //RefreshRoundAvailability();
     }
 
     void OnMouseDown()

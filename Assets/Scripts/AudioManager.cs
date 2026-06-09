@@ -73,6 +73,11 @@ public class AudioManager : MonoBehaviour
     [Header("Prank Completion Sounds")]
     public PrankCompletionAudioEntry[] prankCompletionAudioEntries;
 
+    [Header("Pester The Mayor Sound Clips")]
+    [SerializeField] private AudioClip[] pesterMayorEarlyClips;
+    [SerializeField] private AudioClip[] pesterMayorMiddleClips;
+    [SerializeField] private AudioClip[] pesterMayorLateClips;
+
     
 
     void Awake()
@@ -457,6 +462,31 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     public void PlaySpendInfluence()
     {
         PlaySFX(spendInfluenceClip);
+    }
+
+    public void PlayPesterMayorVoice(int pesterUseCount)
+    {
+        AudioClip[] clipPool;
+
+        if (pesterUseCount <= 1)
+        {
+            clipPool = pesterMayorEarlyClips;
+        }
+        else if (pesterUseCount <= 3)
+        {
+            clipPool = pesterMayorMiddleClips;
+        }
+        else
+        {
+            clipPool = pesterMayorLateClips;
+        }
+
+        if (clipPool == null || clipPool.Length == 0)
+            return;
+
+        int randomIndex = Random.Range(0, clipPool.Length);
+
+        PlaySFX(clipPool[randomIndex]);
     }
 
 }

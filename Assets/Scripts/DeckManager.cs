@@ -6255,11 +6255,10 @@ public void TryPesterMayor()
 {
     Player player = GetCurrentPlayer();
 
-    if (!CanCurrentPlayerPesterMayor())
-    {
-        Debug.Log("Cannot pester the Mayor right now.");
-        return;
-    }
+    player.pesterMayorUsesThisGame++;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayPesterMayorVoice(player.pesterMayorUsesThisGame);
 
     int cost = GetPesterMayorCurrentCost();
     int mischiefGain = GetPesterMayorCurrentMischiefGain();
@@ -6269,7 +6268,7 @@ public void TryPesterMayor()
     player.pesterMayorUsesThisGame++;
 
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlaySpendInfluence();
+        AudioManager.Instance.PlayPesterMayorVoice(player.pesterMayorUsesThisGame);
 
     Debug.Log("PESTER MAYOR: Spent " + cost +
               " influence to gain " + mischiefGain +
