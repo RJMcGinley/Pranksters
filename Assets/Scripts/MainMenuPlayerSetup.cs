@@ -369,7 +369,7 @@ public class MainMenuPlayerSetup : MonoBehaviour
         switch (identity)
         {
             case BotIdentity.Barnaby:
-                return "Jerek";
+                return "Barnaby";
 
             case BotIdentity.Trikstan:
                 return "Trikstan";

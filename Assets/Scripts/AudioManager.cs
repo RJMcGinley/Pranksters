@@ -194,9 +194,9 @@ public class AudioManager : MonoBehaviour
     }
 
     [Header("Bot Turn Voice Clips")]
-public AudioClip jerekTurnClip;
-public AudioClip trikstanTurnClip;
-public AudioClip drGigglesTurnClip;
+    public AudioClip jerekTurnClip;
+    public AudioClip trikstanTurnClip;
+    public AudioClip drGigglesTurnClip;
 
 public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
 {

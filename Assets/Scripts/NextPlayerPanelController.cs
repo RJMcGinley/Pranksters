@@ -85,15 +85,7 @@ public class NextPlayerPanelController : MonoBehaviour
         botActionText.gameObject.SetActive(false);
 }
 
-    public IEnumerator ShowBotMessageThenHide(string message, float delay = -1f)
-    {
-        ShowBotMessage(message);
-
-        float actualDelay = delay > 0f ? delay : botMessageDelay;
-        yield return new WaitForSeconds(actualDelay);
-
-        HideBotMessage();
-    }
+    
 
     public void OnEndTurnPressed()
     {
