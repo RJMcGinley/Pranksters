@@ -257,9 +257,9 @@ public class BotManager : MonoBehaviour
         return false;
 
     actionMessage =
-        "Recruited " +
+        "Barnaby was seen recruiting a \n" +
         PranksterNameUtility.GetPranksterDisplayName(topCard) +
-        " from discard";
+        " to join his cause";
 
     if (!string.IsNullOrEmpty(discardMessage))
         actionMessage += "\n" + discardMessage;
@@ -339,7 +339,7 @@ public class BotManager : MonoBehaviour
 if (!BotDiscardDownToMaxHandSize(out discardMessage))
     return false;
 
-actionMessage = "Scouted from recruit deck";
+actionMessage = "Barnaby was last seen\nscouting";
 
 if (!string.IsNullOrEmpty(discardMessage))
     actionMessage += "\n" + discardMessage;
@@ -728,8 +728,8 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
         return false;
 
     actionMessage =
-        "Swapped for: " + GetBotCardDisplayName(gainedCard) +
-        "\nGave away: " + GetBotCardDisplayName(givenCard);
+        "Barnaby recruited the " + GetBotCardDisplayName(gainedCard) +
+        "\nyou sent him and is keeping " + GetBotCardDisplayName(givenCard) + "\non stand by";
 
     return true;
 }
@@ -850,8 +850,8 @@ bool TryOfferFavor(out string actionMessage)
     deckManager.BotOfferFavor(bestIndex);
 
     actionMessage =
-    "Referred " + GetBotCardDisplayName(bestCard) +
-    "\nfor " + bestFavorValue + " Influence Points";
+    "Barnaby has sent us a recruit. A \n" + GetBotCardDisplayName(bestCard) +
+    ". \nHe gained " + bestFavorValue + " Influence Points";
 
     return true;
 }
@@ -1165,9 +1165,17 @@ bool BotDiscardDownToMaxHandSize(out string discardMessage)
         deckManager.BotDiscardCardFromHand(discardIndex);
     }
 
-    if (discardedCardNames.Count > 0)
+    if (discardedCardNames.Count == 1)
     {
-        discardMessage = "Dismissed: " + string.Join(", ", discardedCardNames);
+        discardMessage =
+            " 1 " + discardedCardNames[0] +
+            " was seen left Barnaby's crew.";
+    }
+    else if (discardedCardNames.Count > 1)
+    {
+        discardMessage =
+            string.Join(", ", discardedCardNames) +
+            " were seen leaving Barnaby's crew.";
     }
 
     return true;

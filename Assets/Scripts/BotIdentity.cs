@@ -1,7 +1,7 @@
 public enum BotIdentity
 {
     None,
-    Jerek,
+    Barnaby,
     Trikstan,
     DrGiggles
 }

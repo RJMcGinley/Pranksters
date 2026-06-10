@@ -11,57 +11,45 @@ public class OpponentDisplayManager : MonoBehaviour
     public DeckManager deckManager;
 
     public void RefreshDisplays()
+{
+    if (turnManager == null)
     {
-        if (turnManager == null)
+        Debug.LogWarning("OpponentDisplayManager: TurnManager not assigned.");
+        return;
+    }
+
+    if (turnManager.players == null || turnManager.players.Count == 0)
+    {
+        Debug.LogWarning("OpponentDisplayManager: No players found.");
+        return;
+    }
+
+    if (topLeftPanel != null) topLeftPanel.SetVisible(false);
+    if (topCenterPanel != null) topCenterPanel.SetVisible(false);
+    if (topRightPanel != null) topRightPanel.SetVisible(false);
+
+    int barnabyIndex = -1;
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        if (turnManager.players[i].isBot)
         {
-            Debug.LogWarning("OpponentDisplayManager: TurnManager not assigned.");
-            return;
-        }
-
-        int playerCount = turnManager.players.Count;
-        int current = turnManager.currentPlayerIndex;
-
-        if (topLeftPanel != null) topLeftPanel.SetVisible(false);
-        if (topCenterPanel != null) topCenterPanel.SetVisible(false);
-        if (topRightPanel != null) topRightPanel.SetVisible(false);
-
-        if (playerCount == 2)
-        {
-            // Only top center = the other player
-            int opponent = (current + 1) % playerCount;
-
-            if (topCenterPanel != null)
-                topCenterPanel.RefreshPlayer(opponent);
-        }
-        else if (playerCount == 3)
-        {
-            // Top left = next player, Top right = following player
-            int leftOpponent = (current + 1) % playerCount;
-            int rightOpponent = (current + 2) % playerCount;
-
-            if (topLeftPanel != null)
-                topLeftPanel.RefreshPlayer(leftOpponent);
-
-            if (topRightPanel != null)
-                topRightPanel.RefreshPlayer(rightOpponent);
-        }
-        else if (playerCount >= 4)
-        {
-            // Top left = next, Top center = after that, Top right = after that
-            int leftOpponent = (current + 1) % playerCount;
-            int centerOpponent = (current + 2) % playerCount;
-            int rightOpponent = (current + 3) % playerCount;
-
-            if (topLeftPanel != null)
-                topLeftPanel.RefreshPlayer(leftOpponent);
-
-            if (topCenterPanel != null)
-                topCenterPanel.RefreshPlayer(centerOpponent);
-
-            if (topRightPanel != null)
-                topRightPanel.RefreshPlayer(rightOpponent);
+            barnabyIndex = i;
+            break;
         }
     }
+
+    if (barnabyIndex == -1)
+    {
+        Debug.LogWarning("OpponentDisplayManager: No bot player found to display as Barnaby.");
+        return;
+    }
+
+    if (topCenterPanel != null)
+    {
+        topCenterPanel.RefreshPlayer(barnabyIndex);
+    }
+}
 
     public void RefreshSwapHighlights()
 {

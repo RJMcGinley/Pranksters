@@ -26,9 +26,9 @@ public class MainMenuPlayerSetup : MonoBehaviour
 
         playerSlots.Add(new MenuPlayerSlot
         {
-            playerName = "Jerek",
+            playerName = "Barnaby Bristle",
             playerType = MenuPlayerType.AI,
-            botIdentity = BotIdentity.Jerek
+            botIdentity = BotIdentity.Barnaby
         });
 
         playerSlots.Add(new MenuPlayerSlot
@@ -358,7 +358,7 @@ public class MainMenuPlayerSetup : MonoBehaviour
     {
         return new List<BotIdentity>
         {
-            BotIdentity.Jerek,
+            BotIdentity.Barnaby,
             BotIdentity.Trikstan,
             BotIdentity.DrGiggles
         };
@@ -368,7 +368,7 @@ public class MainMenuPlayerSetup : MonoBehaviour
     {
         switch (identity)
         {
-            case BotIdentity.Jerek:
+            case BotIdentity.Barnaby:
                 return "Jerek";
 
             case BotIdentity.Trikstan:

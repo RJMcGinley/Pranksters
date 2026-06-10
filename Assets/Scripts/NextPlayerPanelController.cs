@@ -10,7 +10,7 @@ public class NextPlayerPanelController : MonoBehaviour
     public TextMeshProUGUI botActionText;
     public DeckManager deckManager;
     public GameObject readyButton;
-    public float botMessageDelay = 1.2f;
+    public float botMessageDelay = 3f;
 
 
     

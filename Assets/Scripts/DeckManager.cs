@@ -2129,7 +2129,7 @@ IEnumerator ShowTurnTextTemporarily()
 
 void UpdateActiveFavorDisplay()
 {
-    Player currentPlayer = GetCurrentPlayer();
+    Player currentPlayer = turnManager.players[0];
 
     UpdateFavorSlot(filledMarker1Image, currentPlayer, 0);
     UpdateFavorSlot(filledMarker2Image, currentPlayer, 1);
@@ -2205,8 +2205,8 @@ public void RefreshAllDisplays()
 
 void UpdateCurrentPlayerStatsDisplay()
 {
-    Player currentPlayer = GetCurrentPlayer();
-    int currentIndex = turnManager.currentPlayerIndex;
+    Player currentPlayer = turnManager.players[0];
+    int currentIndex = 0;
 
     if (activePlayerLabelText != null)
     {
@@ -3119,6 +3119,14 @@ IEnumerator BeginNewGameSequence()
 
 public bool ShouldHighlightOpponentPanel(int representedPlayerIndex)
 {
+    if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
+        return false;
+
+    if (turnManager.currentPlayerIndex < 0 || turnManager.currentPlayerIndex >= turnManager.players.Count)
+        return false;
+
+    if (representedPlayerIndex < 0 || representedPlayerIndex >= turnManager.players.Count)
+        return false;
 
     if (highlightSuppressionCount > 0)
     {
