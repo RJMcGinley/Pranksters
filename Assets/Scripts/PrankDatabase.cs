@@ -91,7 +91,7 @@ public static class PrankDatabase
             new PrankCard
             {
                 title = "Ink Stink",
-                requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.Thief },
+                requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.Scribe },
                 renownPoints = 12,
                 favorMultiplier = 1,
                 cardSprite = Resources.Load<Sprite>("PrankCards/InkStink")

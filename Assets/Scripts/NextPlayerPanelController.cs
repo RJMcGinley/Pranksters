@@ -11,32 +11,34 @@ public class NextPlayerPanelController : MonoBehaviour
     public DeckManager deckManager;
     public GameObject readyButton;
     public float botMessageDelay = 3f;
-
+    [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServiceButton;
 
     
     public void ShowNextPlayerPanel(string playerName)
-{
-    Debug.Log("SHOW NEXT PLAYER PANEL");
-    Debug.Log("ShowNextPlayerPanel received name = '" + playerName + "'");
-
-    if (turnMessageText != null)
     {
-        turnMessageText.text = playerName + "'s Turn";
-        turnMessageText.gameObject.SetActive(true);
+        Debug.Log("SHOW NEXT PLAYER PANEL");
+
+        if (turnMessageText != null)
+        {
+            turnMessageText.text = playerName + "'s Turn";
+            turnMessageText.gameObject.SetActive(true);
+        }
+
+        if (botActionText != null)
+            botActionText.gameObject.SetActive(false);
+
+        if (nextPlayerPanel != null)
+            nextPlayerPanel.SetActive(true);
+
+        if (inactiveServiceButton != null)
+            inactiveServiceButton.SetVisible(false);
+
+        if (readyButton != null)
+            readyButton.SetActive(true);
+
+        if (endTurnButton != null)
+            endTurnButton.SetActive(false);
     }
-
-    if (botActionText != null)
-        botActionText.gameObject.SetActive(false);
-
-    if (nextPlayerPanel != null)
-        nextPlayerPanel.SetActive(true);
-
-    if (readyButton != null)
-        readyButton.SetActive(true);
-
-    if (endTurnButton != null)
-        endTurnButton.SetActive(false);
-}
 
     public void HideNextPlayerPanel()
     {
@@ -170,6 +172,18 @@ public class NextPlayerPanelController : MonoBehaviour
 public bool IsPanelBlockingInteraction()
 {
     return nextPlayerPanel != null && nextPlayerPanel.activeSelf;
+}
+
+private void HideGameplayButtonsForPanel()
+{
+    if (inactiveServiceButton != null)
+        inactiveServiceButton.SetVisible(false);
+}
+
+private void RestoreGameplayButtonsAfterPanel()
+{
+    if (inactiveServiceButton != null)
+        inactiveServiceButton.Refresh();
 }
 
 }

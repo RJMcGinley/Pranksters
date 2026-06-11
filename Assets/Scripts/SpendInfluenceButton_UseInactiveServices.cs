@@ -8,6 +8,7 @@ public class SpendInfluenceButton_UseInactiveServices : MonoBehaviour
     [SerializeField] private Button button;
     [SerializeField] private DeckManager deckManager;
     [SerializeField] private TMP_Text costText;
+   
 
     private void Start()
     {
@@ -64,6 +65,7 @@ public class SpendInfluenceButton_UseInactiveServices : MonoBehaviour
 
     public void SetVisible(bool visible)
     {
+
         if (buttonRoot != null)
             buttonRoot.SetActive(visible);
     }

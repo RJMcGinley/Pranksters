@@ -1869,42 +1869,11 @@ void ShowFinalResultsUI()
 
 void CalculateFinalScores()
 {
-    if (finalCompletedPrank == null)
-    {
-        Debug.LogError("Final completed prank is null. Cannot calculate final scores.");
-        return;
-    }
-
-    Debug.Log("Final completed prank: " + finalCompletedPrank.title);
-    Debug.Log("Final prank favor multiplier: " + finalCompletedPrank.favorMultiplier);
-
     for (int i = 0; i < turnManager.players.Count; i++)
     {
         Player player = turnManager.players[i];
 
-        int prankPoints = player.renownPoints;
-        int favorPoints = player.favorPoints;
-        int victoryPoints = favorPoints * finalCompletedPrank.favorMultiplier;
-        int availableServicesScoringBonus = 0;
-
-        if (player.activeScoringServiceTypes != null)
-        {
-            foreach (PranksterType scoringType in player.activeScoringServiceTypes)
-            {
-                int iconCount = CountCompletedPrankIcons(player, scoringType);
-                int typeBonus = iconCount * 2;
-
-                availableServicesScoringBonus += typeBonus;
-
-                Debug.Log("Available Services Scoring Bonus | type=" + scoringType +
-                        " | completed prank icons=" + iconCount +
-                        " | bonus=" + typeBonus);
-            }
-        }
-
-        int totalScore = prankPoints + victoryPoints + availableServicesScoringBonus;
-
-        player.finalScore = totalScore;
+        player.finalScore = player.renownPoints + player.favorPoints;
 
         string displayName = player.playerName;
 
@@ -1912,12 +1881,8 @@ void CalculateFinalScores()
             displayName = "Player " + (i + 1);
 
         Debug.Log(displayName + " Final Score:");
-        Debug.Log("  Completed Pranks: " + player.completedPranks.Count);
-        Debug.Log("  Prank Points: " + prankPoints);
-        Debug.Log("  Favor Points: " + favorPoints);
-        Debug.Log("  Victory Points: " + victoryPoints);
-        Debug.Log("  Available Services Scoring Bonus: " + availableServicesScoringBonus);
-        Debug.Log("  TOTAL: " + totalScore);
+       
+        Debug.Log("  TOTAL: " + player.finalScore);
     }
 }
 
@@ -2272,6 +2237,27 @@ void ReshuffleDiscardIntoDeck()
         discardPileDisplay.UpdateTopDiscardCard();
 }
 
+void PopulateFinalScoreRow(
+    TextMeshProUGUI nameText,
+    TextMeshProUGUI prankPointsText,
+    TextMeshProUGUI favorPointsText,
+    TextMeshProUGUI totalPointsText)
+{
+    int finalScore = GetCombinedMischiefScore();
+
+    if (nameText != null)
+        nameText.text = "Final Score";
+
+    if (prankPointsText != null)
+        prankPointsText.text = finalScore.ToString();
+
+    if (favorPointsText != null)
+        favorPointsText.text = "";
+
+    if (totalPointsText != null)
+        totalPointsText.text = "";
+}
+
 void ShowGameOverPanel()
 {
     if (endGameScoringPanel == null)
@@ -2292,13 +2278,17 @@ void ShowGameOverPanel()
 
     if (player1Row != null) player1Row.SetActive(playerCount >= 1);
     if (player2Row != null) player2Row.SetActive(playerCount >= 2);
-    if (player3Row != null) player3Row.SetActive(playerCount >= 3);
-    if (player4Row != null) player4Row.SetActive(playerCount >= 4);
+
+    // Rows 3 and 4 are now permanent summary rows.
+    if (player3Row != null) player3Row.SetActive(true);
+    if (player4Row != null) player4Row.SetActive(true);
 
     PopulateScoreRow(sortedPlayers, 0, player1NameText, player1PrankPointsText, player1FavorPointsText, player1TotalPointsText);
     PopulateScoreRow(sortedPlayers, 1, player2NameText, player2PrankPointsText, player2FavorPointsText, player2TotalPointsText);
-    PopulateScoreRow(sortedPlayers, 2, player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
-    PopulateScoreRow(sortedPlayers, 3, player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
+
+    PopulateFinalScoreRow(player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
+
+    PopulateLifetimeNotorietyRow(player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
 }
 
 void PopulateScoreRow(
@@ -2316,7 +2306,7 @@ void PopulateScoreRow(
 
     int prankPoints = player.renownPoints;
     int favorPoints = player.favorPoints;
-    int totalPoints = player.finalScore;
+    int totalPoints = prankPoints + favorPoints;
 
     if (nameText != null)
     {
@@ -2336,6 +2326,44 @@ void PopulateScoreRow(
 
     if (totalPointsText != null)
         totalPointsText.text = totalPoints.ToString();
+}
+
+void PopulateLifetimeNotorietyRow(
+    TextMeshProUGUI nameText,
+    TextMeshProUGUI prankPointsText,
+    TextMeshProUGUI favorPointsText,
+    TextMeshProUGUI totalPointsText)
+{
+    Player player = turnManager.players[0];
+
+    int lifetimeNotorietyEarned =
+        player.renownPoints + player.favorPoints;
+
+    if (nameText != null)
+        nameText.text = "Lifetime Notoriety Earned";
+
+    if (prankPointsText != null)
+        prankPointsText.text = lifetimeNotorietyEarned.ToString();
+
+    if (favorPointsText != null)
+        favorPointsText.text = "";
+
+    if (totalPointsText != null)
+        totalPointsText.text = "";
+}
+
+
+
+int GetCombinedMischiefScore()
+{
+    int total = 0;
+
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        total += turnManager.players[i].renownPoints;
+    }
+
+    return total;
 }
 
 public void BeginNewGame()

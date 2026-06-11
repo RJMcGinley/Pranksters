@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ad5a67057c5ff4b338ee601008fcb0bc
+guid: 443eefe523ff74c4e8daccb13f357209
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5390565835236428633
-    second: EndGameScoringPanel_0
+      213: 1790329564229850595
+    second: Barnaby Bristle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EndGameScoringPanel_0
+      name: Barnaby Bristle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 1488
-        height: 1057
+        width: 1494
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a4306ceeecd035b0800000000000000
-      internalID: -5390565835236428633
+      spriteID: 3e5dccac04788d810800000000000000
+      internalID: 1790329564229850595
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EndGameScoringPanel_0: -5390565835236428633
+      Barnaby Bristle_0: 1790329564229850595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

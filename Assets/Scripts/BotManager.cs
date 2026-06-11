@@ -1169,7 +1169,7 @@ bool BotDiscardDownToMaxHandSize(out string discardMessage)
     {
         discardMessage =
             " 1 " + discardedCardNames[0] +
-            " was seen left Barnaby's crew.";
+            " was seen leaving Barnaby's crew.";
     }
     else if (discardedCardNames.Count > 1)
     {
