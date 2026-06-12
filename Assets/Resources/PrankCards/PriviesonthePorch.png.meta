@@ -3,8 +3,8 @@ guid: c648a22f83486470eba8807f93e195b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2996980732036226946
-    second: PriviesonthePorch_0
+      213: -90805190617168361
+    second: PriviesOnThePorch_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PriviesonthePorch_0
+      name: PriviesOnThePorch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28f95bbd81a679920800000000000000
-      internalID: 2996980732036226946
+      spriteID: 716808509256dbef0800000000000000
+      internalID: -90805190617168361
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PriviesonthePorch_0: 2996980732036226946
+      PriviesOnThePorch_0: -90805190617168361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
