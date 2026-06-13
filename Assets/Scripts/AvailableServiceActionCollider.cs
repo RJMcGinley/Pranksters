@@ -89,7 +89,9 @@ public class AvailableServiceActionCollider : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateWizardImmediateAction();
+        deckManager.ActivateWizardImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+        );
     }
     else if (actionName == "Engineer Immediate Action")
     {

@@ -30,9 +30,6 @@ public class NextPlayerPanelController : MonoBehaviour
         if (nextPlayerPanel != null)
             nextPlayerPanel.SetActive(true);
 
-        if (inactiveServiceButton != null)
-            inactiveServiceButton.SetVisible(false);
-
         if (readyButton != null)
             readyButton.SetActive(true);
 
@@ -172,12 +169,6 @@ public class NextPlayerPanelController : MonoBehaviour
 public bool IsPanelBlockingInteraction()
 {
     return nextPlayerPanel != null && nextPlayerPanel.activeSelf;
-}
-
-private void HideGameplayButtonsForPanel()
-{
-    if (inactiveServiceButton != null)
-        inactiveServiceButton.SetVisible(false);
 }
 
 private void RestoreGameplayButtonsAfterPanel()

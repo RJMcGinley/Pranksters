@@ -1821,9 +1821,14 @@ void TriggerEndGameScoring()
     ApplyPlayer1MatchResultsToSave();
     Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 
-    int playerScore = turnManager.players[0].finalScore;
+    int combinedMischiefScore = 0;
 
-    if (playerScore >= 150)
+    for (int i = 0; i < turnManager.players.Count; i++)
+    {
+        combinedMischiefScore += turnManager.players[i].renownPoints;
+    }
+
+    if (combinedMischiefScore >= 150)
     {
         StartCoroutine(PlayWinCutsceneThenShowResults());
         return;
@@ -5529,7 +5534,7 @@ public void ResolveBeastmasterDiscardTypeChoice(PranksterType chosenType)
 
     SortCurrentPlayerHand();
 
-    //RefreshAvailableServiceSlotAvailability();
+    RefreshAvailableServiceSlotAvailability();
 
     HideAvailableServiceInstruction();
 
@@ -6289,18 +6294,17 @@ public bool CanCurrentPlayerPesterMayor()
 
 public void TryPesterMayor()
 {
+    if (!CanCurrentPlayerPesterMayor())
+        return;
+
     Player player = GetCurrentPlayer();
-
-    player.pesterMayorUsesThisGame++;
-
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayPesterMayorVoice(player.pesterMayorUsesThisGame);
 
     int cost = GetPesterMayorCurrentCost();
     int mischiefGain = GetPesterMayorCurrentMischiefGain();
 
     player.favorPoints -= cost;
     player.renownPoints += mischiefGain;
+
     player.pesterMayorUsesThisGame++;
 
     if (AudioManager.Instance != null)
