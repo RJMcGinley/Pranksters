@@ -878,10 +878,7 @@ IEnumerator BotTurnSequence()
     if (nextPlayerPanelController != null)
         nextPlayerPanelController.ShowBotMessage(actionMessage);
 
-    yield return new WaitForSeconds(3f);
-
-    if (nextPlayerPanelController != null)
-        nextPlayerPanelController.HideBotMessage();
+    yield return new WaitForSeconds(1f);
 
     if (botActionHandledTurnFlow)
     {

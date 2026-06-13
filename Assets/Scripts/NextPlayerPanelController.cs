@@ -24,8 +24,8 @@ public class NextPlayerPanelController : MonoBehaviour
             turnMessageText.gameObject.SetActive(true);
         }
 
-        if (botActionText != null)
-            botActionText.gameObject.SetActive(false);
+        //if (botActionText != null)
+        //    botActionText.gameObject.SetActive(false);
 
         if (nextPlayerPanel != null)
             nextPlayerPanel.SetActive(true);
