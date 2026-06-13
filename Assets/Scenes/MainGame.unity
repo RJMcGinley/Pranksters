@@ -11152,7 +11152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -120, y: -90}
+  m_AnchoredPosition: {x: 466, y: -88}
   m_SizeDelta: {x: 120, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40354615
@@ -29423,7 +29423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &271944383
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45557,6 +45557,10 @@ MonoBehaviour:
     completePrankVolume: 1
     clips:
     - {fileID: 8300000, guid: 7335ae1dc33d44a69903fcca67ef7161, type: 3}
+  - prankTitle: Floating Footwear
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: bc0104ff4dd8b410fa77ffeac811c829, type: 3}
   - prankTitle: Foaming Fountain
     completePrankVolume: 1
     clips:
@@ -45569,6 +45573,10 @@ MonoBehaviour:
     completePrankVolume: 1
     clips:
     - {fileID: 8300000, guid: 39ca47d2f7afa497c836dcc7a9bb2a3b, type: 3}
+  - prankTitle: Grim Grafitti
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: bc96f4ad3c9b44c168cc603d44b6894e, type: 3}
   - prankTitle: Guano-teed Delivery
     completePrankVolume: 1
     clips:
@@ -45589,10 +45597,34 @@ MonoBehaviour:
     completePrankVolume: 1
     clips:
     - {fileID: 8300000, guid: d74ca4bf6af244fab89bd1ecb2c84cea, type: 3}
-  - prankTitle: Grim Grafitti
+  - prankTitle: Municipal Paper Shuffle
     completePrankVolume: 1
     clips:
-    - {fileID: 8300000, guid: bc96f4ad3c9b44c168cc603d44b6894e, type: 3}
+    - {fileID: 8300000, guid: 7d0b367dfeb6f43c8b1c4231bce5e3ef, type: 3}
+  - prankTitle: Privies on the Porch
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 0a6b8e576869b4b5d9b7caa22225fef3, type: 3}
+  - prankTitle: Statue Swap
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 41220655be5a8444cb3632a6cecaaa9e, type: 3}
+  - prankTitle: The Angry Moon
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 0d888f64b1bbc45bfbee9de79df42011, type: 3}
+  - prankTitle: Wooden Nickels
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 049483a3c5ff44ac1831d7ef9821667d, type: 3}
+  - prankTitle: The Tilted Tumble
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 286b9e223c6b54536a97f6f98a77f2d0, type: 3}
+  - prankTitle: Morning Surprise
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: fd42067220a7c4d8a90b98b042d01c8d, type: 3}
   pesterMayorEarlyClips:
   - {fileID: 8300000, guid: cf16889a0b3d34d118adf13b830e0996, type: 3}
   - {fileID: 8300000, guid: 50bb0e63df8524fa6ae2126dd5c85ac4, type: 3}
@@ -57658,7 +57690,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 40
+  m_SortingOrder: 31
   m_TargetDisplay: 0
 --- !u!1 &597165078
 GameObject:
@@ -71751,7 +71783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -445, y: -85}
+  m_AnchoredPosition: {x: -409, y: -89}
   m_SizeDelta: {x: 150, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731237023
@@ -71774,7 +71806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player 4
+  m_text: 'Lifetime Notoriety Gained: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -71808,7 +71840,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -72116,7 +72148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5390565835236428633, guid: 0805c7a690e4f4bacb885634096f5122, type: 3}
+  m_Sprite: {fileID: -5390565835236428633, guid: ad5a67057c5ff4b338ee601008fcb0bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -169400,7 +169432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1926061862
 RectTransform:
   m_ObjectHideFlags: 0

@@ -424,13 +424,17 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
 
     public float PlayPrankCompletionSound(string prankTitle)
     {
-        // Always play the generic completion sound first.
         PlayCompletePrank();
 
         float fallbackDuration = 1.75f;
 
         if (sfxSource == null)
+        {
+            Debug.LogWarning("Prank audio failed: sfxSource is NULL");
             return fallbackDuration;
+        }
+
+        Debug.Log("Looking for prank audio title: [" + prankTitle + "]");
 
         for (int i = 0; i < prankCompletionAudioEntries.Length; i++)
         {
@@ -439,23 +443,31 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
             if (entry == null)
                 continue;
 
+            Debug.Log("Checking prank audio entry: [" + entry.prankTitle + "]");
+
             if (entry.prankTitle != prankTitle)
                 continue;
 
             if (entry.clips == null || entry.clips.Length == 0)
+            {
+                Debug.LogWarning("Prank audio entry found but has no clips: [" + prankTitle + "]");
                 return fallbackDuration;
+            }
 
             AudioClip chosenClip = entry.clips[Random.Range(0, entry.clips.Length)];
 
             if (chosenClip != null)
             {
+                Debug.Log("Playing prank audio clip: " + chosenClip.name);
                 sfxSource.PlayOneShot(chosenClip);
                 return chosenClip.length;
             }
 
+            Debug.LogWarning("Prank audio entry found but selected clip is NULL: [" + prankTitle + "]");
             return fallbackDuration;
         }
 
+        Debug.LogWarning("No prank audio entry found for title: [" + prankTitle + "]");
         return fallbackDuration;
     }
 
