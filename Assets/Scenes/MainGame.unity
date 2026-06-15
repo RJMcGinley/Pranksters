@@ -29869,7 +29869,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1588133832}
         m_TargetAssemblyTypeName: NextPlayerPanelController, Assembly-CSharp
-        m_MethodName: HideNextPlayerPanel
+        m_MethodName: OnReportReceivedPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -36980,7 +36980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 603, y: -306}
+  m_AnchoredPosition: {x: 587, y: -306}
   m_SizeDelta: {x: 310, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387877855
@@ -45625,6 +45625,26 @@ MonoBehaviour:
     completePrankVolume: 1
     clips:
     - {fileID: 8300000, guid: fd42067220a7c4d8a90b98b042d01c8d, type: 3}
+  - prankTitle: The Shocking Toll
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 2e44ec63449f646428071f018104fef0, type: 3}
+  - prankTitle: Operation Featherfall
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 579c2f16298084f5e891d07fc694e23a, type: 3}
+  - prankTitle: Sinus Scorcher
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: cfd96cb8eb18143e7b1bc1a7647e6f9e, type: 3}
+  - prankTitle: Soiled Spring
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 3d7ed78dde3284f3cb0c9b3753093e9b, type: 3}
+  - prankTitle: Ram Stampede
+    completePrankVolume: 1
+    clips:
+    - {fileID: 8300000, guid: 91a45c8ecc698465794c644fed1e188b, type: 3}
   pesterMayorEarlyClips:
   - {fileID: 8300000, guid: cf16889a0b3d34d118adf13b830e0996, type: 3}
   - {fileID: 8300000, guid: 50bb0e63df8524fa6ae2126dd5c85ac4, type: 3}
@@ -57690,7 +57710,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 31
+  m_SortingOrder: 29
   m_TargetDisplay: 0
 --- !u!1 &597165078
 GameObject:
@@ -59536,7 +59556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 598, y: -115}
+  m_AnchoredPosition: {x: 592, y: -115}
   m_SizeDelta: {x: 430, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648609053
@@ -102193,7 +102213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 602, y: -215}
+  m_AnchoredPosition: {x: 592, y: -215}
   m_SizeDelta: {x: 320, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089875529
@@ -108795,8 +108815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 33, y: 203}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchoredPosition: {x: 45, y: 226}
+  m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160928961
 MonoBehaviour:
@@ -180396,7 +180416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 600, y: -26}
+  m_AnchoredPosition: {x: 592, y: -26}
   m_SizeDelta: {x: 330, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2119595270
