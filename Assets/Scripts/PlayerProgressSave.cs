@@ -22,6 +22,10 @@ public class PlayerProgressSave
     public List<DiscardCountEntry> discardCountsByType = new List<DiscardCountEntry>();
     public List<AvailableServiceUseCountEntry> availableServiceUseCountsByType = new List<AvailableServiceUseCountEntry>();
     public List<PranksterUnlockEntry> pranksterUnlocks = new List<PranksterUnlockEntry>();
+
+    public float musicVolume = 1f;
+    public float sfxVolume = 1f;
+    public bool fartSoundsEnabled = true;
 }
 
 [Serializable]
