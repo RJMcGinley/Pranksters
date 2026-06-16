@@ -12,44 +12,44 @@ public class NextPlayerPanelController : MonoBehaviour
     public GameObject readyButton;
     public float botMessageDelay = 3f;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServiceButton;
+    public TextMeshProUGUI crewSizeText;
 
     
     public void ShowNextPlayerPanel(string playerName)
+{
+    Debug.Log("SHOW NEXT PLAYER PANEL");
+
+    if (turnMessageText != null)
     {
-        Debug.Log("SHOW NEXT PLAYER PANEL");
-
-        if (turnMessageText != null)
-        {
-            turnMessageText.text = playerName + "'s Turn";
-            turnMessageText.gameObject.SetActive(true);
-        }
-
-        //if (botActionText != null)
-        //    botActionText.gameObject.SetActive(false);
-
-        if (nextPlayerPanel != null)
-            nextPlayerPanel.SetActive(true);
-
-        if (readyButton != null)
-            readyButton.SetActive(true);
-
-        if (endTurnButton != null)
-            endTurnButton.SetActive(false);
+        turnMessageText.text = playerName + "'s Turn";
+        turnMessageText.gameObject.SetActive(true);
     }
+
+    if (nextPlayerPanel != null)
+        nextPlayerPanel.SetActive(true);
+
+    UpdateCrewSizeText();
+
+    if (readyButton != null)
+        readyButton.SetActive(true);
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+}
 
     public void HideNextPlayerPanel()
-    {
-        Debug.Log("HIDE NEXT PLAYER PANEL");
+{
+    Debug.Log("HIDE NEXT PLAYER PANEL");
 
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayReadyButton();
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayReadyButton();
 
-        if (nextPlayerPanel != null)
-            nextPlayerPanel.SetActive(false);
+    if (crewSizeText != null)
+        crewSizeText.gameObject.SetActive(false);
 
-        if (deckManager != null)
-            deckManager.AdvanceToNextPlayerTurn();
-    }
+    if (nextPlayerPanel != null)
+        nextPlayerPanel.SetActive(false);
+}
 
     public void ShowBotMessage(string message)
 {
@@ -175,6 +175,28 @@ private void RestoreGameplayButtonsAfterPanel()
 {
     if (inactiveServiceButton != null)
         inactiveServiceButton.Refresh();
+}
+
+void UpdateCrewSizeText()
+{
+    if (crewSizeText == null)
+        return;
+
+    if (deckManager == null || deckManager.turnManager == null)
+        return;
+
+    if (deckManager.turnManager.players.Count < 2)
+        return;
+
+    Player barnaby = deckManager.turnManager.players[1];
+
+    crewSizeText.text =
+        "Crew: " +
+        barnaby.hand.Count +
+        "/" +
+        barnaby.maxHandSize;
+
+    crewSizeText.gameObject.SetActive(true);
 }
 
 }

@@ -4504,7 +4504,10 @@ void UpdateCrewCapacityDisplay()
     if (crewCapacityText == null)
         return;
 
-    Player player = GetCurrentPlayer();
+    if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
+        return;
+
+    Player player = turnManager.players[0];
 
     crewCapacityText.text =
         "Crew: " +
