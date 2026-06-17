@@ -53,6 +53,12 @@ public class NextPlayerPanelController : MonoBehaviour
 
     public void ShowBotMessage(string message)
 {
+    if (deckManager != null && deckManager.IsEndOfRoundPendingOrPanelOpen())
+    {
+        Debug.Log("ShowBotMessage blocked because end-of-round is pending or open.");
+        return;
+    }
+
     if (nextPlayerPanel != null)
         nextPlayerPanel.SetActive(true);
 
@@ -78,10 +84,22 @@ public class NextPlayerPanelController : MonoBehaviour
         nextPlayerPanel.SetActive(false);
 
     if (turnMessageText != null)
+    {
+        turnMessageText.text = "";
         turnMessageText.gameObject.SetActive(false);
+    }
 
     if (botActionText != null)
+    {
+        botActionText.text = "";
         botActionText.gameObject.SetActive(false);
+    }
+
+    if (readyButton != null)
+        readyButton.SetActive(true);
+
+    if (crewSizeText != null)
+        crewSizeText.gameObject.SetActive(false);
 }
 
     
@@ -139,10 +157,22 @@ public class NextPlayerPanelController : MonoBehaviour
             nextPlayerPanel.SetActive(false);
 
         if (turnMessageText != null)
+        {
             turnMessageText.text = "";
+            turnMessageText.gameObject.SetActive(false);
+        }
+
+        if (botActionText != null)
+        {
+            botActionText.text = "";
+            botActionText.gameObject.SetActive(false);
+        }
 
         if (readyButton != null)
             readyButton.SetActive(true);
+
+        if (crewSizeText != null)
+            crewSizeText.gameObject.SetActive(false);
     }
 
     public void ShowBotTurnHeader(string playerName)

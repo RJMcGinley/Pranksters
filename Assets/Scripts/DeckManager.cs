@@ -608,7 +608,7 @@ public class DeckManager : MonoBehaviour
         if (GetCurrentPlayer().isBot && botManager != null)
             botManager.NotifyBotActionHandledTurnFlow();
 
-        TriggerEndGameScoring();
+        StartCoroutine(TriggerEndGameAfterShowcase(showcaseDuration));
         return;
     }
 
@@ -2386,6 +2386,12 @@ int GetCombinedMischiefScore()
 public void BeginNewGame()
 {
     Debug.Log("BeginNewGame START");
+
+    if (nextPlayerPanelController != null)
+    {
+        nextPlayerPanelController.HideBotMessage();
+        nextPlayerPanelController.HidePanelImmediate();
+    }
 
     StopAllCoroutines();
 
@@ -4556,6 +4562,9 @@ IEnumerator FinishCompletePrankSequence()
         {
             Debug.Log("BOT END OF ROUND PANEL SHOWN. Stopping bot turn flow.");
 
+            if (nextPlayerPanelController != null)
+                nextPlayerPanelController.HideBotMessage();
+
             if (botManager != null)
                 botManager.NotifyBotActionHandledTurnFlow();
 
@@ -6332,6 +6341,28 @@ public void TryPesterMayor()
               player.pesterMayorUsesThisGame);
 
     FinishActionAndWaitForEndTurn();
+}
+
+public bool IsEndOfRoundPendingOrPanelOpen()
+{
+    if (isEndOfRoundPending)
+        return true;
+
+    if (endOfRoundPanelController != null &&
+        endOfRoundPanelController.panelRoot != null &&
+        endOfRoundPanelController.panelRoot.activeSelf)
+    {
+        return true;
+    }
+
+    return false;
+}
+
+IEnumerator TriggerEndGameAfterShowcase(float delay)
+{
+    yield return new WaitForSeconds(delay);
+
+    TriggerEndGameScoring();
 }
 }
 
