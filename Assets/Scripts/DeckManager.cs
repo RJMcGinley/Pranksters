@@ -1828,9 +1828,21 @@ void TriggerEndGameScoring()
         combinedMischiefScore += turnManager.players[i].renownPoints;
     }
 
-    if (combinedMischiefScore >= 150)
+    PlayerProgressSave saveData = SaveSystem.Load();
+    Debug.Log("TWIN MAYOR UNLOCKED = " + saveData.hasUnlockedTwinMayor);
+
+    if (combinedMischiefScore >= 200)
     {
-        StartCoroutine(PlayWinCutsceneThenShowResults());
+        StartCoroutine(PlayWinCutsceneThenShowResults("WinScene.mp4"));
+        return;
+    }
+
+    if (combinedMischiefScore >= 150 && saveData != null && !saveData.hasUnlockedTwinMayor)
+    {
+        saveData.hasUnlockedTwinMayor = true;
+        SaveSystem.Save(saveData);
+
+        StartCoroutine(PlayWinCutsceneThenShowResults("FalseWin.mp4"));
         return;
     }
 
@@ -4089,9 +4101,9 @@ public PranksterDeckEntry GetFavorCardAtIndex(int index)
     return player.favorArea[index];
 }
 
-IEnumerator PlayWinCutsceneThenShowResults()
+IEnumerator PlayWinCutsceneThenShowResults(string videoFileName)
 {
-    Debug.Log("PLAYING WIN CUTSCENE");
+    Debug.Log("PLAYING WIN CUTSCENE: " + videoFileName);
 
     AudioListener.pause = true;
 
@@ -4107,7 +4119,8 @@ IEnumerator PlayWinCutsceneThenShowResults()
             RenderTexture.active = null;
         }
 
-        string videoPath = Path.Combine(Application.streamingAssetsPath, "WinScene.mp4");
+        string videoPath = Path.Combine(Application.streamingAssetsPath, videoFileName);
+
         winVideoPlayer.source = VideoSource.Url;
         winVideoPlayer.url = videoPath;
 
