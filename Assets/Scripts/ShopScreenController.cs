@@ -97,6 +97,11 @@ public class ShopScreenController : MonoBehaviour
         specialistsUnlocked = SaveSystem.GetTotalEarnedUnlockCount();
         freeVersionAccess = SaveSystem.GetFreeVersionUnlockLimit();
         fullRosterUnlocked = data.fullGamePurchased;
+
+        if (data.hasUnlockedTwinMayor)
+            mayorBreakingPoint = 180;
+        else
+            mayorBreakingPoint = 150;
     }
 
     public void UnlockFullRoster()

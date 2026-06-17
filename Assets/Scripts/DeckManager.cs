@@ -1831,7 +1831,7 @@ void TriggerEndGameScoring()
     PlayerProgressSave saveData = SaveSystem.Load();
     Debug.Log("TWIN MAYOR UNLOCKED = " + saveData.hasUnlockedTwinMayor);
 
-    if (combinedMischiefScore >= 200)
+    if (combinedMischiefScore >= 180)
     {
         StartCoroutine(PlayWinCutsceneThenShowResults("WinScene.mp4"));
         return;
@@ -3697,15 +3697,22 @@ void ApplyPlayer1MatchResultsToSave()
     player1ProgressSave.lifetimeFinalScorePoints += player1.finalScore;
     Debug.Log("LIFETIME FINAL SCORE UPDATED TO = " + player1ProgressSave.lifetimeFinalScorePoints);
 
-    // Highest single game score
-    if (player1.finalScore > player1ProgressSave.highestSingleGameScore)
+    // Highest single game score uses combined mischief from all players
+    int combinedMischiefScore = 0;
+
+    for (int i = 0; i < turnManager.players.Count; i++)
     {
-        player1ProgressSave.highestSingleGameScore = player1.finalScore;
-        Debug.Log("NEW HIGHEST SINGLE GAME SCORE = " + player1ProgressSave.highestSingleGameScore);
+        combinedMischiefScore += turnManager.players[i].renownPoints;
+    }
+
+    if (combinedMischiefScore > player1ProgressSave.highestSingleGameScore)
+    {
+        player1ProgressSave.highestSingleGameScore = combinedMischiefScore;
+        Debug.Log("NEW HIGHEST SINGLE GAME MISCHIEF SCORE = " + player1ProgressSave.highestSingleGameScore);
     }
     else
     {
-        Debug.Log("HIGHEST SINGLE GAME SCORE REMAINS = " + player1ProgressSave.highestSingleGameScore);
+        Debug.Log("HIGHEST SINGLE GAME MISCHIEF SCORE REMAINS = " + player1ProgressSave.highestSingleGameScore);
     }
 
     // Win/loss by player count

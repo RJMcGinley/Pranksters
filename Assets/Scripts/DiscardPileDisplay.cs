@@ -109,6 +109,9 @@ public class DiscardPileDisplay : MonoBehaviour
         if (entry.category == PranksterUnlockCategory.Discard)
             return GetDiscardSprite(entry.pranksterType, entry.tier);
 
+        if (entry.category == PranksterUnlockCategory.AvailableService)
+            return GetDiscardSprite(entry.pranksterType, entry.tier);
+
         return GetPrankCompletionSprite(entry.pranksterType, entry.tier);
     }
 

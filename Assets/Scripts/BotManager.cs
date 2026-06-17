@@ -339,7 +339,7 @@ public class BotManager : MonoBehaviour
 if (!BotDiscardDownToMaxHandSize(out discardMessage))
     return false;
 
-actionMessage = "Barnaby was last seen\nscouting";
+actionMessage = "Barnaby was last seen scouting";
 
 if (!string.IsNullOrEmpty(discardMessage))
     actionMessage += "\n" + discardMessage;
@@ -729,7 +729,7 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
 
     actionMessage =
         "Barnaby recruited the " + GetBotCardDisplayName(gainedCard) +
-        "\nyou sent him and is keeping " + GetBotCardDisplayName(givenCard) + "\non stand by";
+        "\nyou sent him and is keeping a " + GetBotCardDisplayName(givenCard) + "\non stand by";
 
     return true;
 }
@@ -850,7 +850,7 @@ bool TryOfferFavor(out string actionMessage)
     deckManager.BotOfferFavor(bestIndex);
 
     actionMessage =
-    "Barnaby has sent us a recruit. A \n" + GetBotCardDisplayName(bestCard) +
+    "Barnaby has sent us a recruit, a " + GetBotCardDisplayName(bestCard) +
     ". \nHe gained " + bestFavorValue + " Influence Points";
 
     return true;
@@ -1078,48 +1078,7 @@ string GetBotCardDisplayName(PranksterDeckEntry card)
     if (card == null)
         return "Unknown";
 
-    string typeName =
-        PranksterNameUtility.GetPranksterDisplayName(card.pranksterType);
-
-    if (typeName == "BeastMaster")
-        typeName = "Beastmaster";
-
-    if (card.tier <= 0)
-        return typeName;
-
-    string upgradeName = "";
-
-    string categoryName = card.category.ToString();
-
-    if (categoryName == "PrankCompletion")
-    {
-        upgradeName = PranksterSpriteDatabase.GetTierTitle(card.tier);
-    }
-    else if (categoryName == "FavorOffer" ||
-             categoryName == "Courier" ||
-             categoryName == "Operative" ||
-             categoryName == "Kingmaker")
-    {
-        upgradeName = PranksterSpriteDatabase.GetFavorTierTitle(card.tier);
-    }
-    else if (categoryName == "Discard" ||
-             categoryName == "Hustler" ||
-             categoryName == "Opportunist" ||
-             categoryName == "Specialist" ||
-             categoryName == "Plotter" ||
-             categoryName == "Schemer")
-    {
-        upgradeName = PranksterSpriteDatabase.GetDiscardTierTitle(card.tier);
-    }
-    else
-    {
-        upgradeName = PranksterSpriteDatabase.GetTierTitle(card.tier);
-    }
-
-    if (string.IsNullOrWhiteSpace(upgradeName) || upgradeName == "Base")
-        return typeName;
-
-    return typeName + " " + upgradeName;
+    return PranksterNameUtility.GetPranksterDisplayName(card.pranksterType);
 }
 
 public void StopBotRuntime()
