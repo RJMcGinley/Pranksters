@@ -13,6 +13,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Scribe, PranksterType.Scribe, PranksterType.Laborer, PranksterType.Laborer },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/CabbageCash")
             },
 
@@ -22,6 +23,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Wizard, PranksterType.Wizard, PranksterType.Laborer, PranksterType.Laborer },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/FalseFruit")
             },
 
@@ -31,6 +33,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Thief, PranksterType.Thief, PranksterType.Wizard },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/FloatingFootwear")
             },
 
@@ -40,6 +43,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Engineer, PranksterType.Engineer, PranksterType.Engineer, PranksterType.Laborer },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/FoamingFountain")
             },
 
@@ -49,6 +53,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.BeastMaster },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/FowlPlayExchange")
             },
 
@@ -58,6 +63,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Engineer, PranksterType.Engineer, PranksterType.Scribe, PranksterType.Scribe },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/GraveGreetings")
             },
 
@@ -67,6 +73,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Scribe, PranksterType.Scribe, PranksterType.Scribe, PranksterType.Thief },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/GrimGrafitti")
             },
 
@@ -76,6 +83,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Wizard, PranksterType.Thief, PranksterType.BeastMaster, PranksterType.Scribe },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/GuanoTeedDelivery")
             },
 
@@ -85,6 +93,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Wizard, PranksterType.Wizard, PranksterType.Wizard, PranksterType.BeastMaster },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/HeadlessHounds")
             },
 
@@ -94,6 +103,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.Scribe },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/InkStink")
             },
 
@@ -103,6 +113,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Engineer, PranksterType.BeastMaster, PranksterType.Laborer, PranksterType.Thief },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/ManureMischief")
             },
 
@@ -112,6 +123,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.Engineer, PranksterType.Wizard, PranksterType.Scribe },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/MayorsMoat")
             },
 
@@ -121,6 +133,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Thief, PranksterType.BeastMaster, PranksterType.BeastMaster },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/MorningSurprise")
             },
 
@@ -130,6 +143,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Scribe, PranksterType.Scribe, PranksterType.Scribe, PranksterType.Scribe },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/MunicipalPaperShuffle")
             },
 
@@ -139,6 +153,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.BeastMaster, PranksterType.Engineer, PranksterType.Engineer },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/OperationFeatherfall")
             },
 
@@ -148,6 +163,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Laborer, PranksterType.Laborer, PranksterType.Laborer, PranksterType.Laborer },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/PriviesOnThePorch")
             },
 
@@ -157,6 +173,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.BeastMaster, PranksterType.Engineer, PranksterType.Laborer, PranksterType.Scribe },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/RamStampede")
             },
 
@@ -166,6 +183,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Wizard, PranksterType.Engineer, PranksterType.Laborer },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/SinusScorcher")
             },
 
@@ -175,6 +193,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Laborer, PranksterType.Scribe, PranksterType.Wizard },
                 renownPoints = 8,
                 favorMultiplier = 2,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/SoiledSpring")
             },
 
@@ -184,6 +203,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Engineer, PranksterType.Engineer, PranksterType.Engineer, PranksterType.Engineer },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/StatueSwap")
             },
 
@@ -193,6 +213,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Wizard, PranksterType.Wizard, PranksterType.Wizard, PranksterType.Wizard },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/TheAngryMoon")
             },
 
@@ -202,6 +223,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Thief, PranksterType.Wizard, PranksterType.Wizard },
                 renownPoints = 10,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Vertical,
                 cardSprite = Resources.Load<Sprite>("PrankCards/TheShockingToll")
             },
 
@@ -211,6 +233,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Laborer, PranksterType.Laborer, PranksterType.Laborer, PranksterType.Engineer },
                 renownPoints = 12,
                 favorMultiplier = 1,
+                wantedDirection = WantedDirection.Horizontal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/TheTiltedTumble")
             },
 
@@ -220,6 +243,7 @@ public static class PrankDatabase
                 requiredPranksters = new List<PranksterType> { PranksterType.Thief, PranksterType.Thief, PranksterType.Thief, PranksterType.Thief },
                 renownPoints = 15,
                 favorMultiplier = 0,
+                wantedDirection = WantedDirection.Diagonal,
                 cardSprite = Resources.Load<Sprite>("PrankCards/WoodenNickels")
             }
         };

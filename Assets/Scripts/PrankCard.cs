@@ -1,6 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+public enum WantedDirection
+{
+    Horizontal,
+    Vertical,
+    Diagonal
+}
+
 [System.Serializable]
 public class PrankCard
 {
@@ -9,6 +16,7 @@ public class PrankCard
     public int renownPoints;
     public int favorMultiplier;
     public Sprite cardSprite;
+    public WantedDirection wantedDirection;
 
     public bool IsFourOfSameType(out PranksterType type)
     {
