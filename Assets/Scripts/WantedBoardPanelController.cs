@@ -30,6 +30,13 @@ public class WantedBoardPanelController : MonoBehaviour
     public Sprite laborerIcon;
     public Sprite scribeIcon;
 
+    private int previewJailCount;
+    
+    private System.Action onPlacementCommitted;
+
+    [Header("Jail")]
+    public WantedJailController wantedJailController;
+
     private void Awake()
     {
         foreach (var button in selectionButtons)
@@ -40,12 +47,20 @@ public class WantedBoardPanelController : MonoBehaviour
 
         if (postWantedSignsButton != null)
             postWantedSignsButton.interactable = false;
+
+        if (postWantedSignsButton != null)
+        {
+            postWantedSignsButton.onClick.AddListener(
+                CommitPlacement);
+        }
     }
 
-    public void OpenForPrank(PrankCard prank)
+    public void OpenForPrank(PrankCard prank, System.Action onCommitted = null)
     {
         Debug.Log("OPEN FOR PRANK CALLED");
         gameObject.SetActive(true);
+
+        onPlacementCommitted = onCommitted;
 
         currentDirection = prank.wantedDirection;
         pendingRecruits = prank.requiredPranksters;
@@ -105,7 +120,7 @@ public class WantedBoardPanelController : MonoBehaviour
 
         List<WantedBoardCell> selectedCells = GetCellsForSelection(type, index);
 
-        int jailPreviewCount = 0;
+        previewJailCount = 0;
 
         for (int i = 0; i < selectedCells.Count; i++)
         {
@@ -121,19 +136,28 @@ public class WantedBoardPanelController : MonoBehaviour
             {
                 cell.SetHighlight(false);
                 cell.SetJailPreview(true);
-                jailPreviewCount++;
+                previewJailCount++;
             }
             else
             {
                 cell.SetHighlight(true);
                 cell.SetJailPreview(false);
+
+                if (pendingRecruits != null && pendingRecruits.Count == 4)
+                {
+                    PranksterType recruit = pendingRecruits[i];
+
+                    cell.SetPreviewOccupant(
+                        recruit,
+                        GetIconForType(recruit));
+                }
             }
         }
 
         if (placementResultText != null)
         {
             placementResultText.text =
-                jailPreviewCount + " recruit(s) will be jailed";
+                previewJailCount + " recruit(s) will be jailed";
         }
 
         if (postWantedSignsButton != null)
@@ -195,6 +219,7 @@ public class WantedBoardPanelController : MonoBehaviour
             {
                 cell.SetHighlight(false);
                 cell.SetJailPreview(false);
+                cell.ClearPreview();
             }
         }
     }
@@ -247,4 +272,61 @@ public class WantedBoardPanelController : MonoBehaviour
                 return null;
         }
     }
+
+    void CommitPlacement()
+{
+    List<WantedBoardCell> selectedCells =
+        GetCellsForSelection(
+            selectedType,
+            selectedIndex);
+
+    for (int i = 0; i < selectedCells.Count; i++)
+    {
+        WantedBoardCell cell = selectedCells[i];
+        PranksterType recruit = pendingRecruits[i];
+
+        bool sameType =
+            cell.HasOccupant &&
+            cell.Occupant == recruit;
+
+        if (sameType)
+        {
+            cell.Clear();
+
+            if (wantedJailController != null)
+            {
+                wantedJailController.AddJailedRecruit(recruit);
+
+                if (AudioManager.Instance != null)
+                    AudioManager.Instance.PlayJailDoorClosing();
+
+                Debug.Log(
+                    "RECRUIT JAILED | Total Jailed = "
+                    + wantedJailController.GetJailedRecruitCount());
+            }
+        }
+        else
+        {
+            cell.SetOccupant(
+                recruit,
+                GetIconForType(recruit));
+        }
+    }
+
+    ClearHighlights();
+
+    if (placementResultText != null)
+        placementResultText.text = "";
+
+    if (postWantedSignsButton != null)
+        postWantedSignsButton.interactable = false;
+
+    gameObject.SetActive(false);
+
+    if (onPlacementCommitted != null)
+    {
+        onPlacementCommitted.Invoke();
+        onPlacementCommitted = null;
+    }
+}
 }

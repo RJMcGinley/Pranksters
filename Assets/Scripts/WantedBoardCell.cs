@@ -7,9 +7,11 @@ public class WantedBoardCell : MonoBehaviour
     public Image recruitIconImage;
     public GameObject highlightObject;
     public GameObject jailPreviewObject;
+    public Image previewIconImage;
 
     public bool HasOccupant { get; private set; }
     public PranksterType Occupant { get; private set; }
+    
 
     public void Clear()
     {
@@ -24,6 +26,7 @@ public class WantedBoardCell : MonoBehaviour
 
         SetHighlight(false);
         SetJailPreview(false);
+        ClearPreview();
     }
 
     public void SetOccupant(PranksterType type, Sprite icon)
@@ -49,5 +52,28 @@ public class WantedBoardCell : MonoBehaviour
     {
         if (jailPreviewObject != null)
             jailPreviewObject.SetActive(active);
+
+        if (active)
+            ClearPreview();
+    }
+
+    public void SetPreviewOccupant(PranksterType type, Sprite icon)
+    {
+        if (previewIconImage != null)
+        {
+            previewIconImage.gameObject.SetActive(true);
+            previewIconImage.sprite = icon;
+            previewIconImage.enabled = true;
+        }
+    }
+
+    public void ClearPreview()
+    {
+        if (previewIconImage != null)
+        {
+            previewIconImage.sprite = null;
+            previewIconImage.enabled = false;
+            previewIconImage.gameObject.SetActive(false);
+        }
     }
 }

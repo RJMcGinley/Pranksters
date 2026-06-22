@@ -57,6 +57,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip yourOpponentsDontHaveAnyRecruitsClip;
     public AudioClip availableServiceScoringActionClip;
     public AudioClip spendInfluenceClip;
+    public AudioClip jailDoorClosingClip;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -500,6 +501,11 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
         int randomIndex = Random.Range(0, clipPool.Length);
 
         PlaySFX(clipPool[randomIndex]);
+    }
+
+    public void PlayJailDoorClosing()
+    {
+        PlaySFX(jailDoorClosingClip);
     }
 
 }
