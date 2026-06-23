@@ -14,10 +14,17 @@ public class WantedSelectionButton : MonoBehaviour
     }
 
     public void OnClicked()
-    {
-        if (panelController == null)
-            return;
+{
+    Debug.Log("WANTED BUTTON CLICKED | object=" + gameObject.name +
+              " | type=" + selectionType +
+              " | index=" + selectionIndex);
 
-        panelController.SelectPlacement(selectionType, selectionIndex);
+    if (panelController == null)
+    {
+        Debug.LogWarning("WANTED BUTTON CLICK FAILED | panelController is null on " + gameObject.name);
+        return;
     }
+
+    panelController.SelectPlacement(selectionType, selectionIndex);
+}
 }

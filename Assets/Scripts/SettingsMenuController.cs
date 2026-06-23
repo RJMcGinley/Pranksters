@@ -13,6 +13,9 @@ public class SettingsMenuController : MonoBehaviour
 
     public void OpenSettings()
     {
+        if (deckManager != null && deckManager.IsWantedBoardOpen())
+            return;
+
         if (settingsPanel != null)
             settingsPanel.SetActive(true);
 

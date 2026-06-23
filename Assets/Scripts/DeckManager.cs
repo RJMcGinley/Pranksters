@@ -156,9 +156,17 @@ public class DeckManager : MonoBehaviour
         new Dictionary<PranksterType, bool>();
 
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
+    public WantedBoardPanelController wantedBoardPanelController;
 
     [Header("Available Service Instructions")]
     [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
+
+    private bool wantedBoardOpen = false;
+
+    public bool IsWantedBoardOpen()
+    {
+        return wantedBoardOpen;
+    }
 
     public bool IsGameOver()
     {
@@ -603,7 +611,7 @@ public class DeckManager : MonoBehaviour
     if (prankCompletionShowcasePanel != null)
         prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
 
-    if (HasPlayerCompletedFourPranks())
+    if (HasReachedMayorBreakingPoint())
     {
         if (GetCurrentPlayer().isBot && botManager != null)
             botManager.NotifyBotActionHandledTurnFlow();
@@ -617,12 +625,12 @@ public class DeckManager : MonoBehaviour
         isEndOfRoundPending = true;
         Debug.Log("END OF ROUND FLAG SET TRUE");
 
-        StartCoroutine(FinishCompletePrankSequence());
+        StartCoroutine(OpenWantedBoardThenContinue(completedPrank, showcaseDuration));
         return;
     }
 
     // Continue normal flow if round is not ending
-    StartCoroutine(FinishCompletePrankSequence());
+    StartCoroutine(OpenWantedBoardThenContinue(completedPrank, showcaseDuration));
 }
 
 
@@ -6347,6 +6355,12 @@ public void TryPesterMayor()
               " mischief. Uses this game = " +
               player.pesterMayorUsesThisGame);
 
+    if (HasReachedMayorBreakingPoint())
+    {
+        TriggerEndGameScoring();
+        return;
+    }
+
     FinishActionAndWaitForEndTurn();
 }
 
@@ -6370,6 +6384,52 @@ IEnumerator TriggerEndGameAfterShowcase(float delay)
     yield return new WaitForSeconds(delay);
 
     TriggerEndGameScoring();
+}
+
+IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcaseDuration)
+{
+    yield return new WaitForSeconds(showcaseDuration);
+
+    if (wantedBoardPanelController == null)
+    {
+        Debug.LogWarning("WantedBoardPanelController is not assigned. Continuing prank flow.");
+        yield return StartCoroutine(FinishCompletePrankSequence());
+        yield break;
+    }
+
+    wantedBoardOpen = true;
+
+    bool placementFinished = false;
+
+    wantedBoardPanelController.OpenForPrank(
+        completedPrank,
+        () =>
+        {
+            placementFinished = true;
+        });
+
+    yield return new WaitUntil(() => placementFinished);
+
+    wantedBoardOpen = false;
+
+    yield return StartCoroutine(FinishCompletePrankSequence());
+}
+
+bool HasReachedMayorBreakingPoint()
+{
+    PlayerProgressSave saveData = SaveSystem.Load();
+
+    int threshold = 150;
+
+    if (saveData != null && saveData.hasUnlockedTwinMayor)
+        threshold = 180;
+
+    int combinedMischief = GetCombinedMischiefScore();
+
+    Debug.Log("MAYOR BREAKING POINT CHECK | Mischief = " +
+              combinedMischief + " / " + threshold);
+
+    return combinedMischief >= threshold;
 }
 }
 

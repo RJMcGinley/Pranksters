@@ -7,6 +7,9 @@ public class RulesPanelController : MonoBehaviour
 
     public void ToggleRules()
     {
+        if (deckManager != null && deckManager.IsWantedBoardOpen())
+            return;
+            
         if (rulesPanel == null)
             return;
 

@@ -80,6 +80,29 @@ public class WantedBoardPanelController : MonoBehaviour
 
     void RefreshArrowVisibility()
     {
+        int bestOpenCount = -1;
+
+        foreach (var button in selectionButtons)
+        {
+            if (button == null)
+                continue;
+
+            bool directionMatches = DoesButtonMatchCurrentDirection(button);
+
+            if (!directionMatches)
+                continue;
+
+            List<WantedBoardCell> selectedCells =
+                GetCellsForSelection(
+                    button.selectionType,
+                    button.selectionIndex);
+
+            int openCount = CountOpenCells(selectedCells);
+
+            if (openCount > bestOpenCount)
+                bestOpenCount = openCount;
+        }
+
         foreach (var button in selectionButtons)
         {
             if (button == null)
@@ -90,22 +113,26 @@ public class WantedBoardPanelController : MonoBehaviour
 
             bool show = false;
 
-            switch (currentDirection)
+            if (DoesButtonMatchCurrentDirection(button))
             {
-                case WantedDirection.Horizontal:
-                    show = button.selectionType == WantedSelectionType.Row;
-                    break;
+                List<WantedBoardCell> selectedCells =
+                    GetCellsForSelection(
+                        button.selectionType,
+                        button.selectionIndex);
 
-                case WantedDirection.Vertical:
-                    show = button.selectionType == WantedSelectionType.Column;
-                    break;
+                int openCount = CountOpenCells(selectedCells);
 
-                case WantedDirection.Diagonal:
-                    show = button.selectionType == WantedSelectionType.Diagonal;
-                    break;
+                show =
+                    openCount == bestOpenCount &&
+                    openCount > 0;
             }
 
             button.gameObject.SetActive(show);
+        }
+
+        if (bestOpenCount <= 0)
+        {
+            Debug.Log("WANTED BOARD LOSS | No valid placement has open spaces.");
         }
     }
 
@@ -328,5 +355,36 @@ public class WantedBoardPanelController : MonoBehaviour
         onPlacementCommitted.Invoke();
         onPlacementCommitted = null;
     }
+}
+
+bool DoesButtonMatchCurrentDirection(WantedSelectionButton button)
+{
+    switch (currentDirection)
+    {
+        case WantedDirection.Horizontal:
+            return button.selectionType == WantedSelectionType.Row;
+
+        case WantedDirection.Vertical:
+            return button.selectionType == WantedSelectionType.Column;
+
+        case WantedDirection.Diagonal:
+            return button.selectionType == WantedSelectionType.Diagonal;
+
+        default:
+            return false;
+    }
+}
+
+int CountOpenCells(List<WantedBoardCell> selectedCells)
+{
+    int count = 0;
+
+    foreach (WantedBoardCell cell in selectedCells)
+    {
+        if (cell != null && !cell.HasOccupant)
+            count++;
+    }
+
+    return count;
 }
 }
