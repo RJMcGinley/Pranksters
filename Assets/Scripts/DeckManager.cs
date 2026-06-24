@@ -612,6 +612,12 @@ public class DeckManager : MonoBehaviour
     if (wantedJailController != null)
         wantedJailController.HideJailDisplay();
 
+    if (wantedBoardPanelController != null &&
+        wantedBoardPanelController.wantedDisplayPanelController != null)
+    {
+        wantedBoardPanelController.wantedDisplayPanelController.Hide();
+    }
+
     if (prankCompletionShowcasePanel != null)
         prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
 
@@ -3152,6 +3158,15 @@ IEnumerator ResetRoundSequence()
     CacheServiceAvailabilityForRound();
     RefreshAvailableServiceSlotAvailability();
 
+    if (wantedBoardPanelController != null &&
+        wantedBoardPanelController.wantedDisplayPanelController != null)
+    {
+        wantedBoardPanelController.wantedDisplayPanelController.RefreshFromWantedCells(
+            wantedBoardPanelController.cells);
+
+        wantedBoardPanelController.wantedDisplayPanelController.Show();
+    }
+
     Debug.Log("New round started.");
 
     UpdateActiveFavorDisplay();
@@ -4074,6 +4089,12 @@ void ShowEndOfRoundPanelBeforeReset()
 
     if (wantedJailController != null)
         wantedJailController.HideJailDisplay();
+
+    if (wantedBoardPanelController != null &&
+        wantedBoardPanelController.wantedDisplayPanelController != null)
+    {
+        wantedBoardPanelController.wantedDisplayPanelController.Hide();
+    }
 
     if (endOfRoundPanelController != null)
     {

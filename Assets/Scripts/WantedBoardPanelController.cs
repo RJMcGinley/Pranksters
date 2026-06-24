@@ -36,6 +36,8 @@ public class WantedBoardPanelController : MonoBehaviour
 
     [Header("Jail")]
     public WantedJailController wantedJailController;
+    [Header("Display Panel")]
+    public WantedDisplayPanelController wantedDisplayPanelController;
 
     private System.Action<string> onLossTriggered;
 
@@ -64,6 +66,10 @@ public class WantedBoardPanelController : MonoBehaviour
     {
         onLossTriggered = onLoss;
         Debug.Log("OPEN FOR PRANK CALLED");
+
+        if (wantedDisplayPanelController != null)
+            wantedDisplayPanelController.Hide();
+
         gameObject.SetActive(true);
 
         onPlacementCommitted = onCommitted;
@@ -369,6 +375,12 @@ public class WantedBoardPanelController : MonoBehaviour
 
     gameObject.SetActive(false);
 
+    if (wantedDisplayPanelController != null)
+    {
+        wantedDisplayPanelController.RefreshFromWantedCells(cells);
+        wantedDisplayPanelController.Show();
+    }
+
     if (onPlacementCommitted != null)
     {
         onPlacementCommitted.Invoke();
@@ -461,5 +473,11 @@ public void ResetWantedBoardState()
         postWantedSignsButton.interactable = false;
 
     gameObject.SetActive(false);
+
+    if (wantedDisplayPanelController != null)
+    {
+        wantedDisplayPanelController.RefreshFromWantedCells(cells);
+        wantedDisplayPanelController.Show();
+    }
 }
 }
