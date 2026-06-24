@@ -23,6 +23,7 @@ public class BotManager : MonoBehaviour
     public TurnManager turnManager;
     public NextPlayerPanelController nextPlayerPanelController;
     private bool botActionHandledTurnFlow = false;
+    private string pendingCompletedPrankMessage = "";
 
     Player GetCurrentPlayer()
     {
@@ -80,9 +81,11 @@ public class BotManager : MonoBehaviour
         string prankName = activePranks[prankIndex].title;
 
         Debug.Log("BOT: Completing prank at index " + prankIndex);
+        pendingCompletedPrankMessage = "Completed prank:\n" + prankName;
+
         deckManager.BotCompletePrank(prankIndex);
 
-        return "Completed prank:\n" + prankName;
+        return null;
     }
 
     // ===== DISCARD FOR 4/4 =====
@@ -729,7 +732,7 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
 
     actionMessage =
         "Barnaby recruited the " + GetBotCardDisplayName(gainedCard) +
-        "\nyou sent him and is keeping a " + GetBotCardDisplayName(givenCard) + "on stand by";
+        "\nyou sent him and is keeping a " + GetBotCardDisplayName(givenCard) + " on stand by";
 
     return true;
 }
@@ -874,6 +877,12 @@ IEnumerator BotTurnSequence()
     yield return new WaitForSeconds(0.8f);
 
     string actionMessage = TakeBotTurnAndReturnMessage();
+
+    if (string.IsNullOrEmpty(actionMessage))
+    {
+        Debug.Log("Bot action message is empty. Waiting for action-specific flow to finish.");
+        yield break;
+    }
 
     if (nextPlayerPanelController != null)
         nextPlayerPanelController.ShowBotMessage(actionMessage);
@@ -1177,6 +1186,19 @@ string GetPluralRecruitName(PranksterDeckEntry card)
         return "Scholars";
 
     return name + "s";
+}
+
+public void ShowPendingCompletedPrankMessageAndWaitForReady()
+{
+    if (!string.IsNullOrEmpty(pendingCompletedPrankMessage))
+    {
+        if (nextPlayerPanelController != null)
+            nextPlayerPanelController.ShowBotMessageWithReady(pendingCompletedPrankMessage);
+
+        pendingCompletedPrankMessage = "";
+    }
+
+    botActionHandledTurnFlow = true;
 }
 
 }

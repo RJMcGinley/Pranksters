@@ -4598,6 +4598,9 @@ IEnumerator FinishCompletePrankSequence()
         ShowActivePrankCards();
         RefreshAllHighlights();
 
+        if (botManager != null)
+            botManager.ShowPendingCompletedPrankMessageAndWaitForReady();
+
         yield break;
     }
     else

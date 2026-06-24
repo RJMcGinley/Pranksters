@@ -229,4 +229,25 @@ void UpdateCrewSizeText()
     crewSizeText.gameObject.SetActive(true);
 }
 
+public void ShowBotMessageWithReady(string message)
+{
+    if (nextPlayerPanel != null)
+        nextPlayerPanel.SetActive(true);
+
+    if (turnMessageText != null)
+        turnMessageText.gameObject.SetActive(true);
+
+    if (botActionText != null)
+    {
+        botActionText.text = message;
+        botActionText.gameObject.SetActive(true);
+    }
+
+    if (readyButton != null)
+        readyButton.SetActive(true);
+
+    if (endTurnButton != null)
+        endTurnButton.SetActive(false);
+}
+
 }
