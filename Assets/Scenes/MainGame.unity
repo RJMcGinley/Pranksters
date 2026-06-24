@@ -37055,8 +37055,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.5
-  m_fontSizeBase: 1.5
+  m_fontSize: 1.3
+  m_fontSizeBase: 1.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -37124,7 +37124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.5, y: -34.2}
+  m_AnchoredPosition: {x: -2.6, y: -35.8}
   m_SizeDelta: {x: 400, y: 74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &321941221
@@ -131873,7 +131873,7 @@ MonoBehaviour:
   serviceTier2: {fileID: 683874365}
   serviceTier3: {fileID: 1343190296}
   prankCardView: {fileID: 902042425}
-  covertTab: {fileID: 1603968268}
+  rogueTab: {fileID: 0}
   mysticTab: {fileID: 2038074239}
   plannerTab: {fileID: 1903675202}
   wranglerTab: {fileID: 1095437948}

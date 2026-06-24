@@ -35,7 +35,7 @@ public class UnlockCollectionMenuController : MonoBehaviour
     public UnlockProgressionPanelPrankView prankCardView;
 
     [Header("Recruit Tabs")]
-    public UnlockRecruitTabButton covertTab;
+    public UnlockRecruitTabButton rogueTab;
     public UnlockRecruitTabButton mysticTab;
     public UnlockRecruitTabButton plannerTab;
     public UnlockRecruitTabButton wranglerTab;
@@ -291,8 +291,8 @@ private PrankCard FindPrankByName(string prankName)
 
 private void UpdateTabVisuals(PranksterType selectedType)
 {
-    if (covertTab != null)
-        covertTab.SetSelected(selectedType == PranksterType.Thief);
+    if (rogueTab != null)
+        rogueTab.SetSelected(selectedType == PranksterType.Thief);
 
     if (mysticTab != null)
         mysticTab.SetSelected(selectedType == PranksterType.Wizard);

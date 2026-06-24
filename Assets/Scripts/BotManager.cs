@@ -729,7 +729,7 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
 
     actionMessage =
         "Barnaby recruited the " + GetBotCardDisplayName(gainedCard) +
-        "\nyou sent him and is keeping a " + GetBotCardDisplayName(givenCard) + "\non stand by";
+        "\nyou sent him and is keeping a " + GetBotCardDisplayName(givenCard) + "on stand by";
 
     return true;
 }
@@ -1103,7 +1103,7 @@ bool BotDiscardDownToMaxHandSize(out string discardMessage)
     if (player == null)
         return false;
 
-    List<string> discardedCardNames = new List<string>();
+    List<PranksterDeckEntry> discardedCards = new List<PranksterDeckEntry>();
 
     while (player.hand.Count > player.maxHandSize)
     {
@@ -1116,25 +1116,67 @@ bool BotDiscardDownToMaxHandSize(out string discardMessage)
         }
 
         PranksterDeckEntry discardedCard = player.hand[discardIndex];
-        discardedCardNames.Add(GetBotCardDisplayName(discardedCard));
+        discardedCards.Add(discardedCard);
 
         deckManager.BotDiscardCardFromHand(discardIndex);
     }
 
-    if (discardedCardNames.Count == 1)
-    {
-        discardMessage =
-            " 1 " + discardedCardNames[0] +
-            " was seen leaving Barnaby's crew.";
-    }
-    else if (discardedCardNames.Count > 1)
-    {
-        discardMessage =
-            string.Join(", ", discardedCardNames) +
-            " were seen leaving Barnaby's crew.";
-    }
+    discardMessage = BuildBarnabyDiscardMessage(discardedCards);
 
     return true;
+}
+
+string BuildBarnabyDiscardMessage(List<PranksterDeckEntry> discardedCards)
+{
+    if (discardedCards == null || discardedCards.Count == 0)
+        return "";
+
+    if (discardedCards.Count == 1)
+    {
+        string name = GetBotCardDisplayName(discardedCards[0]);
+        return "A " + name + " was seen leaving Barnaby's crew.";
+    }
+
+    if (discardedCards.Count == 2)
+    {
+        string firstName = GetBotCardDisplayName(discardedCards[0]);
+        string secondName = GetBotCardDisplayName(discardedCards[1]);
+
+        if (firstName == secondName)
+            return "2 " + GetPluralRecruitName(discardedCards[0]) + " were seen leaving Barnaby's crew.";
+
+        return "A " + firstName + " and a " + secondName + "\nwere seen leaving Barnaby's crew.";
+    }
+
+    return discardedCards.Count + " recruits were seen leaving Barnaby's crew.";
+}
+
+string GetPluralRecruitName(PranksterDeckEntry card)
+{
+    string name = GetBotCardDisplayName(card);
+
+    if (name == "Rogue")
+        return "Rogues";
+
+    if (name == "Mystic")
+        return "Mystics";
+
+    if (name == "Planner")
+        return "Planners";
+
+    if (name == "Wrangler")
+        return "Wranglers";
+
+    if (name == "Hard Hand")
+        return "Hard Hands";
+
+    if (name == "Roughneck")
+        return "Roughnecks";
+
+    if (name == "Scholar")
+        return "Scholars";
+
+    return name + "s";
 }
 
 }
