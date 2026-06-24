@@ -2071,7 +2071,10 @@ public void ShowActivePrankCards()
 
         Debug.Log("Prank " + i + " = " + activePranks[i].title + " | CanCompletePrank = " + CanCompletePrank(i));
 
-        if (CanCompletePrank(i) && completablePrankHighlightPrefab != null)
+        if (pendingChoice == PendingChoiceType.ChooseAction &&
+        highlightSuppressionCount == 0 &&
+        CanCompletePrank(i) &&
+        completablePrankHighlightPrefab != null)
         {
             GameObject highlight = Instantiate(completablePrankHighlightPrefab, prankObject.transform);
 
@@ -2885,18 +2888,21 @@ public void OnPrankCardClicked(int prankIndex)
     if (prankPreviewPanel != null)
         prankPreviewPanel.Hide();
 
+    pendingChoice = PendingChoiceType.None;
+    highlightSuppressionCount = 1;
+    RefreshAllHighlights();
+
     bool completed = AttemptCompletePrank(prankIndex);
 
     if (!completed)
     {
         Debug.Log("Prank completion failed. Returning to ChooseAction.");
+        highlightSuppressionCount = 0;
         pendingChoice = PendingChoiceType.ChooseAction;
         Debug.Log("pendingChoice set to ChooseAction from OnPrankCardClicked fail branch");
         RefreshAllHighlights();
         return;
     }
-
-    pendingChoice = PendingChoiceType.None;
 }
 
 public int GetNextAvailableFavorIndex()
@@ -4597,6 +4603,9 @@ IEnumerator FinishCompletePrankSequence()
     else
     {
         Debug.Log("HUMAN complete prank sequence waiting for End Turn");
+
+        highlightSuppressionCount = 0;
+
         FinishActionAndWaitForEndTurn();
     }
 
