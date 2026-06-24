@@ -609,6 +609,9 @@ public class DeckManager : MonoBehaviour
     if (AudioManager.Instance != null)
         showcaseDuration = AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
 
+    if (wantedJailController != null)
+        wantedJailController.HideJailDisplay();
+
     if (prankCompletionShowcasePanel != null)
         prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
 
@@ -4035,7 +4038,6 @@ void ShowEndOfRoundPanelBeforeReset()
         firstPlayerName = "Player " + (pendingRoundFirstPlayerIndex + 1);
 
     int influenceWinnerIndex = DetermineInfluenceWinnerIndex();
-
     Player influenceWinner = turnManager.players[influenceWinnerIndex];
 
     string influenceWinnerName = influenceWinner.playerName;
@@ -4070,6 +4072,9 @@ void ShowEndOfRoundPanelBeforeReset()
             Debug.LogWarning("GameBackgroundManager not found. Bot location could not be applied.");
     }
 
+    if (wantedJailController != null)
+        wantedJailController.HideJailDisplay();
+
     if (endOfRoundPanelController != null)
     {
         endOfRoundPanelController.Show(
@@ -4080,6 +4085,10 @@ void ShowEndOfRoundPanelBeforeReset()
             () =>
             {
                 Debug.Log("Start Next Round callback invoked.");
+
+                if (wantedJailController != null)
+                    wantedJailController.ShowJailDisplay();
+
                 StartCoroutine(ResetRoundSequence());
             },
             OnChooseNextLocationFromEndOfRound
@@ -4088,6 +4097,10 @@ void ShowEndOfRoundPanelBeforeReset()
     else
     {
         Debug.LogWarning("EndOfRoundPanelController is not assigned. Resetting round immediately.");
+
+        if (wantedJailController != null)
+            wantedJailController.ShowJailDisplay();
+
         StartCoroutine(ResetRoundSequence());
     }
 }
@@ -5874,6 +5887,9 @@ private void OnChooseNextLocationFromEndOfRound()
 {
     Debug.Log("DeckManager: opening location selection panel.");
 
+    if (wantedJailController != null)
+        wantedJailController.HideJailDisplay();
+
     if (locationSelectionPanelController != null)
     {
         locationSelectionPanelController.Open((selectedLocation) =>
@@ -5884,12 +5900,18 @@ private void OnChooseNextLocationFromEndOfRound()
 
             Debug.Log("DeckManager: starting next round.");
 
+            if (wantedJailController != null)
+                wantedJailController.ShowJailDisplay();
+
             StartCoroutine(ResetRoundSequence());
         });
     }
     else
     {
         Debug.LogWarning("DeckManager: locationSelectionPanelController is not assigned.");
+
+        if (wantedJailController != null)
+            wantedJailController.ShowJailDisplay();
 
         StartCoroutine(ResetRoundSequence());
     }
@@ -6417,6 +6439,9 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     bool placementFinished = false;
     bool lossTriggered = false;
     string lossReason = "";
+
+    if (wantedJailController != null)
+        wantedJailController.ShowJailDisplay();
 
     wantedBoardPanelController.OpenForPrank(
         completedPrank,

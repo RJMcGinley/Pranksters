@@ -100,4 +100,24 @@ public class WantedJailController : MonoBehaviour
     {
         AddJailedRecruit(PranksterType.Thief);
     }
+
+    public void HideJailDisplay()
+    {
+        foreach (Image image in jailSlotImages)
+        {
+            if (image != null)
+                image.gameObject.SetActive(false);
+        }
+    }
+
+    public void ShowJailDisplay()
+    {
+        for (int i = 0; i < jailSlotImages.Length; i++)
+        {
+            Image image = jailSlotImages[i];
+
+            if (image != null)
+                image.gameObject.SetActive(i < jailedRecruitCount);
+        }
+    }
 }
