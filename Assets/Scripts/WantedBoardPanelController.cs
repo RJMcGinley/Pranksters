@@ -37,6 +37,8 @@ public class WantedBoardPanelController : MonoBehaviour
     [Header("Jail")]
     public WantedJailController wantedJailController;
 
+    private System.Action<string> onLossTriggered;
+
     private void Awake()
     {
         foreach (var button in selectionButtons)
@@ -55,8 +57,12 @@ public class WantedBoardPanelController : MonoBehaviour
         }
     }
 
-    public void OpenForPrank(PrankCard prank, System.Action onCommitted = null)
+    public void OpenForPrank(
+    PrankCard prank,
+    System.Action onCommitted = null,
+    System.Action<string> onLoss = null)
     {
+        onLossTriggered = onLoss;
         Debug.Log("OPEN FOR PRANK CALLED");
         gameObject.SetActive(true);
 
@@ -132,7 +138,7 @@ public class WantedBoardPanelController : MonoBehaviour
 
         if (bestOpenCount <= 0)
         {
-            Debug.Log("WANTED BOARD LOSS | No valid placement has open spaces.");
+            TriggerWantedBoardLoss("No valid placement has open spaces.");
         }
     }
 
@@ -342,6 +348,19 @@ public class WantedBoardPanelController : MonoBehaviour
 
     ClearHighlights();
 
+    if (wantedJailController != null &&
+        wantedJailController.GetJailedRecruitCount() >= 3)
+    {
+        TriggerWantedBoardLoss("Jail is full.");
+        return;
+    }
+
+    if (IsWantedBoardFull())
+    {
+        TriggerWantedBoardLoss("Wanted Board is full.");
+        return;
+    }
+
     if (placementResultText != null)
         placementResultText.text = "";
 
@@ -386,5 +405,61 @@ int CountOpenCells(List<WantedBoardCell> selectedCells)
     }
 
     return count;
+}
+
+void TriggerWantedBoardLoss(string reason)
+{
+    Debug.Log("WANTED BOARD LOSS | " + reason);
+
+    gameObject.SetActive(false);
+
+    if (onLossTriggered != null)
+    {
+        onLossTriggered.Invoke(reason);
+        onLossTriggered = null;
+    }
+}
+
+bool IsWantedBoardFull()
+{
+    foreach (WantedBoardCell cell in cells)
+    {
+        if (cell != null && !cell.HasOccupant)
+            return false;
+    }
+
+    return true;
+}
+
+public void ResetWantedBoardState()
+{
+    currentDirection = WantedDirection.Horizontal;
+    selectedType = WantedSelectionType.Row;
+    selectedIndex = -1;
+    pendingRecruits = null;
+    previewJailCount = 0;
+
+    onPlacementCommitted = null;
+    onLossTriggered = null;
+
+    foreach (WantedBoardCell cell in cells)
+    {
+        if (cell != null)
+            cell.Clear();
+    }
+
+    foreach (WantedSelectionButton button in selectionButtons)
+    {
+        if (button != null)
+            button.gameObject.SetActive(false);
+    }
+
+    if (placementResultText != null)
+        placementResultText.text = "";
+
+    if (postWantedSignsButton != null)
+        postWantedSignsButton.interactable = false;
+
+    gameObject.SetActive(false);
 }
 }

@@ -162,6 +162,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
 
     private bool wantedBoardOpen = false;
+    public WantedJailController wantedJailController;
 
     public bool IsWantedBoardOpen()
     {
@@ -2449,6 +2450,21 @@ public void BeginNewGame()
     finalCompletedPrank = null;
     hoveredPrankIndex = -1;
     hasTakenActionThisTurn = false;
+    isEndOfRoundPending = false;
+    pendingRoundDealerIndex = -1;
+    pendingRoundFirstPlayerIndex = -1;
+    highlightSuppressionCount = 0;
+    wantedBoardOpen = false;
+
+    if (wantedJailController != null)
+    {
+        wantedJailController.ClearJailDisplay();
+    }
+
+    if (wantedBoardPanelController != null)
+    {
+        wantedBoardPanelController.ResetWantedBoardState();
+    }
 
     pendingRoundLocation = GameLocationType.RebelWorkshop;
 
@@ -3848,20 +3864,7 @@ void ApplyPlayer1MatchResultsToSave()
 
 bool DidPlayer1Win()
 {
-    if (turnManager == null || turnManager.players == null || turnManager.players.Count == 0)
-        return false;
-
-    Player player1 = turnManager.players[0];
-
-    int bestScore = int.MinValue;
-
-    for (int i = 0; i < turnManager.players.Count; i++)
-    {
-        if (turnManager.players[i].finalScore > bestScore)
-            bestScore = turnManager.players[i].finalScore;
-    }
-
-    return player1.finalScore == bestScore;
+    return HasReachedMayorBreakingPoint();
 }
 
 void AddPrankCompletionToSave(string prankTitle)
@@ -6400,17 +6403,31 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     wantedBoardOpen = true;
 
     bool placementFinished = false;
+    bool lossTriggered = false;
+    string lossReason = "";
 
     wantedBoardPanelController.OpenForPrank(
         completedPrank,
         () =>
         {
             placementFinished = true;
+        },
+        (reason) =>
+        {
+            lossTriggered = true;
+            lossReason = reason;
         });
 
-    yield return new WaitUntil(() => placementFinished);
+    yield return new WaitUntil(() => placementFinished || lossTriggered);
 
     wantedBoardOpen = false;
+
+    if (lossTriggered)
+    {
+        Debug.Log("FORCED LOSS FROM WANTED BOARD | " + lossReason);
+        TriggerEndGameScoring();
+        yield break;
+    }
 
     yield return StartCoroutine(FinishCompletePrankSequence());
 }

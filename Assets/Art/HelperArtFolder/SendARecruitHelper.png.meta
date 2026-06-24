@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 1c987bca282ca49c58e5d959e3a183c4
+guid: 9ca3377c4a32b450fada5a07116f2ea0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 798223970036668896
-    second: Outsource A recruit 1_0
+      213: -50730829373399922
+    second: SendARecruitHelper_0
+  - first:
+      213: 4530639340897010646
+    second: SendARecruitHelper_1
+  - first:
+      213: -2037984454697787316
+    second: SendARecruitHelper_2
+  - first:
+      213: 5579738557936540262
+    second: SendARecruitHelper_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Outsource A recruit 1_0
+      name: SendARecruitHelper_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 254
-        width: 1269
-        height: 587
+        x: 3
+        y: 0
+        width: 1523
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e9dc39b87cd31b00800000000000000
-      internalID: 798223970036668896
+      spriteID: e8c99085494cb4ff0800000000000000
+      internalID: -50730829373399922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SendARecruitHelper_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 807
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d38397e97010ee30800000000000000
+      internalID: 4530639340897010646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SendARecruitHelper_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 519
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4068f7afef97b3e0800000000000000
+      internalID: -2037984454697787316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SendARecruitHelper_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a9b5dd7a63f6d40800000000000000
+      internalID: 5579738557936540262
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Outsource A recruit 1_0: 798223970036668896
+      SendARecruitHelper_0: -50730829373399922
+      SendARecruitHelper_1: 4530639340897010646
+      SendARecruitHelper_2: -2037984454697787316
+      SendARecruitHelper_3: 5579738557936540262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
