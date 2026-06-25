@@ -65,12 +65,6 @@ public class OpponentPanelClickProxy : MonoBehaviour
 
         int opponentIndex = sourcePanel.representedPlayerIndex;
 
-        if (deckManager.IsChoosingThiefOpponentSteal())
-        {
-            deckManager.ResolveThiefOpponentSteal(opponentIndex);
-            return;
-        }
-
         Debug.Log("CLICK PROXY HIT");
         Debug.Log("CLICK PROXY HIT | pendingChoice = " + deckManager.pendingChoice +
                   " | swapFlow = " + deckManager.IsSwapFlowActive() +

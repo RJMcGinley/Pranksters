@@ -3,11 +3,11 @@ guid: a22d98ba64879439c890af48d829ab6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3429749579974967804
-    second: BeastMasterInJail_0
+      213: 6874941330929280539
+    second: BeastmasterInJail_0
   - first:
-      213: 4971639083525397642
-    second: BeastMasterInJail_1
+      213: -5353233462624629274
+    second: BeastmasterInJail_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,11 +129,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BeastMasterInJail_0
+      name: BeastmasterInJail_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 0
+        x: 108
+        y: 1
         width: 10
         height: 824
       alignment: 0
@@ -144,18 +144,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf104f6421be89f20800000000000000
-      internalID: 3429749579974967804
+      spriteID: b16e0b927b2b86f50800000000000000
+      internalID: 6874941330929280539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BeastMasterInJail_1
+      name: BeastmasterInJail_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 0
+        x: 122
+        y: 1
         width: 922
         height: 824
       alignment: 0
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8cdaf4d76fcef440800000000000000
-      internalID: 4971639083525397642
+      spriteID: 6ed4684478e75b5b0800000000000000
+      internalID: -5353233462624629274
       vertices: []
       indices: 
       edges: []
@@ -186,8 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BeastMasterInJail_0: 3429749579974967804
-      BeastMasterInJail_1: 4971639083525397642
+      BeastmasterInJail_0: 6874941330929280539
+      BeastmasterInJail_1: -5353233462624629274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

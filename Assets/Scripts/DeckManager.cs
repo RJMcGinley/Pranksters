@@ -5314,69 +5314,49 @@ private IEnumerator ActivateThiefImmediateActionSequence(bool ignoreServiceRequi
     if (availableServicesPanelController != null)
         availableServicesPanelController.CloseAllServicePanels();
 
-    RefreshAllDisplays();
-
-    pendingChoice = PendingChoiceType.ChooseThiefOpponentSteal;
-
-    availableServiceInstructionPanel.ShowThiefInstruction("Choose an opponent to poach a recruit from.");
-
-    if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayChooseOpponentToPoachRecruitFrom();
-
-    Debug.Log("Choose an opponent to poach a recruit from.");
+    ResolveThiefStealFromBarnaby();
 }
 
-public bool IsChoosingThiefOpponentSteal()
+private void ResolveThiefStealFromBarnaby()
 {
-    return pendingChoice == PendingChoiceType.ChooseThiefOpponentSteal;
-}
-
-public void ResolveThiefOpponentSteal(int opponentIndex)
-{
-    if (pendingChoice != PendingChoiceType.ChooseThiefOpponentSteal)
-    {
-        Debug.Log("ResolveThiefOpponentSteal ignored because pendingChoice is: " + pendingChoice);
-        return;
-    }
-
     Player currentPlayer = GetCurrentPlayer();
 
-    if (opponentIndex < 0 || opponentIndex >= turnManager.players.Count)
+    if (turnManager.players == null || turnManager.players.Count < 2)
     {
-        Debug.LogWarning("Invalid opponent index for thief steal: " + opponentIndex);
+        Debug.LogWarning("Cannot resolve Thief action. Barnaby player was not found.");
         return;
     }
 
-    Player opponent = turnManager.players[opponentIndex];
+    Player barnaby = turnManager.players[1];
 
-    if (opponent == currentPlayer)
+    if (barnaby == null || barnaby.hand == null || barnaby.hand.Count == 0)
     {
-        Debug.LogWarning("Cannot steal from yourself.");
-        return;
-    }
-
-    if (opponent.hand.Count == 0)
-    {
-        Debug.LogWarning("Opponent has no cards in hand. Choose another opponent.");
+        Debug.LogWarning("Cannot resolve Thief action. Barnaby has no recruits to steal.");
 
         if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayThatPlayerDoesntHaveAnyRecruits();
+            AudioManager.Instance.PlayYourOpponentDoesntHaveAnyRecruits();
 
         return;
     }
 
-    int randomIndex = Random.Range(0, opponent.hand.Count);
+    int cardsToSteal = Mathf.Min(2, barnaby.hand.Count);
 
-    PranksterDeckEntry stolenCard = opponent.hand[randomIndex];
-
-    opponent.hand.RemoveAt(randomIndex);
-
-    currentPlayer.hand.Add(new PranksterDeckEntry
+    for (int i = 0; i < cardsToSteal; i++)
     {
-        pranksterType = stolenCard.pranksterType,
-        tier = stolenCard.tier,
-        category = stolenCard.category
-    });
+        int randomIndex = Random.Range(0, barnaby.hand.Count);
+        PranksterDeckEntry stolenCard = barnaby.hand[randomIndex];
+
+        barnaby.hand.RemoveAt(randomIndex);
+
+        currentPlayer.hand.Add(new PranksterDeckEntry
+        {
+            pranksterType = stolenCard.pranksterType,
+            tier = stolenCard.tier,
+            category = stolenCard.category
+        });
+
+        Debug.Log("Thief stole from Barnaby: " + stolenCard.pranksterType);
+    }
 
     SortCurrentPlayerHand();
 
@@ -5386,13 +5366,10 @@ public void ResolveThiefOpponentSteal(int opponentIndex)
 
     RefreshAllDisplays();
     RefreshAllHighlights();
-
-    Debug.Log("Stole random card from opponent: " + stolenCard.pranksterType);
-
     RefreshCrewCapacityDisplay();
 
     Debug.Log("THIEF HAND SIZE CHECK | hand=" + currentPlayer.hand.Count +
-            " | max=" + currentPlayer.maxHandSize);
+              " | max=" + currentPlayer.maxHandSize);
 
     ContinueDiscardingUntilHandAtMax();
 }

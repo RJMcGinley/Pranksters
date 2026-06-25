@@ -135,9 +135,9 @@ TextureImporter:
       name: EngineerInJail_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 0
         y: 0
-        width: 114
+        width: 113
         height: 825
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -157,7 +157,7 @@ TextureImporter:
       name: EngineerInJail_1
       rect:
         serializedVersion: 2
-        x: 130
+        x: 117
         y: 0
         width: 888
         height: 825
@@ -179,7 +179,7 @@ TextureImporter:
       name: EngineerInJail_2
       rect:
         serializedVersion: 2
-        x: 1021
+        x: 1008
         y: 0
         width: 93
         height: 825

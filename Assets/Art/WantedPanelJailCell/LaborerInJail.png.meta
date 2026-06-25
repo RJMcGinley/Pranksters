@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 492e57156772247be9978e4094d94bcb
+guid: 21c3c5676a4f74164b93b7790f46a19b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 292844961304364434
-    second: ScribeInJail_0
-  - first:
-      213: 5716679837103311429
-    second: ScribeInJail_1
-  - first:
-      213: -8306951401107061493
-    second: ScribeInJail_2
+      213: 4820976384343067078
+    second: LaborerInJail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScribeInJail_0
+      name: LaborerInJail_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 78
         y: 0
-        width: 102
+        width: 969
         height: 825
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -147,52 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2954fc4d0f4601400800000000000000
-      internalID: 292844961304364434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeInJail_1
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 0
-        width: 887
-        height: 825
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54a4e29060ab55f40800000000000000
-      internalID: 5716679837103311429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeInJail_2
-      rect:
-        serializedVersion: 2
-        x: 1022
-        y: 0
-        width: 103
-        height: 825
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b05849a76b7c7bc80800000000000000
-      internalID: -8306951401107061493
+      spriteID: 6c9c05b9a7c87e240800000000000000
+      internalID: 4820976384343067078
       vertices: []
       indices: 
       edges: []
@@ -211,9 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScribeInJail_0: 292844961304364434
-      ScribeInJail_1: 5716679837103311429
-      ScribeInJail_2: -8306951401107061493
+      LaborerInJail_0: 4820976384343067078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,14 +3,14 @@ guid: 1824d13639da244ff9839b5f265a534c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4669813038837443585
-    second: ThiefInLoot_0
+      213: 393147817382835668
+    second: ThiefInJail_0
   - first:
-      213: -2355178170916852315
-    second: ThiefInLoot_1
+      213: 7552311175529809197
+    second: ThiefInJail_1
   - first:
-      213: 6105312890974656905
-    second: ThiefInLoot_2
+      213: -6016988524735527824
+    second: ThiefInJail_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,7 +132,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ThiefInLoot_0
+      name: ThiefInJail_0
       rect:
         serializedVersion: 2
         x: 12
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10ca46397328ec040800000000000000
-      internalID: 4669813038837443585
+      spriteID: 4d5f25f5bddb47500800000000000000
+      internalID: 393147817382835668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefInLoot_1
+      name: ThiefInJail_1
       rect:
         serializedVersion: 2
         x: 123
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ad2fbb8ee9b05fd0800000000000000
-      internalID: -2355178170916852315
+      spriteID: d25caa210033fc860800000000000000
+      internalID: 7552311175529809197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ThiefInLoot_2
+      name: ThiefInJail_2
       rect:
         serializedVersion: 2
         x: 1007
@@ -191,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 989582d1abd6ab450800000000000000
-      internalID: 6105312890974656905
+      spriteID: 074898de0dc5f7ca0800000000000000
+      internalID: -6016988524735527824
       vertices: []
       indices: 
       edges: []
@@ -211,9 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ThiefInLoot_0: 4669813038837443585
-      ThiefInLoot_1: -2355178170916852315
-      ThiefInLoot_2: 6105312890974656905
+      ThiefInJail_0: 393147817382835668
+      ThiefInJail_1: 7552311175529809197
+      ThiefInJail_2: -6016988524735527824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
