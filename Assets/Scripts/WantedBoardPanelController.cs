@@ -647,4 +647,78 @@ public bool CanMoveWantedPoster()
 
     return hasOccupiedCell && hasEmptyCell;
 }
+
+public bool HasOrthogonallyConnectedGroupOfThree(PranksterType type)
+{
+    if (cells == null || cells.Length != 16)
+        return false;
+
+    for (int i = 0; i < cells.Length; i++)
+    {
+        if (!CellMatchesType(i, type))
+            continue;
+
+        List<int> connected = new List<int>();
+        Queue<int> queue = new Queue<int>();
+
+        connected.Add(i);
+        queue.Enqueue(i);
+
+        while (queue.Count > 0)
+        {
+            int current = queue.Dequeue();
+
+            foreach (int neighbor in GetOrthogonalNeighborIndexes(current))
+            {
+                if (connected.Contains(neighbor))
+                    continue;
+
+                if (!CellMatchesType(neighbor, type))
+                    continue;
+
+                connected.Add(neighbor);
+                queue.Enqueue(neighbor);
+
+                if (connected.Count >= 3)
+                    return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+private bool CellMatchesType(int index, PranksterType type)
+{
+    if (index < 0 || index >= cells.Length)
+        return false;
+
+    WantedBoardCell cell = cells[index];
+
+    return cell != null &&
+           cell.HasOccupant &&
+           cell.Occupant == type;
+}
+
+private List<int> GetOrthogonalNeighborIndexes(int index)
+{
+    List<int> neighbors = new List<int>();
+
+    int row = index / 4;
+    int col = index % 4;
+
+    if (row > 0)
+        neighbors.Add(index - 4);
+
+    if (row < 3)
+        neighbors.Add(index + 4);
+
+    if (col > 0)
+        neighbors.Add(index - 1);
+
+    if (col < 3)
+        neighbors.Add(index + 1);
+
+    return neighbors;
+}
 }

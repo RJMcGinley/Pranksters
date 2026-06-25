@@ -99,7 +99,7 @@ public class ShopScreenController : MonoBehaviour
         fullRosterUnlocked = data.fullGamePurchased;
 
         if (data.hasUnlockedTwinMayor)
-            mayorBreakingPoint = 180;
+            mayorBreakingPoint = 200;
         else
             mayorBreakingPoint = 150;
     }

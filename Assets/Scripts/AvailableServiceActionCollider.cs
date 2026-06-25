@@ -107,7 +107,9 @@ public class AvailableServiceActionCollider : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayMenuClick();
 
-        deckManager.ActivateThiefImmediateAction();
+        deckManager.ActivateThiefImmediateAction(
+            deckManager.IsViewingInactiveInfluenceServicePanel()
+        );
     }
     else if (actionName == "Scribe Immediate Action")
     {

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class WantedJailController : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class WantedJailController : MonoBehaviour
 
     private int jailedRecruitCount = 0;
 
+    private List<PranksterType> jailedRecruitTypes = new List<PranksterType>();
+
     private void Awake()
     {
         ClearJailDisplay();
@@ -23,29 +26,18 @@ public class WantedJailController : MonoBehaviour
 
     public void AddJailedRecruit(PranksterType type)
     {
-        if (jailedRecruitCount >= jailSlotImages.Length)
+        if (jailedRecruitTypes.Count >= jailSlotImages.Length)
         {
             Debug.Log("WANTED JAIL FULL | Cannot add more jailed recruits.");
             return;
         }
 
-        Image slotImage = jailSlotImages[jailedRecruitCount];
+        jailedRecruitTypes.Add(type);
+        jailedRecruitCount = jailedRecruitTypes.Count;
 
-        if (slotImage != null)
-        {
-            slotImage.gameObject.SetActive(true);
-            slotImage.sprite = GetJailSpriteForType(type);
-            slotImage.enabled = true;
-        }
-
-        jailedRecruitCount++;
+        RefreshJailDisplay();
 
         Debug.Log("JAIL DISPLAY UPDATED | Total Jailed = " + jailedRecruitCount);
-
-        if (jailedRecruitCount >= 5)
-        {
-            Debug.Log("WANTED BOARD LOSS | Jail is full.");
-        }
     }
 
     public int GetJailedRecruitCount()
@@ -56,6 +48,7 @@ public class WantedJailController : MonoBehaviour
     public void ClearJailDisplay()
     {
         jailedRecruitCount = 0;
+        jailedRecruitTypes.Clear();
 
         foreach (Image image in jailSlotImages)
         {
@@ -118,6 +111,53 @@ public class WantedJailController : MonoBehaviour
 
             if (image != null)
                 image.gameObject.SetActive(i < jailedRecruitCount);
+        }
+    }
+
+    public bool HasJailedRecruitOfType(PranksterType type)
+    {
+        return jailedRecruitTypes.Contains(type);
+    }
+
+    public bool RemoveOneJailedRecruitOfType(PranksterType type)
+    {
+        if (!jailedRecruitTypes.Contains(type))
+        {
+            Debug.Log("JAILBREAK FAILED | No jailed recruit of type: " + type);
+            return false;
+        }
+
+        jailedRecruitTypes.Remove(type);
+        jailedRecruitCount = jailedRecruitTypes.Count;
+
+        RefreshJailDisplay();
+
+        Debug.Log("JAILBREAK SUCCESS | Freed jailed recruit of type: " + type);
+
+        return true;
+    }
+
+    private void RefreshJailDisplay()
+    {
+        for (int i = 0; i < jailSlotImages.Length; i++)
+        {
+            Image image = jailSlotImages[i];
+
+            if (image == null)
+                continue;
+
+            if (i < jailedRecruitTypes.Count)
+            {
+                image.gameObject.SetActive(true);
+                image.sprite = GetJailSpriteForType(jailedRecruitTypes[i]);
+                image.enabled = true;
+            }
+            else
+            {
+                image.sprite = null;
+                image.enabled = false;
+                image.gameObject.SetActive(false);
+            }
         }
     }
 }

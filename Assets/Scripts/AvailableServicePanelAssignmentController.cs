@@ -27,6 +27,9 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
     [Header("References")]
     [SerializeField] private DeckManager deckManager;
 
+    [Header("Jailbreak")]  
+    [SerializeField] private GameObject jailbreakUsedObject;
+
     public PranksterType ServiceType => serviceType;
 
     public bool AssignCardToFirstAvailableSlot(Sprite cardArt, PranksterDeckEntry card)
@@ -37,8 +40,19 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
             return false;
         }
 
-        foreach (AvailableServicesServiceCardSlot slot in serviceSlots)
+        bool jailbreakAlreadyUsed =
+            deckManager != null &&
+            deckManager.HasCurrentPlayerUsedScoringService(serviceType);
+
+        int maxSlotIndexAllowed = jailbreakAlreadyUsed ? 1 : serviceSlots.Length - 1;
+
+        for (int i = 0; i < serviceSlots.Length; i++)
         {
+            if (i > maxSlotIndexAllowed)
+                continue;
+
+            AvailableServicesServiceCardSlot slot = serviceSlots[i];
+
             if (slot != null && slot.IsEmpty())
             {
                 slot.AssignVisual(cardVisualPrefab, cardArt, card);
@@ -47,6 +61,16 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
                 Debug.Log("Assigned service card visual to first available slot for: " + serviceType);
                 return true;
             }
+        }
+
+        if (jailbreakAlreadyUsed)
+        {
+            Debug.Log("Cannot retain more " + serviceType + " recruits. Jailbreak has already been used.");
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayNotAnOption();
+
+            return false;
         }
 
         Debug.Log("No empty service slots available for: " + serviceType);
@@ -92,8 +116,9 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
         if (deckManager != null)
         {
             scoringAlreadyUsed = deckManager.HasCurrentPlayerUsedScoringService(serviceType);
-            ongoingAlreadyUsed = deckManager.HasCurrentPlayerUsedOngoingService(serviceType);
         }
+
+        SetJailbreakUsedVisible(scoringAlreadyUsed);
 
         int scoringCost = 3;
 
@@ -231,6 +256,8 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
 
     public void ShowInactiveInfluenceModeActions()
 {
+    ClearAllAssignments();
+
     if (immediateActionGlow != null)
         immediateActionGlow.SetActive(true);
 
@@ -258,6 +285,12 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
     ResetAllActionVisualStates();
 
     Debug.Log("Available Services panel set to inactive influence mode for: " + serviceType);
+}
+
+public void SetJailbreakUsedVisible(bool visible)
+{
+    if (jailbreakUsedObject != null)
+        jailbreakUsedObject.SetActive(visible);
 }
 
 }

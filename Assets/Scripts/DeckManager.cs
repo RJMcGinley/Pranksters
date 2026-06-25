@@ -4607,6 +4607,9 @@ public void RefreshCrewCapacityDisplay()
 IEnumerator FinishCompletePrankSequence()
 {
     Debug.Log("FinishCompletePrankSequence START | isBot = " + GetCurrentPlayer().isBot);
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
 
     // yield return StartCoroutine(RefillHandToMaxOneCardAtATime(0.3f));
 
@@ -4726,9 +4729,38 @@ public void ActivateAvailableServiceScoringAction()
 {
     Player player = GetCurrentPlayer();
 
-    if (player.activeScoringServiceTypes.Contains(selectedAvailableServiceType))
+    if (player == null)
+        return;
+
+    PranksterType jailbreakType = selectedAvailableServiceType;
+
+    if (player.activeScoringServiceTypes.Contains(jailbreakType))
     {
-        Debug.Log("Scoring service already active for: " + selectedAvailableServiceType);
+        Debug.Log("Jailbreak already used for: " + jailbreakType);
+        return;
+    }
+
+    if (wantedBoardPanelController == null)
+    {
+        Debug.LogWarning("Cannot activate Jailbreak. WantedBoardPanelController is missing.");
+        return;
+    }
+
+    if (wantedBoardPanelController.wantedJailController == null)
+    {
+        Debug.LogWarning("Cannot activate Jailbreak. WantedJailController is missing.");
+        return;
+    }
+
+    if (!wantedBoardPanelController.wantedJailController.HasJailedRecruitOfType(jailbreakType))
+    {
+        Debug.LogWarning("Cannot activate Jailbreak. No jailed recruit of type: " + jailbreakType);
+        return;
+    }
+
+    if (!wantedBoardPanelController.HasOrthogonallyConnectedGroupOfThree(jailbreakType))
+    {
+        Debug.LogWarning("Cannot activate Jailbreak. Need 3 orthogonally connected wanted posters of type: " + jailbreakType);
         return;
     }
 
@@ -4736,7 +4768,7 @@ public void ActivateAvailableServiceScoringAction()
 
     foreach (AvailableServicesRetainedServiceGroup group in player.retainedServices)
     {
-        if (group.serviceType == selectedAvailableServiceType)
+        if (group.serviceType == jailbreakType)
         {
             groupToConsume = group;
             break;
@@ -4745,7 +4777,7 @@ public void ActivateAvailableServiceScoringAction()
 
     if (groupToConsume == null || groupToConsume.assignedCards == null)
     {
-        Debug.LogWarning("Cannot activate scoring service. No retained card group found for: " + selectedAvailableServiceType);
+        Debug.LogWarning("Cannot activate Jailbreak. No retained card group found for: " + jailbreakType);
         return;
     }
 
@@ -4753,10 +4785,10 @@ public void ActivateAvailableServiceScoringAction()
 
     if (groupToConsume.assignedCards.Count < cardsToSpend)
     {
-        Debug.LogWarning("Cannot activate scoring service. Need " + cardsToSpend +
-                        " retained cards for: " +
-                        selectedAvailableServiceType +
-                        " | current count=" + groupToConsume.assignedCards.Count);
+        Debug.LogWarning("Cannot activate Jailbreak. Need " + cardsToSpend +
+                         " retained cards for: " +
+                         jailbreakType +
+                         " | current count=" + groupToConsume.assignedCards.Count);
         return;
     }
 
@@ -4782,14 +4814,23 @@ public void ActivateAvailableServiceScoringAction()
     if (remainingCount == 0)
         player.retainedServices.Remove(groupToConsume);
 
-    player.activeScoringServiceTypes.Add(selectedAvailableServiceType);
+    bool jailbreakSucceeded =
+        wantedBoardPanelController.wantedJailController.RemoveOneJailedRecruitOfType(jailbreakType);
+
+    if (!jailbreakSucceeded)
+    {
+        Debug.LogWarning("Jailbreak failed after validation for: " + jailbreakType);
+        return;
+    }
+
+    player.activeScoringServiceTypes.Add(jailbreakType);
 
     activeServicePanelController = null;
 
     if (availableServicesPanelController != null)
     {
         activeServicePanelController =
-            availableServicesPanelController.GetPanelAssignmentController(selectedAvailableServiceType);
+            availableServicesPanelController.GetPanelAssignmentController(jailbreakType);
     }
 
     if (activeServicePanelController != null)
@@ -4804,10 +4845,11 @@ public void ActivateAvailableServiceScoringAction()
         }
 
         activeServicePanelController.SetRetainServicesAvailable(false);
+        activeServicePanelController.SetJailbreakUsedVisible(true);
     }
     else
     {
-        Debug.LogWarning("Could not refresh service panel after scoring action for: " + selectedAvailableServiceType);
+        Debug.LogWarning("Could not refresh service panel after Jailbreak for: " + jailbreakType);
     }
 
     if (availableServicesPanelController != null)
@@ -4815,10 +4857,12 @@ public void ActivateAvailableServiceScoringAction()
 
     UpdateActiveFavorDisplay();
     RefreshAllDisplays();
+    RefreshAllHighlights();
 
-    Debug.Log("Activated end-game scoring service for " + selectedAvailableServiceType +
+    Debug.Log("Activated Jailbreak for " + jailbreakType +
               " on Player " + (turnManager.currentPlayerIndex + 1) +
-              ". Moved " + cardsToSpend + " retained service card(s) to discard pile. Remaining retained cards: " +
+              ". Moved " + cardsToSpend +
+              " retained service card(s) to discard pile. Remaining retained cards: " +
               remainingCount);
 
     if (AudioManager.Instance != null)
@@ -4857,16 +4901,6 @@ public bool HasCurrentPlayerUsedScoringService(PranksterType serviceType)
         return false;
 
     return player.activeScoringServiceTypes.Contains(serviceType);
-}
-
-public bool HasCurrentPlayerUsedOngoingService(PranksterType serviceType)
-{
-    Player player = GetCurrentPlayer();
-
-    if (player == null || player.activeOngoingServiceTypes == null)
-        return false;
-
-    return player.activeOngoingServiceTypes.Contains(serviceType);
 }
 
 public void SetAvailableServicesPanelOpen(bool open)
@@ -6435,7 +6469,7 @@ bool HasReachedMayorBreakingPoint()
     int threshold = 150;
 
     if (saveData != null && saveData.hasUnlockedTwinMayor)
-        threshold = 180;
+        threshold = 200;
 
     int combinedMischief = GetCombinedMischiefScore();
 
