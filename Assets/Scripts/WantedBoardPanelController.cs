@@ -41,6 +41,10 @@ public class WantedBoardPanelController : MonoBehaviour
 
     private System.Action<string> onLossTriggered;
 
+    private bool isMovePosterMode;
+    private WantedBoardCell selectedMovePosterCell;
+    private System.Action onMovePosterCompleted;
+
     private void Awake()
     {
         foreach (var button in selectionButtons)
@@ -451,6 +455,10 @@ public void ResetWantedBoardState()
     pendingRecruits = null;
     previewJailCount = 0;
 
+    isMovePosterMode = false;
+    selectedMovePosterCell = null;
+    onMovePosterCompleted = null;
+
     onPlacementCommitted = null;
     onLossTriggered = null;
 
@@ -479,5 +487,164 @@ public void ResetWantedBoardState()
         wantedDisplayPanelController.RefreshFromWantedCells(cells);
         wantedDisplayPanelController.Show();
     }
+}
+
+public void OnCellClicked(WantedBoardCell cell)
+{
+    if (cell == null)
+        return;
+
+    Debug.Log("Controller received click from " + cell.gameObject.name);
+
+    if (!isMovePosterMode)
+        return;
+
+    HandleMovePosterCellClicked(cell);
+}
+
+[ContextMenu("Test Move Poster Mode")]
+public void TestMovePosterMode()
+{
+    BeginMovePosterMode();
+}
+
+public void BeginMovePosterMode(System.Action onCompleted = null)
+{
+    Debug.Log("SCRIBE MOVE POSTER MODE STARTED");
+
+    onMovePosterCompleted = onCompleted;
+
+    isMovePosterMode = true;
+    selectedMovePosterCell = null;
+
+    gameObject.SetActive(true);
+
+    ClearHighlights();
+
+    foreach (WantedSelectionButton button in selectionButtons)
+    {
+        if (button != null)
+            button.gameObject.SetActive(false);
+    }
+
+    if (postWantedSignsButton != null)
+        postWantedSignsButton.interactable = false;
+
+    if (placementResultText != null)
+        placementResultText.text = "Choose a wanted poster to move.";
+}
+
+private void HandleMovePosterCellClicked(WantedBoardCell cell)
+{
+    if (selectedMovePosterCell == null)
+    {
+        if (!cell.HasOccupant)
+        {
+            Debug.Log("MOVE POSTER: Empty cell clicked first. Choose an occupied poster.");
+            return;
+        }
+
+        selectedMovePosterCell = cell;
+        cell.SetHighlight(true);
+
+        Debug.Log("MOVE POSTER: Selected " + cell.gameObject.name + " | " + cell.Occupant);
+
+        if (placementResultText != null)
+            placementResultText.text = "Now choose an empty space.";
+
+        return;
+    }
+
+    if (cell == selectedMovePosterCell)
+    {
+        Debug.Log("MOVE POSTER: Deselected " + cell.gameObject.name);
+
+        selectedMovePosterCell.SetHighlight(false);
+        selectedMovePosterCell = null;
+
+        if (placementResultText != null)
+            placementResultText.text = "Choose a wanted poster to move.";
+
+        return;
+    }
+
+    if (cell.HasOccupant)
+    {
+        Debug.Log("MOVE POSTER: Changed selection from " +
+                  selectedMovePosterCell.gameObject.name +
+                  " to " +
+                  cell.gameObject.name);
+
+        selectedMovePosterCell.SetHighlight(false);
+
+        selectedMovePosterCell = cell;
+        selectedMovePosterCell.SetHighlight(true);
+
+        if (placementResultText != null)
+            placementResultText.text = "Now choose an empty space.";
+
+        return;
+    }
+
+    PranksterType movedType = selectedMovePosterCell.Occupant;
+    string fromCellName = selectedMovePosterCell.gameObject.name;
+    string toCellName = cell.gameObject.name;
+
+    cell.SetOccupant(
+        movedType,
+        GetIconForType(movedType));
+
+    selectedMovePosterCell.Clear();
+
+    Debug.Log("MOVE POSTER: Moved " +
+            movedType +
+            " from " +
+            fromCellName +
+            " to " +
+            toCellName);
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
+    selectedMovePosterCell = null;
+    isMovePosterMode = false;
+
+    ClearHighlights();
+
+    if (placementResultText != null)
+        placementResultText.text = "";
+
+    gameObject.SetActive(false);
+
+    if (wantedDisplayPanelController != null)
+    {
+        wantedDisplayPanelController.RefreshFromWantedCells(cells);
+        wantedDisplayPanelController.Show();
+    }
+
+    if (onMovePosterCompleted != null)
+    {
+        onMovePosterCompleted.Invoke();
+        onMovePosterCompleted = null;
+    }
+}
+
+public bool CanMoveWantedPoster()
+{
+    bool hasOccupiedCell = false;
+    bool hasEmptyCell = false;
+
+    foreach (WantedBoardCell cell in cells)
+    {
+        if (cell == null)
+            continue;
+
+        if (cell.HasOccupant)
+            hasOccupiedCell = true;
+        else
+            hasEmptyCell = true;
+    }
+
+    return hasOccupiedCell && hasEmptyCell;
 }
 }

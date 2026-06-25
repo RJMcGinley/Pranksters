@@ -5470,84 +5470,45 @@ private IEnumerator ActivateScribeImmediateActionSequence(bool ignoreServiceRequ
 if (availableServicesPanelController != null)
     availableServicesPanelController.CloseAllServicePanels();
 
-pendingChoice = PendingChoiceType.ChooseScribeFavorTheft;
+pendingChoice = PendingChoiceType.None;
 
-availableServiceInstructionPanel.ShowScribeInstruction(
-    "Choose an opponent to gather their recruits."
-);
+if (availableServiceInstructionPanel != null)
+{
+    availableServiceInstructionPanel.ShowScribeInstruction(
+        "Choose a wanted poster, \nthen choose an empty space."
+    );
+}
 
-if (AudioManager.Instance != null)
-    AudioManager.Instance.PlayChooseOpponentToGatherTheirReferrals();
+if (wantedBoardPanelController == null)
+{
+    Debug.LogWarning("Cannot activate Scribe Move Poster service because wantedBoardPanelController is missing.");
+    HideAvailableServiceInstruction();
+    yield break;
+}
+
+if (!wantedBoardPanelController.CanMoveWantedPoster())
+{
+    Debug.LogWarning("Cannot activate Scribe Move Poster service. Need at least one wanted poster and one empty space.");
+    HideAvailableServiceInstruction();
+    yield break;
+}
+
+wantedBoardPanelController.BeginMovePosterMode(() =>
+{
+    HideAvailableServiceInstruction();
+
+    RefreshAllDisplays();
+    RefreshAllHighlights();
+
+    FinishActionAndWaitForEndTurn();
+
+    Debug.Log("Scribe moved a wanted poster.");
+});
 
 RefreshAllDisplays();
 RefreshAllHighlights();
 
-Debug.Log("Choose an opponent to gather their referrals into your crew.");
-}
-
-public bool IsChoosingScribeFavorTheft()
-{
-    return pendingChoice == PendingChoiceType.ChooseScribeFavorTheft;
-}
-
-public void ResolveScribeFavorTheft(int opponentIndex)
-{
-    if (pendingChoice != PendingChoiceType.ChooseScribeFavorTheft)
-    {
-        Debug.Log("ResolveScribeFavorTheft ignored because pendingChoice is: " + pendingChoice);
-        return;
-    }
-
-    Player currentPlayer = GetCurrentPlayer();
-
-    if (opponentIndex < 0 || opponentIndex >= turnManager.players.Count)
-    {
-        Debug.LogWarning("Invalid opponent index for scribe favor theft: " + opponentIndex);
-        return;
-    }
-
-    Player opponent = turnManager.players[opponentIndex];
-
-    if (opponent == currentPlayer)
-    {
-        Debug.LogWarning("Cannot steal favor recruits from yourself.");
-        return;
-    }
-
-    if (opponent.favorArea.Count == 0)
-    {
-        Debug.LogWarning("Opponent has no favor recruits.");
-        return;
-    }
-
-    foreach (PranksterDeckEntry card in opponent.favorArea)
-    {
-        currentPlayer.hand.Add(new PranksterDeckEntry
-        {
-            pranksterType = card.pranksterType,
-            tier = card.tier,
-            category = card.category
-        });
-    }
-
-    opponent.favorArea.Clear();
-
-    SortCurrentPlayerHand();
-
-    HideAvailableServiceInstruction();
-
-    pendingChoice = PendingChoiceType.None;
-
-    RefreshAllDisplays();
-    RefreshAllHighlights();
-    RefreshCrewCapacityDisplay();
-
-    Debug.Log("Scribe stole all favor recruits from opponent.");
-
-    Debug.Log("SCRIBE HAND SIZE CHECK | hand=" + currentPlayer.hand.Count +
-              " | max=" + currentPlayer.maxHandSize);
-
-    ContinueDiscardingUntilHandAtMax();
+Debug.Log("Choose a wanted poster to move.");
 }
 
 private void ContinueDiscardingUntilHandAtMax()

@@ -13,6 +13,6 @@ public enum PendingChoiceType
     ChooseWizardFavorReturn,
     ChooseEngineerPrankReplacement,
     ChooseThiefOpponentSteal,
-    ChooseScribeFavorTheft,
+   
     ChooseBeastmasterDiscardType
 }

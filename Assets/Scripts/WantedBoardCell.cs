@@ -11,6 +11,7 @@ public class WantedBoardCell : MonoBehaviour
 
     public bool HasOccupant { get; private set; }
     public PranksterType Occupant { get; private set; }
+    public WantedBoardPanelController controller;
     
 
     public void Clear()
@@ -75,5 +76,13 @@ public class WantedBoardCell : MonoBehaviour
             previewIconImage.enabled = false;
             previewIconImage.gameObject.SetActive(false);
         }
+    }
+
+    public void OnClicked()
+    {
+        Debug.Log(gameObject.name + " was clicked.");
+
+        if (controller != null)
+            controller.OnCellClicked(this);
     }
 }
