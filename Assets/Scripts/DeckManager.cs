@@ -6436,6 +6436,9 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     if (wantedJailController != null)
         wantedJailController.ShowJailDisplay();
 
+    if (nextPlayerPanelController != null)
+        nextPlayerPanelController.HidePanelImmediate();    
+
     wantedBoardPanelController.OpenForPrank(
         completedPrank,
         () =>
