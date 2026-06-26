@@ -21,6 +21,7 @@ public class DiscardPileHover : MonoBehaviour
         if (popupArm != null)
             popupArm.Show();
 
+
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayDiscardPileHover();
     }

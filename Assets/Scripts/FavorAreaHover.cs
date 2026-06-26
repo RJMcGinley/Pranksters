@@ -4,6 +4,7 @@ public class FavorAreaHover : MonoBehaviour
 {
     public DeckManager deckManager;
     public GameObject helperObject;
+    public SendRecruitToBarnabyHelper popupHelper;
 
     private bool isShowing = false;
 
@@ -13,6 +14,9 @@ public class FavorAreaHover : MonoBehaviour
 
         if (helperObject != null)
             helperObject.SetActive(false);
+
+        if (popupHelper == null && helperObject != null)
+            popupHelper = helperObject.GetComponent<SendRecruitToBarnabyHelper>();
     }
 
     void OnMouseEnter()
@@ -31,6 +35,9 @@ public class FavorAreaHover : MonoBehaviour
         if (helperObject != null)
             helperObject.SetActive(true);
 
+        if (popupHelper != null)
+            popupHelper.Show();
+
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayFavorHover();
     }
@@ -42,7 +49,7 @@ public class FavorAreaHover : MonoBehaviour
 
     void Update()
     {
-        if (isShowing && 
+        if (isShowing &&
             (deckManager == null || deckManager.IsInteractionBlocked() || !deckManager.CanHoverFavorArea()))
         {
             HideHelper();
@@ -63,10 +70,14 @@ public class FavorAreaHover : MonoBehaviour
     }
 
     private void HideHelper()
-    {
-        isShowing = false;
+{
+    isShowing = false;
 
-        if (helperObject != null)
-            helperObject.SetActive(false);
-    }
+    if (popupHelper != null)
+        popupHelper.Hide();
+
+    // Do NOT turn helperObject off here.
+    // It has to stay active so SendRecruitToBarnabyHelper.Update()
+    // can animate it back to hiddenX.
+}
 }

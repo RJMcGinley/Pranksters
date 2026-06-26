@@ -10,51 +10,14 @@ public class OpponentPanelClickProxy : MonoBehaviour
     public PopupArm popupArm;
 
     void OnMouseEnter()
-    {
-        Debug.Log("CLICK PROXY HOVER ENTER");
+{
+    Debug.Log("CLICK PROXY HOVER ENTER");
+}
 
-        if (deckManager == null)
-            return;
-
-        // During swap-hand selection, do not show opponent hover preview.
-        // The player should only be choosing a hand card or clicking the panel to cancel.
-        if (deckManager.pendingChoice == PendingChoiceType.ChooseSwapHandCard)
-            return;
-
-        if (previewPanel != null && sourcePanel != null)
-            previewPanel.ShowFromPlayerInfoPanel(sourcePanel);
-
-        if (popupArm != null && (previewPanel == null || !previewPanel.IsLockedForSwap()))
-            popupArm.Show();
-    }
-
-    void OnMouseExit()
-    {
-        Debug.Log("CLICK PROXY HOVER EXIT");
-
-        if (deckManager == null)
-            return;
-
-        // During swap-hand selection, hover preview should stay disabled,
-        // so there is nothing to hide here.
-        if (deckManager.pendingChoice == PendingChoiceType.ChooseSwapHandCard)
-            return;
-
-        if (previewPanel != null && previewPanel.IsLockedForSwap())
-            return;
-
-        if (previewPanel != null)
-            previewPanel.Hide();
-
-        if (popupArm != null)
-            popupArm.Hide();
-
-        if (deckManager != null && (previewPanel == null || !previewPanel.IsVisible()))
-        {
-            deckManager.SetAllPrankHighlightsVisible(true);
-            deckManager.RefreshAllHighlights();
-        }
-    }
+void OnMouseExit()
+{
+    Debug.Log("CLICK PROXY HOVER EXIT");
+}
 
     void OnMouseDown()
     {

@@ -38,6 +38,7 @@ public class OpponentPanelHoverPreview : MonoBehaviour
 
         if (popupArm != null && (previewPanel == null || !previewPanel.IsLockedForSwap()))
             popupArm.Show();
+
     }
 
     void OnMouseExit()

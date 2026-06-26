@@ -5,33 +5,6 @@ TextureImporter:
   - first:
       213: 5100539966607539539
     second: Barnaby's Panel_0
-  - first:
-      213: -2240018660571619654
-    second: Barnaby's Panel_1
-  - first:
-      213: 4143818540265746713
-    second: Barnaby's Panel_2
-  - first:
-      213: -5653241247289548642
-    second: Barnaby's Panel_3
-  - first:
-      213: 3708984380004353389
-    second: Barnaby's Panel_4
-  - first:
-      213: -5471883469629566494
-    second: Barnaby's Panel_5
-  - first:
-      213: -847362709566157825
-    second: Barnaby's Panel_6
-  - first:
-      213: -968687846005159224
-    second: Barnaby's Panel_7
-  - first:
-      213: -1480852231124273391
-    second: Barnaby's Panel_8
-  - first:
-      213: 7354956959616831894
-    second: Barnaby's Panel_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,10 +129,10 @@ TextureImporter:
       name: Barnaby's Panel_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 47
         y: 0
-        width: 3840
-        height: 1778
+        width: 910
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,204 +143,6 @@ TextureImporter:
       bones: []
       spriteID: 35d33586312c8c640800000000000000
       internalID: 5100539966607539539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_1
-      rect:
-        serializedVersion: 2
-        x: 796
-        y: 1701
-        width: 311
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abed16675ead9e0e0800000000000000
-      internalID: -2240018660571619654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_2
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 1761
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 911b73ae10dc18930800000000000000
-      internalID: 4143818540265746713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_3
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 1764
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9068b9a907ab81b0800000000000000
-      internalID: -5653241247289548642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_4
-      rect:
-        serializedVersion: 2
-        x: 988
-        y: 1762
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d65c1af74a5f87330800000000000000
-      internalID: 3708984380004353389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_5
-      rect:
-        serializedVersion: 2
-        x: 3660
-        y: 1722
-        width: 180
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e1d564c9f6ff04b0800000000000000
-      internalID: -5471883469629566494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_6
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 1748
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffb856cea109d34f0800000000000000
-      internalID: -847362709566157825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_7
-      rect:
-        serializedVersion: 2
-        x: 3647
-        y: 1744
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cacf9059878e82f0800000000000000
-      internalID: -968687846005159224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_8
-      rect:
-        serializedVersion: 2
-        x: 3655
-        y: 1747
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1173efeddb4f27be0800000000000000
-      internalID: -1480852231124273391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barnaby's Panel_9
-      rect:
-        serializedVersion: 2
-        x: 1649
-        y: 1714
-        width: 273
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6919f34f26e021660800000000000000
-      internalID: 7354956959616831894
       vertices: []
       indices: 
       edges: []
@@ -387,15 +162,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Barnaby's Panel_0: 5100539966607539539
-      Barnaby's Panel_1: -2240018660571619654
-      Barnaby's Panel_2: 4143818540265746713
-      Barnaby's Panel_3: -5653241247289548642
-      Barnaby's Panel_4: 3708984380004353389
-      Barnaby's Panel_5: -5471883469629566494
-      Barnaby's Panel_6: -847362709566157825
-      Barnaby's Panel_7: -968687846005159224
-      Barnaby's Panel_8: -1480852231124273391
-      Barnaby's Panel_9: 7354956959616831894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

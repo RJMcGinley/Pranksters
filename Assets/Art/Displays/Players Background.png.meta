@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d6b3bf1f304524075941a67e82cc351c
+guid: 4512074717c5b4fb48d5653999a2f212
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1269923973631107679
-    second: Barnaby Bristle Panel Background_0
+      213: -2913883227954877239
+    second: Players Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barnaby Bristle Panel Background_0
+      name: Players Background_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1125
-        height: 825
+        width: 1683
+        height: 935
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f52e80c202daf9110800000000000000
-      internalID: 1269923973631107679
+      spriteID: 9cce7c084aecf87d0800000000000000
+      internalID: -2913883227954877239
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barnaby Bristle Panel Background_0: 1269923973631107679
+      Players Background_0: -2913883227954877239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

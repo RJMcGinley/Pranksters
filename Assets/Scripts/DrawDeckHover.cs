@@ -19,6 +19,7 @@ public class DrawDeckHover : MonoBehaviour
         if (popupArm != null)
             popupArm.Show();
 
+
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayDrawDeckHover();
     }

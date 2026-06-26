@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: b6c164382bcd24a7d8de824635bacaa6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8889233751333266579
+    second: FavorWells_0
+  - first:
+      213: 2467251936945881409
+    second: FavorWells_1
+  - first:
+      213: 2460764179510454523
+    second: FavorWells_2
+  - first:
+      213: -5210243519209990401
+    second: FavorWells_3
+  - first:
+      213: 679947016889447602
+    second: FavorWells_4
+  - first:
+      213: -2703140208631141850
+    second: FavorWells_5
+  - first:
+      213: -1353115400381611661
+    second: FavorWells_6
+  - first:
+      213: -5121347294307381440
+    second: FavorWells_7
+  - first:
+      213: -8304100927537738732
+    second: FavorWells_8
+  - first:
+      213: 3335416407986042446
+    second: FavorWells_9
+  - first:
+      213: -135520564696628585
+    second: FavorWells_10
+  - first:
+      213: -1579887628831084057
+    second: FavorWells_11
+  - first:
+      213: -6640748964156031366
+    second: FavorWells_12
+  - first:
+      213: -4203804683841736247
+    second: FavorWells_13
+  - first:
+      213: -9223091667436184409
+    second: FavorWells_14
+  - first:
+      213: 856557626536094626
+    second: FavorWells_15
+  - first:
+      213: 3264696311862382839
+    second: FavorWells_16
+  - first:
+      213: -7248838337154075578
+    second: FavorWells_17
+  - first:
+      213: -7100381528223218316
+    second: FavorWells_18
+  - first:
+      213: 361346710868041963
+    second: FavorWells_19
+  - first:
+      213: 7209867474522398355
+    second: FavorWells_20
+  - first:
+      213: -3166208722008450184
+    second: FavorWells_21
+  - first:
+      213: 5081171839214462374
+    second: FavorWells_22
+  - first:
+      213: 7719368695787865561
+    second: FavorWells_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FavorWells_0
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 559
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b1e56100913a480800000000000000
+      internalID: -8889233751333266579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 627
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141cd0980907d3220800000000000000
+      internalID: 2467251936945881409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 631
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8e9bbcbf3662220800000000000000
+      internalID: 2460764179510454523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_3
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 631
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff61534df1f71b7b0800000000000000
+      internalID: -5210243519209990401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_4
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 558
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b438c79538af6900800000000000000
+      internalID: 679947016889447602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_5
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 627
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a27765d448c7ad0800000000000000
+      internalID: -2703140208631141850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 543
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c42466b4c83de0800000000000000
+      internalID: -1353115400381611661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 593
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f866715c15de8b0800000000000000
+      internalID: -5121347294307381440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_8
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 563
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c0f131438e1cc80800000000000000
+      internalID: -8304100927537738732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_9
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 596
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4674002d87c94e20800000000000000
+      internalID: 3335416407986042446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_10
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 585
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7924f71b3c88e1ef0800000000000000
+      internalID: -135520564696628585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 541
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e13d7a729c131ae0800000000000000
+      internalID: -1579887628831084057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_12
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 579
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ebfe4500257d3a0800000000000000
+      internalID: -6640748964156031366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 543
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c17d7aa9e519a5c0800000000000000
+      internalID: -4203804683841736247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 545
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acd9979efef00080800000000000000
+      internalID: -9223091667436184409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 545
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abe5538f9a13eb00800000000000000
+      internalID: 856557626536094626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 545
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d510aff78e4d20800000000000000
+      internalID: 3264696311862382839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 545
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644b2b730f3f66b90800000000000000
+      internalID: -7248838337154075578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 545
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47582889e90667d90800000000000000
+      internalID: -7100381528223218316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 545
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0ab064be2c30500800000000000000
+      internalID: 361346710868041963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 268
+        width: 249
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39edc80c4489e0460800000000000000
+      internalID: 7209867474522398355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 270
+        width: 249
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b51ff41fd5f04d0800000000000000
+      internalID: -3166208722008450184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_22
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 274
+        width: 250
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5a817ddd2f38640800000000000000
+      internalID: 5081171839214462374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FavorWells_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 1118
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5c4ba0ee4b02b60800000000000000
+      internalID: 7719368695787865561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FavorWells_0: -8889233751333266579
+      FavorWells_1: 2467251936945881409
+      FavorWells_10: -135520564696628585
+      FavorWells_11: -1579887628831084057
+      FavorWells_12: -6640748964156031366
+      FavorWells_13: -4203804683841736247
+      FavorWells_14: -9223091667436184409
+      FavorWells_15: 856557626536094626
+      FavorWells_16: 3264696311862382839
+      FavorWells_17: -7248838337154075578
+      FavorWells_18: -7100381528223218316
+      FavorWells_19: 361346710868041963
+      FavorWells_2: 2460764179510454523
+      FavorWells_20: 7209867474522398355
+      FavorWells_21: -3166208722008450184
+      FavorWells_22: 5081171839214462374
+      FavorWells_23: 7719368695787865561
+      FavorWells_3: -5210243519209990401
+      FavorWells_4: 679947016889447602
+      FavorWells_5: -2703140208631141850
+      FavorWells_6: -1353115400381611661
+      FavorWells_7: -5121347294307381440
+      FavorWells_8: -8304100927537738732
+      FavorWells_9: 3335416407986042446
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

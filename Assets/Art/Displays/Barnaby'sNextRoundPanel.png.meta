@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 504d0b23b840c49ab918e3e090e4e89e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1617813668671587609
+    second: Barnaby'sNextRoundPanel_0
+  - first:
+      213: 7565277135941467447
+    second: Barnaby'sNextRoundPanel_1
+  - first:
+      213: -3907686290220323797
+    second: Barnaby'sNextRoundPanel_2
+  - first:
+      213: -7766465714705232119
+    second: Barnaby'sNextRoundPanel_3
+  - first:
+      213: -3445853538147375446
+    second: Barnaby'sNextRoundPanel_4
+  - first:
+      213: -2664934074021941736
+    second: Barnaby'sNextRoundPanel_5
+  - first:
+      213: -1384488402280880606
+    second: Barnaby'sNextRoundPanel_6
+  - first:
+      213: -4003081369163990070
+    second: Barnaby'sNextRoundPanel_7
+  - first:
+      213: -4081437844464549439
+    second: Barnaby'sNextRoundPanel_8
+  - first:
+      213: -3386115241434577765
+    second: Barnaby'sNextRoundPanel_9
+  - first:
+      213: 7217069608360766631
+    second: Barnaby'sNextRoundPanel_10
+  - first:
+      213: 5779531728914919129
+    second: Barnaby'sNextRoundPanel_11
+  - first:
+      213: 7728477225009621556
+    second: Barnaby'sNextRoundPanel_12
+  - first:
+      213: -6842999056024016614
+    second: Barnaby'sNextRoundPanel_13
+  - first:
+      213: -60849771215020030
+    second: Barnaby'sNextRoundPanel_14
+  - first:
+      213: -6726594294589434907
+    second: Barnaby'sNextRoundPanel_15
+  - first:
+      213: 8818646124139967756
+    second: Barnaby'sNextRoundPanel_16
+  - first:
+      213: -5402824766686098419
+    second: Barnaby'sNextRoundPanel_17
+  - first:
+      213: 4253518100497481680
+    second: Barnaby'sNextRoundPanel_18
+  - first:
+      213: 7123768910814303071
+    second: Barnaby'sNextRoundPanel_19
+  - first:
+      213: -3567000797446731477
+    second: Barnaby'sNextRoundPanel_20
+  - first:
+      213: 1741369894195583192
+    second: Barnaby'sNextRoundPanel_21
+  - first:
+      213: -8241264761652594469
+    second: Barnaby'sNextRoundPanel_22
+  - first:
+      213: 5078491007235273120
+    second: Barnaby'sNextRoundPanel_23
+  - first:
+      213: 1943333990584757213
+    second: Barnaby'sNextRoundPanel_24
+  - first:
+      213: 7055478605167000944
+    second: Barnaby'sNextRoundPanel_25
+  - first:
+      213: 8367953087110711139
+    second: Barnaby'sNextRoundPanel_26
+  - first:
+      213: -6871399296855728894
+    second: Barnaby'sNextRoundPanel_27
+  - first:
+      213: 3573935258339104597
+    second: Barnaby'sNextRoundPanel_28
+  - first:
+      213: -5443578736565695779
+    second: Barnaby'sNextRoundPanel_29
+  - first:
+      213: -660109647616471418
+    second: Barnaby'sNextRoundPanel_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 340
+        width: 117
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eafe063a0f5c89e0800000000000000
+      internalID: -1617813668671587609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 343
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dfc2bf8734df860800000000000000
+      internalID: 7565277135941467447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 343
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ce0c9d50c15c9c0800000000000000
+      internalID: -3907686290220323797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 341
+        width: 97
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f8ebab498f73490800000000000000
+      internalID: -7766465714705232119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 341
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6e3b6c67edd20d0800000000000000
+      internalID: -3445853538147375446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_5
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 343
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e66104490440bd0800000000000000
+      internalID: -2664934074021941736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 341
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226666a222f49cce0800000000000000
+      internalID: -1384488402280880606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 337
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbfef734b23278c0800000000000000
+      internalID: -4003081369163990070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_8
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 340
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1cad3a7e1db57c0800000000000000
+      internalID: -4081437844464549439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9481c9d02a1201d0800000000000000
+      internalID: -3386115241434577765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac6c95329e282460800000000000000
+      internalID: 7217069608360766631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dea2167c75053050800000000000000
+      internalID: 5779531728914919129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a2563c611114b60800000000000000
+      internalID: 7728477225009621556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 252
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19ea534d98c801a0800000000000000
+      internalID: -6842999056024016614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 250
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200a01a9471d72ff0800000000000000
+      internalID: -60849771215020030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 252
+        width: 86
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3d3dac02656a2a0800000000000000
+      internalID: -6726594294589434907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 255
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05fc3d3def126a70800000000000000
+      internalID: 8818646124139967756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_17
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 257
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c0ef5008f4505b0800000000000000
+      internalID: -5402824766686098419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 254
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfb8d12d28870b30800000000000000
+      internalID: 4253518100497481680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 255
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53de0fb416bcd260800000000000000
+      internalID: 7123768910814303071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_20
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 254
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2907aa6ca77f7ec0800000000000000
+      internalID: -3567000797446731477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_21
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 254
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8561e41b69a2810800000000000000
+      internalID: 1741369894195583192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_22
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 254
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8b0c50d5521ad80800000000000000
+      internalID: -8241264761652594469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_23
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 254
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a136410aac6a7640800000000000000
+      internalID: 5078491007235273120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_24
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 255
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb2fbcd7fb18fa10800000000000000
+      internalID: 1943333990584757213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_25
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 254
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07df85de8681ae160800000000000000
+      internalID: 7055478605167000944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_26
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 254
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3670e565ff0f02470800000000000000
+      internalID: 8367953087110711139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_27
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 256
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d9b09eeb2e3a0a0800000000000000
+      internalID: -6871399296855728894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_28
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 254
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557db839e2b299130800000000000000
+      internalID: 3573935258339104597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_29
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 254
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddac12cfaf58474b0800000000000000
+      internalID: -5443578736565695779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sNextRoundPanel_30
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 250
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e030dd5c1d6d6f0800000000000000
+      internalID: -660109647616471418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barnaby'sNextRoundPanel_0: -1617813668671587609
+      Barnaby'sNextRoundPanel_1: 7565277135941467447
+      Barnaby'sNextRoundPanel_10: 7217069608360766631
+      Barnaby'sNextRoundPanel_11: 5779531728914919129
+      Barnaby'sNextRoundPanel_12: 7728477225009621556
+      Barnaby'sNextRoundPanel_13: -6842999056024016614
+      Barnaby'sNextRoundPanel_14: -60849771215020030
+      Barnaby'sNextRoundPanel_15: -6726594294589434907
+      Barnaby'sNextRoundPanel_16: 8818646124139967756
+      Barnaby'sNextRoundPanel_17: -5402824766686098419
+      Barnaby'sNextRoundPanel_18: 4253518100497481680
+      Barnaby'sNextRoundPanel_19: 7123768910814303071
+      Barnaby'sNextRoundPanel_2: -3907686290220323797
+      Barnaby'sNextRoundPanel_20: -3567000797446731477
+      Barnaby'sNextRoundPanel_21: 1741369894195583192
+      Barnaby'sNextRoundPanel_22: -8241264761652594469
+      Barnaby'sNextRoundPanel_23: 5078491007235273120
+      Barnaby'sNextRoundPanel_24: 1943333990584757213
+      Barnaby'sNextRoundPanel_25: 7055478605167000944
+      Barnaby'sNextRoundPanel_26: 8367953087110711139
+      Barnaby'sNextRoundPanel_27: -6871399296855728894
+      Barnaby'sNextRoundPanel_28: 3573935258339104597
+      Barnaby'sNextRoundPanel_29: -5443578736565695779
+      Barnaby'sNextRoundPanel_3: -7766465714705232119
+      Barnaby'sNextRoundPanel_30: -660109647616471418
+      Barnaby'sNextRoundPanel_4: -3445853538147375446
+      Barnaby'sNextRoundPanel_5: -2664934074021941736
+      Barnaby'sNextRoundPanel_6: -1384488402280880606
+      Barnaby'sNextRoundPanel_7: -4003081369163990070
+      Barnaby'sNextRoundPanel_8: -4081437844464549439
+      Barnaby'sNextRoundPanel_9: -3386115241434577765
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -43,20 +43,12 @@ public class OpponentPreviewPanel : MonoBehaviour
 
     bool isLockedForSwap = false;
 
-    private int currentPreviewPlayerIndex = -1;
-
     [Header("Popup Arm")]
     public PopupArm popupArm;
-    
+    private int currentPreviewPlayerIndex = -1;
 
     public void ShowFromPlayerInfoPanel(PlayerInfoPanel sourcePanel)
 {
-    if (deckManager != null && deckManager.IsChoosingAvailableService())
-        return;
-
-    if (previewPanelHighlight != null && !isLockedForSwap)
-        previewPanelHighlight.SetActive(false);
-
     if (previewPanelHighlight != null && !isLockedForSwap)
         previewPanelHighlight.SetActive(false);
 
@@ -104,8 +96,7 @@ public class OpponentPreviewPanel : MonoBehaviour
     if (popupArm != null)
     {
         int opponentIndex = sourcePanel.representedPlayerIndex;
-
-        currentPreviewPlayerIndex = sourcePanel.representedPlayerIndex;
+        currentPreviewPlayerIndex = opponentIndex;
 
         Debug.Log("representedPlayerIndex = " + opponentIndex);
 
@@ -254,18 +245,19 @@ public void StartFavorSlotPreview(int slotIndex)
     if (preview == null || deckManager == null)
         return;
 
+    // prevent redundant calls
     if (currentHoverSlot == slotIndex)
         return;
 
     currentHoverSlot = slotIndex;
 
+    // get the opponent being previewed (this is already set when panel opens)
     int opponentIndex = currentPreviewPlayerIndex;
 
     if (opponentIndex < 0)
         return;
 
     Player opponent = deckManager.turnManager.players[opponentIndex];
-
     if (opponent == null)
         return;
 
