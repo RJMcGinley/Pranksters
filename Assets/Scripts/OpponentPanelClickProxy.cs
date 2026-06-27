@@ -6,22 +6,52 @@ public class OpponentPanelClickProxy : MonoBehaviour
     public OpponentPreviewPanel previewPanel;
     public DeckManager deckManager;
 
+    public GameObject helperObject;
+
     [Header("Popup Arm")]
     public PopupArm popupArm;
+
+void Start()
+{
+    if (helperObject != null)
+        helperObject.SetActive(false);
+}
 
     void OnMouseEnter()
 {
     Debug.Log("CLICK PROXY HOVER ENTER");
+
+    if (sourcePanel == null || deckManager == null)
+        return;
+
+    int opponentIndex = sourcePanel.representedPlayerIndex;
+
+    if (!deckManager.IsSwapFlowActive() && deckManager.CanSwapWithOpponent(opponentIndex))
+    {
+        if (helperObject != null)
+        {
+            helperObject.SetActive(true);
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayFavorHover();
+        }
+    }
 }
 
 void OnMouseExit()
 {
     Debug.Log("CLICK PROXY HOVER EXIT");
+
+    if (helperObject != null)
+        helperObject.SetActive(false);
 }
 
     void OnMouseDown()
     {
         Debug.Log("CLICK PROXY MOUSEDOWN");
+
+        if (helperObject != null)
+            helperObject.SetActive(false);
 
         if (sourcePanel == null || previewPanel == null || deckManager == null)
             return;
