@@ -6481,5 +6481,19 @@ bool HasReachedMayorBreakingPoint()
 
     return combinedMischief >= threshold;
 }
+
+public void SetActivePrankCardCollidersEnabled(bool enabled)
+{
+    if (activePrankDisplay == null)
+        return;
+
+    foreach (Transform child in activePrankDisplay)
+    {
+        BoxCollider2D collider = child.GetComponent<BoxCollider2D>();
+
+        if (collider != null)
+            collider.enabled = enabled;
+    }
+}
 }
 

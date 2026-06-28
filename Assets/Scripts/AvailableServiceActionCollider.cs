@@ -156,6 +156,8 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
 private void OnMouseEnter()
 {
+    Debug.Log("AVAILABLE SERVICE HOVER ENTER: " + gameObject.name + " | " + actionName);
+
     isHovering = true;
     hoverTimer = 0f;
 }
@@ -255,6 +257,21 @@ public void ResetVisualState()
         descriptionText.text = "";
         descriptionText.gameObject.SetActive(false);
     }
+}
+
+private void OnEnable()
+{
+    Collider2D col = GetComponent<Collider2D>();
+
+    Debug.Log(
+        $"AVAILABLE SERVICE COLLIDER ENABLED | {gameObject.name} | " +
+        $"Action={actionName} | " +
+        $"ActiveInHierarchy={gameObject.activeInHierarchy} | " +
+        $"Layer={LayerMask.LayerToName(gameObject.layer)} | " +
+        $"Collider={(col != null ? col.GetType().Name : "NULL")} | " +
+        $"ColliderEnabled={(col != null && col.enabled)} | " +
+        $"WorldPos={transform.position}"
+    );
 }
 
 

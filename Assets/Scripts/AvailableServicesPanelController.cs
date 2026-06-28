@@ -38,6 +38,7 @@ public class AvailableServicesPanelController : MonoBehaviour
             deckManager.SetAvailableServicesPanelOpen(true);
             deckManager.MarkInactiveInfluenceServicePanelOpen();
             deckManager.SetSelectedInactiveInfluenceServiceType(serviceType);
+            deckManager.SetActivePrankCardCollidersEnabled(false);
             deckManager.RefreshAllHighlights();
         }
 
@@ -104,6 +105,7 @@ public class AvailableServicesPanelController : MonoBehaviour
             deckManager.SetAvailableServicesPanelOpen(false);
             deckManager.SetInactiveServicesButtonVisible(true);
             deckManager.CancelAvailableServicesSelection();
+            deckManager.SetActivePrankCardCollidersEnabled(true);
         }
 
         HideAllServicePanels();
@@ -147,8 +149,11 @@ public class AvailableServicesPanelController : MonoBehaviour
         DeckManager deckManager = FindFirstObjectByType<DeckManager>();
 
         if (deckManager != null)
+        {
             deckManager.SetAvailableServicesPanelOpen(false);
-
+            deckManager.SetActivePrankCardCollidersEnabled(true);
+        }
+        
         HideAllServicePanels();
         SetServiceSelectionCollidersEnabled(true);
     }
