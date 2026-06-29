@@ -7698,7 +7698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33, y: -301}
+  m_AnchoredPosition: {x: -39, y: -289}
   m_SizeDelta: {x: 600, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51240943
@@ -13404,9 +13404,7 @@ MonoBehaviour:
   locationName: Forest Clearing
   locationType: 2
   flavorText: "With plenty of foot traffic coming \nthrough recruiting is much easier."
-  effectText: 'Draw 2 recruits when
-
-    taking the scout action'
+  effectText: "Highest Influence: \nDraw 2 when Scouting."
   hoverDelay: 0.25
   glowObject: {fileID: 1298720274}
 --- !u!1 &157040438
@@ -17666,7 +17664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &222834120
 RectTransform:
   m_ObjectHideFlags: 0
@@ -85676,7 +85674,7 @@ MonoBehaviour:
   panelController: {fileID: 620344935}
   locationName: Rebel Workshop
   locationType: 0
-  flavorText: "The main plotting area \nfor the exiled rebels "
+  flavorText: "The main plotting area \nfor the rebels. "
   effectText: No effect
   hoverDelay: 0.25
   glowObject: {fileID: 1914854755}
@@ -87705,7 +87703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33, y: -39}
+  m_AnchoredPosition: {x: -33, y: -67}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062361269
@@ -122574,7 +122572,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Demo Specialists Limit: 15'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -157412,8 +157410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.71, y: 1.37}
-  m_SizeDelta: {x: 0.5083, y: 0.4685}
+  m_AnchoredPosition: {x: -0.0832, y: 2.8}
+  m_SizeDelta: {x: 0.8771, y: 0.85001}
   m_Pivot: {x: 0.49999982, y: 0.49999994}
 --- !u!114 &1775299114
 MonoBehaviour:
@@ -162666,7 +162664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1788850242
 RectTransform:
   m_ObjectHideFlags: 0
@@ -166220,7 +166218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -11.6}
+  m_AnchoredPosition: {x: -2, y: -10}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1891628145

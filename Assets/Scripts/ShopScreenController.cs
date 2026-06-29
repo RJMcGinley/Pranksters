@@ -51,13 +51,6 @@ public class ShopScreenController : MonoBehaviour
         if (specialistsUnlockedText != null)
             specialistsUnlockedText.text = "Specialists Unlocked: " + specialistsUnlocked + " / " + totalSpecialists;
 
-        if (freeVersionText != null)
-        {
-            if (fullRosterUnlocked)
-                freeVersionText.text = "Full Roster Access: Unlocked";
-            else
-                freeVersionText.text = "Demo Specialists Limit: " + freeVersionAccess;
-        }
 
         if (unlockFullRosterButton != null)
             unlockFullRosterButton.SetActive(!fullRosterUnlocked);

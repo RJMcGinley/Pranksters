@@ -6458,7 +6458,7 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     if (lossTriggered)
     {
         Debug.Log("FORCED LOSS FROM WANTED BOARD | " + lossReason);
-        TriggerEndGameScoring();
+        TriggerWantedBoardLossEndGame(lossReason);
         yield break;
     }
 
@@ -6494,6 +6494,109 @@ public void SetActivePrankCardCollidersEnabled(bool enabled)
         if (collider != null)
             collider.enabled = enabled;
     }
+}
+
+IEnumerator PlayLoseCutsceneThenShowResults(string videoFileName)
+{
+    Debug.Log("PLAYING LOSE CUTSCENE: " + videoFileName);
+
+    AudioListener.pause = true;
+
+    bool finished = false;
+    bool videoError = false;
+
+    if (winVideoPlayer != null)
+    {
+        if (winCutsceneRenderTexture != null)
+        {
+            RenderTexture.active = winCutsceneRenderTexture;
+            GL.Clear(true, true, Color.black);
+            RenderTexture.active = null;
+        }
+
+        string videoPath = Path.Combine(Application.streamingAssetsPath, videoFileName);
+
+        winVideoPlayer.source = VideoSource.Url;
+        winVideoPlayer.url = videoPath;
+
+        Debug.Log("LOSE VIDEO PATH: " + videoPath);
+
+        winVideoPlayer.Stop();
+        winVideoPlayer.time = 0;
+
+        void OnPrepared(VideoPlayer vp)
+        {
+            Debug.Log("LOSE VIDEO PREPARED");
+
+            if (winCutsceneCanvas != null)
+                winCutsceneCanvas.SetActive(true);
+
+            vp.Play();
+        }
+
+        void OnFinished(VideoPlayer vp)
+        {
+            Debug.Log("LOSE VIDEO FINISHED");
+            finished = true;
+        }
+
+        void OnError(VideoPlayer vp, string message)
+        {
+            Debug.LogError("LOSE VIDEO ERROR: " + message);
+            videoError = true;
+            finished = true;
+        }
+
+        winVideoPlayer.prepareCompleted += OnPrepared;
+        winVideoPlayer.loopPointReached += OnFinished;
+        winVideoPlayer.errorReceived += OnError;
+
+        yield return new WaitForSecondsRealtime(0.75f);
+
+        winVideoPlayer.Prepare();
+
+        float timeout = 30f;
+        float timer = 0f;
+
+        while (!finished && !videoError && timer < timeout)
+        {
+            timer += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        if (timer >= timeout)
+            Debug.LogWarning("LOSE VIDEO TIMEOUT - showing results");
+
+        winVideoPlayer.prepareCompleted -= OnPrepared;
+        winVideoPlayer.loopPointReached -= OnFinished;
+        winVideoPlayer.errorReceived -= OnError;
+    }
+
+    if (winCutsceneCanvas != null)
+        winCutsceneCanvas.SetActive(false);
+
+    AudioListener.pause = false;
+
+    ShowFinalResultsUI();
+
+    Debug.Log("Lose cutscene finished, final results shown.");
+}
+
+void TriggerWantedBoardLossEndGame(string reason)
+{
+    Debug.Log("TriggerWantedBoardLossEndGame START | " + reason);
+
+    gameOver = true;
+
+    LogSeparator("WANTED BOARD LOSS");
+
+    CalculateFinalScores();
+    Debug.Log("CalculateFinalScores COMPLETE");
+
+    ApplyPlayer1MatchResultsToSave();
+    Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
+
+    StartCoroutine(PlayLoseCutsceneThenShowResults("PlayerLoses.MP4"));
 }
 }
 

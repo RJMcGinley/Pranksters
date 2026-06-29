@@ -1013,7 +1013,7 @@ public static bool HasLifetimeCrewSizeUnlock()
     if (data == null)
         return false;
 
-    return data.lifetimeFinalScorePoints >= 500;
+    return data.lifetimeFinalScorePoints >= 0;
 }
 
 public static int GetLifetimeCrewSizeUpgradeCost()
