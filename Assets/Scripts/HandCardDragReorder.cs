@@ -15,6 +15,9 @@ public class HandCardDragReorder : MonoBehaviour
     private SpriteRenderer[] spriteRenderers;
     private int[] originalSortingOrders;
 
+    private PranksterDeckEntry draggedCard;
+    private int currentTargetIndex = -1;
+
     private const float dragStartThreshold = 0.15f;
     private const float dragYOffset = 0.1f;
     private const int draggedSortingOrderBoost = 100;
@@ -36,8 +39,14 @@ public class HandCardDragReorder : MonoBehaviour
         if (deckManager == null || !deckManager.CanReorderHand())
             return;
 
+        draggedCard = deckManager.GetCurrentPlayerHandCard(cardIndex);
+
+        if (draggedCard == null)
+            return;
+
         isDragging = true;
         hasMovedEnoughToDrag = false;
+        currentTargetIndex = cardIndex;
 
         originalLocalPosition = transform.localPosition;
         originalScale = transform.localScale;
@@ -70,6 +79,19 @@ public class HandCardDragReorder : MonoBehaviour
         parentLocalPosition.z = originalLocalPosition.z;
 
         transform.localPosition = parentLocalPosition;
+
+        int targetIndex = GetTargetIndexFromLocalX(transform.localPosition.x);
+
+        if (targetIndex != currentTargetIndex)
+        {
+            currentTargetIndex = targetIndex;
+
+            deckManager.PreviewReorderCurrentPlayerHand(
+                draggedCard,
+                currentTargetIndex,
+                gameObject
+            );
+        }
     }
 
     void OnMouseUp()
@@ -82,15 +104,10 @@ public class HandCardDragReorder : MonoBehaviour
         transform.localScale = originalScale;
         SetDraggedSorting(false);
 
-        if (!hasMovedEnoughToDrag)
-        {
-            transform.localPosition = originalLocalPosition;
-            return;
-        }
+        deckManager.FinalizeCurrentPlayerHandReorder();
 
-        int targetIndex = GetTargetIndexFromLocalX(transform.localPosition.x);
-
-        deckManager.ReorderCurrentPlayerHand(cardIndex, targetIndex);
+        draggedCard = null;
+        currentTargetIndex = -1;
     }
 
     private void SetDraggedSorting(bool isDragged)

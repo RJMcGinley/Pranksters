@@ -6850,5 +6850,56 @@ public void ReorderCurrentPlayerHand(int fromIndex, int toIndex)
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
 }
+
+public PranksterDeckEntry GetCurrentPlayerHandCard(int index)
+{
+    Player player = turnManager.GetCurrentPlayer();
+
+    if (player == null || player.hand == null)
+        return null;
+
+    if (index < 0 || index >= player.hand.Count)
+        return null;
+
+    return player.hand[index];
+}
+
+public void PreviewReorderCurrentPlayerHand(
+    PranksterDeckEntry draggedCard,
+    int toIndex,
+    GameObject draggedCardObject
+)
+{
+    Player player = turnManager.GetCurrentPlayer();
+
+    if (player == null || player.isBot)
+        return;
+
+    if (draggedCard == null)
+        return;
+
+    int fromIndex = player.hand.IndexOf(draggedCard);
+
+    if (fromIndex < 0)
+        return;
+
+    if (toIndex < 0 || toIndex >= player.hand.Count)
+        return;
+
+    if (fromIndex == toIndex)
+        return;
+
+    player.hand.RemoveAt(fromIndex);
+    player.hand.Insert(toIndex, draggedCard);
+
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHandExcept(draggedCard, draggedCardObject);
+}
+
+public void FinalizeCurrentPlayerHandReorder()
+{
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
+}
 }
 

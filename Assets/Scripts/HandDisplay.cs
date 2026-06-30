@@ -101,6 +101,90 @@ public class HandDisplay : MonoBehaviour
         }
     }
 
+    public void ShowCurrentPlayerHandExcept(
+        PranksterDeckEntry cardToSkip,
+        GameObject objectToPreserve
+    )
+    {
+        foreach (Transform child in currentPlayerHandArea)
+        {
+            if (objectToPreserve != null && child.gameObject == objectToPreserve)
+                continue;
+
+            Destroy(child.gameObject);
+        }
+
+        Player currentPlayer = deckManager.turnManager.GetCurrentPlayer();
+
+        List<PranksterDeckEntry> hand;
+        if (deckManager != null && deckManager.IsInSwapHandSelection())
+            hand = deckManager.GetTempSwapHand();
+        else
+            hand = currentPlayer.hand;
+
+        bool choosingFavor = deckManager != null && deckManager.IsChoosingFavor();
+        bool choosingSwapHand = deckManager != null && deckManager.IsInSwapHandSelection();
+
+        float spacing = choosingFavor ? 2.5f : 2.1f;
+        float yOffset = choosingFavor ? 0.2f : 0f;
+
+        if (choosingSwapHand)
+        {
+            spacing = 1.9f;
+            yOffset = 0f;
+        }
+
+        int count = hand.Count;
+
+        Vector3 cardScale = Vector3.one;
+
+        if (count >= 9)
+        {
+            spacing = 1.25f;
+            cardScale = new Vector3(0.62f, 0.62f, 1f);
+        }
+        if (count == 8)
+        {
+            spacing = 1.25f;
+            cardScale = new Vector3(0.62f, 0.62f, 1f);
+        }
+        if (count == 7)
+        {
+            spacing = 1.45f;
+            cardScale = new Vector3(0.72f, 0.72f, 1f);
+        }
+        else if (count == 6)
+        {
+            spacing = 1.65f;
+            cardScale = new Vector3(0.82f, 0.82f, 1f);
+        }
+        else if (count == 5)
+        {
+            spacing = 1.9f;
+            cardScale = new Vector3(0.92f, 0.92f, 1f);
+        }
+
+        float startX = -(count - 1) * spacing / 2f;
+
+        for (int i = 0; i < count; i++)
+        {
+            if (hand[i] == cardToSkip)
+                continue;
+
+            if (deckManager != null &&
+                deckManager.IsHandCardTemporarilyAssignedToService(i))
+            {
+                Debug.Log("HAND DISPLAY SKIPPING TEMP SERVICE CARD INDEX: " + i);
+                continue;
+            }
+
+            float x = startX + i * spacing;
+            Sprite art = GetSpriteForEntry(hand[i]);
+
+            CreateCard(art, hand[i].tier, new Vector3(x, yOffset, 0), i, cardScale);
+        }
+    }
+
     private Sprite GetSpriteForEntry(PranksterDeckEntry entry)
     {
         if (entry == null)
