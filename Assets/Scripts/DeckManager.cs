@@ -12,6 +12,8 @@ using System.IO;
 public class DeckManager : MonoBehaviour
 {
     List<PranksterDeckEntry> deck = new List<PranksterDeckEntry>();
+    [SerializeField] private TMP_Text drawDeckCountText;
+    [SerializeField] private TMP_Text discardPileCountText;
     public TurnManager turnManager;
     List<PrankCard> prankDeck = new List<PrankCard>();
     List<PrankCard> activePranks = new List<PrankCard>();
@@ -388,6 +390,7 @@ public class DeckManager : MonoBehaviour
         int handCountBefore = GetCurrentPlayer().hand.Count;
 
         DrawCard();
+        RefreshDrawDeckCounter();
 
         if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
@@ -922,6 +925,7 @@ void StartDrawFromDeckTurn()
     }
 
     DrawCard();
+    RefreshDrawDeckCounter();
 
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
@@ -2217,6 +2221,9 @@ public void RefreshAllDisplays()
 
     if (swapWantedPostersButton != null)
         swapWantedPostersButton.Refresh();
+
+    RefreshDrawDeckCounter();
+    RefreshDiscardPileCounter();
 }
 
 void UpdateCurrentPlayerStatsDisplay()
@@ -2998,6 +3005,7 @@ IEnumerator RefillHandToFourOneCardAtATime(float delayBetweenCards = 0.3f)
         int handCountBefore = GetCurrentPlayer().hand.Count;
 
         DrawCard();
+        RefreshDrawDeckCounter();
 
         if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
@@ -3024,6 +3032,7 @@ IEnumerator RefillHandToMaxOneCardAtATime(float delayBetweenCards = 0.3f)
         int handCountBefore = GetCurrentPlayer().hand.Count;
 
         DrawCard();
+        RefreshDrawDeckCounter();
 
         if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
@@ -3504,6 +3513,7 @@ public void BotDrawFromDeck()
     for (int i = 0; i < drawAmount; i++)
     {
         DrawCard();
+        RefreshDrawDeckCounter();
     }
 
     RefreshAllDisplays();
@@ -6008,6 +6018,7 @@ IEnumerator DrawCardsOneAtATime(int cardsToDraw, float delayBetweenCards = 0.3f)
         int handCountBefore = GetCurrentPlayer().hand.Count;
 
         DrawCard();
+        RefreshDrawDeckCounter();
 
         if (GetCurrentPlayer().hand.Count == handCountBefore)
         {
@@ -6032,6 +6043,7 @@ IEnumerator ForestClearingSecondDraw()
     yield return new WaitForSeconds(0.3f);
 
     DrawCard();
+    RefreshDrawDeckCounter();
 
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
@@ -6779,6 +6791,18 @@ public bool CanCurrentPlayerStartSwapWantedPostersAction()
         return false;
 
     return wantedBoardPanelController.HasAtLeastTwoWantedPosters();
+}
+
+private void RefreshDrawDeckCounter()
+{
+    if (drawDeckCountText != null)
+        drawDeckCountText.text = deck.Count.ToString();
+}
+
+private void RefreshDiscardPileCounter()
+{
+    if (discardPileCountText != null)
+        discardPileCountText.text = discardPile.Count.ToString();
 }
 }
 
