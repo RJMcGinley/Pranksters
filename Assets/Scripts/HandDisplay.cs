@@ -264,5 +264,12 @@ public class HandDisplay : MonoBehaviour
                 cardView.characterArtRenderer.color = Color.white;
             }
         }
+
+        HandCardDragReorder drag = card.GetComponent<HandCardDragReorder>();
+        if (drag != null)
+        {
+            drag.deckManager = deckManager;
+            drag.cardIndex = index;
+        }
     }
 }

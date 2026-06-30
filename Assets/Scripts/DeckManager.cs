@@ -6804,5 +6804,51 @@ private void RefreshDiscardPileCounter()
     if (discardPileCountText != null)
         discardPileCountText.text = discardPile.Count.ToString();
 }
+
+public bool CanReorderHand()
+{
+    Player player = turnManager.GetCurrentPlayer();
+
+    if (player == null || player.isBot)
+        return false;
+
+    if (IsInDiscardSelection() ||
+        IsChoosingFavor() ||
+        IsInSwapHandSelection() ||
+        IsChoosingAvailableService())
+        return false;
+
+    return true;
+}
+
+public void ReorderCurrentPlayerHand(int fromIndex, int toIndex)
+{
+    Player player = turnManager.GetCurrentPlayer();
+
+    if (player == null || player.isBot)
+        return;
+
+    if (fromIndex < 0 || fromIndex >= player.hand.Count)
+        return;
+
+    if (toIndex < 0 || toIndex >= player.hand.Count)
+        return;
+
+    if (fromIndex == toIndex)
+    {
+        if (handDisplay != null)
+            handDisplay.ShowCurrentPlayerHand();
+
+        return;
+    }
+
+    PranksterDeckEntry card = player.hand[fromIndex];
+
+    player.hand.RemoveAt(fromIndex);
+    player.hand.Insert(toIndex, card);
+
+    if (handDisplay != null)
+        handDisplay.ShowCurrentPlayerHand();
+}
 }
 

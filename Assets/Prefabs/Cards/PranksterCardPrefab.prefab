@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 3415674162361236923}
   - component: {fileID: 5984215282537547636}
   - component: {fileID: 2402667570658491173}
+  - component: {fileID: 4343857158788655510}
   m_Layer: 0
   m_Name: PranksterCardPrefab
   m_TagString: Untagged
@@ -263,6 +264,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.85, y: 2.75}
   m_EdgeRadius: 0
+--- !u!114 &4343857158788655510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782839539705255315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18caaacfdecf84b68836fded6722c503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandCardDragReorder
+  deckManager: {fileID: 0}
+  cardIndex: 0
 --- !u!1 &2868036937673067506
 GameObject:
   m_ObjectHideFlags: 0
