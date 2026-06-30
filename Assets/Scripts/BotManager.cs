@@ -73,6 +73,9 @@ public class BotManager : MonoBehaviour
     {
     botActionHandledTurnFlow = false;
 
+    if (deckManager != null && deckManager.TryConsumeBarnabyDistractionTurn(out string distractionMessage))
+        return distractionMessage;
+
     // ===== COMPLETE PRANK =====
     int prankIndex = FindBestCompletablePrankIndex();
     if (prankIndex != -1)

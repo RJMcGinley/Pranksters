@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d5f7c33b7dee4a3f807845302dc4537
+guid: ceed938bbe6a642bd8bfa6cd6cc20e6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2494811748739463968
-    second: LifetimeNotorietyPesterMayorButton_0
+      213: 7316895230643979530
+    second: SpendInfluenceButton_DistractBarnaby_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LifetimeNotorietyPesterMayorButton_0
+      name: SpendInfluenceButton_DistractBarnaby_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 1275
-        height: 720
+        x: 9
+        y: 252
+        width: 708
+        height: 735
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02b3611411a5f9220800000000000000
-      internalID: 2494811748739463968
+      spriteID: a05c8491275da8560800000000000000
+      internalID: 7316895230643979530
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LifetimeNotorietyPesterMayorButton_0: 2494811748739463968
+      SpendInfluenceButton_DistractBarnaby_0: 7316895230643979530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

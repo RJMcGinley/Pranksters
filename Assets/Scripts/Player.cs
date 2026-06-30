@@ -16,6 +16,7 @@ public class Player
     public bool lifetimeNotorietyCrewUpgradeUsedThisGame = false;
     public bool usedInactiveServiceInfluenceActionThisRound = false;
     public int pesterMayorUsesThisGame = 0;
+    public int distractBarnabyUsesThisGame = 0;
 
     public int maxHandSize = 4;
 

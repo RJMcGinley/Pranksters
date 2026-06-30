@@ -161,12 +161,15 @@ public class DeckManager : MonoBehaviour
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
     [SerializeField] private LifetimeNotorietyPesterMayorButton pesterMayorButton;
+    [SerializeField] private LifetimeNotorietyDistractBarnabyButton distractBarnabyButton;
     [SerializeField] private LifetimeNotorietySwapWantedPostersButton swapWantedPostersButton;
     private Dictionary<PranksterType, bool> serviceAvailabilityThisRound =
         new Dictionary<PranksterType, bool>();
 
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
     public WantedBoardPanelController wantedBoardPanelController;
+
+    private int barnabyDistractedTurnsRemaining = 0;
 
     [Header("Available Service Instructions")]
     [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
@@ -2217,10 +2220,13 @@ public void RefreshAllDisplays()
         lifetimeCrewSizeButton.Refresh();
 
     if (inactiveServicesButton != null)
-        inactiveServicesButton.Refresh();   
+        inactiveServicesButton.Refresh();
 
     if (swapWantedPostersButton != null)
         swapWantedPostersButton.Refresh();
+
+    if (distractBarnabyButton != null)
+        distractBarnabyButton.Refresh();
 
     RefreshDrawDeckCounter();
     RefreshDiscardPileCounter();
@@ -2252,6 +2258,9 @@ void UpdateCurrentPlayerStatsDisplay()
 
     if (pesterMayorButton != null)
         pesterMayorButton.Refresh();
+
+    if (distractBarnabyButton != null)
+        distractBarnabyButton.Refresh();
 
     if (crewCapacityText != null)
     {
@@ -6791,6 +6800,108 @@ public bool CanCurrentPlayerStartSwapWantedPostersAction()
         return false;
 
     return wantedBoardPanelController.HasAtLeastTwoWantedPosters();
+}
+
+public int GetDistractBarnabyCurrentCost()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return 0;
+
+    int barnabyCompletedPranksCount = 0;
+
+    if (turnManager != null &&
+        turnManager.players != null &&
+        turnManager.players.Count > 1 &&
+        turnManager.players[1] != null)
+    {
+        barnabyCompletedPranksCount = turnManager.players[1].completedPranks.Count;
+    }
+
+    return 3 + barnabyCompletedPranksCount + (player.distractBarnabyUsesThisGame * 2);
+}
+
+public bool CanCurrentPlayerDistractBarnaby()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return false;
+
+    if (player.isBot)
+        return false;
+
+    if (!SaveSystem.HasDistractBarnabyUnlock())
+        return false;
+
+    if (hasTakenActionThisTurn)
+        return false;
+
+    if (barnabyDistractedTurnsRemaining > 0)
+        return false;
+
+    int cost = GetDistractBarnabyCurrentCost();
+
+    return player.favorPoints >= cost;
+}
+
+public void TryDistractBarnaby()
+{
+    if (!CanCurrentPlayerDistractBarnaby())
+        return;
+
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return;
+
+    int cost = GetDistractBarnabyCurrentCost();
+
+    player.favorPoints -= cost;
+    player.distractBarnabyUsesThisGame++;
+
+    barnabyDistractedTurnsRemaining = 3;
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlaySpendInfluence();
+
+    Debug.Log("DISTRACT BARNABY: Spent " + cost +
+              " influence. Barnaby will skip 3 turns. Uses this game = " +
+              player.distractBarnabyUsesThisGame);
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public bool TryConsumeBarnabyDistractionTurn(out string message)
+{
+    message = "";
+
+    if (barnabyDistractedTurnsRemaining <= 0)
+        return false;
+
+    switch (barnabyDistractedTurnsRemaining)
+    {
+        case 3:
+            message = "Barnaby is distracted";
+            break;
+
+        case 2:
+            message = "Barnaby is still distracted";
+            break;
+
+        case 1:
+            message = "Barnaby is on his way back";
+            break;
+
+        default:
+            message = "Barnaby is distracted";
+            break;
+    }
+
+    barnabyDistractedTurnsRemaining--;
+
+    return true;
 }
 
 private void RefreshDrawDeckCounter()

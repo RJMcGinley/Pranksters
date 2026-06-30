@@ -1070,4 +1070,14 @@ public static bool HasSwapWantedPostersUnlock()
 
     return data.lifetimeFinalScorePoints >= 200;
 }
+
+public static bool HasDistractBarnabyUnlock()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return false;
+
+    return data.lifetimeFinalScorePoints >= 350;
+}
 }
