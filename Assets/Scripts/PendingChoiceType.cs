@@ -12,5 +12,6 @@ public enum PendingChoiceType
     ChooseAvailableServiceCard,
     ChooseWizardFavorReturn,
     ChooseEngineerPrankReplacement,
-    ChooseBeastmasterDiscardType
+    ChooseBeastmasterDiscardType,
+    ChooseSwapWantedPosterDiscards
 }

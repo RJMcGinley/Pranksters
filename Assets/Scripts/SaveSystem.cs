@@ -1060,4 +1060,14 @@ public static bool HasPesterMayorUnlock()
 
     return data.lifetimeFinalScorePoints >= 750;
 }
+
+public static bool HasSwapWantedPostersUnlock()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return false;
+
+    return data.lifetimeFinalScorePoints >= 200;
+}
 }

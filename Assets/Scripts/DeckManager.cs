@@ -83,7 +83,8 @@ public class DeckManager : MonoBehaviour
     public TextMeshProUGUI player4FavorPointsText;
     public TextMeshProUGUI player4TotalPointsText;
 
-    public Image finalPrankImage;
+    public Image newUnlockImage;
+    public TextMeshProUGUI unlockDescriptionText;
     public GameObject endTurnButton;
     public int hoveredPrankIndex = -1;
 
@@ -132,6 +133,12 @@ public class DeckManager : MonoBehaviour
     private int pendingRoundFirstPlayerIndex = -1;
     private bool isEndOfRoundPending = false;
 
+    private PranksterDeckEntry swapWantedFirstCard;
+    private PranksterDeckEntry swapWantedSecondCard;
+
+    private PranksterType swapWantedFirstType;
+    private PranksterType swapWantedSecondType;
+
     private GameLocationType pendingRoundLocation = GameLocationType.RebelWorkshop;
 
     public VideoPlayer winVideoPlayer;
@@ -152,6 +159,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
     [SerializeField] private LifetimeNotorietyPesterMayorButton pesterMayorButton;
+    [SerializeField] private LifetimeNotorietySwapWantedPostersButton swapWantedPostersButton;
     private Dictionary<PranksterType, bool> serviceAvailabilityThisRound =
         new Dictionary<PranksterType, bool>();
 
@@ -1879,13 +1887,15 @@ void ShowFinalResultsUI()
 
     StartCoroutine(AnimateEndGamePanel());
 
-    if (finalCompletedPrank != null && finalPrankImage != null)
+    // Hide unlock UI by default.
+    // Unlocks will explicitly enable this when needed.
+    if (newUnlockImage != null)
+        newUnlockImage.gameObject.SetActive(false);
+
+    if (unlockDescriptionText != null)
     {
-        finalPrankImage.sprite = finalCompletedPrank.cardSprite;
-    }
-    else
-    {
-        Debug.LogWarning("Final prank image not assigned or finalCompletedPrank is NULL");
+        unlockDescriptionText.gameObject.SetActive(false);
+        unlockDescriptionText.text = "";
     }
 
     ShowGameOverPanel();
@@ -2204,6 +2214,9 @@ public void RefreshAllDisplays()
 
     if (inactiveServicesButton != null)
         inactiveServicesButton.Refresh();   
+
+    if (swapWantedPostersButton != null)
+        swapWantedPostersButton.Refresh();
 }
 
 void UpdateCurrentPlayerStatsDisplay()
@@ -2793,6 +2806,12 @@ public void OnHandCardClicked(int index)
         return;
     }
 
+    if (pendingChoice == PendingChoiceType.ChooseSwapWantedPosterDiscards)
+    {
+        ResolveSwapWantedPosterDiscard(index);
+        return;
+    }
+
     if (pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard)
     {
         ResolveDiscardAfterDrawFromDiscard(index);
@@ -2817,7 +2836,8 @@ public void OnHandCardClicked(int index)
 public bool IsInDiscardSelection()
 {
     return pendingChoice == PendingChoiceType.ChooseDiscardFromHand
-        || pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard;
+        || pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard
+        || pendingChoice == PendingChoiceType.ChooseSwapWantedPosterDiscards;
 }
 
 public void RefreshHandVisuals()
@@ -6597,6 +6617,168 @@ void TriggerWantedBoardLossEndGame(string reason)
     Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 
     StartCoroutine(PlayLoseCutsceneThenShowResults("PlayerLoses.MP4"));
+}
+
+void ResolveSwapWantedPosterDiscard(int index)
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null || index < 0 || index >= player.hand.Count)
+        return;
+
+    PranksterDeckEntry selectedCard = player.hand[index];
+
+    if (swapWantedFirstCard == null)
+    {
+        swapWantedFirstCard = selectedCard;
+        swapWantedFirstType = selectedCard.pranksterType;
+
+        if (availableServiceInstructionPanel != null)
+            availableServiceInstructionPanel.Show("Discard a different recruit type.");
+
+        Debug.Log("SWAP WANTED POSTERS: First discard selected: " + swapWantedFirstType);
+        return;
+    }
+
+    if (selectedCard == swapWantedFirstCard)
+    {
+        swapWantedFirstCard = null;
+
+        if (availableServiceInstructionPanel != null)
+            availableServiceInstructionPanel.Show(
+    "Discard the first recruit whose\nwanted poster you want to swap.");
+
+        Debug.Log("SWAP WANTED POSTERS: First discard deselected.");
+        return;
+    }
+
+    if (selectedCard.pranksterType == swapWantedFirstType)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        Debug.Log("SWAP WANTED POSTERS: Second discard must be a different recruit type.");
+        return;
+    }
+
+    swapWantedSecondCard = selectedCard;
+    swapWantedSecondType = selectedCard.pranksterType;
+
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Show("Choose the matching wanted posters to swap.");
+
+    Debug.Log("SWAP WANTED POSTERS: Second discard selected: " + swapWantedSecondType);
+
+    pendingChoice = PendingChoiceType.None;
+    RefreshHandVisuals();
+
+    if (wantedBoardPanelController == null)
+    {
+        Debug.LogWarning("Swap Wanted Posters failed: wantedBoardPanelController is not assigned.");
+        return;
+    }
+
+    wantedBoardPanelController.BeginTypedPosterSwapMode(
+        swapWantedFirstType,
+        swapWantedSecondType,
+        CompleteSwapWantedPostersAction);
+}
+
+public void TryStartSwapWantedPostersAction()
+{
+    if (pendingChoice == PendingChoiceType.ChooseSwapWantedPosterDiscards)
+    {
+        pendingChoice = PendingChoiceType.None;
+
+        swapWantedFirstCard = null;
+        swapWantedSecondCard = null;
+
+        if (availableServiceInstructionPanel != null)
+            availableServiceInstructionPanel.Hide();
+
+        PopHighlightSuppression();
+        RefreshHandVisuals();
+
+        Debug.Log("Swap Wanted Posters action cancelled.");
+
+        return;
+    }
+
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null || player.isBot || hasTakenActionThisTurn)
+        return;
+
+    if (player.hand.Count < 2)
+        return;
+
+    if (wantedBoardPanelController == null ||
+        !wantedBoardPanelController.HasAtLeastTwoWantedPosters())
+        return;
+
+    PushHighlightSuppression();
+
+    pendingChoice = PendingChoiceType.ChooseSwapWantedPosterDiscards;
+
+    swapWantedFirstCard = null;
+    swapWantedSecondCard = null;
+
+    if (availableServiceInstructionPanel != null)
+    {
+        availableServiceInstructionPanel.Show(
+            "Discard the first recruit whose\nwanted poster you want to swap.");
+    }
+
+    RefreshHandVisuals();
+}
+
+void CompleteSwapWantedPostersAction()
+{
+    Player player = GetCurrentPlayer();
+
+    if (player == null)
+        return;
+
+    if (swapWantedFirstCard != null && player.hand.Contains(swapWantedFirstCard))
+        DiscardCardFromHand(player.hand.IndexOf(swapWantedFirstCard));
+
+    if (swapWantedSecondCard != null && player.hand.Contains(swapWantedSecondCard))
+        DiscardCardFromHand(player.hand.IndexOf(swapWantedSecondCard));
+
+    swapWantedFirstCard = null;
+    swapWantedSecondCard = null;
+
+    pendingChoice = PendingChoiceType.None;
+
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Hide();
+
+    FinishActionAndWaitForEndTurn();
+}
+
+public bool CanCurrentPlayerStartSwapWantedPostersAction()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return false;
+
+    if (player.isBot)
+        return false;
+
+    if (hasTakenActionThisTurn)
+        return false;
+
+    if (!SaveSystem.HasSwapWantedPostersUnlock())
+        return false;
+
+    if (player.hand.Count < 2)
+        return false;
+
+    if (wantedBoardPanelController == null)
+        return false;
+
+    return wantedBoardPanelController.HasAtLeastTwoWantedPosters();
 }
 }
 

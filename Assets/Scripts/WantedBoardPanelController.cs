@@ -45,6 +45,12 @@ public class WantedBoardPanelController : MonoBehaviour
     private WantedBoardCell selectedMovePosterCell;
     private System.Action onMovePosterCompleted;
 
+    private bool isTypedPosterSwapMode;
+    private WantedBoardCell selectedTypedSwapCell;
+    private PranksterType typedSwapFirstType;
+    private PranksterType typedSwapSecondType;
+    private System.Action onTypedPosterSwapCompleted;
+
     private void Awake()
     {
         foreach (var button in selectionButtons)
@@ -496,10 +502,17 @@ public void OnCellClicked(WantedBoardCell cell)
 
     Debug.Log("Controller received click from " + cell.gameObject.name);
 
-    if (!isMovePosterMode)
+    if (isMovePosterMode)
+    {
+        HandleMovePosterCellClicked(cell);
         return;
+    }
 
-    HandleMovePosterCellClicked(cell);
+    if (isTypedPosterSwapMode)
+    {
+        HandleTypedPosterSwapCellClicked(cell);
+        return;
+    }
 }
 
 [ContextMenu("Test Move Poster Mode")]
@@ -629,6 +642,119 @@ private void HandleMovePosterCellClicked(WantedBoardCell cell)
     }
 }
 
+private void HandleTypedPosterSwapCellClicked(WantedBoardCell cell)
+{
+    if (selectedTypedSwapCell == null)
+    {
+        if (!cell.HasOccupant)
+        {
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayNotAnOption();
+
+            return;
+        }
+
+        if (cell.Occupant != typedSwapFirstType &&
+            cell.Occupant != typedSwapSecondType)
+        {
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayNotAnOption();
+
+            return;
+        }
+
+        selectedTypedSwapCell = cell;
+        selectedTypedSwapCell.SetHighlight(true);
+
+        if (placementResultText != null)
+        {
+            PranksterType otherType =
+                cell.Occupant == typedSwapFirstType
+                ? typedSwapSecondType
+                : typedSwapFirstType;
+
+            placementResultText.text =
+                "Choose a " + otherType + " wanted poster.";
+        }
+
+        Debug.Log("Typed swap first poster selected: " + cell.Occupant);
+
+        return;
+    }
+
+    if (cell == selectedTypedSwapCell)
+    {
+        selectedTypedSwapCell.SetHighlight(false);
+        selectedTypedSwapCell = null;
+
+        if (placementResultText != null)
+            placementResultText.text = "Choose a " + typedSwapFirstType + " or " + typedSwapSecondType + " wanted poster.";
+
+        return;
+    }
+
+    if (!cell.HasOccupant)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        return;
+    }
+
+    if (cell.Occupant == selectedTypedSwapCell.Occupant)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        return;
+    }
+
+    bool validOppositePair =
+        (selectedTypedSwapCell.Occupant == typedSwapFirstType && cell.Occupant == typedSwapSecondType) ||
+        (selectedTypedSwapCell.Occupant == typedSwapSecondType && cell.Occupant == typedSwapFirstType);
+
+    if (!validOppositePair)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayNotAnOption();
+
+        return;
+    }
+
+    PranksterType firstType = selectedTypedSwapCell.Occupant;
+    PranksterType secondType = cell.Occupant;
+
+    selectedTypedSwapCell.SetOccupant(secondType, GetIconForType(secondType));
+    cell.SetOccupant(firstType, GetIconForType(firstType));
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
+    Debug.Log("TYPED POSTER SWAP COMPLETE | " + firstType + " <-> " + secondType);
+
+    selectedTypedSwapCell = null;
+    isTypedPosterSwapMode = false;
+
+    ClearHighlights();
+
+    if (placementResultText != null)
+        placementResultText.text = "";
+
+    gameObject.SetActive(false);
+
+    if (wantedDisplayPanelController != null)
+    {
+        wantedDisplayPanelController.RefreshFromWantedCells(cells);
+        wantedDisplayPanelController.Show();
+    }
+
+    if (onTypedPosterSwapCompleted != null)
+    {
+        onTypedPosterSwapCompleted.Invoke();
+        onTypedPosterSwapCompleted = null;
+    }
+}
+
 public bool CanMoveWantedPoster()
 {
     bool hasOccupiedCell = false;
@@ -720,5 +846,75 @@ private List<int> GetOrthogonalNeighborIndexes(int index)
         neighbors.Add(index + 1);
 
     return neighbors;
+}
+
+public void BeginTypedPosterSwapMode(
+    PranksterType firstType,
+    PranksterType secondType,
+    System.Action onCompleted = null)
+{
+    Debug.Log("TYPED POSTER SWAP MODE STARTED | " + firstType + " <-> " + secondType);
+
+    typedSwapFirstType = firstType;
+    typedSwapSecondType = secondType;
+    onTypedPosterSwapCompleted = onCompleted;
+
+    isTypedPosterSwapMode = true;
+    selectedTypedSwapCell = null;
+
+    gameObject.SetActive(true);
+
+    ClearHighlights();
+
+    foreach (WantedSelectionButton button in selectionButtons)
+    {
+        if (button != null)
+            button.gameObject.SetActive(false);
+    }
+
+    if (postWantedSignsButton != null)
+        postWantedSignsButton.interactable = false;
+
+    if (placementResultText != null)
+        placementResultText.text = "Choose a " + firstType + " or " + secondType + " wanted poster.";
+}
+
+public bool HasWantedPosterOfType(PranksterType type)
+{
+    if (cells == null)
+        return false;
+
+    foreach (WantedBoardCell cell in cells)
+    {
+        if (cell != null &&
+            cell.HasOccupant &&
+            cell.Occupant == type)
+        {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+public bool HasAtLeastTwoWantedPosters()
+{
+    if (cells == null)
+        return false;
+
+    int count = 0;
+
+    foreach (WantedBoardCell cell in cells)
+    {
+        if (cell != null && cell.HasOccupant)
+        {
+            count++;
+
+            if (count >= 2)
+                return true;
+        }
+    }
+
+    return false;
 }
 }

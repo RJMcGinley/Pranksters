@@ -68,42 +68,47 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
     }
 
     private void ShowTooltip()
+{
+    if (titleText != null)
+        titleText.text = tooltipTitle;
+
+    if (descriptionText != null)
     {
-        if (titleText != null)
-            titleText.text = tooltipTitle;
+        int cost = 0;
+        int gain = 0;
+        bool hasCost = false;
+        bool hasGain = false;
 
-        if (descriptionText != null)
+        if (crewSizeButton != null)
         {
-            int cost = 0;
-            int gain = 0;
-            bool hasGain = false;
-
-            if (crewSizeButton != null)
-            {
-                cost = crewSizeButton.GetCurrentCost();
-            }
-            else if (inactiveServicesButton != null)
-            {
-                cost = inactiveServicesButton.GetCurrentCost();
-            }
-            else if (pesterMayorButton != null)
-            {
-                cost = pesterMayorButton.GetCurrentCost();
-                gain = pesterMayorButton.GetCurrentMischiefGain();
-                hasGain = true;
-            }
-
-            descriptionText.text =
-                tooltipDescription +
-                "\n\nCost: " + cost + " Influence";
-
-            if (hasGain)
-                descriptionText.text += "\nGain: " + gain + " Mischief";
+            cost = crewSizeButton.GetCurrentCost();
+            hasCost = true;
+        }
+        else if (inactiveServicesButton != null)
+        {
+            cost = inactiveServicesButton.GetCurrentCost();
+            hasCost = true;
+        }
+        else if (pesterMayorButton != null)
+        {
+            cost = pesterMayorButton.GetCurrentCost();
+            gain = pesterMayorButton.GetCurrentMischiefGain();
+            hasCost = true;
+            hasGain = true;
         }
 
-        if (tooltipPanel != null)
-            tooltipPanel.SetActive(true);
+        descriptionText.text = tooltipDescription;
+
+        if (hasCost)
+            descriptionText.text += "\n\nCost: " + cost + " Influence";
+
+        if (hasGain)
+            descriptionText.text += "\nGain: " + gain + " Mischief";
     }
+
+    if (tooltipPanel != null)
+        tooltipPanel.SetActive(true);
+}
 
     private void HideTooltip()
     {
