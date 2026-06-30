@@ -3,167 +3,176 @@ guid: 536bb0d09ca664c8bbbe321d990990fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6306148242197384475
-    second: ScribeOperative 1_0
+      213: 7054419547564958015
+    second: ScribeOperative_0
   - first:
-      213: -6744335045543602090
-    second: ScribeOperative 1_1
+      213: 5980898032774836485
+    second: ScribeOperative_1
   - first:
-      213: -9035747879736058701
-    second: ScribeOperative 1_2
+      213: 8635839540691326978
+    second: ScribeOperative_2
   - first:
-      213: -8480172857277421637
-    second: ScribeOperative 1_3
+      213: -5021155461340313599
+    second: ScribeOperative_3
   - first:
-      213: -5926513575620109364
-    second: ScribeOperative 1_4
+      213: -6156405686175785814
+    second: ScribeOperative_4
   - first:
-      213: 7738978945470806618
-    second: ScribeOperative 1_5
+      213: 1160881558672092728
+    second: ScribeOperative_5
   - first:
-      213: -8063407181950576105
-    second: ScribeOperative 1_6
+      213: 2998109367332483356
+    second: ScribeOperative_6
   - first:
-      213: 3373462018303030084
-    second: ScribeOperative 1_7
+      213: 4666979618245342817
+    second: ScribeOperative_7
   - first:
-      213: 488330541098272381
-    second: ScribeOperative 1_8
+      213: 5247576533940250600
+    second: ScribeOperative_8
   - first:
-      213: -8275447939520488901
-    second: ScribeOperative 1_9
+      213: 9058620121350243227
+    second: ScribeOperative_9
   - first:
-      213: 900567270076152646
-    second: ScribeOperative 1_10
+      213: 5249589327599678703
+    second: ScribeOperative_10
   - first:
-      213: 6995595305898422423
-    second: ScribeOperative 1_11
+      213: 6166263777112746197
+    second: ScribeOperative_11
   - first:
-      213: -711129408811513476
-    second: ScribeOperative 1_12
+      213: -8830207897113742624
+    second: ScribeOperative_12
   - first:
-      213: 8231054615243024025
-    second: ScribeOperative 1_13
+      213: -4496016497207592869
+    second: ScribeOperative_13
   - first:
-      213: -794472384943854514
-    second: ScribeOperative 1_14
+      213: 7040950673741049724
+    second: ScribeOperative_14
   - first:
-      213: 5304115924874124003
-    second: ScribeOperative 1_15
+      213: 5737427431331936324
+    second: ScribeOperative_15
   - first:
-      213: 3651221357329384689
-    second: ScribeOperative 1_16
+      213: -7032282220682731716
+    second: ScribeOperative_16
   - first:
-      213: -7987763741049517965
-    second: ScribeOperative 1_17
+      213: -7242276844315670969
+    second: ScribeOperative_17
   - first:
-      213: 7355393609056005302
-    second: ScribeOperative 1_18
+      213: 5111705751118427509
+    second: ScribeOperative_18
   - first:
-      213: -3268174479367187942
-    second: ScribeOperative 1_19
+      213: 4490902911468649585
+    second: ScribeOperative_19
   - first:
-      213: -7003623754026323318
-    second: ScribeOperative 1_20
+      213: 6695611990268283853
+    second: ScribeOperative_20
   - first:
-      213: 2412350368293705540
-    second: ScribeOperative 1_21
+      213: -3324770092070128548
+    second: ScribeOperative_21
   - first:
-      213: 1422533337347874949
-    second: ScribeOperative 1_22
+      213: 5215757764526890608
+    second: ScribeOperative_22
   - first:
-      213: 6908344510796393205
-    second: ScribeOperative 1_23
+      213: 5131963911875107674
+    second: ScribeOperative_23
   - first:
-      213: -2947392499677274579
-    second: ScribeOperative 1_24
+      213: 2691114326735326269
+    second: ScribeOperative_24
   - first:
-      213: 4361484399764381414
-    second: ScribeOperative 1_25
+      213: 9068042345688661039
+    second: ScribeOperative_25
   - first:
-      213: -4557635505941707804
-    second: ScribeOperative 1_26
+      213: 3107553464958422420
+    second: ScribeOperative_26
   - first:
-      213: -4148223473526757507
-    second: ScribeOperative 1_27
+      213: -6157924591103094584
+    second: ScribeOperative_27
   - first:
-      213: -5150713482242134755
-    second: ScribeOperative 1_28
+      213: 4066429648382629143
+    second: ScribeOperative_28
   - first:
-      213: 1301057485535768604
-    second: ScribeOperative 1_29
+      213: 2774606433436378975
+    second: ScribeOperative_29
   - first:
-      213: -4526146811240294800
-    second: ScribeOperative 1_30
+      213: 9016245134908574476
+    second: ScribeOperative_30
   - first:
-      213: 8007755118286795427
-    second: ScribeOperative 1_31
+      213: 1290075300437890880
+    second: ScribeOperative_31
   - first:
-      213: -5641359668564051895
-    second: ScribeOperative 1_32
+      213: 5498046066902681610
+    second: ScribeOperative_32
   - first:
-      213: -7910962593980436576
-    second: ScribeOperative 1_33
+      213: 4795458365615210249
+    second: ScribeOperative_33
   - first:
-      213: 6739800674139689197
-    second: ScribeOperative 1_34
+      213: 6591515904506294918
+    second: ScribeOperative_34
   - first:
-      213: -8030805883507439162
-    second: ScribeOperative 1_35
+      213: 7512388401512615394
+    second: ScribeOperative_35
   - first:
-      213: 5037390198641410795
-    second: ScribeOperative 1_36
+      213: 3064688330831169981
+    second: ScribeOperative_36
   - first:
-      213: -2185167874535028405
-    second: ScribeOperative 1_37
+      213: -6156449292518579356
+    second: ScribeOperative_37
   - first:
-      213: 7196364516718025854
-    second: ScribeOperative 1_38
+      213: -9190510682191045396
+    second: ScribeOperative_38
   - first:
-      213: -4681334148306225071
-    second: ScribeOperative 1_39
+      213: 7589358998003620477
+    second: ScribeOperative_39
   - first:
-      213: -7044518819909305168
-    second: ScribeOperative 1_40
+      213: 7488514068209888326
+    second: ScribeOperative_40
   - first:
-      213: -7978350620168153138
-    second: ScribeOperative 1_41
+      213: -2753595403704551620
+    second: ScribeOperative_41
   - first:
-      213: 2484746862633488690
-    second: ScribeOperative 1_42
+      213: -183073362089295860
+    second: ScribeOperative_42
   - first:
-      213: -8700601448470853612
-    second: ScribeOperative 1_43
+      213: -8139701379911367351
+    second: ScribeOperative_43
   - first:
-      213: -5346398200348637355
-    second: ScribeOperative 1_44
+      213: 3033031141098016293
+    second: ScribeOperative_44
   - first:
-      213: 1325953472680826693
-    second: ScribeOperative 1_45
+      213: -2749054021639622056
+    second: ScribeOperative_45
   - first:
-      213: -6329207486554107743
-    second: ScribeOperative 1_46
+      213: -4446287895397807464
+    second: ScribeOperative_46
   - first:
-      213: 1631215690131538903
-    second: ScribeOperative 1_47
+      213: 9116889170419222816
+    second: ScribeOperative_47
   - first:
-      213: 1951318940713861486
-    second: ScribeOperative 1_48
+      213: 2716343243950121732
+    second: ScribeOperative_48
   - first:
-      213: 5071985464222396510
-    second: ScribeOperative 1_49
+      213: 2904257916104962318
+    second: ScribeOperative_49
   - first:
-      213: -6986307626436100324
-    second: ScribeOperative 1_50
+      213: -141009474466616945
+    second: ScribeOperative_50
   - first:
-      213: -9031733766756580603
-    second: ScribeOperative 1_51
+      213: 6579223324738747014
+    second: ScribeOperative_51
   - first:
-      213: 4503670321514023485
-    second: ScribeOperative 1_52
+      213: 8531841944383209645
+    second: ScribeOperative_52
   - first:
-      213: -1765756266268846508
-    second: ScribeOperative 1_53
+      213: -6072713434412228259
+    second: ScribeOperative_53
+  - first:
+      213: -6835077595641644910
+    second: ScribeOperative_54
+  - first:
+      213: -462928158523594048
+    second: ScribeOperative_55
+  - first:
+      213: -5296548624031352873
+    second: ScribeOperative_56
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -207,7 +216,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -285,7 +294,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScribeOperative 1_0
+      name: ScribeOperative_0
       rect:
         serializedVersion: 2
         x: 13
@@ -300,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1d01253a60f38750800000000000000
-      internalID: 6306148242197384475
+      spriteID: f316e2dd33556e160800000000000000
+      internalID: 7054419547564958015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_1
+      name: ScribeOperative_1
       rect:
         serializedVersion: 2
         x: 353
@@ -322,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 658d724520f4762a0800000000000000
-      internalID: -6744335045543602090
+      spriteID: 5017069921b600350800000000000000
+      internalID: 5980898032774836485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_2
+      name: ScribeOperative_2
       rect:
         serializedVersion: 2
         x: 357
@@ -344,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bcd7544d239a9280800000000000000
-      internalID: -9035747879736058701
+      spriteID: 208dd20ce4aa8d770800000000000000
+      internalID: 8635839540691326978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_3
+      name: ScribeOperative_3
       rect:
         serializedVersion: 2
         x: 394
@@ -366,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb7e11857bf505a80800000000000000
-      internalID: -8480172857277421637
+      spriteID: 1084ccc06b5415ab0800000000000000
+      internalID: -5021155461340313599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_4
+      name: ScribeOperative_4
       rect:
         serializedVersion: 2
         x: 178
@@ -388,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccb12a09d4bc0cda0800000000000000
-      internalID: -5926513575620109364
+      spriteID: aac1c4e75ad009aa0800000000000000
+      internalID: -6156405686175785814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_5
+      name: ScribeOperative_5
       rect:
         serializedVersion: 2
         x: 354
@@ -410,36 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5ab3091950666b60800000000000000
-      internalID: 7738978945470806618
+      spriteID: 83ea3f280a74c1010800000000000000
+      internalID: 1160881558672092728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_6
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 931
-        width: 193
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71a9088c3e5091090800000000000000
-      internalID: -8063407181950576105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_7
+      name: ScribeOperative_6
       rect:
         serializedVersion: 2
         x: 20
@@ -454,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 443793015d1f0de20800000000000000
-      internalID: 3373462018303030084
+      spriteID: c11bf9db59c6b9920800000000000000
+      internalID: 2998109367332483356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_8
+      name: ScribeOperative_7
       rect:
         serializedVersion: 2
         x: 30
@@ -476,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7603233a06e6c600800000000000000
-      internalID: 488330541098272381
+      spriteID: 166708f6c3174c040800000000000000
+      internalID: 4666979618245342817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_9
+      name: ScribeOperative_8
       rect:
         serializedVersion: 2
         x: 38
@@ -498,14 +485,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3a94a7b1f3b72d80800000000000000
-      internalID: -8275447939520488901
+      spriteID: 8e72f250e0323d840800000000000000
+      internalID: 5247576533940250600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_10
+      name: ScribeOperative_9
       rect:
         serializedVersion: 2
         x: 49
@@ -520,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64b7b3529257f7c00800000000000000
-      internalID: 900567270076152646
+      spriteID: b938948710fa6bd70800000000000000
+      internalID: 9058620121350243227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_11
+      name: ScribeOperative_10
       rect:
         serializedVersion: 2
         x: 88
@@ -542,14 +529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7903770ddd8551160800000000000000
-      internalID: 6995595305898422423
+      spriteID: fe4b2401ea94ad840800000000000000
+      internalID: 5249589327599678703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_12
+      name: ScribeOperative_11
       rect:
         serializedVersion: 2
         x: 90
@@ -564,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c79c476029f8126f0800000000000000
-      internalID: -711129408811513476
+      spriteID: 5d8e92a2c38f29550800000000000000
+      internalID: 6166263777112746197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_13
+      name: ScribeOperative_12
       rect:
         serializedVersion: 2
         x: 110
@@ -586,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 996666400949a3270800000000000000
-      internalID: 8231054615243024025
+      spriteID: 0e2bfa7b3bcc47580800000000000000
+      internalID: -8830207897113742624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_14
+      name: ScribeOperative_13
       rect:
         serializedVersion: 2
         x: 137
@@ -608,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4c609f339779f4f0800000000000000
-      internalID: -794472384943854514
+      spriteID: b5835a311d0fa91c0800000000000000
+      internalID: -4496016497207592869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_15
+      name: ScribeOperative_14
       rect:
         serializedVersion: 2
         x: 93
@@ -630,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ea5d9dc4510c9940800000000000000
-      internalID: 5304115924874124003
+      spriteID: c7fe16d455b76b160800000000000000
+      internalID: 7040950673741049724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_16
+      name: ScribeOperative_15
       rect:
         serializedVersion: 2
         x: 100
@@ -652,14 +639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f400ffba7ebba230800000000000000
-      internalID: 3651221357329384689
+      spriteID: 4483f11c9df6f9f40800000000000000
+      internalID: 5737427431331936324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_17
+      name: ScribeOperative_16
       rect:
         serializedVersion: 2
         x: 104
@@ -674,14 +661,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3788ff0d233c52190800000000000000
-      internalID: -7987763741049517965
+      spriteID: c3f19e33490586e90800000000000000
+      internalID: -7032282220682731716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_18
+      name: ScribeOperative_17
       rect:
         serializedVersion: 2
         x: 115
@@ -696,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bc26f2548b931660800000000000000
-      internalID: 7355393609056005302
+      spriteID: 7460781d4934e7b90800000000000000
+      internalID: -7242276844315670969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_19
+      name: ScribeOperative_18
       rect:
         serializedVersion: 2
         x: 169
@@ -718,14 +705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a12525560ac15a2d0800000000000000
-      internalID: -3268174479367187942
+      spriteID: 5753cb33c4d60f640800000000000000
+      internalID: 5111705751118427509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_20
+      name: ScribeOperative_19
       rect:
         serializedVersion: 2
         x: 189
@@ -740,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a82f5c07d412ece90800000000000000
-      internalID: -7003623754026323318
+      spriteID: 17c3bd67764e25e30800000000000000
+      internalID: 4490902911468649585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_21
+      name: ScribeOperative_20
       rect:
         serializedVersion: 2
         x: 189
@@ -762,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 447dde7f0e36a7120800000000000000
-      internalID: 2412350368293705540
+      spriteID: dcb89c951a79bec50800000000000000
+      internalID: 6695611990268283853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_22
+      name: ScribeOperative_21
       rect:
         serializedVersion: 2
         x: 172
@@ -784,14 +771,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58065cd888addb310800000000000000
-      internalID: 1422533337347874949
+      spriteID: c543156773b0cd1d0800000000000000
+      internalID: -3324770092070128548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_23
+      name: ScribeOperative_22
       rect:
         serializedVersion: 2
         x: 200
@@ -806,14 +793,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fae9080bbe5fdf50800000000000000
-      internalID: 6908344510796393205
+      spriteID: 07e5c157d08126840800000000000000
+      internalID: 5215757764526890608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_24
+      name: ScribeOperative_23
       rect:
         serializedVersion: 2
         x: 55
@@ -828,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2ed5133322c817d0800000000000000
-      internalID: -2947392499677274579
+      spriteID: a5b907fccf5683740800000000000000
+      internalID: 5131963911875107674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_25
+      name: ScribeOperative_24
       rect:
         serializedVersion: 2
         x: 74
@@ -850,14 +837,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ee1d5514fa178c30800000000000000
-      internalID: 4361484399764381414
+      spriteID: d3c0607d832c85520800000000000000
+      internalID: 2691114326735326269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_26
+      name: ScribeOperative_25
       rect:
         serializedVersion: 2
         x: 80
@@ -872,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e303ac97a600c0c0800000000000000
-      internalID: -4557635505941707804
+      spriteID: f2cf8f6087828dd70800000000000000
+      internalID: 9068042345688661039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_27
+      name: ScribeOperative_26
       rect:
         serializedVersion: 2
         x: 13
@@ -894,14 +881,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d772083aabc8e66c0800000000000000
-      internalID: -4148223473526757507
+      spriteID: 49d816f696f302b20800000000000000
+      internalID: 3107553464958422420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_28
+      name: ScribeOperative_27
       rect:
         serializedVersion: 2
         x: 83
@@ -916,14 +903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1d6427a06df488b0800000000000000
-      internalID: -5150713482242134755
+      spriteID: 8c058a1e538aa8aa0800000000000000
+      internalID: -6157924591103094584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_29
+      name: ScribeOperative_28
       rect:
         serializedVersion: 2
         x: 181
@@ -938,14 +925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c10f8b9c3e84e0210800000000000000
-      internalID: 1301057485535768604
+      spriteID: 71596f7683cde6830800000000000000
+      internalID: 4066429648382629143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_30
+      name: ScribeOperative_29
       rect:
         serializedVersion: 2
         x: 488
@@ -960,14 +947,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07651caa475ef21c0800000000000000
-      internalID: -4526146811240294800
+      spriteID: f572d78c9d1618620800000000000000
+      internalID: 2774606433436378975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_31
+      name: ScribeOperative_30
       rect:
         serializedVersion: 2
         x: 538
@@ -982,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a2fcc96ad2412f60800000000000000
-      internalID: 8007755118286795427
+      spriteID: c0bc11a1e23202d70800000000000000
+      internalID: 9016245134908574476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_32
+      name: ScribeOperative_31
       rect:
         serializedVersion: 2
         x: 259
@@ -1004,14 +991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9483609454dd5b1b0800000000000000
-      internalID: -5641359668564051895
+      spriteID: 0471b1096a447e110800000000000000
+      internalID: 1290075300437890880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_33
+      name: ScribeOperative_32
       rect:
         serializedVersion: 2
         x: 327
@@ -1026,14 +1013,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0afa4625f6d963290800000000000000
-      internalID: -7910962593980436576
+      spriteID: a08c77894cbfc4c40800000000000000
+      internalID: 5498046066902681610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_34
+      name: ScribeOperative_33
       rect:
         serializedVersion: 2
         x: 383
@@ -1048,14 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de0d80f0105988d50800000000000000
-      internalID: 6739800674139689197
+      spriteID: 90f7ba1e9f3ec8240800000000000000
+      internalID: 4795458365615210249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_35
+      name: ScribeOperative_34
       rect:
         serializedVersion: 2
         x: 431
@@ -1070,14 +1057,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c90c651998dc8090800000000000000
-      internalID: -8030805883507439162
+      spriteID: 6827f63bac4c97b50800000000000000
+      internalID: 6591515904506294918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_36
+      name: ScribeOperative_35
       rect:
         serializedVersion: 2
         x: 530
@@ -1092,14 +1079,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be24e0942b768e540800000000000000
-      internalID: 5037390198641410795
+      spriteID: 2ed8ce6e27d514860800000000000000
+      internalID: 7512388401512615394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_37
+      name: ScribeOperative_36
       rect:
         serializedVersion: 2
         x: 562
@@ -1114,14 +1101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b498eb74569bca1e0800000000000000
-      internalID: -2185167874535028405
+      spriteID: db90a7aacc5f78a20800000000000000
+      internalID: 3064688330831169981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_38
+      name: ScribeOperative_37
       rect:
         serializedVersion: 2
         x: 627
@@ -1136,14 +1123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7c1435666f9ed360800000000000000
-      internalID: 7196364516718025854
+      spriteID: 463a9b99cf5ef8aa0800000000000000
+      internalID: -6156449292518579356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_39
+      name: ScribeOperative_38
       rect:
         serializedVersion: 2
         x: 33
@@ -1158,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1583d47156f880fb0800000000000000
-      internalID: -4681334148306225071
+      spriteID: cecd19b5a3fb47080800000000000000
+      internalID: -9190510682191045396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_40
+      name: ScribeOperative_39
       rect:
         serializedVersion: 2
         x: 102
@@ -1180,14 +1167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bc70cde477dc3e90800000000000000
-      internalID: -7044518819909305168
+      spriteID: d7a9bec6cc1d25960800000000000000
+      internalID: 7589358998003620477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_41
+      name: ScribeOperative_40
       rect:
         serializedVersion: 2
         x: 160
@@ -1202,20 +1189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec71c5fc164374190800000000000000
-      internalID: -7978350620168153138
+      spriteID: 64c6a238edb8ce760800000000000000
+      internalID: 7488514068209888326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_42
+      name: ScribeOperative_41
       rect:
         serializedVersion: 2
-        x: 322
-        y: 94
-        width: 95
-        height: 43
+        x: 336
+        y: 114
+        width: 105
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,20 +1211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23119085b189b7220800000000000000
-      internalID: 2484746862633488690
+      spriteID: c37ba0bc19349c9d0800000000000000
+      internalID: -2753595403704551620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_43
+      name: ScribeOperative_42
       rect:
         serializedVersion: 2
-        x: 416
-        y: 94
-        width: 28
-        height: 31
+        x: 441
+        y: 114
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1246,42 +1233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41845a39411414780800000000000000
-      internalID: -8700601448470853612
+      spriteID: c00c4d44fb7957df0800000000000000
+      internalID: -183073362089295860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_44
+      name: ScribeOperative_43
       rect:
         serializedVersion: 2
-        x: 443
-        y: 94
-        width: 37
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5578e68c927cdc5b0800000000000000
-      internalID: -5346398200348637355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_45
-      rect:
-        serializedVersion: 2
-        x: 492
-        y: 94
+        x: 474
+        y: 115
         width: 40
-        height: 41
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1290,18 +1255,172 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54716df78abb66210800000000000000
-      internalID: 1325953472680826693
+      spriteID: 94540a098b8f90f80800000000000000
+      internalID: -8139701379911367351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_46
+      name: ScribeOperative_44
       rect:
         serializedVersion: 2
-        x: 532
-        y: 94
+        x: 529
+        y: 114
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e48ddc0cd771a20800000000000000
+      internalID: 3033031141098016293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 114
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852bfc3bee569d9d0800000000000000
+      internalID: -2749054021639622056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_46
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 115
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ac1b177bc9b42c0800000000000000
+      internalID: -4446287895397807464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_47
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 114
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029817ba562b58e70800000000000000
+      internalID: 9116889170419222816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_48
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 114
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403edafd9c362b520800000000000000
+      internalID: 2716343243950121732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_49
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 114
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e017d81ff2ffd4820800000000000000
+      internalID: 2904257916104962318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_50
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 62
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e37c41a80b0ef0800000000000000
+      internalID: -141009474466616945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_51
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 61
         width: 36
         height: 30
       alignment: 0
@@ -1312,84 +1431,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a0133613532a28a0800000000000000
-      internalID: -6329207486554107743
+      spriteID: 68a740171c81e4b50800000000000000
+      internalID: 6579223324738747014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_47
+      name: ScribeOperative_52
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 62
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da04db67b01376670800000000000000
+      internalID: 8531841944383209645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_53
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 62
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51ed175e4369bba0800000000000000
+      internalID: -6072713434412228259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScribeOperative_54
       rect:
         serializedVersion: 2
         x: 567
-        y: 93
-        width: 22
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d38552170e33a610800000000000000
-      internalID: 1631215690131538903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_48
-      rect:
-        serializedVersion: 2
-        x: 588
-        y: 93
-        width: 23
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e61cdb0fc3a741b10800000000000000
-      internalID: 1951318940713861486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_49
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 94
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e50bbec38ef436640800000000000000
-      internalID: 5071985464222396510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_50
-      rect:
-        serializedVersion: 2
-        x: 641
-        y: 94
+        y: 61
         width: 35
         height: 30
       alignment: 0
@@ -1400,20 +1497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1f7ca29a36ab0f90800000000000000
-      internalID: -6986307626436100324
+      spriteID: 2987c8bf32de421a0800000000000000
+      internalID: -6835077595641644910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_51
+      name: ScribeOperative_55
       rect:
         serializedVersion: 2
-        x: 675
-        y: 94
-        width: 52
-        height: 30
+        x: 601
+        y: 61
+        width: 39
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1422,20 +1519,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 503c296cdf5d8a280800000000000000
-      internalID: -9031733766756580603
+      spriteID: 0caeca2ea495399f0800000000000000
+      internalID: -462928158523594048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScribeOperative 1_52
+      name: ScribeOperative_56
       rect:
         serializedVersion: 2
-        x: 726
-        y: 93
-        width: 29
-        height: 31
+        x: 639
+        y: 46
+        width: 37
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1444,30 +1541,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3a0053cb40408e30800000000000000
-      internalID: 4503670321514023485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ScribeOperative 1_53
-      rect:
-        serializedVersion: 2
-        x: 755
-        y: 93
-        width: 32
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 456102df706ce77e0800000000000000
-      internalID: -1765756266268846508
+      spriteID: 7d7f609b611ee76b0800000000000000
+      internalID: -5296548624031352873
       vertices: []
       indices: 
       edges: []
@@ -1486,60 +1561,63 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScribeOperative 1_0: 6306148242197384475
-      ScribeOperative 1_1: -6744335045543602090
-      ScribeOperative 1_10: 900567270076152646
-      ScribeOperative 1_11: 6995595305898422423
-      ScribeOperative 1_12: -711129408811513476
-      ScribeOperative 1_13: 8231054615243024025
-      ScribeOperative 1_14: -794472384943854514
-      ScribeOperative 1_15: 5304115924874124003
-      ScribeOperative 1_16: 3651221357329384689
-      ScribeOperative 1_17: -7987763741049517965
-      ScribeOperative 1_18: 7355393609056005302
-      ScribeOperative 1_19: -3268174479367187942
-      ScribeOperative 1_2: -9035747879736058701
-      ScribeOperative 1_20: -7003623754026323318
-      ScribeOperative 1_21: 2412350368293705540
-      ScribeOperative 1_22: 1422533337347874949
-      ScribeOperative 1_23: 6908344510796393205
-      ScribeOperative 1_24: -2947392499677274579
-      ScribeOperative 1_25: 4361484399764381414
-      ScribeOperative 1_26: -4557635505941707804
-      ScribeOperative 1_27: -4148223473526757507
-      ScribeOperative 1_28: -5150713482242134755
-      ScribeOperative 1_29: 1301057485535768604
-      ScribeOperative 1_3: -8480172857277421637
-      ScribeOperative 1_30: -4526146811240294800
-      ScribeOperative 1_31: 8007755118286795427
-      ScribeOperative 1_32: -5641359668564051895
-      ScribeOperative 1_33: -7910962593980436576
-      ScribeOperative 1_34: 6739800674139689197
-      ScribeOperative 1_35: -8030805883507439162
-      ScribeOperative 1_36: 5037390198641410795
-      ScribeOperative 1_37: -2185167874535028405
-      ScribeOperative 1_38: 7196364516718025854
-      ScribeOperative 1_39: -4681334148306225071
-      ScribeOperative 1_4: -5926513575620109364
-      ScribeOperative 1_40: -7044518819909305168
-      ScribeOperative 1_41: -7978350620168153138
-      ScribeOperative 1_42: 2484746862633488690
-      ScribeOperative 1_43: -8700601448470853612
-      ScribeOperative 1_44: -5346398200348637355
-      ScribeOperative 1_45: 1325953472680826693
-      ScribeOperative 1_46: -6329207486554107743
-      ScribeOperative 1_47: 1631215690131538903
-      ScribeOperative 1_48: 1951318940713861486
-      ScribeOperative 1_49: 5071985464222396510
-      ScribeOperative 1_5: 7738978945470806618
-      ScribeOperative 1_50: -6986307626436100324
-      ScribeOperative 1_51: -9031733766756580603
-      ScribeOperative 1_52: 4503670321514023485
-      ScribeOperative 1_53: -1765756266268846508
-      ScribeOperative 1_6: -8063407181950576105
-      ScribeOperative 1_7: 3373462018303030084
-      ScribeOperative 1_8: 488330541098272381
-      ScribeOperative 1_9: -8275447939520488901
+      ScribeOperative_0: 7054419547564958015
+      ScribeOperative_1: 5980898032774836485
+      ScribeOperative_10: 5249589327599678703
+      ScribeOperative_11: 6166263777112746197
+      ScribeOperative_12: -8830207897113742624
+      ScribeOperative_13: -4496016497207592869
+      ScribeOperative_14: 7040950673741049724
+      ScribeOperative_15: 5737427431331936324
+      ScribeOperative_16: -7032282220682731716
+      ScribeOperative_17: -7242276844315670969
+      ScribeOperative_18: 5111705751118427509
+      ScribeOperative_19: 4490902911468649585
+      ScribeOperative_2: 8635839540691326978
+      ScribeOperative_20: 6695611990268283853
+      ScribeOperative_21: -3324770092070128548
+      ScribeOperative_22: 5215757764526890608
+      ScribeOperative_23: 5131963911875107674
+      ScribeOperative_24: 2691114326735326269
+      ScribeOperative_25: 9068042345688661039
+      ScribeOperative_26: 3107553464958422420
+      ScribeOperative_27: -6157924591103094584
+      ScribeOperative_28: 4066429648382629143
+      ScribeOperative_29: 2774606433436378975
+      ScribeOperative_3: -5021155461340313599
+      ScribeOperative_30: 9016245134908574476
+      ScribeOperative_31: 1290075300437890880
+      ScribeOperative_32: 5498046066902681610
+      ScribeOperative_33: 4795458365615210249
+      ScribeOperative_34: 6591515904506294918
+      ScribeOperative_35: 7512388401512615394
+      ScribeOperative_36: 3064688330831169981
+      ScribeOperative_37: -6156449292518579356
+      ScribeOperative_38: -9190510682191045396
+      ScribeOperative_39: 7589358998003620477
+      ScribeOperative_4: -6156405686175785814
+      ScribeOperative_40: 7488514068209888326
+      ScribeOperative_41: -2753595403704551620
+      ScribeOperative_42: -183073362089295860
+      ScribeOperative_43: -8139701379911367351
+      ScribeOperative_44: 3033031141098016293
+      ScribeOperative_45: -2749054021639622056
+      ScribeOperative_46: -4446287895397807464
+      ScribeOperative_47: 9116889170419222816
+      ScribeOperative_48: 2716343243950121732
+      ScribeOperative_49: 2904257916104962318
+      ScribeOperative_5: 1160881558672092728
+      ScribeOperative_50: -141009474466616945
+      ScribeOperative_51: 6579223324738747014
+      ScribeOperative_52: 8531841944383209645
+      ScribeOperative_53: -6072713434412228259
+      ScribeOperative_54: -6835077595641644910
+      ScribeOperative_55: -462928158523594048
+      ScribeOperative_56: -5296548624031352873
+      ScribeOperative_6: 2998109367332483356
+      ScribeOperative_7: 4666979618245342817
+      ScribeOperative_8: 5247576533940250600
+      ScribeOperative_9: 9058620121350243227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -71,12 +71,6 @@ TextureImporter:
   - first:
       213: 547182285690887800
     second: WizardCrewleader_22
-  - first:
-      213: 8941501450960863100
-    second: WizardCrewleader_23
-  - first:
-      213: 6897920631418998312
-    second: WizardCrewleader_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,7 +114,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -202,9 +196,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 794
-        width: 322
-        height: 315
+        y: 793
+        width: 321
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,9 +284,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 294
-        width: 640
-        height: 643
+        y: 305
+        width: 635
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +305,10 @@ TextureImporter:
       name: WizardCrewleader_5
       rect:
         serializedVersion: 2
-        x: 577
-        y: 924
-        width: 192
-        height: 121
+        x: 37
+        y: 700
+        width: 23
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +327,10 @@ TextureImporter:
       name: WizardCrewleader_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 700
-        width: 23
-        height: 91
+        x: 148
+        y: 213
+        width: 62
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +349,10 @@ TextureImporter:
       name: WizardCrewleader_7
       rect:
         serializedVersion: 2
-        x: 148
-        y: 213
-        width: 62
-        height: 66
+        x: 215
+        y: 215
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,10 +371,10 @@ TextureImporter:
       name: WizardCrewleader_8
       rect:
         serializedVersion: 2
-        x: 215
-        y: 215
+        x: 259
+        y: 213
         width: 44
-        height: 41
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +393,10 @@ TextureImporter:
       name: WizardCrewleader_9
       rect:
         serializedVersion: 2
-        x: 259
-        y: 213
-        width: 44
-        height: 43
+        x: 303
+        y: 214
+        width: 76
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +415,10 @@ TextureImporter:
       name: WizardCrewleader_10
       rect:
         serializedVersion: 2
-        x: 303
-        y: 214
-        width: 76
-        height: 40
+        x: 400
+        y: 215
+        width: 59
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +437,10 @@ TextureImporter:
       name: WizardCrewleader_11
       rect:
         serializedVersion: 2
-        x: 400
-        y: 215
-        width: 59
-        height: 64
+        x: 461
+        y: 213
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +459,10 @@ TextureImporter:
       name: WizardCrewleader_12
       rect:
         serializedVersion: 2
-        x: 461
-        y: 213
-        width: 43
-        height: 43
+        x: 509
+        y: 214
+        width: 50
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +481,10 @@ TextureImporter:
       name: WizardCrewleader_13
       rect:
         serializedVersion: 2
-        x: 509
+        x: 561
         y: 214
-        width: 50
-        height: 42
+        width: 54
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,10 +503,10 @@ TextureImporter:
       name: WizardCrewleader_14
       rect:
         serializedVersion: 2
-        x: 561
-        y: 214
-        width: 54
-        height: 66
+        x: 617
+        y: 213
+        width: 44
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +525,10 @@ TextureImporter:
       name: WizardCrewleader_15
       rect:
         serializedVersion: 2
-        x: 617
-        y: 213
+        x: 663
+        y: 215
         width: 44
-        height: 43
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +547,10 @@ TextureImporter:
       name: WizardCrewleader_16
       rect:
         serializedVersion: 2
-        x: 663
-        y: 215
-        width: 44
-        height: 41
+        x: 122
+        y: 96
+        width: 58
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +569,10 @@ TextureImporter:
       name: WizardCrewleader_17
       rect:
         serializedVersion: 2
-        x: 122
-        y: 96
-        width: 58
-        height: 57
+        x: 192
+        y: 90
+        width: 37
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,10 +591,10 @@ TextureImporter:
       name: WizardCrewleader_18
       rect:
         serializedVersion: 2
-        x: 192
-        y: 90
-        width: 37
-        height: 71
+        x: 262
+        y: 87
+        width: 77
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,10 +613,10 @@ TextureImporter:
       name: WizardCrewleader_19
       rect:
         serializedVersion: 2
-        x: 262
-        y: 87
-        width: 77
-        height: 79
+        x: 365
+        y: 90
+        width: 138
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,10 +635,10 @@ TextureImporter:
       name: WizardCrewleader_20
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
-        height: 62
+        x: 501
+        y: 90
+        width: 41
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -663,10 +657,10 @@ TextureImporter:
       name: WizardCrewleader_21
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 541
+        y: 90
+        width: 53
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +679,10 @@ TextureImporter:
       name: WizardCrewleader_22
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 621
+        y: 80
+        width: 149
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,50 +693,6 @@ TextureImporter:
       bones: []
       spriteID: 87eddf5c36bf79700800000000000000
       internalID: 547182285690887800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardCrewleader_23
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7f792f0238961c70800000000000000
-      internalID: 8941501450960863100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardCrewleader_24
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 93
-        width: 134
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82e419c74465abf50800000000000000
-      internalID: 6897920631418998312
       vertices: []
       indices: 
       edges: []
@@ -777,8 +727,6 @@ TextureImporter:
       WizardCrewleader_20: 8618043066987046122
       WizardCrewleader_21: 3075983838041763069
       WizardCrewleader_22: 547182285690887800
-      WizardCrewleader_23: 8941501450960863100
-      WizardCrewleader_24: 6897920631418998312
       WizardCrewleader_3: 964577951903728046
       WizardCrewleader_4: -1831002485641463474
       WizardCrewleader_5: 4708633866130917299

@@ -1,70 +1,64 @@
 fileFormatVersion: 2
-guid: c9142843da041484ca207ef16c059ef9
+guid: 44779fcdf81034bb9a9ccdf360469e00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8040936140441610700
-    second: WizardExpert_0
+      213: -1509391298230221478
+    second: WiazardExpert_0
   - first:
-      213: -7379532178349104496
-    second: WizardExpert_1
+      213: 3833810659089268803
+    second: WiazardExpert_1
   - first:
-      213: 4546742090282609457
-    second: WizardExpert_2
+      213: 5019523788865558792
+    second: WiazardExpert_2
   - first:
-      213: -2267606426045082450
-    second: WizardExpert_3
+      213: 6783229502061651896
+    second: WiazardExpert_3
   - first:
-      213: -1298442497135931872
-    second: WizardExpert_4
+      213: -3968572063192700448
+    second: WiazardExpert_4
   - first:
-      213: 2865113407375918494
-    second: WizardExpert_5
+      213: -3039932341114136813
+    second: WiazardExpert_5
   - first:
-      213: -4620414479545242600
-    second: WizardExpert_6
+      213: -6928602128858289174
+    second: WiazardExpert_6
   - first:
-      213: -8065897303631331329
-    second: WizardExpert_7
+      213: -5067924953391757910
+    second: WiazardExpert_7
   - first:
-      213: -3053937416767691863
-    second: WizardExpert_8
+      213: 7549145864764821869
+    second: WiazardExpert_8
   - first:
-      213: 1009741594978474021
-    second: WizardExpert_9
+      213: 8603968424512096102
+    second: WiazardExpert_9
   - first:
-      213: -1656894907420082606
-    second: WizardExpert_10
+      213: -2763082323283902712
+    second: WiazardExpert_10
   - first:
-      213: 804554159862606447
-    second: WizardExpert_11
+      213: -730857606963810109
+    second: WiazardExpert_11
   - first:
-      213: -3327175228665185612
-    second: WizardExpert_12
+      213: -8444552038649853778
+    second: WiazardExpert_12
   - first:
-      213: 7397874027941650298
-    second: WizardExpert_13
+      213: 9180841293421666335
+    second: WiazardExpert_13
   - first:
-      213: -4842045940042584932
-    second: WizardExpert_14
+      213: -7036585482384946773
+    second: WiazardExpert_14
   - first:
-      213: 5990089028441714330
-    second: WizardExpert_15
+      213: -8342863650384082189
+    second: WiazardExpert_15
   - first:
-      213: 8983037173964225790
-    second: WizardExpert_16
+      213: -9030553604065542595
+    second: WiazardExpert_16
   - first:
-      213: -2586964894792369492
-    second: WizardExpert_17
+      213: -8161309635203270052
+    second: WiazardExpert_17
   - first:
-      213: -1480407518834330922
-    second: WizardExpert_18
-  - first:
-      213: 2131436429114513249
-    second: WizardExpert_19
-  - first:
-      213: 4870517572645378393
-    second: WizardExpert_20
+      213: 2287686278101870616
+    second: WiazardExpert_18
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,7 +102,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -186,13 +180,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WizardExpert_0
+      name: WiazardExpert_0
       rect:
         serializedVersion: 2
         x: 19
-        y: 794
-        width: 322
-        height: 315
+        y: 793
+        width: 321
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc96f9821d4279f60800000000000000
-      internalID: 8040936140441610700
+      spriteID: a550ce18c909d0be0800000000000000
+      internalID: -1509391298230221478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_1
+      name: WiazardExpert_1
       rect:
         serializedVersion: 2
         x: 37
@@ -223,14 +217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 092efec0592a69990800000000000000
-      internalID: -7379532178349104496
+      spriteID: 3404f176b7e643530800000000000000
+      internalID: 3833810659089268803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_2
+      name: WiazardExpert_2
       rect:
         serializedVersion: 2
         x: 73
@@ -245,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13bac9867d5491f30800000000000000
-      internalID: 4546742090282609457
+      spriteID: 80954f89a4ee8a540800000000000000
+      internalID: 5019523788865558792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_3
+      name: WiazardExpert_3
       rect:
         serializedVersion: 2
         x: 37
@@ -267,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea4903548f7d780e0800000000000000
-      internalID: -2267606426045082450
+      spriteID: 8b7a5540b4fd22e50800000000000000
+      internalID: 6783229502061651896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_4
+      name: WiazardExpert_4
       rect:
         serializedVersion: 2
         x: 63
-        y: 294
-        width: 640
-        height: 643
+        y: 305
+        width: 635
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,36 +283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02e01f4ad610bfde0800000000000000
-      internalID: -1298442497135931872
+      spriteID: 0e92cd32cbccce8c0800000000000000
+      internalID: -3968572063192700448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_5
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 924
-        width: 192
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e95c9d7c67de2c720800000000000000
-      internalID: 2865113407375918494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardExpert_6
+      name: WiazardExpert_5
       rect:
         serializedVersion: 2
         x: 37
@@ -333,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81c62a7c28df0efb0800000000000000
-      internalID: -4620414479545242600
+      spriteID: 3179baa54adffc5d0800000000000000
+      internalID: -3039932341114136813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_7
+      name: WiazardExpert_6
       rect:
         serializedVersion: 2
         x: 282
@@ -355,14 +327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffff546232d201090800000000000000
-      internalID: -8065897303631331329
+      spriteID: aebe267b219a8df90800000000000000
+      internalID: -6928602128858289174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_8
+      name: WiazardExpert_7
       rect:
         serializedVersion: 2
         x: 341
@@ -377,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a3a943991c3e95d0800000000000000
-      internalID: -3053937416767691863
+      spriteID: aa50fbc1b1d1ba9b0800000000000000
+      internalID: -5067924953391757910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_9
+      name: WiazardExpert_8
       rect:
         serializedVersion: 2
         x: 391
@@ -399,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 528d0ab71a2530e00800000000000000
-      internalID: 1009741594978474021
+      spriteID: d619aeaba24f3c860800000000000000
+      internalID: 7549145864764821869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_10
+      name: WiazardExpert_9
       rect:
         serializedVersion: 2
         x: 451
@@ -421,14 +393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25e721d3cd68109e0800000000000000
-      internalID: -1656894907420082606
+      spriteID: 66788b142bf676770800000000000000
+      internalID: 8603968424512096102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_11
+      name: WiazardExpert_10
       rect:
         serializedVersion: 2
         x: 497
@@ -443,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6a6c25eeb95a2b00800000000000000
-      internalID: 804554159862606447
+      spriteID: 80f7083344f87a9d0800000000000000
+      internalID: -2763082323283902712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_12
+      name: WiazardExpert_11
       rect:
         serializedVersion: 2
         x: 539
@@ -465,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4babee5f1cf73d1d0800000000000000
-      internalID: -3327175228665185612
+      spriteID: 3c0b783f0e87bd5f0800000000000000
+      internalID: -730857606963810109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_13
+      name: WiazardExpert_12
       rect:
         serializedVersion: 2
         x: 127
@@ -487,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7fdc889b378aa660800000000000000
-      internalID: 7397874027941650298
+      spriteID: ea889f879aceeca80800000000000000
+      internalID: -8444552038649853778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_14
+      name: WiazardExpert_13
       rect:
         serializedVersion: 2
         x: 190
@@ -509,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9ca3ad2fd89dccb0800000000000000
-      internalID: -4842045940042584932
+      spriteID: f10e2a1a386e86f70800000000000000
+      internalID: 9180841293421666335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_15
+      name: WiazardExpert_14
       rect:
         serializedVersion: 2
         x: 262
@@ -531,19 +503,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9eab390c32112350800000000000000
-      internalID: 5990089028441714330
+      spriteID: ba946c209c6095e90800000000000000
+      internalID: -7036585482384946773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_16
+      name: WiazardExpert_15
       rect:
         serializedVersion: 2
-        x: 362
-        y: 95
-        width: 87
+        x: 365
+        y: 90
+        width: 138
         height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -553,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efc344e27b82aac70800000000000000
-      internalID: 8983037173964225790
+      spriteID: 3fa865d56b1383c80800000000000000
+      internalID: -8342863650384082189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_17
+      name: WiazardExpert_16
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
-        width: 54
-        height: 62
+        x: 501
+        y: 90
+        width: 41
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caabe7f6221491cd0800000000000000
-      internalID: -2586964894792369492
+      spriteID: d3ebc80d7570da280800000000000000
+      internalID: -9030553604065542595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_18
+      name: WiazardExpert_17
       rect:
         serializedVersion: 2
-        x: 504
-        y: 94
-        width: 42
-        height: 42
+        x: 541
+        y: 90
+        width: 53
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d2ff058439847be0800000000000000
-      internalID: -1480407518834330922
+      spriteID: c5a7cb390243dbe80800000000000000
+      internalID: -8161309635203270052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardExpert_19
+      name: WiazardExpert_18
       rect:
         serializedVersion: 2
-        x: 548
-        y: 96
-        width: 54
-        height: 40
+        x: 621
+        y: 80
+        width: 149
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,30 +591,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16792b2b322649d10800000000000000
-      internalID: 2131436429114513249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WizardExpert_20
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 93
-        width: 134
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95953dd5ded879340800000000000000
-      internalID: 4870517572645378393
+      spriteID: 8182ccb9c8e7fbf10800000000000000
+      internalID: 2287686278101870616
       vertices: []
       indices: 
       edges: []
@@ -661,27 +611,25 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WizardExpert_0: 8040936140441610700
-      WizardExpert_1: -7379532178349104496
-      WizardExpert_10: -1656894907420082606
-      WizardExpert_11: 804554159862606447
-      WizardExpert_12: -3327175228665185612
-      WizardExpert_13: 7397874027941650298
-      WizardExpert_14: -4842045940042584932
-      WizardExpert_15: 5990089028441714330
-      WizardExpert_16: 8983037173964225790
-      WizardExpert_17: -2586964894792369492
-      WizardExpert_18: -1480407518834330922
-      WizardExpert_19: 2131436429114513249
-      WizardExpert_2: 4546742090282609457
-      WizardExpert_20: 4870517572645378393
-      WizardExpert_3: -2267606426045082450
-      WizardExpert_4: -1298442497135931872
-      WizardExpert_5: 2865113407375918494
-      WizardExpert_6: -4620414479545242600
-      WizardExpert_7: -8065897303631331329
-      WizardExpert_8: -3053937416767691863
-      WizardExpert_9: 1009741594978474021
+      WiazardExpert_0: -1509391298230221478
+      WiazardExpert_1: 3833810659089268803
+      WiazardExpert_10: -2763082323283902712
+      WiazardExpert_11: -730857606963810109
+      WiazardExpert_12: -8444552038649853778
+      WiazardExpert_13: 9180841293421666335
+      WiazardExpert_14: -7036585482384946773
+      WiazardExpert_15: -8342863650384082189
+      WiazardExpert_16: -9030553604065542595
+      WiazardExpert_17: -8161309635203270052
+      WiazardExpert_18: 2287686278101870616
+      WiazardExpert_2: 5019523788865558792
+      WiazardExpert_3: 6783229502061651896
+      WiazardExpert_4: -3968572063192700448
+      WiazardExpert_5: -3039932341114136813
+      WiazardExpert_6: -6928602128858289174
+      WiazardExpert_7: -5067924953391757910
+      WiazardExpert_8: 7549145864764821869
+      WiazardExpert_9: 8603968424512096102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
