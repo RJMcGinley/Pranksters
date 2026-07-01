@@ -6,7 +6,13 @@ using TMPro;
 using UnityEngine.Video;
 using System.IO;
 
-
+public enum GameLossReason
+{
+    None,
+    CannotPostWantedRecruits,
+    WantedBoardFull,
+    JailFull
+}
 
 
 public class DeckManager : MonoBehaviour
@@ -59,6 +65,7 @@ public class DeckManager : MonoBehaviour
 
     [Header("End Game Scoring Panel")]
     public GameObject endGameScoringPanel;
+    [SerializeField] private TextMeshProUGUI playerLossCondition;
 
     public GameObject player1Row;
     public GameObject player2Row;
@@ -134,6 +141,8 @@ public class DeckManager : MonoBehaviour
     private int pendingRoundDealerIndex = -1;
     private int pendingRoundFirstPlayerIndex = -1;
     private bool isEndOfRoundPending = false;
+
+    private GameLossReason currentLossReason = GameLossReason.None;
 
     private PranksterDeckEntry swapWantedFirstCard;
     private PranksterDeckEntry swapWantedSecondCard;
@@ -2369,6 +2378,14 @@ void ShowGameOverPanel()
     PopulateFinalScoreRow(player3NameText, player3PrankPointsText, player3FavorPointsText, player3TotalPointsText);
 
     PopulateLifetimeNotorietyRow(player4NameText, player4PrankPointsText, player4FavorPointsText, player4TotalPointsText);
+
+    if (playerLossCondition != null)
+    {
+        string lossText = GetLossConditionText();
+
+        playerLossCondition.gameObject.SetActive(!string.IsNullOrEmpty(lossText));
+        playerLossCondition.text = lossText;
+    }
 }
 
 void PopulateScoreRow(
@@ -6645,6 +6662,8 @@ void TriggerWantedBoardLossEndGame(string reason)
 {
     Debug.Log("TriggerWantedBoardLossEndGame START | " + reason);
 
+    currentLossReason = GetLossReasonFromText(reason);
+
     gameOver = true;
 
     LogSeparator("WANTED BOARD LOSS");
@@ -7029,6 +7048,38 @@ public void FinalizeCurrentPlayerHandReorder()
 {
     if (handDisplay != null)
         handDisplay.ShowCurrentPlayerHand();
+}
+
+GameLossReason GetLossReasonFromText(string reason)
+{
+    if (reason == "Jail is full.")
+        return GameLossReason.JailFull;
+
+    if (reason == "Wanted Board is full.")
+        return GameLossReason.WantedBoardFull;
+
+    if (reason == "No valid placement has open spaces.")
+        return GameLossReason.CannotPostWantedRecruits;
+
+    return GameLossReason.None;
+}
+
+string GetLossConditionText()
+{
+    switch (currentLossReason)
+    {
+        case GameLossReason.CannotPostWantedRecruits:
+            return "Unable to post the recruits from your final prank.";
+
+        case GameLossReason.WantedBoardFull:
+            return "The Wanted Board is full.";
+
+        case GameLossReason.JailFull:
+            return "The jail has reached capacity.";
+
+        default:
+            return "";
+    }
 }
 }
 

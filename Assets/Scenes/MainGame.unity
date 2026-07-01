@@ -9710,7 +9710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &82453205
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18538,7 +18538,7 @@ GameObject:
   - component: {fileID: 234573281}
   - component: {fileID: 234573280}
   m_Layer: 0
-  m_Name: UnlockDescriptionText
+  m_Name: 'WhyYouLost:'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18560,7 +18560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37, y: -171}
+  m_AnchoredPosition: {x: -346, y: -202}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &234573280
@@ -18583,7 +18583,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cost is now 8 influence
+  m_text: 'Why You Lost:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -18616,9 +18616,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_fontStyle: 16
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -39574,7 +39574,7 @@ GameObject:
   - component: {fileID: 472384365}
   - component: {fileID: 472384364}
   m_Layer: 0
-  m_Name: NewUnlockText
+  m_Name: PlayerLossCondition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39596,8 +39596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -472, y: -168}
-  m_SizeDelta: {x: 500, y: 50}
+  m_AnchoredPosition: {x: 362, y: -199}
+  m_SizeDelta: {x: 1300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472384364
 MonoBehaviour:
@@ -39619,7 +39619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'New Unlock:'
+  m_text: Unable to post the recruits from your final prank.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39652,9 +39652,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_fontStyle: 4
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -67608,8 +67608,8 @@ RectTransform:
   - {fileID: 1278789357}
   - {fileID: 390714668}
   - {fileID: 82453205}
-  - {fileID: 472384363}
   - {fileID: 234573279}
+  - {fileID: 472384363}
   - {fileID: 1150714581}
   - {fileID: 1589181322}
   m_Father: {fileID: 1987753538}
@@ -134706,6 +134706,7 @@ MonoBehaviour:
   prankPreviewPanel: {fileID: 596161780}
   endGameCanvas: {fileID: 1987753537}
   endGameScoringPanel: {fileID: 745065199}
+  playerLossCondition: {fileID: 472384364}
   player1Row: {fileID: 1552121592}
   player2Row: {fileID: 401831766}
   player3Row: {fileID: 1278789356}
@@ -139272,7 +139273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 456, y: -185}
+  m_AnchoredPosition: {x: 478, y: -327}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589181323
@@ -176828,7 +176829,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1987753538
 RectTransform:
   m_ObjectHideFlags: 0
