@@ -158,6 +158,7 @@ public class DeckManager : MonoBehaviour
     private bool selectingInactiveInfluenceService = false;
     private bool viewingInactiveInfluenceServicePanel = false;
 
+    [SerializeField] private GameObject spendInfluenceButton_DistractBarnaby;
     [SerializeField] private LifetimeNotorietyCrewSizeButton lifetimeCrewSizeButton;
     [SerializeField] private SpendInfluenceButton_UseInactiveServices inactiveServicesButton;
     [SerializeField] private LifetimeNotorietyPesterMayorButton pesterMayorButton;
@@ -3694,6 +3695,9 @@ public void OnRulesPanelOpened()
         opponentPreviewPanel.Hide();
     }
 
+    if (spendInfluenceButton_DistractBarnaby != null)
+        spendInfluenceButton_DistractBarnaby.SetActive(false);
+
     SetAllPrankHighlightsVisible(false);
     HideOpponentPanelHighlights();
     RefreshAllHighlights(); // ✅ correct call
@@ -3702,6 +3706,8 @@ public void OnRulesPanelOpened()
 public void OnRulesPanelClosed()
 {
     isRulesPanelOpen = false;
+    if (spendInfluenceButton_DistractBarnaby != null)
+        spendInfluenceButton_DistractBarnaby.SetActive(true);
 
     RefreshAllHighlights();
 }
