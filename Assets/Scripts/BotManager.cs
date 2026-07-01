@@ -24,6 +24,8 @@ public class BotManager : MonoBehaviour
     public NextPlayerPanelController nextPlayerPanelController;
     private bool botActionHandledTurnFlow = false;
     private string pendingCompletedPrankMessage = "";
+    private PranksterDeckEntry lastCardBarnabyAcquired;
+    private int lastCardBarnabyAcquiredProtectionTurns = 0;
 
     Player GetCurrentPlayer()
     {
@@ -256,6 +258,10 @@ public class BotManager : MonoBehaviour
     Debug.Log("BOT: Taking discard for " + targetProgress + "-of-4 progress");
 
     deckManager.BotDrawFromDiscard();
+    Player player = GetCurrentPlayer();
+
+    if (player != null && player.hand.Count > 0)
+        RememberBarnabyAcquiredCard(player.hand[player.hand.Count - 1]);
 
     string discardMessage;
 
@@ -442,6 +448,7 @@ return true;
     for (int i = 0; i < player.hand.Count; i++)
     {
         PranksterDeckEntry card = player.hand[i];
+        
         int favorValue = deckManager.CalculateTotalFavorForCard(card);
 
         bool supportsThree = CardSupportsThreeOfFour(i);
@@ -449,6 +456,11 @@ return true;
         bool hasSameTypeBaseAlternative = HasSameTypeBaseAlternative(player, i);
 
         int score = 0;
+
+        if (card == lastCardBarnabyAcquired && lastCardBarnabyAcquiredProtectionTurns > 0)
+            {
+                score -= 1000;
+            }
 
         // Protect upgraded cards when a base card of the same prankster type is available.
         if (card.tier > 0 && hasSameTypeBaseAlternative && !IsDiscardRewardCard(card))
@@ -730,6 +742,8 @@ bool TrySwapForFavorCardForExactProgress(int targetProgress, out string actionMe
 
     bool success = deckManager.BotSwapWithOpponentFavor(opponentIndex, opponentFavorIndex, handIndexToGive);
 
+    RememberBarnabyAcquiredCard(gainedCard);
+
     if (!success)
         return false;
 
@@ -904,6 +918,7 @@ IEnumerator BotTurnSequence()
         yield break;
     }
 
+    DecayBarnabyAcquiredCardProtection();
     deckManager.BotEndPlayerTurn();
 }
 
@@ -1202,6 +1217,21 @@ public void ShowPendingCompletedPrankMessageAndWaitForReady()
     }
 
     botActionHandledTurnFlow = true;
+}
+
+void RememberBarnabyAcquiredCard(PranksterDeckEntry card)
+{
+    lastCardBarnabyAcquired = card;
+    lastCardBarnabyAcquiredProtectionTurns = 1;
+}
+
+void DecayBarnabyAcquiredCardProtection()
+{
+    if (lastCardBarnabyAcquiredProtectionTurns > 0)
+        lastCardBarnabyAcquiredProtectionTurns--;
+
+    if (lastCardBarnabyAcquiredProtectionTurns <= 0)
+        lastCardBarnabyAcquired = null;
 }
 
 }
