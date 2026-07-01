@@ -91,7 +91,9 @@ public class ShopScreenController : MonoBehaviour
         freeVersionAccess = SaveSystem.GetFreeVersionUnlockLimit();
         fullRosterUnlocked = data.fullGamePurchased;
 
-        if (data.hasUnlockedTwinMayor)
+        if (data.hasUnlockedTripletMayor)
+            mayorBreakingPoint = 250;
+        else if (data.hasUnlockedTwinMayor)
             mayorBreakingPoint = 200;
         else
             mayorBreakingPoint = 150;

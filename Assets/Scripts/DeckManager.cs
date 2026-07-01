@@ -1847,31 +1847,43 @@ void TriggerEndGameScoring()
     else
         Debug.LogWarning("finalCompletedPrank is NULL");
 
-    Debug.Log("Calculating final scores...");
-
     CalculateFinalScores();
-    Debug.Log("CalculateFinalScores COMPLETE");
-
     ApplyPlayer1MatchResultsToSave();
-    Debug.Log("PLAYER 1 PROGRESS AUTOSAVED");
 
     int combinedMischiefScore = 0;
 
     for (int i = 0; i < turnManager.players.Count; i++)
-    {
         combinedMischiefScore += turnManager.players[i].renownPoints;
-    }
 
     PlayerProgressSave saveData = SaveSystem.Load();
-    Debug.Log("TWIN MAYOR UNLOCKED = " + saveData.hasUnlockedTwinMayor);
 
-    if (combinedMischiefScore >= 180)
+    if (saveData == null)
+    {
+        Debug.LogWarning("Save data was null. Showing final results.");
+        ShowFinalResultsUI();
+        return;
+    }
+
+    Debug.Log("COMBINED MISCHIEF SCORE = " + combinedMischiefScore);
+    Debug.Log("TWIN MAYOR UNLOCKED = " + saveData.hasUnlockedTwinMayor);
+    Debug.Log("TRIPLET MAYOR UNLOCKED = " + saveData.hasUnlockedTripletMayor);
+
+    if (combinedMischiefScore >= 250)
     {
         StartCoroutine(PlayWinCutsceneThenShowResults("WinScene.mp4"));
         return;
     }
 
-    if (combinedMischiefScore >= 150 && saveData != null && !saveData.hasUnlockedTwinMayor)
+    if (combinedMischiefScore >= 200 && !saveData.hasUnlockedTripletMayor)
+    {
+        saveData.hasUnlockedTripletMayor = true;
+        SaveSystem.Save(saveData);
+
+        StartCoroutine(PlayWinCutsceneThenShowResults("FalseWin2.mp4"));
+        return;
+    }
+
+    if (combinedMischiefScore >= 150 && !saveData.hasUnlockedTwinMayor)
     {
         saveData.hasUnlockedTwinMayor = true;
         SaveSystem.Save(saveData);

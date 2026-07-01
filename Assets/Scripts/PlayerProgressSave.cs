@@ -17,6 +17,7 @@ public class PlayerProgressSave
     public int highestSingleGameScore;
     public bool fullGamePurchased = false;
     public bool hasUnlockedTwinMayor = false;
+    public bool hasUnlockedTripletMayor = false;
 
     public List<PrankCompletionEntry> prankCompletions = new List<PrankCompletionEntry>();
     public List<FavorPointsEntry> favorPointsByType = new List<FavorPointsEntry>();
