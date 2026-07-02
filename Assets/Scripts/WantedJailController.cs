@@ -6,6 +6,7 @@ public class WantedJailController : MonoBehaviour
 {
     [Header("Jail Slots")]
     public Image[] jailSlotImages;
+    public Sprite emptyJailCellSprite;
 
     [Header("Jailed Recruit Sprites")]
     public Sprite thiefInJailCell;
@@ -14,6 +15,7 @@ public class WantedJailController : MonoBehaviour
     public Sprite beastmasterInJailCell;
     public Sprite laborerInJailCell;
     public Sprite scribeInJailCell;
+    
 
     private int jailedRecruitCount = 0;
 
@@ -54,9 +56,9 @@ public class WantedJailController : MonoBehaviour
         {
             if (image != null)
             {
-                image.sprite = null;
-                image.enabled = false;
-                image.gameObject.SetActive(false);
+                image.gameObject.SetActive(true);
+                image.sprite = emptyJailCellSprite;
+                image.enabled = true;
             }
         }
     }
