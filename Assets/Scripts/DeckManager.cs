@@ -193,6 +193,12 @@ public class DeckManager : MonoBehaviour
         return wantedBoardOpen;
     }
 
+    public bool IsPrankCompletionShowcasePlaying()
+    {
+        return prankCompletionShowcasePanel != null &&
+            prankCompletionShowcasePanel.IsShowing();
+    }
+
     public bool IsGameOver()
     {
         return gameOver;

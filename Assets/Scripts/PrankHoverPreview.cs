@@ -40,6 +40,9 @@ public class PrankHoverPreview : MonoBehaviour
         if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
             return true;
 
+        if (deckManager != null && deckManager.IsPrankCompletionShowcasePlaying())
+            return true;
+
         return false;
     }
 

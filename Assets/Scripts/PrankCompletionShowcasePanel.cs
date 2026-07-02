@@ -79,4 +79,9 @@ public class PrankCompletionShowcasePanel : MonoBehaviour
         rootObject.transform.localScale = originalScale;
         rootObject.SetActive(false);
     }
+
+    public bool IsShowing()
+    {
+        return rootObject != null && rootObject.activeSelf;
+    }
 }
