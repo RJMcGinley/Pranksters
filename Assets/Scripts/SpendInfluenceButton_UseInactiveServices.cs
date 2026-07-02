@@ -29,7 +29,7 @@ public class SpendInfluenceButton_UseInactiveServices : MonoBehaviour
         if (costText != null)
             costText.text = "-" + cost;
 
-        bool unlocked = true;
+        bool unlocked = SaveSystem.HasInactiveInfluenceServiceUnlock();
 
         buttonRoot.SetActive(unlocked);
 
@@ -42,8 +42,7 @@ public class SpendInfluenceButton_UseInactiveServices : MonoBehaviour
             if (player != null)
             {
                 canUse =
-                    !player.isBot &&
-                    !deckManager.HasCurrentPlayerTakenActionThisTurn() &&
+                    deckManager.CanCurrentPlayerUseSpendInfluenceActions() &&
                     player.favorPoints >= cost &&
                     deckManager.HasInactiveServiceOptionsThisRound();
             }

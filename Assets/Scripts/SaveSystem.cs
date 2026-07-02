@@ -1023,13 +1023,23 @@ public static int GetLifetimeCrewSizeUpgradeCost()
     if (data == null)
         return 10;
 
-    if (data.lifetimeFinalScorePoints >= 2000)
+    if (data.lifetimeFinalScorePoints >= 1250)
         return 6;
 
-    if (data.lifetimeFinalScorePoints >= 1000)
+    if (data.lifetimeFinalScorePoints >= 750)
         return 8;
 
     return 10;
+}
+
+public static bool HasInactiveInfluenceServiceUnlock()
+{
+    PlayerProgressSave data = Load();
+
+    if (data == null)
+        return false;
+
+    return data.lifetimeFinalScorePoints >= 100;
 }
 
 public static int GetInactiveInfluenceServiceCost()
@@ -1042,7 +1052,7 @@ public static int GetInactiveInfluenceServiceCost()
     if (data.lifetimeFinalScorePoints >= 1500)
         return 3;
 
-    if (data.lifetimeFinalScorePoints >= 500)
+    if (data.lifetimeFinalScorePoints >= 1000)
         return 4;
 
     return 5;
@@ -1058,7 +1068,7 @@ public static bool HasPesterMayorUnlock()
     if (data == null)
         return false;
 
-    return data.lifetimeFinalScorePoints >= 750;
+    return data.lifetimeFinalScorePoints >= 350;
 }
 
 public static bool HasSwapWantedPostersUnlock()
@@ -1078,6 +1088,6 @@ public static bool HasDistractBarnabyUnlock()
     if (data == null)
         return false;
 
-    return data.lifetimeFinalScorePoints >= 350;
+    return data.lifetimeFinalScorePoints >= 500;
 }
 }

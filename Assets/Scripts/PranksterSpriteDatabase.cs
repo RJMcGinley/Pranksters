@@ -196,9 +196,9 @@ public static string GetFavorTierFlavorText(int tier)
 {
     switch (tier)
     {
-        case 1: return "+1 Influence when recruit is Outsourced";
-        case 2: return "+2 Influence when recruit is Outsourced";
-        case 3: return "+4 Influence when recruit is Outsourced";
+        case 1: return "+1 Influence when recruit is Sent to Barnaby";
+        case 2: return "+2 Influence when recruit is Sent to Barnaby";
+        case 3: return "+4 Influence when recruit is Sent to Barnaby";
         default: return "";
     }
 }

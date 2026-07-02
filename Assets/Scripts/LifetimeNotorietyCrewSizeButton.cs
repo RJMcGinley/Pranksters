@@ -42,8 +42,7 @@ public class LifetimeNotorietyCrewSizeButton : MonoBehaviour
             if (player != null)
             {
                 canUse =
-                    !player.isBot &&
-                    !deckManager.HasCurrentPlayerTakenActionThisTurn() &&
+                    deckManager.CanCurrentPlayerUseSpendInfluenceActions() &&
                     !player.lifetimeNotorietyCrewUpgradeUsedThisGame &&
                     player.favorPoints >= cost;
             }

@@ -66,6 +66,7 @@ public class DeckManager : MonoBehaviour
     [Header("End Game Scoring Panel")]
     public GameObject endGameScoringPanel;
     [SerializeField] private TextMeshProUGUI playerLossCondition;
+    [SerializeField] private TextMeshProUGUI whyYouLost;
 
     public GameObject player1Row;
     public GameObject player2Row;
@@ -2386,6 +2387,9 @@ void ShowGameOverPanel()
         playerLossCondition.gameObject.SetActive(!string.IsNullOrEmpty(lossText));
         playerLossCondition.text = lossText;
     }
+
+    if (whyYouLost != null)
+        whyYouLost.gameObject.SetActive(!string.IsNullOrEmpty(GetLossConditionText()));
 }
 
 void PopulateScoreRow(
@@ -6418,13 +6422,7 @@ public bool CanCurrentPlayerPesterMayor()
 {
     Player player = GetCurrentPlayerForUI();
 
-    if (player == null)
-        return false;
-
-    if (player.isBot)
-        return false;
-
-    if (hasTakenActionThisTurn)
+    if (!CanCurrentPlayerUseSpendInfluenceActions())
         return false;
 
     if (!SaveSystem.HasPesterMayorUnlock())
@@ -6818,13 +6816,7 @@ public bool CanCurrentPlayerStartSwapWantedPostersAction()
 {
     Player player = GetCurrentPlayerForUI();
 
-    if (player == null)
-        return false;
-
-    if (player.isBot)
-        return false;
-
-    if (hasTakenActionThisTurn)
+    if (!CanCurrentPlayerUseSpendInfluenceActions())
         return false;
 
     if (!SaveSystem.HasSwapWantedPostersUnlock())
@@ -6863,16 +6855,10 @@ public bool CanCurrentPlayerDistractBarnaby()
 {
     Player player = GetCurrentPlayerForUI();
 
-    if (player == null)
-        return false;
-
-    if (player.isBot)
+    if (!CanCurrentPlayerUseSpendInfluenceActions())
         return false;
 
     if (!SaveSystem.HasDistractBarnabyUnlock())
-        return false;
-
-    if (hasTakenActionThisTurn)
         return false;
 
     if (barnabyDistractedTurnsRemaining > 0)
@@ -7080,6 +7066,31 @@ string GetLossConditionText()
         default:
             return "";
     }
+}
+
+public bool CanCurrentPlayerUseSpendInfluenceActions()
+{
+    Player player = GetCurrentPlayerForUI();
+
+    if (player == null)
+        return false;
+
+    if (player.isBot)
+        return false;
+
+    if (hasTakenActionThisTurn)
+        return false;
+
+    if (player.hand.Count > player.maxHandSize)
+        return false;
+
+    if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
+        return false;
+
+    if (pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard)
+        return false;
+
+    return true;
 }
 }
 

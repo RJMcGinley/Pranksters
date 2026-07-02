@@ -35,15 +35,17 @@ public class StatisticsUI : MonoBehaviour
     [SerializeField] private float serviceX = 930f;
 
     private string GetTitleFromHighScore(int highScore)
-    {
-        if (highScore >= 150) return "Master of Mayhem";
-        if (highScore >= 125) return "Chaos Artist";
-        if (highScore >= 100) return "Prankster";
-        if (highScore >= 75) return "Mischief Maker";
-        if (highScore >= 50) return "Trickster";
-        if (highScore >= 25) return "Jester";
-        return "Clown";
-    }
+{
+    if (highScore >= 250) return "Savior of Bumblebrook";
+    if (highScore >= 200) return "Legend of Bumblebrook";
+    if (highScore >= 150) return "Master of Mayhem";
+    if (highScore >= 125) return "Chaos Artist";
+    if (highScore >= 100) return "Prankster";
+    if (highScore >= 75) return "Mischief Maker";
+    if (highScore >= 50) return "Trickster";
+    if (highScore >= 25) return "Jester";
+    return "Clown";
+}
 
     private void OnEnable()
     {
