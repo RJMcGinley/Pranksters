@@ -7,6 +7,7 @@ public class HandCardDragReorder : MonoBehaviour
 
     private bool isDragging;
     private bool hasMovedEnoughToDrag;
+    public SettingsMenuController settingsMenuController;
 
     private Vector3 originalLocalPosition;
     private Vector3 originalScale;
@@ -36,6 +37,9 @@ public class HandCardDragReorder : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (settingsMenuController != null &&
+            settingsMenuController.IsPanelBlockingInteraction())
+            return;
         if (deckManager == null || !deckManager.CanReorderHand())
             return;
 

@@ -10,6 +10,7 @@ public class SettingsMenuController : MonoBehaviour
     public Slider musicVolumeSlider;
     public Slider sfxVolumeSlider;
     public WhoopieToggleButton whoopieToggleButton;
+    public GameObject handDisplayObject;
 
     public void OpenSettings()
     {
@@ -19,6 +20,9 @@ public class SettingsMenuController : MonoBehaviour
         if (settingsPanel != null)
             settingsPanel.SetActive(true);
 
+        if (handDisplayObject != null)
+            handDisplayObject.SetActive(false);
+
         if (deckManager != null)
             deckManager.RefreshAllHighlights();
     }
@@ -27,6 +31,9 @@ public class SettingsMenuController : MonoBehaviour
     {
         if (settingsPanel != null)
             settingsPanel.SetActive(false);
+
+        if (handDisplayObject != null)
+            handDisplayObject.SetActive(true);
 
         if (deckManager != null)
             deckManager.RefreshAllHighlights();

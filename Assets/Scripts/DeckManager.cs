@@ -188,6 +188,18 @@ public class DeckManager : MonoBehaviour
     private bool wantedBoardOpen = false;
     public WantedJailController wantedJailController;
 
+    [SerializeField] private bool prankCompletionShowcaseEnabled = true;
+
+    public bool IsPrankCompletionShowcaseEnabled()
+    {
+        return prankCompletionShowcaseEnabled;
+    }
+
+    public void SetPrankCompletionShowcaseEnabled(bool enabled)
+    {
+        prankCompletionShowcaseEnabled = enabled;
+    }
+
     public bool IsWantedBoardOpen()
     {
         return wantedBoardOpen;
@@ -635,10 +647,17 @@ public class DeckManager : MonoBehaviour
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
 
-    float showcaseDuration = 1.75f;
+    bool showCompletedPranks = IsPrankCompletionShowcaseEnabled();
+
+    float showcaseDuration = showCompletedPranks ? 1.75f : 0.75f;
 
     if (AudioManager.Instance != null)
-        showcaseDuration = AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
+    {
+        if (showCompletedPranks)
+            showcaseDuration = AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
+        else
+            AudioManager.Instance.PlayCompletePrank();
+    }
 
     if (wantedJailController != null)
         wantedJailController.HideJailDisplay();
@@ -649,7 +668,7 @@ public class DeckManager : MonoBehaviour
         wantedBoardPanelController.wantedDisplayPanelController.Hide();
     }
 
-    if (prankCompletionShowcasePanel != null)
+    if (showCompletedPranks && prankCompletionShowcasePanel != null)
         prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
 
     if (HasReachedMayorBreakingPoint())

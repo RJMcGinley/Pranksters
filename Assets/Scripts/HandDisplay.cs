@@ -6,6 +6,7 @@ public class HandDisplay : MonoBehaviour
     public GameObject pranksterCardPrefab;
     public Transform currentPlayerHandArea;
     public DeckManager deckManager;
+    public SettingsMenuController settingsMenuController;
 
     // BASE SPRITES ONLY
     public Sprite beastMasterSprite;
@@ -353,6 +354,7 @@ public class HandDisplay : MonoBehaviour
         if (drag != null)
         {
             drag.deckManager = deckManager;
+            drag.settingsMenuController = settingsMenuController;
             drag.cardIndex = index;
         }
     }
