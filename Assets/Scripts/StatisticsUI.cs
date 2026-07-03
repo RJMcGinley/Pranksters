@@ -15,6 +15,7 @@ public class StatisticsUI : MonoBehaviour
     [SerializeField] private TMP_Text totalFavorText;
     [SerializeField] private TMP_Text lifetimeScoreText;
     [SerializeField] private TMP_Text highestScoreText;
+    [SerializeField] private TMP_Text nextLifetimeUnlockText;
 
     [Header("Rows")]
     [SerializeField] private Transform rowsContainer;
@@ -86,6 +87,10 @@ public class StatisticsUI : MonoBehaviour
 
         if (lifetimeScoreText != null)
             lifetimeScoreText.text = $"Lifetime Notoriety: {data.lifetimeFinalScorePoints}";
+
+        if (nextLifetimeUnlockText != null)
+            nextLifetimeUnlockText.text =
+                GetNextLifetimeUnlockText(data.lifetimeFinalScorePoints);
 
         if (highestScoreText != null)
             highestScoreText.text = $"Highest Single Game Score: {data.highestSingleGameScore}";
@@ -240,4 +245,34 @@ public class StatisticsUI : MonoBehaviour
 
         return type;
     }
+
+    private string GetNextLifetimeUnlockText(int lifetimeNotoriety)
+{
+    if (lifetimeNotoriety < 100)
+        return "Next Unlock: 100 - Use Inactive Services";
+
+    if (lifetimeNotoriety < 200)
+        return "Next Unlock: 200 - Swap Wanted Posters";
+
+    if (lifetimeNotoriety < 350)
+        return "Next Unlock: 350 - Pester Mayor";
+
+    if (lifetimeNotoriety < 500)
+        return "Next Unlock: 500 - Distract Barnaby";
+
+    if (lifetimeNotoriety < 750)
+        return "Next Unlock: 750 - Crew Size Discount";
+
+    if (lifetimeNotoriety < 1000)
+        return "Next Unlock: 1000 - Inactive Services Discount";
+
+    if (lifetimeNotoriety < 1250)
+        return "Next Unlock: 1250 - Crew Size Discount";
+
+    if (lifetimeNotoriety < 1500)
+        return "Next Unlock: 1500 - Inactive Services Discount";
+
+    return "All Lifetime Unlocks Earned";
+}
+
 }

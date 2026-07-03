@@ -15,6 +15,7 @@ public class RulesPanelController : MonoBehaviour
     public GameObject pageBarnaby;
     public GameObject pageAvailableServices;
     public GameObject pageSpendInfluence;
+    public RulesPanelActionButtonsPageShowHideActions actionButtonsPageController;
 
     private GameObject currentPage;
 
@@ -90,6 +91,9 @@ public class RulesPanelController : MonoBehaviour
     public void RulesShowSpendInfluencePage()
     {
         ShowOnly(pageSpendInfluence);
+
+        if (actionButtonsPageController != null)
+            actionButtonsPageController.Refresh();
     }
 
     private void ShowOnly(GameObject pageToShow)
