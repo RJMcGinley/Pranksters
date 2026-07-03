@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01ae5af7514d94b82b407b25c6ff3d0f
+guid: dbccac6477aa642c78e11e409eb2956e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4346799654354807457
-    second: SettingsIconButton_0
+      213: 4257121794998375354
+    second: Red 'X'_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SettingsIconButton_0
+      name: Red 'X'_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 146
-        width: 1033
-        height: 1020
+        x: 602
+        y: 250
+        width: 470
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1aaeb9b514fe25c30800000000000000
-      internalID: 4346799654354807457
+      spriteID: ab39374a7b5541b30800000000000000
+      internalID: 4257121794998375354
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SettingsIconButton_0: 4346799654354807457
+      Red 'X'_0: 4257121794998375354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,6 +15,8 @@ public class RulesPanelController : MonoBehaviour
     public GameObject pageBarnaby;
     public GameObject pageAvailableServices;
     public GameObject pageSpendInfluence;
+    public GameObject pageJailbreak;
+    public GameObject handDisplayObject;
     public RulesPanelActionButtonsPageShowHideActions actionButtonsPageController;
 
     private GameObject currentPage;
@@ -29,6 +31,9 @@ public class RulesPanelController : MonoBehaviour
 
         bool willOpen = !rulesPanel.activeSelf;
         rulesPanel.SetActive(willOpen);
+
+        if (handDisplayObject != null)
+            handDisplayObject.SetActive(!willOpen);
 
         if (willOpen)
         {
@@ -51,6 +56,9 @@ public class RulesPanelController : MonoBehaviour
 
         if (deckManager != null)
             deckManager.OnRulesPanelClosed();
+
+        if (handDisplayObject != null)
+            handDisplayObject.SetActive(true);
     }
 
     public void RulesShowObjectivePage()
@@ -109,6 +117,7 @@ public class RulesPanelController : MonoBehaviour
         SetPageActive(pageBarnaby, pageToShow);
         SetPageActive(pageAvailableServices, pageToShow);
         SetPageActive(pageSpendInfluence, pageToShow);
+        SetPageActive(pageJailbreak, pageToShow);
 
         currentPage = pageToShow;
     }
@@ -119,5 +128,10 @@ public class RulesPanelController : MonoBehaviour
             return;
 
         page.SetActive(page == pageToShow);
+    }
+
+    public void RulesShowJailbreakPage()
+    {
+        ShowOnly(pageJailbreak);
     }
 }

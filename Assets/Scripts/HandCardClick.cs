@@ -24,6 +24,9 @@ public class HandCardClick : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if (deckManager != null && deckManager.IsRulesPanelOpen())
+            return;
+
         if (deckManager == null)
             return;
 
@@ -81,6 +84,9 @@ public class HandCardClick : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (deckManager != null && deckManager.IsRulesPanelOpen())
+            return;
+
         if (deckManager == null)
             return;
 

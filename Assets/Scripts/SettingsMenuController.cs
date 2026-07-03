@@ -11,6 +11,7 @@ public class SettingsMenuController : MonoBehaviour
     public Slider sfxVolumeSlider;
     public WhoopieToggleButton whoopieToggleButton;
     public GameObject handDisplayObject;
+    public WantedJailController wantedJailController;
 
     public void OpenSettings()
     {
@@ -23,6 +24,9 @@ public class SettingsMenuController : MonoBehaviour
         if (handDisplayObject != null)
             handDisplayObject.SetActive(false);
 
+        if (wantedJailController != null)
+            wantedJailController.HideJailDisplay();
+
         if (deckManager != null)
             deckManager.RefreshAllHighlights();
     }
@@ -34,6 +38,9 @@ public class SettingsMenuController : MonoBehaviour
 
         if (handDisplayObject != null)
             handDisplayObject.SetActive(true);
+
+        if (wantedJailController != null)
+            wantedJailController.ShowJailDisplay();
 
         if (deckManager != null)
             deckManager.RefreshAllHighlights();
