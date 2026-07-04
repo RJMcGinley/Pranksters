@@ -5102,6 +5102,18 @@ private IEnumerator ActivateLaborerImmediateActionSequence(bool ignoreServiceReq
 
     RefreshAllDisplays();
 
+    if (player.hand.Count > player.maxHandSize)
+    {
+        pendingChoice = PendingChoiceType.ChooseDiscardFromHand;
+        hasTakenActionThisTurn = true;
+
+        RefreshHandVisuals();
+
+        Debug.Log("LABORER ACTION: Player must discard down to max hand size.");
+
+        yield break;
+    }
+
     FinishActionAndWaitForEndTurn();
 }
 
