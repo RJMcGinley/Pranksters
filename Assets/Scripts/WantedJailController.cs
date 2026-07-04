@@ -28,10 +28,9 @@ public class WantedJailController : MonoBehaviour
 
     public void AddJailedRecruit(PranksterType type)
     {
-        if (jailedRecruitTypes.Count >= jailSlotImages.Length)
+        if (jailSlotImages == null || jailSlotImages.Length == 0)
         {
-            Debug.Log("WANTED JAIL FULL | Cannot add more jailed recruits.");
-            return;
+            Debug.LogWarning("WANTED JAIL DISPLAY HAS NO SLOTS ASSIGNED.");
         }
 
         jailedRecruitTypes.Add(type);

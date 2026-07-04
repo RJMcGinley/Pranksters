@@ -27,6 +27,9 @@ public static class PranksterUnlockRules
         if (entry == null)
             return 0;
 
+        if (entry.category != PranksterUnlockCategory.PrankCompletion)
+            return 0;
+
         return GetRenownBonusForTier(entry.tier);
     }
 

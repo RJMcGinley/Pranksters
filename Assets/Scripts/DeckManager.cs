@@ -37,6 +37,8 @@ public class DeckManager : MonoBehaviour
     public float prankCardSpacing = 2.0f;
     public Vector3 prankCardScale = new Vector3(0.28f, 0.28f, 1f);
     public TextMeshProUGUI turnText;
+    [SerializeField] private MayorFrustrationController mayorFrustrationController;
+    private int currentMayorBreakingPoint;
 
     public GameObject filledMarker1;
     public GameObject filledMarker2;
@@ -2278,6 +2280,8 @@ public void RefreshAllDisplays()
 
     RefreshDrawDeckCounter();
     RefreshDiscardPileCounter();
+
+    RefreshMayorFrustrationDisplay();
 }
 
 void UpdateCurrentPlayerStatsDisplay()
@@ -2619,6 +2623,9 @@ public void BeginNewGame()
     Debug.Log("Prank deck size: " + prankDeck.Count);
 
     Debug.Log("BeginNewGame | about to start BeginNewGameSequence coroutine");
+
+    currentMayorBreakingPoint = DetermineCurrentMayorBreakingPoint();
+    RefreshMayorFrustrationDisplay();
 
     StartCoroutine(BeginNewGameSequence());
 }
@@ -6566,13 +6573,7 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
 
 bool HasReachedMayorBreakingPoint()
 {
-    PlayerProgressSave saveData = SaveSystem.Load();
-
-    int threshold = 150;
-
-    if (saveData != null && saveData.hasUnlockedTwinMayor)
-        threshold = 200;
-
+    int threshold = GetCurrentMayorBreakingPoint();
     int combinedMischief = GetCombinedMischiefScore();
 
     Debug.Log("MAYOR BREAKING POINT CHECK | Mischief = " +
@@ -7117,5 +7118,45 @@ public bool CanCurrentPlayerUseSpendInfluenceActions()
 
     return true;
 }
+
+int DetermineCurrentMayorBreakingPoint()
+{
+    PlayerProgressSave saveData = SaveSystem.Load();
+
+    if (saveData != null)
+    {
+        if (saveData.hasUnlockedTripletMayor)
+            return 250;
+
+        if (saveData.hasUnlockedTwinMayor)
+            return 200;
+    }
+
+    return 150;
+}
+
+void RefreshMayorFrustrationDisplay()
+{
+    if (mayorFrustrationController == null)
+        return;
+
+    int combinedMischief = GetCombinedMischiefScore();
+    int breakingPoint = GetCurrentMayorBreakingPoint();
+
+    Debug.Log("MAYOR FRUSTRATION REFRESH | combined=" + combinedMischief +
+              " | player=" + turnManager.players[0].renownPoints +
+              " | barnaby=" + turnManager.players[1].renownPoints +
+              " | breakingPoint=" + breakingPoint);
+
+    mayorFrustrationController.Refresh(
+        combinedMischief,
+        breakingPoint);
+}
+
+int GetCurrentMayorBreakingPoint()
+{
+    return currentMayorBreakingPoint;
+}
+
 }
 

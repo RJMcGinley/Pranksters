@@ -82,6 +82,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip[] pesterMayorMiddleClips;
     [SerializeField] private AudioClip[] pesterMayorLateClips;
 
+    public AudioClip mayorsGrowingFrustrationClip;
+
     
 
     void Awake()
@@ -518,6 +520,12 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     public void PlayRulesPageTurn()
     {
         PlaySFX(rulesPageTurn);
+    }
+
+    public void PlayMayorsGrowingFrustration()
+    {
+        if (mayorsGrowingFrustrationClip != null && sfxSource != null)
+            sfxSource.PlayOneShot(mayorsGrowingFrustrationClip);
     }
 
 }
