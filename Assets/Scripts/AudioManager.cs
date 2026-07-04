@@ -58,6 +58,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip availableServiceScoringActionClip;
     public AudioClip spendInfluenceClip;
     public AudioClip jailDoorClosingClip;
+    [SerializeField] private AudioClip cardLandingOnTable;
+    [SerializeField] private AudioClip rulesPageTurn;
 
     [Header("Fart Sounds")]
     public AudioClip[] fartSounds;
@@ -506,6 +508,16 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     public void PlayJailDoorClosing()
     {
         PlaySFX(jailDoorClosingClip);
+    }
+
+    public void PlayCardLandingOnTable()
+    {
+        PlaySFX(cardLandingOnTable);
+    }
+
+    public void PlayRulesPageTurn()
+    {
+        PlaySFX(rulesPageTurn);
     }
 
 }

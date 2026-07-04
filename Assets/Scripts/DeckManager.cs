@@ -3095,7 +3095,7 @@ IEnumerator RefillHandToFourOneCardAtATime(float delayBetweenCards = 0.3f)
 
 IEnumerator RefillHandToMaxOneCardAtATime(float delayBetweenCards = 0.3f)
 {
-    while (GetCurrentPlayer().hand.Count < GetCurrentPlayer().maxHandSize)
+    while (GetCurrentPlayer().hand.Count < GetCurrentPlayer().maxHandSize + 1)
     {
         int handCountBefore = GetCurrentPlayer().hand.Count;
 

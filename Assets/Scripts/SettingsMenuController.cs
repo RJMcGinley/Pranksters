@@ -19,7 +19,12 @@ public class SettingsMenuController : MonoBehaviour
             return;
 
         if (settingsPanel != null)
+        {
             settingsPanel.SetActive(true);
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayUIClick();
+        }
 
         if (handDisplayObject != null)
             handDisplayObject.SetActive(false);
@@ -34,7 +39,12 @@ public class SettingsMenuController : MonoBehaviour
     public void CloseSettings()
     {
         if (settingsPanel != null)
+        {
             settingsPanel.SetActive(false);
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayUIClick();
+        }
 
         if (handDisplayObject != null)
             handDisplayObject.SetActive(true);

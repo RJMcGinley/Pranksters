@@ -32,6 +32,9 @@ public class RulesPanelController : MonoBehaviour
         bool willOpen = !rulesPanel.activeSelf;
         rulesPanel.SetActive(willOpen);
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUIClick();
+
         if (handDisplayObject != null)
             handDisplayObject.SetActive(!willOpen);
 
@@ -53,6 +56,9 @@ public class RulesPanelController : MonoBehaviour
     {
         if (rulesPanel != null)
             rulesPanel.SetActive(false);
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayUIClick();
 
         if (deckManager != null)
             deckManager.OnRulesPanelClosed();
@@ -104,10 +110,17 @@ public class RulesPanelController : MonoBehaviour
             actionButtonsPageController.Refresh();
     }
 
+    public void RulesShowJailbreakPage()
+    {
+        ShowOnly(pageJailbreak);
+    }
+
     private void ShowOnly(GameObject pageToShow)
     {
         if (pageToShow == null)
             return;
+
+        bool isChangingPage = currentPage != null && currentPage != pageToShow;
 
         SetPageActive(pageObjective, pageToShow);
         SetPageActive(pageIcons, pageToShow);
@@ -120,6 +133,9 @@ public class RulesPanelController : MonoBehaviour
         SetPageActive(pageJailbreak, pageToShow);
 
         currentPage = pageToShow;
+
+        if (isChangingPage && AudioManager.Instance != null)
+            AudioManager.Instance.PlayRulesPageTurn();
     }
 
     private void SetPageActive(GameObject page, GameObject pageToShow)
@@ -128,10 +144,5 @@ public class RulesPanelController : MonoBehaviour
             return;
 
         page.SetActive(page == pageToShow);
-    }
-
-    public void RulesShowJailbreakPage()
-    {
-        ShowOnly(pageJailbreak);
     }
 }

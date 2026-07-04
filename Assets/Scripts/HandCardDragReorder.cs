@@ -113,6 +113,9 @@ public class HandCardDragReorder : MonoBehaviour
 
         deckManager.FinalizeCurrentPlayerHandReorder();
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayCardLandingOnTable();
+
         draggedCard = null;
         currentTargetIndex = -1;
     }
