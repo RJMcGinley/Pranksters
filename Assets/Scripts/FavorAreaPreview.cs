@@ -6,6 +6,11 @@ public class FavorAreaPreview : MonoBehaviour
     public Transform cardSpawnPoint;
     public GameObject cardPrefab;
 
+    [Header("Preview Layout")]
+    [SerializeField] private Vector2 previewSize = new Vector2(220f, 320f);
+    [SerializeField] private Vector2 previewOffset = Vector2.zero;
+    [SerializeField] private Vector3 previewScale = Vector3.one;
+
     private GameObject spawnedCard;
 
     void Start()
@@ -36,9 +41,9 @@ public class FavorAreaPreview : MonoBehaviour
             rt.anchorMin = new Vector2(0.5f, 0.5f);
             rt.anchorMax = new Vector2(0.5f, 0.5f);
             rt.pivot = new Vector2(0.5f, 0.5f);
-            rt.sizeDelta = new Vector2(220f, 320f);
-            rt.anchoredPosition = Vector2.zero;
-            rt.localScale = Vector3.one;
+            rt.sizeDelta = previewSize;
+            rt.anchoredPosition = previewOffset;
+            rt.localScale = previewScale;
         }
         else
         {

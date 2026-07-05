@@ -8196,7 +8196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -38974,6 +38974,7 @@ RectTransform:
   - {fileID: 927626833}
   - {fileID: 90510407}
   - {fileID: 1494165748}
+  - {fileID: 1200776244}
   - {fileID: 1919477282}
   - {fileID: 36702302}
   - {fileID: 323132666}
@@ -38997,7 +38998,6 @@ RectTransform:
   - {fileID: 413285255}
   - {fileID: 620344936}
   - {fileID: 480614155}
-  - {fileID: 1200776244}
   - {fileID: 1817406962}
   - {fileID: 725345814}
   - {fileID: 1108917694}
@@ -85009,7 +85009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -104412,6 +104412,9 @@ MonoBehaviour:
   previewPanel: {fileID: 1096487608}
   cardSpawnPoint: {fileID: 459453699}
   cardPrefab: {fileID: 5671718104291496341, guid: e322ba8e687814b028bde1f7e06eeae1, type: 3}
+  previewSize: {x: 220, y: 320}
+  previewOffset: {x: -10, y: 2}
+  previewScale: {x: 0.87, y: 0.77, z: 1}
 --- !u!114 &1206852689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115094,7 +115097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1406660704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -115721,7 +115724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

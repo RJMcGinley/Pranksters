@@ -11,7 +11,7 @@ public class SendRecruitToBarnabyHelper : MonoBehaviour
     private Vector3 targetPosition;
     private Coroutine replayCoroutine;
 
-    void Start()
+    void Awake()
     {
         helperTransform = transform;
 
