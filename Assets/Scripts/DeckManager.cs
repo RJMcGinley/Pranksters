@@ -118,6 +118,7 @@ public class DeckManager : MonoBehaviour
 
     int selectedSwapPlayerIndex = -1;
     int selectedSwapFavorIndex = -1;
+    [SerializeField] private HideoutController hideoutController;
 
     public OpponentPreviewPanel opponentPreviewPanel;
     public NextPlayerPanelController nextPlayerPanelController;
@@ -934,6 +935,9 @@ void FinishActionAndWaitForEndTurn()
     hasTakenActionThisTurn = true;
     pendingChoice = PendingChoiceType.None;
 
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Hide();
+
     RefreshAllDisplays();
     ShowActivePrankCards();
     RefreshAllHighlights();
@@ -1684,6 +1688,10 @@ void ResolveSwapHandChoice(int handIndex)
 
     if (handIndex < 0 || handIndex >= originalHandSnapshot.Count)
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
+
         Debug.Log("That hand card is not a valid swap choice. Choose one of your original hand cards.");
         ShowCurrentPlayerHand();
         return;
@@ -1788,6 +1796,10 @@ public void ResolveSwapTargetChoice(int favorSlotIndex)
 
     pendingChoice = PendingChoiceType.ChooseSwapHandCard;
 
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Show("Choose a recruit from your hand\nTo replace this recruit.");
+    
+
     LogSeparator("CHOOSE HAND CARD TO SWAP");
 
     Debug.Log("You selected Player " + (selectedSwapPlayerIndex + 1) +
@@ -1862,6 +1874,41 @@ void ExchangeFavorCards(int targetPlayerIndex, int targetFavorIndex)
     ShowAllFavorAreas();
 
     FinishActionAndWaitForEndTurn();
+}
+
+public void StartSwapFromHideoutSlot(int targetPlayerIndex, int favorSlotIndex)
+{
+    if (pendingChoice == PendingChoiceType.ChooseSwapHandCard &&
+        selectedSwapPlayerIndex == targetPlayerIndex &&
+        selectedSwapFavorIndex == favorSlotIndex)
+    {
+        CancelSwapPreview();
+        return;
+    }
+
+    if (!CanStartSwapFavor())
+    {
+        Debug.Log("Cannot start hideout swap right now.");
+        return;
+    }
+
+    if (targetPlayerIndex < 0 || targetPlayerIndex >= turnManager.players.Count)
+        return;
+
+    Player targetPlayer = turnManager.players[targetPlayerIndex];
+
+    if (favorSlotIndex < 0 || favorSlotIndex >= targetPlayer.favorArea.Count)
+        return;
+
+    selectedSwapHandIndex = -1;
+    selectedSwapPlayerIndex = targetPlayerIndex;
+    selectedSwapFavorIndex = -1;
+
+    pendingChoice = PendingChoiceType.ChooseSwapTarget;
+
+    ResolveSwapTargetChoice(favorSlotIndex);
+
+    Debug.Log("Choose a card in hand to swap into your hideout.");
 }
 
 void TriggerEndGameScoring()
@@ -2676,6 +2723,9 @@ public void RefreshAllHighlights()
     SetAllPrankHighlightsVisible(false);
     HideOpponentPanelHighlights();
 
+    if (hideoutController != null)
+        hideoutController.SetAllSlotHighlightsVisible(false);
+
     if (isRulesPanelOpen)
     {
         Debug.Log("RefreshAllHighlights blocked because rules panel is active.");
@@ -2735,6 +2785,9 @@ void RefreshActionHighlights()
 
     if (opponentDisplayManager != null)
         opponentDisplayManager.RefreshSwapHighlights();
+
+    if (hideoutController != null)
+        hideoutController.RefreshSlotHighlights();
 }
 
 void SetActiveAndRestart(GameObject go, bool active)
@@ -3496,6 +3549,9 @@ public void CancelSwapPreview()
     pendingIncomingPrankster = default;
 
     pendingChoice = PendingChoiceType.ChooseAction;
+
+    if (availableServiceInstructionPanel != null)
+        availableServiceInstructionPanel.Hide();
 
     LogSeparator("SWAP CANCELED");
     Debug.Log("Swap canceled. Returning to action selection.");

@@ -26,6 +26,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip backgroundMusicClip;
 
     [Header("Current Clips")]
+    [SerializeField] private AudioClip invalidSelectionClip;
     public AudioClip drawDeckHoverClip;
     public AudioClip drawCardActionClip;
     public AudioClip discardPileHoverClip;
@@ -526,6 +527,14 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
     {
         if (mayorsGrowingFrustrationClip != null && sfxSource != null)
             sfxSource.PlayOneShot(mayorsGrowingFrustrationClip);
+    }
+
+    public void PlayInvalidSelection()
+    {
+        if (sfxSource == null || invalidSelectionClip == null)
+            return;
+
+        sfxSource.PlayOneShot(invalidSelectionClip, 0.6f);
     }
 
 }

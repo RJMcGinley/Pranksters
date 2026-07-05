@@ -102,6 +102,11 @@ public class PlayerInfoPanel : MonoBehaviour
 
             swapAvailableHighlight.SetActive(shouldHighlight);
         }
+
+        HideoutController hideoutController = GetComponentInChildren<HideoutController>();
+
+        if (hideoutController != null)
+            hideoutController.RefreshSlotHighlights();
     }
 
     void UpdateFavorSlot(Image slotImage, Player player, int index)
@@ -148,5 +153,23 @@ public class PlayerInfoPanel : MonoBehaviour
          swapAvailableHighlight.SetActive(isVisible);
     }
 
+    public PranksterDeckEntry GetFavorCardInSlot(int slotIndex)
+    {
+        if (turnManager == null)
+            return null;
+
+        if (representedPlayerIndex < 0 || representedPlayerIndex >= turnManager.players.Count)
+            return null;
+
+        Player player = turnManager.players[representedPlayerIndex];
+
+        if (player == null)
+            return null;
+
+        if (slotIndex < 0 || slotIndex >= player.favorArea.Count)
+            return null;
+
+        return player.favorArea[slotIndex];
+    }
 
 }

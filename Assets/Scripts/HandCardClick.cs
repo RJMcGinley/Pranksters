@@ -96,6 +96,9 @@ public class HandCardClick : MonoBehaviour
             !deckManager.IsChoosingAvailableService())
             return;
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUIClick();
+
         deckManager.OnHandCardClicked(cardIndex);
     }
 
