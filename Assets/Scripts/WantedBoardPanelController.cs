@@ -673,6 +673,9 @@ private void HandleTypedPosterSwapCellClicked(WantedBoardCell cell)
         selectedTypedSwapCell = cell;
         selectedTypedSwapCell.SetHighlight(true);
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUIClick();
+
         if (placementResultText != null)
         {
             PranksterType otherType =

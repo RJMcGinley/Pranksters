@@ -6815,7 +6815,7 @@ void ResolveSwapWantedPosterDiscard(int index)
         swapWantedFirstType = selectedCard.pranksterType;
 
         if (availableServiceInstructionPanel != null)
-            availableServiceInstructionPanel.Show("Discard a different recruit type.");
+            availableServiceInstructionPanel.Show("Discard the one you want to swap with.");
 
         Debug.Log("SWAP WANTED POSTERS: First discard selected: " + swapWantedFirstType);
         return;
@@ -6836,7 +6836,7 @@ void ResolveSwapWantedPosterDiscard(int index)
     if (selectedCard.pranksterType == swapWantedFirstType)
     {
         if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayNotAnOption();
+            AudioManager.Instance.PlayInvalidSelection();
 
         Debug.Log("SWAP WANTED POSTERS: Second discard must be a different recruit type.");
         return;
@@ -6846,7 +6846,7 @@ void ResolveSwapWantedPosterDiscard(int index)
     swapWantedSecondType = selectedCard.pranksterType;
 
     if (availableServiceInstructionPanel != null)
-        availableServiceInstructionPanel.Show("Choose the matching wanted posters to swap.");
+        availableServiceInstructionPanel.Show("Choose the matching wanted\nposters to swap.");
 
     Debug.Log("SWAP WANTED POSTERS: Second discard selected: " + swapWantedSecondType);
 
@@ -6880,6 +6880,9 @@ public void TryStartSwapWantedPostersAction()
         PopHighlightSuppression();
         RefreshHandVisuals();
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUIClick();
+
         Debug.Log("Swap Wanted Posters action cancelled.");
 
         return;
@@ -6888,14 +6891,20 @@ public void TryStartSwapWantedPostersAction()
     Player player = GetCurrentPlayerForUI();
 
     if (player == null || player.isBot || hasTakenActionThisTurn)
-        return;
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
 
-    if (player.hand.Count < 2)
         return;
+    }
 
-    if (wantedBoardPanelController == null ||
-        !wantedBoardPanelController.HasAtLeastTwoWantedPosters())
+    if (!PlayerHasValidSwapWantedPosterPair(player))
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
+    }
 
     PushHighlightSuppression();
 
@@ -6909,6 +6918,9 @@ public void TryStartSwapWantedPostersAction()
         availableServiceInstructionPanel.Show(
             "Discard the first recruit whose\nwanted poster you want to swap.");
     }
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
 
     RefreshHandVisuals();
 }
@@ -6947,13 +6959,41 @@ public bool CanCurrentPlayerStartSwapWantedPostersAction()
     if (!SaveSystem.HasSwapWantedPostersUnlock())
         return false;
 
-    if (player.hand.Count < 2)
-        return false;
-
     if (wantedBoardPanelController == null)
         return false;
 
-    return wantedBoardPanelController.HasAtLeastTwoWantedPosters();
+    return PlayerHasValidSwapWantedPosterPair(player);
+}
+
+private bool PlayerHasValidSwapWantedPosterPair(Player player)
+{
+    if (player == null ||
+        player.hand == null ||
+        player.hand.Count < 2 ||
+        wantedBoardPanelController == null)
+    {
+        return false;
+    }
+
+    for (int i = 0; i < player.hand.Count; i++)
+    {
+        for (int j = i + 1; j < player.hand.Count; j++)
+        {
+            PranksterType firstType = player.hand[i].pranksterType;
+            PranksterType secondType = player.hand[j].pranksterType;
+
+            if (firstType == secondType)
+                continue;
+
+            if (wantedBoardPanelController.HasWantedPosterOfType(firstType) &&
+                wantedBoardPanelController.HasWantedPosterOfType(secondType))
+            {
+                return true;
+            }
+        }
+    }
+
+    return false;
 }
 
 public int GetDistractBarnabyCurrentCost()

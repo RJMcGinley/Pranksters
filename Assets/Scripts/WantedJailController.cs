@@ -155,9 +155,9 @@ public class WantedJailController : MonoBehaviour
             }
             else
             {
-                image.sprite = null;
-                image.enabled = false;
-                image.gameObject.SetActive(false);
+                image.gameObject.SetActive(true);
+                image.sprite = emptyJailCellSprite;
+                image.enabled = true;
             }
         }
     }
