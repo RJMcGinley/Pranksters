@@ -109,9 +109,6 @@ public class AvailableServiceSlotCollider : MonoBehaviour
     {
         isAvailable = available;
 
-        if (glowObject != null)
-            glowObject.SetActive(available);
-
         if (iconImage != null)
         {
             iconImage.material = originalMaterial;
@@ -119,5 +116,11 @@ public class AvailableServiceSlotCollider : MonoBehaviour
                 ? Color.white 
                 : new Color(0.45f, 0.45f, 0.45f, 1f);
         }
+    }
+
+    public void SetGlowVisible(bool visible)
+    {
+        if (glowObject != null)
+            glowObject.SetActive(visible && isAvailable);
     }
 }

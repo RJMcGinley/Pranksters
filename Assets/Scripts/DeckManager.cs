@@ -2711,6 +2711,9 @@ public void RefreshAllHighlights()
             prankHighlights[i].SetActive(false);
     }
 
+    if (availableServicesPanelController != null)
+        availableServicesPanelController.SetServiceSelectionGlowsVisible(false);
+
     if (drawDeckLabel != null)
         drawDeckLabel.SetActive(false);
 
@@ -2788,6 +2791,15 @@ void RefreshActionHighlights()
 
     if (hideoutController != null)
         hideoutController.RefreshSlotHighlights();
+
+    if (availableServicesPanelController != null)
+    {
+        bool shouldShowServiceGlows =
+            pendingChoice == PendingChoiceType.ChooseAction &&
+            !hasTakenActionThisTurn;
+
+        availableServicesPanelController.SetServiceSelectionGlowsVisible(shouldShowServiceGlows);
+    }
 }
 
 void SetActiveAndRestart(GameObject go, bool active)

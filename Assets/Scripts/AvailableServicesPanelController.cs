@@ -224,5 +224,23 @@ private void SetServiceSelectionCollidersEnabled(bool enabled)
             collider.enabled = enabled;
     }
 }
+
+public void SetServiceSelectionGlowsVisible(bool visible)
+{
+    if (serviceSelectionColliders == null)
+        return;
+
+    foreach (BoxCollider2D collider in serviceSelectionColliders)
+    {
+        if (collider == null)
+            continue;
+
+        AvailableServiceSlotCollider slot =
+            collider.GetComponent<AvailableServiceSlotCollider>();
+
+        if (slot != null)
+            slot.SetGlowVisible(visible);
+    }
+}
     
 }
