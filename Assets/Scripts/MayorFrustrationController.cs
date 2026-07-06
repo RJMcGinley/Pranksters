@@ -151,4 +151,9 @@ public class MayorFrustrationController : MonoBehaviour
         shakeTarget.anchoredPosition = originalAnchoredPosition;
         shakeCoroutine = null;
     }
+
+    public void SetCurrentDisplayedFrustrationLevel(int level)
+    {
+        currentDisplayedFrustrationLevel = level;
+    }
 }

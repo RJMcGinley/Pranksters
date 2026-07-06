@@ -57,6 +57,9 @@ public class SpendInfluenceButton_UseInactiveServices : MonoBehaviour
         if (deckManager == null)
             return;
 
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
+
         deckManager.StartInactiveInfluenceServiceSelection();
 
         Refresh();

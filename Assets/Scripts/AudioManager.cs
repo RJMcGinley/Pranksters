@@ -483,7 +483,7 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
         PlaySFX(spendInfluenceClip);
     }
 
-    public void PlayPesterMayorVoice(int pesterUseCount)
+    public float PlayPesterMayorVoice(int pesterUseCount)
     {
         AudioClip[] clipPool;
 
@@ -501,11 +501,13 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
         }
 
         if (clipPool == null || clipPool.Length == 0)
-            return;
+            return 0f;
 
-        int randomIndex = Random.Range(0, clipPool.Length);
+        AudioClip selectedClip = clipPool[Random.Range(0, clipPool.Length)];
 
-        PlaySFX(clipPool[randomIndex]);
+        PlaySFX(selectedClip);
+
+        return selectedClip.length;
     }
 
     public void PlayJailDoorClosing()

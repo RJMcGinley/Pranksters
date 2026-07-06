@@ -2672,6 +2672,10 @@ public void BeginNewGame()
     Debug.Log("BeginNewGame | about to start BeginNewGameSequence coroutine");
 
     currentMayorBreakingPoint = DetermineCurrentMayorBreakingPoint();
+
+    if (mayorFrustrationController != null)
+        mayorFrustrationController.SetCurrentDisplayedFrustrationLevel(1);
+
     RefreshMayorFrustrationDisplay();
 
     StartCoroutine(BeginNewGameSequence());
@@ -4939,6 +4943,10 @@ public void ActivateAvailableServiceScoringAction()
     if (!wantedBoardPanelController.HasOrthogonallyConnectedGroupOfThree(jailbreakType))
     {
         Debug.LogWarning("Cannot activate Jailbreak. Need 3 orthogonally connected wanted posters of type: " + jailbreakType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
@@ -6408,6 +6416,7 @@ public void StartInactiveInfluenceServiceSelection()
     Debug.Log("Inactive Influence Service selection started.");
 
     RefreshAvailableServiceSlotAvailability();
+    RefreshAllHighlights();
 }
 
 public void CancelInactiveInfluenceServiceSelection()
@@ -6553,18 +6562,28 @@ public void TryPesterMayor()
     if (!CanCurrentPlayerPesterMayor())
         return;
 
+    StartCoroutine(PesterMayorSequence());
+}
+
+private IEnumerator PesterMayorSequence()
+{
     Player player = GetCurrentPlayer();
 
     int cost = GetPesterMayorCurrentCost();
     int mischiefGain = GetPesterMayorCurrentMischiefGain();
 
     player.favorPoints -= cost;
-    player.renownPoints += mischiefGain;
-
     player.pesterMayorUsesThisGame++;
 
+    float clipLength = 0f;
+
     if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayPesterMayorVoice(player.pesterMayorUsesThisGame);
+        clipLength = AudioManager.Instance.PlayPesterMayorVoice(player.pesterMayorUsesThisGame);
+
+    if (clipLength > 0f)
+        yield return new WaitForSeconds(clipLength);
+
+    player.renownPoints += mischiefGain;
 
     Debug.Log("PESTER MAYOR: Spent " + cost +
               " influence to gain " + mischiefGain +
@@ -6574,7 +6593,7 @@ public void TryPesterMayor()
     if (HasReachedMayorBreakingPoint())
     {
         TriggerEndGameScoring();
-        return;
+        yield break;
     }
 
     FinishActionAndWaitForEndTurn();

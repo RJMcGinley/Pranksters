@@ -162,6 +162,9 @@ public class WantedBoardPanelController : MonoBehaviour
         WantedSelectionType type,
         int index)
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayUIClick();
+
         selectedType = type;
         selectedIndex = index;
 
@@ -322,8 +325,12 @@ public class WantedBoardPanelController : MonoBehaviour
         }
     }
 
+    
     void CommitPlacement()
 {
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
     List<WantedBoardCell> selectedCells =
         GetCellsForSelection(
             selectedType,
