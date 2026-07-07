@@ -136,6 +136,15 @@ public class AvailableServicesPanelController : MonoBehaviour
         }
 
         panel.SetActive(true);
+
+        AvailableServicePanelAssignmentController assignmentController =
+            panel.GetComponent<AvailableServicePanelAssignmentController>();
+
+        if (assignmentController != null)
+        {
+            assignmentController.UpdateActionGlowState();
+            assignmentController.ResetAllActionVisualStates();
+        }
     }
 
     private void SetPanelActive(GameObject panel, bool active)

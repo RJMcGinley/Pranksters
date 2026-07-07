@@ -2334,6 +2334,8 @@ public void RefreshAllDisplays()
 
 void UpdateCurrentPlayerStatsDisplay()
 {
+    Debug.Log("UpdateCurrentPlayerStatsDisplay CALLED");
+
     Player currentPlayer = turnManager.players[0];
     int currentIndex = 0;
 
@@ -5072,6 +5074,8 @@ public void ActivateAvailableServiceScoringAction()
 
         activeServicePanelController.SetRetainServicesAvailable(false);
         activeServicePanelController.SetJailbreakUsedVisible(true);
+        activeServicePanelController.UpdateActionGlowState();
+        activeServicePanelController.ResetAllActionVisualStates();
     }
     else
     {

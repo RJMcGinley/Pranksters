@@ -1086,8 +1086,17 @@ public static bool HasDistractBarnabyUnlock()
     PlayerProgressSave data = Load();
 
     if (data == null)
+    {
+        Debug.Log("DISTRACT UNLOCK CHECK | save data is NULL");
         return false;
+    }
 
-    return data.lifetimeFinalScorePoints >= 500;
+    bool unlocked = data.lifetimeFinalScorePoints >= 500;
+
+    Debug.Log("DISTRACT UNLOCK CHECK | lifetimeFinalScorePoints=" +
+              data.lifetimeFinalScorePoints +
+              " | threshold=500 | unlocked=" + unlocked);
+
+    return unlocked;
 }
 }
