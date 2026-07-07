@@ -104,17 +104,6 @@ public class WantedJailController : MonoBehaviour
         }
     }
 
-    public void ShowJailDisplay()
-    {
-        for (int i = 0; i < jailSlotImages.Length; i++)
-        {
-            Image image = jailSlotImages[i];
-
-            if (image != null)
-                image.gameObject.SetActive(i < jailedRecruitCount);
-        }
-    }
-
     public bool HasJailedRecruitOfType(PranksterType type)
     {
         return jailedRecruitTypes.Contains(type);
@@ -161,4 +150,10 @@ public class WantedJailController : MonoBehaviour
             }
         }
     }
+
+    public void ShowJailDisplay()
+    {
+        RefreshJailDisplay();
+    }
+
 }

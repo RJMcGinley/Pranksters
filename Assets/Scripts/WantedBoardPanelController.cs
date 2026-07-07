@@ -398,6 +398,9 @@ public class WantedBoardPanelController : MonoBehaviour
         wantedDisplayPanelController.Show();
     }
 
+    if (wantedJailController != null)
+        wantedJailController.ShowJailDisplay();
+
     if (onPlacementCommitted != null)
     {
         onPlacementCommitted.Invoke();

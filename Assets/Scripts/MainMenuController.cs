@@ -22,7 +22,49 @@ public class MainMenuController : MonoBehaviour
     [Header("Shop")]
     [SerializeField] private GameObject shopScreen;
 
+    [SerializeField] private GameObject storyLoadingPanel;
 
+    private bool storyScreenActive;
+
+    private void Start()
+    {
+        storyScreenActive = true;
+
+        if (storyLoadingPanel != null)
+            storyLoadingPanel.SetActive(true);
+
+        if (mainMenuButtonsRoot != null)
+            mainMenuButtonsRoot.SetActive(false);
+
+        if (playerCountPanel != null)
+            playerCountPanel.SetActive(false);
+
+        if (prankCollectionScreen != null)
+            prankCollectionScreen.SetActive(false);
+
+        if (statisticsScreen != null)
+            statisticsScreen.SetActive(false);
+
+        if (shopScreen != null)
+            shopScreen.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (!storyScreenActive)
+            return;
+
+        if (Input.GetMouseButtonDown(0) || Input.anyKeyDown || Input.touchCount > 0)
+        {
+            storyScreenActive = false;
+
+            if (storyLoadingPanel != null)
+                storyLoadingPanel.SetActive(false);
+
+            if (mainMenuButtonsRoot != null)
+                mainMenuButtonsRoot.SetActive(true);
+        }
+    }
 
     public void OpenPlaySetup()
     {
@@ -200,6 +242,11 @@ public class MainMenuController : MonoBehaviour
     public void ReturnToMainMenu()
 {
     Debug.Log("ReturnToMainMenu START");
+
+    if (storyLoadingPanel != null)
+        storyLoadingPanel.SetActive(false);
+
+    storyScreenActive = false;
 
     SettingsMenuController settings = FindFirstObjectByType<SettingsMenuController>();
     if (settings != null)
