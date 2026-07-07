@@ -649,6 +649,7 @@ public class DeckManager : MonoBehaviour
 
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
+    SetHideoutCardPreviewEnabled(false);
 
     bool showCompletedPranks = IsPrankCompletionShowcaseEnabled();
 
@@ -2606,6 +2607,8 @@ public void BeginNewGame()
     pendingRoundFirstPlayerIndex = -1;
     highlightSuppressionCount = 0;
     wantedBoardOpen = false;
+    SetHideoutCardPreviewEnabled(true);
+
 
     if (wantedJailController != null)
     {
@@ -2650,6 +2653,19 @@ public void BeginNewGame()
         player.retainedServices.Clear();
         player.activeScoringServiceTypes.Clear();
         player.activeOngoingServiceTypes.Clear();
+    }
+
+    // Reset Available Services UI, including stale Jailbreak/Escaped visuals.
+    AvailableServicePanelAssignmentController[] servicePanels =
+        FindObjectsByType<AvailableServicePanelAssignmentController>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
+
+    foreach (AvailableServicePanelAssignmentController panel in servicePanels)
+    {
+        if (panel != null)
+            panel.ClearAllAssignments();
     }
 
     ApplyCurrentLocationEffects();
@@ -4919,24 +4935,40 @@ public void ActivateAvailableServiceScoringAction()
     if (player.activeScoringServiceTypes.Contains(jailbreakType))
     {
         Debug.Log("Jailbreak already used for: " + jailbreakType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
     if (wantedBoardPanelController == null)
     {
         Debug.LogWarning("Cannot activate Jailbreak. WantedBoardPanelController is missing.");
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
     if (wantedBoardPanelController.wantedJailController == null)
     {
         Debug.LogWarning("Cannot activate Jailbreak. WantedJailController is missing.");
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
     if (!wantedBoardPanelController.wantedJailController.HasJailedRecruitOfType(jailbreakType))
     {
         Debug.LogWarning("Cannot activate Jailbreak. No jailed recruit of type: " + jailbreakType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
@@ -4964,6 +4996,10 @@ public void ActivateAvailableServiceScoringAction()
     if (groupToConsume == null || groupToConsume.assignedCards == null)
     {
         Debug.LogWarning("Cannot activate Jailbreak. No retained card group found for: " + jailbreakType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
@@ -4975,6 +5011,10 @@ public void ActivateAvailableServiceScoringAction()
                          " retained cards for: " +
                          jailbreakType +
                          " | current count=" + groupToConsume.assignedCards.Count);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
@@ -5006,6 +5046,10 @@ public void ActivateAvailableServiceScoringAction()
     if (!jailbreakSucceeded)
     {
         Debug.LogWarning("Jailbreak failed after validation for: " + jailbreakType);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayInvalidSelection();
+
         return;
     }
 
@@ -5022,13 +5066,9 @@ public void ActivateAvailableServiceScoringAction()
     if (activeServicePanelController != null)
     {
         if (remainingCount > 0)
-        {
             activeServicePanelController.DisplayRetainedCards(groupToConsume.assignedCards);
-        }
         else
-        {
             activeServicePanelController.ClearAllAssignments();
-        }
 
         activeServicePanelController.SetRetainServicesAvailable(false);
         activeServicePanelController.SetJailbreakUsedVisible(true);
@@ -5143,8 +5183,14 @@ private IEnumerator ActivateLaborerImmediateActionSequence(bool ignoreServiceReq
                             cardsToSpend +
                             " retained Laborer cards.");
 
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
+
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -5239,12 +5285,14 @@ private IEnumerator ActivateWizardImmediateActionSequence(bool ignoreServiceRequ
             groupToConsume.assignedCards == null ||
             groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            Debug.LogWarning("Cannot activate Wizard Immediate Action. Need " +
-                            cardsToSpend +
-                            " retained Wizard cards.");
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
 
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -5370,12 +5418,15 @@ private IEnumerator ActivateEngineerImmediateActionSequence(bool ignoreServiceRe
             groupToConsume.assignedCards == null ||
             groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            Debug.LogWarning("Cannot activate Engineer Immediate Action. Need " +
-                            cardsToSpend +
-                            " retained Engineer cards.");
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
 
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -5513,12 +5564,15 @@ private IEnumerator ActivateThiefImmediateActionSequence(bool ignoreServiceRequi
             groupToConsume.assignedCards == null ||
             groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            Debug.LogWarning("Cannot activate Thief Immediate Action. Need " +
-                            cardsToSpend +
-                            " retained Thief cards.");
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
 
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -5646,12 +5700,16 @@ private IEnumerator ActivateScribeImmediateActionSequence(bool ignoreServiceRequ
             groupToConsume.assignedCards == null ||
             groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            Debug.LogWarning("Cannot activate Scribe Immediate Action. Need " +
-                            cardsToSpend +
-                            " retained Scribe cards.");
+
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
 
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -5851,12 +5909,15 @@ private IEnumerator ActivateBeastmasterImmediateActionSequence(bool ignoreServic
             groupToConsume.assignedCards == null ||
             groupToConsume.assignedCards.Count < cardsToSpend)
         {
-            Debug.LogWarning("Cannot activate Beastmaster Immediate Action. Need " +
-                            cardsToSpend +
-                            " retained Beastmaster cards.");
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayInvalidSelection();
 
             yield break;
         }
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayMenuClick();
 
         for (int i = 0; i < cardsToSpend; i++)
         {
@@ -6628,6 +6689,9 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     if (wantedBoardPanelController == null)
     {
         Debug.LogWarning("WantedBoardPanelController is not assigned. Continuing prank flow.");
+
+        SetHideoutCardPreviewEnabled(true);
+
         yield return StartCoroutine(FinishCompletePrankSequence());
         yield break;
     }
@@ -6666,6 +6730,8 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
         TriggerWantedBoardLossEndGame(lossReason);
         yield break;
     }
+
+    SetHideoutCardPreviewEnabled(true);
 
     yield return StartCoroutine(FinishCompletePrankSequence());
 }
@@ -7295,6 +7361,14 @@ void RefreshMayorFrustrationDisplay()
 int GetCurrentMayorBreakingPoint()
 {
     return currentMayorBreakingPoint;
+}
+
+private void SetHideoutCardPreviewEnabled(bool isEnabled)
+{
+    HideoutController hideoutController = FindFirstObjectByType<HideoutController>();
+
+    if (hideoutController != null)
+        hideoutController.SetCardPreviewEnabled(isEnabled);
 }
 
 }

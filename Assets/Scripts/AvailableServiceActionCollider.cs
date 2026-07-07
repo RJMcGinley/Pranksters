@@ -70,61 +70,40 @@ public class AvailableServiceActionCollider : MonoBehaviour
     }
     else if (actionName == "Scoring Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateAvailableServiceScoringAction();
     }
     else if (actionName == "Laborer Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateLaborerImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
         );
     }
     else if (actionName == "Wizard Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateWizardImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
         );
     }
     else if (actionName == "Engineer Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateEngineerImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
-);
+        );
     }
     else if (actionName == "Thief Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateThiefImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
         );
     }
     else if (actionName == "Scribe Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateScribeImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
         );
     }
     else if (actionName == "Beastmaster Immediate Action")
     {
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayMenuClick();
-
         deckManager.ActivateBeastmasterImmediateAction(
             deckManager.IsViewingInactiveInfluenceServicePanel()
         );

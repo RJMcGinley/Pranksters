@@ -178,6 +178,8 @@ public class AvailableServicePanelAssignmentController : MonoBehaviour
 
         ResetAllActionVisualStates();
 
+        SetJailbreakUsedVisible(false);
+
         Debug.Log("Cleared all Available Services assignments for: " + serviceType);
     }
 

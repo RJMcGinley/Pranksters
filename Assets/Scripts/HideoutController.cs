@@ -5,8 +5,19 @@ public class HideoutController : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerInfoPanel playerInfoPanel;
     [SerializeField] private HideoutCardPreview hideoutCardPreview;
+
     [Header("Slot Highlights")]
     [SerializeField] private GameObject[] swapHighlights;
+
+    private bool cardPreviewEnabled = true;
+
+    public void SetCardPreviewEnabled(bool isEnabled)
+    {
+        cardPreviewEnabled = isEnabled;
+
+        if (!cardPreviewEnabled)
+            HideCardPreview();
+    }
 
     public PranksterDeckEntry GetCardInSlot(int slotIndex)
     {
@@ -18,6 +29,9 @@ public class HideoutController : MonoBehaviour
 
     public void ShowCardPreview(int slotIndex)
     {
+        if (!cardPreviewEnabled)
+            return;
+
         Debug.Log("HIDEOUT CONTROLLER SHOW CARD PREVIEW | slot=" + slotIndex +
                   " | preview=" + (hideoutCardPreview != null ? hideoutCardPreview.name : "NULL"));
 
