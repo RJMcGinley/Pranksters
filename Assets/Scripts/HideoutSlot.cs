@@ -22,8 +22,8 @@ public class HideoutSlot : MonoBehaviour
         if (slotCollider != null)
             slotCollider.enabled = isEnabled;
 
-        if (!isEnabled)
-            ClearHoverState();
+        
+        ClearHoverState();
     }
 
     private void OnMouseEnter()

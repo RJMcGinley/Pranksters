@@ -155400,6 +155400,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HideoutController
   playerInfoPanel: {fileID: 423097039}
   hideoutCardPreview: {fileID: 1919477281}
+  hideoutSlots:
+  - {fileID: 565034430}
+  - {fileID: 2080376685}
+  - {fileID: 2070003075}
   swapHighlights:
   - {fileID: 1751298539}
   - {fileID: 1660382357}

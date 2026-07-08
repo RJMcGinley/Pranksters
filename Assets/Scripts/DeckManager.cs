@@ -3375,6 +3375,8 @@ IEnumerator BeginNewGameSequence()
         Debug.Log("BeginNewGameSequence | gameCanvas forced ON");
     }
 
+    SetHideoutSlotsEnabled(true);
+
     yield return StartCoroutine(DealStartingHandsOneCardAtATime(0.2f));
 
     Debug.Log("BeginNewGameSequence | hands dealt");
