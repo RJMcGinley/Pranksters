@@ -649,7 +649,7 @@ public class DeckManager : MonoBehaviour
 
     activePranks.RemoveAt(prankIndex);
     ShowActivePrankCards();
-    SetHideoutCardPreviewEnabled(false);
+    SetHideoutSlotsEnabled(false);
 
     bool showCompletedPranks = IsPrankCompletionShowcaseEnabled();
 
@@ -2609,7 +2609,7 @@ public void BeginNewGame()
     pendingRoundFirstPlayerIndex = -1;
     highlightSuppressionCount = 0;
     wantedBoardOpen = false;
-    SetHideoutCardPreviewEnabled(true);
+    SetHideoutSlotsEnabled(true);
 
 
     if (wantedJailController != null)
@@ -6694,7 +6694,7 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     {
         Debug.LogWarning("WantedBoardPanelController is not assigned. Continuing prank flow.");
 
-        SetHideoutCardPreviewEnabled(true);
+        SetHideoutSlotsEnabled(true);
 
         yield return StartCoroutine(FinishCompletePrankSequence());
         yield break;
@@ -6735,7 +6735,7 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
         yield break;
     }
 
-    SetHideoutCardPreviewEnabled(true);
+    SetHideoutSlotsEnabled(true);
 
     yield return StartCoroutine(FinishCompletePrankSequence());
 }
@@ -7367,12 +7367,12 @@ int GetCurrentMayorBreakingPoint()
     return currentMayorBreakingPoint;
 }
 
-private void SetHideoutCardPreviewEnabled(bool isEnabled)
+private void SetHideoutSlotsEnabled(bool isEnabled)
 {
     HideoutController hideoutController = FindFirstObjectByType<HideoutController>();
 
     if (hideoutController != null)
-        hideoutController.SetCardPreviewEnabled(isEnabled);
+        hideoutController.SetHideoutSlotsEnabled(isEnabled);
 }
 
 }

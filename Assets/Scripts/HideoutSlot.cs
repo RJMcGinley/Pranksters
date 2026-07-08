@@ -10,6 +10,21 @@ public class HideoutSlot : MonoBehaviour
 
     private Coroutine hoverCoroutine;
     private bool previewVisible;
+    private Collider2D slotCollider;
+
+    private void Awake()
+    {
+        slotCollider = GetComponent<Collider2D>();
+    }
+
+    public void SetColliderEnabled(bool isEnabled)
+    {
+        if (slotCollider != null)
+            slotCollider.enabled = isEnabled;
+
+        if (!isEnabled)
+            ClearHoverState();
+    }
 
     private void OnMouseEnter()
     {
@@ -23,6 +38,11 @@ public class HideoutSlot : MonoBehaviour
     }
 
     private void OnMouseExit()
+    {
+        ClearHoverState();
+    }
+
+    private void ClearHoverState()
     {
         if (hoverCoroutine != null)
         {
@@ -66,5 +86,4 @@ public class HideoutSlot : MonoBehaviour
 
         hideoutController.StartSwapFromSlot(slotIndex);
     }
-
 }

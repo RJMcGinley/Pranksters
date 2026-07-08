@@ -5,6 +5,7 @@ public class HideoutController : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerInfoPanel playerInfoPanel;
     [SerializeField] private HideoutCardPreview hideoutCardPreview;
+    [SerializeField] private HideoutSlot[] hideoutSlots;
 
     [Header("Slot Highlights")]
     [SerializeField] private GameObject[] swapHighlights;
@@ -95,5 +96,20 @@ public class HideoutController : MonoBehaviour
             if (swapHighlights[i] != null)
                 swapHighlights[i].SetActive(isVisible);
         }
+    }
+
+    public void SetHideoutSlotsEnabled(bool isEnabled)
+    {
+        if (hideoutSlots == null)
+            return;
+
+        for (int i = 0; i < hideoutSlots.Length; i++)
+        {
+            if (hideoutSlots[i] != null)
+                hideoutSlots[i].SetColliderEnabled(isEnabled);
+        }
+
+        if (!isEnabled)
+            HideCardPreview();
     }
 }
