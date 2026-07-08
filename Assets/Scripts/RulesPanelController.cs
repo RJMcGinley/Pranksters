@@ -16,6 +16,7 @@ public class RulesPanelController : MonoBehaviour
     public GameObject pageAvailableServices;
     public GameObject pageSpendInfluence;
     public GameObject pageJailbreak;
+    public GameObject pageLocations;
     public GameObject handDisplayObject;
     public RulesPanelActionButtonsPageShowHideActions actionButtonsPageController;
 
@@ -115,6 +116,11 @@ public class RulesPanelController : MonoBehaviour
         ShowOnly(pageJailbreak);
     }
 
+    public void RulesShowLocationsPage()
+    {
+        ShowOnly(pageLocations);
+    }
+
     private void ShowOnly(GameObject pageToShow)
     {
         if (pageToShow == null)
@@ -131,6 +137,8 @@ public class RulesPanelController : MonoBehaviour
         SetPageActive(pageAvailableServices, pageToShow);
         SetPageActive(pageSpendInfluence, pageToShow);
         SetPageActive(pageJailbreak, pageToShow);
+        SetPageActive(pageLocations, pageToShow);
+        
 
         currentPage = pageToShow;
 
