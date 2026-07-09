@@ -1188,8 +1188,8 @@ string GetPluralRecruitName(PranksterDeckEntry card)
     if (name == "Mystic")
         return "Mystics";
 
-    if (name == "Planner")
-        return "Planners";
+    if (name == "Tinkerer")
+        return "Tinkerers";
 
     if (name == "Wrangler")
         return "Wranglers";

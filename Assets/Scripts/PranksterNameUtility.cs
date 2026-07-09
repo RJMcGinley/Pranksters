@@ -6,7 +6,7 @@ public static class PranksterNameUtility
         {
             case PranksterType.Scribe: return "Scholar";
             case PranksterType.Laborer: return "Roughneck";
-            case PranksterType.Engineer: return "Planner";
+            case PranksterType.Engineer: return "Tinkerer";
             case PranksterType.BeastMaster: return "Wrangler";
             case PranksterType.Wizard: return "Mystic";
             case PranksterType.Thief: return "Rogue";

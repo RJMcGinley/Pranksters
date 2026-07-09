@@ -183,7 +183,7 @@ public class DeckManager : MonoBehaviour
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
     public WantedBoardPanelController wantedBoardPanelController;
 
-    private int barnabyDistractedTurnsRemaining = 0;
+    private int barnabyDistractionInfluenceCost = 0;
 
     [Header("Available Service Instructions")]
     [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
@@ -7098,7 +7098,7 @@ public bool CanCurrentPlayerDistractBarnaby()
     if (!SaveSystem.HasDistractBarnabyUnlock())
         return false;
 
-    if (barnabyDistractedTurnsRemaining > 0)
+    if (barnabyDistractionInfluenceCost > 0)
         return false;
 
     int cost = GetDistractBarnabyCurrentCost();
@@ -7121,45 +7121,159 @@ public void TryDistractBarnaby()
     player.favorPoints -= cost;
     player.distractBarnabyUsesThisGame++;
 
-    barnabyDistractedTurnsRemaining = 3;
+    barnabyDistractionInfluenceCost = cost;
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlaySpendInfluence();
 
-    Debug.Log("DISTRACT BARNABY: Spent " + cost +
-              " influence. Barnaby will skip 3 turns. Uses this game = " +
+    Debug.Log("DISTRACT BARNABY: Player spent " + cost +
+              " influence. Barnaby will spend " + cost +
+              " influence per distracted turn to mildly annoy the Mayor. Uses this game = " +
               player.distractBarnabyUsesThisGame);
 
     FinishActionAndWaitForEndTurn();
+}
+
+private string GetBarnabyDistractedRecruitMessage(PranksterDeckEntry card, int cost)
+{
+    string recruitName = PranksterNameUtility.GetPranksterDisplayName(card.pranksterType);
+
+    string[] stunts;
+
+    switch (card.pranksterType)
+    {
+        case PranksterType.Thief:
+            stunts = new string[]
+            {
+                "\nreplace the Mayor's toilet paper with sandpaper",
+                "\nhide all of the Mayor's left shoes",
+                "\nplant rocks of varying sizes under the Mayor's mattress"
+            };
+            break;
+
+        case PranksterType.Wizard:
+            stunts = new string[]
+            {
+                "\nmake the Mayor's reflection sprout a pair of demon horns",
+                "\nslip a shrinking potion into the Mayor's water canteen",
+                "\ncurse the Mayor with constant drooling"
+            };
+            break;
+
+        case PranksterType.Engineer:
+            stunts = new string[]
+            {
+                "\nbuild a chiming mechanism \nbeneath the Mayor's floorboards",
+                "\nrig a bucket of molasses and acorns" +  "\nabove the Mayor's doorway",
+                "\nmodify the town's lectern with a trap door \nthat opens halfway through the Mayor's next speech"
+            };
+            break;
+
+        case PranksterType.BeastMaster:
+            stunts = new string[]
+            {
+                "\nrelease a basket of bull snakes into the Mayor's house",
+                "\nrelocate a hornets' nest beneath the Mayor's front awning",
+                "\nscatter buckets of birdseed across\n the Mayor's freshly scrubbed walkway"
+            };
+            break;
+
+        case PranksterType.Laborer:
+            stunts = new string[]
+            {
+                "\nstack hay bales in front of the Mayor's \nprivate outhouse... while he's inside",
+                "\ndump a bucket of fish guts across the Mayor's" + "\nfront porch before knocking and running",
+                "\ngrease every doorknob and handrail \nthe Mayor uses throughout the day"
+            };
+            break;
+
+        case PranksterType.Scribe:
+            stunts = new string[]
+            {
+                "\nreplace the commas with exclamation marks \nin the Mayor's upcoming speech",
+                "\nerase all the 5's and 2's in the town's tax ledger",
+                "\nwrite \"Assistant\" in front of every sign \nbearing the Mayor's name"
+            };
+            break;
+
+        default:
+            stunts = new string[]
+            {
+                "carry out one of Barnaby's questionable plans"
+            };
+            break;
+    }
+
+    string stunt = stunts[Random.Range(0, stunts.Length)];
+
+    return "Barnaby convinces a " + recruitName +
+           " to " + stunt + ".\n" +
+           "Barnaby spent " + cost + " Influence.";  
 }
 
 public bool TryConsumeBarnabyDistractionTurn(out string message)
 {
     message = "";
 
-    if (barnabyDistractedTurnsRemaining <= 0)
+    if (barnabyDistractionInfluenceCost <= 0)
         return false;
 
-    switch (barnabyDistractedTurnsRemaining)
+    if (turnManager == null ||
+        turnManager.players == null ||
+        turnManager.players.Count <= 1 ||
+        turnManager.players[1] == null)
     {
-        case 3:
-            message = "Barnaby is distracted";
-            break;
-
-        case 2:
-            message = "Barnaby is still distracted";
-            break;
-
-        case 1:
-            message = "Barnaby is on his way back";
-            break;
-
-        default:
-            message = "Barnaby is distracted";
-            break;
+        barnabyDistractionInfluenceCost = 0;
+        return false;
     }
 
-    barnabyDistractedTurnsRemaining--;
+    Player barnaby = turnManager.players[1];
+
+    if (barnaby.favorPoints < barnabyDistractionInfluenceCost)
+    {
+        barnabyDistractionInfluenceCost = 0;
+
+        message = "Barnaby has run out of Influence and returns to the rebellion.";
+
+        RefreshAllDisplays();
+
+        return true;
+    }
+
+    if (barnaby.hand == null || barnaby.hand.Count == 0)
+    {
+        barnabyDistractionInfluenceCost = 0;
+
+        message = "Barnaby has run out of recruits willing to help and is wandering back toward the rebellion.";
+
+        RefreshAllDisplays();
+
+        return true;
+    }
+
+    int discardIndex = Random.Range(0, barnaby.hand.Count);
+    PranksterDeckEntry discardedCard = barnaby.hand[discardIndex];
+
+    BotDiscardCardFromHand(discardIndex);
+
+    barnaby.favorPoints -= barnabyDistractionInfluenceCost;
+    barnaby.renownPoints += 1;
+
+    message = GetBarnabyDistractedRecruitMessage(discardedCard, barnabyDistractionInfluenceCost);
+
+    Debug.Log("DISTRACTED BARNABY: Barnaby spent " +
+              barnabyDistractionInfluenceCost +
+              " influence and discarded a " +
+              discardedCard.pranksterType +
+              " to gain 1 Mischief. Remaining influence = " +
+              barnaby.favorPoints);
+
+    RefreshAllDisplays();
+
+    if (HasReachedMayorBreakingPoint())
+    {
+        TriggerEndGameScoring();
+    }
 
     return true;
 }

@@ -27361,7 +27361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 11.5, y: -21.3}
+  m_AnchoredPosition: {x: 8.8, y: -18.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &256212026
@@ -27384,8 +27384,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Spend Influence to keep Barnaby occupied, causing \nhim to skip his next
-    3 turns. Its cost increases with \neach use and each Prank Barnaby completes."
+  m_text: "Spend Influence to feed Barnaby's ego. Certain only he\ncan carry out
+    these \"important\" ploys, he'll spend his own \nInfluence and recruits trying
+    to annoy the Mayor. The \ncost increases with each use and with each major Prank
+    \nBarnaby completes.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77b51659a3bab44a6bfa414190b5ae7b, type: 2}
   m_sharedMaterial: {fileID: 4473843734359484033, guid: 77b51659a3bab44a6bfa414190b5ae7b, type: 2}
@@ -29831,7 +29833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.6, y: -35.8}
+  m_AnchoredPosition: {x: -2.6, y: -38}
   m_SizeDelta: {x: 400, y: 74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &321941221
@@ -38817,7 +38819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55.4, y: -3.1}
+  m_AnchoredPosition: {x: 55.4, y: -3.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399249256
@@ -38840,7 +38842,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Distract Barnaby
+  m_text: Flatter Barnaby
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -60163,7 +60165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55.4, y: -8.7}
+  m_AnchoredPosition: {x: 55.2, y: -8.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607297241
@@ -60186,8 +60188,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Skip Barnaby's next 3 turns. \nCost increases with use and \nBarnaby's
-    completed pranks."
+  m_text: 'Spend Influence to have
+
+    Barnaby carry out "Important''"
+
+    ploys
+    to annoy the Mayor'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -60214,8 +60220,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.7
-  m_fontSizeBase: 1.7
+  m_fontSize: 1.6
+  m_fontSizeBase: 1.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -79263,9 +79269,9 @@ MonoBehaviour:
   inactiveServicesButton: {fileID: 0}
   pesterMayorButton: {fileID: 0}
   distractBarnabyButton: {fileID: 901322019}
-  tooltipTitle: Distract Barnaby
-  tooltipDescription: "Spend Influence to distract \nBarnaby and skip his \nnext
-    3 turns."
+  tooltipTitle: Cleverly Plant Ideas
+  tooltipDescription: "Barnaby spends his \nInfluence carrying out \n\"his\" brilliant
+    ideas."
   hoverDelay: 0.5
 --- !u!114 &901322019
 MonoBehaviour:
@@ -137244,7 +137250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Planner Recruit. Represents those who solve problems through \ncareful
+  m_text: "Tinkerer Recruit. Represents those who solve problems through \ncareful
     planning and ingenuity."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77b51659a3bab44a6bfa414190b5ae7b, type: 2}
@@ -150064,7 +150070,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -57.9, y: -1}
+  m_AnchoredPosition: {x: -57.9, y: -1.6}
   m_SizeDelta: {x: 7.8, y: 11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708349361
@@ -165450,7 +165456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1921870270
 RectTransform:
   m_ObjectHideFlags: 0
