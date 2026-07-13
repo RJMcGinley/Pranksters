@@ -81,13 +81,24 @@ public class AvailableServicesPanelController : MonoBehaviour
                 break;
         }
 
-        if (deckManager != null && deckManager.IsViewingInactiveInfluenceServicePanel())
-        {
-            AvailableServicePanelAssignmentController panelController =
-                GetPanelAssignmentController(serviceType);
+        AvailableServicePanelAssignmentController panelController =
+            GetPanelAssignmentController(serviceType);
 
-            if (panelController != null)
-                panelController.ShowInactiveInfluenceModeActions();
+        if (panelController != null && deckManager != null)
+        {
+            Player player = deckManager.turnManager.players[0];
+
+            bool jailbreakUsed =
+                player.activeScoringServiceTypes.Contains(serviceType);
+
+            panelController.SetJailbreakUsedVisible(jailbreakUsed);
+        }
+
+        if (deckManager != null &&
+            deckManager.IsViewingInactiveInfluenceServicePanel() &&
+            panelController != null)
+        {
+            panelController.ShowInactiveInfluenceModeActions();
         }
     }
 

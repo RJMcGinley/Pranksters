@@ -145,6 +145,7 @@ public class DeckManager : MonoBehaviour
     private int pendingRoundDealerIndex = -1;
     private int pendingRoundFirstPlayerIndex = -1;
     private bool isEndOfRoundPending = false;
+    private bool isPesterMayorSequenceRunning = false;
 
     private GameLossReason currentLossReason = GameLossReason.None;
 
@@ -183,7 +184,10 @@ public class DeckManager : MonoBehaviour
     public PrankCompletionShowcasePanel prankCompletionShowcasePanel;
     public WantedBoardPanelController wantedBoardPanelController;
 
+    private int barnabyDistractionMischiefGain = 0;
     private int barnabyDistractionInfluenceCost = 0;
+    private List<int>[] remainingBarnabyStuntIndexesByType;
+
 
     [Header("Available Service Instructions")]
     [SerializeField] private AvailableServiceInstructionPanel availableServiceInstructionPanel;
@@ -2557,6 +2561,15 @@ public void BeginNewGame()
     }
 
     StopAllCoroutines();
+    isPesterMayorSequenceRunning = false;
+
+    remainingBarnabyStuntIndexesByType =
+        new List<int>[System.Enum.GetValues(typeof(PranksterType)).Length];
+
+    for (int i = 0; i < remainingBarnabyStuntIndexesByType.Length; i++)
+    {
+        remainingBarnabyStuntIndexesByType[i] = new List<int>();
+    }
 
     if (favorPreviewText != null)
         favorPreviewText.gameObject.SetActive(false);
@@ -4569,6 +4582,8 @@ public void StartAvailableServiceTurn(PranksterType serviceType)
     }
 
     activeServicePanelController.SetRetainServicesAvailable(false);
+    activeServicePanelController.UpdateActionGlowState();
+    activeServicePanelController.ResetAllActionVisualStates();
 
     pendingChoice = PendingChoiceType.ChooseAvailableServiceCard;
 
@@ -6610,10 +6625,16 @@ public bool CanCurrentPlayerPesterMayor()
 {
     Player player = GetCurrentPlayerForUI();
 
+    if (isPesterMayorSequenceRunning)
+        return false;
+
     if (!CanCurrentPlayerUseSpendInfluenceActions())
         return false;
 
     if (!SaveSystem.HasPesterMayorUnlock())
+        return false;
+
+    if (player == null)
         return false;
 
     if (player.pesterMayorUsesThisGame >= 6)
@@ -6628,6 +6649,8 @@ public void TryPesterMayor()
 {
     if (!CanCurrentPlayerPesterMayor())
         return;
+
+    isPesterMayorSequenceRunning = true;
 
     StartCoroutine(PesterMayorSequence());
 }
@@ -6659,9 +6682,13 @@ private IEnumerator PesterMayorSequence()
 
     if (HasReachedMayorBreakingPoint())
     {
+        isPesterMayorSequenceRunning = false;
+
         TriggerEndGameScoring();
         yield break;
     }
+
+    isPesterMayorSequenceRunning = false;
 
     FinishActionAndWaitForEndTurn();
 }
@@ -7122,6 +7149,7 @@ public void TryDistractBarnaby()
     player.distractBarnabyUsesThisGame++;
 
     barnabyDistractionInfluenceCost = cost;
+    barnabyDistractionMischiefGain = 0;
 
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlaySpendInfluence();
@@ -7204,7 +7232,25 @@ private string GetBarnabyDistractedRecruitMessage(PranksterDeckEntry card, int c
             break;
     }
 
-    string stunt = stunts[Random.Range(0, stunts.Length)];
+    int typeIndex = (int)card.pranksterType;
+
+    List<int> remainingIndexes =
+        remainingBarnabyStuntIndexesByType[typeIndex];
+
+    if (remainingIndexes.Count == 0)
+    {
+        for (int i = 0; i < stunts.Length; i++)
+        {
+            remainingIndexes.Add(i);
+        }
+    }
+
+    int randomListPosition = Random.Range(0, remainingIndexes.Count);
+    int selectedIndex = remainingIndexes[randomListPosition];
+
+    remainingIndexes.RemoveAt(randomListPosition);
+
+    string stunt = stunts[selectedIndex];
 
     return "Barnaby convinces a " + recruitName +
            " to " + stunt + ".\n" +
@@ -7233,7 +7279,7 @@ public bool TryConsumeBarnabyDistractionTurn(out string message)
     {
         barnabyDistractionInfluenceCost = 0;
 
-        message = "Barnaby has run out of Influence and returns to the rebellion.";
+        message = "Barnaby has run out of Influence and \nreturns to the rebellion.";
 
         RefreshAllDisplays();
 
@@ -7244,7 +7290,7 @@ public bool TryConsumeBarnabyDistractionTurn(out string message)
     {
         barnabyDistractionInfluenceCost = 0;
 
-        message = "Barnaby has run out of recruits willing to help and is wandering back toward the rebellion.";
+        message = "Barnaby has run out of recruits willing \nto help and is wandering back toward the rebellion.";
 
         RefreshAllDisplays();
 
@@ -7257,16 +7303,20 @@ public bool TryConsumeBarnabyDistractionTurn(out string message)
     BotDiscardCardFromHand(discardIndex);
 
     barnaby.favorPoints -= barnabyDistractionInfluenceCost;
-    barnaby.renownPoints += 1;
+
+    barnabyDistractionMischiefGain++;
+    barnaby.renownPoints += barnabyDistractionMischiefGain;
 
     message = GetBarnabyDistractedRecruitMessage(discardedCard, barnabyDistractionInfluenceCost);
 
     Debug.Log("DISTRACTED BARNABY: Barnaby spent " +
-              barnabyDistractionInfluenceCost +
-              " influence and discarded a " +
-              discardedCard.pranksterType +
-              " to gain 1 Mischief. Remaining influence = " +
-              barnaby.favorPoints);
+          barnabyDistractionInfluenceCost +
+          " influence and discarded a " +
+          discardedCard.pranksterType +
+          " to gain " +
+          barnabyDistractionMischiefGain +
+          " Mischief. Remaining influence = " +
+          barnaby.favorPoints);
 
     RefreshAllDisplays();
 
