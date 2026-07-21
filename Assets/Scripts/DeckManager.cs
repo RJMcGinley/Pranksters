@@ -585,6 +585,8 @@ public class DeckManager : MonoBehaviour
 {
     Player player = GetCurrentPlayer();
 
+    hasTakenActionThisTurn = true;
+
     PrankCard completedPrank = activePranks[prankIndex];
     finalCompletedPrank = completedPrank;
     lastPrankCompleterIndex = turnManager.currentPlayerIndex;
