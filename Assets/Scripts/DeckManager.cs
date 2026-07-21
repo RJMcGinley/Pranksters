@@ -691,7 +691,8 @@ public class DeckManager : MonoBehaviour
     if (activePranks.Count == 1)
     {
         isEndOfRoundPending = true;
-        Debug.Log("END OF ROUND FLAG SET TRUE");
+
+        ReturnRemainingActivePrankToBottomOfDeck();
 
         StartCoroutine(OpenWantedBoardThenContinue(completedPrank, showcaseDuration));
         return;
@@ -7539,6 +7540,34 @@ private void SetHideoutSlotsEnabled(bool isEnabled)
 
     if (hideoutController != null)
         hideoutController.SetHideoutSlotsEnabled(isEnabled);
+}
+
+private void ReturnRemainingActivePrankToBottomOfDeck()
+{
+    if (activePranks.Count != 1)
+    {
+        Debug.LogWarning(
+            "ReturnRemainingActivePrankToBottomOfDeck expected exactly 1 active prank, but found " +
+            activePranks.Count + "."
+        );
+
+        return;
+    }
+
+    PrankCard remainingPrank = activePranks[0];
+
+    activePranks.Clear();
+    prankDeck.Add(remainingPrank);
+
+    if (prankPreviewPanel != null)
+        prankPreviewPanel.Hide();
+
+    ShowActivePrankCards();
+
+    Debug.Log(
+        "Returned remaining prank to bottom of deck: " +
+        remainingPrank.title
+    );
 }
 
 }
