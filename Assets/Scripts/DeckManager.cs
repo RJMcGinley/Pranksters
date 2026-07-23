@@ -3434,6 +3434,7 @@ IEnumerator ResetRoundSequence()
 
     UpdateActiveFavorDisplay();
     RefreshAllDisplays();
+    SetHideoutSlotsEnabled(true);
     StartPlayerTurn();
 }
 
@@ -4306,6 +4307,8 @@ public int CalculateTotalFavorForCard(PranksterDeckEntry card)
 void ShowEndOfRoundPanelBeforeReset()
 {
     PrepareNextRoundInfo();
+
+    SetHideoutSlotsEnabled(false);
 
     pendingChoice = PendingChoiceType.None;
     highlightSuppressionCount = 1;
@@ -6790,7 +6793,8 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
     {
         Debug.LogWarning("WantedBoardPanelController is not assigned. Continuing prank flow.");
 
-        SetHideoutSlotsEnabled(true);
+        if (!isEndOfRoundPending)
+            SetHideoutSlotsEnabled(true);
 
         yield return StartCoroutine(FinishCompletePrankSequence());
         yield break;
@@ -6839,7 +6843,8 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
         yield break;
     }
 
-    SetHideoutSlotsEnabled(true);
+    if (!isEndOfRoundPending)
+        SetHideoutSlotsEnabled(true);
 
     yield return StartCoroutine(FinishCompletePrankSequence());
 }
