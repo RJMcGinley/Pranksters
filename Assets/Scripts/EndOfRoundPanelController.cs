@@ -32,8 +32,9 @@ public class EndOfRoundPanelController : MonoBehaviour
     Action startNextRoundCallback,
     Action chooseNextLocationCallback)
 {
-    Debug.Log("EndOfRoundPanelController.Show CALLED | panelRoot = " +
-              (panelRoot != null ? panelRoot.name : "NULL"));
+    Debug.Log(
+        "EndOfRoundPanelController.Show CALLED | panelRoot = " +
+        (panelRoot != null ? panelRoot.name : "NULL"));
 
     onStartNextRound = startNextRoundCallback;
     onChooseNextLocation = chooseNextLocationCallback;
@@ -69,12 +70,20 @@ public class EndOfRoundPanelController : MonoBehaviour
             "EndOfRoundPanelController.Show AFTER SetActive | " +
             "activeSelf = " + panelRoot.activeSelf +
             " | activeInHierarchy = " + panelRoot.activeInHierarchy +
-            " | parent = " + (panelRoot.transform.parent != null ? panelRoot.transform.parent.name : "NO PARENT")
-        );
+            " | parent = " +
+            (panelRoot.transform.parent != null
+                ? panelRoot.transform.parent.name
+                : "NO PARENT"));
+
+        if (TutorialController.Instance != null)
+        {
+            TutorialController.Instance.ShowBetweenRoundsTutorial();
+        }
     }
     else
     {
-        Debug.LogError("EndOfRoundPanelController.Show FAILED: panelRoot is NULL.");
+        Debug.LogError(
+            "EndOfRoundPanelController.Show FAILED: panelRoot is NULL.");
     }
 }
 

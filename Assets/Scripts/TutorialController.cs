@@ -15,6 +15,7 @@ public class TutorialController : MonoBehaviour
     [SerializeField] private GameObject prankCardTutorial;
     [SerializeField] private GameObject wantedBoardTutorial;
     [SerializeField] private GameObject jailAndJailBreakTutorial;
+    [SerializeField] private GameObject betweenRoundsTutorial;
 
     [Header("Highlight Suppression")]
     [SerializeField] private GameObject discardPileHighlight;
@@ -47,6 +48,7 @@ public class TutorialController : MonoBehaviour
     private bool hasShownPrankCardTutorial;
     private bool hasShownWantedBoardTutorial;
     private bool hasShownJailAndJailBreakTutorial;
+    private bool hasShownBetweenRoundsTutorial;
     
 
     private void Awake()
@@ -300,6 +302,29 @@ public bool ShowJailAndJailBreakTutorial()
     return true;
 }
 
+public bool ShowBetweenRoundsTutorial()
+{
+    if (hasShownBetweenRoundsTutorial || isTutorialOpen)
+        return false;
+
+    if (tutorialRoot == null || betweenRoundsTutorial == null)
+    {
+        Debug.LogError(
+            "The Between Rounds tutorial cannot be displayed because one or more references are missing.",
+            gameObject);
+
+        return false;
+    }
+
+    hasShownBetweenRoundsTutorial = true;
+    isTutorialOpen = true;
+
+    betweenRoundsTutorial.SetActive(true);
+    tutorialRoot.SetActive(true);
+
+    return true;
+}
+
 ///Controls and Validation
 
    public void CloseCurrentTutorial()
@@ -339,6 +364,9 @@ public bool ShowJailAndJailBreakTutorial()
 
     if (jailAndJailBreakTutorial != null)
         jailAndJailBreakTutorial.SetActive(false);
+
+    if (betweenRoundsTutorial != null)
+        betweenRoundsTutorial.SetActive(false);
 
     if (tutorialRoot != null)
         tutorialRoot.SetActive(false);
@@ -425,6 +453,13 @@ private void ValidateReferences()
 
     if (jailAndJailBreakTutorial == null)
         Debug.LogError("Jail And Jail Break Tutorial reference is missing.", gameObject);
+
+    if (betweenRoundsTutorial == null)
+    {
+        Debug.LogError(
+            "Between Rounds Tutorial reference is missing.",
+            gameObject);
+    }
 }
 
 public void NotifyHumanTurnStarted()
