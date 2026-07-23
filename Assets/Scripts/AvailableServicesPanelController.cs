@@ -139,24 +139,27 @@ public class AvailableServicesPanelController : MonoBehaviour
     }
 
     private void ShowServicePanel(GameObject panel)
+{
+    if (panel == null)
     {
-        if (panel == null)
-        {
-            Debug.LogWarning("Service panel reference is missing.");
-            return;
-        }
-
-        panel.SetActive(true);
-
-        AvailableServicePanelAssignmentController assignmentController =
-            panel.GetComponent<AvailableServicePanelAssignmentController>();
-
-        if (assignmentController != null)
-        {
-            assignmentController.UpdateActionGlowState();
-            assignmentController.ResetAllActionVisualStates();
-        }
+        Debug.LogWarning("Service panel reference is missing.");
+        return;
     }
+
+    panel.SetActive(true);
+
+    AvailableServicePanelAssignmentController assignmentController =
+        panel.GetComponent<AvailableServicePanelAssignmentController>();
+
+    if (assignmentController != null)
+    {
+        assignmentController.UpdateActionGlowState();
+        assignmentController.ResetAllActionVisualStates();
+    }
+
+    if (TutorialController.Instance != null)
+        TutorialController.Instance.ShowAvailableServices2Tutorial();
+}
 
     private void SetPanelActive(GameObject panel, bool active)
     {

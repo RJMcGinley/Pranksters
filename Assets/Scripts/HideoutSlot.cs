@@ -22,12 +22,18 @@ public class HideoutSlot : MonoBehaviour
         if (slotCollider != null)
             slotCollider.enabled = isEnabled;
 
-        
         ClearHoverState();
     }
 
     private void OnMouseEnter()
     {
+        if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+        {
+            ClearHoverState();
+            return;
+        }
+
         if (hideoutController == null)
             return;
 
@@ -50,7 +56,7 @@ public class HideoutSlot : MonoBehaviour
             hoverCoroutine = null;
         }
 
-        if (previewVisible)
+        if (previewVisible && hideoutController != null)
         {
             hideoutController.HideCardPreview();
             previewVisible = false;
@@ -63,6 +69,16 @@ public class HideoutSlot : MonoBehaviour
     private IEnumerator HoverDelayRoutine()
     {
         yield return new WaitForSeconds(hoverDelay);
+
+        if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+        {
+            ClearHoverState();
+            yield break;
+        }
+
+        if (hideoutController == null)
+            yield break;
 
         hideoutController.ShowCardPreview(slotIndex);
         previewVisible = true;
@@ -77,13 +93,28 @@ public class HideoutSlot : MonoBehaviour
     }
 
     private void OnMouseDown()
+{
+    if (TutorialController.Instance != null &&
+        TutorialController.Instance.IsTutorialOpen)
     {
-        if (hideoutController == null)
-            return;
-
-        if (AudioManager.Instance != null)
-            AudioManager.Instance.PlayUIClick();
-
-        hideoutController.StartSwapFromSlot(slotIndex);
+        ClearHoverState();
+        return;
     }
+
+    if (hideoutController == null)
+        return;
+
+    ClearHoverState();
+
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
+    hideoutController.StartSwapFromSlot(slotIndex);
+
+    if (TutorialController.Instance != null &&
+        TutorialController.Instance.ShowPlayerHideoutTutorial())
+    {
+        return;
+    }
+}
 }

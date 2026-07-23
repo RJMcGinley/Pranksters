@@ -248,4 +248,33 @@ public static class PrankDatabase
             }
         };
     }
+
+    public static List<PrankCard> CreateFirstGamePrankDeck()
+    {
+        List<PrankCard> deck = CreatePrankDeck();
+
+        PrankCard priviesOnThePorch =
+            deck.Find(card => card.title == "Privies on the Porch");
+
+        PrankCard headlessHounds =
+            deck.Find(card => card.title == "Headless Hounds");
+
+        PrankCard graveGreetings =
+            deck.Find(card => card.title == "Grave Greetings");
+
+        PrankCard woodenNickels =
+            deck.Find(card => card.title == "Wooden Nickels");
+
+        deck.Remove(priviesOnThePorch);
+        deck.Remove(headlessHounds);
+        deck.Remove(graveGreetings);
+        deck.Remove(woodenNickels);
+
+        deck.Insert(0, woodenNickels);
+        deck.Insert(0, graveGreetings);
+        deck.Insert(0, headlessHounds);
+        deck.Insert(0, priviesOnThePorch);
+
+        return deck;
+    }
 }

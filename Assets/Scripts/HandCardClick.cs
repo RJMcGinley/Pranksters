@@ -24,10 +24,14 @@ public class HandCardClick : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (deckManager != null && deckManager.IsRulesPanelOpen())
+        if (deckManager == null)
             return;
 
-        if (deckManager == null)
+        if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+            return;
+
+        if (deckManager.IsRulesPanelOpen())
             return;
 
         if (!deckManager.IsInDiscardSelection() &&
@@ -84,10 +88,14 @@ public class HandCardClick : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (deckManager != null && deckManager.IsRulesPanelOpen())
+        if (deckManager == null)
             return;
 
-        if (deckManager == null)
+        if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+            return;
+
+        if (deckManager.IsRulesPanelOpen())
             return;
 
         if (!deckManager.IsInDiscardSelection() &&

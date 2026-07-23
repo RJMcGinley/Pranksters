@@ -57,16 +57,45 @@ public class AvailableServiceSlotCollider : MonoBehaviour
 
         if (servicesPanelController == null)
         {
-            Debug.LogWarning("AvailableServiceSlotCollider has no servicesPanelController assigned.");
+            Debug.LogWarning(
+                "AvailableServiceSlotCollider has no servicesPanelController assigned.");
+
             return;
+        }
+
+        // Tutorial intercepts the first valid Available Service click.
+        if (TutorialController.Instance != null)
+        {
+            if (deckManager != null)
+                deckManager.PushHighlightSuppression();
+
+            bool tutorialShown =
+                TutorialController.Instance.ShowAvailableServicesTutorial(
+                    () =>
+                    {
+                        if (deckManager != null)
+                            deckManager.PopHighlightSuppression();
+                    });
+
+            if (tutorialShown)
+                return;
+
+            // The tutorial did not open, so immediately release the
+            // suppression that was pushed above.
+            if (deckManager != null)
+                deckManager.PopHighlightSuppression();
         }
 
         servicesPanelController.OnServiceSelected(serviceType);
 
-        if (deckManager != null && deckManager.IsViewingInactiveInfluenceServicePanel())
+        if (deckManager != null &&
+            deckManager.IsViewingInactiveInfluenceServicePanel())
+        {
             return;
+        }
 
-        if (deckManager != null && deckManager.CanStartAvailableServiceAction())
+        if (deckManager != null &&
+            deckManager.CanStartAvailableServiceAction())
         {
             deckManager.StartAvailableServiceTurn(serviceType);
             deckManager.SetActiveAvailableServiceSlotCollider(this);

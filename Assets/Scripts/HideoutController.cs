@@ -77,14 +77,24 @@ public class HideoutController : MonoBehaviour
     }
 
     public void StartSwapFromSlot(int slotIndex)
+{
+    if (TutorialController.Instance != null &&
+        TutorialController.Instance.IsTutorialOpen)
     {
-        if (playerInfoPanel == null || playerInfoPanel.deckManager == null)
-            return;
-
-        int targetPlayerIndex = playerInfoPanel.representedPlayerIndex;
-
-        playerInfoPanel.deckManager.StartSwapFromHideoutSlot(targetPlayerIndex, slotIndex);
+        HideCardPreview();
+        return;
     }
+
+    if (playerInfoPanel == null || playerInfoPanel.deckManager == null)
+        return;
+
+    int targetPlayerIndex = playerInfoPanel.representedPlayerIndex;
+
+    playerInfoPanel.deckManager.StartSwapFromHideoutSlot(
+        targetPlayerIndex,
+        slotIndex
+    );
+}
 
     public void SetAllSlotHighlightsVisible(bool isVisible)
     {

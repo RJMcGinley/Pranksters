@@ -7,12 +7,20 @@ public class PrankCardClick : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+        {
+            return;
+        }
+
         if (deckManager == null)
             return;
 
         if (!deckManager.IsChoosingEngineerPrankReplacement() &&
             !deckManager.CanCompletePrank(prankIndex))
+        {
             return;
+        }
 
         deckManager.OnPrankCardClicked(prankIndex);
     }

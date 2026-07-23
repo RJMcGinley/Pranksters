@@ -133,6 +133,7 @@ public class DeckManager : MonoBehaviour
     public BotManager botManager;
     public GameObject gameCanvas;
     public bool isRulesPanelOpen = false;
+    [SerializeField] private GameObject availableServicesRoot;
 
     private PlayerProgressSave player1ProgressSave;
     private Dictionary<PranksterType, int> player1FavorPointsThisGame = new Dictionary<PranksterType, int>();
@@ -657,6 +658,28 @@ public class DeckManager : MonoBehaviour
     ShowActivePrankCards();
     SetHideoutSlotsEnabled(false);
 
+    if (!player.isBot &&
+        TutorialController.Instance != null &&
+        TutorialController.Instance.ShowPrankCardTutorial())
+    {
+        StartCoroutine(WaitForPrankCardTutorialThenContinue(completedPrank));
+        return;
+    }
+
+ContinuePrankCompletion(completedPrank);    
+}
+
+private IEnumerator WaitForPrankCardTutorialThenContinue(PrankCard completedPrank)
+{
+    yield return new WaitUntil(() =>
+        TutorialController.Instance == null ||
+        !TutorialController.Instance.IsTutorialOpen);
+
+    ContinuePrankCompletion(completedPrank);
+}
+
+private void ContinuePrankCompletion(PrankCard completedPrank)
+{
     bool showCompletedPranks = IsPrankCompletionShowcaseEnabled();
 
     float showcaseDuration = showCompletedPranks ? 1.75f : 0.75f;
@@ -664,7 +687,8 @@ public class DeckManager : MonoBehaviour
     if (AudioManager.Instance != null)
     {
         if (showCompletedPranks)
-            showcaseDuration = AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
+            showcaseDuration =
+                AudioManager.Instance.PlayPrankCompletionSound(completedPrank.title);
         else
             AudioManager.Instance.PlayCompletePrank();
     }
@@ -679,14 +703,18 @@ public class DeckManager : MonoBehaviour
     }
 
     if (showCompletedPranks && prankCompletionShowcasePanel != null)
-        prankCompletionShowcasePanel.Show(completedPrank.cardSprite, showcaseDuration);
+        prankCompletionShowcasePanel.Show(
+            completedPrank.cardSprite,
+            showcaseDuration);
 
     if (HasReachedMayorBreakingPoint())
     {
         if (GetCurrentPlayer().isBot && botManager != null)
             botManager.NotifyBotActionHandledTurnFlow();
 
-        StartCoroutine(TriggerEndGameAfterShowcase(showcaseDuration));
+        StartCoroutine(
+            TriggerEndGameAfterShowcase(showcaseDuration));
+
         return;
     }
 
@@ -696,12 +724,18 @@ public class DeckManager : MonoBehaviour
 
         ReturnRemainingActivePrankToBottomOfDeck();
 
-        StartCoroutine(OpenWantedBoardThenContinue(completedPrank, showcaseDuration));
+        StartCoroutine(
+            OpenWantedBoardThenContinue(
+                completedPrank,
+                showcaseDuration));
+
         return;
     }
 
-    // Continue normal flow if round is not ending
-    StartCoroutine(OpenWantedBoardThenContinue(completedPrank, showcaseDuration));
+    StartCoroutine(
+        OpenWantedBoardThenContinue(
+            completedPrank,
+            showcaseDuration));
 }
 
 
@@ -903,7 +937,14 @@ public class DeckManager : MonoBehaviour
     IEnumerator RefreshHighlightsNextFrame()
     {
         yield return null;
+
         RefreshAllHighlights();
+
+        if (!GetCurrentPlayer().isBot &&
+            TutorialController.Instance != null)
+        {
+            TutorialController.Instance.NotifyHumanTurnStarted();
+        }
     }
 
     // ===== BOT TURN TRIGGER =====
@@ -952,6 +993,9 @@ void FinishActionAndWaitForEndTurn()
 
     if (endTurnButton != null)
         endTurnButton.SetActive(true);
+
+    if (TutorialController.Instance != null)
+        TutorialController.Instance.ShowEndTurnTutorial();
 
     Debug.Log("Action complete. Waiting for End Turn button.");
 }
@@ -1015,144 +1059,144 @@ void ResolveDiscardChoice(int discardHandIndex)
     ContinueDiscardingUntilHandAtMax();
 }
 
-void Update()
-{
-    if (Input.GetKeyDown(KeyCode.X))
-    {
-        Debug.Log("X pressed. Current pendingChoice = " + pendingChoice);
-    }
+// void Update()
+// {
+//     if (Input.GetKeyDown(KeyCode.X))
+//     {
+//         Debug.Log("X pressed. Current pendingChoice = " + pendingChoice);
+//     }
 
-    if (gameOver)
-        return;
+//     if (gameOver)
+//         return;
 
-    // ==============================
-    // GLOBAL CANCEL FOR SWAP FLOW
-    // ==============================
-    if ((pendingChoice == PendingChoiceType.ChooseSwapOpponent ||
-         pendingChoice == PendingChoiceType.ChooseSwapTarget ||
-         pendingChoice == PendingChoiceType.ChooseSwapHandCard) &&
-        Input.GetKeyDown(KeyCode.X))
-    {
-        CancelSwapPreview();
-        return;
-    }
+//     // ==============================
+//     // GLOBAL CANCEL FOR SWAP FLOW
+//     // ==============================
+//     if ((pendingChoice == PendingChoiceType.ChooseSwapOpponent ||
+//          pendingChoice == PendingChoiceType.ChooseSwapTarget ||
+//          pendingChoice == PendingChoiceType.ChooseSwapHandCard) &&
+//         Input.GetKeyDown(KeyCode.X))
+//     {
+//         CancelSwapPreview();
+//         return;
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveDiscardChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveDiscardChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveDiscardChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveDiscardChoice(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveDiscardChoice(4); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseDiscardFromHand)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveDiscardChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveDiscardChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveDiscardChoice(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveDiscardChoice(3); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveDiscardChoice(4); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveDiscardAfterDrawFromDiscard(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveDiscardAfterDrawFromDiscard(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveDiscardAfterDrawFromDiscard(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveDiscardAfterDrawFromDiscard(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveDiscardAfterDrawFromDiscard(4); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseDiscardAfterDrawFromDiscard)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveDiscardAfterDrawFromDiscard(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveDiscardAfterDrawFromDiscard(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveDiscardAfterDrawFromDiscard(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveDiscardAfterDrawFromDiscard(3); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveDiscardAfterDrawFromDiscard(4); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseFavorCard)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveFavorChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveFavorChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveFavorChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveFavorChoice(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveFavorChoice(4); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseFavorCard)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveFavorChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveFavorChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveFavorChoice(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveFavorChoice(3); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveFavorChoice(4); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChoosePrankToComplete)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolvePrankChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolvePrankChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolvePrankChoice(2); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChoosePrankToComplete)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolvePrankChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolvePrankChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolvePrankChoice(2); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseSwapOpponent)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapOpponentChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapOpponentChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapOpponentChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapOpponentChoice(3); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseSwapOpponent)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapOpponentChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapOpponentChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapOpponentChoice(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapOpponentChoice(3); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseSwapTarget)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapTargetChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapTargetChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapTargetChoice(2); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseSwapTarget)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapTargetChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapTargetChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapTargetChoice(2); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseSwapHandCard)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapHandChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapHandChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapHandChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapHandChoice(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveSwapHandChoice(4); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseSwapHandCard)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveSwapHandChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveSwapHandChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveSwapHandChoice(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveSwapHandChoice(3); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveSwapHandChoice(4); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAvailableServiceCard)
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveAvailableServiceCardChoice(0); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveAvailableServiceCardChoice(1); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveAvailableServiceCardChoice(2); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveAvailableServiceCardChoice(3); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveAvailableServiceCardChoice(4); return; }
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAvailableServiceCard)
+//     {
+//         if (Input.GetKeyDown(KeyCode.Alpha1)) { ResolveAvailableServiceCardChoice(0); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha2)) { ResolveAvailableServiceCardChoice(1); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha3)) { ResolveAvailableServiceCardChoice(2); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha4)) { ResolveAvailableServiceCardChoice(3); return; }
+//         if (Input.GetKeyDown(KeyCode.Alpha5)) { ResolveAvailableServiceCardChoice(4); return; }
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.P))
-    {
-        LogSeparator("PLAYER ACTION: Draw from prankster deck");
-        StartDrawFromDeckTurn();
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.P))
+//     {
+//         LogSeparator("PLAYER ACTION: Draw from prankster deck");
+//         StartDrawFromDeckTurn();
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.D))
-    {
-        LogSeparator("PLAYER ACTION: Draw from discard pile");
-        StartDrawFromDiscardTurn();
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.D))
+//     {
+//         LogSeparator("PLAYER ACTION: Draw from discard pile");
+//         StartDrawFromDiscardTurn();
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.O))
-    {
-        LogSeparator("PLAYER ACTION: Offer favor");
-        StartOfferFavorTurn();
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.O))
+//     {
+//         LogSeparator("PLAYER ACTION: Offer favor");
+//         StartOfferFavorTurn();
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.C))
-    {
-        LogSeparator("PLAYER ACTION: Complete prank");
-        StartCompletePrankTurn();
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.C))
+//     {
+//         LogSeparator("PLAYER ACTION: Complete prank");
+//         StartCompletePrankTurn();
+//     }
 
-    if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.S))
-    {
-        LogSeparator("PLAYER ACTION: Swap favor");
-        StartSwapFavorTurn();
-    }
+//     if (pendingChoice == PendingChoiceType.ChooseAction && Input.GetKeyDown(KeyCode.S))
+//     {
+//         LogSeparator("PLAYER ACTION: Swap favor");
+//         StartSwapFavorTurn();
+//     }
 
-    if (Input.GetKeyDown(KeyCode.G))
-    {
-        PrintGameState();
-    }
+//     if (Input.GetKeyDown(KeyCode.G))
+//     {
+//         PrintGameState();
+//     }
 
-    if (Input.GetKeyDown(KeyCode.B))
-    {
-        Debug.Log("B pressed. Current pendingChoice = " + pendingChoice);
+//     if (Input.GetKeyDown(KeyCode.B))
+//     {
+//         Debug.Log("B pressed. Current pendingChoice = " + pendingChoice);
 
-        if (pendingChoice == PendingChoiceType.ChooseAction)
-        {
-            StartAvailableServiceTurn(PranksterType.BeastMaster);
-        }
-        else
-        {
-            return;
-        }
-    }
-}
+//         if (pendingChoice == PendingChoiceType.ChooseAction)
+//         {
+//             StartAvailableServiceTurn(PranksterType.BeastMaster);
+//         }
+//         else
+//         {
+//             return;
+//         }
+//     }
+// }
 
 
 void ShowCurrentPlayerHand()
@@ -1338,6 +1382,9 @@ void StartOfferFavorTurn()
 
     Debug.Log("Choose a card to offer as favor. Press 1, 2, 3, 4.");
     ShowCurrentPlayerHand();
+
+    if (TutorialController.Instance != null)
+        TutorialController.Instance.ShowBarnabyHideoutTutorial();
 }
 
 void ResolveFavorChoice(int handIndex)
@@ -2553,6 +2600,11 @@ int GetCombinedMischiefScore()
     return total;
 }
 
+private bool IsPlayersFirstGame()
+{
+    return true;
+}
+
 public void BeginNewGame()
 {
     Debug.Log("BeginNewGame START");
@@ -2611,6 +2663,10 @@ public void BeginNewGame()
     // Reset state
     pendingChoice = PendingChoiceType.None;
     availableServicesPanelOpen = false;
+
+    if (availableServicesRoot != null)
+        availableServicesRoot.SetActive(false);
+
     temporarilyAssignedServiceHandIndexes.Clear();
     selectedAvailableServiceType = default;
     activeAvailableServiceSlotCollider = null;
@@ -2691,8 +2747,6 @@ public void BeginNewGame()
     ResetPlayer1FavorTrackingForNewGame();
     ResetPlayer1DiscardTrackingForNewGame();
 
-    Debug.Log("BeginNewGame | building and shuffling decks");
-
     // Build and shuffle decks
     BuildPranksterDeck();
     ShufflePranksterDeck();
@@ -2700,10 +2754,8 @@ public void BeginNewGame()
     prankDeck = PrankDatabase.CreatePrankDeck();
     ShufflePrankDeck();
 
-    Debug.Log("Prankster Deck created with " + deck.Count + " cards");
-    Debug.Log("Prank deck size: " + prankDeck.Count);
-
-    Debug.Log("BeginNewGame | about to start BeginNewGameSequence coroutine");
+    if (IsPlayersFirstGame())
+        prankDeck = PrankDatabase.CreateFirstGamePrankDeck();
 
     currentMayorBreakingPoint = DetermineCurrentMayorBreakingPoint();
 
@@ -2711,6 +2763,7 @@ public void BeginNewGame()
         mayorFrustrationController.SetCurrentDisplayedFrustrationLevel(1);
 
     RefreshMayorFrustrationDisplay();
+
 
     StartCoroutine(BeginNewGameSequence());
 }
@@ -3282,6 +3335,9 @@ IEnumerator ResetRoundSequence()
     turnManager.currentPlayerIndex = firstPlayerIndex;
     selectedSwapHandIndex = -1;
     pendingChoice = PendingChoiceType.None;
+
+    if (availableServicesRoot != null)
+        availableServicesRoot.SetActive(true);
 
     Player firstPlayer = turnManager.players[firstPlayerIndex];
 
@@ -3907,6 +3963,12 @@ public bool IsRulesPanelOpen()
 
 public bool IsInteractionBlocked()
 {
+    if (TutorialController.Instance != null &&
+        TutorialController.Instance.IsTutorialOpen)
+    {
+        return true;
+    }
+
     if (availableServicesPanelOpen)
         return true;
 
@@ -3916,10 +3978,12 @@ public bool IsInteractionBlocked()
     if (IsSwapFlowActive())
         return true;
 
-    if (nextPlayerPanelController != null && nextPlayerPanelController.IsPanelBlockingInteraction())
+    if (nextPlayerPanelController != null &&
+        nextPlayerPanelController.IsPanelBlockingInteraction())
         return true;
 
-    if (settingsMenuController != null && settingsMenuController.IsPanelBlockingInteraction())
+    if (settingsMenuController != null &&
+        settingsMenuController.IsPanelBlockingInteraction())
         return true;
 
     return false;
@@ -6742,7 +6806,7 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
         wantedJailController.ShowJailDisplay();
 
     if (nextPlayerPanelController != null)
-        nextPlayerPanelController.HidePanelImmediate();    
+        nextPlayerPanelController.HidePanelImmediate();
 
     wantedBoardPanelController.OpenForPrank(
         completedPrank,
@@ -6750,13 +6814,21 @@ IEnumerator OpenWantedBoardThenContinue(PrankCard completedPrank, float showcase
         {
             placementFinished = true;
         },
-        (reason) =>
+        reason =>
         {
             lossTriggered = true;
             lossReason = reason;
         });
 
-    yield return new WaitUntil(() => placementFinished || lossTriggered);
+    if (TutorialController.Instance != null &&
+        TutorialController.Instance.ShowWantedBoardTutorial())
+    {
+        yield return new WaitUntil(
+            () => !TutorialController.Instance.IsTutorialOpen);
+    }
+
+    yield return new WaitUntil(
+        () => placementFinished || lossTriggered);
 
     wantedBoardOpen = false;
 
@@ -7345,6 +7417,9 @@ private void RefreshDiscardPileCounter()
 
 public bool CanReorderHand()
 {
+    if (IsInteractionBlocked())
+        return false;
+
     Player player = turnManager.GetCurrentPlayer();
 
     if (player == null || player.isBot)

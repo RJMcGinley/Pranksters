@@ -252,6 +252,4 @@ private void OnEnable()
         $"WorldPos={transform.position}"
     );
 }
-
-
 }

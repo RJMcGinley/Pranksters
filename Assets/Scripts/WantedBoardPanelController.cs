@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 public class WantedBoardPanelController : MonoBehaviour
 {
@@ -328,6 +329,11 @@ public class WantedBoardPanelController : MonoBehaviour
     
     void CommitPlacement()
 {
+    StartCoroutine(CommitPlacementRoutine());
+}
+
+IEnumerator CommitPlacementRoutine()
+{
     if (AudioManager.Instance != null)
         AudioManager.Instance.PlayUIClick();
 
@@ -335,6 +341,8 @@ public class WantedBoardPanelController : MonoBehaviour
         GetCellsForSelection(
             selectedType,
             selectedIndex);
+
+    bool jailedRecruitThisPlacement = false;
 
     for (int i = 0; i < selectedCells.Count; i++)
     {
@@ -352,6 +360,7 @@ public class WantedBoardPanelController : MonoBehaviour
             if (wantedJailController != null)
             {
                 wantedJailController.AddJailedRecruit(recruit);
+                jailedRecruitThisPlacement = true;
 
                 if (AudioManager.Instance != null)
                     AudioManager.Instance.PlayJailDoorClosing();
@@ -375,13 +384,21 @@ public class WantedBoardPanelController : MonoBehaviour
         wantedJailController.GetJailedRecruitCount() >= 3)
     {
         TriggerWantedBoardLoss("Jail is full.");
-        return;
+        yield break;
+    }
+
+    if (jailedRecruitThisPlacement &&
+        TutorialController.Instance != null &&
+        TutorialController.Instance.ShowJailAndJailBreakTutorial())
+    {
+        yield return new WaitUntil(
+            () => !TutorialController.Instance.IsTutorialOpen);
     }
 
     if (IsWantedBoardFull())
     {
         TriggerWantedBoardLoss("Wanted Board is full.");
-        return;
+        yield break;
     }
 
     if (placementResultText != null)
