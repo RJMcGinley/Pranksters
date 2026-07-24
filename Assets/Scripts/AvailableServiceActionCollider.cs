@@ -32,6 +32,12 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
     private void OnMouseDown()
 {
+    if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+        {
+            return;
+        }
+
     if (deckManager == null)
         return;
 
@@ -135,6 +141,12 @@ public class AvailableServiceActionCollider : MonoBehaviour
 
 private void OnMouseEnter()
 {
+    if (TutorialController.Instance != null &&
+            TutorialController.Instance.IsTutorialOpen)
+        {
+            return;
+        }
+
     Debug.Log("AVAILABLE SERVICE HOVER ENTER: " + gameObject.name + " | " + actionName);
 
     isHovering = true;

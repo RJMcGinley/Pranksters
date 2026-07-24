@@ -49,6 +49,8 @@ public class TutorialController : MonoBehaviour
     private bool hasShownWantedBoardTutorial;
     private bool hasShownJailAndJailBreakTutorial;
     private bool hasShownBetweenRoundsTutorial;
+
+    [SerializeField] private AvailableServicesPanelController availableServicesPanelController;
     
 
     private void Awake()
@@ -195,6 +197,7 @@ public bool ShowAvailableServicesTutorial(
     SuppressDiscardPileHighlight();
     SuppressDrawPileHighlight();
     SuppressPlayerHideoutHighlights();
+    availableServicesPanelController.SetServiceSelectionCollidersEnabled(false);
 
     availableServicesTutorial.SetActive(true);
     tutorialRoot.SetActive(true);
@@ -411,6 +414,7 @@ public bool ShowBetweenRoundsTutorial()
     RestoreDrawPileHighlight();
     RestorePlayerHideoutHighlights();
     RestoreFavorAreaHighlight();
+    availableServicesPanelController.SetServiceSelectionCollidersEnabled(true);
 
     isTutorialOpen = false;
 

@@ -42769,7 +42769,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "These are Available Services\n\nThis is where you can use the recruits
     that aren't in high demand.\n\nAt the start of each round, any recruit type that
-    appears 2 or fewer \ntimes on the prank cards becomes available for  their unique
+    appears 2 or fewer \ntimes on the prank cards becomes available for their unique
     service\n or to perform a Jailbreak \u2014but we'll cover that once someone \nends
     up behind bars."
   m_isRightToLeft: 0
@@ -52312,6 +52312,7 @@ MonoBehaviour:
   favorAreaHighlight: {fileID: 327147979}
   playerHideoutController: {fileID: 1805775118}
   availableServices2Tutorial: {fileID: 1537664025}
+  availableServicesPanelController: {fileID: 2106431556}
 --- !u!1 &503732975
 GameObject:
   m_ObjectHideFlags: 0
