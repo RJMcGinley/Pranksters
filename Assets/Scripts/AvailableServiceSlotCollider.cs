@@ -75,10 +75,18 @@ public class AvailableServiceSlotCollider : MonoBehaviour
                     {
                         if (deckManager != null)
                             deckManager.PopHighlightSuppression();
+
+                        if (servicesPanelController != null)
+                            servicesPanelController.SetServiceSelectionCollidersEnabled(true);
                     });
 
             if (tutorialShown)
+            {
+                if (servicesPanelController != null)
+                    servicesPanelController.SetServiceSelectionCollidersEnabled(false);
+
                 return;
+            }
 
             // The tutorial did not open, so immediately release the
             // suppression that was pushed above.

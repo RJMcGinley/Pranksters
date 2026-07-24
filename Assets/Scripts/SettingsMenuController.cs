@@ -12,6 +12,7 @@ public class SettingsMenuController : MonoBehaviour
     public WhoopieToggleButton whoopieToggleButton;
     public GameObject handDisplayObject;
     public WantedJailController wantedJailController;
+    public TutorialToggleButton tutorialToggleButton;
 
     public void OpenSettings()
     {
@@ -97,6 +98,14 @@ public class SettingsMenuController : MonoBehaviour
 
         if (whoopieToggleButton != null && whoopieToggleButton.checkmarkObject != null)
             whoopieToggleButton.checkmarkObject.SetActive(data.fartSoundsEnabled);
+
+        if (tutorialToggleButton != null &&
+            tutorialToggleButton.checkmarkObject != null)
+        {
+            tutorialToggleButton.checkmarkObject.SetActive(
+                data.tutorialTipsEnabled
+            );
+        }
     }
 
     public void SaveMusicVolume(float value)

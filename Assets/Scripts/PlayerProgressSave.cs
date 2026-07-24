@@ -18,6 +18,7 @@ public class PlayerProgressSave
     public bool fullGamePurchased = false;
     public bool hasUnlockedTwinMayor = false;
     public bool hasUnlockedTripletMayor = false;
+    public bool hasPlayedTutorialGame;
 
     public List<PrankCompletionEntry> prankCompletions = new List<PrankCompletionEntry>();
     public List<FavorPointsEntry> favorPointsByType = new List<FavorPointsEntry>();
@@ -28,6 +29,7 @@ public class PlayerProgressSave
     public float musicVolume = 1f;
     public float sfxVolume = 1f;
     public bool fartSoundsEnabled = true;
+    public bool tutorialTipsEnabled = true;
 }
 
 [Serializable]

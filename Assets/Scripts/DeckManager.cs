@@ -1021,6 +1021,8 @@ void StartDrawFromDeckTurn()
         return;
     }
 
+    pendingChoice = PendingChoiceType.None;
+
     DrawCard();
     RefreshDrawDeckCounter();
 
@@ -2600,11 +2602,6 @@ int GetCombinedMischiefScore()
     return total;
 }
 
-private bool IsPlayersFirstGame()
-{
-    return true;
-}
-
 public void BeginNewGame()
 {
     Debug.Log("BeginNewGame START");
@@ -2651,6 +2648,15 @@ public void BeginNewGame()
 
     Debug.Log("BeginNewGame | clearing runtime data");
 
+    PlayerProgressSave saveData = SaveSystem.Load();
+    bool isTutorialGame = !saveData.hasPlayedTutorialGame;
+
+    if (isTutorialGame)
+    {
+        saveData.hasPlayedTutorialGame = true;
+        SaveSystem.Save(saveData);
+    }
+
     // Clear all runtime data
     deck.Clear();
     prankDeck.Clear();
@@ -2665,7 +2671,7 @@ public void BeginNewGame()
     availableServicesPanelOpen = false;
 
     if (availableServicesRoot != null)
-        availableServicesRoot.SetActive(false);
+        availableServicesRoot.SetActive(!isTutorialGame);
 
     temporarilyAssignedServiceHandIndexes.Clear();
     selectedAvailableServiceType = default;
@@ -2754,7 +2760,7 @@ public void BeginNewGame()
     prankDeck = PrankDatabase.CreatePrankDeck();
     ShufflePrankDeck();
 
-    if (IsPlayersFirstGame())
+    if (isTutorialGame)
         prankDeck = PrankDatabase.CreateFirstGamePrankDeck();
 
     currentMayorBreakingPoint = DetermineCurrentMayorBreakingPoint();
@@ -7048,7 +7054,7 @@ public void TryStartSwapWantedPostersAction()
 {
     if (pendingChoice == PendingChoiceType.ChooseSwapWantedPosterDiscards)
     {
-        pendingChoice = PendingChoiceType.None;
+        pendingChoice = PendingChoiceType.ChooseAction;
 
         swapWantedFirstCard = null;
         swapWantedSecondCard = null;

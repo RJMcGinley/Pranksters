@@ -75,6 +75,9 @@ public class TutorialController : MonoBehaviour
 
     public void ShowScoutTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return;
+
     if (isTutorialOpen)
         return;
 
@@ -97,6 +100,9 @@ public class TutorialController : MonoBehaviour
 
     public void ShowEndTurnTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return;
+
     if (hasShownEndTurnTutorial || isTutorialOpen)
         return;
 
@@ -118,6 +124,9 @@ public class TutorialController : MonoBehaviour
 
 public void ShowTurnTwoTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return;
+
     if (hasShownTurnTwoTutorial || isTutorialOpen)
         return;
 
@@ -139,6 +148,9 @@ public void ShowTurnTwoTutorial()
 
 public void ShowBarnabyHideoutTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return;
+
     if (hasShownBarnabyHideoutTutorial || isTutorialOpen)
         return;
 
@@ -161,6 +173,9 @@ public void ShowBarnabyHideoutTutorial()
 public bool ShowAvailableServicesTutorial(
     System.Action closedCallback = null)
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownAvailableServicesTutorial || isTutorialOpen)
         return false;
 
@@ -189,6 +204,9 @@ public bool ShowAvailableServicesTutorial(
 
 public void ShowAvailableServices2Tutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return;
+
     if (hasShownAvailableServices2Tutorial || isTutorialOpen)
         return;
 
@@ -210,6 +228,9 @@ public void ShowAvailableServices2Tutorial()
 
 public bool ShowPlayerHideoutTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownPlayerHideoutTutorial || isTutorialOpen)
         return false;
 
@@ -235,6 +256,9 @@ public bool ShowPlayerHideoutTutorial()
 
 public bool ShowPrankCardTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownPrankCardTutorial || isTutorialOpen)
         return false;
 
@@ -250,6 +274,9 @@ public bool ShowPrankCardTutorial()
     hasShownPrankCardTutorial = true;
     isTutorialOpen = true;
 
+    if (AudioManager.Instance != null)
+        AudioManager.Instance.PlayUIClick();
+
     prankCardTutorial.SetActive(true);
     tutorialRoot.SetActive(true);
 
@@ -258,6 +285,9 @@ public bool ShowPrankCardTutorial()
 
 public bool ShowWantedBoardTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownWantedBoardTutorial || isTutorialOpen)
         return false;
 
@@ -281,6 +311,9 @@ public bool ShowWantedBoardTutorial()
 
 public bool ShowJailAndJailBreakTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownJailAndJailBreakTutorial || isTutorialOpen)
         return false;
 
@@ -304,6 +337,9 @@ public bool ShowJailAndJailBreakTutorial()
 
 public bool ShowBetweenRoundsTutorial()
 {
+    if (!AreTutorialTipsEnabled())
+        return false;
+
     if (hasShownBetweenRoundsTutorial || isTutorialOpen)
         return false;
 
@@ -382,6 +418,12 @@ public bool ShowBetweenRoundsTutorial()
     onTutorialClosed = null;
 
     closedCallback?.Invoke();
+}
+
+private bool AreTutorialTipsEnabled()
+{
+    PlayerProgressSave data = SaveSystem.Load();
+    return data.tutorialTipsEnabled;
 }
 
 private void ValidateReferences()

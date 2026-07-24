@@ -236,7 +236,7 @@ public AvailableServicePanelAssignmentController GetPanelAssignmentController(Pr
     return panel.GetComponent<AvailableServicePanelAssignmentController>();
 }
 
-private void SetServiceSelectionCollidersEnabled(bool enabled)
+public void SetServiceSelectionCollidersEnabled(bool enabled)
 {
     if (serviceSelectionColliders == null)
         return;
