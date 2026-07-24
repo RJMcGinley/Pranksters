@@ -5166,6 +5166,18 @@ public void ActivateAvailableServiceScoringAction()
         return;
     }
 
+    int jailbreakNumber = player.activeScoringServiceTypes.Count + 1;
+    int jailbreakRenownReward = jailbreakNumber * 10;
+
+    player.renownPoints += jailbreakRenownReward;
+
+    Debug.Log(
+        "Player " + (turnManager.currentPlayerIndex + 1) +
+        " gained " + jailbreakRenownReward +
+        " Renown for completing Jailbreak #" + jailbreakNumber + "."
+    );
+
+
     player.activeScoringServiceTypes.Add(jailbreakType);
 
     activeServicePanelController = null;

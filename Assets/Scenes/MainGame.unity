@@ -17661,7 +17661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.6, y: 3.6}
+  m_AnchoredPosition: {x: 3.3, y: 3.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &182274981
@@ -17686,7 +17686,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You'll need:\n-3 orthogonally connected Wanted Posters matching the jailed
     recruit's type.\n-Three matching recruits committed to perform the Jailbreak
-    so that recruit's Available Services \nwill need to be available."
+    so that recruit's Available Services \nwill need to be available.\nEach successful
+    Jailbreak causes increasing Mischief: 10, then 20, then 30, \nand 10 more for
+    each additional Jailbreak."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -40868,7 +40870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &394698012
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64408,7 +64410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &620344935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74928,7 +74930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &725345813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98762,7 +98764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1032466934
 RectTransform:
   m_ObjectHideFlags: 0
@@ -105865,7 +105867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: -8.9}
+  m_AnchoredPosition: {x: 2.7, y: -10.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132650082
@@ -105890,8 +105892,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "If you're clever, you'll pay attention to the Pranks that come out each
     round. \nYou'll have a much better idea of predicting which recruits Services
-    will be available next round.\n\nI doubt you're smart enough to keep track of
-    that, though."
+    will be available next round.\nI doubt you're smart enough to keep track of that,
+    though."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -124338,7 +124340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1358239289
 RectTransform:
   m_ObjectHideFlags: 0
@@ -144693,7 +144695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 22.4}
+  m_AnchoredPosition: {x: 1.7, y: 25}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556130081
@@ -157106,7 +157108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1676585764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -168118,7 +168120,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.7, y: -8.5}
-  m_SizeDelta: {x: 143, y: 75}
+  m_SizeDelta: {x: 143, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761923047
 MonoBehaviour:
@@ -179410,7 +179412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1987753538
 RectTransform:
   m_ObjectHideFlags: 0
@@ -187980,7 +187982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.1, y: -14.2}
+  m_AnchoredPosition: {x: 1.6, y: -15.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2129348240
