@@ -3406,16 +3406,32 @@ IEnumerator ResetRoundSequence()
 
     ShufflePranksterDeck();
 
-    GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
+    GameBackgroundManager backgroundManager =
+        FindFirstObjectByType<GameBackgroundManager>();
 
     if (backgroundManager != null)
     {
         backgroundManager.SetLocation(pendingRoundLocation);
-        Debug.Log("ROUND RESET APPLY LOCATION | " + pendingRoundLocation);
+
+        Debug.Log(
+            "ROUND RESET APPLY LOCATION | " +
+            pendingRoundLocation);
     }
     else
     {
-        Debug.LogWarning("GameBackgroundManager not found during round reset.");
+        Debug.LogWarning(
+            "GameBackgroundManager not found during round reset.");
+    }
+
+    if (AudioManager.Instance != null)
+    {
+        AudioManager.Instance.PlayLocationMusic(
+            pendingRoundLocation);
+    }
+    else
+    {
+        Debug.LogWarning(
+            "AudioManager instance not found during round reset.");
     }
 
     ApplyCurrentLocationEffects();
@@ -4334,8 +4350,11 @@ void ShowEndOfRoundPanelBeforeReset()
     if (nextPlayerPanelController != null)
         nextPlayerPanelController.HideBotMessage();
 
-    string dealerName = turnManager.players[pendingRoundDealerIndex].playerName;
-    string firstPlayerName = turnManager.players[pendingRoundFirstPlayerIndex].playerName;
+    string dealerName =
+        turnManager.players[pendingRoundDealerIndex].playerName;
+
+    string firstPlayerName =
+        turnManager.players[pendingRoundFirstPlayerIndex].playerName;
 
     if (string.IsNullOrWhiteSpace(dealerName))
         dealerName = "Player " + (pendingRoundDealerIndex + 1);
@@ -4358,7 +4377,9 @@ void ShowEndOfRoundPanelBeforeReset()
     if (playerChoosesLocation)
     {
         influenceWinnerText =
-            influenceWinnerName + " has the most influence and will choose" + "\nthe location for the upcoming round.";
+            influenceWinnerName +
+            " has the most influence and will choose\n" +
+            "the location for the upcoming round.";
     }
     else
     {
@@ -4368,14 +4389,9 @@ void ShowEndOfRoundPanelBeforeReset()
 
         influenceWinnerText =
             influenceWinnerName + " has the most influence.\n" +
-            influenceWinnerName + " chooses " + GetLocationDisplayName(botLocation) + " for the upcoming round.";
-
-        GameBackgroundManager backgroundManager = FindFirstObjectByType<GameBackgroundManager>();
-
-        if (backgroundManager != null)
-            backgroundManager.SetLocation(botLocation);
-        else
-            Debug.LogWarning("GameBackgroundManager not found. Bot location could not be applied.");
+            influenceWinnerName + " chooses " +
+            GetLocationDisplayName(botLocation) +
+            " for the upcoming round.";
     }
 
     if (wantedJailController != null)
@@ -4408,7 +4424,9 @@ void ShowEndOfRoundPanelBeforeReset()
     }
     else
     {
-        Debug.LogWarning("EndOfRoundPanelController is not assigned. Resetting round immediately.");
+        Debug.LogWarning(
+            "EndOfRoundPanelController is not assigned. " +
+            "Resetting round immediately.");
 
         if (wantedJailController != null)
             wantedJailController.ShowJailDisplay();

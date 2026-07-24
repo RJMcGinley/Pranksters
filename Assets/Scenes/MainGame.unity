@@ -7610,6 +7610,8 @@ MonoBehaviour:
   tooltipTitle: Increase Crew Size
   tooltipDescription: 
   hoverDelay: 0.5
+  discardPileHighlight: {fileID: 726845296}
+  deckManager: {fileID: 1503786762}
 --- !u!1 &46233510
 GameObject:
   m_ObjectHideFlags: 0
@@ -15300,8 +15302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.4, y: -29.6}
-  m_SizeDelta: {x: 40, y: 60}
+  m_AnchoredPosition: {x: -43, y: -32.4}
+  m_SizeDelta: {x: 50, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141767851
 MonoBehaviour:
@@ -15323,7 +15325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6168480164351980576, guid: c032d5f8a67fa468b98c7a8eeeb0b901, type: 3}
+  m_Sprite: {fileID: 8093600166637604489, guid: 63ea2458bd3244dafac74fb948d33709, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23296,7 +23298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9, y: -11.7}
+  m_AnchoredPosition: {x: -0.8, y: -2.4}
   m_SizeDelta: {x: 80, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249655488
@@ -52803,6 +52805,11 @@ MonoBehaviour:
   sfxSource: {fileID: 507006765}
   musicSource: {fileID: 507006768}
   backgroundMusicClip: {fileID: 8300000, guid: b30761fec1d22410491c51d723e3ee9a, type: 3}
+  rebelWorkshopMusic: {fileID: 8300000, guid: 413681a4a25ff4bad9d4d06cf89175e4, type: 3}
+  forestClearingMusic: {fileID: 8300000, guid: 7de4c8a7b10c5473399c2a95f2ff6a97, type: 3}
+  sewerHideoutMusic: {fileID: 8300000, guid: dcc9f53323e0740eca98c929e76f6433, type: 3}
+  outsideTheWallsMusic: {fileID: 8300000, guid: a4370d8f2986d4faa8038dd70514dbca, type: 3}
+  treetopHideoutMusic: {fileID: 8300000, guid: 06a9b44e6cfdd42eb860ddb3ccccd9df, type: 3}
   invalidSelectionClip: {fileID: 8300000, guid: b133bbd81f0ba4fbb8926e4381c0a1d4, type: 3}
   drawDeckHoverClip: {fileID: 8300000, guid: 255bffc329cf641dd9b58711df81dcd3, type: 3}
   drawCardActionClip: {fileID: 8300000, guid: 9c49c55fd3a6444da9e8744727180b05, type: 3}
@@ -54773,8 +54780,8 @@ MonoBehaviour:
     he insists on using the line with the most empty spaces. \nIf more than one line
     is tied, then you get to choose between them.\n\nBe careful where you tell him
     to put them. If the Wanted Board ever becomes completely full, or you can't place
-    all of a Prank's Wanted Posters, \nthe Mayor will wheel out his rusty old guillotine...
-    and the citizens will abandon the cause, and you'll lose the game. \n\nIf a Wanted
+    all of a Prank's Wanted Posters, \nthe Mayor will wheel out his rusty old guillotine,
+    the citizens will abandon the cause, and you'll lose the game. \n\nIf a Wanted
     Poster is placed over another recruit of the same type, that recruit is sent
     to Jail. \nIf you're truly clever, you'll learn to use that to your advantage."
   m_isRightToLeft: 0
@@ -74817,6 +74824,8 @@ MonoBehaviour:
   tooltipTitle: 
   tooltipDescription: 
   hoverDelay: 0.5
+  discardPileHighlight: {fileID: 0}
+  deckManager: {fileID: 0}
 --- !u!1 &724770591
 GameObject:
   m_ObjectHideFlags: 0
@@ -84483,6 +84492,8 @@ MonoBehaviour:
   tooltipDescription: "Barnaby spends his \nInfluence carrying out \n\"his\" brilliant
     ideas."
   hoverDelay: 0.5
+  discardPileHighlight: {fileID: 0}
+  deckManager: {fileID: 0}
 --- !u!114 &901322019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124326,7 +124337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1358239289
 RectTransform:
   m_ObjectHideFlags: 0
@@ -144251,8 +144262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.1, y: -46.9}
-  m_SizeDelta: {x: 35, y: 40}
+  m_AnchoredPosition: {x: -55.1, y: -41.7}
+  m_SizeDelta: {x: 32, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549533824
 MonoBehaviour:
@@ -145581,6 +145592,8 @@ MonoBehaviour:
   tooltipDescription: "Discard 2 different recruits from your hand. \nThen swap the
     positions of the matching \nWanted Posters."
   hoverDelay: 0.5
+  discardPileHighlight: {fileID: 0}
+  deckManager: {fileID: 0}
 --- !u!114 &1572001093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146872,7 +146885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 18.8}
+  m_AnchoredPosition: {x: 4.7, y: 19.5}
   m_SizeDelta: {x: 170, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587433068
@@ -149920,8 +149933,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.1, y: -24.7}
-  m_SizeDelta: {x: 45, y: 60}
+  m_AnchoredPosition: {x: -83.5, y: -24.6}
+  m_SizeDelta: {x: 40, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638303752
 MonoBehaviour:
@@ -171776,6 +171789,8 @@ MonoBehaviour:
   tooltipTitle: Use Inactive Services
   tooltipDescription: 
   hoverDelay: 0.5
+  discardPileHighlight: {fileID: 0}
+  deckManager: {fileID: 0}
 --- !u!114 &1834245128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173349,8 +173364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.1, y: -32.5}
-  m_SizeDelta: {x: 35, y: 40}
+  m_AnchoredPosition: {x: 14.7, y: -37.1}
+  m_SizeDelta: {x: 30, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863825640
 MonoBehaviour:
@@ -174872,8 +174887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.6, y: -45.4}
-  m_SizeDelta: {x: 50, y: 60}
+  m_AnchoredPosition: {x: -42.4, y: -39.3}
+  m_SizeDelta: {x: 45, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896948071
 MonoBehaviour:

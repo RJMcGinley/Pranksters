@@ -25,6 +25,10 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
     [Header("Timing")]
     [SerializeField] private float hoverDelay = 0.5f;
 
+    [Header("Highlight Handling")]
+    [SerializeField] private GameObject discardPileHighlight;
+    [SerializeField] private DeckManager deckManager;
+
     private Coroutine showRoutine;
     private bool pointerInside;
 
@@ -53,7 +57,14 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
             showRoutine = null;
         }
 
+        bool tooltipWasVisible =
+            tooltipPanel != null &&
+            tooltipPanel.activeSelf;
+
         HideTooltip();
+
+        if (tooltipWasVisible && deckManager != null)
+            deckManager.RefreshAllHighlights();
     }
 
     private IEnumerator ShowAfterDelay()
@@ -70,6 +81,9 @@ public class SpendInfluenceTooltip : MonoBehaviour, IPointerEnterHandler, IPoint
 
     private void ShowTooltip()
 {
+    if (discardPileHighlight != null)
+        discardPileHighlight.SetActive(false);
+
     if (titleText != null)
         titleText.text = tooltipTitle;
 

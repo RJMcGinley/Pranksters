@@ -24,6 +24,11 @@ public class AudioManager : MonoBehaviour
 
     [Header("Music Clip")]
     public AudioClip backgroundMusicClip;
+    public AudioClip rebelWorkshopMusic;
+    public AudioClip forestClearingMusic;
+    public AudioClip sewerHideoutMusic;
+    public AudioClip outsideTheWallsMusic;
+    public AudioClip treetopHideoutMusic;
 
     [Header("Current Clips")]
     [SerializeField] private AudioClip invalidSelectionClip;
@@ -101,7 +106,7 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        PlayMusic();
+        PlayLocationMusic(GameLocationType.RebelWorkshop);
     }
 
     public void PlaySFX(AudioClip clip)
@@ -537,6 +542,62 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
             return;
 
         sfxSource.PlayOneShot(invalidSelectionClip, 0.6f);
+    }
+
+    public void PlayLocationMusic(GameLocationType locationType)
+    {
+        if (musicSource == null)
+        {
+            Debug.LogWarning("AudioManager: musicSource is not assigned.");
+            return;
+        }
+
+        AudioClip selectedClip = null;
+
+        switch (locationType)
+        {
+            case GameLocationType.RebelWorkshop:
+                selectedClip = rebelWorkshopMusic;
+                break;
+
+            case GameLocationType.SewerHideout:
+                selectedClip = sewerHideoutMusic;
+                break;
+
+            case GameLocationType.ForestClearing:
+                selectedClip = forestClearingMusic;
+                break;
+
+            case GameLocationType.OutsideTheWalls:
+                selectedClip = outsideTheWallsMusic;
+                break;
+
+            case GameLocationType.Treetop:
+                selectedClip = treetopHideoutMusic;
+                break;
+        }
+
+        if (selectedClip == null)
+        {
+            Debug.LogWarning(
+                "AudioManager: no music clip assigned for location " +
+                locationType);
+
+            return;
+        }
+
+        if (musicSource.clip == selectedClip && musicSource.isPlaying)
+            return;
+
+        musicSource.clip = selectedClip;
+        musicSource.loop = true;
+        musicSource.Play();
+
+        Debug.Log(
+            "AudioManager: playing location music | location=" +
+            locationType +
+            " | clip=" +
+            selectedClip.name);
     }
 
 }
