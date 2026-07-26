@@ -3,8 +3,8 @@ guid: 135a8bece2d5249f5814b279f3ed0bda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5135104221060702963
-    second: Outside the walls_0
+      213: -7630976939749248419
+    second: Outside The Walls_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Outside the walls_0
+      name: Outside The Walls_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f2aee4051e834740800000000000000
-      internalID: 5135104221060702963
+      spriteID: d527c0967e2591690800000000000000
+      internalID: -7630976939749248419
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Outside the walls_0: 5135104221060702963
+      Outside The Walls_0: -7630976939749248419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

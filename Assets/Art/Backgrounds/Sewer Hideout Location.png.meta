@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ad084be96c0884dd0b4fc4ccc37670b2
+guid: 6220686edb6a94ccb899d0f92b179a96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9125852790567803208
-    second: Forest Clearing_0
+      213: 1990801486235880258
+    second: Sewer Hideout Location_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Forest Clearing_0
+      name: Sewer Hideout Location_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8491d4e13ca85ae70800000000000000
-      internalID: 9125852790567803208
+      spriteID: 24bc86d676fb0ab10800000000000000
+      internalID: 1990801486235880258
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Forest Clearing_0: 9125852790567803208
+      Sewer Hideout Location_0: 1990801486235880258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,8 +3,8 @@ guid: 908fcc7b1e0c84f5fa423ae85d242e51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1806984203452874986
-    second: Rebel Workshop_0
+      213: -3371557960463002489
+    second: Rebel Workshop Location_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rebel Workshop_0
+      name: Rebel Workshop Location_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae00d892f82b31910800000000000000
-      internalID: 1806984203452874986
+      spriteID: 78456f2f5e1d531d0800000000000000
+      internalID: -3371557960463002489
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rebel Workshop_0: 1806984203452874986
+      Rebel Workshop Location_0: -3371557960463002489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

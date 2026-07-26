@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3a5728c7901e3470888e6b5019773066
+guid: 534dfdbdce3d74c5a8a7dcd655c3f613
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3663465463516834283
-    second: Treetop_0
+      213: -8443655916569845611
+    second: Forest Clearing Location_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Treetop_0
+      name: Forest Clearing Location_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 516da202291c82dc0800000000000000
-      internalID: -3663465463516834283
+      spriteID: 590aa372eab12da80800000000000000
+      internalID: -8443655916569845611
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Treetop_0: -3663465463516834283
+      Forest Clearing Location_0: -8443655916569845611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

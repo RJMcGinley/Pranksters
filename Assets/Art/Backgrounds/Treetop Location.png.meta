@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4792740513a6b4ebfb978f8a1ab2d888
+guid: d2770b41e0c584516bcd3516d8bb69cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7454363080388868911
-    second: AvailableServicesPanel_0
+      213: 2339862898637639567
+    second: Treetop Location_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AvailableServicesPanel_0
+      name: Treetop Location_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 1494
-        height: 1024
+        width: 3840
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2b7d590ab7337760800000000000000
-      internalID: 7454363080388868911
+      spriteID: f8f8960c8ecd87020800000000000000
+      internalID: 2339862898637639567
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AvailableServicesPanel_0: 7454363080388868911
+      Treetop Location_0: 2339862898637639567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
