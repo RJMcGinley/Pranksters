@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: c2322bd8599944dafa4ebf8369b0ebd2
+guid: 245ad665514264a28a2c1901e6b9ec89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 136537765233761885
-    second: PostNoticesButton_0
+      213: 7647240639167449756
+    second: Leaf_0
   - first:
-      213: -2155387228232943442
-    second: PostNoticesButton_1
+      213: 7778570650710507745
+    second: Leaf_1
+  - first:
+      213: -1451028164899545391
+    second: Leaf_2
+  - first:
+      213: -4328694197753508652
+    second: Leaf_3
+  - first:
+      213: 7066227016008939017
+    second: Leaf_4
+  - first:
+      213: 6732178780036697699
+    second: Leaf_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PostNoticesButton_0
+      name: Leaf_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 1024
-        height: 960
+        width: 1494
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5e1f23cf5415e100800000000000000
-      internalID: 136537765233761885
+      spriteID: c9ac18138d4702a60800000000000000
+      internalID: 7647240639167449756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PostNoticesButton_1
+      name: Leaf_1
       rect:
         serializedVersion: 2
-        x: 929
-        y: 305
-        width: 6
-        height: 6
+        x: 465
+        y: 247
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +178,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea8f2c35cb68612e0800000000000000
-      internalID: -2155387228232943442
+      spriteID: 1e001ef4bc803fb60800000000000000
+      internalID: 7778570650710507745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 237
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de53186299ecdbe0800000000000000
+      internalID: -1451028164899545391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_3
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 520
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc8b91cf836de3c0800000000000000
+      internalID: -4328694197753508652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_4
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 267
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9063b775808401260800000000000000
+      internalID: 7066227016008939017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_5
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 239
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e828c8ee08d6d50800000000000000
+      internalID: 6732178780036697699
       vertices: []
       indices: 
       edges: []
@@ -186,8 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PostNoticesButton_0: 136537765233761885
-      PostNoticesButton_1: -2155387228232943442
+      Leaf_0: 7647240639167449756
+      Leaf_1: 7778570650710507745
+      Leaf_2: -1451028164899545391
+      Leaf_3: -4328694197753508652
+      Leaf_4: 7066227016008939017
+      Leaf_5: 6732178780036697699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

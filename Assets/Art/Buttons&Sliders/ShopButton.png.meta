@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: c2322bd8599944dafa4ebf8369b0ebd2
+guid: 8bbd230d96b8e46c49b3f185a9d4d36e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 136537765233761885
-    second: PostNoticesButton_0
+      213: -8678435745122928177
+    second: ShopButton_0
   - first:
-      213: -2155387228232943442
-    second: PostNoticesButton_1
+      213: -6787147696246827665
+    second: ShopButton_1
+  - first:
+      213: -1737268397351988978
+    second: ShopButton_2
+  - first:
+      213: 8000935975173051723
+    second: ShopButton_3
+  - first:
+      213: 7416503270122593418
+    second: ShopButton_4
+  - first:
+      213: 6316329813286095119
+    second: ShopButton_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PostNoticesButton_0
+      name: ShopButton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 960
+        x: 590
+        y: 377
+        width: 6
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5e1f23cf5415e100800000000000000
-      internalID: 136537765233761885
+      spriteID: fc935ed8ba0009780800000000000000
+      internalID: -8678435745122928177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PostNoticesButton_1
+      name: ShopButton_1
       rect:
         serializedVersion: 2
-        x: 929
-        y: 305
-        width: 6
-        height: 6
+        x: 597
+        y: 385
+        width: 24
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +178,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea8f2c35cb68612e0800000000000000
-      internalID: -2155387228232943442
+      spriteID: f65d81f41253fc1a0800000000000000
+      internalID: -6787147696246827665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopButton_2
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 377
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e019258d89bf3e7e0800000000000000
+      internalID: -1737268397351988978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopButton_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 373
+        width: 168
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4555dee0e8090f60800000000000000
+      internalID: 8000935975173051723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopButton_4
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 373
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c1e2b0e66bce660800000000000000
+      internalID: 7416503270122593418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopButton_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f098025ff7c18a750800000000000000
+      internalID: 6316329813286095119
       vertices: []
       indices: 
       edges: []
@@ -176,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -186,8 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PostNoticesButton_0: 136537765233761885
-      PostNoticesButton_1: -2155387228232943442
+      ShopButton_0: -8678435745122928177
+      ShopButton_1: -6787147696246827665
+      ShopButton_2: -1737268397351988978
+      ShopButton_3: 8000935975173051723
+      ShopButton_4: 7416503270122593418
+      ShopButton_5: 6316329813286095119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

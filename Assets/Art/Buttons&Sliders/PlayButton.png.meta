@@ -1,58 +1,43 @@
 fileFormatVersion: 2
-guid: 8c2cb380ac9c24d978bf06f64bcf841c
+guid: b8821891917e348ae97403aa6fdc0ff7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2759625832949664974
-    second: Thief_0
+      213: -1958676783162264248
+    second: PlayButton_0
   - first:
-      213: 6674077867272231801
-    second: Thief_1
+      213: 7928353779462949069
+    second: PlayButton_1
   - first:
-      213: -2305040796722866168
-    second: Thief_2
+      213: -3248335609562203678
+    second: PlayButton_2
   - first:
-      213: 6184289100250789393
-    second: Thief_3
+      213: -2922150867334361037
+    second: PlayButton_3
   - first:
-      213: 1937225949302888066
-    second: Thief_4
+      213: 3502773657383976437
+    second: PlayButton_4
   - first:
-      213: 7668418516334040060
-    second: Thief_5
+      213: -502551152378373709
+    second: PlayButton_5
   - first:
-      213: 1026404866474992840
-    second: Thief_6
+      213: -931351564760199206
+    second: PlayButton_6
   - first:
-      213: 1433560884088503022
-    second: Thief_7
+      213: -4181116182464302184
+    second: PlayButton_7
   - first:
-      213: -5119236626837732370
-    second: Thief_8
+      213: -5952645124595385091
+    second: PlayButton_8
   - first:
-      213: -2437037966712245055
-    second: Thief_9
+      213: 6264984548441824026
+    second: PlayButton_9
   - first:
-      213: 1127592502855584038
-    second: Thief_10
+      213: 8968115519190733520
+    second: PlayButton_10
   - first:
-      213: 6781518532799561996
-    second: Thief_11
-  - first:
-      213: 558917605916089062
-    second: Thief_12
-  - first:
-      213: -5460192695336779597
-    second: Thief_13
-  - first:
-      213: -2997135018590768515
-    second: Thief_14
-  - first:
-      213: 6624065841014085460
-    second: Thief_15
-  - first:
-      213: 8074936530806780918
-    second: Thief_16
+      213: 7266447043686282228
+    second: PlayButton_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -94,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -174,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thief_0
+      name: PlayButton_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1065
-        width: 41
-        height: 53
+        x: 4
+        y: 0
+        width: 1532
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,151 +174,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eccc4fde2192c4620800000000000000
-      internalID: 2759625832949664974
+      spriteID: 845fecdd7d161d4e0800000000000000
+      internalID: -1958676783162264248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_1
+      name: PlayButton_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 813
-        width: 261
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97bde02a5761f9c50800000000000000
-      internalID: 6674077867272231801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_2
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 1085
-        width: 46
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 808dc86ab99d200e0800000000000000
-      internalID: -2305040796722866168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_3
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 1079
-        width: 25
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 116b4c0cb2203d550800000000000000
-      internalID: 6184289100250789393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_4
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 1000
-        width: 79
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2861eddacb862ea10800000000000000
-      internalID: 1937225949302888066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_5
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1054
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf35e17f202bb6a60800000000000000
-      internalID: 7668418516334040060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_6
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 1061
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c469f5b9c58e3e00800000000000000
-      internalID: 1026404866474992840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_7
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 1058
-        width: 8
+        x: 1038
+        y: 378
+        width: 6
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -343,18 +196,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eea7dfb570805e310800000000000000
-      internalID: 1433560884088503022
+      spriteID: dc8c38691cb270e60800000000000000
+      internalID: 7928353779462949069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_8
+      name: PlayButton_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1053
+        x: 1445
+        y: 384
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9fac839f79be2d0800000000000000
+      internalID: -3248335609562203678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton_3
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 311
         width: 9
         height: 10
       alignment: 0
@@ -365,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee30b282961d4f8b0800000000000000
-      internalID: -5119236626837732370
+      spriteID: 3309f64b44f6277d0800000000000000
+      internalID: -2922150867334361037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_9
+      name: PlayButton_4
       rect:
         serializedVersion: 2
-        x: 340
-        y: 1040
-        width: 29
-        height: 33
+        x: 1531
+        y: 236
+        width: 5
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +262,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c4f9f991e6ed2ed0800000000000000
-      internalID: -2437037966712245055
+      spriteID: 5fdb7f8351a5c9030800000000000000
+      internalID: 3502773657383976437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_10
+      name: PlayButton_5
       rect:
         serializedVersion: 2
-        x: 293
-        y: 1039
+        x: 1528
+        y: 205
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b91609b3649609f0800000000000000
+      internalID: -502551152378373709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton_6
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 172
         width: 11
-        height: 11
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,42 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 629c918386306af00800000000000000
-      internalID: 1127592502855584038
+      spriteID: adfc675bfac2313f0800000000000000
+      internalID: -931351564760199206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_11
+      name: PlayButton_7
       rect:
         serializedVersion: 2
-        x: 345
-        y: 934
-        width: 20
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c010f31fc2bcc1e50800000000000000
-      internalID: 6781518532799561996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Thief_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 830
+        x: 1528
+        y: 153
         width: 8
-        height: 16
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ea175fe99ca1c700800000000000000
-      internalID: 558917605916089062
+      spriteID: 893f39b0cf0b9f5c0800000000000000
+      internalID: -4181116182464302184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_13
+      name: PlayButton_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 798
+        x: 1527
+        y: 114
         width: 9
-        height: 36
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b0c4454caf7934b0800000000000000
-      internalID: -5460192695336779597
+      spriteID: dfcf7823cc4f36da0800000000000000
+      internalID: -5952645124595385091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_14
+      name: PlayButton_9
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 805
-        height: 997
+        x: 1097
+        y: 16
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +372,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d72730184990866d0800000000000000
-      internalID: -2997135018590768515
+      spriteID: a1b9f25e042b1f650800000000000000
+      internalID: 6264984548441824026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_15
+      name: PlayButton_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 779
-        width: 8
-        height: 19
+        x: 1204
+        y: 16
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 457917e59c86deb50800000000000000
-      internalID: 6624065841014085460
+      spriteID: 0d21802bc85257c70800000000000000
+      internalID: 8968115519190733520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thief_16
+      name: PlayButton_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 769
-        width: 8
-        height: 12
+        x: 1447
+        y: 9
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f3309eedffef0070800000000000000
-      internalID: 8074936530806780918
+      spriteID: 4f3bb12461b97d460800000000000000
+      internalID: 7266447043686282228
       vertices: []
       indices: 
       edges: []
@@ -551,7 +426,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -561,23 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Thief_0: 2759625832949664974
-      Thief_1: 6674077867272231801
-      Thief_10: 1127592502855584038
-      Thief_11: 6781518532799561996
-      Thief_12: 558917605916089062
-      Thief_13: -5460192695336779597
-      Thief_14: -2997135018590768515
-      Thief_15: 6624065841014085460
-      Thief_16: 8074936530806780918
-      Thief_2: -2305040796722866168
-      Thief_3: 6184289100250789393
-      Thief_4: 1937225949302888066
-      Thief_5: 7668418516334040060
-      Thief_6: 1026404866474992840
-      Thief_7: 1433560884088503022
-      Thief_8: -5119236626837732370
-      Thief_9: -2437037966712245055
+      PlayButton_0: -1958676783162264248
+      PlayButton_1: 7928353779462949069
+      PlayButton_10: 8968115519190733520
+      PlayButton_11: 7266447043686282228
+      PlayButton_2: -3248335609562203678
+      PlayButton_3: -2922150867334361037
+      PlayButton_4: 3502773657383976437
+      PlayButton_5: -502551152378373709
+      PlayButton_6: -931351564760199206
+      PlayButton_7: -4181116182464302184
+      PlayButton_8: -5952645124595385091
+      PlayButton_9: 6264984548441824026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -37,12 +37,20 @@ public class HandCardDragReorder : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (deckManager == null)
+                return;
+
+        if (deckManager != null &&
+                deckManager.IsWantedBoardOpen())
+                return;
+
         if (deckManager != null && deckManager.IsRulesPanelOpen())
             return;
 
         if (settingsMenuController != null &&
             settingsMenuController.IsPanelBlockingInteraction())
             return;
+
         if (deckManager == null || !deckManager.CanReorderHand())
             return;
 

@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: c2322bd8599944dafa4ebf8369b0ebd2
+guid: c02dd8830a72843439c2e1cb4168f477
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 136537765233761885
-    second: PostNoticesButton_0
+      213: 7656969134541681385
+    second: StatisticsButton_0
   - first:
-      213: -2155387228232943442
-    second: PostNoticesButton_1
+      213: -8702143099768881529
+    second: StatisticsButton_1
+  - first:
+      213: -5543848022768571775
+    second: StatisticsButton_2
+  - first:
+      213: 8100103582168565217
+    second: StatisticsButton_3
+  - first:
+      213: -2165901954298458347
+    second: StatisticsButton_4
+  - first:
+      213: -3612887567695099680
+    second: StatisticsButton_5
+  - first:
+      213: -4534953806637435649
+    second: StatisticsButton_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PostNoticesButton_0
+      name: StatisticsButton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 960
+        width: 1536
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5e1f23cf5415e100800000000000000
-      internalID: 136537765233761885
+      spriteID: 9e2bc780cd4034a60800000000000000
+      internalID: 7656969134541681385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PostNoticesButton_1
+      name: StatisticsButton_1
       rect:
         serializedVersion: 2
-        x: 929
-        y: 305
-        width: 6
-        height: 6
+        x: 742
+        y: 391
+        width: 58
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +181,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea8f2c35cb68612e0800000000000000
-      internalID: -2155387228232943442
+      spriteID: 78eb8a9e4f6cb3780800000000000000
+      internalID: -8702143099768881529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatisticsButton_2
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 392
+        width: 158
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aa02a889b4013b0800000000000000
+      internalID: -5543848022768571775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatisticsButton_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 389
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5c603ba49596070800000000000000
+      internalID: 8100103582168565217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatisticsButton_4
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 4
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f47b3e5ab21f1e0800000000000000
+      internalID: -2165901954298458347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatisticsButton_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 145
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8cb1a26e17cddc0800000000000000
+      internalID: -3612887567695099680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatisticsButton_6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4f1924a8b9011c0800000000000000
+      internalID: -4534953806637435649
       vertices: []
       indices: 
       edges: []
@@ -186,8 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PostNoticesButton_0: 136537765233761885
-      PostNoticesButton_1: -2155387228232943442
+      StatisticsButton_0: 7656969134541681385
+      StatisticsButton_1: -8702143099768881529
+      StatisticsButton_2: -5543848022768571775
+      StatisticsButton_3: 8100103582168565217
+      StatisticsButton_4: -2165901954298458347
+      StatisticsButton_5: -3612887567695099680
+      StatisticsButton_6: -4534953806637435649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

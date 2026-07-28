@@ -34,6 +34,10 @@ public class HandCardClick : MonoBehaviour
         if (deckManager.IsRulesPanelOpen())
             return;
 
+        
+        if (deckManager.IsWantedBoardOpen())
+            return;
+
         if (!deckManager.IsInDiscardSelection() &&
             !deckManager.IsChoosingFavor() &&
             !deckManager.IsInSwapHandSelection() &&
@@ -90,6 +94,10 @@ public class HandCardClick : MonoBehaviour
     {
         if (deckManager == null)
             return;
+
+        if (deckManager.IsWantedBoardOpen())
+            return;
+
 
         if (TutorialController.Instance != null &&
             TutorialController.Instance.IsTutorialOpen)

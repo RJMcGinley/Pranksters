@@ -90,6 +90,8 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip mayorsGrowingFrustrationClip;
 
+    [SerializeField] private AudioClip menuHoverClip;
+
     
 
     void Awake()
@@ -598,6 +600,11 @@ public void PlayPlayerTurnVoice(string playerName, int playerIndex, bool isBot)
             locationType +
             " | clip=" +
             selectedClip.name);
+    }
+
+    public void PlayMenuHover()
+    {
+        PlaySFX(menuHoverClip);
     }
 
 }

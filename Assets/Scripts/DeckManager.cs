@@ -7074,6 +7074,8 @@ void ResolveSwapWantedPosterDiscard(int index)
         return;
     }
 
+    wantedBoardOpen = true;
+
     wantedBoardPanelController.BeginTypedPosterSwapMode(
         swapWantedFirstType,
         swapWantedSecondType,
@@ -7142,6 +7144,8 @@ public void TryStartSwapWantedPostersAction()
 
 void CompleteSwapWantedPostersAction()
 {
+    wantedBoardOpen = false;
+
     Player player = GetCurrentPlayer();
 
     if (player == null)
