@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: e773e46d478744342829321808b8c2b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4422913751342675708
+    second: SpendICardsButton_SwapPosters 1_0
+  - first:
+      213: 5916589346814591681
+    second: SpendICardsButton_SwapPosters 1_1
+  - first:
+      213: 6867115392603444402
+    second: SpendICardsButton_SwapPosters 1_2
+  - first:
+      213: -4949545154834567904
+    second: SpendICardsButton_SwapPosters 1_3
+  - first:
+      213: -8721130112523855203
+    second: SpendICardsButton_SwapPosters 1_4
+  - first:
+      213: -7995091379945427547
+    second: SpendICardsButton_SwapPosters 1_5
+  - first:
+      213: 129155983757470265
+    second: SpendICardsButton_SwapPosters 1_6
+  - first:
+      213: 8733005826137297813
+    second: SpendICardsButton_SwapPosters 1_7
+  - first:
+      213: 2929309060614635670
+    second: SpendICardsButton_SwapPosters 1_8
+  - first:
+      213: 5555988592101872391
+    second: SpendICardsButton_SwapPosters 1_9
+  - first:
+      213: 1577442386887338045
+    second: SpendICardsButton_SwapPosters 1_10
+  - first:
+      213: -2809440649230438245
+    second: SpendICardsButton_SwapPosters 1_11
+  - first:
+      213: -5884773647696732769
+    second: SpendICardsButton_SwapPosters 1_12
+  - first:
+      213: -154223272929089648
+    second: SpendICardsButton_SwapPosters 1_13
+  - first:
+      213: 8855840600687646153
+    second: SpendICardsButton_SwapPosters 1_14
+  - first:
+      213: -8070456997995749777
+    second: SpendICardsButton_SwapPosters 1_15
+  - first:
+      213: 2555417350789474948
+    second: SpendICardsButton_SwapPosters 1_16
+  - first:
+      213: 5502005207265567226
+    second: SpendICardsButton_SwapPosters 1_17
+  - first:
+      213: 5461364779480937272
+    second: SpendICardsButton_SwapPosters 1_18
+  - first:
+      213: 4824457242561735663
+    second: SpendICardsButton_SwapPosters 1_19
+  - first:
+      213: -2117023894187544604
+    second: SpendICardsButton_SwapPosters 1_20
+  - first:
+      213: -8838714145530907720
+    second: SpendICardsButton_SwapPosters 1_21
+  - first:
+      213: 5373646945727722076
+    second: SpendICardsButton_SwapPosters 1_22
+  - first:
+      213: -7264095736209793001
+    second: SpendICardsButton_SwapPosters 1_23
+  - first:
+      213: -6320037636165481318
+    second: SpendICardsButton_SwapPosters 1_24
+  - first:
+      213: -522468598357418431
+    second: SpendICardsButton_SwapPosters 1_25
+  - first:
+      213: -989551974153844607
+    second: SpendICardsButton_SwapPosters 1_26
+  - first:
+      213: 8173464427120980733
+    second: SpendICardsButton_SwapPosters 1_27
+  - first:
+      213: -959334357403657190
+    second: SpendICardsButton_SwapPosters 1_28
+  - first:
+      213: 6561825124986604590
+    second: SpendICardsButton_SwapPosters 1_29
+  - first:
+      213: 8871520078942016686
+    second: SpendICardsButton_SwapPosters 1_30
+  - first:
+      213: 4300417936169291076
+    second: SpendICardsButton_SwapPosters 1_31
+  - first:
+      213: -5143831208612763154
+    second: SpendICardsButton_SwapPosters 1_32
+  - first:
+      213: -5035823835626036953
+    second: SpendICardsButton_SwapPosters 1_33
+  - first:
+      213: -3429937231927206014
+    second: SpendICardsButton_SwapPosters 1_34
+  - first:
+      213: 174249253500750404
+    second: SpendICardsButton_SwapPosters 1_35
+  - first:
+      213: -4481467688770665555
+    second: SpendICardsButton_SwapPosters 1_36
+  - first:
+      213: -238425030081588104
+    second: SpendICardsButton_SwapPosters 1_37
+  - first:
+      213: -5491602938318755502
+    second: SpendICardsButton_SwapPosters 1_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 275
+        width: 711
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf678fc8f98516d30800000000000000
+      internalID: 4422913751342675708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_1
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 245
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c28ebad9a2fb1250800000000000000
+      internalID: 5916589346814591681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 310
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4deb7e015ec4f50800000000000000
+      internalID: 6867115392603444402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 304
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d645ec7eeaf4bb0800000000000000
+      internalID: -4949545154834567904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 153
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a9d038e5258f680800000000000000
+      internalID: -8721130112523855203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 151
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ada09fefbabb0190800000000000000
+      internalID: -7995091379945427547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93aea74deaadac100800000000000000
+      internalID: 129155983757470265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5939458878ed13970800000000000000
+      internalID: 8733005826137297813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690c44b021ff6a820800000000000000
+      internalID: 2929309060614635670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703da580036da1d40800000000000000
+      internalID: 5555988592101872391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3860144e7334e510800000000000000
+      internalID: 1577442386887338045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 147
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90b3155d9cd209d0800000000000000
+      internalID: -2809440649230438245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 147
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd479db85155ea0800000000000000
+      internalID: -5884773647696732769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 137
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097a6f810c61cddf0800000000000000
+      internalID: -154223272929089648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 142
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c518772b1446ea70800000000000000
+      internalID: 8855840600687646153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_15
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 118
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ed5639e1affff80800000000000000
+      internalID: -8070456997995749777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 126
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a2da69a8aa67320800000000000000
+      internalID: 2555417350789474948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1e96bc59c0b5c40800000000000000
+      internalID: 5502005207265567226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_18
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8337ac5d45aaacb40800000000000000
+      internalID: 5461364779480937272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_19
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 142
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febe3f01d4ae3f240800000000000000
+      internalID: 4824457242561735663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 135
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efefe51cf1de92e0800000000000000
+      internalID: -2117023894187544604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 90
+        width: 101
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3f86c6054965580800000000000000
+      internalID: -8838714145530907720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_22
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 103
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52b6742d67039a40800000000000000
+      internalID: 5373646945727722076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_23
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 121
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71029cc2a6fb03b90800000000000000
+      internalID: -7264095736209793001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 111
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc1414147ba48a0800000000000000
+      internalID: -6320037636165481318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_25
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e1c94f391dfb8f0800000000000000
+      internalID: -522468598357418431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 113
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18806cde8b76442f0800000000000000
+      internalID: -989551974153844607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 125
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df276d2779afd6170800000000000000
+      internalID: 8173464427120980733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_28
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 116
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c90261c72cfa2f0800000000000000
+      internalID: -959334357403657190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_29
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 116
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c4f056f29401b50800000000000000
+      internalID: 6561825124986604590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_30
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4951b2288fd1b70800000000000000
+      internalID: 8871520078942016686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_31
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 109
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dc61f04572eab30800000000000000
+      internalID: 4300417936169291076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_32
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 110
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9611ad4c07d98b0800000000000000
+      internalID: -5143831208612763154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_33
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 91
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721a01607e82d1ab0800000000000000
+      internalID: -5035823835626036953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 106
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f9719924a6660d0800000000000000
+      internalID: -3429937231927206014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_35
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 91
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a0a49d5ce0b6200800000000000000
+      internalID: 174249253500750404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 91
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da30f6281e0aec1c0800000000000000
+      internalID: -4481467688770665555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874dc68c2b1f0bcf0800000000000000
+      internalID: -238425030081588104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpendICardsButton_SwapPosters 1_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259e40e2938e9c3b0800000000000000
+      internalID: -5491602938318755502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpendICardsButton_SwapPosters 1_0: 4422913751342675708
+      SpendICardsButton_SwapPosters 1_1: 5916589346814591681
+      SpendICardsButton_SwapPosters 1_10: 1577442386887338045
+      SpendICardsButton_SwapPosters 1_11: -2809440649230438245
+      SpendICardsButton_SwapPosters 1_12: -5884773647696732769
+      SpendICardsButton_SwapPosters 1_13: -154223272929089648
+      SpendICardsButton_SwapPosters 1_14: 8855840600687646153
+      SpendICardsButton_SwapPosters 1_15: -8070456997995749777
+      SpendICardsButton_SwapPosters 1_16: 2555417350789474948
+      SpendICardsButton_SwapPosters 1_17: 5502005207265567226
+      SpendICardsButton_SwapPosters 1_18: 5461364779480937272
+      SpendICardsButton_SwapPosters 1_19: 4824457242561735663
+      SpendICardsButton_SwapPosters 1_2: 6867115392603444402
+      SpendICardsButton_SwapPosters 1_20: -2117023894187544604
+      SpendICardsButton_SwapPosters 1_21: -8838714145530907720
+      SpendICardsButton_SwapPosters 1_22: 5373646945727722076
+      SpendICardsButton_SwapPosters 1_23: -7264095736209793001
+      SpendICardsButton_SwapPosters 1_24: -6320037636165481318
+      SpendICardsButton_SwapPosters 1_25: -522468598357418431
+      SpendICardsButton_SwapPosters 1_26: -989551974153844607
+      SpendICardsButton_SwapPosters 1_27: 8173464427120980733
+      SpendICardsButton_SwapPosters 1_28: -959334357403657190
+      SpendICardsButton_SwapPosters 1_29: 6561825124986604590
+      SpendICardsButton_SwapPosters 1_3: -4949545154834567904
+      SpendICardsButton_SwapPosters 1_30: 8871520078942016686
+      SpendICardsButton_SwapPosters 1_31: 4300417936169291076
+      SpendICardsButton_SwapPosters 1_32: -5143831208612763154
+      SpendICardsButton_SwapPosters 1_33: -5035823835626036953
+      SpendICardsButton_SwapPosters 1_34: -3429937231927206014
+      SpendICardsButton_SwapPosters 1_35: 174249253500750404
+      SpendICardsButton_SwapPosters 1_36: -4481467688770665555
+      SpendICardsButton_SwapPosters 1_37: -238425030081588104
+      SpendICardsButton_SwapPosters 1_38: -5491602938318755502
+      SpendICardsButton_SwapPosters 1_4: -8721130112523855203
+      SpendICardsButton_SwapPosters 1_5: -7995091379945427547
+      SpendICardsButton_SwapPosters 1_6: 129155983757470265
+      SpendICardsButton_SwapPosters 1_7: 8733005826137297813
+      SpendICardsButton_SwapPosters 1_8: 2929309060614635670
+      SpendICardsButton_SwapPosters 1_9: 5555988592101872391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

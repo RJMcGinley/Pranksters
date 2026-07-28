@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cca264e3a7736486eba15acec96397b6
+guid: fe4eb8f62ef4943cf8d937dc679d2c39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -774319107741456135
-    second: SpendInfluenceFor+1HandSizeButton_0
+      213: -5830252414555593886
+    second: EndofRoundPanel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpendInfluenceFor+1HandSizeButton_0
+      name: EndofRoundPanel_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f8e540cfd01145f0800000000000000
-      internalID: -774319107741456135
+      spriteID: 263ec87a158c61fa0800000000000000
+      internalID: -5830252414555593886
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpendInfluenceFor+1HandSizeButton_0: -774319107741456135
+      EndofRoundPanel_0: -5830252414555593886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

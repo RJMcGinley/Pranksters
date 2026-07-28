@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cca264e3a7736486eba15acec96397b6
+guid: 123d4841782bf4dfa8cb4a2749cc4c9b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -774319107741456135
-    second: SpendInfluenceFor+1HandSizeButton_0
+      213: -103478927730309946
+    second: PesterMayorButton 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpendInfluenceFor+1HandSizeButton_0
+      name: PesterMayorButton 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f8e540cfd01145f0800000000000000
-      internalID: -774319107741456135
+      spriteID: 6c485e6a67e509ef0800000000000000
+      internalID: -103478927730309946
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpendInfluenceFor+1HandSizeButton_0: -774319107741456135
+      PesterMayorButton 1_0: -103478927730309946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

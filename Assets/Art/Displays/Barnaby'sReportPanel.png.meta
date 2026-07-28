@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 73541ecf03eb54b12a19d605546bb5c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1401019320507609312
+    second: Barnaby'sReportPanel_0
+  - first:
+      213: 5850237389282449026
+    second: Barnaby'sReportPanel_1
+  - first:
+      213: 8000122238926556625
+    second: Barnaby'sReportPanel_2
+  - first:
+      213: -4254367702257850809
+    second: Barnaby'sReportPanel_3
+  - first:
+      213: -1742378548841239969
+    second: Barnaby'sReportPanel_4
+  - first:
+      213: -7337977071030482282
+    second: Barnaby'sReportPanel_5
+  - first:
+      213: 1168402703948798849
+    second: Barnaby'sReportPanel_6
+  - first:
+      213: 4700441455850718259
+    second: Barnaby'sReportPanel_7
+  - first:
+      213: 1867037416788961737
+    second: Barnaby'sReportPanel_8
+  - first:
+      213: -6335119389043090816
+    second: Barnaby'sReportPanel_9
+  - first:
+      213: -6584421831909109083
+    second: Barnaby'sReportPanel_10
+  - first:
+      213: -5457081331001012780
+    second: Barnaby'sReportPanel_11
+  - first:
+      213: -7818118344348531520
+    second: Barnaby'sReportPanel_12
+  - first:
+      213: 5579332284778227847
+    second: Barnaby'sReportPanel_13
+  - first:
+      213: -1596101926897968590
+    second: Barnaby'sReportPanel_14
+  - first:
+      213: 6983124417024896764
+    second: Barnaby'sReportPanel_15
+  - first:
+      213: -2757397842435066269
+    second: Barnaby'sReportPanel_16
+  - first:
+      213: -6850845135114238962
+    second: Barnaby'sReportPanel_17
+  - first:
+      213: -1504122169449609145
+    second: Barnaby'sReportPanel_18
+  - first:
+      213: -6152913639434870224
+    second: Barnaby'sReportPanel_19
+  - first:
+      213: -6243813688304503698
+    second: Barnaby'sReportPanel_20
+  - first:
+      213: 277245531097311465
+    second: Barnaby'sReportPanel_21
+  - first:
+      213: 1976905689294678991
+    second: Barnaby'sReportPanel_22
+  - first:
+      213: 8514241811931395217
+    second: Barnaby'sReportPanel_23
+  - first:
+      213: -4166275184172803897
+    second: Barnaby'sReportPanel_24
+  - first:
+      213: -4368222311024629317
+    second: Barnaby'sReportPanel_25
+  - first:
+      213: -4225034215627045125
+    second: Barnaby'sReportPanel_26
+  - first:
+      213: -7171750861466411588
+    second: Barnaby'sReportPanel_27
+  - first:
+      213: 5178249080392082093
+    second: Barnaby'sReportPanel_28
+  - first:
+      213: -145830305603134791
+    second: Barnaby'sReportPanel_29
+  - first:
+      213: -6311633648450181829
+    second: Barnaby'sReportPanel_30
+  - first:
+      213: 4204916210203913532
+    second: Barnaby'sReportPanel_31
+  - first:
+      213: -4696718647169181871
+    second: Barnaby'sReportPanel_32
+  - first:
+      213: -1675644232491103275
+    second: Barnaby'sReportPanel_33
+  - first:
+      213: -781116668780107305
+    second: Barnaby'sReportPanel_34
+  - first:
+      213: 1573497577020854917
+    second: Barnaby'sReportPanel_35
+  - first:
+      213: -1569093834017432734
+    second: Barnaby'sReportPanel_36
+  - first:
+      213: 3836805434640704720
+    second: Barnaby'sReportPanel_37
+  - first:
+      213: -5877171871046277296
+    second: Barnaby'sReportPanel_38
+  - first:
+      213: 5653873417103455998
+    second: Barnaby'sReportPanel_39
+  - first:
+      213: -715295787673701515
+    second: Barnaby'sReportPanel_40
+  - first:
+      213: -7299146323951385890
+    second: Barnaby'sReportPanel_41
+  - first:
+      213: 238600704463881603
+    second: Barnaby'sReportPanel_42
+  - first:
+      213: -4145760548668337000
+    second: Barnaby'sReportPanel_43
+  - first:
+      213: 2067765601993024757
+    second: Barnaby'sReportPanel_44
+  - first:
+      213: -4525281983363377403
+    second: Barnaby'sReportPanel_45
+  - first:
+      213: 6391052132666403831
+    second: Barnaby'sReportPanel_46
+  - first:
+      213: -3308022299823995383
+    second: Barnaby'sReportPanel_47
+  - first:
+      213: 6781348238627557672
+    second: Barnaby'sReportPanel_48
+  - first:
+      213: -9126999615245946211
+    second: Barnaby'sReportPanel_49
+  - first:
+      213: 998189853920295549
+    second: Barnaby'sReportPanel_50
+  - first:
+      213: 6556130710464597505
+    second: Barnaby'sReportPanel_51
+  - first:
+      213: -554807972998411468
+    second: Barnaby'sReportPanel_52
+  - first:
+      213: 9091372194330596507
+    second: Barnaby'sReportPanel_53
+  - first:
+      213: 3636773019191415087
+    second: Barnaby'sReportPanel_54
+  - first:
+      213: 3472244291482825479
+    second: Barnaby'sReportPanel_55
+  - first:
+      213: -6734822542123399975
+    second: Barnaby'sReportPanel_56
+  - first:
+      213: -5096440720829680423
+    second: Barnaby'sReportPanel_57
+  - first:
+      213: -461351374209925214
+    second: Barnaby'sReportPanel_58
+  - first:
+      213: -8480978655135415992
+    second: Barnaby'sReportPanel_59
+  - first:
+      213: 7037960843968942731
+    second: Barnaby'sReportPanel_60
+  - first:
+      213: 1802858119298822998
+    second: Barnaby'sReportPanel_61
+  - first:
+      213: 770326200902911949
+    second: Barnaby'sReportPanel_62
+  - first:
+      213: 9076002359102471016
+    second: Barnaby'sReportPanel_63
+  - first:
+      213: 612946929283141583
+    second: Barnaby'sReportPanel_64
+  - first:
+      213: -399503614649088208
+    second: Barnaby'sReportPanel_65
+  - first:
+      213: 5039957158731022963
+    second: Barnaby'sReportPanel_66
+  - first:
+      213: -5715251585365139005
+    second: Barnaby'sReportPanel_67
+  - first:
+      213: 7869862384169841552
+    second: Barnaby'sReportPanel_68
+  - first:
+      213: 2589125566730327304
+    second: Barnaby'sReportPanel_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0b05a26ab617310800000000000000
+      internalID: 1401019320507609312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1481
+        width: 77
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28693efd8e7303150800000000000000
+      internalID: 5850237389282449026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1506
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd8be23ac4260f60800000000000000
+      internalID: 8000122238926556625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1496
+        width: 398
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746a60b8d1375f4c0800000000000000
+      internalID: -4254367702257850809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_4
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1505
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aae0cf0f3d1d7e0800000000000000
+      internalID: -1742378548841239969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_5
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1504
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a444f6bb44a2a90800000000000000
+      internalID: -7337977071030482282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_6
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1503
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b597b9110073010800000000000000
+      internalID: 1168402703948798849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_7
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1505
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334808f99925b3140800000000000000
+      internalID: 4700441455850718259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_8
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1507
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a11a73ac09e910800000000000000
+      internalID: 1867037416788961737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_9
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1506
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a95660b722518a0800000000000000
+      internalID: -6335119389043090816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_10
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1506
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a21bb9ca3f6f94a0800000000000000
+      internalID: -6584421831909109083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_11
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1507
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddc44b317d8444b0800000000000000
+      internalID: -5457081331001012780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_12
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1504
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c40429b9c6708390800000000000000
+      internalID: -7818118344348531520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_13
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1502
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78823160725cd6d40800000000000000
+      internalID: 5579332284778227847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_14
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1507
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a1ee501c189d9e0800000000000000
+      internalID: -1596101926897968590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_15
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1507
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe202bb8aa09e060800000000000000
+      internalID: 6983124417024896764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_16
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1506
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366ba398541cbb9d0800000000000000
+      internalID: -2757397842435066269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_17
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1504
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e048d4e95a8ece0a0800000000000000
+      internalID: -6850845135114238962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_18
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1507
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7488a272bd8402be0800000000000000
+      internalID: -1504122169449609145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_19
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1503
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03224dbf4a57c9aa0800000000000000
+      internalID: -6152913639434870224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_20
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 1504
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6473e818848959a0800000000000000
+      internalID: -6243813688304503698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_21
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1504
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8ae947759f8d300800000000000000
+      internalID: 277245531097311465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_22
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 1506
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbabd410416f6b10800000000000000
+      internalID: 1976905689294678991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_23
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 1504
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194f2fb41d9a82670800000000000000
+      internalID: 8514241811931395217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_24
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 1493
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8dada3bca6e26c0800000000000000
+      internalID: -4166275184172803897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_25
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 1485
+        width: 753
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9e073b3f4f063c0800000000000000
+      internalID: -4368222311024629317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_26
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 1507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6cdad14c9ad55c0800000000000000
+      internalID: -4225034215627045125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_27
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 1504
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd51bcc692d87c90800000000000000
+      internalID: -7171750861466411588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_28
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1484
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da263436a16dcd740800000000000000
+      internalID: 5178249080392082093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_29
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bad9051c18e9fdf0800000000000000
+      internalID: -145830305603134791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_30
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1447
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3569bf13a29868a0800000000000000
+      internalID: -6311633648450181829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_31
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1394
+        width: 616
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d6c7bb30dda5a30800000000000000
+      internalID: 4204916210203913532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_32
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 1406
+        width: 430
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15717815647e1deb0800000000000000
+      internalID: -4696718647169181871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_33
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 1448
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db8f60d27aeeb8e0800000000000000
+      internalID: -1675644232491103275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_34
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 1438
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9a93d378ae825f0800000000000000
+      internalID: -781116668780107305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_35
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 1454
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5821445a5bf26d510800000000000000
+      internalID: 1573497577020854917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_36
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1451
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b922ca875793ae0800000000000000
+      internalID: -1569093834017432734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_37
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1454
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d42c0ce6321f3530800000000000000
+      internalID: 3836805434640704720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_38
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 1440
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0576e566257107ea0800000000000000
+      internalID: -5877171871046277296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_39
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 1441
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6b977dae7967e40800000000000000
+      internalID: 5653873417103455998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_40
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 1447
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573306a5542c216f0800000000000000
+      internalID: -715295787673701515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_41
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1443
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed28745471934ba90800000000000000
+      internalID: -7299146323951385890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_42
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1444
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3854ab8931eaf4300800000000000000
+      internalID: 238600704463881603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_43
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1443
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8949bc40fbc4776c0800000000000000
+      internalID: -4145760548668337000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_44
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1443
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e0990cdd22bc10800000000000000
+      internalID: 2067765601993024757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_45
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1446
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50796291308f231c0800000000000000
+      internalID: -4525281983363377403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_46
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1443
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb659cad0491b850800000000000000
+      internalID: 6391052132666403831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_47
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1445
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9068be5be3b8712d0800000000000000
+      internalID: -3308022299823995383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_48
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1447
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821dd9d3b403c1e50800000000000000
+      internalID: 6781348238627557672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_49
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1444
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d927324f432665180800000000000000
+      internalID: -9126999615245946211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_50
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1443
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a715d22684add00800000000000000
+      internalID: 998189853920295549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_51
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e8542352e0cfa50800000000000000
+      internalID: 6556130710464597505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_52
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1442
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b00ea861dec48f0800000000000000
+      internalID: -554807972998411468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_53
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1436
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9450f3b7da0b2e70800000000000000
+      internalID: 9091372194330596507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_54
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 1442
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2111a1eac9687230800000000000000
+      internalID: 3636773019191415087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_55
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1438
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703363f49c3ef2030800000000000000
+      internalID: 3472244291482825479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_56
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1435
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4017f949a1982a0800000000000000
+      internalID: -6734822542123399975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_57
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 1446
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47c10aa2ec549b0800000000000000
+      internalID: -5096440720829680423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_58
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1438
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af34979e53f899f0800000000000000
+      internalID: -461351374209925214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_59
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1436
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841cbf8e8d28d4a80800000000000000
+      internalID: -8480978655135415992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_60
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 1440
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8290ef491cdba160800000000000000
+      internalID: 7037960843968942731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_61
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 1433
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6533c3558e9050910800000000000000
+      internalID: 1802858119298822998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_62
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 1445
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc78efd299fb0ba00800000000000000
+      internalID: 770326200902911949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_63
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1437
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bf8e21f0074fd70800000000000000
+      internalID: 9076002359102471016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_64
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1445
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf86121cff918800800000000000000
+      internalID: 612946929283141583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_65
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 1445
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0374b52449da47af0800000000000000
+      internalID: -399503614649088208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_66
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 1444
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3728951455681f540800000000000000
+      internalID: 5039957158731022963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_67
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 1437
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1a25cb6f85fa0b0800000000000000
+      internalID: -5715251585365139005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_68
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 1439
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093f6af542e573d60800000000000000
+      internalID: 7869862384169841552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barnaby'sReportPanel_69
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 1439
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805d7d33cfb6ee320800000000000000
+      internalID: 2589125566730327304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barnaby'sReportPanel_0: 1401019320507609312
+      Barnaby'sReportPanel_1: 5850237389282449026
+      Barnaby'sReportPanel_10: -6584421831909109083
+      Barnaby'sReportPanel_11: -5457081331001012780
+      Barnaby'sReportPanel_12: -7818118344348531520
+      Barnaby'sReportPanel_13: 5579332284778227847
+      Barnaby'sReportPanel_14: -1596101926897968590
+      Barnaby'sReportPanel_15: 6983124417024896764
+      Barnaby'sReportPanel_16: -2757397842435066269
+      Barnaby'sReportPanel_17: -6850845135114238962
+      Barnaby'sReportPanel_18: -1504122169449609145
+      Barnaby'sReportPanel_19: -6152913639434870224
+      Barnaby'sReportPanel_2: 8000122238926556625
+      Barnaby'sReportPanel_20: -6243813688304503698
+      Barnaby'sReportPanel_21: 277245531097311465
+      Barnaby'sReportPanel_22: 1976905689294678991
+      Barnaby'sReportPanel_23: 8514241811931395217
+      Barnaby'sReportPanel_24: -4166275184172803897
+      Barnaby'sReportPanel_25: -4368222311024629317
+      Barnaby'sReportPanel_26: -4225034215627045125
+      Barnaby'sReportPanel_27: -7171750861466411588
+      Barnaby'sReportPanel_28: 5178249080392082093
+      Barnaby'sReportPanel_29: -145830305603134791
+      Barnaby'sReportPanel_3: -4254367702257850809
+      Barnaby'sReportPanel_30: -6311633648450181829
+      Barnaby'sReportPanel_31: 4204916210203913532
+      Barnaby'sReportPanel_32: -4696718647169181871
+      Barnaby'sReportPanel_33: -1675644232491103275
+      Barnaby'sReportPanel_34: -781116668780107305
+      Barnaby'sReportPanel_35: 1573497577020854917
+      Barnaby'sReportPanel_36: -1569093834017432734
+      Barnaby'sReportPanel_37: 3836805434640704720
+      Barnaby'sReportPanel_38: -5877171871046277296
+      Barnaby'sReportPanel_39: 5653873417103455998
+      Barnaby'sReportPanel_4: -1742378548841239969
+      Barnaby'sReportPanel_40: -715295787673701515
+      Barnaby'sReportPanel_41: -7299146323951385890
+      Barnaby'sReportPanel_42: 238600704463881603
+      Barnaby'sReportPanel_43: -4145760548668337000
+      Barnaby'sReportPanel_44: 2067765601993024757
+      Barnaby'sReportPanel_45: -4525281983363377403
+      Barnaby'sReportPanel_46: 6391052132666403831
+      Barnaby'sReportPanel_47: -3308022299823995383
+      Barnaby'sReportPanel_48: 6781348238627557672
+      Barnaby'sReportPanel_49: -9126999615245946211
+      Barnaby'sReportPanel_5: -7337977071030482282
+      Barnaby'sReportPanel_50: 998189853920295549
+      Barnaby'sReportPanel_51: 6556130710464597505
+      Barnaby'sReportPanel_52: -554807972998411468
+      Barnaby'sReportPanel_53: 9091372194330596507
+      Barnaby'sReportPanel_54: 3636773019191415087
+      Barnaby'sReportPanel_55: 3472244291482825479
+      Barnaby'sReportPanel_56: -6734822542123399975
+      Barnaby'sReportPanel_57: -5096440720829680423
+      Barnaby'sReportPanel_58: -461351374209925214
+      Barnaby'sReportPanel_59: -8480978655135415992
+      Barnaby'sReportPanel_6: 1168402703948798849
+      Barnaby'sReportPanel_60: 7037960843968942731
+      Barnaby'sReportPanel_61: 1802858119298822998
+      Barnaby'sReportPanel_62: 770326200902911949
+      Barnaby'sReportPanel_63: 9076002359102471016
+      Barnaby'sReportPanel_64: 612946929283141583
+      Barnaby'sReportPanel_65: -399503614649088208
+      Barnaby'sReportPanel_66: 5039957158731022963
+      Barnaby'sReportPanel_67: -5715251585365139005
+      Barnaby'sReportPanel_68: 7869862384169841552
+      Barnaby'sReportPanel_69: 2589125566730327304
+      Barnaby'sReportPanel_7: 4700441455850718259
+      Barnaby'sReportPanel_8: 1867037416788961737
+      Barnaby'sReportPanel_9: -6335119389043090816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

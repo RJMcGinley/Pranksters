@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cca264e3a7736486eba15acec96397b6
+guid: 2996b376233444473a7a2d3049edad5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -774319107741456135
-    second: SpendInfluenceFor+1HandSizeButton_0
+      213: 5881775689469487764
+    second: Players Hideout_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpendInfluenceFor+1HandSizeButton_0
+      name: Players Hideout_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 1125
+        height: 825
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f8e540cfd01145f0800000000000000
-      internalID: -774319107741456135
+      spriteID: 49a6b5b93d340a150800000000000000
+      internalID: 5881775689469487764
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpendInfluenceFor+1HandSizeButton_0: -774319107741456135
+      Players Hideout_0: 5881775689469487764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -26,8 +26,8 @@ public class PlayerProgressSave
     public List<AvailableServiceUseCountEntry> availableServiceUseCountsByType = new List<AvailableServiceUseCountEntry>();
     public List<PranksterUnlockEntry> pranksterUnlocks = new List<PranksterUnlockEntry>();
 
-    public float musicVolume = 1f;
-    public float sfxVolume = 1f;
+    public float musicVolume = .4f;
+    public float sfxVolume = .7f;
     public bool fartSoundsEnabled = true;
     public bool tutorialTipsEnabled = true;
 }

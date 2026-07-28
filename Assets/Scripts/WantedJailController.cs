@@ -55,9 +55,9 @@ public class WantedJailController : MonoBehaviour
         {
             if (image != null)
             {
-                image.gameObject.SetActive(true);
                 image.sprite = emptyJailCellSprite;
-                image.enabled = true;
+                image.enabled = false;
+                image.gameObject.SetActive(false);
             }
         }
     }
@@ -138,15 +138,13 @@ public class WantedJailController : MonoBehaviour
 
             if (i < jailedRecruitTypes.Count)
             {
-                image.gameObject.SetActive(true);
                 image.sprite = GetJailSpriteForType(jailedRecruitTypes[i]);
                 image.enabled = true;
+                image.gameObject.SetActive(true);
             }
             else
             {
-                image.gameObject.SetActive(true);
-                image.sprite = emptyJailCellSprite;
-                image.enabled = true;
+                image.gameObject.SetActive(false);
             }
         }
     }
