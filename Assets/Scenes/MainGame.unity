@@ -52688,10 +52688,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "                                                                            
     \n\nCause enough mischief      to drive the corrupt \nMayor out of Bumblebrook.\n\nComplete
-    Pranks to earn Mischief Points. Reach \nthe Mayor's Breaking Point to win. \n\nYou
-    Lose If:\n\n*There is no valid place to post the recruits from\n a completed
-    Prank on the Wanted Board.\n\n*The Wanted Board becomes completely full.\n\n*The
-    Jail reaches its maximum capacity (3)."
+    Pranks to earn Mischief Points. Your \npoints combine with Barnaby\u2019s. Reach
+    the Mayor's \nBreaking Point to win. \n\nYou Lose If:\n\n*There is no valid place
+    to post the recruits from\n a completed Prank on the Wanted Board.\n\n*The Wanted
+    Board becomes completely full.\n\n*The Jail reaches its maximum capacity (3)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77b51659a3bab44a6bfa414190b5ae7b, type: 2}
   m_sharedMaterial: {fileID: 4473843734359484033, guid: 77b51659a3bab44a6bfa414190b5ae7b, type: 2}
@@ -75822,7 +75822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &724770592
 RectTransform:
   m_ObjectHideFlags: 0
